@@ -63,6 +63,7 @@
   </div>
 
   <div class="grid cards" id="cards"></div>
+  <div id="counts" class="sub" style="margin:2px 0 14px"></div>
 
   <div class="strip" id="safety" style="background:var(--surface2);color:var(--muted)">checking protection…</div>
 
@@ -132,14 +133,22 @@ function render(w,dl,an,cfg,prices){
     const kbg=daysLeft<=7?"var(--red-bg)":daysLeft<=21?"var(--amber-bg)":"var(--green-bg)";
     kb.style.background=kbg;kb.style.color=kc;kb.innerHTML='<i></i>key: '+daysLeft+'d left';}
 
-  // cards
-  const depCol=deployed>=85?"var(--red)":deployed>=70?"var(--amber)":"var(--text)";
+  // P&L-first cards
+  const realized=(an.all_time&&an.all_time.total_pnl_usd)||(dl.stats&&dl.stats.realized_pnl_usd)||0;
+  const unreal=(w.unrealized_pnl!=null?w.unrealized_pnl:((dl.mexc_account&&dl.mexc_account.unrealized_pnl)||0));
+  const totalPnl=realized+unreal;
+  const openN=positions.length||active.filter(t=>t.status==="OPEN"||t.live_executed).length;
+  const closedN=(dl.stats&&dl.stats.closed_count)||(an.all_time&&an.all_time.total_trades)||0;
+  const winRate=(an.all_time&&an.all_time.win_rate)||(dl.stats&&dl.stats.win_rate_pct)||0;
+  const pcol=v=>v>0?"var(--green)":v<0?"var(--red)":"var(--text)";
+  const retPct=eq>0?totalPnl/(eq-totalPnl)*100:0;
   document.getElementById("cards").innerHTML=[
-    ['Equity',money(eq)],
-    ['Available buffer','<span style="color:'+(avail<eq*.12?"var(--amber)":"var(--text)")+'">'+money(avail)+'</span>'],
-    ['Deployed','<span style="color:'+depCol+'">'+deployed+'%</span>'],
-    ['Positions',positions.length+' <span class="sub">open · '+resting.length+' resting</span>']
-  ].map(c=>'<div class="card"><div class="lbl">'+c[0]+'</div><div class="val mono">'+c[1]+'</div></div>').join('');
+    ['Total P&L','<span style="color:'+pcol(totalPnl)+'">'+money(totalPnl)+'</span>',(totalPnl>=0?"+":"")+retPct.toFixed(2)+'% · realized + unrealized'],
+    ['Realized','<span style="color:'+pcol(realized)+'">'+money(realized)+'</span>',closedN+' closed · '+Math.round(winRate)+'% win'],
+    ['Unrealized','<span style="color:'+pcol(unreal)+'">'+money(unreal)+'</span>',openN+' open position'+(openN===1?"":"s")],
+    ['Equity',money(eq),money(avail)+' free']
+  ].map(c=>'<div class="card"><div class="lbl">'+c[0]+'</div><div class="val mono">'+c[1]+'</div><div class="sub" style="margin-top:2px">'+(c[2]||"")+'</div></div>').join('');
+  document.getElementById("counts").innerHTML='<strong style="color:var(--text)">'+openN+'</strong> open · <strong style="color:var(--text)">'+resting.length+'</strong> pending · <strong style="color:var(--text)">'+closedN+'</strong> closed';
 
   // safety
   const naked=(mh.naked||[]).length,needs=(mh.needs_move||[]).length,s=document.getElementById("safety");
