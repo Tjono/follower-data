@@ -1,0 +1,6 @@
+{
+  "mexc_key_created": "2026-06-28",
+  "mexc_key_expires": "2026-09-26",
+  "mexc_key_ip_locked": false,
+  "note": "MEXC futures key, no IP whitelist => 90-day validity. Renew in MEXC > API Management > Renew (extends 90d). Update mexc_key_expires here after renewing."
+}
