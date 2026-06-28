@@ -1,0 +1,144 @@
+{
+  "generated_at_utc": "2026-06-28T14:06:17+00:00",
+  "all_time": {
+    "total_trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": 0.0,
+    "total_pnl_usd": 0,
+    "avg_pnl_usd": 0.0,
+    "best_usd": 0.0,
+    "worst_usd": 0.0,
+    "avg_win_usd": 0.0,
+    "avg_loss_usd": 0.0,
+    "expectancy_usd": 0.0,
+    "profit_factor": null,
+    "longest_win_streak": 0,
+    "longest_loss_streak": 0,
+    "current_streak_type": null,
+    "current_streak_count": 0,
+    "avg_hold_hours": null,
+    "median_hold_hours": null
+  },
+  "by_system": {
+    "John": {
+      "n": 0,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": 0.0,
+      "avg": 0.0,
+      "inception": null,
+      "days_active": null,
+      "pnl_per_day": null,
+      "status": "active",
+      "open": 0,
+      "pending": 0
+    },
+    "Braam": {
+      "n": 0,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": 0.0,
+      "avg": 0.0,
+      "inception": "2026-06-23",
+      "days_active": 5,
+      "pnl_per_day": 0.0,
+      "status": "active",
+      "open": 0,
+      "pending": 1
+    },
+    "Mong": {
+      "n": 0,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": 0.0,
+      "avg": 0.0,
+      "inception": null,
+      "days_active": null,
+      "pnl_per_day": null,
+      "status": "active",
+      "open": 0,
+      "pending": 0
+    }
+  },
+  "decommissioned_systems": {
+    "William": {
+      "n": 0,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": 0.0,
+      "avg": 0.0,
+      "status": "decommissioned"
+    }
+  },
+  "system_summary": [
+    {
+      "name": "John",
+      "inception": null,
+      "days_active": null,
+      "closed": 0,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": 0.0,
+      "pnl_per_day": null,
+      "open": 0,
+      "pending": 0
+    },
+    {
+      "name": "Braam",
+      "inception": "2026-06-23",
+      "days_active": 5,
+      "closed": 0,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": 0.0,
+      "pnl_per_day": 0.0,
+      "open": 0,
+      "pending": 1
+    },
+    {
+      "name": "Mong",
+      "inception": null,
+      "days_active": null,
+      "closed": 0,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": 0.0,
+      "pnl_per_day": null,
+      "open": 0,
+      "pending": 0
+    }
+  ],
+  "monthly": [],
+  "equity_curve": [],
+  "benchmark": {
+    "inception_iso": null,
+    "base_usd": 1660.0,
+    "ours": [],
+    "spx": [],
+    "ours_pct": 0.0,
+    "spx_pct": null
+  },
+  "by_direction": {},
+  "by_conviction": {},
+  "by_entry_type": {},
+  "by_confluence_score": {},
+  "by_session": {},
+  "by_audit_verdict": {},
+  "by_dow": {},
+  "by_hour": {},
+  "best_coins": [],
+  "worst_coins": [],
+  "best_trade": null,
+  "worst_trade": null,
+  "recent_closes": [],
+  "live_positions": {
+    "open_count": 0,
+    "open_long": 0,
+    "open_short": 0,
+    "pending_count": 1,
+    "capital_open_usd": 0,
+    "capital_pending_usd": 100
+  },
+  "macro": {}
+}
