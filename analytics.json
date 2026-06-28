@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T14:06:17+00:00",
+  "generated_at_utc": "2026-06-28T14:40:20+00:00",
   "all_time": {
     "total_trades": 0,
     "wins": 0,
@@ -27,12 +27,12 @@
       "wr": 0.0,
       "pnl": 0.0,
       "avg": 0.0,
-      "inception": null,
-      "days_active": null,
+      "inception": "2026-06-28",
+      "days_active": 0,
       "pnl_per_day": null,
       "status": "active",
       "open": 0,
-      "pending": 0
+      "pending": 1
     },
     "Braam": {
       "n": 0,
@@ -44,8 +44,8 @@
       "days_active": 5,
       "pnl_per_day": 0.0,
       "status": "active",
-      "open": 0,
-      "pending": 1
+      "open": 1,
+      "pending": 15
     },
     "Mong": {
       "n": 0,
@@ -74,15 +74,15 @@
   "system_summary": [
     {
       "name": "John",
-      "inception": null,
-      "days_active": null,
+      "inception": "2026-06-28",
+      "days_active": 0,
       "closed": 0,
       "wins": 0,
       "wr": 0.0,
       "pnl": 0.0,
       "pnl_per_day": null,
       "open": 0,
-      "pending": 0
+      "pending": 1
     },
     {
       "name": "Braam",
@@ -93,8 +93,8 @@
       "wr": 0.0,
       "pnl": 0.0,
       "pnl_per_day": 0.0,
-      "open": 0,
-      "pending": 1
+      "open": 1,
+      "pending": 15
     },
     {
       "name": "Mong",
@@ -133,12 +133,12 @@
   "worst_trade": null,
   "recent_closes": [],
   "live_positions": {
-    "open_count": 0,
+    "open_count": 1,
     "open_long": 0,
-    "open_short": 0,
-    "pending_count": 1,
-    "capital_open_usd": 0,
-    "capital_pending_usd": 100
+    "open_short": 1,
+    "pending_count": 16,
+    "capital_open_usd": 100,
+    "capital_pending_usd": 1600
   },
   "macro": {}
 }
