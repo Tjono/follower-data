@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-06-29T17:25:53+00:00",
+  "generated_at_utc": "2026-06-29T17:48:37+00:00",
   "all_time": {
-    "total_trades": 0,
+    "total_trades": 1,
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "win_rate": 0.0,
-    "total_pnl_usd": 0,
+    "total_pnl_usd": 0.0,
     "avg_pnl_usd": 0.0,
     "best_usd": 0.0,
     "worst_usd": 0.0,
@@ -14,9 +14,9 @@
     "expectancy_usd": 0.0,
     "profit_factor": null,
     "longest_win_streak": 0,
-    "longest_loss_streak": 0,
-    "current_streak_type": null,
-    "current_streak_count": 0,
+    "longest_loss_streak": 1,
+    "current_streak_type": "loss",
+    "current_streak_count": 1,
     "avg_hold_hours": null,
     "median_hold_hours": null
   },
@@ -35,7 +35,7 @@
       "pending": 1
     },
     "Braam": {
-      "n": 0,
+      "n": 1,
       "wins": 0,
       "wr": 0.0,
       "pnl": 0.0,
@@ -45,7 +45,7 @@
       "pnl_per_day": 0.0,
       "status": "active",
       "open": 4,
-      "pending": 12
+      "pending": 11
     },
     "Mong": {
       "n": 0,
@@ -88,13 +88,13 @@
       "name": "Braam",
       "inception": "2026-06-23",
       "days_active": 6,
-      "closed": 0,
+      "closed": 1,
       "wins": 0,
       "wr": 0.0,
       "pnl": 0.0,
       "pnl_per_day": 0.0,
       "open": 4,
-      "pending": 12
+      "pending": 11
     },
     {
       "name": "Mong",
@@ -110,7 +110,14 @@
     }
   ],
   "monthly": [],
-  "equity_curve": [],
+  "equity_curve": [
+    {
+      "iso": null,
+      "pnl": 0.0,
+      "cumulative": 0.0,
+      "won": false
+    }
+  ],
   "benchmark": {
     "inception_iso": null,
     "base_usd": 1660.0,
@@ -119,8 +126,24 @@
     "ours_pct": 0.0,
     "spx_pct": null
   },
-  "by_direction": {},
-  "by_conviction": {},
+  "by_direction": {
+    "Short": {
+      "n": 1,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": 0.0,
+      "avg": 0.0
+    }
+  },
+  "by_conviction": {
+    "MEDIUM": {
+      "n": 1,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": 0.0,
+      "avg": 0.0
+    }
+  },
   "by_entry_type": {},
   "by_confluence_score": {},
   "by_session": {},
@@ -129,16 +152,47 @@
   "by_hour": {},
   "best_coins": [],
   "worst_coins": [],
-  "best_trade": null,
-  "worst_trade": null,
-  "recent_closes": [],
+  "best_trade": {
+    "trade_id": "SOLUSDT_20260623_CB_001",
+    "coin": "SOL",
+    "direction": "Short",
+    "system": "Braam",
+    "pnl_usd": 0.0,
+    "pnl_pct": null,
+    "date_closed": null,
+    "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+    "conviction": "MEDIUM"
+  },
+  "worst_trade": {
+    "trade_id": "SOLUSDT_20260623_CB_001",
+    "coin": "SOL",
+    "direction": "Short",
+    "system": "Braam",
+    "pnl_usd": 0.0,
+    "pnl_pct": null,
+    "date_closed": null,
+    "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+    "conviction": "MEDIUM"
+  },
+  "recent_closes": [
+    {
+      "trade_id": "SOLUSDT_20260623_CB_001",
+      "coin": "SOL",
+      "direction": "Short",
+      "system": "Braam",
+      "pnl_usd": 0.0,
+      "won": false,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "iso": null
+    }
+  ],
   "live_positions": {
     "open_count": 4,
     "open_long": 0,
     "open_short": 4,
-    "pending_count": 13,
+    "pending_count": 12,
     "capital_open_usd": 400,
-    "capital_pending_usd": 1300
+    "capital_pending_usd": 1200
   },
   "macro": {}
 }
