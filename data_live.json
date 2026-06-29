@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-06-29T03:57:02Z",
+  "last_updated_iso": "2026-06-29T05:48:14Z",
   "mexc_account": {
-    "unrealized_pnl": -0.014,
-    "equity": 401.5669,
-    "available": 179.0992,
+    "unrealized_pnl": 0.7155,
+    "equity": 402.4393,
+    "available": 179.2421,
     "position_margin": 25.8413
   },
   "order_levels": {
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "1.3h ago",
+      "value": "1.7h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$401.57",
+      "value": "$402.44",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open, 1 pre-TP1 runners)",
+      "value": "all protected (2 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -95,10 +95,10 @@
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-06-29",
+      "time_activated_utc": "03:02",
       "date_opened": "2026-06-23",
       "time_opened_utc": "02:08",
       "conviction": "MEDIUM",
@@ -106,11 +106,11 @@
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 72.59,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": 0.001,
+      "live_fees_usd": 0.0217,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -641,6 +641,18 @@
       "iso": "2026-06-28T14:28:00Z",
       "_iso_ms": 1782656880000,
       "rehearsal": false
+    },
+    {
+      "trade_id": "SOLUSDT_20260623_CB_001",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 72.59072924,
+      "live_entry_fill": 72.59,
+      "tp1_hit": false,
+      "iso": "2026-06-29T03:02:00Z",
+      "_iso_ms": 1782702120000,
+      "rehearsal": false
     }
   ],
   "recent_closes": [],
@@ -649,10 +661,10 @@
   "stats": {
     "realized_pnl_usd": 0,
     "realized_pnl_pct": 0.0,
-    "peak_capital_usd": 13.5,
-    "peak_concurrent": 1,
-    "peak_date": "2026-06-28",
-    "deployed_trades": 1,
+    "peak_capital_usd": 27.0,
+    "peak_concurrent": 2,
+    "peak_date": "2026-06-29",
+    "deployed_trades": 2,
     "return_on_peak_pct": 0.0,
     "win_rate_pct": 0.0,
     "closed_count": 0,
