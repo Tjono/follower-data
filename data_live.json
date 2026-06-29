@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-06-29T17:10:08Z",
+  "last_updated_iso": "2026-06-29T17:25:41Z",
   "mexc_account": {
-    "unrealized_pnl": 0.4085,
-    "equity": 401.0101,
-    "available": 190.2568,
-    "position_margin": 13.7044
+    "unrealized_pnl": 0.8301,
+    "equity": 401.388,
+    "available": 190.2714,
+    "position_margin": 38.0478
   },
   "order_levels": {
     "checked": 16,
@@ -55,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$401.01",
+      "value": "$401.39",
       "status": "ok",
       "action": null
     },
@@ -71,7 +71,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (15 resting = journal)",
+      "value": "in sync (13 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -79,7 +79,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (1 open, 1 pre-TP1 runners)",
+      "value": "all protected (3 open, 3 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -417,10 +417,10 @@
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-06-29",
+      "time_activated_utc": "17:18",
       "date_opened": "2026-06-26",
       "time_opened_utc": "04:04",
       "conviction": "MEDIUM",
@@ -428,11 +428,11 @@
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 1631.51,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0003,
+      "live_fees_usd": 0.0195,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -545,10 +545,10 @@
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-06-29",
+      "time_activated_utc": "17:16",
       "date_opened": "2026-06-26",
       "time_opened_utc": "18:03",
       "conviction": "MEDIUM",
@@ -556,11 +556,11 @@
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 1.913,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0234,
+      "live_fees_usd": 0.0241,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -655,6 +655,30 @@
       "iso": "2026-06-29T03:02:00Z",
       "_iso_ms": 1782702120000,
       "rehearsal": false
+    },
+    {
+      "trade_id": "NEARUSDT_20260626_CB_001",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 1.91255325,
+      "live_entry_fill": 1.913,
+      "tp1_hit": false,
+      "iso": "2026-06-29T17:16:00Z",
+      "_iso_ms": 1782753360000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ETHUSDT_20260626_CB_001",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 1631.50543465,
+      "live_entry_fill": 1631.51,
+      "tp1_hit": false,
+      "iso": "2026-06-29T17:18:00Z",
+      "_iso_ms": 1782753480000,
+      "rehearsal": false
     }
   ],
   "recent_closes": [],
@@ -663,10 +687,10 @@
   "stats": {
     "realized_pnl_usd": 0,
     "realized_pnl_pct": 0.0,
-    "peak_capital_usd": 27.0,
-    "peak_concurrent": 2,
+    "peak_capital_usd": 54.0,
+    "peak_concurrent": 4,
     "peak_date": "2026-06-29",
-    "deployed_trades": 2,
+    "deployed_trades": 4,
     "return_on_peak_pct": 0.0,
     "win_rate_pct": 0.0,
     "closed_count": 0,
@@ -677,7 +701,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-06-29T17:09Z",
+    "feed_generated_utc": "2026-06-29T17:24Z",
     "checked": 17,
     "in_parity": 16,
     "drifting": [

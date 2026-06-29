@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-29T17:10:18+00:00",
+  "generated_at_utc": "2026-06-29T17:25:53+00:00",
   "all_time": {
     "total_trades": 0,
     "wins": 0,
@@ -44,8 +44,8 @@
       "days_active": 6,
       "pnl_per_day": 0.0,
       "status": "active",
-      "open": 2,
-      "pending": 14
+      "open": 4,
+      "pending": 12
     },
     "Mong": {
       "n": 0,
@@ -93,8 +93,8 @@
       "wr": 0.0,
       "pnl": 0.0,
       "pnl_per_day": 0.0,
-      "open": 2,
-      "pending": 14
+      "open": 4,
+      "pending": 12
     },
     {
       "name": "Mong",
@@ -133,12 +133,12 @@
   "worst_trade": null,
   "recent_closes": [],
   "live_positions": {
-    "open_count": 2,
+    "open_count": 4,
     "open_long": 0,
-    "open_short": 2,
-    "pending_count": 15,
-    "capital_open_usd": 200,
-    "capital_pending_usd": 1500
+    "open_short": 4,
+    "pending_count": 13,
+    "capital_open_usd": 400,
+    "capital_pending_usd": 1300
   },
   "macro": {}
 }
