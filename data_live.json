@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-06-30T12:27:29Z",
+  "last_updated_iso": "2026-06-30T12:31:46Z",
   "mexc_account": {
-    "unrealized_pnl": 5.687,
-    "equity": 407.4764,
+    "unrealized_pnl": 5.6506,
+    "equity": 407.44,
     "available": 222.841,
     "position_margin": 45.8189
   },
@@ -55,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$407.48",
+      "value": "$407.44",
       "status": "ok",
       "action": null
     },
@@ -747,9 +747,20 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-06-30T12:06Z",
+    "feed_generated_utc": "2026-06-30T12:30Z",
     "checked": 15,
-    "in_parity": 15,
-    "drifting": []
+    "in_parity": 14,
+    "drifting": [
+      {
+        "trade_id": "BNBUSDT_20260628_CB_001",
+        "coin": "BNBUSDT",
+        "diffs": {
+          "tp1_hit": {
+            "follower": false,
+            "master": true
+          }
+        }
+      }
+    ]
   }
 }
