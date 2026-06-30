@@ -1,19 +1,18 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-06-30T12:50:22Z",
+  "last_updated_iso": "2026-06-30T13:14:42Z",
   "mexc_account": {
-    "unrealized_pnl": 5.2756,
-    "equity": 408.1606,
+    "unrealized_pnl": 5.3665,
+    "equity": 408.2515,
     "available": 230.3334,
     "position_margin": 39.4221
   },
   "order_levels": {
     "checked": 14,
-    "in_sync": 12,
+    "in_sync": 13,
     "drifted": [
-      "NEAR",
-      "BNB"
+      "NEAR"
     ],
     "reconciling": [
       "ETH"
@@ -27,15 +26,6 @@
           "sl"
         ],
         "synced_at": null
-      },
-      {
-        "coin": "BNB",
-        "trade_id": "BNBUSDT_20260628_CB_001",
-        "status": "OPEN",
-        "fields": [
-          "sl"
-        ],
-        "synced_at": "2026-06-29T18:16:07.566883+00:00"
       }
     ]
   },
@@ -77,7 +67,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$408.16",
+      "value": "$408.25",
       "status": "ok",
       "action": null
     },
@@ -101,7 +91,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "SL not trailed: NEARUSDT, BNBUSDT",
+      "value": "no TP leg: NEARUSDT",
       "status": "warn",
       "action": "Runner leg(s) need attention \u2014 verify on MEXC / check the mover cron."
     }
