@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-06-30T02:19:47Z",
+  "last_updated_iso": "2026-06-30T02:42:26Z",
   "mexc_account": {
-    "unrealized_pnl": 2.9499,
-    "equity": 404.2978,
+    "unrealized_pnl": 2.6141,
+    "equity": 403.962,
     "available": 202.0339,
     "position_margin": 53.1291
   },
@@ -55,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$404.30",
+      "value": "$403.96",
       "status": "ok",
       "action": null
     },
@@ -401,18 +401,18 @@
       "date_opened": "2026-06-26",
       "time_opened_utc": "04:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.07,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 1631.51,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0003,
       "live_fees_usd": 0.0195,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 0.53,
       "rehearsal": false
     },
     {
@@ -659,7 +659,7 @@
       "trading_system": "Braam",
       "entry_price": 1631.50543465,
       "live_entry_fill": 1631.51,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-06-29T17:18:00Z",
       "_iso_ms": 1782753480000,
       "rehearsal": false
@@ -712,7 +712,14 @@
     }
   ],
   "recent_cancels": [],
-  "tp1_hits_open": [],
+  "tp1_hits_open": [
+    {
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 1631.50543465
+    }
+  ],
   "stats": {
     "realized_pnl_usd": -1.25,
     "realized_pnl_pct": -9.26,
@@ -736,20 +743,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-06-30T02:12Z",
+    "feed_generated_utc": "2026-06-30T02:41Z",
     "checked": 16,
-    "in_parity": 15,
-    "drifting": [
-      {
-        "trade_id": "ETHUSDT_20260626_CB_001",
-        "coin": "ETHUSDT",
-        "diffs": {
-          "tp1_hit": {
-            "follower": false,
-            "master": true
-          }
-        }
-      }
-    ]
+    "in_parity": 16,
+    "drifting": []
   }
 }
