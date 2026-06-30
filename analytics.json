@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-06-30T13:19:05+00:00",
+  "generated_at_utc": "2026-06-30T13:39:16+00:00",
   "all_time": {
-    "total_trades": 2,
-    "wins": 0,
+    "total_trades": 3,
+    "wins": 1,
     "losses": 2,
-    "win_rate": 0.0,
-    "total_pnl_usd": -1.45,
-    "avg_pnl_usd": -0.72,
-    "best_usd": -0.2,
+    "win_rate": 33.3,
+    "total_pnl_usd": 0.47,
+    "avg_pnl_usd": 0.16,
+    "best_usd": 1.92,
     "worst_usd": -1.25,
-    "avg_win_usd": 0.0,
+    "avg_win_usd": 1.92,
     "avg_loss_usd": -0.72,
-    "expectancy_usd": -0.72,
-    "profit_factor": 0.0,
-    "longest_win_streak": 0,
+    "expectancy_usd": 0.16,
+    "profit_factor": 1.32,
+    "longest_win_streak": 1,
     "longest_loss_streak": 2,
-    "current_streak_type": "loss",
-    "current_streak_count": 2,
-    "avg_hold_hours": 12.7,
-    "median_hold_hours": 12.7
+    "current_streak_type": "win",
+    "current_streak_count": 1,
+    "avg_hold_hours": 15.2,
+    "median_hold_hours": 15.2
   },
   "by_system": {
     "John": {
@@ -35,17 +35,17 @@
       "pending": 0
     },
     "Braam": {
-      "n": 1,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -1.25,
-      "avg": -1.25,
+      "n": 2,
+      "wins": 1,
+      "wr": 50.0,
+      "pnl": 0.67,
+      "avg": 0.33,
       "inception": "2026-06-23",
       "days_active": 7,
-      "pnl_per_day": -0.18,
+      "pnl_per_day": 0.1,
       "status": "active",
-      "open": 5,
-      "pending": 10
+      "open": 4,
+      "pending": 11
     },
     "Mong": {
       "n": 0,
@@ -88,13 +88,13 @@
       "name": "Braam",
       "inception": "2026-06-23",
       "days_active": 7,
-      "closed": 1,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -1.25,
-      "pnl_per_day": -0.18,
-      "open": 5,
-      "pending": 10
+      "closed": 2,
+      "wins": 1,
+      "wr": 50.0,
+      "pnl": 0.67,
+      "pnl_per_day": 0.1,
+      "open": 4,
+      "pending": 11
     },
     {
       "name": "Mong",
@@ -112,11 +112,11 @@
   "monthly": [
     {
       "month": "2026-06",
-      "n": 2,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -1.45,
-      "cumulative_pnl": -1.45
+      "n": 3,
+      "wins": 1,
+      "wr": 33.3,
+      "pnl": 0.47,
+      "cumulative_pnl": 0.47
     }
   ],
   "equity_curve": [
@@ -131,6 +131,12 @@
       "pnl": -0.2,
       "cumulative": -1.45,
       "won": false
+    },
+    {
+      "iso": "2026-06-30T13:38:00+00:00",
+      "pnl": 1.92,
+      "cumulative": 0.47,
+      "won": true
     }
   ],
   "benchmark": {
@@ -144,24 +150,32 @@
       {
         "iso": "2026-06-30",
         "pct": -0.087
+      },
+      {
+        "iso": "2026-06-30",
+        "pct": 0.028
       }
     ],
     "spx": [
       {
         "iso": "2026-06-29",
         "pct": 0.0
+      },
+      {
+        "iso": "2026-06-30",
+        "pct": 0.067
       }
     ],
-    "ours_pct": -0.087,
-    "spx_pct": 0.0
+    "ours_pct": 0.028,
+    "spx_pct": 0.067
   },
   "by_direction": {
     "Short": {
-      "n": 1,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -1.25,
-      "avg": -1.25
+      "n": 2,
+      "wins": 1,
+      "wr": 50.0,
+      "pnl": 0.67,
+      "avg": 0.33
     },
     "Long": {
       "n": 1,
@@ -173,11 +187,11 @@
   },
   "by_conviction": {
     "MEDIUM": {
-      "n": 1,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -1.25,
-      "avg": -1.25
+      "n": 2,
+      "wins": 1,
+      "wr": 50.0,
+      "pnl": 0.67,
+      "avg": 0.33
     },
     "HIGH": {
       "n": 1,
@@ -196,15 +210,15 @@
   "best_coins": [],
   "worst_coins": [],
   "best_trade": {
-    "trade_id": "TRXUSDT_20260628_CJ_001",
-    "coin": "TRX",
-    "direction": "Long",
-    "system": "John",
-    "pnl_usd": -0.2,
-    "pnl_pct": -1.45,
+    "trade_id": "ETHUSDT_20260626_CB_001",
+    "coin": "ETH",
+    "direction": "Short",
+    "system": "Braam",
+    "pnl_usd": 1.92,
+    "pnl_pct": 14.25,
     "date_closed": "2026-06-30",
-    "close_reason": "reconciled: position gone from MEXC; master STOPPED",
-    "conviction": "HIGH"
+    "close_reason": "reconciled: position gone from MEXC; master TP2_HIT",
+    "conviction": "MEDIUM"
   },
   "worst_trade": {
     "trade_id": "SOLUSDT_20260623_CB_001",
@@ -218,6 +232,16 @@
     "conviction": "MEDIUM"
   },
   "recent_closes": [
+    {
+      "trade_id": "ETHUSDT_20260626_CB_001",
+      "coin": "ETH",
+      "direction": "Short",
+      "system": "Braam",
+      "pnl_usd": 1.92,
+      "won": true,
+      "close_reason": "reconciled: position gone from MEXC; master TP2_HIT",
+      "iso": "2026-06-30T13:38:00+00:00"
+    },
     {
       "trade_id": "TRXUSDT_20260628_CJ_001",
       "coin": "TRX",
@@ -240,12 +264,12 @@
     }
   ],
   "live_positions": {
-    "open_count": 5,
+    "open_count": 4,
     "open_long": 0,
-    "open_short": 5,
-    "pending_count": 10,
-    "capital_open_usd": 500,
-    "capital_pending_usd": 1000
+    "open_short": 4,
+    "pending_count": 11,
+    "capital_open_usd": 400,
+    "capital_pending_usd": 1100
   },
   "macro": {}
 }
