@@ -1,21 +1,43 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-06-30T12:31:58Z",
+  "last_updated_iso": "2026-06-30T12:50:22Z",
   "mexc_account": {
-    "unrealized_pnl": 5.6817,
-    "equity": 407.4711,
-    "available": 222.841,
-    "position_margin": 45.8189
+    "unrealized_pnl": 5.2756,
+    "equity": 408.1606,
+    "available": 230.3334,
+    "position_margin": 39.4221
   },
   "order_levels": {
     "checked": 14,
-    "in_sync": 14,
-    "drifted": [],
+    "in_sync": 12,
+    "drifted": [
+      "NEAR",
+      "BNB"
+    ],
     "reconciling": [
       "ETH"
     ],
-    "detail": []
+    "detail": [
+      {
+        "coin": "NEAR",
+        "trade_id": "NEARUSDT_20260626_CB_001",
+        "status": "OPEN",
+        "fields": [
+          "sl"
+        ],
+        "synced_at": null
+      },
+      {
+        "coin": "BNB",
+        "trade_id": "BNBUSDT_20260628_CB_001",
+        "status": "OPEN",
+        "fields": [
+          "sl"
+        ],
+        "synced_at": "2026-06-29T18:16:07.566883+00:00"
+      }
+    ]
   },
   "api_keys": [],
   "housekeeping": [
@@ -55,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$407.47",
+      "value": "$408.16",
       "status": "ok",
       "action": null
     },
@@ -79,7 +101,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "SL not trailed: BNBUSDT",
+      "value": "SL not trailed: NEARUSDT, BNBUSDT",
       "status": "warn",
       "action": "Runner leg(s) need attention \u2014 verify on MEXC / check the mover cron."
     }
@@ -387,7 +409,7 @@
       "coin": "ETHUSDT",
       "direction": "Short",
       "entry_price": 1631.50543465,
-      "sl": 1631.50543465,
+      "sl": 1620.09255786,
       "tp1": 1589,
       "tp2": 1554,
       "capital_usd": 13.5,
@@ -519,7 +541,7 @@
       "coin": "NEARUSDT",
       "direction": "Short",
       "entry_price": 1.91255325,
-      "sl": 2.01688922,
+      "sl": 1.89251576,
       "tp1": 1.801,
       "tp2": 1.606,
       "capital_usd": 13.5,
@@ -533,18 +555,18 @@
       "date_opened": "2026-06-26",
       "time_opened_utc": "18:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.15,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 1.913,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0234,
       "live_fees_usd": 0.0241,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 1.13,
       "rehearsal": false
     },
     {
@@ -552,7 +574,7 @@
       "coin": "BNBUSDT",
       "direction": "Short",
       "entry_price": 563.90729335,
-      "sl": 575.40922408,
+      "sl": 560.10428194,
       "tp1": 548,
       "tp2": 522,
       "capital_usd": 13.5,
@@ -566,18 +588,18 @@
       "date_opened": "2026-06-28",
       "time_opened_utc": "11:40",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.09,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 563.9,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0013,
       "live_fees_usd": 0.0236,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 0.65,
       "rehearsal": false
     }
   ],
@@ -614,7 +636,7 @@
       "trading_system": "Braam",
       "entry_price": 1.91255325,
       "live_entry_fill": 1.913,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-06-29T17:16:00Z",
       "_iso_ms": 1782753360000,
       "rehearsal": false
@@ -638,7 +660,7 @@
       "trading_system": "Braam",
       "entry_price": 563.90729335,
       "live_entry_fill": 563.9,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-06-29T17:46:00Z",
       "_iso_ms": 1782755160000,
       "rehearsal": false
@@ -717,6 +739,18 @@
       "direction": "Short",
       "trading_system": "Braam",
       "entry_price": 1631.50543465
+    },
+    {
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 1.91255325
+    },
+    {
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 563.90729335
     }
   ],
   "stats": {
@@ -747,7 +781,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-06-30T12:06Z",
+    "feed_generated_utc": "2026-06-30T12:49Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
