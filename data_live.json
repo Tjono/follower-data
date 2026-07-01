@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-01T17:10:49Z",
+  "last_updated_iso": "2026-07-01T17:16:05Z",
   "mexc_account": {
-    "unrealized_pnl": 2.0889,
-    "equity": 403.0822,
+    "unrealized_pnl": 1.8347,
+    "equity": 402.828,
     "available": 218.3475,
     "position_margin": 55.8223
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$403.08",
+      "value": "$402.83",
       "status": "ok",
       "action": null
     },
@@ -562,18 +562,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "NEARUSDT_20260626_CB_001",
-      "coin": "NEARUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 1.91255325,
-      "live_entry_fill": 1.913,
-      "tp1_hit": true,
-      "iso": "2026-06-29T17:16:00Z",
-      "_iso_ms": 1782753360000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ETHUSDT_20260626_CB_001",
       "coin": "ETHUSDT",
