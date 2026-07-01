@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-01T19:34:02+00:00",
+  "generated_at_utc": "2026-07-01T20:04:03+00:00",
   "all_time": {
     "total_trades": 4,
     "wins": 1,
@@ -185,11 +185,11 @@
       },
       {
         "iso": "2026-07-01",
-        "pct": 0.798
+        "pct": 0.577
       }
     ],
     "ours_pct": -0.089,
-    "spx_pct": 0.798
+    "spx_pct": 0.577
   },
   "by_direction": {
     "Short": {
