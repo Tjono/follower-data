@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-01T04:10:51Z",
+  "last_updated_iso": "2026-07-01T04:30:41Z",
   "mexc_account": {
-    "unrealized_pnl": 1.2993,
-    "equity": 402.3013,
+    "unrealized_pnl": 1.4374,
+    "equity": 402.4394,
     "available": 225.5294,
     "position_margin": 42.3432
   },
   "order_levels": {
-    "checked": 14,
-    "in_sync": 14,
+    "checked": 13,
+    "in_sync": 13,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$402.30",
+      "value": "$402.44",
       "status": "ok",
       "action": null
     },
@@ -200,39 +200,6 @@
       "time_activated_utc": null,
       "date_opened": "2026-06-23",
       "time_opened_utc": "21:50",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "TAOUSDT_20260624_CB_001",
-      "coin": "TAOUSDT",
-      "direction": "Short",
-      "entry_price": 225.68207471,
-      "sl": 235.31238316,
-      "tp1": 209.074027,
-      "tp2": 156.48590718,
-      "capital_usd": 13.5,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-06-24",
-      "time_opened_utc": "13:31",
       "conviction": "MEDIUM",
       "tp1_hit": null,
       "sl_moved_to_be": null,
@@ -746,9 +713,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-01T04:09Z",
-    "checked": 14,
-    "in_parity": 14,
+    "feed_generated_utc": "2026-07-01T04:29Z",
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   }
 }
