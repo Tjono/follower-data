@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-01T01:28:11Z",
+  "last_updated_iso": "2026-07-01T02:19:18Z",
   "mexc_account": {
-    "unrealized_pnl": 3.4775,
-    "equity": 404.4422,
+    "unrealized_pnl": 2.641,
+    "equity": 403.6057,
     "available": 225.4539,
     "position_margin": 26.3978
   },
@@ -31,7 +31,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.1h ago",
+      "value": "0.0h ago",
       "status": "ok",
       "action": null
     },
@@ -55,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$404.44",
+      "value": "$403.61",
       "status": "ok",
       "action": null
     },
@@ -581,21 +581,7 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "ETHUSDT_20260630_CB_001",
-      "coin": "ETHUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 1589.64371588,
-      "tp1": 1509.28059469,
-      "sl": 1632.21563427,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-06-30T13:36:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "SOLUSDT_20260623_CB_001",
