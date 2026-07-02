@@ -14,7 +14,8 @@
       "close_type": 0,
       "close_reason": "win",
       "status": "CLOSED",
-      "braam_trade_id": "NEARUSDT_20260626_CB_001"
+      "braam_trade_id": "NEARUSDT_20260626_CB_001",
+      "resting_at": "2026-06-28T14:28:43Z"
     },
     "1432941405": {
       "position_id": "1432941405",
@@ -29,7 +30,8 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "loss",
-      "status": "CLOSED"
+      "status": "CLOSED",
+      "resting_at": "2026-06-30T13:38:21Z"
     },
     "1430721048": {
       "position_id": "1430721048",
@@ -45,7 +47,8 @@
       "close_type": 0,
       "close_reason": "loss",
       "status": "CLOSED",
-      "braam_trade_id": "LTCUSDT_20260625_CB_001"
+      "braam_trade_id": "LTCUSDT_20260625_CB_001",
+      "resting_at": "2026-06-28T14:28:35Z"
     },
     "1431812315": {
       "position_id": "1431812315",
@@ -61,7 +64,8 @@
       "close_type": 0,
       "close_reason": "win",
       "status": "CLOSED",
-      "braam_trade_id": "BNBUSDT_20260628_CB_001"
+      "braam_trade_id": "BNBUSDT_20260628_CB_001",
+      "resting_at": "2026-06-28T14:28:46Z"
     },
     "1432117786": {
       "position_id": "1432117786",
@@ -77,7 +81,8 @@
       "close_type": 0,
       "close_reason": "loss",
       "status": "CLOSED",
-      "braam_trade_id": "XLMUSDT_20260626_CB_001"
+      "braam_trade_id": "XLMUSDT_20260626_CB_001",
+      "resting_at": "2026-06-28T14:28:41Z"
     },
     "1432037384": {
       "position_id": "1432037384",
@@ -110,7 +115,8 @@
       "close_type": 0,
       "close_reason": "win",
       "status": "CLOSED",
-      "braam_trade_id": "ETHUSDT_20260626_CB_001"
+      "braam_trade_id": "ETHUSDT_20260626_CB_001",
+      "resting_at": "2026-06-28T14:28:37Z"
     },
     "1431171402": {
       "position_id": "1431171402",
@@ -126,7 +132,8 @@
       "close_type": 0,
       "close_reason": "loss",
       "status": "CLOSED",
-      "braam_trade_id": "SOLUSDT_20260623_CB_001"
+      "braam_trade_id": "SOLUSDT_20260623_CB_001",
+      "resting_at": "2026-06-28T14:28:22Z"
     },
     "1416523459": {
       "position_id": "1416523459",
@@ -141,7 +148,8 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "win",
-      "status": "CLOSED"
+      "status": "CLOSED",
+      "resting_at": "2026-06-14T06:03:24Z"
     },
     "1433707485": {
       "position_id": "1433707485",
@@ -261,5 +269,5 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-02T11:22:33Z"
+  "updated": "2026-07-02T11:23:09Z"
 }
