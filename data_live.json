@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-02T01:12:47Z",
+  "last_updated_iso": "2026-07-02T01:15:41Z",
   "mexc_account": {
-    "unrealized_pnl": 1.7537,
-    "equity": 401.0275,
+    "unrealized_pnl": 1.2693,
+    "equity": 400.5431,
     "available": 252.0144,
     "position_margin": 53.7873
   },
@@ -31,7 +31,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.0h ago",
+      "value": "0.1h ago",
       "status": "ok",
       "action": null
     },
@@ -55,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$401.03",
+      "value": "$400.54",
       "status": "ok",
       "action": null
     },
@@ -484,18 +484,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "TRXUSDT_20260628_CJ_001",
-      "coin": "TRXUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.31902878,
-      "live_entry_fill": 0.31903,
-      "tp1_hit": false,
-      "iso": "2026-06-30T01:13:00Z",
-      "_iso_ms": 1782781980000,
-      "rehearsal": false
-    },
     {
       "trade_id": "XLMUSDT_20260626_CB_001",
       "coin": "XLMUSDT",
