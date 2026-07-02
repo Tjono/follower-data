@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-07-02T10:54:02+00:00",
+  "generated_at_utc": "2026-07-02T11:15:51+00:00",
   "all_time": {
-    "total_trades": 8,
+    "total_trades": 9,
     "wins": 3,
-    "losses": 5,
-    "win_rate": 37.5,
-    "total_pnl_usd": -1.29,
-    "avg_pnl_usd": -0.16,
+    "losses": 6,
+    "win_rate": 33.3,
+    "total_pnl_usd": -2.69,
+    "avg_pnl_usd": -0.3,
     "best_usd": 1.92,
     "worst_usd": -1.95,
     "avg_win_usd": 1.38,
-    "avg_loss_usd": -1.09,
-    "expectancy_usd": -0.16,
-    "profit_factor": 0.76,
+    "avg_loss_usd": -1.14,
+    "expectancy_usd": -0.3,
+    "profit_factor": 0.61,
     "longest_win_streak": 2,
     "longest_loss_streak": 2,
     "current_streak_type": "loss",
-    "current_streak_count": 1,
-    "avg_hold_hours": 35.4,
-    "median_hold_hours": 23.6
+    "current_streak_count": 2,
+    "avg_hold_hours": 33.7,
+    "median_hold_hours": 22.5
   },
   "by_system": {
     "John": {
@@ -35,16 +35,16 @@
       "pending": 0
     },
     "Braam": {
-      "n": 7,
+      "n": 8,
       "wins": 3,
-      "wr": 42.9,
-      "pnl": -1.09,
-      "avg": -0.16,
+      "wr": 37.5,
+      "pnl": -2.49,
+      "avg": -0.31,
       "inception": "2026-06-23",
       "days_active": 9,
-      "pnl_per_day": -0.12,
+      "pnl_per_day": -0.28,
       "status": "active",
-      "open": 5,
+      "open": 4,
       "pending": 6
     },
     "Mong": {
@@ -88,12 +88,12 @@
       "name": "Braam",
       "inception": "2026-06-23",
       "days_active": 9,
-      "closed": 7,
+      "closed": 8,
       "wins": 3,
-      "wr": 42.9,
-      "pnl": -1.09,
-      "pnl_per_day": -0.12,
-      "open": 5,
+      "wr": 37.5,
+      "pnl": -2.49,
+      "pnl_per_day": -0.28,
+      "open": 4,
       "pending": 6
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "month": "2026-07",
-      "n": 5,
+      "n": 6,
       "wins": 2,
-      "wr": 40.0,
-      "pnl": -1.76,
-      "cumulative_pnl": -1.29
+      "wr": 33.3,
+      "pnl": -3.16,
+      "cumulative_pnl": -2.69
     }
   ],
   "equity_curve": [
@@ -175,6 +175,12 @@
       "pnl": -1.64,
       "cumulative": -1.29,
       "won": false
+    },
+    {
+      "iso": "2026-07-02T11:15:00+00:00",
+      "pnl": -1.4,
+      "cumulative": -2.69,
+      "won": false
     }
   ],
   "benchmark": {
@@ -212,6 +218,10 @@
       {
         "iso": "2026-07-02",
         "pct": -0.078
+      },
+      {
+        "iso": "2026-07-02",
+        "pct": -0.162
       }
     ],
     "spx": [
@@ -228,16 +238,16 @@
         "pct": 0.575
       }
     ],
-    "ours_pct": -0.078,
+    "ours_pct": -0.162,
     "spx_pct": 0.575
   },
   "by_direction": {
     "Short": {
-      "n": 7,
+      "n": 8,
       "wins": 3,
-      "wr": 42.9,
-      "pnl": -1.09,
-      "avg": -0.16
+      "wr": 37.5,
+      "pnl": -2.49,
+      "avg": -0.31
     },
     "Long": {
       "n": 1,
@@ -249,11 +259,11 @@
   },
   "by_conviction": {
     "MEDIUM": {
-      "n": 7,
+      "n": 8,
       "wins": 3,
-      "wr": 42.9,
-      "pnl": -1.09,
-      "avg": -0.16
+      "wr": 37.5,
+      "pnl": -2.49,
+      "avg": -0.31
     },
     "HIGH": {
       "n": 1,
@@ -303,6 +313,16 @@
     "conviction": "MEDIUM"
   },
   "recent_closes": [
+    {
+      "trade_id": "SUIUSDT_20260623_CB_001",
+      "coin": "SUI",
+      "direction": "Short",
+      "system": "Braam",
+      "pnl_usd": -1.4,
+      "won": false,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "iso": "2026-07-02T11:15:00+00:00"
+    },
     {
       "trade_id": "ETHUSDT_20260630_CB_001",
       "coin": "ETH",
@@ -385,30 +405,30 @@
     }
   ],
   "live_positions": {
-    "open_count": 5,
+    "open_count": 4,
     "open_long": 0,
-    "open_short": 5,
+    "open_short": 4,
     "pending_count": 6,
-    "capital_open_usd": 500,
+    "capital_open_usd": 400,
     "capital_pending_usd": 600
   },
   "macro": {
-    "vix": 16.66,
+    "vix": 16.64,
     "vix_5d": [
       18.41,
       17.65,
       16.45,
       16.59,
-      16.66
+      16.64
     ],
     "vix_ma14": 17.5,
-    "dxy": 101.1,
+    "dxy": 101.07,
     "dxy_5d": [
       101.36,
       101.11,
       101.19,
       101.39,
-      101.1
+      101.07
     ],
     "dxy_ma14": 101.01
   }
