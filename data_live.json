@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-02T10:02:06Z",
+  "last_updated_iso": "2026-07-02T10:04:58Z",
   "mexc_account": {
-    "unrealized_pnl": -1.979,
-    "equity": 397.493,
+    "unrealized_pnl": -1.8391,
+    "equity": 397.6329,
     "available": 240.8094,
     "position_margin": 78.7658
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$397.49",
+      "value": "$397.63",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "\ud83d\udd34 1 NAKED: SUIUSDT",
-      "status": "urgent",
-      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: SUIUSDT"
+      "value": "all protected (5 open, 5 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -714,7 +714,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-02T10:00Z",
+    "feed_generated_utc": "2026-07-02T10:03Z",
     "checked": 11,
     "in_parity": 11,
     "drifting": []
