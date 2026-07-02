@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-02T09:39:56Z",
+  "last_updated_iso": "2026-07-02T10:02:06Z",
   "mexc_account": {
-    "unrealized_pnl": -2.3132,
-    "equity": 397.1831,
-    "available": 240.8013,
-    "position_margin": 65.223
+    "unrealized_pnl": -1.979,
+    "equity": 397.493,
+    "available": 240.8094,
+    "position_margin": 78.7658
   },
   "order_levels": {
     "checked": 11,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$397.18",
+      "value": "$397.49",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (7 resting = journal)",
+      "value": "in sync (6 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (4 open, 4 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "\ud83d\udd34 1 NAKED: SUIUSDT",
+      "status": "urgent",
+      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: SUIUSDT"
     }
   ],
   "active_trades": [
@@ -155,16 +155,16 @@
       "direction": "Short",
       "entry_price": 0.15818426,
       "sl": 0.16350516,
-      "tp1": 0.14684813,
+      "tp1": 0.1425,
       "tp2": 0.12058254,
       "capital_usd": 13.5,
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-07-02",
+      "time_activated_utc": "09:41",
       "date_opened": "2026-06-23",
       "time_opened_utc": "21:50",
       "conviction": "MEDIUM",
@@ -173,11 +173,11 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 0.1582,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.01,
+      "live_fees_usd": 0.0242,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -508,6 +508,18 @@
       "iso": "2026-07-02T09:28:00Z",
       "_iso_ms": 1782984480000,
       "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20260623_CB_001",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 0.15818426,
+      "live_entry_fill": 0.1582,
+      "tp1_hit": false,
+      "iso": "2026-07-02T09:41:00Z",
+      "_iso_ms": 1782985260000,
+      "rehearsal": false
     }
   ],
   "recent_closes": [
@@ -680,7 +692,7 @@
     "peak_capital_usd": 94.6,
     "peak_concurrent": 6,
     "peak_date": "2026-07-01",
-    "deployed_trades": 12,
+    "deployed_trades": 13,
     "return_on_peak_pct": -1.36,
     "win_rate_pct": 37.5,
     "closed_count": 8,
@@ -702,7 +714,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-02T09:38Z",
+    "feed_generated_utc": "2026-07-02T10:00Z",
     "checked": 11,
     "in_parity": 11,
     "drifting": []

@@ -181,8 +181,18 @@
       "opened_at": "2026-07-02T09:28:29Z",
       "braam_trade_id": "BNBUSDT_20260702_CB_001",
       "status": "OPEN"
+    },
+    "1434159579": {
+      "position_id": "1434159579",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.1582,
+      "opened_at": "2026-07-02T09:41:53Z",
+      "braam_trade_id": "ADAUSDT_20260623_CB_001",
+      "status": "OPEN"
     }
   },
   "orders": {},
-  "updated": "2026-07-02T09:40:10Z"
+  "updated": "2026-07-02T10:02:19Z"
 }
