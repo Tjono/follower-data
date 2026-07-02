@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-02T12:52:02Z",
+  "last_updated_iso": "2026-07-02T13:22:16Z",
   "mexc_account": {
-    "unrealized_pnl": -2.1944,
-    "equity": 393.7977,
-    "available": 270.8262,
-    "position_margin": 45.269
+    "unrealized_pnl": -1.536,
+    "equity": 393.1509,
+    "available": 270.0349,
+    "position_margin": 26.797
   },
   "order_levels": {
     "checked": 9,
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (28 records)",
+      "value": "OK (29 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$393.80",
+      "value": "$393.15",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (6 resting = journal)",
+      "value": "in sync (7 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "value": "all protected (2 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -348,40 +348,54 @@
       "rehearsal": false
     },
     {
-      "trade_id": "BNBUSDT_20260702_CB_001",
-      "coin": "BNBUSDT",
+      "trade_id": "ETHUSDT_20260702_CJ_001",
+      "coin": "ETHUSDT",
       "direction": "Short",
-      "entry_price": 552.42916876,
-      "sl": 564.99735093,
-      "tp1": 541.3,
-      "tp2": 522,
-      "capital_usd": 19.98,
+      "entry_price": 1786.03462416,
+      "sl": 1818.03584527,
+      "tp1": 1574.89063512,
+      "tp2": 1386.13830946,
+      "capital_usd": 19.66,
       "leverage": 3,
-      "trading_system": "Braam",
+      "trading_system": "John",
       "track_only": false,
-      "status": "OPEN",
+      "status": "PENDING",
       "price_at_run": null,
-      "date_activated": "2026-07-02",
-      "time_activated_utc": "09:28",
+      "date_activated": null,
+      "time_activated_utc": null,
       "date_opened": "2026-07-02",
-      "time_opened_utc": "07:49",
-      "conviction": "MEDIUM",
+      "time_opened_utc": "13:19",
+      "conviction": "HIGH",
       "tp1_hit": null,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 552.4,
+      "live_executed": null,
+      "live_entry_fill": null,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0053,
-      "live_fees_usd": 0.0331,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "ETHUSDT_20260702_CJ_001",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 1786.03462416,
+      "tp1": 1574.89063512,
+      "sl": 1818.03584527,
+      "conviction": "HIGH",
+      "track_only": false,
+      "iso": "2026-07-02T13:19:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "ETHUSDT_20260630_CB_001",
@@ -656,25 +670,45 @@
       "won": false,
       "close_iso": "2026-07-02T11:49:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20260702_CB_001",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -1.37,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "date_closed": "2026-07-02",
+      "time_closed_utc": "13:21",
+      "trading_system": "Braam",
+      "live_entry_fill": 552.4,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": 0.0053,
+      "live_fees_usd": 0.0331,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": false,
+      "close_iso": "2026-07-02T13:21:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -4.72,
-    "realized_pnl_pct": -3.18,
+    "realized_pnl_usd": -6.09,
+    "realized_pnl_pct": -3.61,
     "peak_capital_usd": 94.6,
     "peak_concurrent": 6,
     "peak_date": "2026-07-01",
     "deployed_trades": 13,
-    "return_on_peak_pct": -4.99,
-    "win_rate_pct": 30.0,
-    "closed_count": 10,
+    "return_on_peak_pct": -6.44,
+    "win_rate_pct": 27.3,
+    "closed_count": 11,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -4.52,
-        "win_rate_pct": 33.3,
-        "closed_count": 9
+        "realized_pnl_usd": -5.89,
+        "win_rate_pct": 30.0,
+        "closed_count": 10
       },
       "John": {
         "realized_pnl_usd": -0.2,
@@ -682,13 +716,13 @@
         "closed_count": 1
       }
     },
-    "live_trade_count_total": 20,
-    "live_real_count": 20,
+    "live_trade_count_total": 21,
+    "live_real_count": 21,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-02T12:50Z",
+    "feed_generated_utc": "2026-07-02T13:20Z",
     "checked": 9,
     "in_parity": 9,
     "drifting": []

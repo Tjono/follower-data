@@ -215,8 +215,15 @@
       "entry_price": 552.4,
       "opened_at": "2026-07-02T09:28:29Z",
       "braam_trade_id": "BNBUSDT_20260702_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-02T07:51:18Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-02T07:51:18Z",
+      "closed_at": "2026-07-02T13:17:21Z",
+      "close_price": 565,
+      "pnl_usd": -1.3383,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1434159579": {
       "position_id": "1434159579",
@@ -284,7 +291,16 @@
       "resting_at": "2026-06-28T14:28:24Z",
       "braam_trade_id": "LINKUSDT_20260623_CB_001",
       "status": "RESTING"
+    },
+    "827654039230574592": {
+      "order_id": "827654039230574592",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1786.03,
+      "resting_at": "2026-07-02T13:21:39Z",
+      "braam_trade_id": "ETHUSDT_20260702_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-02T12:52:15Z"
+  "updated": "2026-07-02T13:22:29Z"
 }
