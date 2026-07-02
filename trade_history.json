@@ -158,9 +158,15 @@
       "leverage": 3,
       "entry_price": 206.42,
       "opened_at": "2026-07-01T21:36:47Z",
-      "status": "OPEN",
+      "status": "CLOSED",
       "braam_trade_id": "TAOUSDT_20260701_CB_001",
-      "resting_at": "2026-07-01T07:16:51Z"
+      "resting_at": "2026-07-01T07:16:51Z",
+      "closed_at": "2026-07-02T11:46:01Z",
+      "close_price": 213.33,
+      "pnl_usd": -2.0875,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "loss"
     },
     "1433448378": {
       "position_id": "1433448378",
@@ -269,5 +275,5 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-02T11:32:16Z"
+  "updated": "2026-07-02T11:50:16Z"
 }
