@@ -13,7 +13,8 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "win",
-      "status": "CLOSED"
+      "status": "CLOSED",
+      "braam_trade_id": "NEARUSDT_20260626_CB_001"
     },
     "1432941405": {
       "position_id": "1432941405",
@@ -43,7 +44,8 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "loss",
-      "status": "CLOSED"
+      "status": "CLOSED",
+      "braam_trade_id": "LTCUSDT_20260625_CB_001"
     },
     "1431812315": {
       "position_id": "1431812315",
@@ -58,7 +60,8 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "win",
-      "status": "CLOSED"
+      "status": "CLOSED",
+      "braam_trade_id": "BNBUSDT_20260628_CB_001"
     },
     "1432117786": {
       "position_id": "1432117786",
@@ -73,7 +76,8 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "loss",
-      "status": "CLOSED"
+      "status": "CLOSED",
+      "braam_trade_id": "XLMUSDT_20260626_CB_001"
     },
     "1432037384": {
       "position_id": "1432037384",
@@ -88,7 +92,8 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "loss",
-      "status": "CLOSED"
+      "status": "CLOSED",
+      "braam_trade_id": "TRXUSDT_20260628_CJ_001"
     },
     "1431789198": {
       "position_id": "1431789198",
@@ -103,7 +108,8 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "win",
-      "status": "CLOSED"
+      "status": "CLOSED",
+      "braam_trade_id": "ETHUSDT_20260626_CB_001"
     },
     "1431171402": {
       "position_id": "1431171402",
@@ -118,7 +124,8 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "loss",
-      "status": "CLOSED"
+      "status": "CLOSED",
+      "braam_trade_id": "SOLUSDT_20260623_CB_001"
     },
     "1416523459": {
       "position_id": "1416523459",
@@ -142,7 +149,8 @@
       "leverage": 3,
       "entry_price": 206.42,
       "opened_at": "2026-07-01T21:36:47Z",
-      "status": "OPEN"
+      "status": "OPEN",
+      "braam_trade_id": "TAOUSDT_20260701_CB_001"
     },
     "1433448378": {
       "position_id": "1433448378",
@@ -151,7 +159,8 @@
       "leverage": 3,
       "entry_price": 0.7198,
       "opened_at": "2026-07-01T15:23:05Z",
-      "status": "OPEN"
+      "status": "OPEN",
+      "braam_trade_id": "SUIUSDT_20260623_CB_001"
     },
     "1433736652": {
       "position_id": "1433736652",
@@ -160,9 +169,10 @@
       "leverage": 3,
       "entry_price": 0.3303,
       "opened_at": "2026-07-01T22:21:28Z",
-      "status": "OPEN"
+      "status": "OPEN",
+      "braam_trade_id": "ONDOUSDT_20260623_CB_001"
     }
   },
   "orders": {},
-  "updated": "2026-07-02T08:48:34Z"
+  "updated": "2026-07-02T08:48:47Z"
 }
