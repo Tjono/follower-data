@@ -151,7 +151,8 @@
       "entry_price": 206.42,
       "opened_at": "2026-07-01T21:36:47Z",
       "status": "OPEN",
-      "braam_trade_id": "TAOUSDT_20260701_CB_001"
+      "braam_trade_id": "TAOUSDT_20260701_CB_001",
+      "resting_at": "2026-07-01T07:16:51Z"
     },
     "1433448378": {
       "position_id": "1433448378",
@@ -161,7 +162,8 @@
       "entry_price": 0.7198,
       "opened_at": "2026-07-01T15:23:05Z",
       "status": "OPEN",
-      "braam_trade_id": "SUIUSDT_20260623_CB_001"
+      "braam_trade_id": "SUIUSDT_20260623_CB_001",
+      "resting_at": "2026-06-28T14:28:23Z"
     },
     "1433736652": {
       "position_id": "1433736652",
@@ -171,7 +173,8 @@
       "entry_price": 0.3303,
       "opened_at": "2026-07-01T22:21:28Z",
       "status": "OPEN",
-      "braam_trade_id": "ONDOUSDT_20260623_CB_001"
+      "braam_trade_id": "ONDOUSDT_20260623_CB_001",
+      "resting_at": "2026-06-28T14:28:28Z"
     },
     "1434145240": {
       "position_id": "1434145240",
@@ -181,7 +184,8 @@
       "entry_price": 552.4,
       "opened_at": "2026-07-02T09:28:29Z",
       "braam_trade_id": "BNBUSDT_20260702_CB_001",
-      "status": "OPEN"
+      "status": "OPEN",
+      "resting_at": "2026-07-02T07:51:18Z"
     },
     "1434159579": {
       "position_id": "1434159579",
@@ -191,7 +195,8 @@
       "entry_price": 0.1582,
       "opened_at": "2026-07-02T09:41:53Z",
       "braam_trade_id": "ADAUSDT_20260623_CB_001",
-      "status": "OPEN"
+      "status": "OPEN",
+      "resting_at": "2026-06-28T14:28:26Z"
     }
   },
   "orders": {
@@ -250,5 +255,5 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-02T10:47:34Z"
+  "updated": "2026-07-02T10:49:02Z"
 }
