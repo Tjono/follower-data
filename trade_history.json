@@ -12,10 +12,11 @@
       "pnl_usd": 1.2688,
       "tag": "WIN",
       "close_type": 0,
-      "close_reason": "win",
+      "close_reason": "tp1_breakeven",
       "status": "CLOSED",
       "braam_trade_id": "NEARUSDT_20260626_CB_001",
-      "resting_at": "2026-06-28T14:28:43Z"
+      "resting_at": "2026-06-28T14:28:43Z",
+      "close_fills": 2
     },
     "1432941405": {
       "position_id": "1432941405",
@@ -29,9 +30,10 @@
       "pnl_usd": -1.387,
       "tag": "LOSS",
       "close_type": 0,
-      "close_reason": "loss",
+      "close_reason": "stopped_out",
       "status": "CLOSED",
-      "resting_at": "2026-06-30T13:38:21Z"
+      "resting_at": "2026-06-30T13:38:21Z",
+      "close_fills": 1
     },
     "1430721048": {
       "position_id": "1430721048",
@@ -45,10 +47,11 @@
       "pnl_usd": -0.4861,
       "tag": "LOSS",
       "close_type": 0,
-      "close_reason": "loss",
+      "close_reason": "stopped_out",
       "status": "CLOSED",
       "braam_trade_id": "LTCUSDT_20260625_CB_001",
-      "resting_at": "2026-06-28T14:28:35Z"
+      "resting_at": "2026-06-28T14:28:35Z",
+      "close_fills": 1
     },
     "1431812315": {
       "position_id": "1431812315",
@@ -62,10 +65,11 @@
       "pnl_usd": 0.7665,
       "tag": "WIN",
       "close_type": 0,
-      "close_reason": "win",
+      "close_reason": "tp1_breakeven",
       "status": "CLOSED",
       "braam_trade_id": "BNBUSDT_20260628_CB_001",
-      "resting_at": "2026-06-28T14:28:46Z"
+      "resting_at": "2026-06-28T14:28:46Z",
+      "close_fills": 2
     },
     "1432117786": {
       "position_id": "1432117786",
@@ -79,10 +83,11 @@
       "pnl_usd": -1.961,
       "tag": "LOSS",
       "close_type": 0,
-      "close_reason": "loss",
+      "close_reason": "stopped_out",
       "status": "CLOSED",
       "braam_trade_id": "XLMUSDT_20260626_CB_001",
-      "resting_at": "2026-06-28T14:28:41Z"
+      "resting_at": "2026-06-28T14:28:41Z",
+      "close_fills": 1
     },
     "1432037384": {
       "position_id": "1432037384",
@@ -96,10 +101,11 @@
       "pnl_usd": -0.2352,
       "tag": "LOSS",
       "close_type": 0,
-      "close_reason": "loss",
+      "close_reason": "stopped_out",
       "status": "CLOSED",
       "braam_trade_id": "TRXUSDT_20260628_CJ_001",
-      "resting_at": "2026-06-28T14:28:40Z"
+      "resting_at": "2026-06-28T14:28:40Z",
+      "close_fills": 1
     },
     "1431789198": {
       "position_id": "1431789198",
@@ -113,10 +119,11 @@
       "pnl_usd": 0.8084,
       "tag": "WIN",
       "close_type": 0,
-      "close_reason": "win",
+      "close_reason": "tp1_tp2",
       "status": "CLOSED",
       "braam_trade_id": "ETHUSDT_20260626_CB_001",
-      "resting_at": "2026-06-28T14:28:37Z"
+      "resting_at": "2026-06-28T14:28:37Z",
+      "close_fills": 2
     },
     "1431171402": {
       "position_id": "1431171402",
@@ -130,10 +137,11 @@
       "pnl_usd": -1.1538,
       "tag": "LOSS",
       "close_type": 0,
-      "close_reason": "loss",
+      "close_reason": "stopped_out",
       "status": "CLOSED",
       "braam_trade_id": "SOLUSDT_20260623_CB_001",
-      "resting_at": "2026-06-28T14:28:22Z"
+      "resting_at": "2026-06-28T14:28:22Z",
+      "close_fills": 1
     },
     "1416523459": {
       "position_id": "1416523459",
@@ -147,9 +155,10 @@
       "pnl_usd": 16.4781,
       "tag": "WIN",
       "close_type": 0,
-      "close_reason": "win",
+      "close_reason": "take_profit",
       "status": "CLOSED",
-      "resting_at": "2026-06-14T06:03:24Z"
+      "resting_at": "2026-06-14T06:03:24Z",
+      "close_fills": 1
     },
     "1433707485": {
       "position_id": "1433707485",
@@ -166,7 +175,8 @@
       "pnl_usd": -2.0875,
       "tag": "LOSS",
       "close_type": 0,
-      "close_reason": "loss"
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1433448378": {
       "position_id": "1433448378",
@@ -183,7 +193,8 @@
       "pnl_usd": -1.4455,
       "tag": "LOSS",
       "close_type": 0,
-      "close_reason": "loss"
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1433736652": {
       "position_id": "1433736652",
@@ -275,5 +286,5 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-02T12:03:59Z"
+  "updated": "2026-07-02T12:23:40Z"
 }
