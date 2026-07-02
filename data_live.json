@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-02T09:27:36Z",
+  "last_updated_iso": "2026-07-02T09:33:27Z",
   "mexc_account": {
-    "unrealized_pnl": -0.601,
-    "equity": 398.9285,
-    "available": 240.7902,
-    "position_margin": 46.7509
+    "unrealized_pnl": -1.4497,
+    "equity": 398.0466,
+    "available": 240.8013,
+    "position_margin": 65.223
   },
   "order_levels": {
     "checked": 11,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$398.93",
+      "value": "$398.05",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (8 resting = journal)",
+      "value": "in sync (7 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "value": "all protected (4 open, 4 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -425,10 +425,10 @@
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-07-02",
+      "time_activated_utc": "09:28",
       "date_opened": "2026-07-02",
       "time_opened_utc": "07:49",
       "conviction": "MEDIUM",
@@ -437,31 +437,17 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 552.4,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": 0.0053,
+      "live_fees_usd": 0.0331,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "BNBUSDT_20260702_CB_001",
-      "coin": "BNBUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 552.42916876,
-      "tp1": 533.36442351,
-      "sl": 564.99735093,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-07-02T07:49:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "ETHUSDT_20260630_CB_001",
@@ -509,6 +495,18 @@
       "tp1_hit": false,
       "iso": "2026-07-01T22:21:00Z",
       "_iso_ms": 1782944460000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20260702_CB_001",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 552.42916876,
+      "live_entry_fill": 552.4,
+      "tp1_hit": false,
+      "iso": "2026-07-02T09:28:00Z",
+      "_iso_ms": 1782984480000,
       "rehearsal": false
     }
   ],
@@ -682,7 +680,7 @@
     "peak_capital_usd": 94.6,
     "peak_concurrent": 6,
     "peak_date": "2026-07-01",
-    "deployed_trades": 11,
+    "deployed_trades": 12,
     "return_on_peak_pct": -1.36,
     "win_rate_pct": 37.5,
     "closed_count": 8,
@@ -704,7 +702,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-02T09:26Z",
+    "feed_generated_utc": "2026-07-02T09:32Z",
     "checked": 11,
     "in_parity": 11,
     "drifting": []

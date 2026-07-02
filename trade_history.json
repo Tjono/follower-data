@@ -171,8 +171,18 @@
       "opened_at": "2026-07-01T22:21:28Z",
       "status": "OPEN",
       "braam_trade_id": "ONDOUSDT_20260623_CB_001"
+    },
+    "1434145240": {
+      "position_id": "1434145240",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 552.4,
+      "opened_at": "2026-07-02T09:28:29Z",
+      "braam_trade_id": "BNBUSDT_20260702_CB_001",
+      "status": "OPEN"
     }
   },
   "orders": {},
-  "updated": "2026-07-02T09:27:51Z"
+  "updated": "2026-07-02T09:33:39Z"
 }
