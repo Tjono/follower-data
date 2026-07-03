@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-03T00:07:26Z",
+  "last_updated_iso": "2026-07-03T00:16:57Z",
   "mexc_account": {
-    "unrealized_pnl": 0.2508,
-    "equity": 394.927,
+    "unrealized_pnl": 0.3816,
+    "equity": 395.0578,
     "available": 270.0561,
     "position_margin": 40.1469
   },
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.0h ago",
+      "value": "0.2h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$394.93",
+      "value": "$395.06",
       "status": "ok",
       "action": null
     },
