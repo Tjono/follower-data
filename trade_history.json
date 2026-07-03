@@ -262,8 +262,15 @@
       "entry_price": 0.1653,
       "opened_at": "2026-07-03T06:16:05Z",
       "braam_trade_id": "ADAUSDT_20260701_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-03T05:27:32Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-03T05:27:32Z",
+      "closed_at": "2026-07-03T10:53:53Z",
+      "close_price": 0.169,
+      "pnl_usd": -1.43,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     }
   },
   "orders": {
@@ -340,7 +347,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-03T10:52:28Z",
+  "updated": "2026-07-03T12:00:45Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -357,6 +364,14 @@
       "unrealized": -1.4976,
       "realized": -8.657,
       "total": -10.1546
+    },
+    {
+      "ts": "2026-07-03T12:00:45Z",
+      "equity": 391.4969,
+      "available": 280.8504,
+      "unrealized": -0.4308,
+      "realized": -10.087,
+      "total": -10.5178
     }
   ]
 }
