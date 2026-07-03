@@ -251,8 +251,15 @@
       "entry_price": 1.109,
       "opened_at": "2026-07-02T13:34:54Z",
       "braam_trade_id": "XRPUSDT_20260624_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-06-28T14:28:31Z"
+      "status": "CLOSED",
+      "resting_at": "2026-06-28T14:28:31Z",
+      "closed_at": "2026-07-03T19:11:34Z",
+      "close_price": 1.1369,
+      "pnl_usd": -1.0557,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1434956885": {
       "position_id": "1434956885",
@@ -282,6 +289,28 @@
       "braam_trade_id": "DOGEUSDT_20260626_CB_001",
       "status": "OPEN",
       "resting_at": "2026-06-28T14:28:39Z"
+    },
+    "1435492754": {
+      "position_id": "1435492754",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.0905,
+      "opened_at": "2026-07-03T19:22:24Z",
+      "braam_trade_id": "ALGOUSDT_20260625_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-06-28T14:28:34Z"
+    },
+    "1435490285": {
+      "position_id": "1435490285",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 7.944,
+      "opened_at": "2026-07-03T19:18:27Z",
+      "braam_trade_id": "LINKUSDT_20260623_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-06-28T14:28:25Z"
     }
   },
   "orders": {
@@ -358,7 +387,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-03T18:46:45Z",
+  "updated": "2026-07-03T19:24:17Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -535,6 +564,14 @@
       "unrealized": -1.1248,
       "realized": -10.087,
       "total": -11.2118
+    },
+    {
+      "ts": "2026-07-03T19:24:17Z",
+      "equity": 390.1071,
+      "available": 293.1941,
+      "unrealized": -0.7193,
+      "realized": -11.1427,
+      "total": -11.862
     }
   ]
 }
