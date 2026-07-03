@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-03T05:46:29Z",
+  "last_updated_iso": "2026-07-03T06:20:16Z",
   "mexc_account": {
-    "unrealized_pnl": 0.4608,
-    "equity": 393.8143,
-    "available": 262.0523,
-    "position_margin": 26.6041
+    "unrealized_pnl": 0.1668,
+    "equity": 393.4841,
+    "available": 262.0644,
+    "position_margin": 46.7798
   },
   "order_levels": {
-    "checked": 8,
-    "in_sync": 8,
+    "checked": 9,
+    "in_sync": 9,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$393.81",
+      "value": "$393.48",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (7 resting = journal)",
+      "value": "in sync (6 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open, 2 pre-TP1 runners)",
+      "value": "all protected (3 open, 3 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -315,6 +315,39 @@
       "rehearsal": false
     },
     {
+      "trade_id": "ADAUSDT_20260701_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "entry_price": 0.16529516,
+      "sl": 0.16896389,
+      "tp1": 0.12606318,
+      "tp2": 0.12287221,
+      "capital_usd": 20.14,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "OPEN",
+      "price_at_run": null,
+      "date_activated": "2026-07-03",
+      "time_activated_utc": "06:16",
+      "date_opened": "2026-07-01",
+      "time_opened_utc": "20:09",
+      "conviction": "HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": true,
+      "live_entry_fill": 0.1653,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": -0.0029,
+      "live_fees_usd": 0.0362,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
       "trade_id": "ETHUSDT_20260702_CJ_001",
       "coin": "ETHUSDT",
       "direction": "Short",
@@ -420,6 +453,18 @@
       "tp1_hit": false,
       "iso": "2026-07-02T13:34:00Z",
       "_iso_ms": 1782999240000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20260701_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 0.16529516,
+      "live_entry_fill": 0.1653,
+      "tp1_hit": false,
+      "iso": "2026-07-03T06:16:00Z",
+      "_iso_ms": 1783059360000,
       "rehearsal": false
     }
   ],
@@ -673,7 +718,7 @@
     "peak_capital_usd": 94.6,
     "peak_concurrent": 6,
     "peak_date": "2026-07-01",
-    "deployed_trades": 14,
+    "deployed_trades": 15,
     "return_on_peak_pct": -7.88,
     "win_rate_pct": 25.0,
     "closed_count": 12,
@@ -695,7 +740,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-03T05:45Z",
+    "feed_generated_utc": "2026-07-03T06:19Z",
     "checked": 8,
     "in_parity": 8,
     "drifting": []

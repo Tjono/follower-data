@@ -253,6 +253,17 @@
       "braam_trade_id": "XRPUSDT_20260624_CB_001",
       "status": "OPEN",
       "resting_at": "2026-06-28T14:28:31Z"
+    },
+    "1434956885": {
+      "position_id": "1434956885",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.1653,
+      "opened_at": "2026-07-03T06:16:05Z",
+      "braam_trade_id": "ADAUSDT_20260701_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-03T05:27:32Z"
     }
   },
   "orders": {
@@ -329,5 +340,5 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-03T05:46:42Z"
+  "updated": "2026-07-03T06:20:28Z"
 }
