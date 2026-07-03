@@ -271,6 +271,17 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1
+    },
+    "1435320135": {
+      "position_id": "1435320135",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.07718,
+      "opened_at": "2026-07-03T15:08:01Z",
+      "braam_trade_id": "DOGEUSDT_20260626_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-06-28T14:28:39Z"
     }
   },
   "orders": {
@@ -347,7 +358,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-03T14:56:46Z",
+  "updated": "2026-07-03T15:20:13Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -436,6 +447,14 @@
       "unrealized": -0.7728,
       "realized": -10.087,
       "total": -10.8598
+    },
+    {
+      "ts": "2026-07-03T15:20:13Z",
+      "equity": 390.9861,
+      "available": 280.8582,
+      "unrealized": -0.9184,
+      "realized": -10.087,
+      "total": -11.0054
     }
   ]
 }
