@@ -1,18 +1,20 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-03T00:16:57Z",
+  "last_updated_iso": "2026-07-03T04:07:27Z",
   "mexc_account": {
-    "unrealized_pnl": 0.3816,
-    "equity": 395.0578,
-    "available": 270.0561,
-    "position_margin": 40.1469
+    "unrealized_pnl": 0.6552,
+    "equity": 393.9431,
+    "available": 282.2107,
+    "position_margin": 26.6041
   },
   "order_levels": {
-    "checked": 9,
-    "in_sync": 9,
+    "checked": 8,
+    "in_sync": 8,
     "drifted": [],
-    "reconciling": [],
+    "reconciling": [
+      "ADA"
+    ],
     "detail": []
   },
   "api_keys": [],
@@ -29,7 +31,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.2h ago",
+      "value": "0.0h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$395.06",
+      "value": "$393.94",
       "status": "ok",
       "action": null
     },
@@ -77,7 +79,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "value": "all protected (2 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -381,34 +383,8 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "ETHUSDT_20260702_CJ_001",
-      "coin": "ETHUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 1786.03462416,
-      "tp1": 1574.89063512,
-      "sl": 1818.03584527,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-07-02T13:19:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "ETHUSDT_20260630_CB_001",
-      "coin": "ETHUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 1589.64371588,
-      "live_entry_fill": 1589.64,
-      "tp1_hit": false,
-      "iso": "2026-07-01T03:36:00Z",
-      "_iso_ms": 1782876960000,
-      "rehearsal": false
-    },
     {
       "trade_id": "SUIUSDT_20260623_CB_001",
       "coin": "SUIUSDT",
@@ -734,9 +710,20 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-02T23:44Z",
+    "feed_generated_utc": "2026-07-03T04:07Z",
     "checked": 9,
-    "in_parity": 9,
-    "drifting": []
+    "in_parity": 8,
+    "drifting": [
+      {
+        "trade_id": "ADAUSDT_20260623_CB_001",
+        "coin": "ADAUSDT",
+        "diffs": {
+          "status": {
+            "follower": "OPEN",
+            "master": "STOPPED"
+          }
+        }
+      }
+    ]
   }
 }

@@ -233,8 +233,15 @@
       "entry_price": 0.1582,
       "opened_at": "2026-07-02T09:41:53Z",
       "braam_trade_id": "ADAUSDT_20260623_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-06-28T14:28:26Z"
+      "status": "CLOSED",
+      "resting_at": "2026-06-28T14:28:26Z",
+      "closed_at": "2026-07-03T01:20:27Z",
+      "close_price": 0.1635,
+      "pnl_usd": -1.4063,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1434378926": {
       "position_id": "1434378926",
@@ -313,5 +320,5 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-03T00:17:08Z"
+  "updated": "2026-07-03T04:07:40Z"
 }
