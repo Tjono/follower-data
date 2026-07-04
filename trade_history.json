@@ -203,9 +203,16 @@
       "leverage": 3,
       "entry_price": 0.3303,
       "opened_at": "2026-07-01T22:21:28Z",
-      "status": "OPEN",
+      "status": "CLOSED",
       "braam_trade_id": "ONDOUSDT_20260623_CB_001",
-      "resting_at": "2026-06-28T14:28:28Z"
+      "resting_at": "2026-06-28T14:28:28Z",
+      "closed_at": "2026-07-04T17:16:22Z",
+      "close_price": 0.344,
+      "pnl_usd": -1.6825,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1434145240": {
       "position_id": "1434145240",
@@ -398,7 +405,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-04T16:55:25Z",
+  "updated": "2026-07-04T17:21:06Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -951,6 +958,14 @@
       "unrealized": -2.6469,
       "realized": -11.1427,
       "total": -13.7896
+    },
+    {
+      "ts": "2026-07-04T17:21:06Z",
+      "equity": 387.5463,
+      "available": 304.8894,
+      "unrealized": -1.6783,
+      "realized": -12.8252,
+      "total": -14.5035
     }
   ]
 }
