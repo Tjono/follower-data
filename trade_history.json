@@ -311,6 +311,17 @@
       "braam_trade_id": "LINKUSDT_20260623_CB_001",
       "status": "OPEN",
       "resting_at": "2026-06-28T14:28:25Z"
+    },
+    "1436134102": {
+      "position_id": "1436134102",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1786.03,
+      "opened_at": "2026-07-04T15:09:29Z",
+      "braam_trade_id": "ETHUSDT_20260702_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-02T13:21:40Z"
     }
   },
   "orders": {
@@ -387,7 +398,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-04T14:43:56Z",
+  "updated": "2026-07-04T15:16:16Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -884,6 +895,14 @@
       "unrealized": -0.29,
       "realized": -11.1427,
       "total": -11.4327
+    },
+    {
+      "ts": "2026-07-04T15:16:16Z",
+      "equity": 389.5462,
+      "available": 293.2955,
+      "unrealized": -1.3386,
+      "realized": -11.1427,
+      "total": -12.4813
     }
   ]
 }
