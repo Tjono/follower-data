@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-04T12:50:32Z",
+  "last_updated_iso": "2026-07-04T13:58:54Z",
   "mexc_account": {
-    "unrealized_pnl": 0.3153,
-    "equity": 391.2323,
+    "unrealized_pnl": 0.5531,
+    "equity": 391.4701,
     "available": 293.2847,
     "position_margin": 52.9683
   },
@@ -31,7 +31,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.2h ago",
+      "value": "0.0h ago",
       "status": "ok",
       "action": null
     },
@@ -55,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$391.23",
+      "value": "$391.47",
       "status": "ok",
       "action": null
     },
@@ -79,9 +79,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (4 open, 4 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -352,18 +352,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "XRPUSDT_20260624_CB_001",
-      "coin": "XRPUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 1.10902167,
-      "live_entry_fill": 1.109,
-      "tp1_hit": false,
-      "iso": "2026-07-02T13:34:00Z",
-      "_iso_ms": 1782999240000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ADAUSDT_20260701_CJ_001",
       "coin": "ADAUSDT",
@@ -705,7 +693,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-04T11:56Z",
+    "feed_generated_utc": "2026-07-04T13:57Z",
     "checked": 7,
     "in_parity": 7,
     "drifting": []
