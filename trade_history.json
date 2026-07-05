@@ -336,6 +336,17 @@
       "braam_trade_id": "ETHUSDT_20260702_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-07-02T13:21:40Z"
+    },
+    "1436783367": {
+      "position_id": "1436783367",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.3268,
+      "opened_at": "2026-07-05T12:16:53Z",
+      "braam_trade_id": "TRXUSDT_20260626_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-06-28T14:28:40Z"
     }
   },
   "orders": {
@@ -448,7 +459,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-05T12:04:25Z",
+  "updated": "2026-07-05T12:17:54Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -1265,6 +1276,14 @@
       "unrealized": 2.1138,
       "realized": -13.9057,
       "total": -11.7919
+    },
+    {
+      "ts": "2026-07-05T12:17:54Z",
+      "equity": 390.0174,
+      "available": 279.9736,
+      "unrealized": 1.7989,
+      "realized": -13.9057,
+      "total": -12.1068
     }
   ]
 }
