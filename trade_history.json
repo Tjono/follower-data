@@ -419,9 +419,18 @@
       "resting_at": "2026-07-05T09:25:38Z",
       "braam_trade_id": "BTCUSDT_20260705_CJ_001",
       "status": "RESTING"
+    },
+    "828683325966208000": {
+      "order_id": "828683325966208000",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 66036.4,
+      "resting_at": "2026-07-05T09:31:40Z",
+      "braam_trade_id": "BTCUSDT_20260705_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-05T09:26:26Z",
+  "updated": "2026-07-05T09:32:27Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -1174,6 +1183,14 @@
       "unrealized": 1.6417,
       "realized": -13.9057,
       "total": -12.264
+    },
+    {
+      "ts": "2026-07-05T09:32:27Z",
+      "equity": 390.1082,
+      "available": 299.4828,
+      "unrealized": 1.8662,
+      "realized": -13.9057,
+      "total": -12.0395
     }
   ]
 }
