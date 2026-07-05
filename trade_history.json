@@ -428,9 +428,18 @@
       "resting_at": "2026-07-05T09:31:40Z",
       "braam_trade_id": "BTCUSDT_20260705_CJ_001",
       "status": "RESTING"
+    },
+    "828695898040576512": {
+      "order_id": "828695898040576512",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.16649,
+      "resting_at": "2026-07-05T10:21:38Z",
+      "braam_trade_id": "XLMUSDT_20260705_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-05T09:34:06Z",
+  "updated": "2026-07-05T10:22:25Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -1199,6 +1208,14 @@
       "unrealized": 1.7971,
       "realized": -13.9057,
       "total": -12.1086
+    },
+    {
+      "ts": "2026-07-05T10:22:25Z",
+      "equity": 390.1407,
+      "available": 279.9658,
+      "unrealized": 1.8987,
+      "realized": -13.9057,
+      "total": -12.007
     }
   ]
 }
