@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-05T12:23:33+00:00",
+  "generated_at_utc": "2026-07-05T12:55:29+00:00",
   "all_time": {
     "total_trades": 15,
     "wins": 3,
@@ -44,7 +44,7 @@
       "days_active": 11,
       "pnl_per_day": -0.99,
       "status": "active",
-      "open": 3,
+      "open": 2,
       "pending": 1
     },
     "Mong": {
@@ -93,7 +93,7 @@
       "wr": 21.4,
       "pnl": -10.94,
       "pnl_per_day": -0.99,
-      "open": 3,
+      "open": 2,
       "pending": 1
     },
     {
@@ -487,11 +487,11 @@
     }
   ],
   "live_positions": {
-    "open_count": 5,
+    "open_count": 4,
     "open_long": 0,
-    "open_short": 5,
+    "open_short": 4,
     "pending_count": 3,
-    "capital_open_usd": 500,
+    "capital_open_usd": 400,
     "capital_pending_usd": 300
   },
   "macro": {
