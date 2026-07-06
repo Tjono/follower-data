@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-06T18:27:28Z",
+  "last_updated_iso": "2026-07-06T18:31:02Z",
   "mexc_account": {
-    "unrealized_pnl": -3.344,
-    "equity": 381.0335,
+    "unrealized_pnl": -2.1914,
+    "equity": 382.1861,
     "available": 172.5804,
     "position_margin": 180.3022
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$381.03",
+      "value": "$382.19",
       "status": "ok",
       "action": null
     },
@@ -353,8 +353,8 @@
       "direction": "Short",
       "entry_price": 0.74715982,
       "sl": 0.76896641,
-      "tp1": 0.683,
-      "tp2": 0.5983,
+      "tp1": 0.7225,
+      "tp2": 0.6812,
       "capital_usd": 19.54,
       "leverage": 3,
       "trading_system": "Braam",
@@ -995,9 +995,24 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-06T18:25Z",
+    "feed_generated_utc": "2026-07-06T18:30Z",
     "checked": 12,
-    "in_parity": 12,
-    "drifting": []
+    "in_parity": 11,
+    "drifting": [
+      {
+        "trade_id": "DOGEUSDT_20260626_CB_001",
+        "coin": "DOGEUSDT",
+        "diffs": {
+          "tp1": {
+            "follower": 0.07175039,
+            "master": 0.07452
+          },
+          "tp2": {
+            "follower": 0.06633,
+            "master": 0.07171
+          }
+        }
+      }
+    ]
   }
 }
