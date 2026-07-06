@@ -334,8 +334,15 @@
       "entry_price": 1786.03,
       "opened_at": "2026-07-04T15:09:29Z",
       "braam_trade_id": "ETHUSDT_20260702_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-02T13:21:40Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-02T13:21:40Z",
+      "closed_at": "2026-07-06T21:09:16Z",
+      "close_price": 1814.28,
+      "pnl_usd": -0.9001,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1436783367": {
       "position_id": "1436783367",
@@ -421,8 +428,15 @@
       "entry_price": 6.87,
       "opened_at": "2026-07-06T15:43:46Z",
       "braam_trade_id": "AVAXUSDT_20260706_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-06T12:08:14Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-06T12:08:14Z",
+      "closed_at": "2026-07-06T21:09:50Z",
+      "close_price": 7.043,
+      "pnl_usd": -1.5506,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1437781955": {
       "position_id": "1437781955",
@@ -432,8 +446,15 @@
       "entry_price": 1.1321,
       "opened_at": "2026-07-06T15:41:32Z",
       "braam_trade_id": "XRPUSDT_20260706_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-06T12:30:41Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-06T12:30:41Z",
+      "closed_at": "2026-07-06T21:10:04Z",
+      "close_price": 1.1595,
+      "pnl_usd": -1.4785,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1437781399": {
       "position_id": "1437781399",
@@ -443,8 +464,15 @@
       "entry_price": 7.901,
       "opened_at": "2026-07-06T15:41:11Z",
       "braam_trade_id": "LINKUSDT_20260706_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-06T15:37:31Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-06T15:37:31Z",
+      "closed_at": "2026-07-06T21:09:16Z",
+      "close_price": 8.075,
+      "pnl_usd": -1.3474,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1437795161": {
       "position_id": "1437795161",
@@ -454,8 +482,15 @@
       "entry_price": 212.75,
       "opened_at": "2026-07-06T15:51:16Z",
       "braam_trade_id": "TAOUSDT_20260706_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-06T12:08:16Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-06T12:08:16Z",
+      "closed_at": "2026-07-06T21:10:22Z",
+      "close_price": 219.28,
+      "pnl_usd": -1.8435,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1437817203": {
       "position_id": "1437817203",
@@ -669,7 +704,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-06T20:36:22Z",
+  "updated": "2026-07-06T21:19:52Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2062,6 +2097,14 @@
       "unrealized": -3.4657,
       "realized": -17.638,
       "total": -21.1037
+    },
+    {
+      "ts": "2026-07-06T21:19:52Z",
+      "equity": 374.3846,
+      "available": 260.8449,
+      "unrealized": -3.0129,
+      "realized": -24.7581,
+      "total": -27.771
     }
   ]
 }
