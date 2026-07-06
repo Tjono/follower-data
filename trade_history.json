@@ -456,6 +456,17 @@
       "braam_trade_id": "TAOUSDT_20260706_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-06T12:08:16Z"
+    },
+    "1437817203": {
+      "position_id": "1437817203",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.7472,
+      "opened_at": "2026-07-06T16:08:37Z",
+      "braam_trade_id": "SUIUSDT_20260706_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-06T12:16:27Z"
     }
   },
   "orders": {
@@ -658,7 +669,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-06T16:08:28Z",
+  "updated": "2026-07-06T16:38:23Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -1907,6 +1918,14 @@
       "unrealized": -3.592,
       "realized": -17.638,
       "total": -21.23
+    },
+    {
+      "ts": "2026-07-06T16:38:23Z",
+      "equity": 379.8901,
+      "available": 172.5804,
+      "unrealized": -4.4874,
+      "realized": -17.638,
+      "total": -22.1254
     }
   ]
 }
