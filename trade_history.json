@@ -394,6 +394,50 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1
+    },
+    "1437781877": {
+      "position_id": "1437781877",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 44.59,
+      "opened_at": "2026-07-06T15:41:32Z",
+      "braam_trade_id": "LTCUSDT_20260706_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-06T12:16:28Z"
+    },
+    "1437785082": {
+      "position_id": "1437785082",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 6.87,
+      "opened_at": "2026-07-06T15:43:46Z",
+      "braam_trade_id": "AVAXUSDT_20260706_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-06T12:08:14Z"
+    },
+    "1437781955": {
+      "position_id": "1437781955",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1.1321,
+      "opened_at": "2026-07-06T15:41:32Z",
+      "braam_trade_id": "XRPUSDT_20260706_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-06T12:30:41Z"
+    },
+    "1437781399": {
+      "position_id": "1437781399",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 7.901,
+      "opened_at": "2026-07-06T15:41:11Z",
+      "braam_trade_id": "LINKUSDT_20260706_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-06T15:37:31Z"
     }
   },
   "orders": {
@@ -596,7 +640,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-06T15:38:35Z",
+  "updated": "2026-07-06T15:48:10Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -1821,6 +1865,14 @@
       "unrealized": 2.4172,
       "realized": -16.5054,
       "total": -14.0882
+    },
+    {
+      "ts": "2026-07-06T15:48:10Z",
+      "equity": 385.4253,
+      "available": 154.3525,
+      "unrealized": -0.0883,
+      "realized": -16.5054,
+      "total": -16.5937
     }
   ]
 }
