@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-06T10:34:00+00:00",
+  "generated_at_utc": "2026-07-06T12:09:08+00:00",
   "all_time": {
     "total_trades": 15,
     "wins": 3,
@@ -45,7 +45,7 @@
       "pnl_per_day": -0.91,
       "status": "active",
       "open": 2,
-      "pending": 1
+      "pending": 5
     },
     "Mong": {
       "n": 0,
@@ -94,7 +94,7 @@
       "pnl": -10.94,
       "pnl_per_day": -0.91,
       "open": 2,
-      "pending": 1
+      "pending": 5
     },
     {
       "name": "Mong",
@@ -490,27 +490,27 @@
     "open_count": 4,
     "open_long": 0,
     "open_short": 4,
-    "pending_count": 2,
+    "pending_count": 6,
     "capital_open_usd": 400,
-    "capital_pending_usd": 200
+    "capital_pending_usd": 600
   },
   "macro": {
-    "vix": 16.3,
+    "vix": 16.38,
     "vix_5d": [
       17.65,
       16.45,
       16.59,
       16.15,
-      16.3
+      16.38
     ],
     "vix_ma14": 17.56,
-    "dxy": 101.06,
+    "dxy": 101.08,
     "dxy_5d": [
       101.11,
       101.19,
       101.39,
       100.86,
-      101.06
+      101.08
     ],
     "dxy_ma14": 101.21
   }

@@ -473,9 +473,54 @@
       "resting_at": "2026-07-05T14:08:01Z",
       "braam_trade_id": "NEARUSDT_20260705_CJ_001",
       "status": "RESTING"
+    },
+    "829085123646548480": {
+      "order_id": "829085123646548480",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "entry_price": 0.1815,
+      "resting_at": "2026-07-06T12:08:17Z",
+      "braam_trade_id": "ADAUSDT_20260706_CB_001",
+      "status": "RESTING"
+    },
+    "829085117887704640": {
+      "order_id": "829085117887704640",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "entry_price": 212.75,
+      "resting_at": "2026-07-06T12:08:15Z",
+      "braam_trade_id": "TAOUSDT_20260706_CB_001",
+      "status": "RESTING"
+    },
+    "829085112405996032": {
+      "order_id": "829085112405996032",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 6.87,
+      "resting_at": "2026-07-06T12:08:14Z",
+      "braam_trade_id": "AVAXUSDT_20260706_CB_001",
+      "status": "RESTING"
+    },
+    "829085106550844928": {
+      "order_id": "829085106550844928",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "entry_price": 1.978,
+      "resting_at": "2026-07-06T12:08:12Z",
+      "braam_trade_id": "NEARUSDT_20260706_CB_001",
+      "status": "RESTING"
+    },
+    "829085100141529600": {
+      "order_id": "829085100141529600",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 66886.8,
+      "resting_at": "2026-07-06T12:08:11Z",
+      "braam_trade_id": "BTCUSDT_20260705_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-06T10:34:02Z",
+  "updated": "2026-07-06T12:09:09Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -1604,6 +1649,14 @@
       "unrealized": 1.6291,
       "realized": -14.1323,
       "total": -12.5032
+    },
+    {
+      "ts": "2026-07-06T12:09:09Z",
+      "equity": 391.7933,
+      "available": 234.5591,
+      "unrealized": 3.686,
+      "realized": -14.1323,
+      "total": -10.4463
     }
   ]
 }
