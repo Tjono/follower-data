@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-06T12:47:56+00:00",
+  "generated_at_utc": "2026-07-06T12:58:21+00:00",
   "all_time": {
     "total_trades": 16,
     "wins": 3,
@@ -410,7 +410,7 @@
       "system": "John",
       "pnl_usd": 0.0,
       "won": false,
-      "close_reason": "reconciled: detached mirror position gone from MEXC (Tjom-managed exit)",
+      "close_reason": "detached mirror \u2014 native SL 0.16896 fired 07-05, journal reconciled",
       "iso": "2026-07-06T12:47:00+00:00"
     },
     {
@@ -522,13 +522,13 @@
       16.39
     ],
     "vix_ma14": 17.56,
-    "dxy": 101.09,
+    "dxy": 101.12,
     "dxy_5d": [
       101.11,
       101.19,
       101.39,
       100.86,
-      101.09
+      101.12
     ],
     "dxy_ma14": 101.21
   }

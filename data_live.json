@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-06T12:47:41Z",
+  "last_updated_iso": "2026-07-06T12:58:06Z",
   "mexc_account": {
-    "unrealized_pnl": 4.3492,
-    "equity": 392.3408,
+    "unrealized_pnl": 5.0517,
+    "equity": 393.0433,
     "available": 156.797,
     "position_margin": 102.4033
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$392.34",
+      "value": "$393.04",
       "status": "ok",
       "action": null
     },
@@ -947,9 +947,9 @@
       "trade_id": "ADAUSDT_20260701_CJ_001",
       "coin": "ADAUSDT",
       "direction": "Short",
-      "status": "CLOSED",
+      "status": "STOPPED",
       "pnl_usd": 0.0,
-      "close_reason": "reconciled: detached mirror position gone from MEXC (Tjom-managed exit)",
+      "close_reason": "detached mirror \u2014 native SL 0.16896 fired 07-05, journal reconciled",
       "date_closed": "2026-07-06",
       "time_closed_utc": "12:47",
       "trading_system": "John",
@@ -994,7 +994,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-06T12:29Z",
+    "feed_generated_utc": "2026-07-06T12:56Z",
     "checked": 13,
     "in_parity": 13,
     "drifting": []
