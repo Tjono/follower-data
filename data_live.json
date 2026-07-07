@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-07T21:09:21Z",
+  "last_updated_iso": "2026-07-07T22:07:39Z",
   "mexc_account": {
-    "unrealized_pnl": 7.03,
-    "equity": 384.923,
-    "available": 148.5482,
-    "position_margin": 135.3486
+    "unrealized_pnl": 8.9126,
+    "equity": 387.7502,
+    "available": 159.2374,
+    "position_margin": 125.604
   },
   "order_levels": {
     "checked": 13,
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.1h ago",
+      "value": "0.0h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$384.92",
+      "value": "$387.75",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (8 open, 7 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "SL not trailed: SUIUSDT",
+      "status": "warn",
+      "action": "Runner leg(s) need attention \u2014 verify on MEXC / check the mover cron."
     }
   ],
   "active_trades": [
@@ -1159,7 +1159,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-07T20:06Z",
+    "feed_generated_utc": "2026-07-07T22:06Z",
     "checked": 13,
     "in_parity": 13,
     "drifting": []
