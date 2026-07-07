@@ -729,9 +729,45 @@
       "resting_at": "2026-07-07T04:06:36Z",
       "braam_trade_id": "HBARUSDT_20260707_CB_001",
       "status": "RESTING"
+    },
+    "829386813755206656": {
+      "order_id": "829386813755206656",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 578.4,
+      "resting_at": "2026-07-07T08:07:05Z",
+      "braam_trade_id": "BNBUSDT_20260707_CB_001",
+      "status": "RESTING"
+    },
+    "829386806905687552": {
+      "order_id": "829386806905687552",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "entry_price": 7.925,
+      "resting_at": "2026-07-07T08:07:03Z",
+      "braam_trade_id": "LINKUSDT_20260707_CB_001",
+      "status": "RESTING"
+    },
+    "829386800861680128": {
+      "order_id": "829386800861680128",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.1343,
+      "resting_at": "2026-07-07T08:07:02Z",
+      "braam_trade_id": "XRPUSDT_20260707_CB_001",
+      "status": "RESTING"
+    },
+    "829386794230753792": {
+      "order_id": "829386794230753792",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 6.868,
+      "resting_at": "2026-07-07T08:07:00Z",
+      "braam_trade_id": "AVAXUSDT_20260707_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-07T07:57:31Z",
+  "updated": "2026-07-07T08:08:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2276,6 +2312,14 @@
       "unrealized": 4.4514,
       "realized": -24.7581,
       "total": -20.3067
+    },
+    {
+      "ts": "2026-07-07T08:08:07Z",
+      "equity": 382.8967,
+      "available": 148.5068,
+      "unrealized": 4.9123,
+      "realized": -24.7581,
+      "total": -19.8458
     }
   ]
 }
