@@ -511,7 +511,19 @@
       "entry_price": 578.4,
       "opened_at": "2026-07-07T08:11:44Z",
       "status": "OPEN",
-      "resting_at": "2026-07-07T08:07:06Z"
+      "resting_at": "2026-07-07T08:07:06Z",
+      "braam_trade_id": "BNBUSDT_20260707_CB_001"
+    },
+    "1438417322": {
+      "position_id": "1438417322",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 7.925,
+      "opened_at": "2026-07-07T10:02:49Z",
+      "braam_trade_id": "LINKUSDT_20260707_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-07T08:07:04Z"
     }
   },
   "orders": {
@@ -777,7 +789,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-07T09:24:49Z",
+  "updated": "2026-07-07T10:08:04Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2338,6 +2350,14 @@
       "unrealized": 4.6471,
       "realized": -24.7581,
       "total": -20.111
+    },
+    {
+      "ts": "2026-07-07T10:08:04Z",
+      "equity": 381.6841,
+      "available": 148.5287,
+      "unrealized": 3.7652,
+      "realized": -24.7581,
+      "total": -20.9929
     }
   ]
 }
