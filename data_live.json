@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-07T12:07:35Z",
+  "last_updated_iso": "2026-07-07T12:16:35Z",
   "mexc_account": {
-    "unrealized_pnl": 2.9459,
-    "equity": 380.8648,
+    "unrealized_pnl": 2.7744,
+    "equity": 380.6933,
     "available": 148.5287,
     "position_margin": 116.384
   },
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.0h ago",
+      "value": "0.2h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$380.86",
+      "value": "$380.69",
       "status": "ok",
       "action": null
     },
@@ -568,18 +568,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "TRXUSDT_20260626_CB_001",
-      "coin": "TRXUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.32679843,
-      "live_entry_fill": 0.3268,
-      "tp1_hit": false,
-      "iso": "2026-07-05T12:16:00Z",
-      "_iso_ms": 1783253760000,
-      "rehearsal": false
-    },
     {
       "trade_id": "NEARUSDT_20260706_CB_001",
       "coin": "NEARUSDT",
