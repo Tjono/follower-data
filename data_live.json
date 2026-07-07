@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-07T16:07:39Z",
+  "last_updated_iso": "2026-07-07T16:59:35Z",
   "mexc_account": {
-    "unrealized_pnl": 2.7731,
-    "equity": 380.7001,
-    "available": 148.5368,
-    "position_margin": 116.384
+    "unrealized_pnl": 2.2474,
+    "equity": 380.1404,
+    "available": 148.5482,
+    "position_margin": 135.3486
   },
   "order_levels": {
     "checked": 13,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$380.70",
+      "value": "$380.14",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (6 resting = journal)",
+      "value": "in sync (5 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (7 open, 6 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "\ud83d\udd34 1 NAKED: DOGEUSDT",
+      "status": "urgent",
+      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: DOGEUSDT"
     }
   ],
   "active_trades": [
@@ -420,15 +420,15 @@
       "entry_price": 1.13433524,
       "sl": 1.16393818,
       "tp1": 1.08511785,
-      "tp2": 0.95157226,
+      "tp2": 1.0356,
       "capital_usd": 19.14,
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-07-07",
+      "time_activated_utc": "16:52",
       "date_opened": "2026-07-07",
       "time_opened_utc": "08:03",
       "conviction": "MEDIUM",
@@ -437,11 +437,11 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 1.1343,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": 0.0031,
+      "live_fees_usd": 0.034,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -522,19 +522,6 @@
       "entry_price": 6.86849607,
       "tp1": 6.3882785,
       "sl": 7.06469725,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-07-07T08:03:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "XRPUSDT_20260707_CB_001",
-      "coin": "XRPUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 1.13433524,
-      "tp1": 1.08511785,
-      "sl": 1.16393818,
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-07-07T08:03:00Z",
@@ -672,6 +659,18 @@
       "tp1_hit": false,
       "iso": "2026-07-07T10:02:00Z",
       "_iso_ms": 1783418520000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "XRPUSDT_20260707_CB_001",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 1.13433524,
+      "live_entry_fill": 1.1343,
+      "tp1_hit": false,
+      "iso": "2026-07-07T16:52:00Z",
+      "_iso_ms": 1783443120000,
       "rehearsal": false
     }
   ],
@@ -1152,7 +1151,7 @@
     "peak_capital_usd": 216.52,
     "peak_concurrent": 12,
     "peak_date": "2026-07-06",
-    "deployed_trades": 31,
+    "deployed_trades": 32,
     "return_on_peak_pct": -10.02,
     "win_rate_pct": 13.0,
     "closed_count": 23,
@@ -1174,7 +1173,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-07T16:06Z",
+    "feed_generated_utc": "2026-07-07T16:57Z",
     "checked": 13,
     "in_parity": 13,
     "drifting": []

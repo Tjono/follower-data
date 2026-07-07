@@ -524,6 +524,17 @@
       "braam_trade_id": "LINKUSDT_20260707_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-07T08:07:04Z"
+    },
+    "1438811554": {
+      "position_id": "1438811554",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1.1343,
+      "opened_at": "2026-07-07T16:52:12Z",
+      "braam_trade_id": "XRPUSDT_20260707_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-07T08:07:02Z"
     }
   },
   "orders": {
@@ -789,7 +800,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-07T16:07:55Z",
+  "updated": "2026-07-07T16:59:52Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2486,6 +2497,14 @@
       "unrealized": 2.7731,
       "realized": -24.7581,
       "total": -21.985
+    },
+    {
+      "ts": "2026-07-07T16:59:52Z",
+      "equity": 380.1404,
+      "available": 148.5482,
+      "unrealized": 2.2474,
+      "realized": -24.7581,
+      "total": -22.5107
     }
   ]
 }
