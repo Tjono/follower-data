@@ -502,6 +502,16 @@
       "braam_trade_id": "SUIUSDT_20260706_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-06T12:16:27Z"
+    },
+    "1438348926": {
+      "position_id": "1438348926",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 578.4,
+      "opened_at": "2026-07-07T08:11:44Z",
+      "status": "OPEN",
+      "resting_at": "2026-07-07T08:07:06Z"
     }
   },
   "orders": {
@@ -767,7 +777,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-07T08:08:07Z",
+  "updated": "2026-07-07T09:24:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2320,6 +2330,14 @@
       "unrealized": 4.9123,
       "realized": -24.7581,
       "total": -19.8458
+    },
+    {
+      "ts": "2026-07-07T09:24:49Z",
+      "equity": 382.6003,
+      "available": 148.5173,
+      "unrealized": 4.6471,
+      "realized": -24.7581,
+      "total": -20.111
     }
   ]
 }
