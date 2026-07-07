@@ -711,9 +711,27 @@
       "resting_at": "2026-07-07T00:06:44Z",
       "braam_trade_id": "ETHUSDT_20260707_CJ_001",
       "status": "RESTING"
+    },
+    "829326299490691584": {
+      "order_id": "829326299490691584",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.20065,
+      "resting_at": "2026-07-07T04:06:37Z",
+      "braam_trade_id": "XLMUSDT_20260707_CB_001",
+      "status": "RESTING"
+    },
+    "829326292687867904": {
+      "order_id": "829326292687867904",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.07405,
+      "resting_at": "2026-07-07T04:06:36Z",
+      "braam_trade_id": "HBARUSDT_20260707_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-07T03:23:31Z",
+  "updated": "2026-07-07T04:07:35Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2194,6 +2212,14 @@
       "unrealized": 4.1218,
       "realized": -24.7581,
       "total": -20.6363
+    },
+    {
+      "ts": "2026-07-07T04:07:35Z",
+      "equity": 382.3638,
+      "available": 217.4691,
+      "unrealized": 4.9485,
+      "realized": -24.7581,
+      "total": -19.8096
     }
   ]
 }
