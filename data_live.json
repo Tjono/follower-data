@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-07T19:26:11Z",
+  "last_updated_iso": "2026-07-07T20:07:54Z",
   "mexc_account": {
-    "unrealized_pnl": 7.6253,
-    "equity": 385.5183,
+    "unrealized_pnl": 6.1501,
+    "equity": 384.0431,
     "available": 148.5482,
     "position_margin": 135.3486
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$385.52",
+      "value": "$384.04",
       "status": "ok",
       "action": null
     },
@@ -513,21 +513,7 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "AVAXUSDT_20260707_CB_001",
-      "coin": "AVAXUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 6.86849607,
-      "tp1": 6.3882785,
-      "sl": 7.06469725,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-07-07T08:03:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "NEARUSDT_20260706_CB_001",
@@ -1173,7 +1159,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-07T18:05Z",
+    "feed_generated_utc": "2026-07-07T20:06Z",
     "checked": 13,
     "in_parity": 13,
     "drifting": []
