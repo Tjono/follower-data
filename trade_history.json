@@ -848,9 +848,18 @@
       "resting_at": "2026-07-08T16:30:21Z",
       "braam_trade_id": "TAOUSDT_20260708_CB_001",
       "status": "RESTING"
+    },
+    "829930462679438336": {
+      "order_id": "829930462679438336",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.07442,
+      "resting_at": "2026-07-08T20:07:21Z",
+      "braam_trade_id": "DOGEUSDT_20260708_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-08T19:56:25Z",
+  "updated": "2026-07-08T20:08:29Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2939,6 +2948,14 @@
       "unrealized": 9.8956,
       "realized": -20.2174,
       "total": -10.3218
+    },
+    {
+      "ts": "2026-07-08T20:08:29Z",
+      "equity": 396.3463,
+      "available": 136.8468,
+      "unrealized": 9.5236,
+      "realized": -20.2174,
+      "total": -10.6938
     }
   ]
 }
