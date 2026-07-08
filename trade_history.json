@@ -821,9 +821,18 @@
       "resting_at": "2026-07-08T08:07:05Z",
       "braam_trade_id": "NEARUSDT_20260708_CB_001",
       "status": "RESTING"
+    },
+    "829809520686561344": {
+      "order_id": "829809520686561344",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "entry_price": 211.68,
+      "resting_at": "2026-07-08T12:06:46Z",
+      "braam_trade_id": "TAOUSDT_20260708_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-08T11:43:10Z",
+  "updated": "2026-07-08T12:07:55Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2776,6 +2785,14 @@
       "unrealized": 10.7119,
       "realized": -20.2174,
       "total": -9.5055
+    },
+    {
+      "ts": "2026-07-08T12:07:55Z",
+      "equity": 396.4529,
+      "available": 174.0686,
+      "unrealized": 9.624,
+      "realized": -20.2174,
+      "total": -10.5934
     }
   ]
 }
