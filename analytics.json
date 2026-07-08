@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-08T15:58:23+00:00",
+  "generated_at_utc": "2026-07-08T16:08:53+00:00",
   "all_time": {
     "total_trades": 24,
     "wins": 4,
@@ -45,7 +45,7 @@
       "pnl_per_day": -1.38,
       "status": "active",
       "open": 7,
-      "pending": 5
+      "pending": 6
     },
     "Mong": {
       "n": 0,
@@ -94,7 +94,7 @@
       "pnl": -19.38,
       "pnl_per_day": -1.38,
       "open": 7,
-      "pending": 5
+      "pending": 6
     },
     {
       "name": "Mong",
@@ -401,11 +401,11 @@
       },
       {
         "iso": "2026-07-08",
-        "pct": -0.126
+        "pct": -0.014
       }
     ],
     "ours_pct": -1.243,
-    "spx_pct": -0.126
+    "spx_pct": -0.014
   },
   "by_direction": {
     "Short": {
@@ -657,27 +657,27 @@
     "open_count": 7,
     "open_long": 0,
     "open_short": 7,
-    "pending_count": 7,
+    "pending_count": 8,
     "capital_open_usd": 700,
-    "capital_pending_usd": 700
+    "capital_pending_usd": 800
   },
   "macro": {
-    "vix": 18.21,
+    "vix": 18.39,
     "vix_5d": [
       16.59,
       16.15,
       15.57,
       16.13,
-      18.21
+      18.39
     ],
-    "vix_ma14": 17.45,
-    "dxy": 101.26,
+    "vix_ma14": 17.47,
+    "dxy": 101.25,
     "dxy_5d": [
       101.39,
       100.86,
       100.85,
       101.14,
-      101.26
+      101.25
     ],
     "dxy_ma14": 101.22
   }
