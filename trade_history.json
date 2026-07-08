@@ -798,9 +798,18 @@
       "resting_at": "2026-07-07T08:07:00Z",
       "braam_trade_id": "AVAXUSDT_20260707_CB_001",
       "status": "RESTING"
+    },
+    "829749202824704000": {
+      "order_id": "829749202824704000",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "entry_price": 1.993,
+      "resting_at": "2026-07-08T08:07:05Z",
+      "braam_trade_id": "NEARUSDT_20260708_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-08T07:17:56Z",
+  "updated": "2026-07-08T08:08:12Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2689,6 +2698,14 @@
       "unrealized": 15.462,
       "realized": -24.7581,
       "total": -9.2961
+    },
+    {
+      "ts": "2026-07-08T08:08:12Z",
+      "equity": 393.6082,
+      "available": 139.9445,
+      "unrealized": 14.6908,
+      "realized": -24.7581,
+      "total": -10.0673
     }
   ]
 }
