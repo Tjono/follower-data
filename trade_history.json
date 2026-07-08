@@ -294,8 +294,15 @@
       "entry_price": 0.07718,
       "opened_at": "2026-07-03T15:08:01Z",
       "braam_trade_id": "DOGEUSDT_20260626_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-06-28T14:28:39Z"
+      "status": "CLOSED",
+      "resting_at": "2026-06-28T14:28:39Z",
+      "closed_at": "2026-07-08T08:17:57Z",
+      "close_price": 0.07283,
+      "pnl_usd": 2.1581,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2
     },
     "1435492754": {
       "position_id": "1435492754",
@@ -533,8 +540,15 @@
       "entry_price": 1.1343,
       "opened_at": "2026-07-07T16:52:12Z",
       "braam_trade_id": "XRPUSDT_20260707_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-07T08:07:02Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-07T08:07:02Z",
+      "closed_at": "2026-07-08T08:47:22Z",
+      "close_price": 1.0851,
+      "pnl_usd": 2.3826,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2
     }
   },
   "orders": {
@@ -809,7 +823,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-08T08:08:12Z",
+  "updated": "2026-07-08T08:47:59Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -2706,6 +2720,14 @@
       "unrealized": 14.6908,
       "realized": -24.7581,
       "total": -10.0673
+    },
+    {
+      "ts": "2026-07-08T08:47:59Z",
+      "equity": 396.037,
+      "available": 170.6951,
+      "unrealized": 13.0763,
+      "realized": -20.2174,
+      "total": -7.1411
     }
   ]
 }
