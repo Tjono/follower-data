@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-08T01:09:22Z",
+  "last_updated_iso": "2026-07-08T02:07:49Z",
   "mexc_account": {
-    "unrealized_pnl": 7.7354,
-    "equity": 386.5813,
+    "unrealized_pnl": 12.7198,
+    "equity": 391.5657,
     "available": 159.2457,
     "position_margin": 125.604
   },
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.2h ago",
+      "value": "0.0h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$386.58",
+      "value": "$391.57",
       "status": "ok",
       "action": null
     },
@@ -121,7 +121,7 @@
       "coin": "DOGEUSDT",
       "direction": "Short",
       "entry_price": 0.07718084,
-      "sl": 0.07704,
+      "sl": 0.07561,
       "tp1": 0.07452,
       "tp2": 0.07171,
       "capital_usd": 13.5,
@@ -220,7 +220,7 @@
       "coin": "SUIUSDT",
       "direction": "Short",
       "entry_price": 0.74715982,
-      "sl": 0.74715982,
+      "sl": 0.74694304,
       "tp1": 0.7225,
       "tp2": 0.6812,
       "capital_usd": 19.54,
@@ -1165,7 +1165,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-08T00:06Z",
+    "feed_generated_utc": "2026-07-08T02:06Z",
     "checked": 13,
     "in_parity": 13,
     "drifting": []
