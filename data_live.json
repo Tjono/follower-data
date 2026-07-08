@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-08T21:53:47Z",
+  "last_updated_iso": "2026-07-08T21:58:57Z",
   "mexc_account": {
-    "unrealized_pnl": 10.0496,
-    "equity": 396.8723,
+    "unrealized_pnl": 10.0452,
+    "equity": 396.8679,
     "available": 136.8468,
     "position_margin": 79.5242
   },
@@ -31,7 +31,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "1.0h ago",
+      "value": "0.0h ago",
       "status": "ok",
       "action": null
     },
