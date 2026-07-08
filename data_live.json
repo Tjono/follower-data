@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-08T12:07:37Z",
+  "last_updated_iso": "2026-07-08T12:58:26Z",
   "mexc_account": {
-    "unrealized_pnl": 9.624,
-    "equity": 396.4529,
+    "unrealized_pnl": 10.5098,
+    "equity": 397.3387,
     "available": 174.0686,
     "position_margin": 79.5242
   },
@@ -55,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$396.45",
+      "value": "$397.34",
       "status": "ok",
       "action": null
     },
@@ -577,42 +577,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "NEARUSDT_20260706_CB_001",
-      "coin": "NEARUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 1.97809266,
-      "live_entry_fill": 1.978,
-      "tp1_hit": false,
-      "iso": "2026-07-06T12:09:00Z",
-      "_iso_ms": 1783339740000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "ADAUSDT_20260706_CB_001",
-      "coin": "ADAUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.18153188,
-      "live_entry_fill": 0.1815,
-      "tp1_hit": true,
-      "iso": "2026-07-06T12:12:00Z",
-      "_iso_ms": 1783339920000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "BNBUSDT_20260706_CB_001",
-      "coin": "BNBUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 575.83826457,
-      "live_entry_fill": 576.3,
-      "tp1_hit": false,
-      "iso": "2026-07-06T12:16:00Z",
-      "_iso_ms": 1783340160000,
-      "rehearsal": false
-    },
     {
       "trade_id": "LTCUSDT_20260706_CB_001",
       "coin": "LTCUSDT",
