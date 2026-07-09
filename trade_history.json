@@ -507,8 +507,15 @@
       "entry_price": 0.7472,
       "opened_at": "2026-07-06T16:08:37Z",
       "braam_trade_id": "SUIUSDT_20260706_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-06T12:16:27Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-06T12:16:27Z",
+      "closed_at": "2026-07-09T05:11:36Z",
+      "close_price": 0.727,
+      "pnl_usd": 1.5008,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_trail",
+      "close_fills": 2
     },
     "1438348926": {
       "position_id": "1438348926",
@@ -886,7 +893,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-09T04:33:31Z",
+  "updated": "2026-07-09T05:13:05Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -3103,6 +3110,14 @@
       "unrealized": 8.1784,
       "realized": -20.2174,
       "total": -12.039
+    },
+    {
+      "ts": "2026-07-09T05:13:05Z",
+      "equity": 393.8344,
+      "available": 147.4724,
+      "unrealized": 6.3598,
+      "realized": -18.7166,
+      "total": -12.3568
     }
   ]
 }
