@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-09T02:08:31Z",
+  "last_updated_iso": "2026-07-09T04:13:34Z",
   "mexc_account": {
-    "unrealized_pnl": 9.0157,
-    "equity": 395.8421,
+    "unrealized_pnl": 9.0469,
+    "equity": 395.8733,
     "available": 137.0796,
     "position_margin": 79.5242
   },
@@ -55,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$395.84",
+      "value": "$395.87",
       "status": "ok",
       "action": null
     },
@@ -615,19 +615,6 @@
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "ONDOUSDT_20260708_CB_001",
-      "coin": "ONDOUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.3273517,
-      "tp1": 0.26377055,
-      "sl": 0.33963966,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-07-08T16:04:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "DOGEUSDT_20260708_CB_001",
       "coin": "DOGEUSDT",
@@ -1216,7 +1203,10 @@
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
-    "available": false,
-    "error": "HTTP Error 429: Too Many Requests"
+    "available": true,
+    "feed_generated_utc": "2026-07-09T04:11Z",
+    "checked": 16,
+    "in_parity": 16,
+    "drifting": []
   }
 }
