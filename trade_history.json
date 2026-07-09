@@ -556,6 +556,17 @@
       "close_type": 0,
       "close_reason": "tp1_tp2",
       "close_fills": 2
+    },
+    "1440871864": {
+      "position_id": "1440871864",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 211.68,
+      "opened_at": "2026-07-09T22:41:52Z",
+      "braam_trade_id": "TAOUSDT_20260708_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-09T14:48:59Z"
     }
   },
   "orders": {
@@ -920,7 +931,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-09T22:41:35Z",
+  "updated": "2026-07-09T22:55:18Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -3361,6 +3372,14 @@
       "unrealized": 6.8922,
       "realized": -18.7166,
       "total": -11.8244
+    },
+    {
+      "ts": "2026-07-09T22:55:18Z",
+      "equity": 393.9432,
+      "available": 147.2828,
+      "unrealized": 6.4765,
+      "realized": -18.7166,
+      "total": -12.2401
     }
   ]
 }
