@@ -958,9 +958,18 @@
       "resting_at": "2026-07-09T18:39:19Z",
       "braam_trade_id": "DOGEUSDT_20260708_CB_001",
       "status": "RESTING"
+    },
+    "830534610709833217": {
+      "order_id": "830534610709833217",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.31919,
+      "resting_at": "2026-07-10T12:08:01Z",
+      "braam_trade_id": "TRXUSDT_20260710_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-10T11:16:04Z",
+  "updated": "2026-07-10T12:09:08Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -3545,6 +3554,14 @@
       "unrealized": 2.1158,
       "realized": -17.2443,
       "total": -15.1285
+    },
+    {
+      "ts": "2026-07-10T12:09:08Z",
+      "equity": 392.2678,
+      "available": 146.0435,
+      "unrealized": 3.2051,
+      "realized": -17.2443,
+      "total": -14.0392
     }
   ]
 }
