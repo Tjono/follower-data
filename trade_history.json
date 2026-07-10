@@ -585,6 +585,17 @@
       "braam_trade_id": "DOGEUSDT_20260708_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-09T18:39:20Z"
+    },
+    "1441223362": {
+      "position_id": "1441223362",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.3274,
+      "opened_at": "2026-07-10T10:24:16Z",
+      "braam_trade_id": "ONDOUSDT_20260708_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-08T16:07:40Z"
     }
   },
   "orders": {
@@ -949,7 +960,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-10T10:07:39Z",
+  "updated": "2026-07-10T11:07:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -3518,6 +3529,14 @@
       "unrealized": 2.8748,
       "realized": -17.2443,
       "total": -14.3695
+    },
+    {
+      "ts": "2026-07-10T11:07:57Z",
+      "equity": 391.6402,
+      "available": 165.2809,
+      "unrealized": 2.5835,
+      "realized": -17.2443,
+      "total": -14.6608
     }
   ]
 }
