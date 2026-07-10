@@ -536,8 +536,15 @@
       "entry_price": 7.925,
       "opened_at": "2026-07-07T10:02:49Z",
       "braam_trade_id": "LINKUSDT_20260707_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-07T08:07:04Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-07T08:07:04Z",
+      "closed_at": "2026-07-10T01:48:35Z",
+      "close_price": 7.711,
+      "pnl_usd": 1.4723,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2
     },
     "1438811554": {
       "position_id": "1438811554",
@@ -931,7 +938,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-10T00:08:53Z",
+  "updated": "2026-07-10T02:08:36Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -3404,6 +3411,14 @@
       "unrealized": 7.4988,
       "realized": -18.7166,
       "total": -11.2178
+    },
+    {
+      "ts": "2026-07-10T02:08:36Z",
+      "equity": 392.8098,
+      "available": 165.178,
+      "unrealized": 3.7671,
+      "realized": -17.2443,
+      "total": -13.4772
     }
   ]
 }
