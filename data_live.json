@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-10T16:00:45Z",
+  "last_updated_iso": "2026-07-10T16:08:18Z",
   "mexc_account": {
-    "unrealized_pnl": 3.9806,
-    "equity": 393.0592,
+    "unrealized_pnl": 4.1472,
+    "equity": 393.2258,
     "available": 146.0595,
     "position_margin": 110.4069
   },
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.9h ago",
+      "value": "0.0h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$393.06",
+      "value": "$393.23",
       "status": "ok",
       "action": null
     },
@@ -154,7 +154,7 @@
       "coin": "ADAUSDT",
       "direction": "Short",
       "entry_price": 0.18153188,
-      "sl": 0.17362448,
+      "sl": 0.17348142,
       "tp1": 0.16547526,
       "tp2": 0.1508,
       "capital_usd": 19.6,
@@ -1184,7 +1184,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-10T14:06Z",
+    "feed_generated_utc": "2026-07-10T16:06Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
