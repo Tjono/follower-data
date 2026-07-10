@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-10T08:57:56Z",
+  "last_updated_iso": "2026-07-10T09:04:13Z",
   "mexc_account": {
-    "unrealized_pnl": 2.9486,
-    "equity": 392.0407,
+    "unrealized_pnl": 2.9164,
+    "equity": 392.0085,
     "available": 165.2691,
     "position_margin": 90.7003
   },
@@ -12,9 +12,7 @@
     "checked": 13,
     "in_sync": 13,
     "drifted": [],
-    "reconciling": [
-      "XRP"
-    ],
+    "reconciling": [],
     "detail": []
   },
   "api_keys": [],
@@ -55,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$392.04",
+      "value": "$392.01",
       "status": "ok",
       "action": null
     },
@@ -350,46 +348,13 @@
       "rehearsal": false
     },
     {
-      "trade_id": "XRPUSDT_20260707_CB_001",
-      "coin": "XRPUSDT",
-      "direction": "Short",
-      "entry_price": 1.13433524,
-      "sl": 1.1123483,
-      "tp1": 1.08511785,
-      "tp2": 1.0356,
-      "capital_usd": 19.14,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-07-07",
-      "time_activated_utc": "16:52",
-      "date_opened": "2026-07-07",
-      "time_opened_utc": "08:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": true,
-      "sl_moved_to_be": true,
-      "pnl_tp1_realized_usd": 0.24,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": true,
-      "live_executed": true,
-      "live_entry_fill": 1.1343,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0031,
-      "live_fees_usd": 0.034,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": 1.24,
-      "rehearsal": false
-    },
-    {
       "trade_id": "BNBUSDT_20260707_CB_001",
       "coin": "BNBUSDT",
       "direction": "Short",
       "entry_price": 578.38143879,
       "sl": 589.58155613,
-      "tp1": 562.28,
-      "tp2": 547.57,
+      "tp1": 561.38,
+      "tp2": 547.78,
       "capital_usd": 19.14,
       "leverage": 3,
       "trading_system": "Braam",
@@ -1095,6 +1060,26 @@
       "won": true,
       "close_iso": "2026-07-10T02:07:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "XRPUSDT_20260707_CB_001",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "status": "STOPPED_AFTER_TP1",
+      "pnl_usd": 1.8,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
+      "date_closed": "2026-07-10",
+      "time_closed_utc": "09:03",
+      "trading_system": "Braam",
+      "live_entry_fill": 1.1343,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": 0.0031,
+      "live_fees_usd": 0.034,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": true,
+      "close_iso": "2026-07-10T09:03:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
@@ -1110,29 +1095,23 @@
       "direction": "Short",
       "trading_system": "Braam",
       "entry_price": 0.18153188
-    },
-    {
-      "coin": "XRPUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 1.13433524
     }
   ],
   "stats": {
-    "realized_pnl_usd": -17.38,
-    "realized_pnl_pct": -4.02,
+    "realized_pnl_usd": -15.58,
+    "realized_pnl_pct": -3.45,
     "peak_capital_usd": 216.52,
     "peak_concurrent": 12,
     "peak_date": "2026-07-06",
     "deployed_trades": 34,
-    "return_on_peak_pct": -8.03,
-    "win_rate_pct": 23.1,
-    "closed_count": 26,
+    "return_on_peak_pct": -7.2,
+    "win_rate_pct": 25.9,
+    "closed_count": 27,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -16.12,
-        "win_rate_pct": 26.1,
-        "closed_count": 23
+        "realized_pnl_usd": -14.32,
+        "win_rate_pct": 29.2,
+        "closed_count": 24
       },
       "John": {
         "realized_pnl_usd": -1.26,
@@ -1146,9 +1125,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-10T08:56Z",
-    "checked": 14,
-    "in_parity": 14,
+    "feed_generated_utc": "2026-07-10T09:02Z",
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   }
 }
