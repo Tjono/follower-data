@@ -967,9 +967,18 @@
       "resting_at": "2026-07-10T12:08:01Z",
       "braam_trade_id": "TRXUSDT_20260710_CJ_001",
       "status": "RESTING"
+    },
+    "830836307398977536": {
+      "order_id": "830836307398977536",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.1627,
+      "resting_at": "2026-07-11T08:06:51Z",
+      "braam_trade_id": "ADAUSDT_20260711_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-11T06:25:59Z",
+  "updated": "2026-07-11T08:07:58Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -3810,6 +3819,14 @@
       "unrealized": 1.611,
       "realized": -17.2443,
       "total": -15.6333
+    },
+    {
+      "ts": "2026-07-11T08:07:58Z",
+      "equity": 392.1568,
+      "available": 126.492,
+      "unrealized": 2.9735,
+      "realized": -17.2443,
+      "total": -14.2708
     }
   ]
 }
