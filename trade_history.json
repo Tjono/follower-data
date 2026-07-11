@@ -377,8 +377,15 @@
       "entry_price": 0.1815,
       "opened_at": "2026-07-06T12:12:04Z",
       "braam_trade_id": "ADAUSDT_20260706_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-06T12:08:17Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-06T12:08:17Z",
+      "closed_at": "2026-07-11T15:33:00Z",
+      "close_price": 0.1692,
+      "pnl_usd": 3.885,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_trail",
+      "close_fills": 2
     },
     "1437581181": {
       "position_id": "1437581181",
@@ -1005,7 +1012,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-11T15:14:30Z",
+  "updated": "2026-07-11T16:07:48Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4054,6 +4061,14 @@
       "unrealized": -1.5213,
       "realized": -17.2443,
       "total": -18.7656
+    },
+    {
+      "ts": "2026-07-11T16:07:48Z",
+      "equity": 388.9711,
+      "available": 137.9154,
+      "unrealized": -1.6335,
+      "realized": -13.3593,
+      "total": -14.9928
     }
   ]
 }

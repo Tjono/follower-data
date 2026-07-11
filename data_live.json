@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-11T15:14:15Z",
+  "last_updated_iso": "2026-07-11T16:07:31Z",
   "mexc_account": {
-    "unrealized_pnl": -1.5213,
-    "equity": 387.668,
-    "available": 126.7285,
-    "position_margin": 110.4069
+    "unrealized_pnl": -1.6335,
+    "equity": 388.9711,
+    "available": 137.9154,
+    "position_margin": 100.6354
   },
   "order_levels": {
-    "checked": 15,
-    "in_sync": 15,
+    "checked": 14,
+    "in_sync": 14,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$387.67",
+      "value": "$388.97",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (7 open, 5 pre-TP1 runners)",
+      "value": "all protected (6 open, 5 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -147,39 +147,6 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "ADAUSDT_20260706_CB_001",
-      "coin": "ADAUSDT",
-      "direction": "Short",
-      "entry_price": 0.18153188,
-      "sl": 0.17267496,
-      "tp1": 0.16547526,
-      "tp2": 0.1508,
-      "capital_usd": 19.6,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-07-06",
-      "time_activated_utc": "12:12",
-      "date_opened": "2026-07-06",
-      "time_opened_utc": "12:05",
-      "conviction": "MEDIUM",
-      "tp1_hit": true,
-      "sl_moved_to_be": true,
-      "pnl_tp1_realized_usd": 0.51,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": true,
-      "live_executed": true,
-      "live_entry_fill": 0.1815,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0176,
-      "live_fees_usd": 0.0351,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": 2.6,
       "rehearsal": false
     },
     {
@@ -1172,6 +1139,26 @@
       "won": true,
       "close_iso": "2026-07-10T09:03:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20260706_CB_001",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "status": "STOPPED_AFTER_TP1",
+      "pnl_usd": 4.03,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
+      "date_closed": "2026-07-11",
+      "time_closed_utc": "16:07",
+      "trading_system": "Braam",
+      "live_entry_fill": 0.1815,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": 0.0176,
+      "live_fees_usd": 0.0351,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": true,
+      "close_iso": "2026-07-11T16:07:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
@@ -1181,29 +1168,23 @@
       "direction": "Short",
       "trading_system": "Braam",
       "entry_price": 0.09045899
-    },
-    {
-      "coin": "ADAUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.18153188
     }
   ],
   "stats": {
-    "realized_pnl_usd": -15.58,
-    "realized_pnl_pct": -3.45,
+    "realized_pnl_usd": -11.55,
+    "realized_pnl_pct": -2.45,
     "peak_capital_usd": 216.52,
     "peak_concurrent": 12,
     "peak_date": "2026-07-06",
     "deployed_trades": 35,
-    "return_on_peak_pct": -7.2,
-    "win_rate_pct": 25.9,
-    "closed_count": 27,
+    "return_on_peak_pct": -5.33,
+    "win_rate_pct": 28.6,
+    "closed_count": 28,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -14.32,
-        "win_rate_pct": 29.2,
-        "closed_count": 24
+        "realized_pnl_usd": -10.29,
+        "win_rate_pct": 32.0,
+        "closed_count": 25
       },
       "John": {
         "realized_pnl_usd": -1.26,
@@ -1217,9 +1198,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-11T14:16Z",
-    "checked": 15,
-    "in_parity": 15,
+    "feed_generated_utc": "2026-07-11T16:05Z",
+    "checked": 14,
+    "in_parity": 14,
     "drifting": []
   }
 }
