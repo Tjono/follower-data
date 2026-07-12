@@ -603,6 +603,17 @@
       "braam_trade_id": "ONDOUSDT_20260708_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-08T16:07:40Z"
+    },
+    "1442537883": {
+      "position_id": "1442537883",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.1627,
+      "opened_at": "2026-07-12T06:27:10Z",
+      "braam_trade_id": "ADAUSDT_20260711_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-11T08:27:15Z"
     }
   },
   "orders": {
@@ -1030,7 +1041,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-12T06:27:02Z",
+  "updated": "2026-07-12T06:47:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4287,6 +4298,14 @@
       "unrealized": 5.663,
       "realized": -13.3593,
       "total": -7.6963
+    },
+    {
+      "ts": "2026-07-12T06:47:07Z",
+      "equity": 395.5481,
+      "available": 117.9495,
+      "unrealized": 4.903,
+      "realized": -13.3593,
+      "total": -8.4563
     }
   ]
 }
