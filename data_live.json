@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-12T22:06:19Z",
+  "last_updated_iso": "2026-07-12T22:08:39Z",
   "mexc_account": {
-    "unrealized_pnl": 4.9679,
-    "equity": 395.6498,
+    "unrealized_pnl": 4.9224,
+    "equity": 395.6043,
     "available": 78.6244,
     "position_margin": 120.2606
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$395.65",
+      "value": "$395.60",
       "status": "ok",
       "action": null
     },
@@ -88,7 +88,7 @@
       "coin": "ALGOUSDT",
       "direction": "Short",
       "entry_price": 0.09045899,
-      "sl": 0.08646642,
+      "sl": 0.08579301,
       "tp1": 0.0839,
       "tp2": 0.0819,
       "capital_usd": 13.5,
@@ -1259,7 +1259,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-12T20:06Z",
+    "feed_generated_utc": "2026-07-12T22:06Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
