@@ -1019,9 +1019,18 @@
       "resting_at": "2026-07-12T00:06:56Z",
       "braam_trade_id": "ONDOUSDT_20260712_CJ_001",
       "status": "RESTING"
+    },
+    "831138258158467584": {
+      "order_id": "831138258158467584",
+      "coin": "BNBUSDT",
+      "direction": "Long",
+      "entry_price": 549.9,
+      "resting_at": "2026-07-12T04:06:42Z",
+      "braam_trade_id": "BNBUSDT_20260712_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-12T03:54:10Z",
+  "updated": "2026-07-12T04:07:47Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4246,6 +4255,14 @@
       "unrealized": 3.1677,
       "realized": -13.3593,
       "total": -10.1916
+    },
+    {
+      "ts": "2026-07-12T04:07:47Z",
+      "equity": 393.5612,
+      "available": 117.8738,
+      "unrealized": 2.9449,
+      "realized": -13.3593,
+      "total": -10.4144
     }
   ]
 }
