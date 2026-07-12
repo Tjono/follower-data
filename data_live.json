@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-12T10:14:03Z",
+  "last_updated_iso": "2026-07-12T10:58:14Z",
   "mexc_account": {
-    "unrealized_pnl": 4.2097,
-    "equity": 394.8616,
+    "unrealized_pnl": 3.8944,
+    "equity": 394.5463,
     "available": 78.5944,
     "position_margin": 120.2606
   },
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.0h ago",
+      "value": "0.7h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$394.86",
+      "value": "$394.55",
       "status": "ok",
       "action": null
     },
@@ -700,18 +700,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "ONDOUSDT_20260708_CB_001",
-      "coin": "ONDOUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.3273517,
-      "live_entry_fill": 0.3274,
-      "tp1_hit": false,
-      "iso": "2026-07-10T10:24:00Z",
-      "_iso_ms": 1783679040000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ADAUSDT_20260711_CJ_001",
       "coin": "ADAUSDT",
