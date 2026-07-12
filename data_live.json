@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-12T11:31:21Z",
+  "last_updated_iso": "2026-07-12T12:05:55Z",
   "mexc_account": {
-    "unrealized_pnl": 3.3787,
-    "equity": 394.0306,
-    "available": 78.5944,
+    "unrealized_pnl": 2.848,
+    "equity": 393.505,
+    "available": 78.5994,
     "position_margin": 120.2606
   },
   "order_levels": {
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.0h ago",
+      "value": "0.6h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$394.03",
+      "value": "$393.50",
       "status": "ok",
       "action": null
     },
@@ -646,19 +646,6 @@
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "ONDOUSDT_20260712_CJ_001",
-      "coin": "ONDOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.28866523,
-      "tp1": 0.34629018,
-      "sl": 0.28189831,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-07-12T00:03:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "SOLUSDT_20260712_CB_001",
       "coin": "SOLUSDT",
