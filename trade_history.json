@@ -1167,9 +1167,63 @@
       "resting_at": "2026-07-13T08:07:48Z",
       "braam_trade_id": "ETHUSDT_20260707_CJ_001",
       "status": "RESTING"
+    },
+    "831634731677506048": {
+      "order_id": "831634731677506048",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.0848,
+      "resting_at": "2026-07-13T12:59:30Z",
+      "braam_trade_id": "ALGOUSDT_20260713_CB_001",
+      "status": "RESTING"
+    },
+    "831634720428267520": {
+      "order_id": "831634720428267520",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.1042,
+      "resting_at": "2026-07-13T12:59:28Z",
+      "braam_trade_id": "XRPUSDT_20260712_CB_001",
+      "status": "RESTING"
+    },
+    "831634710722734080": {
+      "order_id": "831634710722734080",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "entry_price": 0.1683,
+      "resting_at": "2026-07-13T12:59:25Z",
+      "braam_trade_id": "ADAUSDT_20260712_CB_001",
+      "status": "RESTING"
+    },
+    "831634696617572352": {
+      "order_id": "831634696617572352",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "entry_price": 1.993,
+      "resting_at": "2026-07-13T12:59:22Z",
+      "braam_trade_id": "NEARUSDT_20260708_CB_001",
+      "status": "RESTING"
+    },
+    "831634682612823040": {
+      "order_id": "831634682612823040",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.20065,
+      "resting_at": "2026-07-13T12:59:19Z",
+      "braam_trade_id": "XLMUSDT_20260707_CB_001",
+      "status": "RESTING"
+    },
+    "831634669144471552": {
+      "order_id": "831634669144471552",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1858.21,
+      "resting_at": "2026-07-13T12:59:16Z",
+      "braam_trade_id": "ETHUSDT_20260707_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T12:34:03Z",
+  "updated": "2026-07-13T13:00:46Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4898,6 +4952,14 @@
       "unrealized": 6.7778,
       "realized": -11.2897,
       "total": -4.5119
+    },
+    {
+      "ts": "2026-07-13T13:00:46Z",
+      "equity": 401.7498,
+      "available": 89.6225,
+      "unrealized": 6.7754,
+      "realized": -11.2897,
+      "total": -4.5143
     }
   ]
 }
