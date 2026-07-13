@@ -1230,9 +1230,18 @@
       "resting_at": "2026-07-13T13:13:01Z",
       "braam_trade_id": "ADAUSDT_20260712_CB_001",
       "status": "RESTING"
+    },
+    "831638478797370368": {
+      "order_id": "831638478797370368",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "entry_price": 0.1683,
+      "resting_at": "2026-07-13T13:14:24Z",
+      "braam_trade_id": "ADAUSDT_20260712_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T13:14:15Z",
+  "updated": "2026-07-13T13:51:56Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4977,6 +4986,14 @@
       "unrealized": 7.2234,
       "realized": -11.2897,
       "total": -4.0663
+    },
+    {
+      "ts": "2026-07-13T13:51:56Z",
+      "equity": 403.1224,
+      "available": 89.6225,
+      "unrealized": 8.148,
+      "realized": -11.2897,
+      "total": -3.1417
     }
   ]
 }

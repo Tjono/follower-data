@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-13T13:13:56Z",
+  "last_updated_iso": "2026-07-13T13:51:31Z",
   "mexc_account": {
-    "unrealized_pnl": 7.2234,
-    "equity": 402.1978,
+    "unrealized_pnl": 8.148,
+    "equity": 403.1224,
     "available": 89.6225,
     "position_margin": 111.9631
   },
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.0h ago",
+      "value": "0.6h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$402.20",
+      "value": "$403.12",
       "status": "ok",
       "action": null
     },
@@ -69,9 +69,9 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (10 resting = journal)",
-      "status": "ok",
-      "action": null
+      "value": "1 ORPHAN order(s) on MEXC",
+      "status": "urgent",
+      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): ADA_USDT Short @ 0.1683 (id 831638478797370368)"
     },
     {
       "key": "position_protection",
