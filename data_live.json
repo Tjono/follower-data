@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-13T21:34:10Z",
+  "last_updated_iso": "2026-07-13T22:08:11Z",
   "mexc_account": {
-    "unrealized_pnl": 8.2372,
-    "equity": 406.4207,
-    "available": 112.6515,
-    "position_margin": 92.1433
+    "unrealized_pnl": 7.1834,
+    "equity": 406.3722,
+    "available": 123.496,
+    "position_margin": 82.304
   },
   "order_levels": {
     "checked": 17,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$406.42",
+      "value": "$406.37",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (7 open, 3 pre-TP1 runners)",
+      "value": "all protected (7 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -319,7 +319,7 @@
       "coin": "ONDOUSDT",
       "direction": "Short",
       "entry_price": 0.3273517,
-      "sl": 0.32338919,
+      "sl": 0.32233996,
       "tp1": 0.3146,
       "tp2": 0.2986,
       "capital_usd": 19.91,
@@ -451,7 +451,7 @@
       "coin": "SOLUSDT",
       "direction": "Short",
       "entry_price": 78.01515893,
-      "sl": 77.10374765,
+      "sl": 76.97205139,
       "tp1": 75.91,
       "tp2": 70.56,
       "capital_usd": 19.75,
@@ -616,7 +616,7 @@
       "coin": "SUIUSDT",
       "direction": "Short",
       "entry_price": 0.73561429,
-      "sl": 0.75558134,
+      "sl": 0.73561429,
       "tp1": 0.7107,
       "tp2": 0.679,
       "capital_usd": 20.02,
@@ -630,18 +630,18 @@
       "date_opened": "2026-07-13",
       "time_opened_utc": "04:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.2,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 0.7356,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0019,
       "live_fees_usd": 0.0357,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 1.0,
       "rehearsal": false
     }
   ],
@@ -690,7 +690,7 @@
       "trading_system": "Braam",
       "entry_price": 0.73561429,
       "live_entry_fill": 0.7356,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-07-13T08:49:00Z",
       "_iso_ms": 1783932540000,
       "rehearsal": false
@@ -1343,6 +1343,12 @@
       "direction": "Short",
       "trading_system": "Braam",
       "entry_price": 78.01515893
+    },
+    {
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 0.73561429
     }
   ],
   "stats": {
@@ -1373,7 +1379,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-13T20:06Z",
+    "feed_generated_utc": "2026-07-13T22:06Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
