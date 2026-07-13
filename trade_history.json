@@ -1221,9 +1221,18 @@
       "resting_at": "2026-07-13T12:59:16Z",
       "braam_trade_id": "ETHUSDT_20260707_CJ_001",
       "status": "RESTING"
+    },
+    "831638129390872064": {
+      "order_id": "831638129390872064",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "entry_price": 0.1683,
+      "resting_at": "2026-07-13T13:13:01Z",
+      "braam_trade_id": "ADAUSDT_20260712_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T13:00:46Z",
+  "updated": "2026-07-13T13:14:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4960,6 +4969,14 @@
       "unrealized": 6.7754,
       "realized": -11.2897,
       "total": -4.5143
+    },
+    {
+      "ts": "2026-07-13T13:14:15Z",
+      "equity": 402.1978,
+      "available": 89.6225,
+      "unrealized": 7.2234,
+      "realized": -11.2897,
+      "total": -4.0663
     }
   ]
 }
