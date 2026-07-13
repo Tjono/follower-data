@@ -1109,9 +1109,36 @@
       "resting_at": "2026-07-12T13:28:50Z",
       "braam_trade_id": "ADAUSDT_20260712_CB_001",
       "status": "RESTING"
+    },
+    "831501621236185600": {
+      "order_id": "831501621236185600",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "entry_price": 0.7356,
+      "resting_at": "2026-07-13T04:10:34Z",
+      "braam_trade_id": "SUIUSDT_20260713_CB_001",
+      "status": "RESTING"
+    },
+    "831501615512049664": {
+      "order_id": "831501615512049664",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "entry_price": 7.964,
+      "resting_at": "2026-07-13T04:10:33Z",
+      "braam_trade_id": "LINKUSDT_20260713_CB_001",
+      "status": "RESTING"
+    },
+    "831501608390219264": {
+      "order_id": "831501608390219264",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.0848,
+      "resting_at": "2026-07-13T04:10:31Z",
+      "braam_trade_id": "ALGOUSDT_20260713_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T03:57:19Z",
+  "updated": "2026-07-13T04:11:59Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4720,6 +4747,14 @@
       "unrealized": 6.2732,
       "realized": -11.2897,
       "total": -5.0165
+    },
+    {
+      "ts": "2026-07-13T04:11:59Z",
+      "equity": 400.4644,
+      "available": 78.0577,
+      "unrealized": 6.2971,
+      "realized": -11.2897,
+      "total": -4.9926
     }
   ]
 }
