@@ -639,6 +639,17 @@
       "status": "OPEN",
       "resting_at": "2026-07-12T08:07:05Z",
       "braam_trade_id": "SOLUSDT_20260712_CB_001"
+    },
+    "1443278471": {
+      "position_id": "1443278471",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 7.964,
+      "opened_at": "2026-07-13T06:01:51Z",
+      "braam_trade_id": "LINKUSDT_20260713_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-13T04:10:34Z"
     }
   },
   "orders": {
@@ -1138,7 +1149,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T04:51:06Z",
+  "updated": "2026-07-13T06:08:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4763,6 +4774,14 @@
       "unrealized": 5.921,
       "realized": -11.2897,
       "total": -5.3687
+    },
+    {
+      "ts": "2026-07-13T06:08:49Z",
+      "equity": 399.7954,
+      "available": 78.1339,
+      "unrealized": 5.5997,
+      "realized": -11.2897,
+      "total": -5.69
     }
   ]
 }
