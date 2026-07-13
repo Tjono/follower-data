@@ -623,7 +623,8 @@
       "entry_price": 78.02,
       "opened_at": "2026-07-13T00:11:00Z",
       "status": "OPEN",
-      "resting_at": "2026-07-12T08:07:05Z"
+      "resting_at": "2026-07-12T08:07:05Z",
+      "braam_trade_id": "SOLUSDT_20260712_CB_001"
     }
   },
   "orders": {
@@ -1096,7 +1097,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T01:12:20Z",
+  "updated": "2026-07-13T02:08:33Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4689,6 +4690,14 @@
       "unrealized": 4.88,
       "realized": -13.3593,
       "total": -8.4793
+    },
+    {
+      "ts": "2026-07-13T02:08:33Z",
+      "equity": 398.5036,
+      "available": 78.6404,
+      "unrealized": 7.8494,
+      "realized": -13.3593,
+      "total": -5.5099
     }
   ]
 }
