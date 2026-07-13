@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-07-13T20:01:58+00:00",
+  "generated_at_utc": "2026-07-13T20:08:22+00:00",
   "all_time": {
-    "total_trades": 30,
-    "wins": 9,
+    "total_trades": 31,
+    "wins": 10,
     "losses": 21,
-    "win_rate": 30.0,
-    "total_pnl_usd": -10.15,
-    "avg_pnl_usd": -0.34,
+    "win_rate": 32.3,
+    "total_pnl_usd": -8.52,
+    "avg_pnl_usd": -0.27,
     "best_usd": 4.03,
     "worst_usd": -2.34,
-    "avg_win_usd": 1.87,
+    "avg_win_usd": 1.84,
     "avg_loss_usd": -1.28,
-    "expectancy_usd": -0.34,
-    "profit_factor": 0.62,
+    "expectancy_usd": -0.27,
+    "profit_factor": 0.68,
     "longest_win_streak": 6,
     "longest_loss_streak": 16,
-    "current_streak_type": "loss",
+    "current_streak_type": "win",
     "current_streak_count": 1,
-    "avg_hold_hours": 43.2,
-    "median_hold_hours": 22.9
+    "avg_hold_hours": 44.9,
+    "median_hold_hours": 23.2
   },
   "by_system": {
     "John": {
@@ -35,16 +35,16 @@
       "pending": 3
     },
     "Braam": {
-      "n": 26,
-      "wins": 9,
-      "wr": 34.6,
-      "pnl": -7.76,
-      "avg": -0.3,
+      "n": 27,
+      "wins": 10,
+      "wr": 37.0,
+      "pnl": -6.13,
+      "avg": -0.23,
       "inception": "2026-06-24",
       "days_active": 19,
-      "pnl_per_day": -0.41,
+      "pnl_per_day": -0.32,
       "status": "active",
-      "open": 8,
+      "open": 7,
       "pending": 7
     },
     "Mong": {
@@ -88,12 +88,12 @@
       "name": "Braam",
       "inception": "2026-06-24",
       "days_active": 19,
-      "closed": 26,
-      "wins": 9,
-      "wr": 34.6,
-      "pnl": -7.76,
-      "pnl_per_day": -0.41,
-      "open": 8,
+      "closed": 27,
+      "wins": 10,
+      "wr": 37.0,
+      "pnl": -6.13,
+      "pnl_per_day": -0.32,
+      "open": 7,
       "pending": 7
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "month": "2026-07",
-      "n": 27,
-      "wins": 8,
-      "wr": 29.6,
-      "pnl": -10.62,
-      "cumulative_pnl": -10.15
+      "n": 28,
+      "wins": 9,
+      "wr": 32.1,
+      "pnl": -8.99,
+      "cumulative_pnl": -8.52
     }
   ],
   "equity_curve": [
@@ -307,6 +307,12 @@
       "pnl": -1.13,
       "cumulative": -10.15,
       "won": false
+    },
+    {
+      "iso": "2026-07-13T20:07:00+00:00",
+      "pnl": 1.63,
+      "cumulative": -8.52,
+      "won": true
     }
   ],
   "benchmark": {
@@ -432,6 +438,10 @@
       {
         "iso": "2026-07-13",
         "pct": -0.611
+      },
+      {
+        "iso": "2026-07-13",
+        "pct": -0.513
       }
     ],
     "spx": [
@@ -473,19 +483,19 @@
       },
       {
         "iso": "2026-07-13",
-        "pct": 1.013
+        "pct": 1.007
       }
     ],
-    "ours_pct": -0.611,
-    "spx_pct": 1.013
+    "ours_pct": -0.513,
+    "spx_pct": 1.007
   },
   "by_direction": {
     "Short": {
-      "n": 28,
-      "wins": 9,
-      "wr": 32.1,
-      "pnl": -8.82,
-      "avg": -0.32
+      "n": 29,
+      "wins": 10,
+      "wr": 34.5,
+      "pnl": -7.19,
+      "avg": -0.25
     },
     "Long": {
       "n": 2,
@@ -497,11 +507,11 @@
   },
   "by_conviction": {
     "MEDIUM": {
-      "n": 26,
-      "wins": 9,
-      "wr": 34.6,
-      "pnl": -7.76,
-      "avg": -0.3
+      "n": 27,
+      "wins": 10,
+      "wr": 37.0,
+      "pnl": -6.13,
+      "avg": -0.23
     },
     "HIGH": {
       "n": 4,
@@ -562,11 +572,11 @@
   "worst_coins": [
     {
       "coin": "TAO",
-      "n": 2,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -3.78,
-      "avg": -1.89
+      "n": 3,
+      "wins": 1,
+      "wr": 33.3,
+      "pnl": -2.15,
+      "avg": -0.72
     },
     {
       "coin": "BNB",
@@ -624,6 +634,16 @@
     "conviction": "MEDIUM"
   },
   "recent_closes": [
+    {
+      "trade_id": "TAOUSDT_20260708_CB_001",
+      "coin": "TAO",
+      "direction": "Short",
+      "system": "Braam",
+      "pnl_usd": 1.63,
+      "won": true,
+      "close_reason": "reconciled: position gone from MEXC; master TP2_HIT",
+      "iso": "2026-07-13T20:07:00+00:00"
+    },
     {
       "trade_id": "ADAUSDT_20260711_CJ_001",
       "coin": "ADA",
@@ -713,36 +733,26 @@
       "won": false,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED",
       "iso": "2026-07-06T21:19:00+00:00"
-    },
-    {
-      "trade_id": "TAOUSDT_20260706_CB_001",
-      "coin": "TAO",
-      "direction": "Short",
-      "system": "Braam",
-      "pnl_usd": -1.75,
-      "won": false,
-      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
-      "iso": "2026-07-06T21:19:00+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 8,
+    "open_count": 7,
     "open_long": 0,
-    "open_short": 8,
+    "open_short": 7,
     "pending_count": 10,
-    "capital_open_usd": 800,
+    "capital_open_usd": 700,
     "capital_pending_usd": 1000
   },
   "macro": {
-    "vix": 17.29,
+    "vix": 17.13,
     "vix_5d": [
       16.13,
       16.9,
       15.84,
       15.03,
-      17.29
+      17.13
     ],
-    "vix_ma14": 16.89,
+    "vix_ma14": 16.87,
     "dxy": 101.28,
     "dxy_5d": [
       101.14,
