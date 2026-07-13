@@ -1147,9 +1147,18 @@
       "resting_at": "2026-07-13T04:10:31Z",
       "braam_trade_id": "ALGOUSDT_20260713_CB_001",
       "status": "RESTING"
+    },
+    "831561319554577920": {
+      "order_id": "831561319554577920",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1858.21,
+      "resting_at": "2026-07-13T08:07:48Z",
+      "braam_trade_id": "ETHUSDT_20260707_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T06:46:28Z",
+  "updated": "2026-07-13T08:09:05Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4806,6 +4815,14 @@
       "unrealized": 5.8325,
       "realized": -11.2897,
       "total": -5.4572
+    },
+    {
+      "ts": "2026-07-13T08:09:05Z",
+      "equity": 398.7152,
+      "available": 78.3597,
+      "unrealized": 4.5201,
+      "realized": -11.2897,
+      "total": -6.7696
     }
   ]
 }
