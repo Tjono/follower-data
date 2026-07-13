@@ -312,8 +312,15 @@
       "entry_price": 0.0905,
       "opened_at": "2026-07-03T19:22:24Z",
       "braam_trade_id": "ALGOUSDT_20260625_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-06-28T14:28:34Z"
+      "status": "CLOSED",
+      "resting_at": "2026-06-28T14:28:34Z",
+      "closed_at": "2026-07-13T03:11:40Z",
+      "close_price": 0.083,
+      "pnl_usd": 3.2869,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2
     },
     "1435490285": {
       "position_id": "1435490285",
@@ -612,8 +619,15 @@
       "entry_price": 0.1627,
       "opened_at": "2026-07-12T06:27:10Z",
       "braam_trade_id": "ADAUSDT_20260711_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-11T08:27:15Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-11T08:27:15Z",
+      "closed_at": "2026-07-13T02:08:37Z",
+      "close_price": 0.1595,
+      "pnl_usd": -1.2173,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1443081368": {
       "position_id": "1443081368",
@@ -1097,7 +1111,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T02:08:33Z",
+  "updated": "2026-07-13T03:57:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4698,6 +4712,14 @@
       "unrealized": 7.8494,
       "realized": -13.3593,
       "total": -5.5099
+    },
+    {
+      "ts": "2026-07-13T03:57:19Z",
+      "equity": 400.4392,
+      "available": 138.1746,
+      "unrealized": 6.2732,
+      "realized": -11.2897,
+      "total": -5.0165
     }
   ]
 }
