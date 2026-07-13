@@ -614,6 +614,16 @@
       "braam_trade_id": "ADAUSDT_20260711_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-07-11T08:27:15Z"
+    },
+    "1443081368": {
+      "position_id": "1443081368",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 78.02,
+      "opened_at": "2026-07-13T00:11:00Z",
+      "status": "OPEN",
+      "resting_at": "2026-07-12T08:07:05Z"
     }
   },
   "orders": {
@@ -1086,7 +1096,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T00:09:58Z",
+  "updated": "2026-07-13T01:12:20Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4671,6 +4681,14 @@
       "unrealized": 3.6498,
       "realized": -13.3593,
       "total": -9.7095
+    },
+    {
+      "ts": "2026-07-13T01:12:20Z",
+      "equity": 395.5342,
+      "available": 78.6404,
+      "unrealized": 4.88,
+      "realized": -13.3593,
+      "total": -8.4793
     }
   ]
 }
