@@ -650,6 +650,17 @@
       "braam_trade_id": "LINKUSDT_20260713_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-13T04:10:34Z"
+    },
+    "1443359533": {
+      "position_id": "1443359533",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.7356,
+      "opened_at": "2026-07-13T08:49:15Z",
+      "braam_trade_id": "SUIUSDT_20260713_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-13T04:10:35Z"
     }
   },
   "orders": {
@@ -1158,7 +1169,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-13T08:26:13Z",
+  "updated": "2026-07-13T10:01:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -4831,6 +4842,14 @@
       "unrealized": 4.584,
       "realized": -11.2897,
       "total": -6.7057
+    },
+    {
+      "ts": "2026-07-13T10:01:15Z",
+      "equity": 398.5844,
+      "available": 78.3716,
+      "unrealized": 4.425,
+      "realized": -11.2897,
+      "total": -6.8647
     }
   ]
 }
