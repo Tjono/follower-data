@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-14T06:06:06Z",
+  "last_updated_iso": "2026-07-14T06:09:16Z",
   "mexc_account": {
-    "unrealized_pnl": 4.6876,
-    "equity": 403.9021,
+    "unrealized_pnl": 4.9534,
+    "equity": 404.1679,
     "available": 122.6986,
     "position_margin": 101.6304
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$403.90",
+      "value": "$404.17",
       "status": "ok",
       "action": null
     },
@@ -287,7 +287,7 @@
       "direction": "Short",
       "entry_price": 1.99291228,
       "sl": 2.08642606,
-      "tp1": 1.886,
+      "tp1": 1.874,
       "tp2": 1.798,
       "capital_usd": 19.67,
       "leverage": 3,
@@ -1407,18 +1407,7 @@
     "available": true,
     "feed_generated_utc": "2026-07-14T06:03Z",
     "checked": 17,
-    "in_parity": 16,
-    "drifting": [
-      {
-        "trade_id": "NEARUSDT_20260708_CB_001",
-        "coin": "NEARUSDT",
-        "diffs": {
-          "tp1": {
-            "follower": 1.886,
-            "master": 1.874
-          }
-        }
-      }
-    ]
+    "in_parity": 17,
+    "drifting": []
   }
 }
