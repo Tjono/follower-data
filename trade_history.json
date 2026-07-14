@@ -668,6 +668,16 @@
       "braam_trade_id": "SUIUSDT_20260713_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-13T04:10:35Z"
+    },
+    "1444122422": {
+      "position_id": "1444122422",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1.993,
+      "opened_at": "2026-07-14T05:55:31Z",
+      "status": "OPEN",
+      "resting_at": "2026-07-13T12:59:23Z"
     }
   },
   "orders": {
@@ -1275,7 +1285,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-14T05:15:49Z",
+  "updated": "2026-07-14T06:00:28Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5244,6 +5254,14 @@
       "unrealized": 4.3963,
       "realized": -8.0721,
       "total": -3.6758
+    },
+    {
+      "ts": "2026-07-14T06:00:28Z",
+      "equity": 403.6992,
+      "available": 122.6986,
+      "unrealized": 4.4847,
+      "realized": -8.0721,
+      "total": -3.5874
     }
   ]
 }
