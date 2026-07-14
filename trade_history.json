@@ -734,8 +734,15 @@
       "entry_price": 1858.21,
       "opened_at": "2026-07-14T12:58:29Z",
       "braam_trade_id": "ETHUSDT_20260707_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-13T12:59:16Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-13T12:59:16Z",
+      "closed_at": "2026-07-14T15:30:11Z",
+      "close_price": 1884.55,
+      "pnl_usd": -0.8688,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1444421861": {
       "position_id": "1444421861",
@@ -1354,7 +1361,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-14T15:27:56Z",
+  "updated": "2026-07-14T15:37:27Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5499,6 +5506,14 @@
       "unrealized": -1.2692,
       "realized": -5.2442,
       "total": -6.5134
+    },
+    {
+      "ts": "2026-07-14T15:37:27Z",
+      "equity": 395.8933,
+      "available": 194.9564,
+      "unrealized": -1.7568,
+      "realized": -6.113,
+      "total": -7.8698
     }
   ]
 }
