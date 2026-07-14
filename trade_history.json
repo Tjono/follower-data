@@ -677,7 +677,8 @@
       "entry_price": 1.993,
       "opened_at": "2026-07-14T05:55:31Z",
       "status": "OPEN",
-      "resting_at": "2026-07-13T12:59:23Z"
+      "resting_at": "2026-07-13T12:59:23Z",
+      "braam_trade_id": "NEARUSDT_20260708_CB_001"
     }
   },
   "orders": {
@@ -1285,7 +1286,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-14T06:00:28Z",
+  "updated": "2026-07-14T06:04:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5262,6 +5263,14 @@
       "unrealized": 4.4847,
       "realized": -8.0721,
       "total": -3.5874
+    },
+    {
+      "ts": "2026-07-14T06:04:49Z",
+      "equity": 403.9618,
+      "available": 122.6986,
+      "unrealized": 4.7473,
+      "realized": -8.0721,
+      "total": -3.3248
     }
   ]
 }
