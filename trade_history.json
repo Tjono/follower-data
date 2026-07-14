@@ -438,8 +438,15 @@
       "entry_price": 44.59,
       "opened_at": "2026-07-06T15:41:32Z",
       "braam_trade_id": "LTCUSDT_20260706_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-06T12:16:28Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-06T12:16:28Z",
+      "closed_at": "2026-07-14T12:45:53Z",
+      "close_price": 43.8,
+      "pnl_usd": 0.9969,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2
     },
     "1437785082": {
       "position_id": "1437785082",
@@ -604,8 +611,15 @@
       "entry_price": 0.07442,
       "opened_at": "2026-07-10T08:35:18Z",
       "braam_trade_id": "DOGEUSDT_20260708_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-09T18:39:20Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-09T18:39:20Z",
+      "closed_at": "2026-07-14T12:46:04Z",
+      "close_price": 0.07247,
+      "pnl_usd": 1.3135,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_trail",
+      "close_fills": 2
     },
     "1441223362": {
       "position_id": "1441223362",
@@ -655,8 +669,15 @@
       "entry_price": 7.964,
       "opened_at": "2026-07-13T06:01:51Z",
       "braam_trade_id": "LINKUSDT_20260713_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-13T04:10:34Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-13T04:10:34Z",
+      "closed_at": "2026-07-14T12:56:28Z",
+      "close_price": 8.15,
+      "pnl_usd": -1.465,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1
     },
     "1443359533": {
       "position_id": "1443359533",
@@ -666,8 +687,15 @@
       "entry_price": 0.7356,
       "opened_at": "2026-07-13T08:49:15Z",
       "braam_trade_id": "SUIUSDT_20260713_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-13T04:10:35Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-13T04:10:35Z",
+      "closed_at": "2026-07-14T12:30:09Z",
+      "close_price": 0.7234,
+      "pnl_usd": 0.9047,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2
     },
     "1444122422": {
       "position_id": "1444122422",
@@ -679,6 +707,28 @@
       "status": "OPEN",
       "resting_at": "2026-07-13T12:59:23Z",
       "braam_trade_id": "NEARUSDT_20260708_CB_001"
+    },
+    "1444382979": {
+      "position_id": "1444382979",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.0848,
+      "opened_at": "2026-07-14T12:50:16Z",
+      "braam_trade_id": "ALGOUSDT_20260713_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-13T12:59:31Z"
+    },
+    "1444392935": {
+      "position_id": "1444392935",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1858.21,
+      "opened_at": "2026-07-14T12:58:29Z",
+      "braam_trade_id": "ETHUSDT_20260707_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-13T12:59:16Z"
     }
   },
   "orders": {
@@ -1286,7 +1336,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-14T12:08:39Z",
+  "updated": "2026-07-14T13:05:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5383,6 +5433,14 @@
       "unrealized": 5.3627,
       "realized": -8.0721,
       "total": -2.7094
+    },
+    {
+      "ts": "2026-07-14T13:05:32Z",
+      "equity": 399.0494,
+      "available": 169.0173,
+      "unrealized": 0.8253,
+      "realized": -6.322,
+      "total": -5.4967
     }
   ]
 }
