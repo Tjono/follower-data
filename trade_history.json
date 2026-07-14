@@ -657,9 +657,16 @@
       "leverage": 3,
       "entry_price": 78.02,
       "opened_at": "2026-07-13T00:11:00Z",
-      "status": "OPEN",
+      "status": "CLOSED",
       "resting_at": "2026-07-12T08:07:05Z",
-      "braam_trade_id": "SOLUSDT_20260712_CB_001"
+      "braam_trade_id": "SOLUSDT_20260712_CB_001",
+      "closed_at": "2026-07-14T13:20:59Z",
+      "close_price": 76.37,
+      "pnl_usd": 1.0778,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2
     },
     "1443278471": {
       "position_id": "1443278471",
@@ -729,6 +736,17 @@
       "braam_trade_id": "ETHUSDT_20260707_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-07-13T12:59:16Z"
+    },
+    "1444421861": {
+      "position_id": "1444421861",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1.1042,
+      "opened_at": "2026-07-14T13:23:31Z",
+      "braam_trade_id": "XRPUSDT_20260712_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-13T12:59:28Z"
     }
   },
   "orders": {
@@ -1336,7 +1354,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-14T13:08:37Z",
+  "updated": "2026-07-14T14:04:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5449,6 +5467,14 @@
       "unrealized": 0.7192,
       "realized": -6.322,
       "total": -5.6028
+    },
+    {
+      "ts": "2026-07-14T14:04:57Z",
+      "equity": 399.2217,
+      "available": 177.1525,
+      "unrealized": 0.7362,
+      "realized": -5.2442,
+      "total": -4.508
     }
   ]
 }
