@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-14T20:05:22Z",
+  "last_updated_iso": "2026-07-14T20:07:47Z",
   "mexc_account": {
-    "unrealized_pnl": 0.0067,
-    "equity": 397.6546,
+    "unrealized_pnl": -0.0002,
+    "equity": 397.6477,
     "available": 194.9543,
     "position_margin": 86.2328
   },
