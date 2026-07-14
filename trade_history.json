@@ -1264,9 +1264,18 @@
       "resting_at": "2026-07-14T00:06:56Z",
       "braam_trade_id": "TAOUSDT_20260714_CB_001",
       "status": "RESTING"
+    },
+    "831880135752971328": {
+      "order_id": "831880135752971328",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "entry_price": 207.89,
+      "resting_at": "2026-07-14T05:14:39Z",
+      "braam_trade_id": "TAOUSDT_20260714_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-14T04:16:43Z",
+  "updated": "2026-07-14T05:15:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5227,6 +5236,14 @@
       "unrealized": 5.666,
       "realized": -8.0721,
       "total": -2.4061
+    },
+    {
+      "ts": "2026-07-14T05:15:49Z",
+      "equity": 403.6454,
+      "available": 122.687,
+      "unrealized": 4.3963,
+      "realized": -8.0721,
+      "total": -3.6758
     }
   ]
 }
