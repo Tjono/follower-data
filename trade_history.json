@@ -629,8 +629,15 @@
       "entry_price": 0.3274,
       "opened_at": "2026-07-10T10:24:16Z",
       "braam_trade_id": "ONDOUSDT_20260708_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-08T16:07:40Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-08T16:07:40Z",
+      "closed_at": "2026-07-15T00:41:00Z",
+      "close_price": 0.3169,
+      "pnl_usd": 1.8081,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_trail",
+      "close_fills": 2
     },
     "1442537883": {
       "position_id": "1442537883",
@@ -1361,7 +1368,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-15T00:07:50Z",
+  "updated": "2026-07-15T00:56:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5674,6 +5681,14 @@
       "unrealized": -0.2254,
       "realized": -6.113,
       "total": -6.3384
+    },
+    {
+      "ts": "2026-07-15T00:56:15Z",
+      "equity": 397.3595,
+      "available": 205.5507,
+      "unrealized": -1.0315,
+      "realized": -4.3049,
+      "total": -5.3364
     }
   ]
 }
