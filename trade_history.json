@@ -16,7 +16,9 @@
       "status": "CLOSED",
       "braam_trade_id": "NEARUSDT_20260626_CB_001",
       "resting_at": "2026-06-28T14:28:43Z",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0551
     },
     "1432941405": {
       "position_id": "1432941405",
@@ -33,7 +35,9 @@
       "close_reason": "stopped_out",
       "status": "CLOSED",
       "resting_at": "2026-06-30T13:38:21Z",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0678
     },
     "1430721048": {
       "position_id": "1430721048",
@@ -51,7 +55,9 @@
       "status": "CLOSED",
       "braam_trade_id": "LTCUSDT_20260625_CB_001",
       "resting_at": "2026-06-28T14:28:35Z",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0658
     },
     "1431812315": {
       "position_id": "1431812315",
@@ -69,7 +75,9 @@
       "status": "CLOSED",
       "braam_trade_id": "BNBUSDT_20260628_CB_001",
       "resting_at": "2026-06-28T14:28:46Z",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0544
     },
     "1432117786": {
       "position_id": "1432117786",
@@ -87,7 +95,9 @@
       "status": "CLOSED",
       "braam_trade_id": "XLMUSDT_20260626_CB_001",
       "resting_at": "2026-06-28T14:28:41Z",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0559
     },
     "1432037384": {
       "position_id": "1432037384",
@@ -105,7 +115,9 @@
       "status": "CLOSED",
       "braam_trade_id": "TRXUSDT_20260628_CJ_001",
       "resting_at": "2026-06-28T14:28:40Z",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0533
     },
     "1431789198": {
       "position_id": "1431789198",
@@ -123,7 +135,9 @@
       "status": "CLOSED",
       "braam_trade_id": "ETHUSDT_20260626_CB_001",
       "resting_at": "2026-06-28T14:28:37Z",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0449
     },
     "1431171402": {
       "position_id": "1431171402",
@@ -141,7 +155,9 @@
       "status": "CLOSED",
       "braam_trade_id": "SOLUSDT_20260623_CB_001",
       "resting_at": "2026-06-28T14:28:22Z",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0516
     },
     "1416523459": {
       "position_id": "1416523459",
@@ -158,7 +174,9 @@
       "close_reason": "take_profit",
       "status": "CLOSED",
       "resting_at": "2026-06-14T06:03:24Z",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.1151
     },
     "1433707485": {
       "position_id": "1433707485",
@@ -176,7 +194,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0853
     },
     "1433448378": {
       "position_id": "1433448378",
@@ -194,7 +214,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0574
     },
     "1433736652": {
       "position_id": "1433736652",
@@ -212,7 +234,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0567
     },
     "1434145240": {
       "position_id": "1434145240",
@@ -230,7 +254,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0783
     },
     "1434159579": {
       "position_id": "1434159579",
@@ -248,7 +274,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0576
     },
     "1434378926": {
       "position_id": "1434378926",
@@ -266,7 +294,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0566
     },
     "1434956885": {
       "position_id": "1434956885",
@@ -284,7 +314,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0855
     },
     "1435320135": {
       "position_id": "1435320135",
@@ -302,7 +334,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_tp2",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0522
     },
     "1435492754": {
       "position_id": "1435492754",
@@ -320,7 +354,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_tp2",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0538
     },
     "1435490285": {
       "position_id": "1435490285",
@@ -338,7 +374,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0564
     },
     "1436134102": {
       "position_id": "1436134102",
@@ -356,7 +394,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0756
     },
     "1436783367": {
       "position_id": "1436783367",
@@ -374,7 +414,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.055
     },
     "1437575726": {
       "position_id": "1437575726",
@@ -392,7 +434,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_trail",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0787
     },
     "1437581181": {
       "position_id": "1437581181",
@@ -410,7 +454,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.093
     },
     "1437572392": {
       "position_id": "1437572392",
@@ -428,7 +474,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0821
     },
     "1437781877": {
       "position_id": "1437781877",
@@ -446,7 +494,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_breakeven",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0808
     },
     "1437785082": {
       "position_id": "1437785082",
@@ -464,7 +514,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0828
     },
     "1437781955": {
       "position_id": "1437781955",
@@ -482,7 +534,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0819
     },
     "1437781399": {
       "position_id": "1437781399",
@@ -500,7 +554,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0817
     },
     "1437795161": {
       "position_id": "1437795161",
@@ -518,7 +574,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0817
     },
     "1437817203": {
       "position_id": "1437817203",
@@ -536,7 +594,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_trail",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0802
     },
     "1438348926": {
       "position_id": "1438348926",
@@ -565,7 +625,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_breakeven",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0785
     },
     "1438811554": {
       "position_id": "1438811554",
@@ -583,7 +645,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_tp2",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0774
     },
     "1440871864": {
       "position_id": "1440871864",
@@ -601,7 +665,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_tp2",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0802
     },
     "1441152919": {
       "position_id": "1441152919",
@@ -619,7 +685,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_trail",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0717
     },
     "1441223362": {
       "position_id": "1441223362",
@@ -637,7 +705,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_trail",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0808
     },
     "1442537883": {
       "position_id": "1442537883",
@@ -655,7 +725,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0812
     },
     "1443081368": {
       "position_id": "1443081368",
@@ -673,7 +745,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_breakeven",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0753
     },
     "1443278471": {
       "position_id": "1443278471",
@@ -691,7 +765,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0847
     },
     "1443359533": {
       "position_id": "1443359533",
@@ -709,7 +785,9 @@
       "tag": "WIN",
       "close_type": 0,
       "close_reason": "tp1_breakeven",
-      "close_fills": 2
+      "close_fills": 2,
+      "margin_usd": 0,
+      "fees_usd": 0.0825
     },
     "1444122422": {
       "position_id": "1444122422",
@@ -718,9 +796,18 @@
       "leverage": 3,
       "entry_price": 1.993,
       "opened_at": "2026-07-14T05:55:31Z",
-      "status": "OPEN",
+      "status": "CLOSED",
       "resting_at": "2026-07-13T12:59:23Z",
-      "braam_trade_id": "NEARUSDT_20260708_CB_001"
+      "braam_trade_id": "NEARUSDT_20260708_CB_001",
+      "closed_at": "2026-07-15T11:36:37Z",
+      "close_price": 2.086,
+      "pnl_usd": -2.7801,
+      "margin_usd": 0,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0829
     },
     "1444382979": {
       "position_id": "1444382979",
@@ -749,7 +836,9 @@
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
-      "close_fills": 1
+      "close_fills": 1,
+      "margin_usd": 0,
+      "fees_usd": 0.0786
     },
     "1444421861": {
       "position_id": "1444421861",
@@ -1368,7 +1457,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-15T11:21:48Z",
+  "updated": "2026-07-15T12:05:24Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5817,6 +5906,14 @@
       "unrealized": -2.2653,
       "realized": -4.3049,
       "total": -6.5702
+    },
+    {
+      "ts": "2026-07-15T12:05:24Z",
+      "equity": 395.0079,
+      "available": 222.2143,
+      "unrealized": -0.7204,
+      "realized": -7.085,
+      "total": -7.8054
     }
   ]
 }
