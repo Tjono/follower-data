@@ -848,8 +848,28 @@
       "entry_price": 1.1042,
       "opened_at": "2026-07-14T13:23:31Z",
       "braam_trade_id": "XRPUSDT_20260712_CB_001",
+      "status": "CLOSED",
+      "resting_at": "2026-07-13T12:59:28Z",
+      "closed_at": "2026-07-15T13:03:20Z",
+      "close_price": 1.1241,
+      "pnl_usd": -1.1252,
+      "margin_usd": 0,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0827
+    },
+    "1445250989": {
+      "position_id": "1445250989",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.1683,
+      "opened_at": "2026-07-15T13:31:09Z",
+      "braam_trade_id": "ADAUSDT_20260712_CB_001",
       "status": "OPEN",
-      "resting_at": "2026-07-13T12:59:28Z"
+      "resting_at": "2026-07-13T14:08:00Z"
     }
   },
   "orders": {
@@ -1457,7 +1477,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-15T12:49:39Z",
+  "updated": "2026-07-15T14:08:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5938,6 +5958,14 @@
       "unrealized": -1.1823,
       "realized": -7.085,
       "total": -8.2673
+    },
+    {
+      "ts": "2026-07-15T14:08:32Z",
+      "equity": 394.206,
+      "available": 240.6929,
+      "unrealized": -0.3844,
+      "realized": -8.2102,
+      "total": -8.5946
     }
   ]
 }
