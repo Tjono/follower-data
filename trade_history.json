@@ -1478,9 +1478,18 @@
       "resting_at": "2026-07-14T05:14:39Z",
       "braam_trade_id": "TAOUSDT_20260714_CB_001",
       "status": "RESTING"
+    },
+    "832406691474712128": {
+      "order_id": "832406691474712128",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.2885,
+      "resting_at": "2026-07-15T16:07:00Z",
+      "braam_trade_id": "ONDOUSDT_20260715_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-15T16:06:44Z",
+  "updated": "2026-07-15T16:08:03Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
