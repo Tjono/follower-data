@@ -17,7 +17,7 @@
       "braam_trade_id": "NEARUSDT_20260626_CB_001",
       "resting_at": "2026-06-28T14:28:43Z",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0551
     },
     "1432941405": {
@@ -36,7 +36,7 @@
       "status": "CLOSED",
       "resting_at": "2026-06-30T13:38:21Z",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0678
     },
     "1430721048": {
@@ -56,7 +56,7 @@
       "braam_trade_id": "LTCUSDT_20260625_CB_001",
       "resting_at": "2026-06-28T14:28:35Z",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0658
     },
     "1431812315": {
@@ -76,7 +76,7 @@
       "braam_trade_id": "BNBUSDT_20260628_CB_001",
       "resting_at": "2026-06-28T14:28:46Z",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0544
     },
     "1432117786": {
@@ -96,7 +96,7 @@
       "braam_trade_id": "XLMUSDT_20260626_CB_001",
       "resting_at": "2026-06-28T14:28:41Z",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0559
     },
     "1432037384": {
@@ -116,7 +116,7 @@
       "braam_trade_id": "TRXUSDT_20260628_CJ_001",
       "resting_at": "2026-06-28T14:28:40Z",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0533
     },
     "1431789198": {
@@ -136,7 +136,7 @@
       "braam_trade_id": "ETHUSDT_20260626_CB_001",
       "resting_at": "2026-06-28T14:28:37Z",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0449
     },
     "1431171402": {
@@ -156,7 +156,7 @@
       "braam_trade_id": "SOLUSDT_20260623_CB_001",
       "resting_at": "2026-06-28T14:28:22Z",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0516
     },
     "1416523459": {
@@ -175,7 +175,7 @@
       "status": "CLOSED",
       "resting_at": "2026-06-14T06:03:24Z",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.1151
     },
     "1433707485": {
@@ -195,7 +195,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0853
     },
     "1433448378": {
@@ -215,7 +215,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0574
     },
     "1433736652": {
@@ -235,7 +235,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0567
     },
     "1434145240": {
@@ -255,7 +255,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0783
     },
     "1434159579": {
@@ -275,7 +275,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0576
     },
     "1434378926": {
@@ -295,7 +295,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0566
     },
     "1434956885": {
@@ -315,7 +315,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0855
     },
     "1435320135": {
@@ -335,7 +335,7 @@
       "close_type": 0,
       "close_reason": "tp1_tp2",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0522
     },
     "1435492754": {
@@ -355,7 +355,7 @@
       "close_type": 0,
       "close_reason": "tp1_tp2",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0538
     },
     "1435490285": {
@@ -375,7 +375,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0564
     },
     "1436134102": {
@@ -395,7 +395,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0756
     },
     "1436783367": {
@@ -415,7 +415,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.055
     },
     "1437575726": {
@@ -435,7 +435,7 @@
       "close_type": 0,
       "close_reason": "tp1_trail",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0787
     },
     "1437581181": {
@@ -455,7 +455,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.093
     },
     "1437572392": {
@@ -475,7 +475,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0821
     },
     "1437781877": {
@@ -495,7 +495,7 @@
       "close_type": 0,
       "close_reason": "tp1_breakeven",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0808
     },
     "1437785082": {
@@ -515,7 +515,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0828
     },
     "1437781955": {
@@ -535,7 +535,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0819
     },
     "1437781399": {
@@ -555,7 +555,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0817
     },
     "1437795161": {
@@ -575,7 +575,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0817
     },
     "1437817203": {
@@ -595,7 +595,7 @@
       "close_type": 0,
       "close_reason": "tp1_trail",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0802
     },
     "1438348926": {
@@ -607,7 +607,8 @@
       "opened_at": "2026-07-07T08:11:44Z",
       "status": "OPEN",
       "resting_at": "2026-07-07T08:07:06Z",
-      "braam_trade_id": "BNBUSDT_20260707_CB_001"
+      "braam_trade_id": "BNBUSDT_20260707_CB_001",
+      "margin_usd": 17.407359647141185
     },
     "1438417322": {
       "position_id": "1438417322",
@@ -626,7 +627,7 @@
       "close_type": 0,
       "close_reason": "tp1_breakeven",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0785
     },
     "1438811554": {
@@ -646,7 +647,7 @@
       "close_type": 0,
       "close_reason": "tp1_tp2",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0774
     },
     "1440871864": {
@@ -666,7 +667,7 @@
       "close_type": 0,
       "close_reason": "tp1_tp2",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0802
     },
     "1441152919": {
@@ -686,7 +687,7 @@
       "close_type": 0,
       "close_reason": "tp1_trail",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0717
     },
     "1441223362": {
@@ -706,7 +707,7 @@
       "close_type": 0,
       "close_reason": "tp1_trail",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0808
     },
     "1442537883": {
@@ -726,7 +727,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0812
     },
     "1443081368": {
@@ -746,7 +747,7 @@
       "close_type": 0,
       "close_reason": "tp1_breakeven",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0753
     },
     "1443278471": {
@@ -766,7 +767,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0847
     },
     "1443359533": {
@@ -786,7 +787,7 @@
       "close_type": 0,
       "close_reason": "tp1_breakeven",
       "close_fills": 2,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0825
     },
     "1444122422": {
@@ -802,7 +803,7 @@
       "closed_at": "2026-07-15T11:36:37Z",
       "close_price": 2.086,
       "pnl_usd": -2.7801,
-      "margin_usd": 0,
+      "margin_usd": null,
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
@@ -818,7 +819,8 @@
       "opened_at": "2026-07-14T12:50:16Z",
       "braam_trade_id": "ALGOUSDT_20260713_CB_001",
       "status": "OPEN",
-      "resting_at": "2026-07-13T12:59:31Z"
+      "resting_at": "2026-07-13T12:59:31Z",
+      "margin_usd": 20.076648636831898
     },
     "1444392935": {
       "position_id": "1444392935",
@@ -837,7 +839,7 @@
       "close_type": 0,
       "close_reason": "stopped_out",
       "close_fills": 1,
-      "margin_usd": 0,
+      "margin_usd": null,
       "fees_usd": 0.0786
     },
     "1444421861": {
@@ -853,7 +855,7 @@
       "closed_at": "2026-07-15T13:03:20Z",
       "close_price": 1.1241,
       "pnl_usd": -1.1252,
-      "margin_usd": 0,
+      "margin_usd": null,
       "tag": "LOSS",
       "close_type": 0,
       "close_reason": "stopped_out",
@@ -869,7 +871,8 @@
       "opened_at": "2026-07-15T13:31:09Z",
       "braam_trade_id": "ADAUSDT_20260712_CB_001",
       "status": "OPEN",
-      "resting_at": "2026-07-13T14:08:00Z"
+      "resting_at": "2026-07-13T14:08:00Z",
+      "margin_usd": 19.810201269250022
     }
   },
   "orders": {
@@ -1477,7 +1480,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-15T14:42:56Z",
+  "updated": "2026-07-15T16:06:44Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -5982,6 +5985,14 @@
       "unrealized": 0.1038,
       "realized": -8.2102,
       "total": -8.1064
+    },
+    {
+      "ts": "2026-07-15T16:06:44Z",
+      "equity": 395.2941,
+      "available": 240.7006,
+      "unrealized": 0.696,
+      "realized": -8.2102,
+      "total": -7.5142
     }
   ]
 }
