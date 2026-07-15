@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-15T16:08:01+00:00",
+  "generated_at_utc": "2026-07-15T16:09:26+00:00",
   "all_time": {
     "total_trades": 40,
     "wins": 15,
@@ -581,11 +581,11 @@
       },
       {
         "iso": "2026-07-15",
-        "pct": 1.355
+        "pct": 1.379
       }
     ],
     "ours_pct": -0.458,
-    "spx_pct": 1.355
+    "spx_pct": 1.379
   },
   "by_direction": {
     "Short": {
@@ -842,13 +842,13 @@
     "capital_pending_usd": 600
   },
   "macro": {
-    "vix": 16.15,
+    "vix": 16.13,
     "vix_5d": [
       15.84,
       15.03,
       17.16,
       16.5,
-      16.15
+      16.13
     ],
     "vix_ma14": 16.5,
     "dxy": 100.72,
