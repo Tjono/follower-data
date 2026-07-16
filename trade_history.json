@@ -1523,9 +1523,45 @@
       "resting_at": "2026-07-16T16:07:04Z",
       "braam_trade_id": "SUIUSDT_20260716_CJ_001",
       "status": "RESTING"
+    },
+    "832829581613467136": {
+      "order_id": "832829581613467136",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.1029,
+      "resting_at": "2026-07-16T20:07:25Z",
+      "braam_trade_id": "XRPUSDT_20260716_CB_001",
+      "status": "RESTING"
+    },
+    "832829575565600256": {
+      "order_id": "832829575565600256",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.32564,
+      "resting_at": "2026-07-16T20:07:23Z",
+      "braam_trade_id": "TRXUSDT_20260716_CB_001",
+      "status": "RESTING"
+    },
+    "832829570540935168": {
+      "order_id": "832829570540935168",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.07356,
+      "resting_at": "2026-07-16T20:07:22Z",
+      "braam_trade_id": "DOGEUSDT_20260716_CB_001",
+      "status": "RESTING"
+    },
+    "832829564941395456": {
+      "order_id": "832829564941395456",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "entry_price": 76.79,
+      "resting_at": "2026-07-16T20:07:21Z",
+      "braam_trade_id": "SOLUSDT_20260716_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-16T19:38:40Z",
+  "updated": "2026-07-16T20:08:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6134,6 +6170,14 @@
       "unrealized": 3.4678,
       "realized": -8.2102,
       "total": -4.7424
+    },
+    {
+      "ts": "2026-07-16T20:08:11Z",
+      "equity": 398.2035,
+      "available": 124.1363,
+      "unrealized": 3.5394,
+      "realized": -8.2102,
+      "total": -4.6708
     }
   ]
 }
