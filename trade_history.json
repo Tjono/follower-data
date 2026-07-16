@@ -1505,9 +1505,18 @@
       "resting_at": "2026-07-16T12:07:03Z",
       "braam_trade_id": "LTCUSDT_20260716_CJ_001",
       "status": "RESTING"
+    },
+    "832710780272101376": {
+      "order_id": "832710780272101376",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 42.01,
+      "resting_at": "2026-07-16T12:15:20Z",
+      "braam_trade_id": "LTCUSDT_20260716_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-16T12:07:44Z",
+  "updated": "2026-07-16T12:16:01Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6044,6 +6053,14 @@
       "unrealized": 2.9006,
       "realized": -8.2102,
       "total": -5.3096
+    },
+    {
+      "ts": "2026-07-16T12:16:01Z",
+      "equity": 397.7806,
+      "available": 201.5964,
+      "unrealized": 3.1216,
+      "realized": -8.2102,
+      "total": -5.0886
     }
   ]
 }
