@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-15T16:09:14Z",
+  "last_updated_iso": "2026-07-16T11:15:57Z",
   "mexc_account": {
-    "unrealized_pnl": 0.8462,
-    "equity": 395.4443,
-    "available": 221.375,
+    "unrealized_pnl": 3.2452,
+    "equity": 397.9042,
+    "available": 221.4359,
     "position_margin": 57.2942
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$395.44",
+      "value": "$397.90",
       "status": "ok",
       "action": null
     },
@@ -353,8 +353,8 @@
       "direction": "Long",
       "entry_price": 0.28853812,
       "sl": 0.28148835,
-      "tp1": 0.34204356,
-      "tp2": 0.43692329,
+      "tp1": 0.3107,
+      "tp2": 0.3336,
       "capital_usd": 19.77,
       "leverage": 3,
       "trading_system": "John",
@@ -381,34 +381,8 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "ONDOUSDT_20260715_CJ_001",
-      "coin": "ONDOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.28853812,
-      "tp1": 0.34204356,
-      "sl": 0.28148835,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-07-15T16:03:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "NEARUSDT_20260708_CB_001",
-      "coin": "NEARUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 1.99291228,
-      "live_entry_fill": 1.993,
-      "tp1_hit": false,
-      "iso": "2026-07-14T05:55:00Z",
-      "_iso_ms": 1784008500000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ALGOUSDT_20260713_CB_001",
       "coin": "ALGOUSDT",
@@ -1290,7 +1264,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-15T16:06Z",
+    "feed_generated_utc": "2026-07-16T10:06Z",
     "checked": 9,
     "in_parity": 9,
     "drifting": []
