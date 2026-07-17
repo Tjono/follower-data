@@ -1640,9 +1640,18 @@
       "resting_at": "2026-07-17T06:53:48Z",
       "braam_trade_id": "NEARUSDT_20260717_CB_001",
       "status": "RESTING"
+    },
+    "833010918572021760": {
+      "order_id": "833010918572021760",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "entry_price": 44.9,
+      "resting_at": "2026-07-17T08:07:59Z",
+      "braam_trade_id": "LTCUSDT_20260717_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-17T06:54:41Z",
+  "updated": "2026-07-17T08:08:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6347,6 +6356,14 @@
       "unrealized": 3.276,
       "realized": -8.2102,
       "total": -4.9342
+    },
+    {
+      "ts": "2026-07-17T08:08:49Z",
+      "equity": 400.7806,
+      "available": 86.7267,
+      "unrealized": 3.5736,
+      "realized": -8.2102,
+      "total": -4.6366
     }
   ]
 }
