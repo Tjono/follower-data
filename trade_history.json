@@ -1613,9 +1613,36 @@
       "resting_at": "2026-07-17T04:07:45Z",
       "braam_trade_id": "ETHUSDT_20260717_CJ_001",
       "status": "RESTING"
+    },
+    "832992273171105280": {
+      "order_id": "832992273171105280",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "entry_price": 8.32,
+      "resting_at": "2026-07-17T06:53:54Z",
+      "braam_trade_id": "LINKUSDT_20260717_CB_001",
+      "status": "RESTING"
+    },
+    "832992263331210752": {
+      "order_id": "832992263331210752",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1946.12,
+      "resting_at": "2026-07-17T06:53:51Z",
+      "braam_trade_id": "ETHUSDT_20260717_CJ_001",
+      "status": "RESTING"
+    },
+    "832992250023097856": {
+      "order_id": "832992250023097856",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "entry_price": 2.012,
+      "resting_at": "2026-07-17T06:53:48Z",
+      "braam_trade_id": "NEARUSDT_20260717_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-17T06:33:56Z",
+  "updated": "2026-07-17T06:54:41Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6312,6 +6339,14 @@
       "unrealized": 3.1614,
       "realized": -8.2102,
       "total": -5.0488
+    },
+    {
+      "ts": "2026-07-17T06:54:41Z",
+      "equity": 400.4893,
+      "available": 106.7497,
+      "unrealized": 3.276,
+      "realized": -8.2102,
+      "total": -4.9342
     }
   ]
 }
