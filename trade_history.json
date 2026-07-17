@@ -873,6 +873,18 @@
       "status": "OPEN",
       "resting_at": "2026-07-13T14:08:00Z",
       "margin_usd": 19.810201269250022
+    },
+    "1446748693": {
+      "position_id": "1446748693",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 44.9,
+      "opened_at": "2026-07-17T10:08:09Z",
+      "margin_usd": 19.96888686478409,
+      "braam_trade_id": "LTCUSDT_20260717_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-17T08:07:59Z"
     }
   },
   "orders": {
@@ -1651,7 +1663,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-17T08:18:21Z",
+  "updated": "2026-07-17T10:15:21Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6372,6 +6384,14 @@
       "unrealized": 3.7432,
       "realized": -8.2102,
       "total": -4.467
+    },
+    {
+      "ts": "2026-07-17T10:15:21Z",
+      "equity": 400.2518,
+      "available": 86.7387,
+      "unrealized": 3.0806,
+      "realized": -8.2102,
+      "total": -5.1296
     }
   ]
 }
