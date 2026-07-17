@@ -870,9 +870,17 @@
       "entry_price": 0.1683,
       "opened_at": "2026-07-15T13:31:09Z",
       "braam_trade_id": "ADAUSDT_20260712_CB_001",
-      "status": "OPEN",
+      "status": "CLOSED",
       "resting_at": "2026-07-13T14:08:00Z",
-      "margin_usd": 19.810201269250022
+      "margin_usd": 19.810201269250022,
+      "closed_at": "2026-07-17T16:03:16Z",
+      "close_price": 0.1618,
+      "pnl_usd": 2.1927,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_trail",
+      "close_fills": 2,
+      "fees_usd": 0.0809
     },
     "1446748693": {
       "position_id": "1446748693",
@@ -1661,9 +1669,18 @@
       "resting_at": "2026-07-17T08:07:59Z",
       "braam_trade_id": "LTCUSDT_20260717_CB_001",
       "status": "RESTING"
+    },
+    "833131595681581056": {
+      "order_id": "833131595681581056",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 65936.3,
+      "resting_at": "2026-07-17T16:07:31Z",
+      "braam_trade_id": "BTCUSDT_20260717_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-17T15:51:17Z",
+  "updated": "2026-07-17T16:08:21Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6448,6 +6465,14 @@
       "unrealized": 2.7545,
       "realized": -8.2102,
       "total": -5.4557
+    },
+    {
+      "ts": "2026-07-17T16:08:21Z",
+      "equity": 400.175,
+      "available": 85.6836,
+      "unrealized": 1.8113,
+      "realized": -6.0175,
+      "total": -4.2062
     }
   ]
 }
