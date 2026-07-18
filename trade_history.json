@@ -893,6 +893,18 @@
       "braam_trade_id": "LTCUSDT_20260717_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-17T08:07:59Z"
+    },
+    "1447522003": {
+      "position_id": "1447522003",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 8.32,
+      "opened_at": "2026-07-18T12:06:13Z",
+      "margin_usd": 20.031705707360256,
+      "braam_trade_id": "LINKUSDT_20260717_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-17T06:53:54Z"
     }
   },
   "orders": {
@@ -1687,9 +1699,18 @@
       "resting_at": "2026-07-18T06:45:35Z",
       "braam_trade_id": "BTCUSDT_20260717_CJ_001",
       "status": "RESTING"
+    },
+    "833433762065950272": {
+      "order_id": "833433762065950272",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.3596,
+      "resting_at": "2026-07-18T12:08:13Z",
+      "braam_trade_id": "ONDOUSDT_20260718_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-18T11:28:27Z",
+  "updated": "2026-07-18T12:09:04Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6562,6 +6583,14 @@
       "unrealized": 0.5722,
       "realized": -6.0175,
       "total": -5.4453
+    },
+    {
+      "ts": "2026-07-18T12:09:04Z",
+      "equity": 398.956,
+      "available": 66.4752,
+      "unrealized": 0.5627,
+      "realized": -6.0175,
+      "total": -5.4548
     }
   ]
 }
