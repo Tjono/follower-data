@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-07-18T13:55:44+00:00",
+  "generated_at_utc": "2026-07-18T14:08:55+00:00",
   "all_time": {
-    "total_trades": 41,
-    "wins": 16,
+    "total_trades": 42,
+    "wins": 17,
     "losses": 25,
-    "win_rate": 39.0,
-    "total_pnl_usd": -5.28,
-    "avg_pnl_usd": -0.13,
+    "win_rate": 40.5,
+    "total_pnl_usd": -4.28,
+    "avg_pnl_usd": -0.1,
     "best_usd": 4.03,
     "worst_usd": -2.77,
-    "avg_win_usd": 1.73,
+    "avg_win_usd": 1.69,
     "avg_loss_usd": -1.32,
-    "expectancy_usd": -0.13,
-    "profit_factor": 0.84,
+    "expectancy_usd": -0.1,
+    "profit_factor": 0.87,
     "longest_win_streak": 6,
     "longest_loss_streak": 16,
     "current_streak_type": "win",
-    "current_streak_count": 1,
-    "avg_hold_hours": 48.7,
-    "median_hold_hours": 29.8
+    "current_streak_count": 2,
+    "avg_hold_hours": 54.0,
+    "median_hold_hours": 30.0
   },
   "by_system": {
     "John": {
@@ -35,16 +35,16 @@
       "pending": 4
     },
     "Braam": {
-      "n": 36,
-      "wins": 16,
-      "wr": 44.4,
-      "pnl": -2.1,
-      "avg": -0.06,
+      "n": 37,
+      "wins": 17,
+      "wr": 45.9,
+      "pnl": -1.1,
+      "avg": -0.03,
       "inception": "2026-06-24",
       "days_active": 24,
-      "pnl_per_day": -0.09,
+      "pnl_per_day": -0.05,
       "status": "active",
-      "open": 4,
+      "open": 3,
       "pending": 10
     },
     "Mong": {
@@ -88,12 +88,12 @@
       "name": "Braam",
       "inception": "2026-06-24",
       "days_active": 24,
-      "closed": 36,
-      "wins": 16,
-      "wr": 44.4,
-      "pnl": -2.1,
-      "pnl_per_day": -0.09,
-      "open": 4,
+      "closed": 37,
+      "wins": 17,
+      "wr": 45.9,
+      "pnl": -1.1,
+      "pnl_per_day": -0.05,
+      "open": 3,
       "pending": 10
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "month": "2026-07",
-      "n": 38,
-      "wins": 15,
-      "wr": 39.5,
-      "pnl": -5.75,
-      "cumulative_pnl": -5.28
+      "n": 39,
+      "wins": 16,
+      "wr": 41.0,
+      "pnl": -4.75,
+      "cumulative_pnl": -4.28
     }
   ],
   "equity_curve": [
@@ -373,6 +373,12 @@
       "pnl": 2.32,
       "cumulative": -5.28,
       "won": true
+    },
+    {
+      "iso": "2026-07-18T14:08:00+00:00",
+      "pnl": 1.0,
+      "cumulative": -4.28,
+      "won": true
     }
   ],
   "benchmark": {
@@ -542,6 +548,10 @@
       {
         "iso": "2026-07-17",
         "pct": -0.318
+      },
+      {
+        "iso": "2026-07-18",
+        "pct": -0.258
       }
     ],
     "spx": [
@@ -602,16 +612,16 @@
         "pct": 0.232
       }
     ],
-    "ours_pct": -0.318,
+    "ours_pct": -0.258,
     "spx_pct": 0.232
   },
   "by_direction": {
     "Short": {
-      "n": 39,
-      "wins": 16,
-      "wr": 41.0,
-      "pnl": -3.95,
-      "avg": -0.1
+      "n": 40,
+      "wins": 17,
+      "wr": 42.5,
+      "pnl": -2.95,
+      "avg": -0.07
     },
     "Long": {
       "n": 2,
@@ -623,11 +633,11 @@
   },
   "by_conviction": {
     "MEDIUM": {
-      "n": 36,
-      "wins": 16,
-      "wr": 44.4,
-      "pnl": -2.1,
-      "avg": -0.06
+      "n": 37,
+      "wins": 17,
+      "wr": 45.9,
+      "pnl": -1.1,
+      "avg": -0.03
     },
     "HIGH": {
       "n": 5,
@@ -751,6 +761,16 @@
   },
   "recent_closes": [
     {
+      "trade_id": "BNBUSDT_20260707_CB_001",
+      "coin": "BNB",
+      "direction": "Short",
+      "system": "Braam",
+      "pnl_usd": 1.0,
+      "won": true,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
+      "iso": "2026-07-18T14:08:00+00:00"
+    },
+    {
       "trade_id": "ADAUSDT_20260712_CB_001",
       "coin": "ADA",
       "direction": "Short",
@@ -839,24 +859,14 @@
       "won": true,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
       "iso": "2026-07-14T13:07:00+00:00"
-    },
-    {
-      "trade_id": "LTCUSDT_20260706_CB_001",
-      "coin": "LTC",
-      "direction": "Short",
-      "system": "Braam",
-      "pnl_usd": 1.03,
-      "won": true,
-      "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
-      "iso": "2026-07-14T13:07:00+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 4,
+    "open_count": 3,
     "open_long": 0,
-    "open_short": 4,
+    "open_short": 3,
     "pending_count": 14,
-    "capital_open_usd": 400,
+    "capital_open_usd": 300,
     "capital_pending_usd": 1400
   },
   "macro": {
