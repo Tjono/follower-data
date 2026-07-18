@@ -921,6 +921,18 @@
       "braam_trade_id": "LINKUSDT_20260717_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-17T06:53:54Z"
+    },
+    "1447756071": {
+      "position_id": "1447756071",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.32564,
+      "opened_at": "2026-07-18T19:42:06Z",
+      "margin_usd": 19.600735115819692,
+      "braam_trade_id": "TRXUSDT_20260716_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-16T20:07:24Z"
     }
   },
   "orders": {
@@ -1724,9 +1736,18 @@
       "resting_at": "2026-07-18T12:08:13Z",
       "braam_trade_id": "ONDOUSDT_20260718_CB_001",
       "status": "RESTING"
+    },
+    "833554546960775744": {
+      "order_id": "833554546960775744",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.3296,
+      "resting_at": "2026-07-18T20:08:10Z",
+      "braam_trade_id": "ONDOUSDT_20260718_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-18T19:38:15Z",
+  "updated": "2026-07-18T20:08:59Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6663,6 +6684,14 @@
       "unrealized": 0.849,
       "realized": -6.4665,
       "total": -5.6175
+    },
+    {
+      "ts": "2026-07-18T20:08:59Z",
+      "equity": 398.0022,
+      "available": 95.0649,
+      "unrealized": 0.7242,
+      "realized": -6.4665,
+      "total": -5.7423
     }
   ]
 }
