@@ -899,8 +899,16 @@
       "opened_at": "2026-07-17T10:08:09Z",
       "margin_usd": 19.96888686478409,
       "braam_trade_id": "LTCUSDT_20260717_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-17T08:07:59Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-17T08:07:59Z",
+      "closed_at": "2026-07-18T14:18:55Z",
+      "close_price": 45.92,
+      "pnl_usd": -1.4311,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0846
     },
     "1447522003": {
       "position_id": "1447522003",
@@ -1718,7 +1726,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-18T14:08:56Z",
+  "updated": "2026-07-18T15:27:06Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6615,6 +6623,14 @@
       "unrealized": 0.4943,
       "realized": -5.0354,
       "total": -4.5411
+    },
+    {
+      "ts": "2026-07-18T15:27:06Z",
+      "equity": 398.6346,
+      "available": 95.0416,
+      "unrealized": 1.3146,
+      "realized": -6.4665,
+      "total": -5.1519
     }
   ]
 }
