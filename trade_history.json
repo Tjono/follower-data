@@ -605,10 +605,18 @@
       "leverage": 3,
       "entry_price": 578.4,
       "opened_at": "2026-07-07T08:11:44Z",
-      "status": "OPEN",
+      "status": "CLOSED",
       "resting_at": "2026-07-07T08:07:06Z",
       "braam_trade_id": "BNBUSDT_20260707_CB_001",
-      "margin_usd": 17.407359647141185
+      "margin_usd": 17.407359647141185,
+      "closed_at": "2026-07-18T12:46:18Z",
+      "close_price": 567.8,
+      "pnl_usd": 0.9821,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.072
     },
     "1438417322": {
       "position_id": "1438417322",
@@ -1710,7 +1718,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-18T12:09:04Z",
+  "updated": "2026-07-18T13:55:46Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6591,6 +6599,14 @@
       "unrealized": 0.5627,
       "realized": -6.0175,
       "total": -5.4548
+    },
+    {
+      "ts": "2026-07-18T13:55:46Z",
+      "equity": 399.0962,
+      "available": 76.4781,
+      "unrealized": 0.3707,
+      "realized": -5.0354,
+      "total": -4.6647
     }
   ]
 }
