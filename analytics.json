@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-17T23:14:02+00:00",
+  "generated_at_utc": "2026-07-18T03:40:27+00:00",
   "all_time": {
     "total_trades": 41,
     "wins": 16,
@@ -28,8 +28,8 @@
       "pnl": -3.18,
       "avg": -0.64,
       "inception": "2026-06-30",
-      "days_active": 17,
-      "pnl_per_day": -0.19,
+      "days_active": 18,
+      "pnl_per_day": -0.18,
       "status": "active",
       "open": 0,
       "pending": 4
@@ -41,7 +41,7 @@
       "pnl": -2.1,
       "avg": -0.06,
       "inception": "2026-06-24",
-      "days_active": 23,
+      "days_active": 24,
       "pnl_per_day": -0.09,
       "status": "active",
       "open": 3,
@@ -75,19 +75,19 @@
     {
       "name": "John",
       "inception": "2026-06-30",
-      "days_active": 17,
+      "days_active": 18,
       "closed": 5,
       "wins": 0,
       "wr": 0.0,
       "pnl": -3.18,
-      "pnl_per_day": -0.19,
+      "pnl_per_day": -0.18,
       "open": 0,
       "pending": 4
     },
     {
       "name": "Braam",
       "inception": "2026-06-24",
-      "days_active": 23,
+      "days_active": 24,
       "closed": 36,
       "wins": 16,
       "wr": 44.4,
