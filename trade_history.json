@@ -1745,9 +1745,18 @@
       "resting_at": "2026-07-18T20:08:10Z",
       "braam_trade_id": "ONDOUSDT_20260718_CJ_001",
       "status": "RESTING"
+    },
+    "833614947199416320": {
+      "order_id": "833614947199416320",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32123,
+      "resting_at": "2026-07-19T00:08:11Z",
+      "braam_trade_id": "TRXUSDT_20260710_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-18T23:15:59Z",
+  "updated": "2026-07-19T00:09:04Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6716,6 +6725,14 @@
       "unrealized": 0.4914,
       "realized": -6.4665,
       "total": -5.9751
+    },
+    {
+      "ts": "2026-07-19T00:09:04Z",
+      "equity": 397.6636,
+      "available": 94.9472,
+      "unrealized": 0.3804,
+      "realized": -6.4665,
+      "total": -6.0861
     }
   ]
 }
