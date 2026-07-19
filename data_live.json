@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-19T19:38:16Z",
+  "last_updated_iso": "2026-07-19T20:08:12Z",
   "mexc_account": {
-    "unrealized_pnl": 0.693,
-    "equity": 398.0285,
-    "available": 152.151,
+    "unrealized_pnl": 0.414,
+    "equity": 397.7495,
+    "available": 171.7189,
     "position_margin": 49.6708
   },
   "order_levels": {
-    "checked": 13,
-    "in_sync": 13,
+    "checked": 12,
+    "in_sync": 12,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$398.03",
+      "value": "$397.75",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (10 resting = journal)",
+      "value": "in sync (9 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -366,39 +366,6 @@
       "date_opened": "2026-07-17",
       "time_opened_utc": "00:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "ETHUSDT_20260717_CJ_001",
-      "coin": "ETHUSDT",
-      "direction": "Short",
-      "entry_price": 1946.11598091,
-      "sl": 1974.22336814,
-      "tp1": 1849.6,
-      "tp2": 1776.84,
-      "capital_usd": 19.99,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-07-17",
-      "time_opened_utc": "04:03",
-      "conviction": "HIGH",
       "tp1_hit": null,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
@@ -1439,9 +1406,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-19T18:05Z",
-    "checked": 13,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-07-19T20:06Z",
+    "checked": 12,
+    "in_parity": 12,
     "drifting": []
   }
 }
