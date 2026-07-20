@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-20T18:25:29Z",
+  "last_updated_iso": "2026-07-20T18:27:23Z",
   "mexc_account": {
-    "unrealized_pnl": -1.8231,
-    "equity": 392.2343,
+    "unrealized_pnl": -2.061,
+    "equity": 391.9963,
     "available": 150.1708,
     "position_margin": 164.8836
   },
@@ -12,9 +12,7 @@
     "checked": 13,
     "in_sync": 13,
     "drifted": [],
-    "reconciling": [
-      "ADA"
-    ],
+    "reconciling": [],
     "detail": []
   },
   "api_keys": [],
@@ -55,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$392.23",
+      "value": "$392.00",
       "status": "ok",
       "action": null
     },
@@ -411,39 +409,6 @@
       "live_exit_fill": null,
       "live_entry_slippage_pct": null,
       "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "ADAUSDT_20260720_CB_001",
-      "coin": "ADAUSDT",
-      "direction": "Short",
-      "entry_price": 0.16499546,
-      "sl": 0.1694411,
-      "tp1": 0.1593,
-      "tp2": 0.144,
-      "capital_usd": 19.91,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-07-20",
-      "time_activated_utc": "11:36",
-      "date_opened": "2026-07-20",
-      "time_opened_utc": "08:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.165,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": -0.0028,
-      "live_fees_usd": 0.0358,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -1539,6 +1504,26 @@
       "won": false,
       "close_iso": "2026-07-20T02:08:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20260720_CB_001",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -1.61,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "date_closed": "2026-07-20",
+      "time_closed_utc": "18:27",
+      "trading_system": "Braam",
+      "live_entry_fill": 0.165,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": -0.0028,
+      "live_fees_usd": 0.0358,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": false,
+      "close_iso": "2026-07-20T18:27:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
@@ -1551,20 +1536,20 @@
     }
   ],
   "stats": {
-    "realized_pnl_usd": -7.02,
-    "realized_pnl_pct": -0.9,
+    "realized_pnl_usd": -8.63,
+    "realized_pnl_pct": -1.08,
     "peak_capital_usd": 216.52,
     "peak_concurrent": 12,
     "peak_date": "2026-07-06",
     "deployed_trades": 55,
-    "return_on_peak_pct": -3.24,
-    "win_rate_pct": 38.6,
-    "closed_count": 44,
+    "return_on_peak_pct": -3.99,
+    "win_rate_pct": 37.8,
+    "closed_count": 45,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -3.84,
-        "win_rate_pct": 43.6,
-        "closed_count": 39
+        "realized_pnl_usd": -5.45,
+        "win_rate_pct": 42.5,
+        "closed_count": 40
       },
       "John": {
         "realized_pnl_usd": -3.18,
@@ -1579,19 +1564,8 @@
   "drift_vs_master": {
     "available": true,
     "feed_generated_utc": "2026-07-20T18:25Z",
-    "checked": 14,
+    "checked": 13,
     "in_parity": 13,
-    "drifting": [
-      {
-        "trade_id": "ADAUSDT_20260720_CB_001",
-        "coin": "ADAUSDT",
-        "diffs": {
-          "status": {
-            "follower": "OPEN",
-            "master": "STOPPED"
-          }
-        }
-      }
-    ]
+    "drifting": []
   }
 }
