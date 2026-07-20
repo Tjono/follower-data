@@ -919,8 +919,16 @@
       "opened_at": "2026-07-18T12:06:13Z",
       "margin_usd": 20.031705707360256,
       "braam_trade_id": "LINKUSDT_20260717_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-17T06:53:54Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-17T06:53:54Z",
+      "closed_at": "2026-07-20T01:10:04Z",
+      "close_price": 8.511,
+      "pnl_usd": -1.4533,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0849
     },
     "1447756071": {
       "position_id": "1447756071",
@@ -933,6 +941,30 @@
       "braam_trade_id": "TRXUSDT_20260716_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-16T20:07:24Z"
+    },
+    "1448475894": {
+      "position_id": "1448475894",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1.1029,
+      "opened_at": "2026-07-20T00:10:51Z",
+      "margin_usd": 19.914773935719182,
+      "braam_trade_id": "XRPUSDT_20260716_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-16T20:32:13Z"
+    },
+    "1448475299": {
+      "position_id": "1448475299",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 76.79,
+      "opened_at": "2026-07-20T00:10:26Z",
+      "margin_usd": 17.974831011079992,
+      "braam_trade_id": "SOLUSDT_20260716_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-16T20:32:08Z"
     }
   },
   "orders": {
@@ -1756,7 +1788,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-19T23:16:58Z",
+  "updated": "2026-07-20T02:09:02Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6877,6 +6909,14 @@
       "unrealized": 0.2136,
       "realized": -6.4665,
       "total": -6.2529
+    },
+    {
+      "ts": "2026-07-20T02:09:02Z",
+      "equity": 396.6464,
+      "available": 190.3508,
+      "unrealized": 0.8014,
+      "realized": -7.9198,
+      "total": -7.1184
     }
   ]
 }
