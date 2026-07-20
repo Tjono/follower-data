@@ -1786,9 +1786,45 @@
       "resting_at": "2026-07-19T00:08:11Z",
       "braam_trade_id": "TRXUSDT_20260710_CJ_001",
       "status": "RESTING"
+    },
+    "834098151253955584": {
+      "order_id": "834098151253955584",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.06658,
+      "resting_at": "2026-07-20T08:08:15Z",
+      "braam_trade_id": "HBARUSDT_20260720_CB_001",
+      "status": "RESTING"
+    },
+    "834098145289320960": {
+      "order_id": "834098145289320960",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.18716,
+      "resting_at": "2026-07-20T08:08:14Z",
+      "braam_trade_id": "XLMUSDT_20260720_CB_001",
+      "status": "RESTING"
+    },
+    "834098139618453506": {
+      "order_id": "834098139618453506",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 570.1,
+      "resting_at": "2026-07-20T08:08:13Z",
+      "braam_trade_id": "BNBUSDT_20260720_CB_001",
+      "status": "RESTING"
+    },
+    "834098133746284544": {
+      "order_id": "834098133746284544",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "entry_price": 0.165,
+      "resting_at": "2026-07-20T08:08:11Z",
+      "braam_trade_id": "ADAUSDT_20260720_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-20T07:49:59Z",
+  "updated": "2026-07-20T08:09:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -6941,6 +6977,14 @@
       "unrealized": 2.385,
       "realized": -7.9198,
       "total": -5.5348
+    },
+    {
+      "ts": "2026-07-20T08:09:07Z",
+      "equity": 398.1025,
+      "available": 111.8053,
+      "unrealized": 2.2052,
+      "realized": -7.9198,
+      "total": -5.7146
     }
   ]
 }
