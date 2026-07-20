@@ -977,6 +977,42 @@
       "braam_trade_id": "XLMUSDT_20260720_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-20T09:27:49Z"
+    },
+    "1448830713": {
+      "position_id": "1448830713",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.165,
+      "opened_at": "2026-07-20T11:36:16Z",
+      "margin_usd": 19.97352066474072,
+      "braam_trade_id": "ADAUSDT_20260720_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-20T09:27:44Z"
+    },
+    "1448847011": {
+      "position_id": "1448847011",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.06658,
+      "opened_at": "2026-07-20T11:57:12Z",
+      "margin_usd": 19.97093243353454,
+      "braam_trade_id": "HBARUSDT_20260720_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-20T09:27:52Z"
+    },
+    "1448826657": {
+      "position_id": "1448826657",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 570.1,
+      "opened_at": "2026-07-20T11:33:12Z",
+      "margin_usd": 19.06396137781464,
+      "braam_trade_id": "BNBUSDT_20260720_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-20T09:27:47Z"
     }
   },
   "orders": {
@@ -1872,7 +1908,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-20T11:19:24Z",
+  "updated": "2026-07-20T12:09:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7057,6 +7093,14 @@
       "unrealized": 1.4276,
       "realized": -7.9198,
       "total": -6.4922
+    },
+    {
+      "ts": "2026-07-20T12:09:19Z",
+      "equity": 396.0991,
+      "available": 111.8523,
+      "unrealized": 0.3425,
+      "realized": -7.9198,
+      "total": -7.5773
     }
   ]
 }
