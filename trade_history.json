@@ -1013,6 +1013,18 @@
       "braam_trade_id": "BNBUSDT_20260720_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-20T09:27:47Z"
+    },
+    "1449056794": {
+      "position_id": "1449056794",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.07356,
+      "opened_at": "2026-07-20T16:14:01Z",
+      "margin_usd": 19.678582690083072,
+      "braam_trade_id": "DOGEUSDT_20260716_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-16T20:32:10Z"
     }
   },
   "orders": {
@@ -1908,7 +1920,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-20T16:09:09Z",
+  "updated": "2026-07-20T18:09:03Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7125,6 +7137,14 @@
       "unrealized": -1.8636,
       "realized": -7.9198,
       "total": -9.7834
+    },
+    {
+      "ts": "2026-07-20T18:09:03Z",
+      "equity": 392.5757,
+      "available": 131.8276,
+      "unrealized": -3.158,
+      "realized": -7.9198,
+      "total": -11.0778
     }
   ]
 }
