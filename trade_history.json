@@ -159,25 +159,6 @@
       "margin_usd": null,
       "fees_usd": 0.0516
     },
-    "1416523459": {
-      "position_id": "1416523459",
-      "coin": "BTCUSDT",
-      "direction": "Short",
-      "leverage": 10,
-      "entry_price": 64384,
-      "opened_at": "2026-06-14T06:03:24Z",
-      "closed_at": "2026-06-27T16:00:04Z",
-      "close_price": 60818.5,
-      "pnl_usd": 16.4781,
-      "tag": "WIN",
-      "close_type": 0,
-      "close_reason": "take_profit",
-      "status": "CLOSED",
-      "resting_at": "2026-06-14T06:03:24Z",
-      "close_fills": 1,
-      "margin_usd": null,
-      "fees_usd": 0.1151
-    },
     "1433707485": {
       "position_id": "1433707485",
       "coin": "TAOUSDT",
@@ -2017,7 +1998,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-21T14:07:52Z",
+  "updated": "2026-07-21T14:31:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7354,6 +7335,14 @@
       "unrealized": 0.4662,
       "realized": -18.1845,
       "total": -17.7183
+    },
+    {
+      "ts": "2026-07-21T14:31:57Z",
+      "equity": 386.0379,
+      "available": 247.3224,
+      "unrealized": 1.1082,
+      "realized": -18.1845,
+      "total": -17.0763
     }
   ]
 }
