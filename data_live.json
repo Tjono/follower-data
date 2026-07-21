@@ -1,18 +1,20 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-21T06:09:10Z",
+  "last_updated_iso": "2026-07-21T06:46:19Z",
   "mexc_account": {
-    "unrealized_pnl": -2.6386,
-    "equity": 389.0857,
-    "available": 176.4407,
-    "position_margin": 136.4663
+    "unrealized_pnl": -3.7104,
+    "equity": 387.3078,
+    "available": 194.7985,
+    "position_margin": 117.4023
   },
   "order_levels": {
-    "checked": 11,
-    "in_sync": 11,
+    "checked": 10,
+    "in_sync": 10,
     "drifted": [],
-    "reconciling": [],
+    "reconciling": [
+      "BNB"
+    ],
     "detail": []
   },
   "api_keys": [],
@@ -53,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$389.09",
+      "value": "$387.31",
       "status": "ok",
       "action": null
     },
@@ -77,9 +79,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (7 open, 7 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "\ud83d\udd34 4 NAKED: DOGEUSDT, TRXUSDT, XLMUSDT, ONDOUSDT",
+      "status": "urgent",
+      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: DOGEUSDT, TRXUSDT, XLMUSDT, ONDOUSDT"
     }
   ],
   "active_trades": [

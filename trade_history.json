@@ -1043,8 +1043,16 @@
       "opened_at": "2026-07-20T11:33:12Z",
       "margin_usd": 19.06396137781464,
       "braam_trade_id": "BNBUSDT_20260720_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-20T09:27:47Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-20T09:27:47Z",
+      "closed_at": "2026-07-21T06:34:59Z",
+      "close_price": 576.7,
+      "pnl_usd": -0.7319,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0803
     },
     "1449056794": {
       "position_id": "1449056794",
@@ -1985,7 +1993,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-21T06:09:28Z",
+  "updated": "2026-07-21T06:46:34Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7274,6 +7282,14 @@
       "unrealized": -2.6386,
       "realized": -11.2607,
       "total": -13.8993
+    },
+    {
+      "ts": "2026-07-21T06:46:34Z",
+      "equity": 387.3078,
+      "available": 194.7985,
+      "unrealized": -3.7104,
+      "realized": -11.9926,
+      "total": -15.703
     }
   ]
 }
