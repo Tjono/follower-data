@@ -999,8 +999,16 @@
       "opened_at": "2026-07-20T09:35:36Z",
       "margin_usd": 19.401568383726616,
       "braam_trade_id": "XLMUSDT_20260720_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-20T09:27:49Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-20T09:27:49Z",
+      "closed_at": "2026-07-21T08:04:11Z",
+      "close_price": 0.19218,
+      "pnl_usd": -1.6231,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0824
     },
     "1448830713": {
       "position_id": "1448830713",
@@ -1075,8 +1083,16 @@
       "opened_at": "2026-07-20T18:10:43Z",
       "margin_usd": 19.239854092859904,
       "braam_trade_id": "ONDOUSDT_20260718_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-18T12:08:13Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-18T12:08:13Z",
+      "closed_at": "2026-07-21T07:03:02Z",
+      "close_price": 0.3811,
+      "pnl_usd": -3.5179,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0832
     },
     "1449367850": {
       "position_id": "1449367850",
@@ -1993,7 +2009,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-21T06:46:34Z",
+  "updated": "2026-07-21T08:08:56Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7290,6 +7306,14 @@
       "unrealized": -3.7104,
       "realized": -11.9926,
       "total": -15.703
+    },
+    {
+      "ts": "2026-07-21T08:08:56Z",
+      "equity": 385.0995,
+      "available": 228.3688,
+      "unrealized": -0.8475,
+      "realized": -17.1336,
+      "total": -17.9811
     }
   ]
 }
