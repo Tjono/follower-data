@@ -963,8 +963,16 @@
       "opened_at": "2026-07-20T00:10:26Z",
       "margin_usd": 17.974831011079992,
       "braam_trade_id": "SOLUSDT_20260716_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-16T20:32:08Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-16T20:32:08Z",
+      "closed_at": "2026-07-21T03:07:50Z",
+      "close_price": 78.5,
+      "pnl_usd": -1.2698,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0761
     },
     "1448762161": {
       "position_id": "1448762161",
@@ -1045,6 +1053,18 @@
       "braam_trade_id": "ONDOUSDT_20260718_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-18T12:08:13Z"
+    },
+    "1449367850": {
+      "position_id": "1449367850",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 2.012,
+      "opened_at": "2026-07-21T03:10:04Z",
+      "margin_usd": 19.510637437351072,
+      "braam_trade_id": "NEARUSDT_20260717_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-17T06:53:49Z"
     }
   },
   "orders": {
@@ -1940,7 +1960,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-20T23:29:25Z",
+  "updated": "2026-07-21T03:54:01Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7205,6 +7225,14 @@
       "unrealized": 0.2751,
       "realized": -9.5935,
       "total": -9.3184
+    },
+    {
+      "ts": "2026-07-21T03:54:01Z",
+      "equity": 390.2224,
+      "available": 166.9505,
+      "unrealized": -2.5932,
+      "realized": -10.8633,
+      "total": -13.4565
     }
   ]
 }
