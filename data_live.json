@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-22T18:07:15Z",
+  "last_updated_iso": "2026-07-22T19:51:26Z",
   "mexc_account": {
-    "unrealized_pnl": 0.352,
-    "equity": 386.9757,
+    "unrealized_pnl": 0.872,
+    "equity": 387.4957,
     "available": 289.1704,
     "position_margin": 19.6786
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$386.98",
+      "value": "$387.50",
       "status": "ok",
       "action": null
     },
@@ -265,18 +265,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "ONDOUSDT_20260718_CB_001",
-      "coin": "ONDOUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.35961456,
-      "live_entry_fill": 0.3596,
-      "tp1_hit": false,
-      "iso": "2026-07-20T18:10:00Z",
-      "_iso_ms": 1784571000000,
-      "rehearsal": false
-    },
     {
       "trade_id": "NEARUSDT_20260717_CB_001",
       "coin": "NEARUSDT",
