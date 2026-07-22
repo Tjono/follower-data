@@ -1100,8 +1100,16 @@
       "opened_at": "2026-07-21T03:10:04Z",
       "margin_usd": 19.510637437351072,
       "braam_trade_id": "NEARUSDT_20260717_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-17T06:53:49Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-17T06:53:49Z",
+      "closed_at": "2026-07-22T04:01:30Z",
+      "close_price": 1.928,
+      "pnl_usd": 2.3376,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0796
     }
   },
   "orders": {
@@ -2006,7 +2014,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-22T03:54:31Z",
+  "updated": "2026-07-22T04:07:48Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7439,6 +7447,14 @@
       "unrealized": 1.511,
       "realized": -18.9791,
       "total": -17.4681
+    },
+    {
+      "ts": "2026-07-22T04:07:48Z",
+      "equity": 386.7118,
+      "available": 288.0559,
+      "unrealized": 0.16,
+      "realized": -16.6415,
+      "total": -16.4815
     }
   ]
 }
