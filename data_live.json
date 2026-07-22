@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-22T16:08:43Z",
+  "last_updated_iso": "2026-07-22T17:46:44Z",
   "mexc_account": {
-    "unrealized_pnl": 0.352,
-    "equity": 386.9757,
+    "unrealized_pnl": 0.144,
+    "equity": 386.7677,
     "available": 289.1704,
     "position_margin": 19.6786
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$386.98",
+      "value": "$386.77",
       "status": "ok",
       "action": null
     },
@@ -265,18 +265,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "DOGEUSDT_20260716_CB_001",
-      "coin": "DOGEUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.07356441,
-      "live_entry_fill": 0.07356,
-      "tp1_hit": false,
-      "iso": "2026-07-20T16:14:00Z",
-      "_iso_ms": 1784564040000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ONDOUSDT_20260718_CB_001",
       "coin": "ONDOUSDT",
