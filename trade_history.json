@@ -1110,6 +1110,18 @@
       "close_reason": "tp1_tp2",
       "close_fills": 2,
       "fees_usd": 0.0796
+    },
+    "1450833161": {
+      "position_id": "1450833161",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 572,
+      "opened_at": "2026-07-22T20:12:07Z",
+      "margin_usd": 19.1274967691808,
+      "braam_trade_id": "BNBUSDT_20260722_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-22T20:12:08Z"
     }
   },
   "orders": {
@@ -2021,9 +2033,18 @@
       "resting_at": "2026-07-22T16:08:11Z",
       "braam_trade_id": "NEARUSDT_20260722_CB_001",
       "status": "RESTING"
+    },
+    "835005099268384256": {
+      "order_id": "835005099268384256",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.18943,
+      "resting_at": "2026-07-22T20:12:09Z",
+      "braam_trade_id": "XLMUSDT_20260722_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-22T19:51:36Z",
+  "updated": "2026-07-22T20:12:53Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7528,6 +7549,14 @@
       "unrealized": 0.872,
       "realized": -16.6415,
       "total": -15.7695
+    },
+    {
+      "ts": "2026-07-22T20:12:53Z",
+      "equity": 387.354,
+      "available": 250.9482,
+      "unrealized": 0.776,
+      "realized": -16.6415,
+      "total": -15.8655
     }
   ]
 }

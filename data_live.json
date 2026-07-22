@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-22T19:51:26Z",
+  "last_updated_iso": "2026-07-22T20:12:43Z",
   "mexc_account": {
-    "unrealized_pnl": 0.872,
-    "equity": 387.4957,
-    "available": 289.1704,
-    "position_margin": 19.6786
+    "unrealized_pnl": 0.776,
+    "equity": 387.354,
+    "available": 250.9482,
+    "position_margin": 38.8061
   },
   "order_levels": {
-    "checked": 5,
-    "in_sync": 5,
+    "checked": 7,
+    "in_sync": 7,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (83 records)",
+      "value": "OK (85 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$387.50",
+      "value": "$387.35",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (4 resting = journal)",
+      "value": "in sync (5 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (1 open, 1 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -247,6 +247,72 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20260722_CB_001",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 571.81678809,
+      "sl": 578.7679458,
+      "tp1": 545.62354837,
+      "tp2": 508.48841383,
+      "capital_usd": 19.37,
+      "leverage": 3,
+      "trading_system": "Braam",
+      "track_only": false,
+      "status": "OPEN",
+      "price_at_run": null,
+      "date_activated": "2026-07-22",
+      "time_activated_utc": "20:12",
+      "date_opened": "2026-07-22",
+      "time_opened_utc": "20:03",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": true,
+      "live_entry_fill": 572.0,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": -0.032,
+      "live_fees_usd": 0.0457,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "XLMUSDT_20260722_CB_001",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.18943185,
+      "sl": 0.19479524,
+      "tp1": 0.1676794,
+      "tp2": 0.14194407,
+      "capital_usd": 19.37,
+      "leverage": 3,
+      "trading_system": "Braam",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-07-22",
+      "time_opened_utc": "20:03",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -262,6 +328,19 @@
       "track_only": false,
       "iso": "2026-07-22T16:03:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "XLMUSDT_20260722_CB_001",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 0.18943185,
+      "tp1": 0.1676794,
+      "sl": 0.19479524,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-07-22T20:03:00Z",
+      "rehearsal": false
     }
   ],
   "recent_opens": [
@@ -275,6 +354,18 @@
       "tp1_hit": true,
       "iso": "2026-07-21T03:10:00Z",
       "_iso_ms": 1784603400000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20260722_CB_001",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 571.81678809,
+      "live_entry_fill": 572.0,
+      "tp1_hit": false,
+      "iso": "2026-07-22T20:12:00Z",
+      "_iso_ms": 1784751120000,
       "rehearsal": false
     }
   ],
@@ -1368,7 +1459,7 @@
     "peak_capital_usd": 216.52,
     "peak_concurrent": 12,
     "peak_date": "2026-07-06",
-    "deployed_trades": 56,
+    "deployed_trades": 57,
     "return_on_peak_pct": -7.64,
     "win_rate_pct": 35.2,
     "closed_count": 54,
@@ -1384,15 +1475,15 @@
         "closed_count": 5
       }
     },
-    "live_trade_count_total": 76,
-    "live_real_count": 76,
+    "live_trade_count_total": 78,
+    "live_real_count": 78,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-22T18:05Z",
-    "checked": 5,
-    "in_parity": 5,
+    "feed_generated_utc": "2026-07-22T20:11Z",
+    "checked": 7,
+    "in_parity": 7,
     "drifting": []
   }
 }
