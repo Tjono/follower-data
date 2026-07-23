@@ -2186,9 +2186,18 @@
       "resting_at": "2026-07-23T19:53:28Z",
       "braam_trade_id": "TRXUSDT_20260723_CB_001",
       "status": "RESTING"
+    },
+    "835366383943870464": {
+      "order_id": "835366383943870464",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.32784,
+      "resting_at": "2026-07-23T20:07:46Z",
+      "braam_trade_id": "TRXUSDT_20260723_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-23T19:54:30Z",
+  "updated": "2026-07-23T20:08:44Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7877,6 +7886,14 @@
       "unrealized": 4.7583,
       "realized": -16.6415,
       "total": -11.8832
+    },
+    {
+      "ts": "2026-07-23T20:08:44Z",
+      "equity": 392.0924,
+      "available": 97.9737,
+      "unrealized": 3.6477,
+      "realized": -16.6415,
+      "total": -12.9938
     }
   ]
 }
