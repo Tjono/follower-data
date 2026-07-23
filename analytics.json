@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-23T20:30:31+00:00",
+  "generated_at_utc": "2026-07-23T21:33:22+00:00",
   "all_time": {
     "total_trades": 54,
     "wins": 19,
@@ -44,8 +44,8 @@
       "days_active": 29,
       "pnl_per_day": -0.46,
       "status": "active",
-      "open": 5,
-      "pending": 9
+      "open": 6,
+      "pending": 8
     },
     "Mong": {
       "n": 0,
@@ -93,8 +93,8 @@
       "wr": 38.8,
       "pnl": -13.37,
       "pnl_per_day": -0.46,
-      "open": 5,
-      "pending": 9
+      "open": 6,
+      "pending": 8
     },
     {
       "name": "Mong",
@@ -461,7 +461,7 @@
   ],
   "benchmark": {
     "inception_iso": "2026-06-29T17:05:26Z",
-    "base_usd": 405.08,
+    "base_usd": 405.05,
     "ours": [
       {
         "iso": "2026-06-29",
@@ -521,7 +521,7 @@
       },
       {
         "iso": "2026-07-04",
-        "pct": -3.167
+        "pct": -3.168
       },
       {
         "iso": "2026-07-04",
@@ -545,7 +545,7 @@
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.91
+        "pct": -4.911
       },
       {
         "iso": "2026-07-06",
@@ -557,11 +557,11 @@
       },
       {
         "iso": "2026-07-06",
-        "pct": -6.112
+        "pct": -6.113
       },
       {
         "iso": "2026-07-08",
-        "pct": -5.579
+        "pct": -5.58
       },
       {
         "iso": "2026-07-08",
@@ -569,7 +569,7 @@
       },
       {
         "iso": "2026-07-09",
-        "pct": -4.621
+        "pct": -4.622
       },
       {
         "iso": "2026-07-10",
@@ -581,7 +581,7 @@
       },
       {
         "iso": "2026-07-13",
-        "pct": -3.599
+        "pct": -3.6
       },
       {
         "iso": "2026-07-13",
@@ -645,7 +645,7 @@
       },
       {
         "iso": "2026-07-20",
-        "pct": -2.367
+        "pct": -2.368
       },
       {
         "iso": "2026-07-21",
@@ -677,7 +677,7 @@
       },
       {
         "iso": "2026-07-21",
-        "pct": -4.685
+        "pct": -4.686
       },
       {
         "iso": "2026-07-22",
@@ -1008,12 +1008,12 @@
     }
   ],
   "live_positions": {
-    "open_count": 5,
+    "open_count": 6,
     "open_long": 0,
-    "open_short": 5,
-    "pending_count": 11,
-    "capital_open_usd": 500,
-    "capital_pending_usd": 1100
+    "open_short": 6,
+    "pending_count": 10,
+    "capital_open_usd": 600,
+    "capital_pending_usd": 1000
   },
   "macro": {
     "vix": 18.7,

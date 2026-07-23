@@ -1158,6 +1158,18 @@
       "braam_trade_id": "LINKUSDT_20260723_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-23T08:07:24Z"
+    },
+    "1451660438": {
+      "position_id": "1451660438",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.32784,
+      "opened_at": "2026-07-23T21:00:11Z",
+      "margin_usd": 18.63686978911538,
+      "braam_trade_id": "TRXUSDT_20260723_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-23T20:07:46Z"
     }
   },
   "orders": {
@@ -2197,7 +2209,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-23T20:30:33Z",
+  "updated": "2026-07-23T21:33:23Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7910,6 +7922,14 @@
       "unrealized": 3.0478,
       "realized": -16.6415,
       "total": -13.5937
+    },
+    {
+      "ts": "2026-07-23T21:33:23Z",
+      "equity": 391.6139,
+      "available": 97.9849,
+      "unrealized": 3.2026,
+      "realized": -16.6415,
+      "total": -13.4389
     }
   ]
 }
