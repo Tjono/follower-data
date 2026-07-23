@@ -1134,6 +1134,18 @@
       "braam_trade_id": "AVAXUSDT_20260723_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-23T04:07:05Z"
+    },
+    "1451137843": {
+      "position_id": "1451137843",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 46.96,
+      "opened_at": "2026-07-23T08:09:11Z",
+      "margin_usd": 19.314749240909972,
+      "braam_trade_id": "LTCUSDT_20260723_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-23T08:07:25Z"
     }
   },
   "orders": {
@@ -2092,7 +2104,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-23T08:08:14Z",
+  "updated": "2026-07-23T08:19:47Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7677,6 +7689,14 @@
       "unrealized": 1.3532,
       "realized": -16.6415,
       "total": -15.2883
+    },
+    {
+      "ts": "2026-07-23T08:19:47Z",
+      "equity": 387.5942,
+      "available": 173.5128,
+      "unrealized": 1.0226,
+      "realized": -16.6415,
+      "total": -15.6189
     }
   ]
 }
