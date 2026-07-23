@@ -1122,6 +1122,18 @@
       "braam_trade_id": "BNBUSDT_20260722_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-22T20:12:08Z"
+    },
+    "1451087164": {
+      "position_id": "1451087164",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 6.579,
+      "opened_at": "2026-07-23T06:20:23Z",
+      "margin_usd": 19.359969422221614,
+      "braam_trade_id": "AVAXUSDT_20260723_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-23T04:07:05Z"
     }
   },
   "orders": {
@@ -2053,7 +2065,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-23T06:07:56Z",
+  "updated": "2026-07-23T06:44:47Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7606,6 +7618,14 @@
       "unrealized": 0.966,
       "realized": -16.6415,
       "total": -15.6755
+    },
+    {
+      "ts": "2026-07-23T06:44:47Z",
+      "equity": 387.4882,
+      "available": 231.62,
+      "unrealized": 0.8784,
+      "realized": -16.6415,
+      "total": -15.7631
     }
   ]
 }
