@@ -2123,9 +2123,54 @@
       "resting_at": "2026-07-23T09:23:09Z",
       "braam_trade_id": "ALGOUSDT_20260723_CB_001",
       "status": "RESTING"
+    },
+    "835305960104191488": {
+      "order_id": "835305960104191488",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.32784,
+      "resting_at": "2026-07-23T16:07:40Z",
+      "braam_trade_id": "TRXUSDT_20260723_CB_001",
+      "status": "RESTING"
+    },
+    "835305955522619392": {
+      "order_id": "835305955522619392",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "entry_price": 0.7617,
+      "resting_at": "2026-07-23T16:07:38Z",
+      "braam_trade_id": "SUIUSDT_20260723_CB_001",
+      "status": "RESTING"
+    },
+    "835305949890745344": {
+      "order_id": "835305949890745344",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.1285,
+      "resting_at": "2026-07-23T16:07:37Z",
+      "braam_trade_id": "XRPUSDT_20260723_CB_001",
+      "status": "RESTING"
+    },
+    "835305944450820096": {
+      "order_id": "835305944450820096",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "entry_price": 0.1721,
+      "resting_at": "2026-07-23T16:07:36Z",
+      "braam_trade_id": "ADAUSDT_20260723_CB_001",
+      "status": "RESTING"
+    },
+    "835305938658354688": {
+      "order_id": "835305938658354688",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1913.31,
+      "resting_at": "2026-07-23T16:07:34Z",
+      "braam_trade_id": "ETHUSDT_20260723_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-23T14:39:38Z",
+  "updated": "2026-07-23T16:08:46Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7774,6 +7819,14 @@
       "unrealized": 2.9004,
       "realized": -16.6415,
       "total": -13.7411
+    },
+    {
+      "ts": "2026-07-23T16:08:46Z",
+      "equity": 392.494,
+      "available": 87.3085,
+      "unrealized": 5.0345,
+      "realized": -16.6415,
+      "total": -11.607
     }
   ]
 }
