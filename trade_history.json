@@ -2114,9 +2114,18 @@
       "resting_at": "2026-07-23T08:07:22Z",
       "braam_trade_id": "ALGOUSDT_20260723_CB_001",
       "status": "RESTING"
+    },
+    "835204162382976000": {
+      "order_id": "835204162382976000",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.08379,
+      "resting_at": "2026-07-23T09:23:09Z",
+      "braam_trade_id": "ALGOUSDT_20260723_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-23T09:12:15Z",
+  "updated": "2026-07-23T09:24:02Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7733,6 +7742,14 @@
       "unrealized": 0.4613,
       "realized": -16.6415,
       "total": -16.1802
+    },
+    {
+      "ts": "2026-07-23T09:24:02Z",
+      "equity": 387.2023,
+      "available": 173.5243,
+      "unrealized": 0.6652,
+      "realized": -16.6415,
+      "total": -15.9763
     }
   ]
 }
