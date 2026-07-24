@@ -1190,6 +1190,18 @@
       "braam_trade_id": "HBARUSDT_20260724_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-24T12:07:38Z"
+    },
+    "1452270095": {
+      "position_id": "1452270095",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.08379,
+      "opened_at": "2026-07-24T15:16:21Z",
+      "margin_usd": 19.445260669178733,
+      "braam_trade_id": "ALGOUSDT_20260723_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-23T09:23:10Z"
     }
   },
   "orders": {
@@ -2238,7 +2250,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-24T14:19:45Z",
+  "updated": "2026-07-24T15:51:30Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8079,6 +8091,14 @@
       "unrealized": 7.737,
       "realized": -17.0306,
       "total": -9.2936
+    },
+    {
+      "ts": "2026-07-24T15:51:30Z",
+      "equity": 394.2435,
+      "available": 106.6924,
+      "unrealized": 5.8184,
+      "realized": -17.0306,
+      "total": -11.2122
     }
   ]
 }
