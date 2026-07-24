@@ -1178,6 +1178,18 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0782
+    },
+    "1452171872": {
+      "position_id": "1452171872",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.07073,
+      "opened_at": "2026-07-24T13:34:42Z",
+      "margin_usd": 19.725672446989297,
+      "braam_trade_id": "HBARUSDT_20260724_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-24T12:07:38Z"
     }
   },
   "orders": {
@@ -2226,7 +2238,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-24T12:08:44Z",
+  "updated": "2026-07-24T13:55:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8035,6 +8047,14 @@
       "unrealized": 4.8873,
       "realized": -17.0306,
       "total": -12.1433
+    },
+    {
+      "ts": "2026-07-24T13:55:49Z",
+      "equity": 396.3259,
+      "available": 106.6807,
+      "unrealized": 7.8659,
+      "realized": -17.0306,
+      "total": -9.1647
     }
   ]
 }
