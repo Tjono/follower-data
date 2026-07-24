@@ -1168,8 +1168,16 @@
       "opened_at": "2026-07-23T21:00:11Z",
       "margin_usd": 18.63686978911538,
       "braam_trade_id": "TRXUSDT_20260723_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-23T20:07:46Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-23T20:07:46Z",
+      "closed_at": "2026-07-24T04:22:55Z",
+      "close_price": 0.32968,
+      "pnl_usd": -0.3891,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0782
     }
   },
   "orders": {
@@ -2209,7 +2217,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-24T04:08:40Z",
+  "updated": "2026-07-24T06:08:30Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -7978,6 +7986,14 @@
       "unrealized": 4.0222,
       "realized": -16.6415,
       "total": -12.6193
+    },
+    {
+      "ts": "2026-07-24T06:08:30Z",
+      "equity": 392.8739,
+      "available": 116.323,
+      "unrealized": 4.7614,
+      "realized": -17.0306,
+      "total": -12.2692
     }
   ]
 }
