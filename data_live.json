@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-25T04:08:11Z",
+  "last_updated_iso": "2026-07-25T06:34:56Z",
   "mexc_account": {
-    "unrealized_pnl": 5.5716,
-    "equity": 391.1261,
-    "available": 123.3272,
+    "unrealized_pnl": 6.2426,
+    "equity": 391.8609,
+    "available": 123.391,
     "position_margin": 67.442
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$391.13",
+      "value": "$391.86",
       "status": "ok",
       "action": null
     },
@@ -595,18 +595,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "AVAXUSDT_20260723_CB_001",
-      "coin": "AVAXUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 6.57872609,
-      "live_entry_fill": 6.579,
-      "tp1_hit": true,
-      "iso": "2026-07-23T06:20:00Z",
-      "_iso_ms": 1784787600000,
-      "rehearsal": false
-    },
     {
       "trade_id": "LTCUSDT_20260723_CB_001",
       "coin": "LTCUSDT",
@@ -1859,7 +1847,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-25T04:06Z",
+    "feed_generated_utc": "2026-07-25T06:06Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
