@@ -2264,9 +2264,18 @@
       "resting_at": "2026-07-24T12:07:37Z",
       "braam_trade_id": "HBARUSDT_20260724_CB_001",
       "status": "RESTING"
+    },
+    "835849499326629888": {
+      "order_id": "835849499326629888",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.07077,
+      "resting_at": "2026-07-25T04:07:29Z",
+      "braam_trade_id": "HBARUSDT_20260725_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-25T03:46:16Z",
+  "updated": "2026-07-25T04:08:28Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8171,6 +8180,14 @@
       "unrealized": 5.5547,
       "realized": -19.9708,
       "total": -14.4161
+    },
+    {
+      "ts": "2026-07-25T04:08:28Z",
+      "equity": 391.1261,
+      "available": 123.3272,
+      "unrealized": 5.5716,
+      "realized": -19.9708,
+      "total": -14.3992
     }
   ]
 }
