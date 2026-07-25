@@ -2310,9 +2310,18 @@
       "resting_at": "2026-07-25T12:09:56Z",
       "braam_trade_id": "HBARUSDT_20260725_CB_001",
       "status": "RESTING"
+    },
+    "836107830170839040": {
+      "order_id": "836107830170839040",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1913.31,
+      "resting_at": "2026-07-25T21:14:00Z",
+      "braam_trade_id": "ETHUSDT_20260723_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-25T19:40:53Z",
+  "updated": "2026-07-25T21:14:22Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8313,6 +8322,14 @@
       "unrealized": 1.6629,
       "realized": -16.3451,
       "total": -14.6822
+    },
+    {
+      "ts": "2026-07-25T21:14:22Z",
+      "equity": 389.4597,
+      "available": 164.0876,
+      "unrealized": 2.0773,
+      "realized": -16.3451,
+      "total": -14.2678
     }
   ]
 }
