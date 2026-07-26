@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-26T14:05:37Z",
+  "last_updated_iso": "2026-07-26T15:35:23Z",
   "mexc_account": {
-    "unrealized_pnl": 1.1935,
-    "equity": 387.3148,
+    "unrealized_pnl": 0.7168,
+    "equity": 386.8381,
     "available": 192.6139,
     "position_margin": 57.9624
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$387.31",
+      "value": "$386.84",
       "status": "ok",
       "action": null
     },
@@ -416,18 +416,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "ALGOUSDT_20260723_CB_001",
-      "coin": "ALGOUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.0837858,
-      "live_entry_fill": 0.08379,
-      "tp1_hit": false,
-      "iso": "2026-07-24T15:16:00Z",
-      "_iso_ms": 1784906160000,
-      "rehearsal": false
-    },
     {
       "trade_id": "HBARUSDT_20260725_CB_001",
       "coin": "HBARUSDT",
@@ -1705,7 +1693,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-26T12:06Z",
+    "feed_generated_utc": "2026-07-26T14:06Z",
     "checked": 10,
     "in_parity": 10,
     "drifting": []
