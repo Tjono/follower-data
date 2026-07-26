@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-26T17:31:02Z",
+  "last_updated_iso": "2026-07-26T18:03:03Z",
   "mexc_account": {
-    "unrealized_pnl": 0.4471,
-    "equity": 386.5417,
+    "unrealized_pnl": 0.5417,
+    "equity": 386.6362,
     "available": 192.633,
     "position_margin": 77.1544
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$386.54",
+      "value": "$386.64",
       "status": "ok",
       "action": null
     },
@@ -254,8 +254,8 @@
       "direction": "Short",
       "entry_price": 1913.30505822,
       "sl": 1951.04486015,
-      "tp1": 1809.9471271,
-      "tp2": 1623.69332305,
+      "tp1": 1854.44,
+      "tp2": 1725.24,
       "capital_usd": 19.64,
       "leverage": 3,
       "trading_system": "Braam",
@@ -1705,7 +1705,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-26T16:07Z",
+    "feed_generated_utc": "2026-07-26T18:02Z",
     "checked": 10,
     "in_parity": 10,
     "drifting": []
