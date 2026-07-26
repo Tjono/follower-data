@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-07-26T07:09:06+00:00",
+  "generated_at_utc": "2026-07-26T08:08:52+00:00",
   "all_time": {
-    "total_trades": 60,
-    "wins": 21,
+    "total_trades": 61,
+    "wins": 22,
     "losses": 39,
-    "win_rate": 35.0,
+    "win_rate": 36.1,
     "total_pnl_usd": -17.66,
     "avg_pnl_usd": -0.29,
     "best_usd": 4.03,
     "worst_usd": -3.55,
-    "avg_win_usd": 1.65,
+    "avg_win_usd": 1.59,
     "avg_loss_usd": -1.32,
     "expectancy_usd": -0.29,
-    "profit_factor": 0.67,
+    "profit_factor": 0.68,
     "longest_win_streak": 6,
     "longest_loss_streak": 16,
-    "current_streak_type": "loss",
+    "current_streak_type": "win",
     "current_streak_count": 1,
-    "avg_hold_hours": 49.0,
+    "avg_hold_hours": 49.4,
     "median_hold_hours": 28.0
   },
   "by_system": {
@@ -35,16 +35,16 @@
       "pending": 1
     },
     "Braam": {
-      "n": 55,
-      "wins": 21,
-      "wr": 38.2,
-      "pnl": -13.74,
-      "avg": -0.25,
+      "n": 56,
+      "wins": 22,
+      "wr": 39.3,
+      "pnl": -13.32,
+      "avg": -0.24,
       "inception": "2026-06-24",
       "days_active": 32,
-      "pnl_per_day": -0.43,
+      "pnl_per_day": -0.42,
       "status": "active",
-      "open": 4,
+      "open": 3,
       "pending": 6
     },
     "Mong": {
@@ -88,12 +88,12 @@
       "name": "Braam",
       "inception": "2026-06-24",
       "days_active": 32,
-      "closed": 55,
-      "wins": 21,
-      "wr": 38.2,
-      "pnl": -13.74,
-      "pnl_per_day": -0.43,
-      "open": 4,
+      "closed": 56,
+      "wins": 22,
+      "wr": 39.3,
+      "pnl": -13.32,
+      "pnl_per_day": -0.42,
+      "open": 3,
       "pending": 6
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "month": "2026-07",
-      "n": 57,
-      "wins": 20,
-      "wr": 35.1,
-      "pnl": -17.39,
-      "cumulative_pnl": -16.92
+      "n": 58,
+      "wins": 21,
+      "wr": 36.2,
+      "pnl": -16.97,
+      "cumulative_pnl": -16.5
     }
   ],
   "equity_curve": [
@@ -497,7 +497,7 @@
   ],
   "benchmark": {
     "inception_iso": "2026-06-29T17:05:26Z",
-    "base_usd": 403.8,
+    "base_usd": 403.78,
     "ours": [
       {
         "iso": "2026-06-29",
@@ -541,7 +541,7 @@
       },
       {
         "iso": "2026-07-02",
-        "pct": -1.795
+        "pct": -1.796
       },
       {
         "iso": "2026-07-03",
@@ -573,11 +573,11 @@
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.368
+        "pct": -4.369
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.591
+        "pct": -4.592
       },
       {
         "iso": "2026-07-06",
@@ -601,7 +601,7 @@
       },
       {
         "iso": "2026-07-08",
-        "pct": -5.007
+        "pct": -5.008
       },
       {
         "iso": "2026-07-09",
@@ -609,7 +609,7 @@
       },
       {
         "iso": "2026-07-10",
-        "pct": -4.269
+        "pct": -4.27
       },
       {
         "iso": "2026-07-11",
@@ -685,7 +685,7 @@
       },
       {
         "iso": "2026-07-21",
-        "pct": -2.689
+        "pct": -2.69
       },
       {
         "iso": "2026-07-21",
@@ -713,7 +713,7 @@
       },
       {
         "iso": "2026-07-21",
-        "pct": -4.7
+        "pct": -4.701
       },
       {
         "iso": "2026-07-22",
@@ -721,11 +721,11 @@
       },
       {
         "iso": "2026-07-24",
-        "pct": -4.217
+        "pct": -4.218
       },
       {
         "iso": "2026-07-24",
-        "pct": -4.534
+        "pct": -4.535
       },
       {
         "iso": "2026-07-24",
@@ -733,7 +733,7 @@
       },
       {
         "iso": "2026-07-25",
-        "pct": -4.539
+        "pct": -4.54
       },
       {
         "iso": "2026-07-25",
@@ -741,7 +741,7 @@
       },
       {
         "iso": "2026-07-26",
-        "pct": -4.373
+        "pct": -4.374
       }
     ],
     "spx": [
@@ -816,18 +816,22 @@
       {
         "iso": "2026-07-23",
         "pct": -0.432
+      },
+      {
+        "iso": "2026-07-24",
+        "pct": -0.382
       }
     ],
-    "ours_pct": -4.373,
-    "spx_pct": -0.432
+    "ours_pct": -4.374,
+    "spx_pct": -0.382
   },
   "by_direction": {
     "Short": {
-      "n": 58,
-      "wins": 21,
-      "wr": 36.2,
-      "pnl": -15.59,
-      "avg": -0.27
+      "n": 59,
+      "wins": 22,
+      "wr": 37.3,
+      "pnl": -15.17,
+      "avg": -0.26
     },
     "Long": {
       "n": 2,
@@ -839,11 +843,11 @@
   },
   "by_conviction": {
     "MEDIUM": {
-      "n": 54,
-      "wins": 21,
-      "wr": 38.9,
-      "pnl": -12.41,
-      "avg": -0.23
+      "n": 55,
+      "wins": 22,
+      "wr": 40.0,
+      "pnl": -11.99,
+      "avg": -0.22
     },
     "HIGH": {
       "n": 6,
@@ -967,6 +971,16 @@
   },
   "recent_closes": [
     {
+      "trade_id": "LTCUSDT_20260723_CB_001",
+      "coin": "LTC",
+      "direction": "Short",
+      "system": "Braam",
+      "pnl_usd": 0.42,
+      "won": true,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
+      "iso": "2026-07-26T08:08:00+00:00"
+    },
+    {
       "trade_id": "TAOUSDT_20260726_CB_001",
       "coin": "TAO",
       "direction": "Short",
@@ -1055,44 +1069,34 @@
       "won": false,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED",
       "iso": "2026-07-21T10:08:00+00:00"
-    },
-    {
-      "trade_id": "XLMUSDT_20260720_CB_001",
-      "coin": "XLM",
-      "direction": "Short",
-      "system": "Braam",
-      "pnl_usd": -1.57,
-      "won": false,
-      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
-      "iso": "2026-07-21T08:08:00+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 4,
+    "open_count": 3,
     "open_long": 0,
-    "open_short": 4,
+    "open_short": 3,
     "pending_count": 7,
-    "capital_open_usd": 400,
+    "capital_open_usd": 300,
     "capital_pending_usd": 700
   },
   "macro": {
-    "vix": 18.7,
+    "vix": 18.58,
     "vix_5d": [
-      18.77,
       18.65,
       17.05,
       16.64,
-      18.7
+      18.7,
+      18.58
     ],
-    "vix_ma14": 16.91,
-    "dxy": 101.43,
+    "vix_ma14": 17.02,
+    "dxy": 101.47,
     "dxy_5d": [
-      100.75,
       100.99,
       101.18,
       101.14,
-      101.43
+      101.43,
+      101.47
     ],
-    "dxy_ma14": 100.99
+    "dxy_ma14": 101.03
   }
 }
