@@ -1286,6 +1286,18 @@
       "braam_trade_id": "ETHUSDT_20260723_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-25T21:14:01Z"
+    },
+    "1453749900": {
+      "position_id": "1453749900",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.08423,
+      "opened_at": "2026-07-26T22:00:11Z",
+      "margin_usd": 19.378374621909998,
+      "braam_trade_id": "ALGOUSDT_20260726_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-26T20:08:24Z"
     }
   },
   "orders": {
@@ -2379,7 +2391,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-26T21:16:47Z",
+  "updated": "2026-07-26T22:09:26Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8548,6 +8560,14 @@
       "unrealized": 0.9475,
       "realized": -17.3202,
       "total": -16.3727
+    },
+    {
+      "ts": "2026-07-26T22:09:26Z",
+      "equity": 384.5591,
+      "available": 173.2199,
+      "unrealized": -1.5007,
+      "realized": -17.3202,
+      "total": -18.8209
     }
   ]
 }
