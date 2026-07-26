@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-25T23:19:07+00:00",
+  "generated_at_utc": "2026-07-26T00:09:00+00:00",
   "all_time": {
     "total_trades": 59,
     "wins": 21,
@@ -28,8 +28,8 @@
       "pnl": -3.18,
       "avg": -0.64,
       "inception": "2026-06-30",
-      "days_active": 25,
-      "pnl_per_day": -0.13,
+      "days_active": 26,
+      "pnl_per_day": -0.12,
       "status": "active",
       "open": 0,
       "pending": 1
@@ -41,8 +41,8 @@
       "pnl": -12.49,
       "avg": -0.23,
       "inception": "2026-06-24",
-      "days_active": 31,
-      "pnl_per_day": -0.4,
+      "days_active": 32,
+      "pnl_per_day": -0.39,
       "status": "active",
       "open": 4,
       "pending": 7
@@ -75,24 +75,24 @@
     {
       "name": "John",
       "inception": "2026-06-30",
-      "days_active": 25,
+      "days_active": 26,
       "closed": 5,
       "wins": 0,
       "wr": 0.0,
       "pnl": -3.18,
-      "pnl_per_day": -0.13,
+      "pnl_per_day": -0.12,
       "open": 0,
       "pending": 1
     },
     {
       "name": "Braam",
       "inception": "2026-06-24",
-      "days_active": 31,
+      "days_active": 32,
       "closed": 54,
       "wins": 21,
       "wr": 38.9,
       "pnl": -12.49,
-      "pnl_per_day": -0.4,
+      "pnl_per_day": -0.39,
       "open": 4,
       "pending": 7
     },
@@ -491,7 +491,7 @@
   ],
   "benchmark": {
     "inception_iso": "2026-06-29T17:05:26Z",
-    "base_usd": 403.73,
+    "base_usd": 403.74,
     "ours": [
       {
         "iso": "2026-06-29",
@@ -523,7 +523,7 @@
       },
       {
         "iso": "2026-07-02",
-        "pct": -0.59
+        "pct": -0.589
       },
       {
         "iso": "2026-07-02",
@@ -575,7 +575,7 @@
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.927
+        "pct": -4.926
       },
       {
         "iso": "2026-07-06",
@@ -583,7 +583,7 @@
       },
       {
         "iso": "2026-07-06",
-        "pct": -5.675
+        "pct": -5.674
       },
       {
         "iso": "2026-07-06",
@@ -655,7 +655,7 @@
       },
       {
         "iso": "2026-07-15",
-        "pct": -2.034
+        "pct": -2.033
       },
       {
         "iso": "2026-07-17",
@@ -711,7 +711,7 @@
       },
       {
         "iso": "2026-07-22",
-        "pct": -4.122
+        "pct": -4.121
       },
       {
         "iso": "2026-07-24",
@@ -806,10 +806,14 @@
       {
         "iso": "2026-07-23",
         "pct": -0.432
+      },
+      {
+        "iso": "2026-07-24",
+        "pct": -0.382
       }
     ],
     "ours_pct": -4.05,
-    "spx_pct": -0.432
+    "spx_pct": -0.382
   },
   "by_direction": {
     "Short": {
@@ -1066,23 +1070,23 @@
     "capital_pending_usd": 800
   },
   "macro": {
-    "vix": 18.7,
+    "vix": 18.58,
     "vix_5d": [
-      18.77,
       18.65,
       17.05,
       16.64,
-      18.7
+      18.7,
+      18.58
     ],
-    "vix_ma14": 16.91,
-    "dxy": 101.43,
+    "vix_ma14": 17.02,
+    "dxy": 101.47,
     "dxy_5d": [
-      100.75,
       100.99,
       101.18,
       101.14,
-      101.43
+      101.43,
+      101.47
     ],
-    "dxy_ma14": 100.99
+    "dxy_ma14": 101.03
   }
 }
