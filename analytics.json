@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-07-26T04:08:57+00:00",
+  "generated_at_utc": "2026-07-26T06:08:52+00:00",
   "all_time": {
-    "total_trades": 59,
+    "total_trades": 60,
     "wins": 21,
-    "losses": 38,
-    "win_rate": 35.6,
+    "losses": 39,
+    "win_rate": 35.0,
     "total_pnl_usd": -16.35,
     "avg_pnl_usd": -0.27,
     "best_usd": 4.03,
@@ -12,12 +12,12 @@
     "avg_win_usd": 1.65,
     "avg_loss_usd": -1.32,
     "expectancy_usd": -0.27,
-    "profit_factor": 0.69,
+    "profit_factor": 0.67,
     "longest_win_streak": 6,
     "longest_loss_streak": 16,
-    "current_streak_type": "win",
-    "current_streak_count": 2,
-    "avg_hold_hours": 49.8,
+    "current_streak_type": "loss",
+    "current_streak_count": 1,
+    "avg_hold_hours": 49.0,
     "median_hold_hours": 28.0
   },
   "by_system": {
@@ -35,16 +35,16 @@
       "pending": 1
     },
     "Braam": {
-      "n": 54,
+      "n": 55,
       "wins": 21,
-      "wr": 38.9,
-      "pnl": -12.49,
-      "avg": -0.23,
+      "wr": 38.2,
+      "pnl": -13.74,
+      "avg": -0.25,
       "inception": "2026-06-24",
       "days_active": 32,
-      "pnl_per_day": -0.39,
+      "pnl_per_day": -0.43,
       "status": "active",
-      "open": 5,
+      "open": 4,
       "pending": 6
     },
     "Mong": {
@@ -88,12 +88,12 @@
       "name": "Braam",
       "inception": "2026-06-24",
       "days_active": 32,
-      "closed": 54,
+      "closed": 55,
       "wins": 21,
-      "wr": 38.9,
-      "pnl": -12.49,
-      "pnl_per_day": -0.39,
-      "open": 5,
+      "wr": 38.2,
+      "pnl": -13.74,
+      "pnl_per_day": -0.43,
+      "open": 4,
       "pending": 6
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "month": "2026-07",
-      "n": 56,
+      "n": 57,
       "wins": 20,
-      "wr": 35.7,
-      "pnl": -16.14,
-      "cumulative_pnl": -15.67
+      "wr": 35.1,
+      "pnl": -17.39,
+      "cumulative_pnl": -16.92
     }
   ],
   "equity_curve": [
@@ -491,11 +491,11 @@
   ],
   "benchmark": {
     "inception_iso": "2026-06-29T17:05:26Z",
-    "base_usd": 403.71,
+    "base_usd": 402.49,
     "ours": [
       {
         "iso": "2026-06-29",
-        "pct": -0.285
+        "pct": -0.286
       },
       {
         "iso": "2026-06-30",
@@ -507,231 +507,231 @@
       },
       {
         "iso": "2026-07-01",
-        "pct": -0.629
+        "pct": -0.631
       },
       {
         "iso": "2026-07-01",
-        "pct": -0.441
+        "pct": -0.442
       },
       {
         "iso": "2026-07-01",
-        "pct": -0.56
+        "pct": -0.562
       },
       {
         "iso": "2026-07-01",
-        "pct": -0.904
+        "pct": -0.907
       },
       {
         "iso": "2026-07-02",
-        "pct": -0.59
+        "pct": -0.591
       },
       {
         "iso": "2026-07-02",
-        "pct": -0.946
+        "pct": -0.949
       },
       {
         "iso": "2026-07-02",
-        "pct": -1.464
+        "pct": -1.468
       },
       {
         "iso": "2026-07-02",
-        "pct": -1.796
+        "pct": -1.801
       },
       {
         "iso": "2026-07-03",
-        "pct": -2.145
+        "pct": -2.152
       },
       {
         "iso": "2026-07-03",
-        "pct": -2.499
+        "pct": -2.507
       },
       {
         "iso": "2026-07-03",
-        "pct": -2.759
+        "pct": -2.768
       },
       {
         "iso": "2026-07-04",
-        "pct": -3.178
+        "pct": -3.188
       },
       {
         "iso": "2026-07-04",
-        "pct": -3.446
+        "pct": -3.456
       },
       {
         "iso": "2026-07-05",
-        "pct": -3.5
+        "pct": -3.511
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.09
+        "pct": -4.102
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.369
+        "pct": -4.383
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.592
+        "pct": -4.606
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.927
+        "pct": -4.942
       },
       {
         "iso": "2026-07-06",
-        "pct": -5.311
+        "pct": -5.327
       },
       {
         "iso": "2026-07-06",
-        "pct": -5.675
+        "pct": -5.692
       },
       {
         "iso": "2026-07-06",
-        "pct": -6.133
+        "pct": -6.152
       },
       {
         "iso": "2026-07-08",
-        "pct": -5.598
+        "pct": -5.615
       },
       {
         "iso": "2026-07-08",
-        "pct": -5.009
+        "pct": -5.024
       },
       {
         "iso": "2026-07-09",
-        "pct": -4.637
+        "pct": -4.651
       },
       {
         "iso": "2026-07-10",
-        "pct": -4.27
+        "pct": -4.283
       },
       {
         "iso": "2026-07-11",
-        "pct": -3.309
+        "pct": -3.319
       },
       {
         "iso": "2026-07-13",
-        "pct": -3.612
+        "pct": -3.622
       },
       {
         "iso": "2026-07-13",
-        "pct": -2.797
+        "pct": -2.805
       },
       {
         "iso": "2026-07-13",
-        "pct": -1.999
+        "pct": -2.005
       },
       {
         "iso": "2026-07-14",
-        "pct": -1.776
+        "pct": -1.781
       },
       {
         "iso": "2026-07-14",
-        "pct": -1.528
+        "pct": -1.533
       },
       {
         "iso": "2026-07-14",
-        "pct": -1.204
+        "pct": -1.207
       },
       {
         "iso": "2026-07-14",
-        "pct": -1.565
+        "pct": -1.57
       },
       {
         "iso": "2026-07-14",
-        "pct": -1.298
+        "pct": -1.302
       },
       {
         "iso": "2026-07-14",
-        "pct": -1.513
+        "pct": -1.518
       },
       {
         "iso": "2026-07-15",
-        "pct": -1.065
+        "pct": -1.068
       },
       {
         "iso": "2026-07-15",
-        "pct": -1.754
+        "pct": -1.759
       },
       {
         "iso": "2026-07-15",
-        "pct": -2.034
+        "pct": -2.04
       },
       {
         "iso": "2026-07-17",
-        "pct": -1.491
+        "pct": -1.496
       },
       {
         "iso": "2026-07-18",
-        "pct": -1.248
+        "pct": -1.252
       },
       {
         "iso": "2026-07-18",
-        "pct": -1.603
+        "pct": -1.607
       },
       {
         "iso": "2026-07-20",
-        "pct": -1.962
+        "pct": -1.968
       },
       {
         "iso": "2026-07-20",
-        "pct": -2.375
+        "pct": -2.383
       },
       {
         "iso": "2026-07-21",
-        "pct": -2.69
+        "pct": -2.698
       },
       {
         "iso": "2026-07-21",
-        "pct": -3.032
+        "pct": -3.041
       },
       {
         "iso": "2026-07-21",
-        "pct": -2.789
+        "pct": -2.798
       },
       {
         "iso": "2026-07-21",
-        "pct": -2.97
+        "pct": -2.979
       },
       {
         "iso": "2026-07-21",
-        "pct": -3.842
+        "pct": -3.854
       },
       {
         "iso": "2026-07-21",
-        "pct": -4.243
+        "pct": -4.256
       },
       {
         "iso": "2026-07-21",
-        "pct": -4.503
+        "pct": -4.517
       },
       {
         "iso": "2026-07-21",
-        "pct": -4.701
+        "pct": -4.716
       },
       {
         "iso": "2026-07-22",
-        "pct": -4.122
+        "pct": -4.134
       },
       {
         "iso": "2026-07-24",
-        "pct": -4.218
+        "pct": -4.231
       },
       {
         "iso": "2026-07-24",
-        "pct": -4.535
+        "pct": -4.549
       },
       {
         "iso": "2026-07-24",
-        "pct": -4.947
+        "pct": -4.962
       },
       {
         "iso": "2026-07-25",
-        "pct": -4.54
+        "pct": -4.554
       },
       {
         "iso": "2026-07-25",
-        "pct": -4.05
+        "pct": -4.062
       }
     ],
     "spx": [
@@ -812,16 +812,16 @@
         "pct": -0.382
       }
     ],
-    "ours_pct": -4.05,
+    "ours_pct": -4.062,
     "spx_pct": -0.382
   },
   "by_direction": {
     "Short": {
-      "n": 57,
+      "n": 58,
       "wins": 21,
-      "wr": 36.8,
-      "pnl": -14.34,
-      "avg": -0.25
+      "wr": 36.2,
+      "pnl": -15.59,
+      "avg": -0.27
     },
     "Long": {
       "n": 2,
@@ -833,11 +833,11 @@
   },
   "by_conviction": {
     "MEDIUM": {
-      "n": 53,
+      "n": 54,
       "wins": 21,
-      "wr": 39.6,
-      "pnl": -11.16,
-      "avg": -0.21
+      "wr": 38.9,
+      "pnl": -12.41,
+      "avg": -0.23
     },
     "HIGH": {
       "n": 6,
@@ -913,6 +913,14 @@
       "avg": -0.7
     },
     {
+      "coin": "TAO",
+      "n": 4,
+      "wins": 1,
+      "wr": 25.0,
+      "pnl": -3.4,
+      "avg": -0.85
+    },
+    {
       "coin": "ONDO",
       "n": 3,
       "wins": 1,
@@ -927,14 +935,6 @@
       "wr": 20.0,
       "pnl": -2.97,
       "avg": -0.59
-    },
-    {
-      "coin": "NEAR",
-      "n": 4,
-      "wins": 2,
-      "wr": 50.0,
-      "pnl": -2.8,
-      "avg": -0.7
     }
   ],
   "best_trade": {
@@ -960,6 +960,16 @@
     "conviction": "MEDIUM"
   },
   "recent_closes": [
+    {
+      "trade_id": "TAOUSDT_20260726_CB_001",
+      "coin": "TAO",
+      "direction": "Short",
+      "system": "Braam",
+      "pnl_usd": -1.25,
+      "won": false,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "iso": "2026-07-26T06:08:00+00:00"
+    },
     {
       "trade_id": "DOGEUSDT_20260716_CB_001",
       "coin": "DOGE",
@@ -1049,24 +1059,14 @@
       "won": false,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED",
       "iso": "2026-07-21T08:08:00+00:00"
-    },
-    {
-      "trade_id": "BNBUSDT_20260720_CB_001",
-      "coin": "BNB",
-      "direction": "Short",
-      "system": "Braam",
-      "pnl_usd": -0.69,
-      "won": false,
-      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
-      "iso": "2026-07-21T08:08:00+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 5,
+    "open_count": 4,
     "open_long": 0,
-    "open_short": 5,
+    "open_short": 4,
     "pending_count": 7,
-    "capital_open_usd": 500,
+    "capital_open_usd": 400,
     "capital_pending_usd": 700
   },
   "macro": {
