@@ -1274,6 +1274,18 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0817
+    },
+    "1453571415": {
+      "position_id": "1453571415",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1913.31,
+      "opened_at": "2026-07-26T15:36:28Z",
+      "margin_usd": 19.192029756515936,
+      "braam_trade_id": "ETHUSDT_20260723_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-25T21:14:01Z"
     }
   },
   "orders": {
@@ -2358,7 +2370,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-26T15:35:36Z",
+  "updated": "2026-07-26T16:09:08Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8471,6 +8483,14 @@
       "unrealized": 0.7168,
       "realized": -17.3202,
       "total": -16.6034
+    },
+    {
+      "ts": "2026-07-26T16:09:08Z",
+      "equity": 386.4854,
+      "available": 192.633,
+      "unrealized": 0.3909,
+      "realized": -17.3202,
+      "total": -16.9293
     }
   ]
 }
