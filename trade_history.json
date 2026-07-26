@@ -1246,6 +1246,18 @@
       "braam_trade_id": "HBARUSDT_20260725_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-25T12:09:56Z"
+    },
+    "1453201625": {
+      "position_id": "1453201625",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 192.54,
+      "opened_at": "2026-07-26T03:00:45Z",
+      "margin_usd": 19.31542776890597,
+      "braam_trade_id": "TAOUSDT_20260726_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-26T00:08:08Z"
     }
   },
   "orders": {
@@ -2330,7 +2342,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-26T00:09:02Z",
+  "updated": "2026-07-26T04:05:04Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8355,6 +8367,14 @@
       "unrealized": 1.548,
       "realized": -16.3451,
       "total": -14.7971
+    },
+    {
+      "ts": "2026-07-26T04:05:04Z",
+      "equity": 388.0785,
+      "available": 164.9578,
+      "unrealized": 0.7189,
+      "realized": -16.3451,
+      "total": -15.6262
     }
   ]
 }
