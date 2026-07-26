@@ -1180,8 +1180,16 @@
       "opened_at": "2026-07-23T08:54:14Z",
       "margin_usd": 19.216412877413756,
       "braam_trade_id": "LINKUSDT_20260723_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-23T08:07:24Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-23T08:07:24Z",
+      "closed_at": "2026-07-26T22:32:34Z",
+      "close_price": 8.754,
+      "pnl_usd": -1.2556,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0813
     },
     "1451660438": {
       "position_id": "1451660438",
@@ -1284,8 +1292,16 @@
       "opened_at": "2026-07-26T15:36:28Z",
       "margin_usd": 19.192029756515936,
       "braam_trade_id": "ETHUSDT_20260723_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-25T21:14:01Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-25T21:14:01Z",
+      "closed_at": "2026-07-26T22:48:56Z",
+      "close_price": 1951.51,
+      "pnl_usd": -1.2262,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0812
     },
     "1453749900": {
       "position_id": "1453749900",
@@ -2391,7 +2407,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-26T22:09:26Z",
+  "updated": "2026-07-26T23:26:54Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8568,6 +8584,14 @@
       "unrealized": -1.5007,
       "realized": -17.3202,
       "total": -18.8209
+    },
+    {
+      "ts": "2026-07-26T23:26:54Z",
+      "equity": 383.4547,
+      "available": 209.2027,
+      "unrealized": -0.1794,
+      "realized": -19.802,
+      "total": -19.9814
     }
   ]
 }
