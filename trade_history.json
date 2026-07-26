@@ -2368,9 +2368,18 @@
       "resting_at": "2026-07-26T00:08:07Z",
       "braam_trade_id": "TAOUSDT_20260726_CB_001",
       "status": "RESTING"
+    },
+    "836453706659781120": {
+      "order_id": "836453706659781120",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.08423,
+      "resting_at": "2026-07-26T20:08:24Z",
+      "braam_trade_id": "ALGOUSDT_20260726_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-26T19:42:24Z",
+  "updated": "2026-07-26T20:09:18Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8523,6 +8532,14 @@
       "unrealized": 0.2834,
       "realized": -17.3202,
       "total": -17.0368
+    },
+    {
+      "ts": "2026-07-26T20:09:18Z",
+      "equity": 386.4953,
+      "available": 173.2083,
+      "unrealized": 0.4008,
+      "realized": -17.3202,
+      "total": -16.9194
     }
   ]
 }
