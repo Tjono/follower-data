@@ -1,18 +1,20 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-27T14:42:16Z",
+  "last_updated_iso": "2026-07-27T14:44:14Z",
   "mexc_account": {
-    "unrealized_pnl": 2.3743,
-    "equity": 387.6052,
-    "available": 211.9592,
-    "position_margin": 38.6378
+    "unrealized_pnl": 1.4245,
+    "equity": 387.7098,
+    "available": 222.7028,
+    "position_margin": 28.9486
   },
   "order_levels": {
-    "checked": 10,
-    "in_sync": 10,
+    "checked": 9,
+    "in_sync": 9,
     "drifted": [],
-    "reconciling": [],
+    "reconciling": [
+      "ALGO"
+    ],
     "detail": []
   },
   "api_keys": [],
@@ -53,7 +55,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$387.61",
+      "value": "$387.71",
       "status": "ok",
       "action": null
     },
@@ -77,7 +79,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 2 pre-TP1 runners)",
+      "value": "all protected (2 open, 1 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -366,18 +368,18 @@
       "date_opened": "2026-07-26",
       "time_opened_utc": "20:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.15,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 0.08423,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0057,
       "live_fees_usd": 0.0347,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 0.8,
       "rehearsal": false
     },
     {
@@ -473,7 +475,7 @@
       "trading_system": "Braam",
       "entry_price": 0.08423476,
       "live_entry_fill": 0.08423,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-07-26T22:00:00Z",
       "_iso_ms": 1785103200000,
       "rehearsal": false
@@ -1748,6 +1750,12 @@
       "direction": "Short",
       "trading_system": "Braam",
       "entry_price": 0.07076682
+    },
+    {
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 0.08423476
     }
   ],
   "stats": {
@@ -1780,18 +1788,7 @@
     "available": true,
     "feed_generated_utc": "2026-07-27T14:41Z",
     "checked": 10,
-    "in_parity": 9,
-    "drifting": [
-      {
-        "trade_id": "ALGOUSDT_20260726_CB_001",
-        "coin": "ALGOUSDT",
-        "diffs": {
-          "tp1_hit": {
-            "follower": false,
-            "master": true
-          }
-        }
-      }
-    ]
+    "in_parity": 10,
+    "drifting": []
   }
 }

@@ -1312,8 +1312,16 @@
       "opened_at": "2026-07-26T22:00:11Z",
       "margin_usd": 19.378374621909998,
       "braam_trade_id": "ALGOUSDT_20260726_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-26T20:08:24Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-26T20:08:24Z",
+      "closed_at": "2026-07-27T14:42:58Z",
+      "close_price": 0.08152,
+      "pnl_usd": 1.7856,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0795
     }
   },
   "orders": {
@@ -2416,7 +2424,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-27T14:42:29Z",
+  "updated": "2026-07-27T14:44:26Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8673,6 +8681,14 @@
       "unrealized": 2.3743,
       "realized": -19.802,
       "total": -17.4277
+    },
+    {
+      "ts": "2026-07-27T14:44:26Z",
+      "equity": 387.7098,
+      "available": 222.7028,
+      "unrealized": 1.4245,
+      "realized": -18.0164,
+      "total": -16.5919
     }
   ]
 }
