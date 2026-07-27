@@ -1322,6 +1322,30 @@
       "close_reason": "tp1_tp2",
       "close_fills": 2,
       "fees_usd": 0.0795
+    },
+    "1454511715": {
+      "position_id": "1454511715",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 6.595,
+      "opened_at": "2026-07-27T16:25:09Z",
+      "margin_usd": 19.407052491191905,
+      "braam_trade_id": "AVAXUSDT_20260727_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-27T16:08:50Z"
+    },
+    "1454521513": {
+      "position_id": "1454521513",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.07201,
+      "opened_at": "2026-07-27T16:34:47Z",
+      "margin_usd": 19.26393066221971,
+      "braam_trade_id": "DOGEUSDT_20260727_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-27T16:08:56Z"
     }
   },
   "orders": {
@@ -2460,7 +2484,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-27T16:09:54Z",
+  "updated": "2026-07-27T16:43:37Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8757,6 +8781,14 @@
       "unrealized": 1.3515,
       "realized": -18.0164,
       "total": -16.6649
+    },
+    {
+      "ts": "2026-07-27T16:43:37Z",
+      "equity": 386.894,
+      "available": 145.4883,
+      "unrealized": 0.6807,
+      "realized": -18.0164,
+      "total": -17.3357
     }
   ]
 }
