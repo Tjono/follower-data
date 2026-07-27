@@ -2405,9 +2405,18 @@
       "resting_at": "2026-07-26T20:08:24Z",
       "braam_trade_id": "ALGOUSDT_20260726_CB_001",
       "status": "RESTING"
+    },
+    "836695268451086848": {
+      "order_id": "836695268451086848",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32187,
+      "resting_at": "2026-07-27T12:08:16Z",
+      "braam_trade_id": "TRXUSDT_20260727_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-27T11:47:20Z",
+  "updated": "2026-07-27T12:09:13Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8640,6 +8649,14 @@
       "unrealized": 1.8811,
       "realized": -19.802,
       "total": -17.9209
+    },
+    {
+      "ts": "2026-07-27T12:09:13Z",
+      "equity": 385.4693,
+      "available": 190.9395,
+      "unrealized": 1.7715,
+      "realized": -19.802,
+      "total": -18.0305
     }
   ]
 }
