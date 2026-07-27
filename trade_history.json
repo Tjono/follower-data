@@ -2422,9 +2422,45 @@
       "resting_at": "2026-07-27T12:08:16Z",
       "braam_trade_id": "TRXUSDT_20260727_CJ_001",
       "status": "RESTING"
+    },
+    "836755833990836288": {
+      "order_id": "836755833990836288",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "entry_price": 195.47,
+      "resting_at": "2026-07-27T16:08:56Z",
+      "braam_trade_id": "TAOUSDT_20260727_CB_001",
+      "status": "RESTING"
+    },
+    "836755828404423168": {
+      "order_id": "836755828404423168",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.07201,
+      "resting_at": "2026-07-27T16:08:55Z",
+      "braam_trade_id": "DOGEUSDT_20260727_CB_001",
+      "status": "RESTING"
+    },
+    "836755821538040832": {
+      "order_id": "836755821538040832",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.08394,
+      "resting_at": "2026-07-27T16:08:53Z",
+      "braam_trade_id": "ALGOUSDT_20260727_CB_001",
+      "status": "RESTING"
+    },
+    "836755807025900032": {
+      "order_id": "836755807025900032",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 6.595,
+      "resting_at": "2026-07-27T16:08:50Z",
+      "braam_trade_id": "AVAXUSDT_20260727_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-27T15:20:59Z",
+  "updated": "2026-07-27T16:09:54Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8713,6 +8749,14 @@
       "unrealized": 1.2196,
       "realized": -18.0164,
       "total": -16.7968
+    },
+    {
+      "ts": "2026-07-27T16:09:54Z",
+      "equity": 387.6342,
+      "available": 145.4651,
+      "unrealized": 1.3515,
+      "realized": -18.0164,
+      "total": -16.6649
     }
   ]
 }
