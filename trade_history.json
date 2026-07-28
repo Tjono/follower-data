@@ -1358,6 +1358,18 @@
       "braam_trade_id": "ETHUSDT_20260728_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-28T00:08:57Z"
+    },
+    "1455576484": {
+      "position_id": "1455576484",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 195.47,
+      "opened_at": "2026-07-28T20:12:45Z",
+      "margin_usd": 18.955717134734503,
+      "braam_trade_id": "TAOUSDT_20260727_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-27T16:08:57Z"
     }
   },
   "orders": {
@@ -2523,7 +2535,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-28T19:58:35Z",
+  "updated": "2026-07-28T21:36:39Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8964,6 +8976,14 @@
       "unrealized": 1.8116,
       "realized": -18.0164,
       "total": -16.2048
+    },
+    {
+      "ts": "2026-07-28T21:36:39Z",
+      "equity": 388.2212,
+      "available": 87.2179,
+      "unrealized": 2.0006,
+      "realized": -18.0164,
+      "total": -16.0158
     }
   ]
 }
