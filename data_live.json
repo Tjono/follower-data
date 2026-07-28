@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-28T15:34:33Z",
+  "last_updated_iso": "2026-07-28T17:50:38Z",
   "mexc_account": {
-    "unrealized_pnl": 2.1907,
-    "equity": 388.4353,
-    "available": 87.1966,
+    "unrealized_pnl": 3.8563,
+    "equity": 390.1109,
+    "available": 87.2065,
     "position_margin": 86.8105
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$388.44",
+      "value": "$390.11",
       "status": "ok",
       "action": null
     },
@@ -614,18 +614,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "ETHUSDT_20260723_CB_001",
-      "coin": "ETHUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 1913.30505822,
-      "live_entry_fill": 1913.31,
-      "tp1_hit": false,
-      "iso": "2026-07-26T15:36:00Z",
-      "_iso_ms": 1785080160000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ALGOUSDT_20260726_CB_001",
       "coin": "ALGOUSDT",
@@ -1994,7 +1982,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-28T15:31Z",
+    "feed_generated_utc": "2026-07-28T16:07Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
