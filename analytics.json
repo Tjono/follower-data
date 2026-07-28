@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-27T23:32:48+00:00",
+  "generated_at_utc": "2026-07-28T00:10:04+00:00",
   "all_time": {
     "total_trades": 64,
     "wins": 23,
@@ -28,8 +28,8 @@
       "pnl": -3.18,
       "avg": -0.64,
       "inception": "2026-06-30",
-      "days_active": 27,
-      "pnl_per_day": -0.12,
+      "days_active": 28,
+      "pnl_per_day": -0.11,
       "status": "active",
       "open": 0,
       "pending": 2
@@ -41,11 +41,11 @@
       "pnl": -15.5,
       "avg": -0.26,
       "inception": "2026-06-24",
-      "days_active": 33,
-      "pnl_per_day": -0.47,
+      "days_active": 34,
+      "pnl_per_day": -0.46,
       "status": "active",
       "open": 4,
-      "pending": 7
+      "pending": 10
     },
     "Mong": {
       "n": 0,
@@ -75,26 +75,26 @@
     {
       "name": "John",
       "inception": "2026-06-30",
-      "days_active": 27,
+      "days_active": 28,
       "closed": 5,
       "wins": 0,
       "wr": 0.0,
       "pnl": -3.18,
-      "pnl_per_day": -0.12,
+      "pnl_per_day": -0.11,
       "open": 0,
       "pending": 2
     },
     {
       "name": "Braam",
       "inception": "2026-06-24",
-      "days_active": 33,
+      "days_active": 34,
       "closed": 59,
       "wins": 23,
       "wr": 39.0,
       "pnl": -15.5,
-      "pnl_per_day": -0.47,
+      "pnl_per_day": -0.46,
       "open": 4,
-      "pending": 7
+      "pending": 10
     },
     {
       "name": "Mong",
@@ -521,7 +521,7 @@
   ],
   "benchmark": {
     "inception_iso": "2026-06-29T17:05:26Z",
-    "base_usd": 404.23,
+    "base_usd": 404.24,
     "ours": [
       {
         "iso": "2026-06-29",
@@ -565,7 +565,7 @@
       },
       {
         "iso": "2026-07-02",
-        "pct": -1.794
+        "pct": -1.793
       },
       {
         "iso": "2026-07-03",
@@ -589,7 +589,7 @@
       },
       {
         "iso": "2026-07-05",
-        "pct": -3.496
+        "pct": -3.495
       },
       {
         "iso": "2026-07-06",
@@ -613,7 +613,7 @@
       },
       {
         "iso": "2026-07-06",
-        "pct": -5.668
+        "pct": -5.667
       },
       {
         "iso": "2026-07-06",
@@ -673,7 +673,7 @@
       },
       {
         "iso": "2026-07-14",
-        "pct": -1.512
+        "pct": -1.511
       },
       {
         "iso": "2026-07-15",
@@ -717,7 +717,7 @@
       },
       {
         "iso": "2026-07-21",
-        "pct": -2.786
+        "pct": -2.785
       },
       {
         "iso": "2026-07-21",
@@ -749,7 +749,7 @@
       },
       {
         "iso": "2026-07-24",
-        "pct": -4.53
+        "pct": -4.529
       },
       {
         "iso": "2026-07-24",
@@ -757,7 +757,7 @@
       },
       {
         "iso": "2026-07-25",
-        "pct": -4.535
+        "pct": -4.534
       },
       {
         "iso": "2026-07-25",
@@ -856,6 +856,10 @@
       {
         "iso": "2026-07-23",
         "pct": -0.432
+      },
+      {
+        "iso": "2026-07-24",
+        "pct": -0.382
       },
       {
         "iso": "2026-07-27",
@@ -1115,28 +1119,28 @@
     "open_count": 4,
     "open_long": 0,
     "open_short": 4,
-    "pending_count": 9,
+    "pending_count": 12,
     "capital_open_usd": 400,
-    "capital_pending_usd": 900
+    "capital_pending_usd": 1200
   },
   "macro": {
     "vix": 18.67,
     "vix_5d": [
-      18.65,
       17.05,
       16.64,
       18.7,
+      18.58,
       18.67
     ],
-    "vix_ma14": 17.1,
-    "dxy": 101.51,
+    "vix_ma14": 17.21,
+    "dxy": 101.53,
     "dxy_5d": [
-      100.99,
       101.18,
       101.14,
       101.43,
-      101.51
+      101.47,
+      101.53
     ],
-    "dxy_ma14": 101.05
+    "dxy_ma14": 101.09
   }
 }

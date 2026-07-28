@@ -2482,9 +2482,36 @@
       "resting_at": "2026-07-27T16:08:50Z",
       "braam_trade_id": "AVAXUSDT_20260727_CB_001",
       "status": "RESTING"
+    },
+    "836876637592214528": {
+      "order_id": "836876637592214528",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "entry_price": 46.84,
+      "resting_at": "2026-07-28T00:08:58Z",
+      "braam_trade_id": "LTCUSDT_20260728_CB_001",
+      "status": "RESTING"
+    },
+    "836876629170024448": {
+      "order_id": "836876629170024448",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1913.2,
+      "resting_at": "2026-07-28T00:08:56Z",
+      "braam_trade_id": "ETHUSDT_20260728_CB_001",
+      "status": "RESTING"
+    },
+    "836876623323222528": {
+      "order_id": "836876623323222528",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "entry_price": 8.558,
+      "resting_at": "2026-07-28T00:08:55Z",
+      "braam_trade_id": "LINKUSDT_20260728_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-27T23:32:50Z",
+  "updated": "2026-07-28T00:10:06Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -8829,6 +8856,14 @@
       "unrealized": 3.9331,
       "realized": -18.0164,
       "total": -14.0833
+    },
+    {
+      "ts": "2026-07-28T00:10:06Z",
+      "equity": 390.9152,
+      "available": 87.1232,
+      "unrealized": 4.698,
+      "realized": -18.0164,
+      "total": -13.3184
     }
   ]
 }
