@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-29T04:09:41Z",
+  "last_updated_iso": "2026-07-29T05:43:12Z",
   "mexc_account": {
-    "unrealized_pnl": 5.3562,
-    "equity": 392.6875,
-    "available": 116.8605,
+    "unrealized_pnl": 3.6246,
+    "equity": 391.0159,
+    "available": 116.9204,
     "position_margin": 96.0627
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$392.69",
+      "value": "$391.02",
       "status": "ok",
       "action": null
     },
@@ -366,18 +366,18 @@
       "date_opened": "2026-07-27",
       "time_opened_utc": "16:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.22,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 6.595,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0029,
       "live_fees_usd": 0.0348,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 1.12,
       "rehearsal": false
     },
     {
@@ -588,7 +588,7 @@
       "trading_system": "Braam",
       "entry_price": 6.59519277,
       "live_entry_fill": 6.595,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-07-27T16:25:00Z",
       "_iso_ms": 1785169500000,
       "rehearsal": false
@@ -1919,6 +1919,12 @@
       "direction": "Short",
       "trading_system": "Braam",
       "entry_price": 0.07076682
+    },
+    {
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 6.59519277
     }
   ],
   "stats": {
@@ -1949,7 +1955,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-29T04:07Z",
+    "feed_generated_utc": "2026-07-29T05:41Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
