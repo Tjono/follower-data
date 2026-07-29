@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-29T16:10:07Z",
+  "last_updated_iso": "2026-07-29T17:45:11Z",
   "mexc_account": {
-    "unrealized_pnl": 6.0284,
-    "equity": 393.4363,
+    "unrealized_pnl": 4.9238,
+    "equity": 392.3317,
     "available": 97.3505,
     "position_margin": 96.0627
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$393.44",
+      "value": "$392.33",
       "status": "ok",
       "action": null
     },
@@ -628,30 +628,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "AVAXUSDT_20260727_CB_001",
-      "coin": "AVAXUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 6.59519277,
-      "live_entry_fill": 6.595,
-      "tp1_hit": true,
-      "iso": "2026-07-27T16:25:00Z",
-      "_iso_ms": 1785169500000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "DOGEUSDT_20260727_CB_001",
-      "coin": "DOGEUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.07201283,
-      "live_entry_fill": 0.07201,
-      "tp1_hit": false,
-      "iso": "2026-07-27T16:34:00Z",
-      "_iso_ms": 1785170040000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ETHUSDT_20260728_CB_001",
       "coin": "ETHUSDT",
