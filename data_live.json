@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-29T11:00:22Z",
+  "last_updated_iso": "2026-07-29T12:09:41Z",
   "mexc_account": {
-    "unrealized_pnl": 3.8043,
-    "equity": 391.2058,
-    "available": 116.9307,
+    "unrealized_pnl": 3.6231,
+    "equity": 391.0274,
+    "available": 98.9484,
     "position_margin": 96.0627
   },
   "order_levels": {
-    "checked": 15,
-    "in_sync": 15,
+    "checked": 16,
+    "in_sync": 16,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (107 records)",
+      "value": "OK (108 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$391.21",
+      "value": "$391.03",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (9 resting = journal)",
+      "value": "in sync (10 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -577,9 +577,56 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "BTCUSDT_20260729_CJ_001",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 67076.2984391,
+      "sl": 67695.13388732,
+      "tp1": 59046.75741575,
+      "tp2": 57997.47222537,
+      "capital_usd": 19.56,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-07-29",
+      "time_opened_utc": "12:04",
+      "conviction": "HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "BTCUSDT_20260729_CJ_001",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 67076.2984391,
+      "tp1": 59046.75741575,
+      "sl": 67695.13388732,
+      "conviction": "HIGH",
+      "track_only": false,
+      "iso": "2026-07-29T12:04:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "AVAXUSDT_20260727_CB_001",
@@ -1949,15 +1996,15 @@
         "closed_count": 5
       }
     },
-    "live_trade_count_total": 99,
-    "live_real_count": 99,
+    "live_trade_count_total": 100,
+    "live_real_count": 100,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-29T10:07Z",
-    "checked": 15,
-    "in_parity": 15,
+    "feed_generated_utc": "2026-07-29T12:07Z",
+    "checked": 16,
+    "in_parity": 16,
     "drifting": []
   }
 }
