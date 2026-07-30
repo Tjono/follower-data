@@ -2559,9 +2559,36 @@
       "resting_at": "2026-07-29T16:09:20Z",
       "braam_trade_id": "BTCUSDT_20260729_CJ_001",
       "status": "RESTING"
+    },
+    "837601419435264512": {
+      "order_id": "837601419435264512",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.06858,
+      "resting_at": "2026-07-30T00:09:00Z",
+      "braam_trade_id": "HBARUSDT_20260730_CB_001",
+      "status": "RESTING"
+    },
+    "837601413659291648": {
+      "order_id": "837601413659291648",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.32689,
+      "resting_at": "2026-07-30T00:08:58Z",
+      "braam_trade_id": "TRXUSDT_20260730_CB_001",
+      "status": "RESTING"
+    },
+    "837601408181583360": {
+      "order_id": "837601408181583360",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "entry_price": 1.677,
+      "resting_at": "2026-07-30T00:08:57Z",
+      "braam_trade_id": "NEARUSDT_20260730_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-29T23:28:46Z",
+  "updated": "2026-07-30T00:10:05Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9170,6 +9197,14 @@
       "unrealized": 2.3185,
       "realized": -15.7609,
       "total": -13.4424
+    },
+    {
+      "ts": "2026-07-30T00:10:05Z",
+      "equity": 393.123,
+      "available": 70.4711,
+      "unrealized": 2.0322,
+      "realized": -15.7609,
+      "total": -13.7287
     }
   ]
 }
