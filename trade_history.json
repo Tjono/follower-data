@@ -1418,6 +1418,18 @@
       "braam_trade_id": "BTCUSDT_20260729_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-07-29T16:09:20Z"
+    },
+    "1457183808": {
+      "position_id": "1457183808",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.1721,
+      "opened_at": "2026-07-30T14:49:38Z",
+      "margin_usd": 19.681993537409046,
+      "braam_trade_id": "ADAUSDT_20260723_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-23T16:07:36Z"
     }
   },
   "orders": {
@@ -2637,7 +2649,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-30T14:40:57Z",
+  "updated": "2026-07-30T16:00:59Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9326,6 +9338,14 @@
       "unrealized": 1.2727,
       "realized": -16.9054,
       "total": -15.6327
+    },
+    {
+      "ts": "2026-07-30T16:00:59Z",
+      "equity": 391.5214,
+      "available": 90.2845,
+      "unrealized": 1.5666,
+      "realized": -16.9054,
+      "total": -15.3388
     }
   ]
 }
