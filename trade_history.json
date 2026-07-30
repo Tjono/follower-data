@@ -1396,8 +1396,16 @@
       "opened_at": "2026-07-30T06:22:03Z",
       "margin_usd": 19.675974395069094,
       "braam_trade_id": "TRXUSDT_20260730_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-30T00:08:59Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-30T00:08:59Z",
+      "closed_at": "2026-07-30T12:01:01Z",
+      "close_price": 0.32874,
+      "pnl_usd": -0.4211,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0826
     }
   },
   "orders": {
@@ -2606,9 +2614,18 @@
       "resting_at": "2026-07-30T00:08:57Z",
       "braam_trade_id": "NEARUSDT_20260730_CB_001",
       "status": "RESTING"
+    },
+    "837782567230222337": {
+      "order_id": "837782567230222337",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 596.5,
+      "resting_at": "2026-07-30T12:08:49Z",
+      "braam_trade_id": "BNBUSDT_20260726_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-07-30T10:37:45Z",
+  "updated": "2026-07-30T12:09:52Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9273,6 +9290,14 @@
       "unrealized": 1.2518,
       "realized": -16.4843,
       "total": -15.2325
+    },
+    {
+      "ts": "2026-07-30T12:09:52Z",
+      "equity": 390.9325,
+      "available": 90.2438,
+      "unrealized": 0.9245,
+      "realized": -16.9054,
+      "total": -15.9809
     }
   ]
 }
