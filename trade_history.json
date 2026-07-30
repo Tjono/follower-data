@@ -1430,6 +1430,18 @@
       "braam_trade_id": "ADAUSDT_20260723_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-23T16:07:36Z"
+    },
+    "1457273057": {
+      "position_id": "1457273057",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1.677,
+      "opened_at": "2026-07-30T16:52:48Z",
+      "margin_usd": 19.62666868419348,
+      "braam_trade_id": "NEARUSDT_20260730_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-30T00:08:57Z"
     }
   },
   "orders": {
@@ -2649,7 +2661,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-30T16:10:02Z",
+  "updated": "2026-07-30T17:55:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9370,6 +9382,14 @@
       "unrealized": 1.1861,
       "realized": -16.9054,
       "total": -15.7193
+    },
+    {
+      "ts": "2026-07-30T17:55:49Z",
+      "equity": 391.695,
+      "available": 90.2962,
+      "unrealized": 1.7755,
+      "realized": -16.9054,
+      "total": -15.1299
     }
   ]
 }
