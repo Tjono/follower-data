@@ -1406,6 +1406,18 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0826
+    },
+    "1457036602": {
+      "position_id": "1457036602",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 64932.9,
+      "opened_at": "2026-07-30T12:12:44Z",
+      "margin_usd": 19.53986780464546,
+      "braam_trade_id": "BTCUSDT_20260729_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-29T16:09:20Z"
     }
   },
   "orders": {
@@ -2625,7 +2637,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-30T12:09:52Z",
+  "updated": "2026-07-30T14:10:09Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9298,6 +9310,14 @@
       "unrealized": 0.9245,
       "realized": -16.9054,
       "total": -15.9809
+    },
+    {
+      "ts": "2026-07-30T14:10:09Z",
+      "equity": 391.5052,
+      "available": 90.2556,
+      "unrealized": 1.5322,
+      "realized": -16.9054,
+      "total": -15.3732
     }
   ]
 }
