@@ -1378,6 +1378,18 @@
       "braam_trade_id": "TAOUSDT_20260727_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-27T16:08:57Z"
+    },
+    "1456813983": {
+      "position_id": "1456813983",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.32689,
+      "opened_at": "2026-07-30T06:22:03Z",
+      "margin_usd": 19.675974395069094,
+      "braam_trade_id": "TRXUSDT_20260730_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-30T00:08:59Z"
     }
   },
   "orders": {
@@ -2588,7 +2600,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-07-30T03:40:30Z",
+  "updated": "2026-07-30T06:48:30Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9213,6 +9225,14 @@
       "unrealized": 1.6357,
       "realized": -15.7609,
       "total": -14.1252
+    },
+    {
+      "ts": "2026-07-30T06:48:30Z",
+      "equity": 393.6036,
+      "available": 70.5374,
+      "unrealized": 2.4936,
+      "realized": -15.7609,
+      "total": -13.2673
     }
   ]
 }
