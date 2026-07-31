@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-07-31T07:21:36Z",
+  "last_updated_iso": "2026-07-31T10:09:31Z",
   "mexc_account": {
-    "unrealized_pnl": 5.859,
-    "equity": 395.7932,
-    "available": 118.1579,
+    "unrealized_pnl": 6.6077,
+    "equity": 396.5616,
+    "available": 118.1776,
     "position_margin": 117.0973
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$395.79",
+      "value": "$396.56",
       "status": "ok",
       "action": null
     },
@@ -352,7 +352,7 @@
       "coin": "DOGEUSDT",
       "direction": "Short",
       "entry_price": 0.07201283,
-      "sl": 0.07201283,
+      "sl": 0.07128879,
       "tp1": 0.06911,
       "tp2": 0.0610548,
       "capital_usd": 19.38,
@@ -2047,7 +2047,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-07-31T07:21Z",
+    "feed_generated_utc": "2026-07-31T10:07Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
