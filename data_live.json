@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-01T12:09:48Z",
+  "last_updated_iso": "2026-08-01T13:23:44Z",
   "mexc_account": {
-    "unrealized_pnl": 3.1653,
-    "equity": 393.9879,
+    "unrealized_pnl": 1.9991,
+    "equity": 392.8217,
     "available": 127.4785,
     "position_margin": 89.1062
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$393.99",
+      "value": "$392.82",
       "status": "ok",
       "action": null
     },
@@ -584,8 +584,8 @@
       "direction": "Short",
       "entry_price": 583.53398507,
       "sl": 592.66914061,
-      "tp1": 560.47113379,
-      "tp2": 527.7992328,
+      "tp1": 566.11,
+      "tp2": 547.2,
       "capital_usd": 19.7,
       "leverage": 3,
       "trading_system": "Braam",
@@ -619,7 +619,7 @@
       "direction": "Short",
       "trading_system": "Braam",
       "entry_price": 583.53398507,
-      "tp1": 560.47113379,
+      "tp1": 566.11,
       "sl": 592.66914061,
       "conviction": "MEDIUM",
       "track_only": false,
@@ -628,18 +628,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "BTCUSDT_20260729_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 64932.92993824,
-      "live_entry_fill": 64932.9,
-      "tp1_hit": true,
-      "iso": "2026-07-30T12:12:00Z",
-      "_iso_ms": 1785413520000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ADAUSDT_20260723_CB_001",
       "coin": "ADAUSDT",
@@ -2126,7 +2114,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-01T12:07Z",
+    "feed_generated_utc": "2026-08-01T13:22Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
