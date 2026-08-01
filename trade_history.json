@@ -2717,9 +2717,18 @@
       "resting_at": "2026-07-31T16:55:49Z",
       "braam_trade_id": "TRXUSDT_20260731_CB_001",
       "status": "RESTING"
+    },
+    "838507374787801600": {
+      "order_id": "838507374787801600",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 583.5,
+      "resting_at": "2026-08-01T12:08:56Z",
+      "braam_trade_id": "BNBUSDT_20260801_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-01T11:39:34Z",
+  "updated": "2026-08-01T12:10:05Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9672,6 +9681,14 @@
       "unrealized": 3.358,
       "realized": -17.2752,
       "total": -13.9172
+    },
+    {
+      "ts": "2026-08-01T12:10:05Z",
+      "equity": 393.9879,
+      "available": 127.4785,
+      "unrealized": 3.1653,
+      "realized": -17.2752,
+      "total": -14.1099
     }
   ]
 }

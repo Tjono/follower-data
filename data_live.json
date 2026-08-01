@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-01T11:39:19Z",
+  "last_updated_iso": "2026-08-01T12:09:48Z",
   "mexc_account": {
-    "unrealized_pnl": 3.358,
-    "equity": 394.1805,
-    "available": 147.0373,
+    "unrealized_pnl": 3.1653,
+    "equity": 393.9879,
+    "available": 127.4785,
     "position_margin": 89.1062
   },
   "order_levels": {
-    "checked": 15,
-    "in_sync": 15,
+    "checked": 16,
+    "in_sync": 16,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (113 records)",
+      "value": "OK (114 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$394.18",
+      "value": "$393.99",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (8 resting = journal)",
+      "value": "in sync (9 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "live read failed",
-      "status": "warn",
-      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
+      "value": "all protected (7 open, 3 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -286,7 +286,7 @@
       "coin": "AVAXUSDT",
       "direction": "Short",
       "entry_price": 6.59519277,
-      "sl": 6.54246785,
+      "sl": 6.52979158,
       "tp1": 6.342,
       "tp2": 5.975,
       "capital_usd": 19.38,
@@ -577,9 +577,56 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20260801_CB_001",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 583.53398507,
+      "sl": 592.66914061,
+      "tp1": 560.47113379,
+      "tp2": 527.7992328,
+      "capital_usd": 19.7,
+      "leverage": 3,
+      "trading_system": "Braam",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-08-01",
+      "time_opened_utc": "12:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "BNBUSDT_20260801_CB_001",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 583.53398507,
+      "tp1": 560.47113379,
+      "sl": 592.66914061,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-08-01T12:04:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "BTCUSDT_20260729_CJ_001",
@@ -2073,15 +2120,15 @@
         "closed_count": 5
       }
     },
-    "live_trade_count_total": 105,
-    "live_real_count": 105,
+    "live_trade_count_total": 106,
+    "live_real_count": 106,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-01T10:08Z",
-    "checked": 15,
-    "in_parity": 15,
+    "feed_generated_utc": "2026-08-01T12:07Z",
+    "checked": 16,
+    "in_parity": 16,
     "drifting": []
   }
 }
