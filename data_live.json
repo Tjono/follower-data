@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-01T03:58:56Z",
+  "last_updated_iso": "2026-08-01T06:45:37Z",
   "mexc_account": {
-    "unrealized_pnl": 2.9851,
-    "equity": 393.773,
-    "available": 146.9554,
+    "unrealized_pnl": 3.5509,
+    "equity": 394.3923,
+    "available": 147.0088,
     "position_margin": 69.3833
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$393.77",
+      "value": "$394.39",
       "status": "ok",
       "action": null
     },
@@ -581,18 +581,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "TRXUSDT_20260730_CB_001",
-      "coin": "TRXUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.32689247,
-      "live_entry_fill": 0.32689,
-      "tp1_hit": false,
-      "iso": "2026-07-30T06:22:00Z",
-      "_iso_ms": 1785392520000,
-      "rehearsal": false
-    },
     {
       "trade_id": "BTCUSDT_20260729_CJ_001",
       "coin": "BTCUSDT",
@@ -2079,7 +2067,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-01T02:07Z",
+    "feed_generated_utc": "2026-08-01T06:07Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
