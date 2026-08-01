@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-01T18:09:34Z",
+  "last_updated_iso": "2026-08-01T19:41:08Z",
   "mexc_account": {
-    "unrealized_pnl": 3.5297,
-    "equity": 394.3727,
+    "unrealized_pnl": 5.2714,
+    "equity": 396.1145,
     "available": 108.0016,
     "position_margin": 89.1062
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$394.37",
+      "value": "$396.11",
       "status": "ok",
       "action": null
     },
@@ -674,18 +674,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "HBARUSDT_20260730_CB_001",
-      "coin": "HBARUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.06857575,
-      "live_entry_fill": 0.06858,
-      "tp1_hit": false,
-      "iso": "2026-07-30T19:26:00Z",
-      "_iso_ms": 1785439560000,
-      "rehearsal": false
-    },
     {
       "trade_id": "TRXUSDT_20260731_CB_001",
       "coin": "TRXUSDT",
