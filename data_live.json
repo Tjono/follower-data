@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-02T07:06:26Z",
+  "last_updated_iso": "2026-08-02T10:09:36Z",
   "mexc_account": {
-    "unrealized_pnl": -0.6515,
-    "equity": 389.6087,
-    "available": 126.6562,
-    "position_margin": 108.9249
+    "unrealized_pnl": 0.7277,
+    "equity": 391.1012,
+    "available": 136.631,
+    "position_margin": 99.0634
   },
   "order_levels": {
     "checked": 15,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$389.61",
+      "value": "$391.10",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (7 open, 5 pre-TP1 runners)",
+      "value": "all protected (7 open, 4 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -451,7 +451,7 @@
       "coin": "TRXUSDT",
       "direction": "Short",
       "entry_price": 0.32766588,
-      "sl": 0.32960727,
+      "sl": 0.32766588,
       "tp1": 0.3263,
       "tp2": 0.3245,
       "capital_usd": 19.83,
@@ -465,18 +465,18 @@
       "date_opened": "2026-07-31",
       "time_opened_utc": "12:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.02,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 0.32767,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0013,
       "live_fees_usd": 0.0353,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 0.12,
       "rehearsal": false
     },
     {
@@ -588,7 +588,7 @@
       "trading_system": "Braam",
       "entry_price": 0.32766588,
       "live_entry_fill": 0.32767,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-08-01T08:59:00Z",
       "_iso_ms": 1785574740000,
       "rehearsal": false
@@ -2085,6 +2085,12 @@
       "direction": "Short",
       "trading_system": "John",
       "entry_price": 64932.92993824
+    },
+    {
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 0.32766588
     }
   ],
   "stats": {
@@ -2115,7 +2121,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-02T06:07Z",
+    "feed_generated_utc": "2026-08-02T10:07Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
