@@ -1436,8 +1436,16 @@
       "opened_at": "2026-07-30T14:49:38Z",
       "margin_usd": 19.681993537409046,
       "braam_trade_id": "ADAUSDT_20260723_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-23T16:07:36Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-23T16:07:36Z",
+      "closed_at": "2026-08-02T02:07:18Z",
+      "close_price": 0.1782,
+      "pnl_usd": -2.1235,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.084
     },
     "1457273057": {
       "position_id": "1457273057",
@@ -1482,6 +1490,18 @@
       "braam_trade_id": "TRXUSDT_20260731_CB_001",
       "status": "OPEN",
       "resting_at": "2026-07-31T16:55:49Z"
+    },
+    "1459050649": {
+      "position_id": "1459050649",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 193.89,
+      "opened_at": "2026-08-02T02:07:10Z",
+      "margin_usd": 19.450858471554888,
+      "braam_trade_id": "TAOUSDT_20260801_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-01T16:08:20Z"
     }
   },
   "orders": {
@@ -2755,7 +2775,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-01T23:17:57Z",
+  "updated": "2026-08-02T02:09:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9796,6 +9816,14 @@
       "unrealized": 3.5819,
       "realized": -17.2752,
       "total": -13.6933
+    },
+    {
+      "ts": "2026-08-02T02:09:07Z",
+      "equity": 390.4558,
+      "available": 105.6463,
+      "unrealized": 1.7758,
+      "realized": -19.3987,
+      "total": -17.6229
     }
   ]
 }
