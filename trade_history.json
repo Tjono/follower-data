@@ -1388,8 +1388,16 @@
       "opened_at": "2026-07-28T15:23:49Z",
       "margin_usd": 19.190926368526945,
       "braam_trade_id": "ETHUSDT_20260728_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-28T00:08:57Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-28T00:08:57Z",
+      "closed_at": "2026-08-02T18:41:59Z",
+      "close_price": 1869.38,
+      "pnl_usd": 1.2591,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0791
     },
     "1455576484": {
       "position_id": "1455576484",
@@ -2864,7 +2872,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-02T18:10:08Z",
+  "updated": "2026-08-02T19:17:50Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10033,6 +10041,14 @@
       "unrealized": 1.0953,
       "realized": -16.9767,
       "total": -15.8814
+    },
+    {
+      "ts": "2026-08-02T19:17:50Z",
+      "equity": 389.7162,
+      "available": 152.5557,
+      "unrealized": 0.5283,
+      "realized": -15.7176,
+      "total": -15.1893
     }
   ]
 }
