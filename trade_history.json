@@ -1560,8 +1560,28 @@
       "opened_at": "2026-08-02T14:34:52Z",
       "margin_usd": 19.423932841487503,
       "braam_trade_id": "ALGOUSDT_20260727_CB_001",
+      "status": "CLOSED",
+      "resting_at": "2026-07-27T16:08:54Z",
+      "closed_at": "2026-08-02T17:04:54Z",
+      "close_price": 0.08585,
+      "pnl_usd": -1.4007,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0823
+    },
+    "1459440314": {
+      "position_id": "1459440314",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.32752,
+      "opened_at": "2026-08-02T16:33:42Z",
+      "margin_usd": 18.618678603376857,
+      "braam_trade_id": "TRXUSDT_20260802_CB_001",
       "status": "OPEN",
-      "resting_at": "2026-07-27T16:08:54Z"
+      "resting_at": "2026-08-02T16:08:41Z"
     }
   },
   "orders": {
@@ -2844,7 +2864,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-02T16:09:47Z",
+  "updated": "2026-08-02T17:31:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9997,6 +10017,14 @@
       "unrealized": 1.4196,
       "realized": -15.576,
       "total": -14.1564
+    },
+    {
+      "ts": "2026-08-02T17:31:15Z",
+      "equity": 390.4404,
+      "available": 145.9032,
+      "unrealized": 1.508,
+      "realized": -16.9767,
+      "total": -15.4687
     }
   ]
 }
