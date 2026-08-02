@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-02T06:01:24Z",
+  "last_updated_iso": "2026-08-02T06:09:40Z",
   "mexc_account": {
-    "unrealized_pnl": -0.4921,
-    "equity": 389.768,
+    "unrealized_pnl": -0.2011,
+    "equity": 390.059,
     "available": 126.6562,
     "position_margin": 108.9249
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$389.77",
+      "value": "$390.06",
       "status": "ok",
       "action": null
     },
@@ -2039,7 +2039,7 @@
       "pnl_usd": 2.18,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
       "date_closed": "2026-08-02",
-      "time_closed_utc": "06:01",
+      "time_closed_utc": "06:09",
       "trading_system": "Braam",
       "live_entry_fill": 6.595,
       "live_exit_fill": null,
@@ -2048,7 +2048,7 @@
       "live_funding_usd": null,
       "pnl_estimated": true,
       "won": true,
-      "close_iso": "2026-08-02T06:01:00Z",
+      "close_iso": "2026-08-02T06:09:00Z",
       "rehearsal": false
     },
     {
@@ -2059,7 +2059,7 @@
       "pnl_usd": 1.78,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
       "date_closed": "2026-08-02",
-      "time_closed_utc": "06:01",
+      "time_closed_utc": "06:09",
       "trading_system": "Braam",
       "live_entry_fill": 0.07201,
       "live_exit_fill": null,
@@ -2068,7 +2068,7 @@
       "live_funding_usd": null,
       "pnl_estimated": true,
       "won": true,
-      "close_iso": "2026-08-02T06:01:00Z",
+      "close_iso": "2026-08-02T06:09:00Z",
       "rehearsal": false
     }
   ],
@@ -2115,7 +2115,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-02T05:58Z",
+    "feed_generated_utc": "2026-08-02T06:07Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
