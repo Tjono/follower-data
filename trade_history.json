@@ -1550,6 +1550,18 @@
       "braam_trade_id": "ONDOUSDT_20260801_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-01T20:08:56Z"
+    },
+    "1459383305": {
+      "position_id": "1459383305",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.08394,
+      "opened_at": "2026-08-02T14:34:52Z",
+      "margin_usd": 19.423932841487503,
+      "braam_trade_id": "ALGOUSDT_20260727_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-07-27T16:08:54Z"
     }
   },
   "orders": {
@@ -2823,7 +2835,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-02T14:09:33Z",
+  "updated": "2026-08-02T15:34:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -9960,6 +9972,14 @@
       "unrealized": 2.5204,
       "realized": -15.576,
       "total": -13.0556
+    },
+    {
+      "ts": "2026-08-02T15:34:49Z",
+      "equity": 391.9852,
+      "available": 146.4816,
+      "unrealized": 1.6692,
+      "realized": -15.576,
+      "total": -13.9068
     }
   ]
 }
