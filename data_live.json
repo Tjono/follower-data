@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-03T16:29:31Z",
+  "last_updated_iso": "2026-08-03T18:08:19Z",
   "mexc_account": {
-    "unrealized_pnl": 2.8593,
-    "equity": 387.9866,
-    "available": 158.7347,
+    "unrealized_pnl": 2.6981,
+    "equity": 387.8255,
+    "available": 139.2893,
     "position_margin": 72.3391
   },
   "order_levels": {
-    "checked": 13,
-    "in_sync": 13,
+    "checked": 14,
+    "in_sync": 14,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (121 records)",
+      "value": "OK (122 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$387.99",
+      "value": "$387.83",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (8 resting = journal)",
+      "value": "in sync (9 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -508,6 +508,39 @@
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0016,
       "live_fees_usd": 0.0336,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "NEARUSDT_20260801_CJ_001",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "entry_price": 1.75809932,
+      "sl": 1.79489017,
+      "tp1": 1.59571584,
+      "tp2": 1.43521966,
+      "capital_usd": 19.38,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-08-01",
+      "time_opened_utc": "04:04",
+      "conviction": "HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -2181,7 +2214,7 @@
       "pnl_usd": -1.05,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED",
       "date_closed": "2026-08-03",
-      "time_closed_utc": "16:29",
+      "time_closed_utc": "18:08",
       "trading_system": "Braam",
       "live_entry_fill": 0.0694,
       "live_exit_fill": null,
@@ -2190,7 +2223,7 @@
       "live_funding_usd": null,
       "pnl_estimated": true,
       "won": false,
-      "close_iso": "2026-08-03T16:29:00Z",
+      "close_iso": "2026-08-03T18:08:00Z",
       "rehearsal": false
     }
   ],
@@ -2231,15 +2264,15 @@
         "closed_count": 5
       }
     },
-    "live_trade_count_total": 113,
-    "live_real_count": 113,
+    "live_trade_count_total": 114,
+    "live_real_count": 114,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-03T16:26Z",
-    "checked": 13,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-08-03T18:06Z",
+    "checked": 14,
+    "in_parity": 14,
     "drifting": []
   }
 }

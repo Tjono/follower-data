@@ -2974,9 +2974,18 @@
       "resting_at": "2026-08-03T04:09:09Z",
       "braam_trade_id": "ETHUSDT_20260803_CB_001",
       "status": "RESTING"
+    },
+    "839322369939450368": {
+      "order_id": "839322369939450368",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "entry_price": 1.758,
+      "resting_at": "2026-08-03T18:07:26Z",
+      "braam_trade_id": "NEARUSDT_20260801_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-03T16:29:47Z",
+  "updated": "2026-08-03T18:08:34Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10321,6 +10330,14 @@
       "unrealized": 2.8593,
       "realized": -20.3229,
       "total": -17.4636
+    },
+    {
+      "ts": "2026-08-03T18:08:34Z",
+      "equity": 387.8255,
+      "available": 139.2893,
+      "unrealized": 2.6981,
+      "realized": -20.3229,
+      "total": -17.6248
     }
   ]
 }
