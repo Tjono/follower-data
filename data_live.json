@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-03T10:10:18Z",
+  "last_updated_iso": "2026-08-03T11:52:01Z",
   "mexc_account": {
-    "unrealized_pnl": 3.7071,
-    "equity": 393.3878,
+    "unrealized_pnl": 3.9296,
+    "equity": 393.6103,
     "available": 85.7597,
     "position_margin": 131.0669
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$393.39",
+      "value": "$393.61",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (8 open, 6 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "\ud83d\udd34 3 NAKED: BNBUSDT, TAOUSDT, BTCUSDT",
+      "status": "urgent",
+      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: BNBUSDT, TAOUSDT, BTCUSDT"
     }
   ],
   "active_trades": [
