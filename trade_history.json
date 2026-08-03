@@ -1658,6 +1658,18 @@
       "braam_trade_id": "DOGEUSDT_20260803_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-03T04:09:13Z"
+    },
+    "1460384684": {
+      "position_id": "1460384684",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1874.22,
+      "opened_at": "2026-08-03T19:33:05Z",
+      "margin_usd": 18.799925788428062,
+      "braam_trade_id": "ETHUSDT_20260803_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-03T04:09:10Z"
     }
   },
   "orders": {
@@ -2985,7 +2997,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-03T18:15:26Z",
+  "updated": "2026-08-03T20:06:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10346,6 +10358,14 @@
       "unrealized": 2.4459,
       "realized": -20.3229,
       "total": -17.877
+    },
+    {
+      "ts": "2026-08-03T20:06:11Z",
+      "equity": 387.6785,
+      "available": 139.3048,
+      "unrealized": 2.5807,
+      "realized": -20.3229,
+      "total": -17.7422
     }
   ]
 }
