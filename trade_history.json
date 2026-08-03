@@ -1670,6 +1670,18 @@
       "braam_trade_id": "ETHUSDT_20260803_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-03T04:09:10Z"
+    },
+    "1460415516": {
+      "position_id": "1460415516",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.17232,
+      "opened_at": "2026-08-03T20:18:06Z",
+      "margin_usd": 19.015674480376358,
+      "braam_trade_id": "XLMUSDT_20260803_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-03T20:08:29Z"
     }
   },
   "orders": {
@@ -3006,7 +3018,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-03T20:09:38Z",
+  "updated": "2026-08-03T20:31:23Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10383,6 +10395,14 @@
       "unrealized": 2.6664,
       "realized": -20.3229,
       "total": -17.6565
+    },
+    {
+      "ts": "2026-08-03T20:31:23Z",
+      "equity": 387.6632,
+      "available": 139.3039,
+      "unrealized": 2.5994,
+      "realized": -20.3229,
+      "total": -17.7235
     }
   ]
 }
