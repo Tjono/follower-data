@@ -1602,6 +1602,18 @@
       "braam_trade_id": "HBARUSDT_20260803_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-03T04:09:14Z"
+    },
+    "1459939986": {
+      "position_id": "1459939986",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 6.455,
+      "opened_at": "2026-08-03T10:00:25Z",
+      "margin_usd": 19.642635034441692,
+      "braam_trade_id": "AVAXUSDT_20260803_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-03T04:09:11Z"
     }
   },
   "orders": {
@@ -2920,7 +2932,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-03T08:12:00Z",
+  "updated": "2026-08-03T10:10:37Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10209,6 +10221,14 @@
       "unrealized": 4.6508,
       "realized": -15.7176,
       "total": -11.0668
+    },
+    {
+      "ts": "2026-08-03T10:10:37Z",
+      "equity": 393.3878,
+      "available": 85.7597,
+      "unrealized": 3.7071,
+      "realized": -15.7176,
+      "total": -12.0105
     }
   ]
 }
