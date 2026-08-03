@@ -1624,8 +1624,16 @@
       "opened_at": "2026-08-03T04:30:28Z",
       "margin_usd": 19.72606703520936,
       "braam_trade_id": "HBARUSDT_20260803_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-03T04:09:14Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-03T04:09:14Z",
+      "closed_at": "2026-08-03T16:12:23Z",
+      "close_price": 0.07063,
+      "pnl_usd": -1.125,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0833
     },
     "1459939986": {
       "position_id": "1459939986",
@@ -2968,7 +2976,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-03T16:09:21Z",
+  "updated": "2026-08-03T16:27:23Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10297,6 +10305,14 @@
       "unrealized": 2.5282,
       "realized": -19.1979,
       "total": -16.6697
+    },
+    {
+      "ts": "2026-08-03T16:27:23Z",
+      "equity": 387.9359,
+      "available": 158.7347,
+      "unrealized": 2.8086,
+      "realized": -20.3229,
+      "total": -17.5143
     }
   ]
 }
