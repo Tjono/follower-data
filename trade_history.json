@@ -1480,8 +1480,16 @@
       "opened_at": "2026-07-30T16:52:48Z",
       "margin_usd": 19.62666868419348,
       "braam_trade_id": "NEARUSDT_20260730_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-07-30T00:08:57Z"
+      "status": "CLOSED",
+      "resting_at": "2026-07-30T00:08:57Z",
+      "closed_at": "2026-08-03T14:12:30Z",
+      "close_price": 1.737,
+      "pnl_usd": -2.142,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0838
     },
     "1457357864": {
       "position_id": "1457357864",
@@ -1544,8 +1552,16 @@
       "opened_at": "2026-08-02T03:07:37Z",
       "margin_usd": 19.5120530853444,
       "braam_trade_id": "BNBUSDT_20260801_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-01T13:22:54Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-01T13:22:54Z",
+      "closed_at": "2026-08-03T15:11:20Z",
+      "close_price": 592.1,
+      "pnl_usd": -0.9209,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0823
     },
     "1459126501": {
       "position_id": "1459126501",
@@ -1588,8 +1604,16 @@
       "opened_at": "2026-08-02T16:33:42Z",
       "margin_usd": 18.618678603376857,
       "braam_trade_id": "TRXUSDT_20260802_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-02T16:08:41Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-02T16:08:41Z",
+      "closed_at": "2026-08-03T15:19:21Z",
+      "close_price": 0.32941,
+      "pnl_usd": -0.4174,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0781
     },
     "1459761858": {
       "position_id": "1459761858",
@@ -2944,7 +2968,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-03T14:09:32Z",
+  "updated": "2026-08-03T15:24:00Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10257,6 +10281,14 @@
       "unrealized": 1.3918,
       "realized": -15.7176,
       "total": -14.3258
+    },
+    {
+      "ts": "2026-08-03T15:24:00Z",
+      "equity": 389.0499,
+      "available": 140.1006,
+      "unrealized": 2.8307,
+      "realized": -19.1979,
+      "total": -16.3672
     }
   ]
 }
