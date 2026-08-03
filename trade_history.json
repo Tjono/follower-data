@@ -2870,9 +2870,45 @@
       "resting_at": "2026-08-02T16:08:41Z",
       "braam_trade_id": "TRXUSDT_20260802_CB_001",
       "status": "RESTING"
+    },
+    "839111427239006720": {
+      "order_id": "839111427239006720",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.0694,
+      "resting_at": "2026-08-03T04:09:14Z",
+      "braam_trade_id": "HBARUSDT_20260803_CB_001",
+      "status": "RESTING"
+    },
+    "839111421769320960": {
+      "order_id": "839111421769320960",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.07011,
+      "resting_at": "2026-08-03T04:09:12Z",
+      "braam_trade_id": "DOGEUSDT_20260803_CB_001",
+      "status": "RESTING"
+    },
+    "839111414974397952": {
+      "order_id": "839111414974397952",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 6.455,
+      "resting_at": "2026-08-03T04:09:11Z",
+      "braam_trade_id": "AVAXUSDT_20260803_CB_001",
+      "status": "RESTING"
+    },
+    "839111408472915456": {
+      "order_id": "839111408472915456",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1874.22,
+      "resting_at": "2026-08-03T04:09:09Z",
+      "braam_trade_id": "ETHUSDT_20260803_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-03T04:04:52Z",
+  "updated": "2026-08-03T04:10:21Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10105,6 +10141,14 @@
       "unrealized": 3.6674,
       "realized": -15.7176,
       "total": -12.0502
+    },
+    {
+      "ts": "2026-08-03T04:10:21Z",
+      "equity": 393.6497,
+      "available": 85.6823,
+      "unrealized": 3.9521,
+      "realized": -15.7176,
+      "total": -11.7655
     }
   ]
 }
