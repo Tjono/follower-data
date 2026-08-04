@@ -3045,9 +3045,18 @@
       "resting_at": "2026-08-04T00:08:21Z",
       "braam_trade_id": "UNIUSDT_20260804_CB_001",
       "status": "RESTING"
+    },
+    "839654882159708672": {
+      "order_id": "839654882159708672",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.06994,
+      "resting_at": "2026-08-04T16:08:43Z",
+      "braam_trade_id": "HBARUSDT_20260804_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-04T14:47:49Z",
+  "updated": "2026-08-04T16:09:52Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10536,6 +10545,14 @@
       "unrealized": 5.5946,
       "realized": -22.179,
       "total": -16.5844
+    },
+    {
+      "ts": "2026-08-04T16:09:52Z",
+      "equity": 390.0165,
+      "available": 167.0012,
+      "unrealized": 6.4506,
+      "realized": -22.179,
+      "total": -15.7284
     }
   ]
 }

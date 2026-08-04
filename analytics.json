@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T14:47:47+00:00",
+  "generated_at_utc": "2026-08-04T16:09:50+00:00",
   "all_time": {
     "total_trades": 80,
     "wins": 29,
@@ -45,7 +45,7 @@
       "pnl_per_day": -0.47,
       "status": "active",
       "open": 5,
-      "pending": 5
+      "pending": 4
     },
     "Mong": {
       "n": 0,
@@ -94,7 +94,7 @@
       "pnl": -19.23,
       "pnl_per_day": -0.47,
       "open": 5,
-      "pending": 5
+      "pending": 4
     },
     {
       "name": "Mong",
@@ -625,7 +625,7 @@
   ],
   "benchmark": {
     "inception_iso": "2026-06-29T17:05:26Z",
-    "base_usd": 405.74,
+    "base_usd": 405.75,
     "ours": [
       {
         "iso": "2026-06-29",
@@ -693,7 +693,7 @@
       },
       {
         "iso": "2026-07-05",
-        "pct": -3.483
+        "pct": -3.482
       },
       {
         "iso": "2026-07-06",
@@ -869,7 +869,7 @@
       },
       {
         "iso": "2026-07-26",
-        "pct": -4.353
+        "pct": -4.352
       },
       {
         "iso": "2026-07-26",
@@ -937,7 +937,7 @@
       },
       {
         "iso": "2026-08-03",
-        "pct": -4.629
+        "pct": -4.628
       },
       {
         "iso": "2026-08-03",
@@ -949,7 +949,7 @@
       },
       {
         "iso": "2026-08-04",
-        "pct": -5.467
+        "pct": -5.466
       }
     ],
     "spx": [
@@ -1055,11 +1055,11 @@
       },
       {
         "iso": "2026-08-04",
-        "pct": 3.244
+        "pct": 3.599
       }
     ],
-    "ours_pct": -5.467,
-    "spx_pct": 3.244
+    "ours_pct": -5.466,
+    "spx_pct": 3.599
   },
   "by_direction": {
     "Short": {
@@ -1311,27 +1311,27 @@
     "open_count": 7,
     "open_long": 0,
     "open_short": 7,
-    "pending_count": 7,
+    "pending_count": 6,
     "capital_open_usd": 700,
-    "capital_pending_usd": 700
+    "capital_pending_usd": 600
   },
   "macro": {
-    "vix": 15.75,
+    "vix": 16.37,
     "vix_5d": [
       20.66,
       17.09,
       15.99,
       15.86,
-      15.75
+      16.37
     ],
-    "vix_ma14": 17.67,
-    "dxy": 99.9,
+    "vix_ma14": 17.71,
+    "dxy": 99.88,
     "dxy_5d": [
       100.8,
       100.01,
       99.8,
       99.96,
-      99.9
+      99.88
     ],
     "dxy_ma14": 100.8
   }
