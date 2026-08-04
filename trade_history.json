@@ -1540,8 +1540,16 @@
       "opened_at": "2026-08-02T02:07:10Z",
       "margin_usd": 19.450858471554888,
       "braam_trade_id": "TAOUSDT_20260801_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-01T16:08:20Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-01T16:08:20Z",
+      "closed_at": "2026-08-04T17:30:13Z",
+      "close_price": 192.2,
+      "pnl_usd": 0.4539,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0809
     },
     "1459084526": {
       "position_id": "1459084526",
@@ -1702,6 +1710,18 @@
       "braam_trade_id": "NEARUSDT_20260801_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-03T18:07:27Z"
+    },
+    "1461160263": {
+      "position_id": "1461160263",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.06994,
+      "opened_at": "2026-08-04T17:00:39Z",
+      "margin_usd": 19.552127197456613,
+      "braam_trade_id": "HBARUSDT_20260804_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-04T16:08:44Z"
     }
   },
   "orders": {
@@ -3056,7 +3076,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-04T16:09:52Z",
+  "updated": "2026-08-04T17:53:26Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10553,6 +10573,14 @@
       "unrealized": 6.4506,
       "realized": -22.179,
       "total": -15.7284
+    },
+    {
+      "ts": "2026-08-04T17:53:26Z",
+      "equity": 389.4669,
+      "available": 176.7031,
+      "unrealized": 5.9713,
+      "realized": -21.7251,
+      "total": -15.7538
     }
   ]
 }
