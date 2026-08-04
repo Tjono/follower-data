@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T17:56:01+00:00",
+  "generated_at_utc": "2026-08-04T18:12:56+00:00",
   "all_time": {
     "total_trades": 81,
     "wins": 30,
@@ -1065,11 +1065,11 @@
       },
       {
         "iso": "2026-08-04",
-        "pct": 4.082
+        "pct": 4.051
       }
     ],
     "ours_pct": -5.362,
-    "spx_pct": 4.082
+    "spx_pct": 4.051
   },
   "by_direction": {
     "Short": {
@@ -1224,7 +1224,7 @@
       "pnl_usd": 0.53,
       "won": true,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
-      "iso": "2026-08-04T17:55:00+00:00"
+      "iso": "2026-08-04T18:12:00+00:00"
     },
     {
       "trade_id": "AVAXUSDT_20260803_CB_001",
@@ -1326,22 +1326,22 @@
     "capital_pending_usd": 500
   },
   "macro": {
-    "vix": 16.55,
+    "vix": 16.53,
     "vix_5d": [
       20.66,
       17.09,
       15.99,
       15.86,
-      16.55
+      16.53
     ],
     "vix_ma14": 17.72,
-    "dxy": 99.9,
+    "dxy": 99.92,
     "dxy_5d": [
       100.8,
       100.01,
       99.8,
       99.96,
-      99.9
+      99.92
     ],
     "dxy_ma14": 100.8
   }
