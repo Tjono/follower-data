@@ -3016,9 +3016,18 @@
       "resting_at": "2026-08-03T20:08:28Z",
       "braam_trade_id": "XLMUSDT_20260803_CB_001",
       "status": "RESTING"
+    },
+    "839413195054914560": {
+      "order_id": "839413195054914560",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "entry_price": 4.085,
+      "resting_at": "2026-08-04T00:08:21Z",
+      "braam_trade_id": "UNIUSDT_20260804_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-03T23:33:56Z",
+  "updated": "2026-08-04T00:09:33Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10427,6 +10436,14 @@
       "unrealized": 4.3587,
       "realized": -20.3229,
       "total": -15.9642
+    },
+    {
+      "ts": "2026-08-04T00:09:33Z",
+      "equity": 388.692,
+      "available": 119.881,
+      "unrealized": 3.6074,
+      "realized": -20.3229,
+      "total": -16.7155
     }
   ]
 }
