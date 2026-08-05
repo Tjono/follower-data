@@ -1746,6 +1746,18 @@
       "braam_trade_id": "SUIUSDT_20260805_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-05T04:08:01Z"
+    },
+    "1461675435": {
+      "position_id": "1461675435",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.32811,
+      "opened_at": "2026-08-05T08:59:52Z",
+      "margin_usd": 18.652218602082257,
+      "braam_trade_id": "TRXUSDT_20260805_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-05T00:08:24Z"
     }
   },
   "orders": {
@@ -3136,7 +3148,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-05T08:09:08Z",
+  "updated": "2026-08-05T09:21:42Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10761,6 +10773,14 @@
       "unrealized": 6.0432,
       "realized": -21.7251,
       "total": -15.6819
+    },
+    {
+      "ts": "2026-08-05T09:21:42Z",
+      "equity": 389.3081,
+      "available": 138.4195,
+      "unrealized": 5.8334,
+      "realized": -21.7251,
+      "total": -15.8917
     }
   ]
 }
