@@ -1758,6 +1758,18 @@
       "braam_trade_id": "TRXUSDT_20260805_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-05T00:08:24Z"
+    },
+    "1461910763": {
+      "position_id": "1461910763",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 4.085,
+      "opened_at": "2026-08-05T14:13:30Z",
+      "margin_usd": 19.397354984088647,
+      "braam_trade_id": "UNIUSDT_20260804_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-04T00:08:21Z"
     }
   },
   "orders": {
@@ -3148,7 +3160,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-05T10:58:11Z",
+  "updated": "2026-08-05T14:43:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10805,6 +10817,14 @@
       "unrealized": 7.2457,
       "realized": -21.7251,
       "total": -14.4794
+    },
+    {
+      "ts": "2026-08-05T14:43:07Z",
+      "equity": 391.3708,
+      "available": 138.434,
+      "unrealized": 7.9279,
+      "realized": -21.7251,
+      "total": -13.7972
     }
   ]
 }
