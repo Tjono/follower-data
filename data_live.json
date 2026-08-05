@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-05T09:21:24Z",
+  "last_updated_iso": "2026-08-05T09:23:58Z",
   "mexc_account": {
-    "unrealized_pnl": 5.8334,
-    "equity": 389.3081,
+    "unrealized_pnl": 5.9458,
+    "equity": 389.4206,
     "available": 138.4195,
     "position_margin": 168.0118
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$389.31",
+      "value": "$389.42",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (10 open, 7 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "\ud83d\udd34 7 NAKED: ONDOUSDT, HBARUSDT, XRPUSDT, NEARUSDT, ETHUSDT, DOGEUSDT, XLMUSDT",
+      "status": "urgent",
+      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: ONDOUSDT, HBARUSDT, XRPUSDT, NEARUSDT, ETHUSDT, DOGEUSDT, XLMUSDT"
     }
   ],
   "active_trades": [
