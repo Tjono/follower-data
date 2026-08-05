@@ -1722,6 +1722,18 @@
       "braam_trade_id": "HBARUSDT_20260804_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-04T16:08:44Z"
+    },
+    "1461462129": {
+      "position_id": "1461462129",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1.076,
+      "opened_at": "2026-08-05T02:04:01Z",
+      "margin_usd": 19.429047742165057,
+      "braam_trade_id": "XRPUSDT_20260805_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-05T00:08:23Z"
     }
   },
   "orders": {
@@ -3103,7 +3115,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-05T00:09:36Z",
+  "updated": "2026-08-05T02:09:33Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10672,6 +10684,14 @@
       "unrealized": 6.392,
       "realized": -21.7251,
       "total": -15.3331
+    },
+    {
+      "ts": "2026-08-05T02:09:33Z",
+      "equity": 388.6816,
+      "available": 157.7953,
+      "unrealized": 5.199,
+      "realized": -21.7251,
+      "total": -16.5261
     }
   ]
 }
