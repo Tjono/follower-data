@@ -3113,9 +3113,18 @@
       "resting_at": "2026-08-05T00:08:19Z",
       "braam_trade_id": "TRXUSDT_20260805_CB_001",
       "status": "RESTING"
+    },
+    "839835895500746752": {
+      "order_id": "839835895500746752",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "entry_price": 0.6911,
+      "resting_at": "2026-08-05T04:08:00Z",
+      "braam_trade_id": "SUIUSDT_20260805_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-05T03:42:50Z",
+  "updated": "2026-08-05T04:09:16Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -10700,6 +10709,14 @@
       "unrealized": 7.6341,
       "realized": -21.7251,
       "total": -14.091
+    },
+    {
+      "ts": "2026-08-05T04:09:16Z",
+      "equity": 391.2029,
+      "available": 138.3391,
+      "unrealized": 7.7174,
+      "realized": -21.7251,
+      "total": -14.0077
     }
   ]
 }
