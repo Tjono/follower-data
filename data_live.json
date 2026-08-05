@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-05T09:23:58Z",
+  "last_updated_iso": "2026-08-05T10:09:07Z",
   "mexc_account": {
-    "unrealized_pnl": 5.9458,
-    "equity": 389.4206,
+    "unrealized_pnl": 6.3838,
+    "equity": 389.8586,
     "available": 138.4195,
     "position_margin": 168.0118
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$389.42",
+      "value": "$389.86",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "\ud83d\udd34 7 NAKED: ONDOUSDT, HBARUSDT, XRPUSDT, NEARUSDT, ETHUSDT, DOGEUSDT, XLMUSDT",
-      "status": "urgent",
-      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: ONDOUSDT, HBARUSDT, XRPUSDT, NEARUSDT, ETHUSDT, DOGEUSDT, XLMUSDT"
+      "value": "all protected (10 open, 8 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -352,7 +352,7 @@
       "coin": "XLMUSDT",
       "direction": "Short",
       "entry_price": 0.17231799,
-      "sl": 0.1711763,
+      "sl": 0.1708763,
       "tp1": 0.1705,
       "tp2": 0.1602,
       "capital_usd": 19.39,
@@ -548,18 +548,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "AVAXUSDT_20260803_CB_001",
-      "coin": "AVAXUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 6.45532725,
-      "live_entry_fill": 6.455,
-      "tp1_hit": false,
-      "iso": "2026-08-03T10:00:00Z",
-      "_iso_ms": 1785751200000,
-      "rehearsal": false
-    },
     {
       "trade_id": "DOGEUSDT_20260803_CB_001",
       "coin": "DOGEUSDT",
@@ -2322,7 +2310,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-05T09:20Z",
+    "feed_generated_utc": "2026-08-05T10:06Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
