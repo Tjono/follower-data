@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-07T14:09:54Z",
+  "last_updated_iso": "2026-08-07T15:15:30Z",
   "mexc_account": {
-    "unrealized_pnl": 7.3859,
-    "equity": 401.9983,
+    "unrealized_pnl": 7.4531,
+    "equity": 402.0656,
     "available": 112.4021,
     "position_margin": 164.5684
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$402.00",
+      "value": "$402.07",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (9 open, 8 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "\ud83d\udd34 1 NAKED: TRXUSDT",
+      "status": "urgent",
+      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: TRXUSDT"
     }
   ],
   "active_trades": [
@@ -621,18 +621,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "UNIUSDT_20260804_CB_001",
-      "coin": "UNIUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 4.08534433,
-      "live_entry_fill": 4.085,
-      "tp1_hit": false,
-      "iso": "2026-08-05T14:13:00Z",
-      "_iso_ms": 1785939180000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ONDOUSDT_20260805_CJ_001",
       "coin": "ONDOUSDT",
