@@ -1794,6 +1794,18 @@
       "braam_trade_id": "UNIUSDT_20260804_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-04T00:08:21Z"
+    },
+    "1463204295": {
+      "position_id": "1463204295",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.3554,
+      "opened_at": "2026-08-07T00:17:40Z",
+      "margin_usd": 19.00015767712,
+      "braam_trade_id": "ONDOUSDT_20260805_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-05T16:08:42Z"
     }
   },
   "orders": {
@@ -3193,7 +3205,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-07T00:10:10Z",
+  "updated": "2026-08-07T00:22:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11018,6 +11030,14 @@
       "unrealized": 13.944,
       "realized": -19.5325,
       "total": -5.5885
+    },
+    {
+      "ts": "2026-08-07T00:22:15Z",
+      "equity": 400.6325,
+      "available": 183.8652,
+      "unrealized": 14.5648,
+      "realized": -19.5325,
+      "total": -4.9677
     }
   ]
 }
