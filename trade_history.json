@@ -1756,8 +1756,16 @@
       "opened_at": "2026-08-05T02:04:01Z",
       "margin_usd": 19.429047742165057,
       "braam_trade_id": "XRPUSDT_20260805_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-05T00:08:23Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-05T00:08:23Z",
+      "closed_at": "2026-08-07T03:42:42Z",
+      "close_price": 1.0378,
+      "pnl_usd": 1.9803,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0795
     },
     "1461543510": {
       "position_id": "1461543510",
@@ -3203,9 +3211,54 @@
       "resting_at": "2026-08-05T16:08:41Z",
       "braam_trade_id": "ONDOUSDT_20260805_CJ_001",
       "status": "RESTING"
+    },
+    "840560991023771136": {
+      "order_id": "840560991023771136",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 592.9,
+      "resting_at": "2026-08-07T04:09:17Z",
+      "braam_trade_id": "BNBUSDT_20260807_CB_001",
+      "status": "RESTING"
+    },
+    "840560985428356692": {
+      "order_id": "840560985428356692",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "entry_price": 193.99,
+      "resting_at": "2026-08-07T04:09:15Z",
+      "braam_trade_id": "TAOUSDT_20260807_CB_001",
+      "status": "RESTING"
+    },
+    "840560978289896960": {
+      "order_id": "840560978289896960",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 6.562,
+      "resting_at": "2026-08-07T04:09:13Z",
+      "braam_trade_id": "AVAXUSDT_20260807_CB_001",
+      "status": "RESTING"
+    },
+    "840560971298124800": {
+      "order_id": "840560971298124800",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.16509,
+      "resting_at": "2026-08-07T04:09:12Z",
+      "braam_trade_id": "XLMUSDT_20260807_CB_001",
+      "status": "RESTING"
+    },
+    "840560965547619328": {
+      "order_id": "840560965547619328",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "entry_price": 73.43,
+      "resting_at": "2026-08-07T04:09:10Z",
+      "braam_trade_id": "SOLUSDT_20260807_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-07T03:24:21Z",
+  "updated": "2026-08-07T04:10:34Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11054,6 +11107,14 @@
       "unrealized": 14.5216,
       "realized": -19.5325,
       "total": -5.0109
+    },
+    {
+      "ts": "2026-08-07T04:10:34Z",
+      "equity": 400.8985,
+      "available": 95.9085,
+      "unrealized": 13.4922,
+      "realized": -17.5522,
+      "total": -4.06
     }
   ]
 }
