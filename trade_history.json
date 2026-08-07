@@ -1822,6 +1822,18 @@
       "braam_trade_id": "ONDOUSDT_20260805_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-05T16:08:42Z"
+    },
+    "1463483042": {
+      "position_id": "1463483042",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 73.43,
+      "opened_at": "2026-08-07T09:18:15Z",
+      "margin_usd": 19.643805423230017,
+      "braam_trade_id": "SOLUSDT_20260807_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-07T04:09:11Z"
     }
   },
   "orders": {
@@ -3275,7 +3287,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-07T08:10:10Z",
+  "updated": "2026-08-07T09:29:43Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11164,6 +11176,14 @@
       "unrealized": 6.6535,
       "realized": -10.3113,
       "total": -3.6578
+    },
+    {
+      "ts": "2026-08-07T09:29:43Z",
+      "equity": 400.3743,
+      "available": 103.0406,
+      "unrealized": 5.6514,
+      "realized": -10.3113,
+      "total": -4.6599
     }
   ]
 }
