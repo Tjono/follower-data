@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-06T14:42:57Z",
+  "last_updated_iso": "2026-08-07T00:09:54Z",
   "mexc_account": {
-    "unrealized_pnl": 9.2368,
-    "equity": 395.3655,
-    "available": 183.8807,
+    "unrealized_pnl": 13.944,
+    "equity": 400.0457,
+    "available": 183.8538,
     "position_margin": 125.6027
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$395.37",
+      "value": "$400.05",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "\ud83d\udd34 1 NAKED: ONDOUSDT",
-      "status": "urgent",
-      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: ONDOUSDT"
+      "value": "all protected (8 open, 5 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -352,7 +352,7 @@
       "coin": "XRPUSDT",
       "direction": "Short",
       "entry_price": 1.07604441,
-      "sl": 1.06690709,
+      "sl": 1.05935951,
       "tp1": 1.0497,
       "tp2": 1.0256,
       "capital_usd": 19.5,
@@ -482,18 +482,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "HBARUSDT_20260804_CB_001",
-      "coin": "HBARUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.06993598,
-      "live_entry_fill": 0.06994,
-      "tp1_hit": true,
-      "iso": "2026-08-04T17:00:00Z",
-      "_iso_ms": 1785862800000,
-      "rehearsal": false
-    },
     {
       "trade_id": "XRPUSDT_20260805_CB_001",
       "coin": "XRPUSDT",
@@ -2274,7 +2262,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-06T14:07Z",
+    "feed_generated_utc": "2026-08-07T00:07Z",
     "checked": 12,
     "in_parity": 12,
     "drifting": []
