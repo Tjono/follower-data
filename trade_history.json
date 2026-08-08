@@ -3355,7 +3355,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-08T07:04:20Z",
+  "updated": "2026-08-08T07:24:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11428,6 +11428,14 @@
       "unrealized": 4.3009,
       "realized": -11.9861,
       "total": -7.6852
+    },
+    {
+      "ts": "2026-08-08T07:24:19Z",
+      "equity": 400.84,
+      "available": 206.3383,
+      "unrealized": 4.1955,
+      "realized": -11.9861,
+      "total": -7.7906
     }
   ]
 }
