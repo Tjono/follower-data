@@ -1882,6 +1882,18 @@
       "close_reason": "tp1_breakeven",
       "close_fills": 2,
       "fees_usd": 0.081
+    },
+    "1464103730": {
+      "position_id": "1464103730",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 6.562,
+      "opened_at": "2026-08-08T01:43:35Z",
+      "margin_usd": 19.968237195353428,
+      "braam_trade_id": "AVAXUSDT_20260807_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-07T04:09:14Z"
     }
   },
   "orders": {
@@ -3335,7 +3347,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-07T23:02:01Z",
+  "updated": "2026-08-08T02:09:35Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11360,6 +11372,14 @@
       "unrealized": 5.1964,
       "realized": -10.914,
       "total": -5.7176
+    },
+    {
+      "ts": "2026-08-08T02:09:35Z",
+      "equity": 402.0674,
+      "available": 169.2214,
+      "unrealized": 4.4285,
+      "realized": -10.914,
+      "total": -6.4855
     }
   ]
 }
