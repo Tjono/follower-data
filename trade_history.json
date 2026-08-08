@@ -1800,8 +1800,16 @@
       "opened_at": "2026-08-05T05:05:44Z",
       "margin_usd": 19.412536598657194,
       "braam_trade_id": "SUIUSDT_20260805_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-05T04:08:01Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-05T04:08:01Z",
+      "closed_at": "2026-08-08T14:47:02Z",
+      "close_price": 0.7039,
+      "pnl_usd": -1.1655,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0821
     },
     "1461675435": {
       "position_id": "1461675435",
@@ -3383,7 +3391,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-08T14:14:50Z",
+  "updated": "2026-08-08T14:56:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11536,6 +11544,14 @@
       "unrealized": 2.5186,
       "realized": -11.965,
       "total": -9.4464
+    },
+    {
+      "ts": "2026-08-08T14:56:07Z",
+      "equity": 396.9653,
+      "available": 253.8819,
+      "unrealized": 1.8397,
+      "realized": -13.1305,
+      "total": -11.2908
     }
   ]
 }
