@@ -1760,8 +1760,16 @@
       "opened_at": "2026-08-04T17:00:39Z",
       "margin_usd": 19.552127197456613,
       "braam_trade_id": "HBARUSDT_20260804_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-04T16:08:44Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-04T16:08:44Z",
+      "closed_at": "2026-08-08T14:03:04Z",
+      "close_price": 0.06889,
+      "pnl_usd": 0.7981,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.081
     },
     "1461462129": {
       "position_id": "1461462129",
@@ -1868,8 +1876,16 @@
       "opened_at": "2026-08-07T11:23:33Z",
       "margin_usd": 19.82638607420856,
       "braam_trade_id": "BNBUSDT_20260807_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-07T04:09:17Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-07T04:09:17Z",
+      "closed_at": "2026-08-08T13:55:05Z",
+      "close_price": 599.9,
+      "pnl_usd": -0.777,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0834
     },
     "1463561206": {
       "position_id": "1463561206",
@@ -3367,7 +3383,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-08T13:23:01Z",
+  "updated": "2026-08-08T14:09:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11504,6 +11520,14 @@
       "unrealized": 2.9134,
       "realized": -11.9861,
       "total": -9.0727
+    },
+    {
+      "ts": "2026-08-08T14:09:32Z",
+      "equity": 399.0154,
+      "available": 235.5919,
+      "unrealized": 2.7673,
+      "realized": -11.965,
+      "total": -9.1977
     }
   ]
 }
