@@ -1848,8 +1848,16 @@
       "opened_at": "2026-08-07T09:18:15Z",
       "margin_usd": 19.643805423230017,
       "braam_trade_id": "SOLUSDT_20260807_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-07T04:09:11Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-07T04:09:11Z",
+      "closed_at": "2026-08-08T03:55:01Z",
+      "close_price": 74.68,
+      "pnl_usd": -1.0721,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0829
     },
     "1463562785": {
       "position_id": "1463562785",
@@ -3347,7 +3355,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-08T02:27:33Z",
+  "updated": "2026-08-08T04:09:33Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11388,6 +11396,14 @@
       "unrealized": 4.6762,
       "realized": -10.914,
       "total": -6.2378
+    },
+    {
+      "ts": "2026-08-08T04:09:33Z",
+      "equity": 400.6359,
+      "available": 187.8174,
+      "unrealized": 4.0448,
+      "realized": -11.9861,
+      "total": -7.9413
     }
   ]
 }
