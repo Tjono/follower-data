@@ -1902,6 +1902,18 @@
       "braam_trade_id": "AVAXUSDT_20260807_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-07T04:09:14Z"
+    },
+    "1464419234": {
+      "position_id": "1464419234",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.16509,
+      "opened_at": "2026-08-08T13:06:11Z",
+      "margin_usd": 19.874004178053514,
+      "braam_trade_id": "XLMUSDT_20260807_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-07T04:09:12Z"
     }
   },
   "orders": {
@@ -3355,7 +3367,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-08T10:57:45Z",
+  "updated": "2026-08-08T13:23:01Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11484,6 +11496,14 @@
       "unrealized": 2.6803,
       "realized": -11.9861,
       "total": -9.3058
+    },
+    {
+      "ts": "2026-08-08T13:23:01Z",
+      "equity": 399.5396,
+      "available": 206.3676,
+      "unrealized": 2.9134,
+      "realized": -11.9861,
+      "total": -9.0727
     }
   ]
 }
