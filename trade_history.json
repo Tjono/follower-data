@@ -3389,9 +3389,18 @@
       "resting_at": "2026-08-07T08:08:52Z",
       "braam_trade_id": "XRPUSDT_20260807_CB_001",
       "status": "RESTING"
+    },
+    "841225257284257792": {
+      "order_id": "841225257284257792",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.08798,
+      "resting_at": "2026-08-09T00:08:50Z",
+      "braam_trade_id": "ALGOUSDT_20260809_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-08T22:54:03Z",
+  "updated": "2026-08-09T00:10:00Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11592,6 +11601,14 @@
       "unrealized": 3.185,
       "realized": -13.1305,
       "total": -9.9455
+    },
+    {
+      "ts": "2026-08-09T00:10:00Z",
+      "equity": 398.3601,
+      "available": 273.0091,
+      "unrealized": 3.2154,
+      "realized": -13.1305,
+      "total": -9.9151
     }
   ]
 }
