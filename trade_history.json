@@ -1950,6 +1950,18 @@
       "braam_trade_id": "DOGEUSDT_20260809_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-09T04:08:41Z"
+    },
+    "1465275093": {
+      "position_id": "1465275093",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.1981,
+      "opened_at": "2026-08-09T17:06:12Z",
+      "margin_usd": 20.005689636579795,
+      "braam_trade_id": "ADAUSDT_20260809_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-09T12:08:45Z"
     }
   },
   "orders": {
@@ -3439,7 +3451,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-09T17:02:27Z",
+  "updated": "2026-08-09T18:10:28Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11768,6 +11780,14 @@
       "unrealized": 1.7267,
       "realized": -13.1305,
       "total": -11.4038
+    },
+    {
+      "ts": "2026-08-09T18:10:28Z",
+      "equity": 397.0582,
+      "available": 215.0862,
+      "unrealized": 1.8936,
+      "realized": -13.1305,
+      "total": -11.2369
     }
   ]
 }
