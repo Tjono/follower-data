@@ -1962,6 +1962,18 @@
       "braam_trade_id": "ADAUSDT_20260809_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-09T12:08:45Z"
+    },
+    "1465388214": {
+      "position_id": "1465388214",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.3578,
+      "opened_at": "2026-08-09T20:58:00Z",
+      "margin_usd": 19.14354781542067,
+      "braam_trade_id": "ONDOUSDT_20260809_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-09T04:08:39Z"
     }
   },
   "orders": {
@@ -3451,7 +3463,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-09T20:53:30Z",
+  "updated": "2026-08-09T20:59:23Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11812,6 +11824,14 @@
       "unrealized": 1.3641,
       "realized": -13.1305,
       "total": -11.7664
+    },
+    {
+      "ts": "2026-08-09T20:59:23Z",
+      "equity": 396.2231,
+      "available": 215.0977,
+      "unrealized": 1.0929,
+      "realized": -13.1305,
+      "total": -12.0376
     }
   ]
 }
