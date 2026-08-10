@@ -1956,8 +1956,16 @@
       "opened_at": "2026-08-09T04:12:21Z",
       "margin_usd": 18.747622008170495,
       "braam_trade_id": "DOGEUSDT_20260809_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-09T04:08:41Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-09T04:08:41Z",
+      "closed_at": "2026-08-10T01:50:05Z",
+      "close_price": 0.06957,
+      "pnl_usd": 0.3393,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.078
     },
     "1465275093": {
       "position_id": "1465275093",
@@ -1982,6 +1990,30 @@
       "braam_trade_id": "ONDOUSDT_20260809_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-09T04:08:39Z"
+    },
+    "1465492618": {
+      "position_id": "1465492618",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.06891,
+      "opened_at": "2026-08-10T00:11:06Z",
+      "margin_usd": 20.16287285085171,
+      "braam_trade_id": "HBARUSDT_20260810_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-10T00:09:17Z"
+    },
+    "1465492076": {
+      "position_id": "1465492076",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.6887,
+      "opened_at": "2026-08-10T00:10:53Z",
+      "margin_usd": 20.03601942603722,
+      "braam_trade_id": "SUIUSDT_20260810_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-10T00:09:15Z"
     }
   },
   "orders": {
@@ -3498,7 +3530,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-10T00:10:44Z",
+  "updated": "2026-08-10T02:11:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11907,6 +11939,14 @@
       "unrealized": 5.0302,
       "realized": -13.6624,
       "total": -8.6322
+    },
+    {
+      "ts": "2026-08-10T02:11:07Z",
+      "equity": 399.2371,
+      "available": 213.3005,
+      "unrealized": 2.6773,
+      "realized": -13.3231,
+      "total": -10.6458
     }
   ]
 }
