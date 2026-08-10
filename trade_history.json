@@ -2034,6 +2034,18 @@
       "braam_trade_id": "BNBUSDT_20260810_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-10T20:09:44Z"
+    },
+    "1466262573": {
+      "position_id": "1466262573",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 201.51,
+      "opened_at": "2026-08-10T20:11:50Z",
+      "margin_usd": 20.21528954872879,
+      "braam_trade_id": "TAOUSDT_20260810_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-10T20:09:46Z"
     }
   },
   "orders": {
@@ -3568,7 +3580,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-10T20:11:06Z",
+  "updated": "2026-08-10T20:17:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -12121,6 +12133,14 @@
       "unrealized": 6.24,
       "realized": -12.5914,
       "total": -6.3514
+    },
+    {
+      "ts": "2026-08-10T20:17:11Z",
+      "equity": 403.1008,
+      "available": 174.1429,
+      "unrealized": 6.0923,
+      "realized": -12.5914,
+      "total": -6.4991
     }
   ]
 }
