@@ -1932,8 +1932,16 @@
       "opened_at": "2026-08-08T01:43:35Z",
       "margin_usd": 19.968237195353428,
       "braam_trade_id": "AVAXUSDT_20260807_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-07T04:09:14Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-07T04:09:14Z",
+      "closed_at": "2026-08-10T05:48:37Z",
+      "close_price": 6.475,
+      "pnl_usd": 0.7317,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0829
     },
     "1464419234": {
       "position_id": "1464419234",
@@ -3530,7 +3538,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-10T04:10:10Z",
+  "updated": "2026-08-10T05:52:23Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -11963,6 +11971,14 @@
       "unrealized": 4.5694,
       "realized": -13.3231,
       "total": -8.7537
+    },
+    {
+      "ts": "2026-08-10T05:52:23Z",
+      "equity": 398.4017,
+      "available": 223.1933,
+      "unrealized": 1.8236,
+      "realized": -12.5914,
+      "total": -10.7678
     }
   ]
 }
