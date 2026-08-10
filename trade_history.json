@@ -3536,9 +3536,18 @@
       "resting_at": "2026-08-10T00:09:13Z",
       "braam_trade_id": "LTCUSDT_20260810_CB_001",
       "status": "RESTING"
+    },
+    "841829257268260352": {
+      "order_id": "841829257268260352",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1911.62,
+      "resting_at": "2026-08-10T16:08:55Z",
+      "braam_trade_id": "ETHUSDT_20260810_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-10T15:29:49Z",
+  "updated": "2026-08-10T16:10:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -12059,6 +12068,14 @@
       "unrealized": 6.5981,
       "realized": -12.5914,
       "total": -5.9933
+    },
+    {
+      "ts": "2026-08-10T16:10:11Z",
+      "equity": 402.8802,
+      "available": 204.0113,
+      "unrealized": 6.263,
+      "realized": -12.5914,
+      "total": -6.3284
     }
   ]
 }
