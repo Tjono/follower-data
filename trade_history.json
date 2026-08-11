@@ -2040,8 +2040,16 @@
       "opened_at": "2026-08-10T20:09:44Z",
       "margin_usd": 20.13737509510608,
       "braam_trade_id": "BNBUSDT_20260810_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-10T20:09:44Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-10T20:09:44Z",
+      "closed_at": "2026-08-11T09:25:43Z",
+      "close_price": 608.4,
+      "pnl_usd": -0.7083,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0967
     },
     "1466262573": {
       "position_id": "1466262573",
@@ -2066,6 +2074,18 @@
       "braam_trade_id": "DOGEUSDT_20260811_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-11T01:03:04Z"
+    },
+    "1466617162": {
+      "position_id": "1466617162",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 75.9,
+      "opened_at": "2026-08-11T08:50:36Z",
+      "margin_usd": 20.30457349343808,
+      "braam_trade_id": "SOLUSDT_20260811_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-11T08:08:44Z"
     }
   },
   "orders": {
@@ -3636,7 +3656,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-11T08:10:06Z",
+  "updated": "2026-08-11T09:28:21Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -12309,6 +12329,14 @@
       "unrealized": 7.2341,
       "realized": -10.3381,
       "total": -3.104
+    },
+    {
+      "ts": "2026-08-11T09:28:21Z",
+      "equity": 404.5861,
+      "available": 156.6352,
+      "unrealized": 5.7479,
+      "realized": -11.0464,
+      "total": -5.2985
     }
   ]
 }
