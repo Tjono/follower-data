@@ -2016,8 +2016,16 @@
       "opened_at": "2026-08-10T00:11:06Z",
       "margin_usd": 20.16287285085171,
       "braam_trade_id": "HBARUSDT_20260810_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-10T00:09:17Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-10T00:09:17Z",
+      "closed_at": "2026-08-11T15:01:00Z",
+      "close_price": 0.06696,
+      "pnl_usd": 1.6304,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0829
     },
     "1465492076": {
       "position_id": "1465492076",
@@ -3664,7 +3672,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-11T14:10:27Z",
+  "updated": "2026-08-11T15:28:18Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -12401,6 +12409,14 @@
       "unrealized": 6.0124,
       "realized": -11.9838,
       "total": -5.9714
+    },
+    {
+      "ts": "2026-08-11T15:28:18Z",
+      "equity": 409.9956,
+      "available": 207.7681,
+      "unrealized": 8.4509,
+      "realized": -10.3534,
+      "total": -1.9025
     }
   ]
 }
