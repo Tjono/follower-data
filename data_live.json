@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-11T13:50:40Z",
+  "last_updated_iso": "2026-08-11T14:10:06Z",
   "mexc_account": {
-    "unrealized_pnl": 5.0967,
-    "equity": 406.3679,
-    "available": 178.7038,
-    "position_margin": 123.1001
+    "unrealized_pnl": 6.0124,
+    "equity": 406.3741,
+    "available": 196.5152,
+    "position_margin": 104.3793
   },
   "order_levels": {
-    "checked": 14,
-    "in_sync": 14,
+    "checked": 13,
+    "in_sync": 13,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (9 open, 4 pre-TP1 runners)",
+      "value": "all protected (8 open, 3 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -121,7 +121,7 @@
       "coin": "UNIUSDT",
       "direction": "Short",
       "entry_price": 4.08534433,
-      "sl": 4.25518857,
+      "sl": 4.01317788,
       "tp1": 3.864,
       "tp2": 3.698,
       "capital_usd": 19.44,
@@ -253,7 +253,7 @@
       "coin": "ADAUSDT",
       "direction": "Short",
       "entry_price": 0.19809051,
-      "sl": 0.19492879,
+      "sl": 0.1942687,
       "tp1": 0.1912,
       "tp2": 0.1831,
       "capital_usd": 19.95,
@@ -352,7 +352,7 @@
       "coin": "HBARUSDT",
       "direction": "Short",
       "entry_price": 0.06890848,
-      "sl": 0.06856283,
+      "sl": 0.06828283,
       "tp1": 0.06776,
       "tp2": 0.06611,
       "capital_usd": 20.11,
@@ -475,39 +475,6 @@
       "live_exit_fill": null,
       "live_entry_slippage_pct": null,
       "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "DOGEUSDT_20260811_CB_001",
-      "coin": "DOGEUSDT",
-      "direction": "Short",
-      "entry_price": 0.069978,
-      "sl": 0.07101281,
-      "tp1": 0.06937,
-      "tp2": 0.06865,
-      "capital_usd": 20.36,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-08-11",
-      "time_activated_utc": "01:12",
-      "date_opened": "2026-08-11",
-      "time_opened_utc": "00:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.06998,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": -0.0029,
-      "live_fees_usd": 0.0335,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -2585,6 +2552,26 @@
       "won": false,
       "close_iso": "2026-08-11T10:09:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "DOGEUSDT_20260811_CB_001",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -0.9,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "date_closed": "2026-08-11",
+      "time_closed_utc": "14:10",
+      "trading_system": "Braam",
+      "live_entry_fill": 0.06998,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": -0.0029,
+      "live_fees_usd": 0.0335,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": false,
+      "close_iso": "2026-08-11T14:10:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
@@ -2621,20 +2608,20 @@
     }
   ],
   "stats": {
-    "realized_pnl_usd": -20.6,
-    "realized_pnl_pct": -1.12,
+    "realized_pnl_usd": -21.5,
+    "realized_pnl_pct": -1.15,
     "peak_capital_usd": 233.35,
     "peak_concurrent": 12,
     "peak_date": "2026-08-11",
     "deployed_trades": 108,
-    "return_on_peak_pct": -8.83,
-    "win_rate_pct": 39.8,
-    "closed_count": 98,
+    "return_on_peak_pct": -9.21,
+    "win_rate_pct": 39.4,
+    "closed_count": 99,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -16.95,
-        "win_rate_pct": 41.8,
-        "closed_count": 91
+        "realized_pnl_usd": -17.85,
+        "win_rate_pct": 41.3,
+        "closed_count": 92
       },
       "John": {
         "realized_pnl_usd": -3.65,
@@ -2648,9 +2635,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-11T13:09Z",
-    "checked": 14,
-    "in_parity": 14,
+    "feed_generated_utc": "2026-08-11T14:07Z",
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   }
 }
