@@ -2108,8 +2108,16 @@
       "opened_at": "2026-08-11T08:50:36Z",
       "margin_usd": 20.30457349343808,
       "braam_trade_id": "SOLUSDT_20260811_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-11T08:08:44Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-11T08:08:44Z",
+      "closed_at": "2026-08-11T20:05:36Z",
+      "close_price": 75.28,
+      "pnl_usd": 0.4097,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0844
     }
   },
   "orders": {
@@ -3678,9 +3686,18 @@
       "resting_at": "2026-08-11T08:08:43Z",
       "braam_trade_id": "SOLUSDT_20260811_CB_001",
       "status": "RESTING"
+    },
+    "842251874563665920": {
+      "order_id": "842251874563665920",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 6.456,
+      "resting_at": "2026-08-11T20:08:15Z",
+      "braam_trade_id": "AVAXUSDT_20260811_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-11T19:32:22Z",
+  "updated": "2026-08-11T20:09:30Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -12449,6 +12466,14 @@
       "unrealized": 6.1469,
       "realized": -6.1279,
       "total": 0.019
+    },
+    {
+      "ts": "2026-08-11T20:09:30Z",
+      "equity": 409.0218,
+      "available": 220.3302,
+      "unrealized": 4.36,
+      "realized": -5.7182,
+      "total": -1.3582
     }
   ]
 }
