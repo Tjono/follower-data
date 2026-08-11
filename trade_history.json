@@ -3586,9 +3586,27 @@
       "resting_at": "2026-08-10T20:09:45Z",
       "braam_trade_id": "TAOUSDT_20260810_CB_001",
       "status": "RESTING"
+    },
+    "841950074203837465": {
+      "order_id": "841950074203837465",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.06998,
+      "resting_at": "2026-08-11T00:09:00Z",
+      "braam_trade_id": "DOGEUSDT_20260811_CB_001",
+      "status": "RESTING"
+    },
+    "841950067429615168": {
+      "order_id": "841950067429615168",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.3514,
+      "resting_at": "2026-08-11T00:08:58Z",
+      "braam_trade_id": "ONDOUSDT_20260811_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-10T23:03:08Z",
+  "updated": "2026-08-11T00:10:21Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -12197,6 +12215,14 @@
       "unrealized": 8.5529,
       "realized": -10.3381,
       "total": -1.7852
+    },
+    {
+      "ts": "2026-08-11T00:10:21Z",
+      "equity": 407.1983,
+      "available": 157.4216,
+      "unrealized": 7.6961,
+      "realized": -10.3381,
+      "total": -2.642
     }
   ]
 }
