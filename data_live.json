@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-11T05:33:52Z",
+  "last_updated_iso": "2026-08-11T06:09:34Z",
   "mexc_account": {
-    "unrealized_pnl": 6.9322,
-    "equity": 406.458,
+    "unrealized_pnl": 6.4681,
+    "equity": 405.994,
     "available": 157.49,
     "position_margin": 142.5686
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$406.46",
+      "value": "$405.99",
       "status": "ok",
       "action": null
     },
@@ -253,7 +253,7 @@
       "coin": "ADAUSDT",
       "direction": "Short",
       "entry_price": 0.19809051,
-      "sl": 0.19751562,
+      "sl": 0.19492879,
       "tp1": 0.1912,
       "tp2": 0.1831,
       "capital_usd": 19.95,
@@ -352,7 +352,7 @@
       "coin": "HBARUSDT",
       "direction": "Short",
       "entry_price": 0.06890848,
-      "sl": 0.06890848,
+      "sl": 0.06873731,
       "tp1": 0.06776,
       "tp2": 0.06611,
       "capital_usd": 20.11,
@@ -2618,7 +2618,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-11T04:06Z",
+    "feed_generated_utc": "2026-08-11T06:07Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
