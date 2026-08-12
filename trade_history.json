@@ -2150,6 +2150,18 @@
       "braam_trade_id": "AVAXUSDT_20260811_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-11T20:08:15Z"
+    },
+    "1467990609": {
+      "position_id": "1467990609",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 76.01,
+      "opened_at": "2026-08-12T17:36:39Z",
+      "margin_usd": 20.334000411544512,
+      "braam_trade_id": "SOLUSDT_20260812_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-12T16:08:49Z"
     }
   },
   "orders": {
@@ -3756,7 +3768,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-12T17:26:07Z",
+  "updated": "2026-08-12T18:09:53Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -12709,6 +12721,14 @@
       "unrealized": 4.4236,
       "realized": -2.4943,
       "total": 1.9293
+    },
+    {
+      "ts": "2026-08-12T18:09:53Z",
+      "equity": 410.9448,
+      "available": 182.2299,
+      "unrealized": 3.529,
+      "realized": -2.4943,
+      "total": 1.0347
     }
   ]
 }
