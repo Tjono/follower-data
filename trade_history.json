@@ -3695,9 +3695,27 @@
       "resting_at": "2026-08-11T20:08:15Z",
       "braam_trade_id": "AVAXUSDT_20260811_CB_001",
       "status": "RESTING"
+    },
+    "842312388514236928": {
+      "order_id": "842312388514236928",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.06778,
+      "resting_at": "2026-08-12T00:08:42Z",
+      "braam_trade_id": "HBARUSDT_20260812_CB_001",
+      "status": "RESTING"
+    },
+    "842312381240836608": {
+      "order_id": "842312381240836608",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "entry_price": 3.918,
+      "resting_at": "2026-08-12T00:08:40Z",
+      "braam_trade_id": "UNIUSDT_20260812_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-11T23:10:15Z",
+  "updated": "2026-08-12T00:10:03Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -12498,6 +12516,14 @@
       "unrealized": 3.5145,
       "realized": -5.7182,
       "total": -2.2037
+    },
+    {
+      "ts": "2026-08-12T00:10:03Z",
+      "equity": 407.6359,
+      "available": 179.3648,
+      "unrealized": 2.9587,
+      "realized": -5.7182,
+      "total": -2.7595
     }
   ]
 }
