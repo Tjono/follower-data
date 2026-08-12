@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-12T11:34:37Z",
+  "last_updated_iso": "2026-08-12T12:09:32Z",
   "mexc_account": {
-    "unrealized_pnl": 2.431,
-    "equity": 407.1468,
-    "available": 179.4494,
+    "unrealized_pnl": 2.1524,
+    "equity": 406.8712,
+    "available": 179.4524,
     "position_margin": 83.4812
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$407.15",
+      "value": "$406.87",
       "status": "ok",
       "action": null
     },
@@ -513,34 +513,7 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "UNIUSDT_20260812_CB_001",
-      "coin": "UNIUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 3.91843228,
-      "tp1": 3.48240706,
-      "sl": 4.04786053,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-08-12T00:03:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "HBARUSDT_20260812_CB_001",
-      "coin": "HBARUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.06778454,
-      "tp1": 0.06340097,
-      "sl": 0.06884033,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-08-12T00:03:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "BNBUSDT_20260810_CB_001",
@@ -2674,7 +2647,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-12T11:33Z",
+    "feed_generated_utc": "2026-08-12T12:07Z",
     "checked": 13,
     "in_parity": 13,
     "drifting": []
