@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-12T15:26:59Z",
+  "last_updated_iso": "2026-08-12T16:09:50Z",
   "mexc_account": {
-    "unrealized_pnl": 3.7859,
-    "equity": 411.233,
-    "available": 202.5951,
+    "unrealized_pnl": 3.9805,
+    "equity": 411.4328,
+    "available": 182.2177,
     "position_margin": 83.625
   },
   "order_levels": {
-    "checked": 12,
-    "in_sync": 12,
+    "checked": 13,
+    "in_sync": 13,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (151 records)",
+      "value": "OK (152 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$411.23",
+      "value": "$411.43",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (6 resting = journal)",
+      "value": "in sync (7 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -478,9 +478,56 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "SOLUSDT_20260812_CB_001",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "entry_price": 76.00911799,
+      "sl": 77.35922563,
+      "tp1": 71.85116705,
+      "tp2": 66.07229313,
+      "capital_usd": 20.57,
+      "leverage": 3,
+      "trading_system": "Braam",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-08-12",
+      "time_opened_utc": "16:03",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "SOLUSDT_20260812_CB_001",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 76.00911799,
+      "tp1": 71.85116705,
+      "sl": 77.35922563,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-08-12T16:03:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "BNBUSDT_20260810_CB_001",
@@ -2640,15 +2687,15 @@
         "closed_count": 7
       }
     },
-    "live_trade_count_total": 143,
-    "live_real_count": 143,
+    "live_trade_count_total": 144,
+    "live_real_count": 144,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-12T14:07Z",
-    "checked": 12,
-    "in_parity": 12,
+    "feed_generated_utc": "2026-08-12T16:07Z",
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   }
 }
