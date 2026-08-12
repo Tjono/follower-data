@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-12T13:29:13Z",
+  "last_updated_iso": "2026-08-12T13:55:10Z",
   "mexc_account": {
-    "unrealized_pnl": 1.5167,
-    "equity": 408.4265,
+    "unrealized_pnl": 2.6393,
+    "equity": 409.5491,
     "available": 191.6953,
     "position_margin": 93.9875
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$408.43",
+      "value": "$409.55",
       "status": "ok",
       "action": null
     },
@@ -2584,7 +2584,7 @@
       "pnl_usd": 1.9,
       "close_reason": "reconciled: position gone from MEXC; master TP2_HIT",
       "date_closed": "2026-08-12",
-      "time_closed_utc": "13:29",
+      "time_closed_utc": "13:55",
       "trading_system": "Braam",
       "live_entry_fill": 0.1981,
       "live_exit_fill": null,
@@ -2593,7 +2593,7 @@
       "live_funding_usd": null,
       "pnl_estimated": true,
       "won": true,
-      "close_iso": "2026-08-12T13:29:00Z",
+      "close_iso": "2026-08-12T13:55:00Z",
       "rehearsal": false
     }
   ],
