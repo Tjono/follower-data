@@ -2170,6 +2170,18 @@
       "braam_trade_id": "SOLUSDT_20260812_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-12T16:08:49Z"
+    },
+    "1468411211": {
+      "position_id": "1468411211",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.07077,
+      "opened_at": "2026-08-13T07:06:08Z",
+      "margin_usd": 18.932209039929024,
+      "braam_trade_id": "DOGEUSDT_20260812_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-12T21:24:54Z"
     }
   },
   "orders": {
@@ -3803,7 +3815,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-13T05:54:45Z",
+  "updated": "2026-08-13T08:00:53Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -12860,6 +12872,14 @@
       "unrealized": 1.1517,
       "realized": -2.015,
       "total": -0.8633
+    },
+    {
+      "ts": "2026-08-13T08:00:53Z",
+      "equity": 409.3912,
+      "available": 152.7867,
+      "unrealized": 1.9474,
+      "realized": -2.015,
+      "total": -0.0676
     }
   ]
 }
