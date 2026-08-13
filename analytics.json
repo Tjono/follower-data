@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-08-13T03:06:41+00:00",
+  "generated_at_utc": "2026-08-13T04:10:06+00:00",
   "all_time": {
-    "total_trades": 103,
-    "wins": 43,
+    "total_trades": 104,
+    "wins": 44,
     "losses": 60,
-    "win_rate": 41.7,
+    "win_rate": 42.3,
     "total_pnl_usd": -2.49,
     "avg_pnl_usd": -0.02,
     "best_usd": 4.03,
     "worst_usd": -3.55,
-    "avg_win_usd": 1.32,
+    "avg_win_usd": 1.31,
     "avg_loss_usd": -1.22,
     "expectancy_usd": -0.02,
-    "profit_factor": 0.78,
+    "profit_factor": 0.79,
     "longest_win_streak": 6,
     "longest_loss_streak": 16,
     "current_streak_type": "win",
-    "current_streak_count": 4,
-    "avg_hold_hours": 52.9,
-    "median_hold_hours": 30.1
+    "current_streak_count": 5,
+    "avg_hold_hours": 52.6,
+    "median_hold_hours": 30.0
   },
   "by_system": {
     "John": {
@@ -35,16 +35,16 @@
       "pending": 0
     },
     "Braam": {
-      "n": 96,
-      "wins": 42,
-      "wr": 43.8,
-      "pnl": -12.58,
-      "avg": -0.13,
+      "n": 97,
+      "wins": 43,
+      "wr": 44.3,
+      "pnl": -12.02,
+      "avg": -0.12,
       "inception": "2026-06-24",
       "days_active": 50,
-      "pnl_per_day": -0.25,
+      "pnl_per_day": -0.24,
       "status": "active",
-      "open": 6,
+      "open": 5,
       "pending": 8
     },
     "Mong": {
@@ -88,12 +88,12 @@
       "name": "Braam",
       "inception": "2026-06-24",
       "days_active": 50,
-      "closed": 96,
-      "wins": 42,
-      "wr": 43.8,
-      "pnl": -12.58,
-      "pnl_per_day": -0.25,
-      "open": 6,
+      "closed": 97,
+      "wins": 43,
+      "wr": 44.3,
+      "pnl": -12.02,
+      "pnl_per_day": -0.24,
+      "open": 5,
       "pending": 8
     },
     {
@@ -128,11 +128,11 @@
     },
     {
       "month": "2026-08",
-      "n": 34,
-      "wins": 18,
-      "wr": 52.9,
-      "pnl": 0.96,
-      "cumulative_pnl": -16.23
+      "n": 35,
+      "wins": 19,
+      "wr": 54.3,
+      "pnl": 1.52,
+      "cumulative_pnl": -15.67
     }
   ],
   "equity_curve": [
@@ -763,7 +763,7 @@
   ],
   "benchmark": {
     "inception_iso": "2026-06-29T17:05:26Z",
-    "base_usd": 409.91,
+    "base_usd": 409.89,
     "ours": [
       {
         "iso": "2026-06-29",
@@ -775,7 +775,7 @@
       },
       {
         "iso": "2026-06-30",
-        "pct": -0.141
+        "pct": -0.142
       },
       {
         "iso": "2026-07-01",
@@ -827,7 +827,7 @@
       },
       {
         "iso": "2026-07-04",
-        "pct": -3.393
+        "pct": -3.394
       },
       {
         "iso": "2026-07-05",
@@ -839,7 +839,7 @@
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.303
+        "pct": -4.304
       },
       {
         "iso": "2026-07-06",
@@ -847,11 +847,11 @@
       },
       {
         "iso": "2026-07-06",
-        "pct": -4.852
+        "pct": -4.853
       },
       {
         "iso": "2026-07-06",
-        "pct": -5.23
+        "pct": -5.231
       },
       {
         "iso": "2026-07-06",
@@ -859,11 +859,11 @@
       },
       {
         "iso": "2026-07-06",
-        "pct": -6.04
+        "pct": -6.041
       },
       {
         "iso": "2026-07-08",
-        "pct": -5.513
+        "pct": -5.514
       },
       {
         "iso": "2026-07-08",
@@ -979,11 +979,11 @@
       },
       {
         "iso": "2026-07-21",
-        "pct": -4.63
+        "pct": -4.631
       },
       {
         "iso": "2026-07-22",
-        "pct": -4.059
+        "pct": -4.06
       },
       {
         "iso": "2026-07-24",
@@ -1011,7 +1011,7 @@
       },
       {
         "iso": "2026-07-26",
-        "pct": -4.225
+        "pct": -4.226
       },
       {
         "iso": "2026-07-26",
@@ -1019,7 +1019,7 @@
       },
       {
         "iso": "2026-07-26",
-        "pct": -4.83
+        "pct": -4.831
       },
       {
         "iso": "2026-07-27",
@@ -1031,7 +1031,7 @@
       },
       {
         "iso": "2026-07-30",
-        "pct": -4.02
+        "pct": -4.021
       },
       {
         "iso": "2026-07-30",
@@ -1051,7 +1051,7 @@
       },
       {
         "iso": "2026-08-02",
-        "pct": -4.225
+        "pct": -4.226
       },
       {
         "iso": "2026-08-02",
@@ -1063,7 +1063,7 @@
       },
       {
         "iso": "2026-08-02",
-        "pct": -4.142
+        "pct": -4.143
       },
       {
         "iso": "2026-08-02",
@@ -1075,7 +1075,7 @@
       },
       {
         "iso": "2026-08-03",
-        "pct": -4.581
+        "pct": -4.582
       },
       {
         "iso": "2026-08-03",
@@ -1099,15 +1099,15 @@
       },
       {
         "iso": "2026-08-05",
-        "pct": -5.313
+        "pct": -5.314
       },
       {
         "iso": "2026-08-06",
-        "pct": -4.764
+        "pct": -4.765
       },
       {
         "iso": "2026-08-07",
-        "pct": -4.281
+        "pct": -4.282
       },
       {
         "iso": "2026-08-07",
@@ -1143,15 +1143,15 @@
       },
       {
         "iso": "2026-08-10",
-        "pct": -3.332
+        "pct": -3.333
       },
       {
         "iso": "2026-08-10",
-        "pct": -3.249
+        "pct": -3.25
       },
       {
         "iso": "2026-08-10",
-        "pct": -3.071
+        "pct": -3.072
       },
       {
         "iso": "2026-08-10",
@@ -1171,7 +1171,7 @@
       },
       {
         "iso": "2026-08-11",
-        "pct": -1.495
+        "pct": -1.496
       },
       {
         "iso": "2026-08-11",
@@ -1244,6 +1244,14 @@
         "pct": 0.038
       },
       {
+        "iso": "2026-07-21",
+        "pct": 0.924
+      },
+      {
+        "iso": "2026-07-22",
+        "pct": 0.787
+      },
+      {
         "iso": "2026-07-23",
         "pct": -0.432
       },
@@ -1266,6 +1274,10 @@
       {
         "iso": "2026-07-30",
         "pct": -0.038
+      },
+      {
+        "iso": "2026-07-31",
+        "pct": 0.662
       },
       {
         "iso": "2026-08-03",
@@ -1305,10 +1317,10 @@
   },
   "by_direction": {
     "Short": {
-      "n": 100,
-      "wins": 43,
-      "wr": 43.0,
-      "pnl": -13.39,
+      "n": 101,
+      "wins": 44,
+      "wr": 43.6,
+      "pnl": -12.83,
       "avg": -0.13
     },
     "Long": {
@@ -1328,11 +1340,11 @@
       "avg": -0.11
     },
     "HIGH": {
-      "n": 15,
-      "wins": 4,
-      "wr": 26.7,
-      "pnl": -6.89,
-      "avg": -0.46
+      "n": 16,
+      "wins": 5,
+      "wr": 31.2,
+      "pnl": -6.33,
+      "avg": -0.4
     }
   },
   "by_entry_type": {},
@@ -1360,11 +1372,11 @@
     },
     {
       "coin": "AVAX",
-      "n": 5,
-      "wins": 3,
-      "wr": 60.0,
-      "pnl": 1.46,
-      "avg": 0.29
+      "n": 6,
+      "wins": 4,
+      "wr": 66.7,
+      "pnl": 2.02,
+      "avg": 0.34
     },
     {
       "coin": "ALGO",
@@ -1448,6 +1460,16 @@
     "conviction": "MEDIUM"
   },
   "recent_closes": [
+    {
+      "trade_id": "AVAXUSDT_20260811_CB_001",
+      "coin": "AVAX",
+      "direction": "Short",
+      "system": "Braam",
+      "pnl_usd": 0.56,
+      "won": true,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
+      "iso": "2026-08-13T04:09:00+00:00"
+    },
     {
       "trade_id": "ADAUSDT_20260809_CB_001",
       "coin": "ADA",
@@ -1537,24 +1559,14 @@
       "won": true,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
       "iso": "2026-08-10T02:10:00+00:00"
-    },
-    {
-      "trade_id": "TRXUSDT_20260805_CB_001",
-      "coin": "TRX",
-      "direction": "Short",
-      "system": "Braam",
-      "pnl_usd": -0.4,
-      "won": false,
-      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
-      "iso": "2026-08-10T02:10:00+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 7,
+    "open_count": 6,
     "open_long": 0,
-    "open_short": 7,
+    "open_short": 6,
     "pending_count": 8,
-    "capital_open_usd": 700,
+    "capital_open_usd": 600,
     "capital_pending_usd": 800
   },
   "macro": {
@@ -1566,15 +1578,15 @@
       15.28,
       14.55
     ],
-    "vix_ma14": 16.67,
-    "dxy": 100.01,
+    "vix_ma14": 16.62,
+    "dxy": 100.0,
     "dxy_5d": [
-      99.97,
       99.6,
       99.81,
       99.82,
-      100.01
+      100.01,
+      100.0
     ],
-    "dxy_ma14": 100.09
+    "dxy_ma14": 99.95
   }
 }
