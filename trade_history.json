@@ -2182,6 +2182,18 @@
       "braam_trade_id": "DOGEUSDT_20260812_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-12T21:24:54Z"
+    },
+    "1469190149": {
+      "position_id": "1469190149",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 6.422,
+      "opened_at": "2026-08-14T04:16:34Z",
+      "margin_usd": 20.615963790491598,
+      "braam_trade_id": "AVAXUSDT_20260814_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-14T04:08:32Z"
     }
   },
   "orders": {
@@ -3824,7 +3836,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-14T04:09:56Z",
+  "updated": "2026-08-14T05:52:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13017,6 +13029,14 @@
       "unrealized": 2.9845,
       "realized": -2.015,
       "total": 0.9695
+    },
+    {
+      "ts": "2026-08-14T05:52:49Z",
+      "equity": 412.0103,
+      "available": 155.7978,
+      "unrealized": 3.1889,
+      "realized": -2.015,
+      "total": 1.1739
     }
   ]
 }
