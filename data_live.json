@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-14T15:13:24Z",
+  "last_updated_iso": "2026-08-14T16:10:02Z",
   "mexc_account": {
-    "unrealized_pnl": 6.612,
-    "equity": 416.2781,
-    "available": 166.7502,
+    "unrealized_pnl": 4.7518,
+    "equity": 414.4157,
+    "available": 146.1091,
     "position_margin": 101.0034
   },
   "order_levels": {
-    "checked": 15,
-    "in_sync": 15,
+    "checked": 16,
+    "in_sync": 16,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (155 records)",
+      "value": "OK (156 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$416.28",
+      "value": "$414.42",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (7 resting = journal)",
+      "value": "in sync (8 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "SL not trailed: TAOUSDT",
-      "status": "warn",
-      "action": "Runner leg(s) need attention \u2014 verify on MEXC / check the mover cron."
+      "value": "all protected (8 open, 3 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -319,7 +319,7 @@
       "coin": "TAOUSDT",
       "direction": "Short",
       "entry_price": 201.50793788,
-      "sl": 207.5176461,
+      "sl": 201.50793788,
       "tp1": 195.1,
       "tp2": 191.1,
       "capital_usd": 20.16,
@@ -333,18 +333,18 @@
       "date_opened": "2026-08-10",
       "time_opened_utc": "20:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.19,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 201.51,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.001,
       "live_fees_usd": 0.0362,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 0.96,
       "rehearsal": false
     },
     {
@@ -577,9 +577,56 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "TRXUSDT_20260814_CJ_001",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32431858,
+      "sl": 0.32291754,
+      "tp1": 0.34806392,
+      "tp2": 0.35020575,
+      "capital_usd": 20.73,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-08-14",
+      "time_opened_utc": "16:03",
+      "conviction": "HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "TRXUSDT_20260814_CJ_001",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.32431858,
+      "tp1": 0.34806392,
+      "sl": 0.32291754,
+      "conviction": "HIGH",
+      "track_only": false,
+      "iso": "2026-08-14T16:03:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "SOLUSDT_20260812_CB_001",
@@ -2701,6 +2748,12 @@
       "entry_price": 1911.6217511
     },
     {
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 201.50793788
+    },
+    {
       "coin": "DOGEUSDT",
       "direction": "Short",
       "trading_system": "Braam",
@@ -2729,15 +2782,15 @@
         "closed_count": 7
       }
     },
-    "live_trade_count_total": 147,
-    "live_real_count": 147,
+    "live_trade_count_total": 148,
+    "live_real_count": 148,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-14T14:07Z",
-    "checked": 15,
-    "in_parity": 15,
+    "feed_generated_utc": "2026-08-14T16:07Z",
+    "checked": 16,
+    "in_parity": 16,
     "drifting": []
   }
 }
