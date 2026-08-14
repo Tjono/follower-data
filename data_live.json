@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-14T19:25:56Z",
+  "last_updated_iso": "2026-08-14T20:10:08Z",
   "mexc_account": {
-    "unrealized_pnl": 5.6068,
-    "equity": 415.7387,
-    "available": 156.7441,
+    "unrealized_pnl": 4.3245,
+    "equity": 414.4579,
+    "available": 156.7456,
     "position_margin": 90.8364
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$415.74",
+      "value": "$414.46",
       "status": "ok",
       "action": null
     },
@@ -451,7 +451,7 @@
       "coin": "SOLUSDT",
       "direction": "Short",
       "entry_price": 76.00911799,
-      "sl": 77.35922563,
+      "sl": 76.00911799,
       "tp1": 74.77,
       "tp2": 72.79,
       "capital_usd": 20.57,
@@ -465,18 +465,18 @@
       "date_opened": "2026-08-12",
       "time_opened_utc": "16:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.1,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 76.01,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0012,
       "live_fees_usd": 0.0364,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 0.5,
       "rehearsal": false
     },
     {
@@ -2742,6 +2742,12 @@
       "entry_price": 201.50793788
     },
     {
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 76.00911799
+    },
+    {
       "coin": "DOGEUSDT",
       "direction": "Short",
       "trading_system": "Braam",
@@ -2776,7 +2782,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-14T18:06Z",
+    "feed_generated_utc": "2026-08-14T20:07Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
