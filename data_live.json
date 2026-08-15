@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-15T13:05:29Z",
+  "last_updated_iso": "2026-08-15T14:09:37Z",
   "mexc_account": {
-    "unrealized_pnl": 4.0404,
-    "equity": 412.644,
+    "unrealized_pnl": 4.1689,
+    "equity": 412.7725,
     "available": 196.3193,
     "position_margin": 70.2204
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$412.64",
+      "value": "$412.77",
       "status": "ok",
       "action": null
     },
@@ -121,7 +121,7 @@
       "coin": "XLMUSDT",
       "direction": "Short",
       "entry_price": 0.16509081,
-      "sl": 0.16177056,
+      "sl": 0.16157056,
       "tp1": 0.1599,
       "tp2": 0.1509,
       "capital_usd": 20.04,
@@ -2710,7 +2710,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-15T12:07Z",
+    "feed_generated_utc": "2026-08-15T14:07Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
