@@ -1,20 +1,18 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-15T03:10:47Z",
+  "last_updated_iso": "2026-08-15T04:09:45Z",
   "mexc_account": {
-    "unrealized_pnl": 2.5841,
-    "equity": 411.1162,
-    "available": 175.7602,
+    "unrealized_pnl": 3.3518,
+    "equity": 411.9413,
+    "available": 175.8177,
     "position_margin": 70.2204
   },
   "order_levels": {
     "checked": 15,
     "in_sync": 15,
     "drifted": [],
-    "reconciling": [
-      "AVAX"
-    ],
+    "reconciling": [],
     "detail": []
   },
   "api_keys": [],
@@ -55,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$411.12",
+      "value": "$411.94",
       "status": "ok",
       "action": null
     },
@@ -548,39 +546,6 @@
       "rehearsal": false
     },
     {
-      "trade_id": "AVAXUSDT_20260814_CB_001",
-      "coin": "AVAXUSDT",
-      "direction": "Short",
-      "entry_price": 6.42239646,
-      "sl": 6.58025823,
-      "tp1": 6.233,
-      "tp2": 6.086,
-      "capital_usd": 20.59,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-08-14",
-      "time_activated_utc": "04:16",
-      "date_opened": "2026-08-14",
-      "time_opened_utc": "04:03",
-      "conviction": "HIGH",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 6.422,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0062,
-      "live_fees_usd": 0.0369,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
       "trade_id": "TRXUSDT_20260814_CJ_001",
       "coin": "TRXUSDT",
       "direction": "Long",
@@ -614,21 +579,7 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "TRXUSDT_20260814_CJ_001",
-      "coin": "TRXUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.32431858,
-      "tp1": 0.34806392,
-      "sl": 0.32291754,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-08-14T16:03:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "DOGEUSDT_20260812_CB_001",
@@ -2715,6 +2666,26 @@
       "won": true,
       "close_iso": "2026-08-13T04:09:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "AVAXUSDT_20260814_CB_001",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -1.52,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "date_closed": "2026-08-15",
+      "time_closed_utc": "04:09",
+      "trading_system": "Braam",
+      "live_entry_fill": 6.422,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": 0.0062,
+      "live_fees_usd": 0.0369,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": false,
+      "close_iso": "2026-08-15T04:09:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
@@ -2757,20 +2728,20 @@
     }
   ],
   "stats": {
-    "realized_pnl_usd": -15.67,
-    "realized_pnl_pct": -0.8,
+    "realized_pnl_usd": -17.19,
+    "realized_pnl_pct": -0.87,
     "peak_capital_usd": 233.35,
     "peak_concurrent": 12,
     "peak_date": "2026-08-11",
     "deployed_trades": 113,
-    "return_on_peak_pct": -6.72,
-    "win_rate_pct": 42.3,
-    "closed_count": 104,
+    "return_on_peak_pct": -7.37,
+    "win_rate_pct": 41.9,
+    "closed_count": 105,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -12.02,
-        "win_rate_pct": 44.3,
-        "closed_count": 97
+        "realized_pnl_usd": -13.54,
+        "win_rate_pct": 43.9,
+        "closed_count": 98
       },
       "John": {
         "realized_pnl_usd": -3.65,
@@ -2784,9 +2755,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-15T02:07Z",
-    "checked": 16,
-    "in_parity": 16,
+    "feed_generated_utc": "2026-08-15T04:07Z",
+    "checked": 15,
+    "in_parity": 15,
     "drifting": []
   }
 }
