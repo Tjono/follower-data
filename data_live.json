@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-15T07:05:26Z",
+  "last_updated_iso": "2026-08-15T08:09:38Z",
   "mexc_account": {
-    "unrealized_pnl": 3.7796,
-    "equity": 412.3691,
-    "available": 175.8177,
+    "unrealized_pnl": 4.2182,
+    "equity": 412.8203,
+    "available": 175.8303,
     "position_margin": 70.2204
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$412.37",
+      "value": "$412.82",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (7 open, 1 pre-TP1 runners)",
+      "value": "all protected (0 open, 0 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -581,18 +581,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "DOGEUSDT_20260812_CB_001",
-      "coin": "DOGEUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 0.07076673,
-      "live_entry_fill": 0.07077,
-      "tp1_hit": true,
-      "iso": "2026-08-13T07:06:00Z",
-      "_iso_ms": 1786604760000,
-      "rehearsal": false
-    },
     {
       "trade_id": "AVAXUSDT_20260814_CB_001",
       "coin": "AVAXUSDT",
@@ -2755,7 +2743,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-15T06:59Z",
+    "feed_generated_utc": "2026-08-15T08:07Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
