@@ -3851,9 +3851,18 @@
       "resting_at": "2026-08-14T16:08:51Z",
       "braam_trade_id": "TRXUSDT_20260814_CJ_001",
       "status": "RESTING"
+    },
+    "843761856035561984": {
+      "order_id": "843761856035561984",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 6.475,
+      "resting_at": "2026-08-16T00:08:22Z",
+      "braam_trade_id": "AVAXUSDT_20260816_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-15T22:45:21Z",
+  "updated": "2026-08-16T00:09:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13334,6 +13343,14 @@
       "unrealized": 4.0029,
       "realized": -3.6491,
       "total": 0.3538
+    },
+    {
+      "ts": "2026-08-16T00:09:49Z",
+      "equity": 413.832,
+      "available": 175.7092,
+      "unrealized": 5.2197,
+      "realized": -3.6491,
+      "total": 1.5706
     }
   ]
 }
