@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-16T10:46:05Z",
+  "last_updated_iso": "2026-08-16T12:09:49Z",
   "mexc_account": {
-    "unrealized_pnl": 5.4182,
-    "equity": 414.0918,
-    "available": 175.7705,
+    "unrealized_pnl": 5.323,
+    "equity": 413.9981,
+    "available": 175.772,
     "position_margin": 70.2204
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$414.09",
+      "value": "$414.00",
       "status": "ok",
       "action": null
     },
@@ -121,7 +121,7 @@
       "coin": "XLMUSDT",
       "direction": "Short",
       "entry_price": 0.16509081,
-      "sl": 0.16037451,
+      "sl": 0.16013414,
       "tp1": 0.1599,
       "tp2": 0.1509,
       "capital_usd": 20.04,
@@ -579,21 +579,7 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "AVAXUSDT_20260816_CB_001",
-      "coin": "AVAXUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 6.47547724,
-      "tp1": 5.91382173,
-      "sl": 6.65767425,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-08-16T00:03:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [],
   "recent_closes": [
     {
@@ -2744,7 +2730,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-16T10:06Z",
+    "feed_generated_utc": "2026-08-16T12:07Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
