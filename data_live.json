@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-16T04:10:17Z",
+  "last_updated_iso": "2026-08-16T04:57:07Z",
   "mexc_account": {
-    "unrealized_pnl": 5.2924,
-    "equity": 413.9622,
+    "unrealized_pnl": 5.4043,
+    "equity": 414.0741,
     "available": 175.7667,
     "position_margin": 70.2204
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$413.96",
+      "value": "$414.07",
       "status": "ok",
       "action": null
     },
@@ -594,20 +594,7 @@
       "rehearsal": false
     }
   ],
-  "recent_opens": [
-    {
-      "trade_id": "AVAXUSDT_20260814_CB_001",
-      "coin": "AVAXUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 6.42239646,
-      "live_entry_fill": 6.422,
-      "tp1_hit": false,
-      "iso": "2026-08-14T04:16:00Z",
-      "_iso_ms": 1786680960000,
-      "rehearsal": false
-    }
-  ],
+  "recent_opens": [],
   "recent_closes": [
     {
       "trade_id": "SOLUSDT_20260623_CB_001",
