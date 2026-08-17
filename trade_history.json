@@ -3912,9 +3912,27 @@
       "resting_at": "2026-08-17T01:59:25Z",
       "braam_trade_id": "BNBUSDT_20260817_CB_001",
       "status": "RESTING"
+    },
+    "844184858111908352": {
+      "order_id": "844184858111908352",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "entry_price": 3.328,
+      "resting_at": "2026-08-17T04:09:14Z",
+      "braam_trade_id": "UNIUSDT_20260817_CB_001",
+      "status": "RESTING"
+    },
+    "844184851157434880": {
+      "order_id": "844184851157434880",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 65767.7,
+      "resting_at": "2026-08-17T04:09:12Z",
+      "braam_trade_id": "BTCUSDT_20260817_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-17T03:18:39Z",
+  "updated": "2026-08-17T04:10:36Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13579,6 +13597,14 @@
       "unrealized": 3.4118,
       "realized": -1.9483,
       "total": 1.4635
+    },
+    {
+      "ts": "2026-08-17T04:10:36Z",
+      "equity": 413.2987,
+      "available": 142.6911,
+      "unrealized": 3.4389,
+      "realized": -1.9483,
+      "total": 1.4906
     }
   ]
 }
