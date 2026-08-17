@@ -2196,8 +2196,16 @@
       "opened_at": "2026-08-13T07:06:08Z",
       "margin_usd": 18.932209039929024,
       "braam_trade_id": "DOGEUSDT_20260812_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-12T21:24:54Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-12T21:24:54Z",
+      "closed_at": "2026-08-17T06:23:10Z",
+      "close_price": 0.07004,
+      "pnl_usd": 0.5194,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0787
     },
     "1469190149": {
       "position_id": "1469190149",
@@ -3944,7 +3952,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-17T06:10:23Z",
+  "updated": "2026-08-17T07:30:10Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13633,6 +13641,14 @@
       "unrealized": 3.5945,
       "realized": -1.9483,
       "total": 1.6462
+    },
+    {
+      "ts": "2026-08-17T07:30:10Z",
+      "equity": 413.0377,
+      "available": 152.2949,
+      "unrealized": 3.0889,
+      "realized": -1.4289,
+      "total": 1.66
     }
   ]
 }
