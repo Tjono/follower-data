@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T22:44:34+00:00",
+  "generated_at_utc": "2026-08-17T00:10:16+00:00",
   "all_time": {
     "total_trades": 105,
     "wins": 44,
@@ -28,7 +28,7 @@
       "pnl": -3.65,
       "avg": -0.52,
       "inception": "2026-06-30",
-      "days_active": 47,
+      "days_active": 48,
       "pnl_per_day": -0.08,
       "status": "active",
       "open": 1,
@@ -41,11 +41,11 @@
       "pnl": -13.54,
       "avg": -0.14,
       "inception": "2026-06-24",
-      "days_active": 53,
-      "pnl_per_day": -0.26,
+      "days_active": 54,
+      "pnl_per_day": -0.25,
       "status": "active",
       "open": 6,
-      "pending": 7
+      "pending": 8
     },
     "Mong": {
       "n": 0,
@@ -75,7 +75,7 @@
     {
       "name": "John",
       "inception": "2026-06-30",
-      "days_active": 47,
+      "days_active": 48,
       "closed": 7,
       "wins": 1,
       "wr": 14.3,
@@ -87,14 +87,14 @@
     {
       "name": "Braam",
       "inception": "2026-06-24",
-      "days_active": 53,
+      "days_active": 54,
       "closed": 98,
       "wins": 43,
       "wr": 43.9,
       "pnl": -13.54,
-      "pnl_per_day": -0.26,
+      "pnl_per_day": -0.25,
       "open": 6,
-      "pending": 7
+      "pending": 8
     },
     {
       "name": "Mong",
@@ -1264,14 +1264,6 @@
         "pct": 0.038
       },
       {
-        "iso": "2026-07-21",
-        "pct": 0.924
-      },
-      {
-        "iso": "2026-07-22",
-        "pct": 0.787
-      },
-      {
         "iso": "2026-07-23",
         "pct": -0.432
       },
@@ -1294,10 +1286,6 @@
       {
         "iso": "2026-07-30",
         "pct": -0.038
-      },
-      {
-        "iso": "2026-07-31",
-        "pct": 0.662
       },
       {
         "iso": "2026-08-03",
@@ -1593,9 +1581,9 @@
     "open_count": 7,
     "open_long": 0,
     "open_short": 7,
-    "pending_count": 8,
+    "pending_count": 9,
     "capital_open_usd": 700,
-    "capital_pending_usd": 800
+    "capital_pending_usd": 900
   },
   "macro": {
     "vix": 14.25,
@@ -1606,15 +1594,15 @@
       14.63,
       14.25
     ],
-    "vix_ma14": 16.02,
-    "dxy": 99.62,
+    "vix_ma14": 16.03,
+    "dxy": 99.59,
     "dxy_5d": [
       99.82,
       100.01,
       99.96,
       99.67,
-      99.62
+      99.59
     ],
-    "dxy_ma14": 99.82
+    "dxy_ma14": 99.81
   }
 }

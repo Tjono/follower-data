@@ -3860,9 +3860,18 @@
       "resting_at": "2026-08-16T00:08:22Z",
       "braam_trade_id": "AVAXUSDT_20260816_CB_001",
       "status": "RESTING"
+    },
+    "844124378462796800": {
+      "order_id": "844124378462796800",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 607.7,
+      "resting_at": "2026-08-17T00:08:54Z",
+      "braam_trade_id": "BNBUSDT_20260817_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-16T22:44:36Z",
+  "updated": "2026-08-17T00:10:18Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13487,6 +13496,14 @@
       "unrealized": 6.0084,
       "realized": -3.6491,
       "total": 2.3593
+    },
+    {
+      "ts": "2026-08-17T00:10:18Z",
+      "equity": 415.3304,
+      "available": 166.2803,
+      "unrealized": 5.9102,
+      "realized": -3.6491,
+      "total": 2.2611
     }
   ]
 }
