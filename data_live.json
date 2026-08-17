@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-17T14:51:31Z",
+  "last_updated_iso": "2026-08-17T16:52:43Z",
   "mexc_account": {
-    "unrealized_pnl": 3.4656,
-    "equity": 413.4223,
-    "available": 152.3028,
+    "unrealized_pnl": 3.2119,
+    "equity": 413.1722,
+    "available": 152.3064,
     "position_margin": 54.3837
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$413.42",
+      "value": "$413.17",
       "status": "ok",
       "action": null
     },
@@ -579,34 +579,7 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "BTCUSDT_20260817_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 65767.71515075,
-      "tp1": 58607.85081406,
-      "sl": 66092.81449599,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-08-17T04:04:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "UNIUSDT_20260817_CB_001",
-      "coin": "UNIUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 3.32835357,
-      "tp1": 3.09028265,
-      "sl": 3.42837282,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-08-17T04:04:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "BNBUSDT_20260817_CB_001",
@@ -2817,7 +2790,10 @@
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
-    "available": false,
-    "error": "HTTP Error 429: Too Many Requests"
+    "available": true,
+    "feed_generated_utc": "2026-08-17T16:07Z",
+    "checked": 15,
+    "in_parity": 15,
+    "drifting": []
   }
 }
