@@ -2176,8 +2176,16 @@
       "opened_at": "2026-08-12T17:36:39Z",
       "margin_usd": 20.334000411544512,
       "braam_trade_id": "SOLUSDT_20260812_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-12T16:08:49Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-12T16:08:49Z",
+      "closed_at": "2026-08-17T02:51:51Z",
+      "close_price": 75.1,
+      "pnl_usd": 0.6353,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0844
     },
     "1468411211": {
       "position_id": "1468411211",
@@ -3906,7 +3914,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-17T02:00:46Z",
+  "updated": "2026-08-17T03:18:39Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13563,6 +13571,14 @@
       "unrealized": 4.6724,
       "realized": -2.5836,
       "total": 2.0888
+    },
+    {
+      "ts": "2026-08-17T03:18:39Z",
+      "equity": 413.2142,
+      "available": 183.2211,
+      "unrealized": 3.4118,
+      "realized": -1.9483,
+      "total": 1.4635
     }
   ]
 }
