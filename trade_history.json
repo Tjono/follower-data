@@ -2218,6 +2218,18 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0874
+    },
+    "1471288347": {
+      "position_id": "1471288347",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 607.7,
+      "opened_at": "2026-08-17T04:58:58Z",
+      "margin_usd": 20.32129333327128,
+      "braam_trade_id": "BNBUSDT_20260817_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-17T01:59:25Z"
     }
   },
   "orders": {
@@ -3932,7 +3944,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-17T04:10:36Z",
+  "updated": "2026-08-17T05:05:24Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13605,6 +13617,14 @@
       "unrealized": 3.4389,
       "realized": -1.9483,
       "total": 1.4906
+    },
+    {
+      "ts": "2026-08-17T05:05:24Z",
+      "equity": 413.1894,
+      "available": 142.7033,
+      "unrealized": 3.366,
+      "realized": -1.9483,
+      "total": 1.4177
     }
   ]
 }
