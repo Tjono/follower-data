@@ -2136,8 +2136,16 @@
       "opened_at": "2026-08-12T10:02:41Z",
       "margin_usd": 19.17507770468507,
       "braam_trade_id": "ETHUSDT_20260810_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-10T16:08:55Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-10T16:08:55Z",
+      "closed_at": "2026-08-17T01:06:29Z",
+      "close_price": 1874.1,
+      "pnl_usd": 1.0655,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0793
     },
     "1467687453": {
       "position_id": "1467687453",
@@ -3869,9 +3877,18 @@
       "resting_at": "2026-08-17T00:08:54Z",
       "braam_trade_id": "BNBUSDT_20260817_CB_001",
       "status": "RESTING"
+    },
+    "844148981155346432": {
+      "order_id": "844148981155346432",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 607.7,
+      "resting_at": "2026-08-17T01:46:40Z",
+      "braam_trade_id": "BNBUSDT_20260817_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-17T00:10:18Z",
+  "updated": "2026-08-17T01:48:09Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13504,6 +13521,14 @@
       "unrealized": 5.9102,
       "realized": -3.6491,
       "total": 2.2611
+    },
+    {
+      "ts": "2026-08-17T01:48:09Z",
+      "equity": 414.1396,
+      "available": 172.8423,
+      "unrealized": 4.5491,
+      "realized": -2.5836,
+      "total": 1.9655
     }
   ]
 }
