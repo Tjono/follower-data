@@ -2254,6 +2254,30 @@
       "braam_trade_id": "BNBUSDT_20260817_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-17T01:59:25Z"
+    },
+    "1472180830": {
+      "position_id": "1472180830",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 75.61,
+      "opened_at": "2026-08-18T04:11:22Z",
+      "margin_usd": 20.22699343661203,
+      "braam_trade_id": "SOLUSDT_20260818_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-18T04:09:41Z"
+    },
+    "1472181889": {
+      "position_id": "1472181889",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1894.1,
+      "opened_at": "2026-08-18T04:13:32Z",
+      "margin_usd": 18.99933809043847,
+      "braam_trade_id": "ETHUSDT_20260818_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-18T04:09:38Z"
     }
   },
   "orders": {
@@ -4004,7 +4028,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-18T04:11:06Z",
+  "updated": "2026-08-18T04:59:03Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13821,6 +13845,14 @@
       "unrealized": 3.0272,
       "realized": 2.7114,
       "total": 5.7386
+    },
+    {
+      "ts": "2026-08-18T04:59:03Z",
+      "equity": 415.1627,
+      "available": 96.3476,
+      "unrealized": 2.695,
+      "realized": 2.7114,
+      "total": 5.4064
     }
   ]
 }
