@@ -3966,9 +3966,45 @@
       "resting_at": "2026-08-17T04:09:12Z",
       "braam_trade_id": "BTCUSDT_20260817_CJ_001",
       "status": "RESTING"
+    },
+    "844547358678475776": {
+      "order_id": "844547358678475776",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "entry_price": 75.61,
+      "resting_at": "2026-08-18T04:09:41Z",
+      "braam_trade_id": "SOLUSDT_20260818_CB_001",
+      "status": "RESTING"
+    },
+    "844547352395549696": {
+      "order_id": "844547352395549696",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.07011,
+      "resting_at": "2026-08-18T04:09:39Z",
+      "braam_trade_id": "DOGEUSDT_20260818_CB_001",
+      "status": "RESTING"
+    },
+    "844547345050856448": {
+      "order_id": "844547345050856448",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1894.1,
+      "resting_at": "2026-08-18T04:09:37Z",
+      "braam_trade_id": "ETHUSDT_20260818_CB_001",
+      "status": "RESTING"
+    },
+    "844547339308919872": {
+      "order_id": "844547339308919872",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "entry_price": 196.8,
+      "resting_at": "2026-08-18T04:09:36Z",
+      "braam_trade_id": "TAOUSDT_20260818_CB_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-18T03:15:16Z",
+  "updated": "2026-08-18T04:11:06Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13777,6 +13813,14 @@
       "unrealized": 3.2392,
       "realized": 2.7114,
       "total": 5.9506
+    },
+    {
+      "ts": "2026-08-18T04:11:06Z",
+      "equity": 415.5652,
+      "available": 96.3241,
+      "unrealized": 3.0272,
+      "realized": 2.7114,
+      "total": 5.7386
     }
   ]
 }
