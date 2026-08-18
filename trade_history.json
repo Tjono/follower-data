@@ -2052,8 +2052,16 @@
       "opened_at": "2026-08-10T00:10:53Z",
       "margin_usd": 20.03601942603722,
       "braam_trade_id": "SUIUSDT_20260810_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-10T00:09:15Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-10T00:09:15Z",
+      "closed_at": "2026-08-18T02:46:13Z",
+      "close_price": 0.6683,
+      "pnl_usd": 1.744,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0823
     },
     "1466261519": {
       "position_id": "1466261519",
@@ -2084,8 +2092,16 @@
       "opened_at": "2026-08-10T20:11:50Z",
       "margin_usd": 20.21528954872879,
       "braam_trade_id": "TAOUSDT_20260810_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-10T20:09:46Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-10T20:09:46Z",
+      "closed_at": "2026-08-18T02:46:11Z",
+      "close_price": 193.51,
+      "pnl_usd": 2.3963,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0825
     },
     "1466405005": {
       "position_id": "1466405005",
@@ -3952,7 +3968,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-18T02:10:13Z",
+  "updated": "2026-08-18T03:15:16Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13753,6 +13769,14 @@
       "unrealized": 4.8216,
       "realized": -1.4289,
       "total": 3.3927
+    },
+    {
+      "ts": "2026-08-18T03:15:16Z",
+      "equity": 415.7211,
+      "available": 174.8385,
+      "unrealized": 3.2392,
+      "realized": 2.7114,
+      "total": 5.9506
     }
   ]
 }
