@@ -2,5 +2,7 @@
   "mexc_key_created": "2026-06-28",
   "mexc_key_expires": "2026-09-26",
   "mexc_key_ip_locked": false,
+  "capital_events": [],
+  "capital_events_note": "Deposits/withdrawals since go-live. Each entry: {\"date\":\"YYYY-MM-DD\",\"amount\":100,\"note\":\"deposit\"} \u2014 positive amount=deposit, negative=withdrawal. Dashboard shows the net as 'capital +/-$X' and excludes it from P&L / return %.",
   "note": "MEXC futures key, no IP whitelist => 90-day validity. Renew in MEXC > API Management > Renew (extends 90d). Update mexc_key_expires here after renewing."
 }
