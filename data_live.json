@@ -1,21 +1,18 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-18T14:58:59Z",
+  "last_updated_iso": "2026-08-18T16:10:29Z",
   "mexc_account": {
-    "unrealized_pnl": 3.2836,
-    "equity": 414.1387,
-    "available": 134.0063,
+    "unrealized_pnl": 3.0352,
+    "equity": 413.8895,
+    "available": 134.0055,
     "position_margin": 53.1289
   },
   "order_levels": {
     "checked": 15,
     "in_sync": 15,
     "drifted": [],
-    "reconciling": [
-      "ETH",
-      "SOL"
-    ],
+    "reconciling": [],
     "detail": []
   },
   "api_keys": [],
@@ -56,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$414.14",
+      "value": "$413.89",
       "status": "ok",
       "action": null
     },
@@ -549,39 +546,6 @@
       "rehearsal": false
     },
     {
-      "trade_id": "ETHUSDT_20260818_CB_001",
-      "coin": "ETHUSDT",
-      "direction": "Short",
-      "entry_price": 1894.10315079,
-      "sl": 1916.27249087,
-      "tp1": 1871.83,
-      "tp2": 1835.53,
-      "capital_usd": 20.78,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-08-18",
-      "time_activated_utc": "04:13",
-      "date_opened": "2026-08-18",
-      "time_opened_utc": "04:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 1894.1,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0002,
-      "live_fees_usd": 0.034,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
       "trade_id": "DOGEUSDT_20260818_CB_001",
       "coin": "DOGEUSDT",
       "direction": "Short",
@@ -613,56 +577,9 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
-    },
-    {
-      "trade_id": "SOLUSDT_20260818_CB_001",
-      "coin": "SOLUSDT",
-      "direction": "Short",
-      "entry_price": 75.61355813,
-      "sl": 76.62248017,
-      "tp1": 74.4,
-      "tp2": 72.6,
-      "capital_usd": 20.78,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-08-18",
-      "time_activated_utc": "04:11",
-      "date_opened": "2026-08-18",
-      "time_opened_utc": "04:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 75.61,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0047,
-      "live_fees_usd": 0.0362,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "TAOUSDT_20260818_CB_001",
-      "coin": "TAOUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 196.80274759,
-      "tp1": 180.28745441,
-      "sl": 201.09502852,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-08-18T04:04:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "BNBUSDT_20260817_CB_001",
@@ -2893,6 +2810,46 @@
       "won": true,
       "close_iso": "2026-08-18T04:10:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "ETHUSDT_20260818_CB_001",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -0.73,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "date_closed": "2026-08-18",
+      "time_closed_utc": "16:10",
+      "trading_system": "Braam",
+      "live_entry_fill": 1894.1,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": 0.0002,
+      "live_fees_usd": 0.034,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": false,
+      "close_iso": "2026-08-18T16:10:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "SOLUSDT_20260818_CB_001",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -0.83,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "date_closed": "2026-08-18",
+      "time_closed_utc": "16:10",
+      "trading_system": "Braam",
+      "live_entry_fill": 75.61,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": 0.0047,
+      "live_fees_usd": 0.0362,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": false,
+      "close_iso": "2026-08-18T16:10:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
@@ -2911,20 +2868,20 @@
     }
   ],
   "stats": {
-    "realized_pnl_usd": -11.83,
-    "realized_pnl_pct": -0.57,
+    "realized_pnl_usd": -13.39,
+    "realized_pnl_pct": -0.63,
     "peak_capital_usd": 233.35,
     "peak_concurrent": 12,
     "peak_date": "2026-08-11",
     "deployed_trades": 117,
-    "return_on_peak_pct": -5.07,
-    "win_rate_pct": 44.5,
-    "closed_count": 110,
+    "return_on_peak_pct": -5.74,
+    "win_rate_pct": 43.8,
+    "closed_count": 112,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -8.18,
-        "win_rate_pct": 46.6,
-        "closed_count": 103
+        "realized_pnl_usd": -9.74,
+        "win_rate_pct": 45.7,
+        "closed_count": 105
       },
       "John": {
         "realized_pnl_usd": -3.65,
@@ -2938,9 +2895,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-18T14:06Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-08-18T16:07Z",
+    "checked": 15,
+    "in_parity": 15,
     "drifting": []
   }
 }

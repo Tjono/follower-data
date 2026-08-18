@@ -4065,7 +4065,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-18T14:59:17Z",
+  "updated": "2026-08-18T16:10:48Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -13970,6 +13970,14 @@
       "unrealized": 3.2836,
       "realized": 1.07,
       "total": 4.3536
+    },
+    {
+      "ts": "2026-08-18T16:10:48Z",
+      "equity": 413.8895,
+      "available": 134.0055,
+      "unrealized": 3.0352,
+      "realized": 1.07,
+      "total": 4.1052
     }
   ],
   "capital_events": {
@@ -14260,12 +14268,12 @@
     }
   },
   "spot_holdings": {
-    "ts": "2026-08-18T14:59:16Z",
+    "ts": "2026-08-18T16:10:48Z",
     "assets": [
       {
         "asset": "ETH",
         "amount": 0.002175066530984984,
-        "usd": 4.1573
+        "usd": 4.1668
       },
       {
         "asset": "USDC",
@@ -14273,6 +14281,6 @@
         "usd": 0.0092
       }
     ],
-    "total_usd": 4.1665
+    "total_usd": 4.176
   }
 }
