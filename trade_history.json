@@ -1960,8 +1960,16 @@
       "opened_at": "2026-08-08T13:06:11Z",
       "margin_usd": 19.874004178053514,
       "braam_trade_id": "XLMUSDT_20260807_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-07T04:09:12Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-07T04:09:12Z",
+      "closed_at": "2026-08-19T05:01:23Z",
+      "close_price": 0.15854,
+      "pnl_usd": 2.2649,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0812
     },
     "1464834379": {
       "position_id": "1464834379",
@@ -2318,6 +2326,18 @@
       "braam_trade_id": "HBARUSDT_20260812_CB_001",
       "status": "OPEN",
       "resting_at": "2026-08-12T00:08:43Z"
+    },
+    "1473090920": {
+      "position_id": "1473090920",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 3.328,
+      "opened_at": "2026-08-19T05:38:29Z",
+      "margin_usd": 20.699429230938932,
+      "braam_trade_id": "UNIUSDT_20260817_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-17T04:09:14Z"
     }
   },
   "orders": {
@@ -4077,7 +4097,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-19T04:59:46Z",
+  "updated": "2026-08-19T06:11:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14094,6 +14114,14 @@
       "unrealized": 3.2001,
       "realized": 1.07,
       "total": 4.2701
+    },
+    {
+      "ts": "2026-08-19T06:11:07Z",
+      "equity": 414.6363,
+      "available": 145.4197,
+      "unrealized": 2.4033,
+      "realized": 3.3349,
+      "total": 5.7382
     }
   ],
   "capital_events": {
