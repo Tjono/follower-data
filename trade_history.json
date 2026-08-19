@@ -2419,8 +2419,16 @@
       "opened_at": "2026-08-19T15:26:45Z",
       "margin_usd": 20.400879770877314,
       "braam_trade_id": "TAOUSDT_20260818_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-18T04:09:37Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-18T04:09:37Z",
+      "closed_at": "2026-08-19T20:33:31Z",
+      "close_price": 201.14,
+      "pnl_usd": -1.4257,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0864
     },
     "1473568709": {
       "position_id": "1473568709",
@@ -2431,8 +2439,16 @@
       "opened_at": "2026-08-19T15:27:39Z",
       "margin_usd": 20.04532887522148,
       "braam_trade_id": "LTCUSDT_20260810_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-10T00:09:14Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-10T00:09:14Z",
+      "closed_at": "2026-08-19T20:50:47Z",
+      "close_price": 46.34,
+      "pnl_usd": -0.8388,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0844
     }
   },
   "orders": {
@@ -4192,7 +4208,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-19T19:00:30Z",
+  "updated": "2026-08-19T20:51:51Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14313,6 +14329,14 @@
       "unrealized": -0.203,
       "realized": -3.1282,
       "total": -3.3312
+    },
+    {
+      "ts": "2026-08-19T20:51:51Z",
+      "equity": 403.8694,
+      "available": 318.1507,
+      "unrealized": 0.231,
+      "realized": -5.3927,
+      "total": -5.1617
     }
   ],
   "capital_events": {
