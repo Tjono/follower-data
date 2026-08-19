@@ -1748,8 +1748,16 @@
       "opened_at": "2026-08-04T01:52:11Z",
       "margin_usd": 19.398953182465295,
       "braam_trade_id": "NEARUSDT_20260801_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-03T18:07:27Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-03T18:07:27Z",
+      "closed_at": "2026-08-19T21:31:03Z",
+      "close_price": 1.631,
+      "pnl_usd": 4.1631,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0778
     },
     "1461160263": {
       "position_id": "1461160263",
@@ -2449,6 +2457,30 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0844
+    },
+    "1473945664": {
+      "position_id": "1473945664",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.1893,
+      "opened_at": "2026-08-19T21:14:58Z",
+      "margin_usd": 20.636228236369437,
+      "braam_trade_id": "ADAUSDT_20260812_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-12T20:08:28Z"
+    },
+    "1473927354": {
+      "position_id": "1473927354",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.3514,
+      "opened_at": "2026-08-19T21:06:19Z",
+      "margin_usd": 19.97619583911403,
+      "braam_trade_id": "ONDOUSDT_20260811_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-11T00:08:59Z"
     }
   },
   "orders": {
@@ -4208,7 +4240,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-19T20:51:51Z",
+  "updated": "2026-08-19T22:10:53Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14337,6 +14369,14 @@
       "unrealized": 0.231,
       "realized": -5.3927,
       "total": -5.1617
+    },
+    {
+      "ts": "2026-08-19T22:10:53Z",
+      "equity": 403.8276,
+      "available": 322.2732,
+      "unrealized": 0.279,
+      "realized": -1.2296,
+      "total": -0.9506
     }
   ],
   "capital_events": {
