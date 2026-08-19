@@ -2260,8 +2260,16 @@
       "opened_at": "2026-08-17T04:58:58Z",
       "margin_usd": 20.32129333327128,
       "braam_trade_id": "BNBUSDT_20260817_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-17T01:59:25Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-17T01:59:25Z",
+      "closed_at": "2026-08-19T15:06:47Z",
+      "close_price": 613.4,
+      "pnl_usd": -0.6479,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0854
     },
     "1472180830": {
       "position_id": "1472180830",
@@ -2332,8 +2340,16 @@
       "opened_at": "2026-08-19T04:57:52Z",
       "margin_usd": 20.4442042198531,
       "braam_trade_id": "HBARUSDT_20260812_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-12T00:08:43Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-12T00:08:43Z",
+      "closed_at": "2026-08-19T15:16:29Z",
+      "close_price": 0.06885,
+      "pnl_usd": -1.0464,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0862
     },
     "1473090920": {
       "position_id": "1473090920",
@@ -2344,8 +2360,16 @@
       "opened_at": "2026-08-19T05:38:29Z",
       "margin_usd": 20.699429230938932,
       "braam_trade_id": "UNIUSDT_20260817_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-17T04:09:14Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-17T04:09:14Z",
+      "closed_at": "2026-08-19T15:05:12Z",
+      "close_price": 3.43,
+      "pnl_usd": -1.9803,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0881
     },
     "1473494561": {
       "position_id": "1473494561",
@@ -2356,8 +2380,58 @@
       "opened_at": "2026-08-19T14:55:01Z",
       "margin_usd": 19.79107915733906,
       "braam_trade_id": "BTCUSDT_20260817_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-08-17T04:09:13Z",
+      "closed_at": "2026-08-19T15:05:07Z",
+      "close_price": 66093.9,
+      "pnl_usd": -0.3766,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.083
+    },
+    "1473524953": {
+      "position_id": "1473524953",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 6.475,
+      "opened_at": "2026-08-19T15:07:44Z",
+      "closed_at": "2026-08-19T15:28:06Z",
+      "close_price": 6.643,
+      "pnl_usd": -1.6833,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "status": "CLOSED",
+      "resting_at": "2026-08-16T00:08:23Z",
+      "close_fills": 1,
+      "fees_usd": 0.0873
+    },
+    "1473561752": {
+      "position_id": "1473561752",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 196.8,
+      "opened_at": "2026-08-19T15:26:45Z",
+      "margin_usd": 20.400879770877314,
+      "braam_trade_id": "TAOUSDT_20260818_CB_001",
       "status": "OPEN",
-      "resting_at": "2026-08-17T04:09:13Z"
+      "resting_at": "2026-08-18T04:09:37Z"
+    },
+    "1473568709": {
+      "position_id": "1473568709",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 45.76,
+      "opened_at": "2026-08-19T15:27:39Z",
+      "margin_usd": 20.04532887522148,
+      "braam_trade_id": "LTCUSDT_20260810_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-10T00:09:14Z"
     }
   },
   "orders": {
@@ -4117,7 +4191,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-19T15:00:05Z",
+  "updated": "2026-08-19T15:43:00Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14206,6 +14280,14 @@
       "unrealized": -1.6634,
       "realized": 2.6063,
       "total": 0.9429
+    },
+    {
+      "ts": "2026-08-19T15:43:00Z",
+      "equity": 405.4601,
+      "available": 279.8954,
+      "unrealized": -0.3692,
+      "realized": -3.1282,
+      "total": -3.4974
     }
   ],
   "capital_events": {
