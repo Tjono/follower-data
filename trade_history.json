@@ -2407,7 +2407,8 @@
       "status": "CLOSED",
       "resting_at": "2026-08-16T00:08:23Z",
       "close_fills": 1,
-      "fees_usd": 0.0873
+      "fees_usd": 0.0873,
+      "braam_trade_id": "AVAXUSDT_20260816_CB_001"
     },
     "1473561752": {
       "position_id": "1473561752",
@@ -4191,7 +4192,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-19T15:43:00Z",
+  "updated": "2026-08-19T16:11:42Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14288,6 +14289,14 @@
       "unrealized": -0.3692,
       "realized": -3.1282,
       "total": -3.4974
+    },
+    {
+      "ts": "2026-08-19T16:11:42Z",
+      "equity": 406.5562,
+      "available": 279.9051,
+      "unrealized": 0.7173,
+      "realized": -3.1282,
+      "total": -2.4109
     }
   ],
   "capital_events": {
