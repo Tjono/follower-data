@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-19T07:13:14Z",
+  "last_updated_iso": "2026-08-19T08:10:46Z",
   "mexc_account": {
-    "unrealized_pnl": 1.6041,
-    "equity": 413.8371,
-    "available": 145.4197,
+    "unrealized_pnl": 1.5343,
+    "equity": 413.7798,
+    "available": 165.5369,
     "position_margin": 84.3355
   },
   "order_levels": {
-    "checked": 14,
-    "in_sync": 14,
+    "checked": 13,
+    "in_sync": 13,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$413.84",
+      "value": "$413.78",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (9 resting = journal)",
+      "value": "in sync (8 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -114,39 +114,6 @@
       "live_fees_usd": 0.0348,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": 4.23,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "XRPUSDT_20260807_CB_001",
-      "coin": "XRPUSDT",
-      "direction": "Short",
-      "entry_price": 1.0522877,
-      "sl": 1.07154073,
-      "tp1": 0.99068703,
-      "tp2": 0.89068703,
-      "capital_usd": 20.07,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-08-07",
-      "time_opened_utc": "08:04",
-      "conviction": "HIGH",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
       "rehearsal": false
     },
     {
@@ -2888,9 +2855,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-19T06:08Z",
-    "checked": 14,
-    "in_parity": 14,
+    "feed_generated_utc": "2026-08-19T08:08Z",
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   }
 }
