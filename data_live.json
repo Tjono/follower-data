@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-20T10:54:30Z",
+  "last_updated_iso": "2026-08-20T12:09:58Z",
   "mexc_account": {
-    "unrealized_pnl": -0.3996,
-    "equity": 403.2244,
-    "available": 322.3485,
-    "position_margin": 40.6124
+    "unrealized_pnl": 0.255,
+    "equity": 402.1296,
+    "available": 341.8002,
+    "position_margin": 19.9762
   },
   "order_levels": {
-    "checked": 4,
-    "in_sync": 4,
+    "checked": 3,
+    "in_sync": 3,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$403.22",
+      "value": "$402.13",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open, 2 pre-TP1 runners)",
+      "value": "all protected (1 open, 1 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -150,46 +150,13 @@
       "rehearsal": false
     },
     {
-      "trade_id": "ADAUSDT_20260812_CB_001",
-      "coin": "ADAUSDT",
-      "direction": "Short",
-      "entry_price": 0.18925614,
-      "sl": 0.19438424,
-      "tp1": 0.1736,
-      "tp2": 0.1625,
-      "capital_usd": 20.6,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-08-19",
-      "time_activated_utc": "21:14",
-      "date_opened": "2026-08-12",
-      "time_opened_utc": "20:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.1893,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": -0.0232,
-      "live_fees_usd": 0.037,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
       "trade_id": "TRXUSDT_20260814_CJ_001",
       "coin": "TRXUSDT",
       "direction": "Long",
-      "entry_price": 0.32431858,
-      "sl": 0.32291754,
-      "tp1": 0.34806392,
-      "tp2": 0.35020575,
+      "entry_price": 0.33296598,
+      "sl": 0.33125882,
+      "tp1": 0.34877706,
+      "tp2": 0.36741546,
       "capital_usd": 20.73,
       "leverage": 3,
       "trading_system": "John",
@@ -2747,25 +2714,45 @@
       "won": false,
       "close_iso": "2026-08-19T22:10:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20260812_CB_001",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -1.66,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "date_closed": "2026-08-20",
+      "time_closed_utc": "12:09",
+      "trading_system": "Braam",
+      "live_entry_fill": 0.1893,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": -0.0232,
+      "live_fees_usd": 0.037,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": false,
+      "close_iso": "2026-08-20T12:09:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -15.33,
-    "realized_pnl_pct": -0.66,
+    "realized_pnl_usd": -16.99,
+    "realized_pnl_pct": -0.72,
     "peak_capital_usd": 233.35,
     "peak_concurrent": 12,
     "peak_date": "2026-08-11",
     "deployed_trades": 125,
-    "return_on_peak_pct": -6.57,
-    "win_rate_pct": 41.8,
-    "closed_count": 122,
+    "return_on_peak_pct": -7.28,
+    "win_rate_pct": 41.5,
+    "closed_count": 123,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -15.36,
-        "win_rate_pct": 43.4,
-        "closed_count": 113
+        "realized_pnl_usd": -17.02,
+        "win_rate_pct": 43.0,
+        "closed_count": 114
       },
       "John": {
         "realized_pnl_usd": 0.03,
@@ -2779,9 +2766,20 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-20T10:07Z",
-    "checked": 4,
-    "in_parity": 4,
-    "drifting": []
+    "feed_generated_utc": "2026-08-20T12:07Z",
+    "checked": 3,
+    "in_parity": 2,
+    "drifting": [
+      {
+        "trade_id": "ONDOUSDT_20260811_CB_001",
+        "coin": "ONDOUSDT",
+        "diffs": {
+          "status": {
+            "follower": "OPEN",
+            "master": "STOPPED"
+          }
+        }
+      }
+    ]
   }
 }
