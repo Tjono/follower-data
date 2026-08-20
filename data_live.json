@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-20T16:58:30Z",
+  "last_updated_iso": "2026-08-20T18:09:09Z",
   "mexc_account": {
-    "unrealized_pnl": -1.088,
-    "equity": 400.7885,
-    "available": 341.8021,
-    "position_margin": 19.9762
+    "unrealized_pnl": 1.2222,
+    "equity": 401.2627,
+    "available": 359.9901,
+    "position_margin": 19.9763
   },
   "order_levels": {
-    "checked": 3,
-    "in_sync": 3,
+    "checked": 2,
+    "in_sync": 2,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$400.79",
+      "value": "$401.26",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (2 resting = journal)",
+      "value": "in sync (1 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -89,16 +89,16 @@
       "direction": "Short",
       "entry_price": 0.08798427,
       "sl": 0.09034515,
-      "tp1": 0.0821299,
-      "tp2": 0.0729633,
+      "tp1": 0.0819,
+      "tp2": 0.0777,
       "capital_usd": 19.92,
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-08-20",
+      "time_activated_utc": "17:12",
       "date_opened": "2026-08-09",
       "time_opened_utc": "00:04",
       "conviction": "MEDIUM",
@@ -107,43 +107,10 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "ONDOUSDT_20260811_CB_001",
-      "coin": "ONDOUSDT",
-      "direction": "Short",
-      "entry_price": 0.35135977,
-      "sl": 0.36155956,
-      "tp1": 0.3248,
-      "tp2": 0.3067,
-      "capital_usd": 20.36,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-08-19",
-      "time_activated_utc": "21:06",
-      "date_opened": "2026-08-11",
-      "time_opened_utc": "00:04",
-      "conviction": "HIGH",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
       "live_executed": true,
-      "live_entry_fill": 0.3514,
+      "live_entry_fill": 0.08798,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": -0.0114,
+      "live_entry_slippage_pct": 0.0049,
       "live_fees_usd": 0.0358,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
@@ -279,6 +246,18 @@
       "tp1_hit": false,
       "iso": "2026-08-19T21:14:00Z",
       "_iso_ms": 1787174040000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ALGOUSDT_20260809_CB_001",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 0.08798427,
+      "live_entry_fill": 0.08798,
+      "tp1_hit": false,
+      "iso": "2026-08-20T17:12:00Z",
+      "_iso_ms": 1787245920000,
       "rehearsal": false
     }
   ],
@@ -2722,25 +2701,45 @@
       "won": false,
       "close_iso": "2026-08-20T12:09:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "ONDOUSDT_20260811_CB_001",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -1.77,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "date_closed": "2026-08-20",
+      "time_closed_utc": "18:09",
+      "trading_system": "Braam",
+      "live_entry_fill": 0.3514,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": -0.0114,
+      "live_fees_usd": 0.0358,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": false,
+      "close_iso": "2026-08-20T18:09:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -16.99,
-    "realized_pnl_pct": -0.72,
+    "realized_pnl_usd": -18.76,
+    "realized_pnl_pct": -0.79,
     "peak_capital_usd": 233.35,
     "peak_concurrent": 12,
     "peak_date": "2026-08-11",
-    "deployed_trades": 125,
-    "return_on_peak_pct": -7.28,
-    "win_rate_pct": 41.5,
-    "closed_count": 123,
+    "deployed_trades": 126,
+    "return_on_peak_pct": -8.04,
+    "win_rate_pct": 41.1,
+    "closed_count": 124,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -17.02,
-        "win_rate_pct": 43.0,
-        "closed_count": 114
+        "realized_pnl_usd": -18.79,
+        "win_rate_pct": 42.6,
+        "closed_count": 115
       },
       "John": {
         "realized_pnl_usd": 0.03,
@@ -2754,20 +2753,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-20T16:07Z",
-    "checked": 3,
+    "feed_generated_utc": "2026-08-20T18:08Z",
+    "checked": 2,
     "in_parity": 2,
-    "drifting": [
-      {
-        "trade_id": "ONDOUSDT_20260811_CB_001",
-        "coin": "ONDOUSDT",
-        "diffs": {
-          "status": {
-            "follower": "OPEN",
-            "master": "STOPPED"
-          }
-        }
-      }
-    ]
+    "drifting": []
   }
 }
