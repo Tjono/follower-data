@@ -2507,8 +2507,16 @@
       "opened_at": "2026-08-20T17:12:18Z",
       "margin_usd": 19.97633628576863,
       "braam_trade_id": "ALGOUSDT_20260809_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-09T00:08:50Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-09T00:08:50Z",
+      "closed_at": "2026-08-21T07:46:43Z",
+      "close_price": 0.09036,
+      "pnl_usd": -1.6949,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0848
     }
   },
   "orders": {
@@ -4286,7 +4294,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-21T07:15:46Z",
+  "updated": "2026-08-21T08:10:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14623,6 +14631,14 @@
       "unrealized": -1.3308,
       "realized": -4.831,
       "total": -6.1618
+    },
+    {
+      "ts": "2026-08-21T08:10:07Z",
+      "equity": 398.4367,
+      "available": 358.7575,
+      "unrealized": 0.0,
+      "realized": -6.5259,
+      "total": -6.5259
     }
   ],
   "capital_events": {
