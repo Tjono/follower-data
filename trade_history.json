@@ -2517,6 +2517,18 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0848
+    },
+    "1476389434": {
+      "position_id": "1476389434",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.3737,
+      "opened_at": "2026-08-21T18:46:12Z",
+      "margin_usd": 19.736955083103,
+      "braam_trade_id": "XRPUSDT_20260821_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-21T16:09:08Z"
     }
   },
   "orders": {
@@ -4330,7 +4342,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-21T16:58:49Z",
+  "updated": "2026-08-21T19:05:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14739,6 +14751,14 @@
       "unrealized": 0.0,
       "realized": -6.5259,
       "total": -6.5259
+    },
+    {
+      "ts": "2026-08-21T19:05:07Z",
+      "equity": 397.9841,
+      "available": 279.3572,
+      "unrealized": -0.4171,
+      "realized": -6.5259,
+      "total": -6.943
     }
   ],
   "capital_events": {
