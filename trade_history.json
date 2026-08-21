@@ -4292,9 +4292,27 @@
       "resting_at": "2026-08-20T20:08:49Z",
       "braam_trade_id": "XLMUSDT_20260820_CJ_001",
       "status": "RESTING"
+    },
+    "845755093217289216": {
+      "order_id": "845755093217289216",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.7699,
+      "resting_at": "2026-08-21T12:08:47Z",
+      "braam_trade_id": "SUIUSDT_20260821_CJ_001",
+      "status": "RESTING"
+    },
+    "845755087321288192": {
+      "order_id": "845755087321288192",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.09074,
+      "resting_at": "2026-08-21T12:08:46Z",
+      "braam_trade_id": "ALGOUSDT_20260821_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-21T10:55:28Z",
+  "updated": "2026-08-21T12:09:59Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14652,6 +14670,14 @@
       "ts": "2026-08-21T10:55:28Z",
       "equity": 398.4367,
       "available": 358.7575,
+      "unrealized": 0.0,
+      "realized": -6.5259,
+      "total": -6.5259
+    },
+    {
+      "ts": "2026-08-21T12:09:59Z",
+      "equity": 398.4367,
+      "available": 318.904,
       "unrealized": 0.0,
       "realized": -6.5259,
       "total": -6.5259
