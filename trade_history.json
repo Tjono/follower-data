@@ -4310,9 +4310,27 @@
       "resting_at": "2026-08-21T12:08:46Z",
       "braam_trade_id": "ALGOUSDT_20260821_CJ_001",
       "status": "RESTING"
+    },
+    "845815582892208128": {
+      "order_id": "845815582892208128",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 1.845,
+      "resting_at": "2026-08-21T16:09:09Z",
+      "braam_trade_id": "NEARUSDT_20260821_CJ_001",
+      "status": "RESTING"
+    },
+    "845815577120476160": {
+      "order_id": "845815577120476160",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.3737,
+      "resting_at": "2026-08-21T16:09:07Z",
+      "braam_trade_id": "XRPUSDT_20260821_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-21T15:00:10Z",
+  "updated": "2026-08-21T16:10:26Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14702,6 +14720,14 @@
       "ts": "2026-08-21T15:00:10Z",
       "equity": 398.4367,
       "available": 318.904,
+      "unrealized": 0.0,
+      "realized": -6.5259,
+      "total": -6.5259
+    },
+    {
+      "ts": "2026-08-21T16:10:26Z",
+      "equity": 398.4367,
+      "available": 279.3453,
       "unrealized": 0.0,
       "realized": -6.5259,
       "total": -6.5259
