@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-21T13:18:51Z",
+  "last_updated_iso": "2026-08-21T13:51:54Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
     "equity": 398.4367,
@@ -12,9 +12,7 @@
     "checked": 4,
     "in_sync": 4,
     "drifted": [],
-    "reconciling": [
-      "ALGO"
-    ],
+    "reconciling": [],
     "detail": []
   },
   "api_keys": [],
@@ -85,39 +83,6 @@
     }
   ],
   "active_trades": [
-    {
-      "trade_id": "ALGOUSDT_20260809_CB_001",
-      "coin": "ALGOUSDT",
-      "direction": "Short",
-      "entry_price": 0.08798427,
-      "sl": 0.09034515,
-      "tp1": 0.0819,
-      "tp2": 0.0777,
-      "capital_usd": 19.92,
-      "leverage": 3,
-      "trading_system": "Braam",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-08-20",
-      "time_activated_utc": "17:12",
-      "date_opened": "2026-08-09",
-      "time_opened_utc": "00:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.08798,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0049,
-      "live_fees_usd": 0.0358,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
     {
       "trade_id": "TRXUSDT_20260814_CJ_001",
       "coin": "TRXUSDT",
@@ -2825,25 +2790,45 @@
       "won": false,
       "close_iso": "2026-08-20T18:09:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "ALGOUSDT_20260809_CB_001",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -1.61,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED",
+      "date_closed": "2026-08-21",
+      "time_closed_utc": "13:51",
+      "trading_system": "Braam",
+      "live_entry_fill": 0.08798,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": 0.0049,
+      "live_fees_usd": 0.0358,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": false,
+      "close_iso": "2026-08-21T13:51:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -18.76,
-    "realized_pnl_pct": -0.79,
+    "realized_pnl_usd": -20.37,
+    "realized_pnl_pct": -0.85,
     "peak_capital_usd": 233.35,
     "peak_concurrent": 12,
     "peak_date": "2026-08-11",
     "deployed_trades": 126,
-    "return_on_peak_pct": -8.04,
-    "win_rate_pct": 41.1,
-    "closed_count": 124,
+    "return_on_peak_pct": -8.73,
+    "win_rate_pct": 40.8,
+    "closed_count": 125,
     "per_system": {
       "Braam": {
-        "realized_pnl_usd": -18.79,
-        "win_rate_pct": 42.6,
-        "closed_count": 115
+        "realized_pnl_usd": -20.4,
+        "win_rate_pct": 42.2,
+        "closed_count": 116
       },
       "John": {
         "realized_pnl_usd": 0.03,
@@ -2857,9 +2842,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-21T12:07Z",
-    "checked": 5,
-    "in_parity": 5,
+    "feed_generated_utc": "2026-08-21T13:49Z",
+    "checked": 4,
+    "in_parity": 4,
     "drifting": []
   }
 }
