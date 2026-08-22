@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-22T14:45:24Z",
+  "last_updated_iso": "2026-08-22T16:09:52Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
     "equity": 394.6163,
-    "available": 299.2965,
+    "available": 280.0616,
     "position_margin": 0.0
   },
   "order_levels": {
-    "checked": 5,
-    "in_sync": 5,
+    "checked": 6,
+    "in_sync": 6,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (171 records)",
+      "value": "OK (172 records)",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (5 resting = journal)",
+      "value": "in sync (6 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -247,9 +247,56 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "TAOUSDT_20260822_CJ_001",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 212.70161763,
+      "sl": 203.30750542,
+      "tp1": 233.6894,
+      "tp2": 257.88498915,
+      "capital_usd": 19.73,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-08-22",
+      "time_opened_utc": "16:03",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "TAOUSDT_20260822_CJ_001",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 212.70161763,
+      "tp1": 233.6894,
+      "sl": 203.30750542,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-08-22T16:03:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "ALGOUSDT_20260809_CB_001",
@@ -2846,15 +2893,15 @@
         "closed_count": 12
       }
     },
-    "live_trade_count_total": 163,
-    "live_real_count": 163,
+    "live_trade_count_total": 164,
+    "live_real_count": 164,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-22T14:06Z",
-    "checked": 5,
-    "in_parity": 5,
+    "feed_generated_utc": "2026-08-22T16:07Z",
+    "checked": 6,
+    "in_parity": 6,
     "drifting": []
   }
 }
