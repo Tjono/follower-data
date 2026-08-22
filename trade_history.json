@@ -2554,7 +2554,8 @@
       "status": "CLOSED",
       "resting_at": "2026-08-21T16:09:09Z",
       "close_fills": 1,
-      "fees_usd": 0.078
+      "fees_usd": 0.078,
+      "braam_trade_id": "NEARUSDT_20260821_CJ_001"
     },
     "1476924252": {
       "position_id": "1476924252",
@@ -2572,7 +2573,8 @@
       "status": "CLOSED",
       "resting_at": "2026-08-22T00:08:59Z",
       "close_fills": 1,
-      "fees_usd": 0.079
+      "fees_usd": 0.079,
+      "braam_trade_id": "LINKUSDT_20260822_CJ_001"
     }
   },
   "orders": {
@@ -4413,7 +4415,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-22T06:10:09Z",
+  "updated": "2026-08-22T06:22:09Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14913,6 +14915,14 @@
     },
     {
       "ts": "2026-08-22T06:10:09Z",
+      "equity": 394.6163,
+      "available": 299.3682,
+      "unrealized": 0.0,
+      "realized": -10.401,
+      "total": -10.401
+    },
+    {
+      "ts": "2026-08-22T06:22:09Z",
       "equity": 394.6163,
       "available": 299.3682,
       "unrealized": 0.0,
