@@ -2537,6 +2537,42 @@
       "close_reason": "tp1_tp2",
       "close_fills": 2,
       "fees_usd": 0.0881
+    },
+    "1476923736": {
+      "position_id": "1476923736",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.845,
+      "opened_at": "2026-08-22T05:10:48Z",
+      "closed_at": "2026-08-22T05:12:19Z",
+      "close_price": 1.665,
+      "pnl_usd": -5.838,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "status": "CLOSED",
+      "resting_at": "2026-08-21T16:09:09Z",
+      "close_fills": 1,
+      "fees_usd": 0.078
+    },
+    "1476924252": {
+      "position_id": "1476924252",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 11.835,
+      "opened_at": "2026-08-22T05:10:51Z",
+      "closed_at": "2026-08-22T05:11:24Z",
+      "close_price": 10.888,
+      "pnl_usd": -4.814,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "status": "CLOSED",
+      "resting_at": "2026-08-22T00:08:59Z",
+      "close_fills": 1,
+      "fees_usd": 0.079
     }
   },
   "orders": {
@@ -4377,7 +4413,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-22T04:56:58Z",
+  "updated": "2026-08-22T06:10:09Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14874,6 +14910,14 @@
       "unrealized": 0.0,
       "realized": 0.251,
       "total": 0.251
+    },
+    {
+      "ts": "2026-08-22T06:10:09Z",
+      "equity": 394.6163,
+      "available": 299.3682,
+      "unrealized": 0.0,
+      "realized": -10.401,
+      "total": -10.401
     }
   ],
   "capital_events": {
