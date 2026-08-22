@@ -4349,9 +4349,18 @@
       "resting_at": "2026-08-21T20:08:58Z",
       "braam_trade_id": "ETHUSDT_20260821_CJ_001",
       "status": "RESTING"
+    },
+    "845936336560080384": {
+      "order_id": "845936336560080384",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.835,
+      "resting_at": "2026-08-22T00:08:59Z",
+      "braam_trade_id": "LINKUSDT_20260822_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-21T22:48:11Z",
+  "updated": "2026-08-22T00:10:18Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14808,6 +14817,14 @@
       "unrealized": 3.1949,
       "realized": -6.5259,
       "total": -3.331
+    },
+    {
+      "ts": "2026-08-22T00:10:18Z",
+      "equity": 400.8718,
+      "available": 243.6922,
+      "unrealized": 2.4768,
+      "realized": -6.5259,
+      "total": -4.0491
     }
   ],
   "capital_events": {
