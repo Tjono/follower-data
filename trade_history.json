@@ -2527,8 +2527,16 @@
       "opened_at": "2026-08-21T18:46:12Z",
       "margin_usd": 19.736955083103,
       "braam_trade_id": "XRPUSDT_20260821_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-21T16:09:08Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-21T16:09:08Z",
+      "closed_at": "2026-08-22T03:20:44Z",
+      "close_price": 1.5335,
+      "pnl_usd": 6.7769,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0881
     }
   },
   "orders": {
@@ -4358,9 +4366,18 @@
       "resting_at": "2026-08-22T00:08:59Z",
       "braam_trade_id": "LINKUSDT_20260822_CJ_001",
       "status": "RESTING"
+    },
+    "845996760878214144": {
+      "order_id": "845996760878214144",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.33092,
+      "resting_at": "2026-08-22T04:09:05Z",
+      "braam_trade_id": "TRXUSDT_20260814_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-22T03:13:42Z",
+  "updated": "2026-08-22T04:10:22Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -14841,6 +14858,14 @@
       "unrealized": 1.6164,
       "realized": -6.5259,
       "total": -4.9095
+    },
+    {
+      "ts": "2026-08-22T04:10:22Z",
+      "equity": 405.2684,
+      "available": 270.4262,
+      "unrealized": 0.0,
+      "realized": 0.251,
+      "total": 0.251
     }
   ],
   "capital_events": {
