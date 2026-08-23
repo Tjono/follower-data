@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-23T18:09:12Z",
+  "last_updated_iso": "2026-08-23T18:54:50Z",
   "mexc_account": {
-    "unrealized_pnl": 2.8578,
-    "equity": 405.5572,
+    "unrealized_pnl": 2.8968,
+    "equity": 405.5962,
     "available": 250.4497,
     "position_margin": 37.5655
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$405.56",
+      "value": "$405.60",
       "status": "ok",
       "action": null
     },
@@ -350,18 +350,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "XRPUSDT_20260821_CJ_001",
-      "coin": "XRPUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 1.3737259,
-      "live_entry_fill": 1.3737,
-      "tp1_hit": false,
-      "iso": "2026-08-21T18:46:00Z",
-      "_iso_ms": 1787337960000,
-      "rehearsal": false
-    },
     {
       "trade_id": "NEARUSDT_20260821_CJ_001",
       "coin": "NEARUSDT",
