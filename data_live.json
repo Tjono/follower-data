@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-23T14:33:15Z",
+  "last_updated_iso": "2026-08-23T14:36:10Z",
   "mexc_account": {
-    "unrealized_pnl": 5.298,
-    "equity": 407.148,
-    "available": 245.9555,
-    "position_margin": 41.094
+    "unrealized_pnl": 4.1664,
+    "equity": 406.8772,
+    "available": 250.3448,
+    "position_margin": 37.5655
   },
   "order_levels": {
-    "checked": 9,
-    "in_sync": 9,
+    "checked": 8,
+    "in_sync": 8,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$407.15",
+      "value": "$406.88",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 2 pre-TP1 runners)",
+      "value": "all protected (2 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -343,39 +343,6 @@
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0025,
       "live_fees_usd": 0.0322,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "ONDOUSDT_20260823_CJ_001",
-      "coin": "ONDOUSDT",
-      "direction": "Long",
-      "entry_price": 0.35204442,
-      "sl": 0.33291579,
-      "tp1": 0.3832864,
-      "tp2": 0.4205,
-      "capital_usd": 19.73,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-08-23",
-      "time_activated_utc": "04:48",
-      "date_opened": "2026-08-23",
-      "time_opened_utc": "00:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.352,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": -0.0126,
-      "live_fees_usd": 0.0337,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -3000,8 +2967,8 @@
     "peak_date": "2026-08-11",
     "deployed_trades": 133,
     "return_on_peak_pct": -10.2,
-    "win_rate_pct": 39.5,
-    "closed_count": 129,
+    "win_rate_pct": 39.2,
+    "closed_count": 130,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -20.4,
@@ -3010,8 +2977,8 @@
       },
       "John": {
         "realized_pnl_usd": -3.41,
-        "win_rate_pct": 15.4,
-        "closed_count": 13
+        "win_rate_pct": 14.3,
+        "closed_count": 14
       }
     },
     "live_trade_count_total": 168,
@@ -3021,19 +2988,8 @@
   "drift_vs_master": {
     "available": true,
     "feed_generated_utc": "2026-08-23T14:32Z",
-    "checked": 9,
+    "checked": 8,
     "in_parity": 8,
-    "drifting": [
-      {
-        "trade_id": "ONDOUSDT_20260823_CJ_001",
-        "coin": "ONDOUSDT",
-        "diffs": {
-          "status": {
-            "follower": "OPEN",
-            "master": "CLOSED"
-          }
-        }
-      }
-    ]
+    "drifting": []
   }
 }

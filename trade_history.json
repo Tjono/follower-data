@@ -2597,8 +2597,16 @@
       "opened_at": "2026-08-23T04:48:27Z",
       "margin_usd": 18.8183891456,
       "braam_trade_id": "ONDOUSDT_20260823_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-23T00:08:53Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-23T00:08:53Z",
+      "closed_at": "2026-08-23T14:34:59Z",
+      "close_price": 0.3829,
+      "pnl_usd": 4.868,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0826
     },
     "1477939365": {
       "position_id": "1477939365",
@@ -4678,7 +4686,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-23T14:33:28Z",
+  "updated": "2026-08-23T14:36:21Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15415,6 +15423,14 @@
       "unrealized": 5.298,
       "realized": -7.1503,
       "total": -1.8523
+    },
+    {
+      "ts": "2026-08-23T14:36:21Z",
+      "equity": 406.8772,
+      "available": 250.3448,
+      "unrealized": 4.1664,
+      "realized": -2.2823,
+      "total": 1.8841
     }
   ],
   "capital_events": {
