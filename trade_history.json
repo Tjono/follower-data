@@ -2587,6 +2587,30 @@
       "braam_trade_id": "LTCUSDT_20260822_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-22T20:08:39Z"
+    },
+    "1477939138": {
+      "position_id": "1477939138",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.352,
+      "opened_at": "2026-08-23T04:48:27Z",
+      "margin_usd": 18.8183891456,
+      "braam_trade_id": "ONDOUSDT_20260823_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-23T00:08:53Z"
+    },
+    "1477939365": {
+      "position_id": "1477939365",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.08949,
+      "opened_at": "2026-08-23T04:48:28Z",
+      "margin_usd": 17.94095502102,
+      "braam_trade_id": "DOGEUSDT_20260823_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-23T00:08:52Z"
     }
   },
   "orders": {
@@ -4589,7 +4613,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-23T04:10:39Z",
+  "updated": "2026-08-23T04:59:39Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15238,6 +15262,14 @@
       "unrealized": -0.399,
       "realized": -10.401,
       "total": -10.8
+    },
+    {
+      "ts": "2026-08-23T04:59:39Z",
+      "equity": 394.1811,
+      "available": 203.7573,
+      "unrealized": -0.3884,
+      "realized": -10.401,
+      "total": -10.7894
     }
   ],
   "capital_events": {
