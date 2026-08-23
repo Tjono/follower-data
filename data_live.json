@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-23T13:09:21Z",
+  "last_updated_iso": "2026-08-23T13:57:00Z",
   "mexc_account": {
-    "unrealized_pnl": 9.3487,
-    "equity": 403.8644,
-    "available": 203.5797,
-    "position_margin": 76.1354
+    "unrealized_pnl": 9.2503,
+    "equity": 406.4317,
+    "available": 222.0365,
+    "position_margin": 60.3444
   },
   "order_levels": {
     "checked": 10,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$403.86",
+      "value": "$406.43",
       "status": "ok",
       "action": null
     },
@@ -287,8 +287,8 @@
       "direction": "Long",
       "entry_price": 51.52014001,
       "sl": 50.09236771,
-      "tp1": 57.04950076,
-      "tp2": 59.20526458,
+      "tp1": 54.45,
+      "tp2": 58.49,
       "capital_usd": 19.73,
       "leverage": 3,
       "trading_system": "John",
@@ -354,7 +354,7 @@
       "entry_price": 0.35204442,
       "sl": 0.33291579,
       "tp1": 0.3832864,
-      "tp2": 0.42826841,
+      "tp2": 0.4205,
       "capital_usd": 19.73,
       "leverage": 3,
       "trading_system": "John",
@@ -387,7 +387,7 @@
       "entry_price": 0.07598433,
       "sl": 0.0733913,
       "tp1": 0.08030176,
-      "tp2": 0.0855074,
+      "tp2": 0.08436,
       "capital_usd": 19.73,
       "leverage": 3,
       "trading_system": "John",
@@ -3053,9 +3053,20 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-23T12:07Z",
+    "feed_generated_utc": "2026-08-23T13:55Z",
     "checked": 10,
-    "in_parity": 10,
-    "drifting": []
+    "in_parity": 9,
+    "drifting": [
+      {
+        "trade_id": "HBARUSDT_20260823_CJ_001",
+        "coin": "HBARUSDT",
+        "diffs": {
+          "status": {
+            "follower": "OPEN",
+            "master": "CLOSED"
+          }
+        }
+      }
+    ]
   }
 }
