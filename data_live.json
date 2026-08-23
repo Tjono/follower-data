@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-23T14:09:09Z",
+  "last_updated_iso": "2026-08-23T14:33:15Z",
   "mexc_account": {
-    "unrealized_pnl": 9.3246,
-    "equity": 407.1325,
-    "available": 226.6234,
-    "position_margin": 56.3839
+    "unrealized_pnl": 5.298,
+    "equity": 407.148,
+    "available": 245.9555,
+    "position_margin": 41.094
   },
   "order_levels": {
     "checked": 9,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$407.13",
+      "value": "$407.15",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "value": "all protected (3 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -3020,9 +3020,20 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-23T14:06Z",
+    "feed_generated_utc": "2026-08-23T14:32Z",
     "checked": 9,
-    "in_parity": 9,
-    "drifting": []
+    "in_parity": 8,
+    "drifting": [
+      {
+        "trade_id": "ONDOUSDT_20260823_CJ_001",
+        "coin": "ONDOUSDT",
+        "diffs": {
+          "status": {
+            "follower": "OPEN",
+            "master": "CLOSED"
+          }
+        }
+      }
+    ]
   }
 }
