@@ -4494,9 +4494,54 @@
       "resting_at": "2026-08-22T20:08:33Z",
       "braam_trade_id": "TRXUSDT_20260814_CJ_001",
       "status": "RESTING"
+    },
+    "846298705656891392": {
+      "order_id": "846298705656891392",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "entry_price": 0.07598,
+      "resting_at": "2026-08-23T00:08:54Z",
+      "braam_trade_id": "HBARUSDT_20260823_CJ_001",
+      "status": "RESTING"
+    },
+    "846298699914159168": {
+      "order_id": "846298699914159168",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.352,
+      "resting_at": "2026-08-23T00:08:53Z",
+      "braam_trade_id": "ONDOUSDT_20260823_CJ_001",
+      "status": "RESTING"
+    },
+    "846298694285823488": {
+      "order_id": "846298694285823488",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "entry_price": 0.08949,
+      "resting_at": "2026-08-23T00:08:52Z",
+      "braam_trade_id": "DOGEUSDT_20260823_CJ_001",
+      "status": "RESTING"
+    },
+    "846298678913385472": {
+      "order_id": "846298678913385472",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.08774,
+      "resting_at": "2026-08-23T00:08:48Z",
+      "braam_trade_id": "ALGOUSDT_20260821_CJ_001",
+      "status": "RESTING"
+    },
+    "846298665810584576": {
+      "order_id": "846298665810584576",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.33088,
+      "resting_at": "2026-08-23T00:08:45Z",
+      "braam_trade_id": "TRXUSDT_20260814_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-22T22:45:20Z",
+  "updated": "2026-08-23T00:10:25Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15110,6 +15155,14 @@
       "ts": "2026-08-22T22:45:20Z",
       "equity": 394.6163,
       "available": 260.1565,
+      "unrealized": 0.0,
+      "realized": -10.401,
+      "total": -10.401
+    },
+    {
+      "ts": "2026-08-23T00:10:25Z",
+      "equity": 394.6163,
+      "available": 203.6121,
       "unrealized": 0.0,
       "realized": -10.401,
       "total": -10.401
