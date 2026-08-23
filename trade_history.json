@@ -2575,6 +2575,18 @@
       "close_fills": 1,
       "fees_usd": 0.079,
       "braam_trade_id": "LINKUSDT_20260822_CJ_001"
+    },
+    "1477862590": {
+      "position_id": "1477862590",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 51.52,
+      "opened_at": "2026-08-23T02:23:34Z",
+      "margin_usd": 19.624586044224,
+      "braam_trade_id": "LTCUSDT_20260822_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-22T20:08:39Z"
     }
   },
   "orders": {
@@ -4541,7 +4553,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-23T02:07:07Z",
+  "updated": "2026-08-23T03:28:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15174,6 +15186,14 @@
       "unrealized": 0.0,
       "realized": -10.401,
       "total": -10.401
+    },
+    {
+      "ts": "2026-08-23T03:28:19Z",
+      "equity": 394.296,
+      "available": 203.6238,
+      "unrealized": -0.285,
+      "realized": -10.401,
+      "total": -10.686
     }
   ],
   "capital_events": {
