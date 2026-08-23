@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-23T04:59:26Z",
+  "last_updated_iso": "2026-08-23T06:10:33Z",
   "mexc_account": {
-    "unrealized_pnl": -0.3884,
-    "equity": 394.1811,
-    "available": 203.7573,
-    "position_margin": 56.3839
+    "unrealized_pnl": -1.1319,
+    "equity": 393.4021,
+    "available": 203.7691,
+    "position_margin": 76.1354
   },
   "order_levels": {
     "checked": 10,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$394.18",
+      "value": "$393.40",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (7 resting = journal)",
+      "value": "in sync (6 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "value": "all protected (4 open, 4 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -392,10 +392,10 @@
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-08-23",
+      "time_activated_utc": "05:17",
       "date_opened": "2026-08-23",
       "time_opened_utc": "00:03",
       "conviction": "MEDIUM",
@@ -404,31 +404,17 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 0.07598,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0057,
+      "live_fees_usd": 0.0354,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "HBARUSDT_20260823_CJ_001",
-      "coin": "HBARUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.07598433,
-      "tp1": 0.08030176,
-      "sl": 0.0733913,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-08-23T00:03:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "XRPUSDT_20260821_CJ_001",
@@ -500,6 +486,18 @@
       "tp1_hit": false,
       "iso": "2026-08-23T04:48:00Z",
       "_iso_ms": 1787460480000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "HBARUSDT_20260823_CJ_001",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.07598433,
+      "live_entry_fill": 0.07598,
+      "tp1_hit": false,
+      "iso": "2026-08-23T05:17:00Z",
+      "_iso_ms": 1787462220000,
       "rehearsal": false
     }
   ],
@@ -3033,7 +3031,7 @@
     "peak_capital_usd": 233.35,
     "peak_concurrent": 12,
     "peak_date": "2026-08-11",
-    "deployed_trades": 132,
+    "deployed_trades": 133,
     "return_on_peak_pct": -10.2,
     "win_rate_pct": 39.8,
     "closed_count": 128,
@@ -3055,7 +3053,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-23T04:07Z",
+    "feed_generated_utc": "2026-08-23T06:07Z",
     "checked": 10,
     "in_parity": 10,
     "drifting": []

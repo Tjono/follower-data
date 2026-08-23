@@ -2611,6 +2611,18 @@
       "braam_trade_id": "DOGEUSDT_20260823_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-23T00:08:52Z"
+    },
+    "1477962584": {
+      "position_id": "1477962584",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.07598,
+      "opened_at": "2026-08-23T05:17:05Z",
+      "margin_usd": 19.7514364216252,
+      "braam_trade_id": "HBARUSDT_20260823_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-23T00:08:55Z"
     }
   },
   "orders": {
@@ -4613,7 +4625,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-23T04:59:39Z",
+  "updated": "2026-08-23T06:10:47Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15270,6 +15282,14 @@
       "unrealized": -0.3884,
       "realized": -10.401,
       "total": -10.7894
+    },
+    {
+      "ts": "2026-08-23T06:10:47Z",
+      "equity": 393.4021,
+      "available": 203.7691,
+      "unrealized": -1.1319,
+      "realized": -10.401,
+      "total": -11.5329
     }
   ],
   "capital_events": {
