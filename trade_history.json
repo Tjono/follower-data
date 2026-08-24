@@ -4738,9 +4738,18 @@
       "resting_at": "2026-08-24T17:31:57Z",
       "braam_trade_id": "ALGOUSDT_20260821_CJ_001",
       "status": "RESTING"
+    },
+    "846927132739162176": {
+      "order_id": "846927132739162176",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.434,
+      "resting_at": "2026-08-24T17:46:03Z",
+      "braam_trade_id": "RENDERUSDT_20260823_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-24T17:42:45Z",
+  "updated": "2026-08-24T17:47:28Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15701,6 +15710,14 @@
       "unrealized": 0.0528,
       "realized": -2.2823,
       "total": -2.2295
+    },
+    {
+      "ts": "2026-08-24T17:47:28Z",
+      "equity": 402.6129,
+      "available": 230.1682,
+      "unrealized": -0.1062,
+      "realized": -2.2823,
+      "total": -2.3885
     }
   ],
   "capital_events": {
