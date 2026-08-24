@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-23T22:45:18Z",
+  "last_updated_iso": "2026-08-24T00:10:16Z",
   "mexc_account": {
-    "unrealized_pnl": 3.0054,
-    "equity": 405.7048,
-    "available": 250.4497,
+    "unrealized_pnl": 2.6328,
+    "equity": 405.3206,
+    "available": 250.5544,
     "position_margin": 37.5655
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$405.70",
+      "value": "$405.32",
       "status": "ok",
       "action": null
     },
@@ -87,10 +87,10 @@
       "trade_id": "TRXUSDT_20260814_CJ_001",
       "coin": "TRXUSDT",
       "direction": "Long",
-      "entry_price": 0.33282477,
-      "sl": 0.33054107,
-      "tp1": 0.36496533,
-      "tp2": 0.37001786,
+      "entry_price": 0.33088777,
+      "sl": 0.32886754,
+      "tp1": 0.36506166,
+      "tp2": 0.37396492,
       "capital_usd": 20.73,
       "leverage": 3,
       "trading_system": "John",
@@ -2975,7 +2975,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-23T22:06Z",
+    "feed_generated_utc": "2026-08-24T00:07Z",
     "checked": 8,
     "in_parity": 8,
     "drifting": []
