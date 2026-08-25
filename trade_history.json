@@ -2585,8 +2585,16 @@
       "opened_at": "2026-08-23T02:23:34Z",
       "margin_usd": 19.624586044224,
       "braam_trade_id": "LTCUSDT_20260822_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-22T20:08:39Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-22T20:08:39Z",
+      "closed_at": "2026-08-25T20:48:48Z",
+      "close_price": 50.04,
+      "pnl_usd": -1.8153,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0808
     },
     "1477939138": {
       "position_id": "1477939138",
@@ -4818,7 +4826,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-25T20:20:26Z",
+  "updated": "2026-08-25T20:53:23Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15947,6 +15955,14 @@
       "unrealized": -2.0281,
       "realized": -2.2823,
       "total": -4.3104
+    },
+    {
+      "ts": "2026-08-25T20:53:23Z",
+      "equity": 396.7832,
+      "available": 228.0926,
+      "unrealized": -4.1468,
+      "realized": -4.0976,
+      "total": -8.2444
     }
   ],
   "capital_events": {
