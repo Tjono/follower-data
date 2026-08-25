@@ -2639,6 +2639,18 @@
       "close_reason": "tp1_tp2",
       "close_fills": 2,
       "fees_usd": 0.0852
+    },
+    "1480479190": {
+      "position_id": "1480479190",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.09068,
+      "opened_at": "2026-08-25T13:51:16Z",
+      "margin_usd": 19.9671796301396,
+      "braam_trade_id": "ALGOUSDT_20260821_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-25T04:08:45Z"
     }
   },
   "orders": {
@@ -4785,7 +4797,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-25T13:20:53Z",
+  "updated": "2026-08-25T14:10:44Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15850,6 +15862,14 @@
       "unrealized": -0.9198,
       "realized": -2.2823,
       "total": -3.2021
+    },
+    {
+      "ts": "2026-08-25T14:10:44Z",
+      "equity": 402.4717,
+      "available": 230.2881,
+      "unrealized": -0.244,
+      "realized": -2.2823,
+      "total": -2.5263
     }
   ],
   "capital_events": {
