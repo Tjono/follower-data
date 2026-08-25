@@ -2625,8 +2625,16 @@
       "opened_at": "2026-08-23T04:48:28Z",
       "margin_usd": 17.94095502102,
       "braam_trade_id": "DOGEUSDT_20260823_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-23T00:08:52Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-23T00:08:52Z",
+      "closed_at": "2026-08-25T21:07:35Z",
+      "close_price": 0.08553,
+      "pnl_usd": -2.493,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0732
     },
     "1477962584": {
       "position_id": "1477962584",
@@ -2657,8 +2665,16 @@
       "opened_at": "2026-08-25T13:51:16Z",
       "margin_usd": 19.9671796301396,
       "braam_trade_id": "ALGOUSDT_20260821_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-25T04:08:45Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-25T04:08:45Z",
+      "closed_at": "2026-08-25T21:08:16Z",
+      "close_price": 0.08778,
+      "pnl_usd": -1.9992,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.082
     },
     "1480770676": {
       "position_id": "1480770676",
@@ -2671,6 +2687,18 @@
       "braam_trade_id": "SUIUSDT_20260821_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-22T12:08:31Z"
+    },
+    "1480841180": {
+      "position_id": "1480841180",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.472,
+      "opened_at": "2026-08-25T21:08:14Z",
+      "margin_usd": 20.16561473216,
+      "braam_trade_id": "RENDERUSDT_20260823_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-25T04:08:50Z"
     }
   },
   "orders": {
@@ -4826,7 +4854,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-25T20:53:23Z",
+  "updated": "2026-08-25T22:10:22Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15963,6 +15991,14 @@
       "unrealized": -4.1468,
       "realized": -4.0976,
       "total": -8.2444
+    },
+    {
+      "ts": "2026-08-25T22:10:22Z",
+      "equity": 397.5304,
+      "available": 261.6383,
+      "unrealized": 1.0111,
+      "realized": -8.5898,
+      "total": -7.5787
     }
   ],
   "capital_events": {
