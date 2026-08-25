@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-25T04:10:00Z",
+  "last_updated_iso": "2026-08-25T05:01:50Z",
   "mexc_account": {
-    "unrealized_pnl": 2.3964,
-    "equity": 405.1594,
+    "unrealized_pnl": 2.5926,
+    "equity": 405.3556,
     "available": 230.2875,
     "position_margin": 37.5655
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$405.16",
+      "value": "$405.36",
       "status": "ok",
       "action": null
     },
@@ -383,30 +383,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "DOGEUSDT_20260823_CJ_001",
-      "coin": "DOGEUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.08949225,
-      "live_entry_fill": 0.08949,
-      "tp1_hit": false,
-      "iso": "2026-08-23T04:48:00Z",
-      "_iso_ms": 1787460480000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "ONDOUSDT_20260823_CJ_001",
-      "coin": "ONDOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.35204442,
-      "live_entry_fill": 0.352,
-      "tp1_hit": false,
-      "iso": "2026-08-23T04:48:00Z",
-      "_iso_ms": 1787460480000,
-      "rehearsal": false
-    },
     {
       "trade_id": "HBARUSDT_20260823_CJ_001",
       "coin": "HBARUSDT",
