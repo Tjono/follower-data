@@ -2651,6 +2651,18 @@
       "braam_trade_id": "ALGOUSDT_20260821_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-25T04:08:45Z"
+    },
+    "1480770676": {
+      "position_id": "1480770676",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.7735,
+      "opened_at": "2026-08-25T19:42:26Z",
+      "margin_usd": 19.900814068135,
+      "braam_trade_id": "SUIUSDT_20260821_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-22T12:08:31Z"
     }
   },
   "orders": {
@@ -4795,9 +4807,18 @@
       "resting_at": "2026-08-25T04:08:42Z",
       "braam_trade_id": "TRXUSDT_20260814_CJ_001",
       "status": "RESTING"
+    },
+    "847325551722460672": {
+      "order_id": "847325551722460672",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.1718,
+      "resting_at": "2026-08-25T20:09:13Z",
+      "braam_trade_id": "THETAUSDT_20260825_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-25T19:07:19Z",
+  "updated": "2026-08-25T20:10:43Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -15910,6 +15931,14 @@
       "unrealized": -1.2822,
       "realized": -2.2823,
       "total": -3.5645
+    },
+    {
+      "ts": "2026-08-25T20:10:43Z",
+      "equity": 400.2392,
+      "available": 210.2008,
+      "unrealized": -2.4236,
+      "realized": -2.2823,
+      "total": -4.7059
     }
   ],
   "capital_events": {
