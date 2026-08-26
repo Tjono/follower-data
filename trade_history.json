@@ -4852,9 +4852,27 @@
       "resting_at": "2026-08-25T20:09:13Z",
       "braam_trade_id": "THETAUSDT_20260825_CJ_001",
       "status": "RESTING"
+    },
+    "847446279270569472": {
+      "order_id": "847446279270569472",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.551,
+      "resting_at": "2026-08-26T04:08:57Z",
+      "braam_trade_id": "APTUSDT_20260826_CJ_001",
+      "status": "RESTING"
+    },
+    "847446266996075008": {
+      "order_id": "847446266996075008",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.16704,
+      "resting_at": "2026-08-26T04:08:54Z",
+      "braam_trade_id": "XLMUSDT_20260820_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-26T03:31:34Z",
+  "updated": "2026-08-26T04:10:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16023,6 +16041,14 @@
       "unrealized": 1.1256,
       "realized": -8.5898,
       "total": -7.4642
+    },
+    {
+      "ts": "2026-08-26T04:10:19Z",
+      "equity": 398.086,
+      "available": 241.1775,
+      "unrealized": 1.5235,
+      "realized": -8.5898,
+      "total": -7.0663
     }
   ],
   "capital_events": {
