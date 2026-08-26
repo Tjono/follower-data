@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-26T07:16:18Z",
+  "last_updated_iso": "2026-08-26T08:10:00Z",
   "mexc_account": {
-    "unrealized_pnl": 1.4546,
-    "equity": 398.0171,
-    "available": 241.1775,
+    "unrealized_pnl": 0.916,
+    "equity": 397.4695,
+    "available": 241.1654,
     "position_margin": 40.0664
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$398.02",
+      "value": "$397.47",
       "status": "ok",
       "action": null
     },
@@ -318,10 +318,10 @@
       "trade_id": "APTUSDT_20260826_CJ_001",
       "coin": "APTUSDT",
       "direction": "Long",
-      "entry_price": 0.55101598,
-      "sl": 0.52944976,
-      "tp1": 0.64370655,
-      "tp2": 0.65110049,
+      "entry_price": 0.53670639,
+      "sl": 0.51603775,
+      "tp1": 0.60488077,
+      "tp2": 0.66292449,
       "capital_usd": 19.89,
       "leverage": 3,
       "trading_system": "John",
@@ -350,26 +350,13 @@
   ],
   "recent_signals": [
     {
-      "trade_id": "THETAUSDT_20260825_CJ_001",
-      "coin": "THETAUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.17178622,
-      "tp1": 0.19490495,
-      "sl": 0.16553807,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-08-25T20:03:00Z",
-      "rehearsal": false
-    },
-    {
       "trade_id": "APTUSDT_20260826_CJ_001",
       "coin": "APTUSDT",
       "direction": "Long",
       "trading_system": "John",
-      "entry_price": 0.55101598,
-      "tp1": 0.64370655,
-      "sl": 0.52944976,
+      "entry_price": 0.53670639,
+      "tp1": 0.60488077,
+      "sl": 0.51603775,
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-08-26T04:03:00Z",
@@ -3026,7 +3013,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-26T06:09Z",
+    "feed_generated_utc": "2026-08-26T08:07Z",
     "checked": 8,
     "in_parity": 8,
     "drifting": []

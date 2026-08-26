@@ -4870,9 +4870,18 @@
       "resting_at": "2026-08-26T04:08:54Z",
       "braam_trade_id": "XLMUSDT_20260820_CJ_001",
       "status": "RESTING"
+    },
+    "847506653399355904": {
+      "order_id": "847506653399355904",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.5367,
+      "resting_at": "2026-08-26T08:08:51Z",
+      "braam_trade_id": "APTUSDT_20260826_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-26T07:16:31Z",
+  "updated": "2026-08-26T08:10:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16073,6 +16082,14 @@
       "unrealized": 1.4546,
       "realized": -8.5898,
       "total": -7.1352
+    },
+    {
+      "ts": "2026-08-26T08:10:11Z",
+      "equity": 397.4695,
+      "available": 241.1654,
+      "unrealized": 0.916,
+      "realized": -8.5898,
+      "total": -7.6738
     }
   ],
   "capital_events": {
