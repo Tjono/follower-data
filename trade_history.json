@@ -2685,8 +2685,16 @@
       "opened_at": "2026-08-25T19:42:26Z",
       "margin_usd": 19.900814068135,
       "braam_trade_id": "SUIUSDT_20260821_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-22T12:08:31Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-22T12:08:31Z",
+      "closed_at": "2026-08-26T15:01:41Z",
+      "close_price": 0.731,
+      "pnl_usd": -3.3649,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0807
     },
     "1480841180": {
       "position_id": "1480841180",
@@ -2699,6 +2707,30 @@
       "braam_trade_id": "RENDERUSDT_20260823_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-25T04:08:50Z"
+    },
+    "1481591382": {
+      "position_id": "1481591382",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.1718,
+      "opened_at": "2026-08-26T15:04:47Z",
+      "margin_usd": 20.034033026806,
+      "braam_trade_id": "THETAUSDT_20260825_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-25T20:09:14Z"
+    },
+    "1481585692": {
+      "position_id": "1481585692",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.3656,
+      "opened_at": "2026-08-26T15:02:22Z",
+      "margin_usd": 19.620576444264,
+      "braam_trade_id": "XRPUSDT_20260826_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-26T12:08:59Z"
     }
   },
   "orders": {
@@ -4890,7 +4922,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-26T13:31:37Z",
+  "updated": "2026-08-26T15:58:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16131,6 +16163,14 @@
       "unrealized": -0.3235,
       "realized": -8.5898,
       "total": -8.9133
+    },
+    {
+      "ts": "2026-08-26T15:58:19Z",
+      "equity": 394.5947,
+      "available": 238.1018,
+      "unrealized": 1.433,
+      "realized": -11.9547,
+      "total": -10.5217
     }
   ],
   "capital_events": {
