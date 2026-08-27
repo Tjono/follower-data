@@ -4983,9 +4983,27 @@
       "resting_at": "2026-08-27T00:09:07Z",
       "braam_trade_id": "XLMUSDT_20260820_CJ_001",
       "status": "RESTING"
+    },
+    "847808704798771712": {
+      "order_id": "847808704798771712",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.0854,
+      "resting_at": "2026-08-27T04:09:06Z",
+      "braam_trade_id": "ALGOUSDT_20260827_CJ_001",
+      "status": "RESTING"
+    },
+    "847808691635098624": {
+      "order_id": "847808691635098624",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.5369,
+      "resting_at": "2026-08-27T04:09:03Z",
+      "braam_trade_id": "APTUSDT_20260826_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-27T02:09:53Z",
+  "updated": "2026-08-27T04:10:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16298,6 +16316,14 @@
       "unrealized": 4.3195,
       "realized": -11.9547,
       "total": -7.6352
+    },
+    {
+      "ts": "2026-08-27T04:10:32Z",
+      "equity": 398.948,
+      "available": 196.9565,
+      "unrealized": 3.2329,
+      "realized": -11.9547,
+      "total": -8.7218
     }
   ],
   "capital_events": {
