@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-27T00:10:24Z",
+  "last_updated_iso": "2026-08-27T02:09:37Z",
   "mexc_account": {
-    "unrealized_pnl": 7.5554,
-    "equity": 400.6835,
-    "available": 178.1114,
-    "position_margin": 59.8202
+    "unrealized_pnl": 4.3195,
+    "equity": 399.9807,
+    "available": 196.8753,
+    "position_margin": 43.5894
   },
   "order_levels": {
     "checked": 11,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$400.68",
+      "value": "$399.98",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "value": "all protected (3 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -234,18 +234,18 @@
       "date_opened": "2026-08-23",
       "time_opened_utc": "12:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": true,
+      "pnl_tp1_realized_usd": 0.55,
       "tp2_hit": null,
-      "pnl_tp1_estimated": null,
+      "pnl_tp1_estimated": true,
       "live_executed": true,
       "live_entry_fill": 1.472,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0216,
       "live_fees_usd": 0.0362,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 2.74,
       "rehearsal": false
     },
     {
@@ -520,7 +520,7 @@
       "trading_system": "John",
       "entry_price": 1.47168277,
       "live_entry_fill": 1.472,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-08-25T21:08:00Z",
       "_iso_ms": 1787692080000,
       "rehearsal": false
@@ -3153,7 +3153,14 @@
     }
   ],
   "recent_cancels": [],
-  "tp1_hits_open": [],
+  "tp1_hits_open": [
+    {
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 1.47168277
+    }
+  ],
   "stats": {
     "realized_pnl_usd": -33.28,
     "realized_pnl_pct": -1.29,
@@ -3182,7 +3189,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-27T00:07Z",
+    "feed_generated_utc": "2026-08-27T02:06Z",
     "checked": 11,
     "in_parity": 11,
     "drifting": []
