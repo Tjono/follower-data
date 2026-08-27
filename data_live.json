@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-27T04:10:18Z",
+  "last_updated_iso": "2026-08-27T10:02:54Z",
   "mexc_account": {
-    "unrealized_pnl": 3.2329,
-    "equity": 398.948,
-    "available": 196.9565,
+    "unrealized_pnl": 5.1911,
+    "equity": 400.8945,
+    "available": 196.9449,
     "position_margin": 43.5894
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$398.95",
+      "value": "$400.89",
       "status": "ok",
       "action": null
     },
@@ -448,19 +448,6 @@
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "NEARUSDT_20260826_CJ_001",
-      "coin": "NEARUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 1.77544312,
-      "tp1": 1.909474,
-      "sl": 1.70452956,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-08-26T16:22:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "ALGOUSDT_20260827_CJ_001",
       "coin": "ALGOUSDT",
@@ -3189,7 +3176,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-27T04:07Z",
+    "feed_generated_utc": "2026-08-27T08:07Z",
     "checked": 11,
     "in_parity": 11,
     "drifting": []
