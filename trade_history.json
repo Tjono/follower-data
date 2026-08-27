@@ -5037,9 +5037,18 @@
       "resting_at": "2026-08-27T16:09:17Z",
       "braam_trade_id": "TAOUSDT_20260822_CJ_001",
       "status": "RESTING"
+    },
+    "848050289367192576": {
+      "order_id": "848050289367192576",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.5511,
+      "resting_at": "2026-08-27T20:09:04Z",
+      "braam_trade_id": "APTUSDT_20260826_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-27T16:10:52Z",
+  "updated": "2026-08-27T20:10:33Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16384,6 +16393,14 @@
       "unrealized": 7.7238,
       "realized": -11.9547,
       "total": -4.2309
+    },
+    {
+      "ts": "2026-08-27T20:10:33Z",
+      "equity": 402.2634,
+      "available": 197.0346,
+      "unrealized": 6.5681,
+      "realized": -11.9547,
+      "total": -5.3866
     }
   ],
   "capital_events": {
