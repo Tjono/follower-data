@@ -4947,9 +4947,45 @@
       "resting_at": "2026-08-26T20:09:06Z",
       "braam_trade_id": "ETHUSDT_20260821_CJ_001",
       "status": "RESTING"
+    },
+    "847748337704146432": {
+      "order_id": "847748337704146432",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "entry_price": 0.08543,
+      "resting_at": "2026-08-27T00:09:13Z",
+      "braam_trade_id": "DOGEUSDT_20260827_CJ_001",
+      "status": "RESTING"
+    },
+    "847748332297377280": {
+      "order_id": "847748332297377280",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.08774,
+      "resting_at": "2026-08-27T00:09:12Z",
+      "braam_trade_id": "ALGOUSDT_20260827_CJ_001",
+      "status": "RESTING"
+    },
+    "847748320116962816": {
+      "order_id": "847748320116962816",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2409.8,
+      "resting_at": "2026-08-27T00:09:09Z",
+      "braam_trade_id": "ETHUSDT_20260821_CJ_001",
+      "status": "RESTING"
+    },
+    "847748310030103552": {
+      "order_id": "847748310030103552",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.17149,
+      "resting_at": "2026-08-27T00:09:07Z",
+      "braam_trade_id": "XLMUSDT_20260820_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-26T23:49:09Z",
+  "updated": "2026-08-27T00:10:37Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16246,6 +16282,14 @@
       "unrealized": 7.3174,
       "realized": -11.9547,
       "total": -4.6373
+    },
+    {
+      "ts": "2026-08-27T00:10:37Z",
+      "equity": 400.6835,
+      "available": 178.1114,
+      "unrealized": 7.5554,
+      "realized": -11.9547,
+      "total": -4.3993
     }
   ],
   "capital_events": {
