@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-28T10:56:33Z",
+  "last_updated_iso": "2026-08-28T10:59:40Z",
   "mexc_account": {
-    "unrealized_pnl": 4.3098,
-    "equity": 400.0009,
+    "unrealized_pnl": 4.713,
+    "equity": 400.4042,
     "available": 200.668,
     "position_margin": 59.7367
   },
@@ -12,9 +12,7 @@
     "checked": 10,
     "in_sync": 10,
     "drifted": [],
-    "reconciling": [
-      "RENDER"
-    ],
+    "reconciling": [],
     "detail": []
   },
   "api_keys": [],
@@ -55,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$400.00",
+      "value": "$400.40",
       "status": "ok",
       "action": null
     },
@@ -215,39 +213,6 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "RENDERUSDT_20260823_CJ_001",
-      "coin": "RENDERUSDT",
-      "direction": "Long",
-      "entry_price": 1.47168277,
-      "sl": 1.41413425,
-      "tp1": 1.555,
-      "tp2": 1.626,
-      "capital_usd": 20.13,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-08-25",
-      "time_activated_utc": "21:08",
-      "date_opened": "2026-08-23",
-      "time_opened_utc": "12:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": true,
-      "sl_moved_to_be": true,
-      "pnl_tp1_realized_usd": 0.55,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": true,
-      "live_executed": true,
-      "live_entry_fill": 1.472,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0216,
-      "live_fees_usd": 0.0362,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": 2.74,
       "rehearsal": false
     },
     {
@@ -3102,27 +3067,40 @@
       "won": false,
       "close_iso": "2026-08-26T16:23:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "RENDERUSDT_20260823_CJ_001",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "status": "STOPPED_AFTER_TP1",
+      "pnl_usd": 2.27,
+      "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
+      "date_closed": "2026-08-28",
+      "time_closed_utc": "10:59",
+      "trading_system": "John",
+      "live_entry_fill": 1.472,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": 0.0216,
+      "live_fees_usd": 0.0362,
+      "live_funding_usd": null,
+      "pnl_estimated": true,
+      "won": true,
+      "close_iso": "2026-08-28T10:59:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
-  "tp1_hits_open": [
-    {
-      "coin": "RENDERUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 1.47168277
-    }
-  ],
+  "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -33.28,
-    "realized_pnl_pct": -1.29,
+    "realized_pnl_usd": -31.01,
+    "realized_pnl_pct": -1.2,
     "peak_capital_usd": 233.35,
     "peak_concurrent": 12,
     "peak_date": "2026-08-11",
     "deployed_trades": 139,
-    "return_on_peak_pct": -14.26,
-    "win_rate_pct": 38.1,
-    "closed_count": 134,
+    "return_on_peak_pct": -13.29,
+    "win_rate_pct": 38.5,
+    "closed_count": 135,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -20.4,
@@ -3130,9 +3108,9 @@
         "closed_count": 116
       },
       "John": {
-        "realized_pnl_usd": -12.88,
-        "win_rate_pct": 11.1,
-        "closed_count": 18
+        "realized_pnl_usd": -10.61,
+        "win_rate_pct": 15.8,
+        "closed_count": 19
       }
     },
     "live_trade_count_total": 176,
@@ -3142,19 +3120,8 @@
   "drift_vs_master": {
     "available": true,
     "feed_generated_utc": "2026-08-28T10:55Z",
-    "checked": 11,
+    "checked": 10,
     "in_parity": 10,
-    "drifting": [
-      {
-        "trade_id": "RENDERUSDT_20260823_CJ_001",
-        "coin": "RENDERUSDT",
-        "diffs": {
-          "status": {
-            "follower": "OPEN",
-            "master": "STOPPED_AFTER_TP1"
-          }
-        }
-      }
-    ]
+    "drifting": []
   }
 }
