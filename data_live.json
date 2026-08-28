@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-28T10:59:40Z",
+  "last_updated_iso": "2026-08-28T16:11:02Z",
   "mexc_account": {
-    "unrealized_pnl": 4.713,
-    "equity": 400.4042,
-    "available": 200.668,
-    "position_margin": 59.7367
+    "unrealized_pnl": 1.7888,
+    "equity": 397.4081,
+    "available": 181.012,
+    "position_margin": 99.7793
   },
   "order_levels": {
-    "checked": 10,
-    "in_sync": 10,
+    "checked": 11,
+    "in_sync": 11,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (184 records)",
+      "value": "OK (185 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$400.40",
+      "value": "$397.41",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (7 resting = journal)",
+      "value": "in sync (6 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "value": "all protected (5 open, 5 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -359,10 +359,10 @@
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-08-28",
+      "time_activated_utc": "16:01",
       "date_opened": "2026-08-27",
       "time_opened_utc": "00:03",
       "conviction": "HIGH",
@@ -371,11 +371,11 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 0.08543,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0042,
+      "live_fees_usd": 0.0358,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -392,12 +392,45 @@
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
+      "status": "OPEN",
+      "price_at_run": null,
+      "date_activated": "2026-08-28",
+      "time_activated_utc": "16:00",
+      "date_opened": "2026-08-28",
+      "time_opened_utc": "00:03",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": true,
+      "live_entry_fill": 11.546,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": 0.0024,
+      "live_fees_usd": 0.036,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "RENDERUSDT_20260828_CJ_001",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.39943129,
+      "sl": 1.35310593,
+      "tp1": 1.5150362,
+      "tp2": 1.65278814,
+      "capital_usd": 19.89,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
       "status": "PENDING",
       "price_at_run": null,
       "date_activated": null,
       "time_activated_utc": null,
       "date_opened": "2026-08-28",
-      "time_opened_utc": "00:03",
+      "time_opened_utc": "16:03",
       "conviction": "MEDIUM",
       "tp1_hit": null,
       "sl_moved_to_be": null,
@@ -416,44 +449,20 @@
   ],
   "recent_signals": [
     {
-      "trade_id": "LINKUSDT_20260828_CJ_001",
-      "coin": "LINKUSDT",
+      "trade_id": "RENDERUSDT_20260828_CJ_001",
+      "coin": "RENDERUSDT",
       "direction": "Long",
       "trading_system": "John",
-      "entry_price": 11.54572483,
-      "tp1": 12.66003096,
-      "sl": 11.26779059,
+      "entry_price": 1.39943129,
+      "tp1": 1.5150362,
+      "sl": 1.35310593,
       "conviction": "MEDIUM",
       "track_only": false,
-      "iso": "2026-08-28T00:03:00Z",
+      "iso": "2026-08-28T16:03:00Z",
       "rehearsal": false
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "XRPUSDT_20260826_CJ_001",
-      "coin": "XRPUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 1.36560431,
-      "live_entry_fill": 1.3656,
-      "tp1_hit": false,
-      "iso": "2026-08-26T15:02:00Z",
-      "_iso_ms": 1787756520000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "THETAUSDT_20260825_CJ_001",
-      "coin": "THETAUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.17178622,
-      "live_entry_fill": 0.1718,
-      "tp1_hit": false,
-      "iso": "2026-08-26T15:04:00Z",
-      "_iso_ms": 1787756640000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ALGOUSDT_20260827_CJ_001",
       "coin": "ALGOUSDT",
@@ -464,6 +473,30 @@
       "tp1_hit": false,
       "iso": "2026-08-28T10:07:00Z",
       "_iso_ms": 1787911620000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "LINKUSDT_20260828_CJ_001",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 11.54572483,
+      "live_entry_fill": 11.546,
+      "tp1_hit": false,
+      "iso": "2026-08-28T16:00:00Z",
+      "_iso_ms": 1787932800000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "DOGEUSDT_20260827_CJ_001",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.08543355,
+      "live_entry_fill": 0.08543,
+      "tp1_hit": false,
+      "iso": "2026-08-28T16:01:00Z",
+      "_iso_ms": 1787932860000,
       "rehearsal": false
     }
   ],
@@ -3076,7 +3109,7 @@
       "pnl_usd": 2.27,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
       "date_closed": "2026-08-28",
-      "time_closed_utc": "10:59",
+      "time_closed_utc": "16:11",
       "trading_system": "John",
       "live_entry_fill": 1.472,
       "live_exit_fill": null,
@@ -3085,7 +3118,7 @@
       "live_funding_usd": null,
       "pnl_estimated": true,
       "won": true,
-      "close_iso": "2026-08-28T10:59:00Z",
+      "close_iso": "2026-08-28T16:11:00Z",
       "rehearsal": false
     }
   ],
@@ -3097,7 +3130,7 @@
     "peak_capital_usd": 233.35,
     "peak_concurrent": 12,
     "peak_date": "2026-08-11",
-    "deployed_trades": 139,
+    "deployed_trades": 141,
     "return_on_peak_pct": -13.29,
     "win_rate_pct": 38.5,
     "closed_count": 135,
@@ -3113,15 +3146,40 @@
         "closed_count": 19
       }
     },
-    "live_trade_count_total": 176,
-    "live_real_count": 176,
+    "live_trade_count_total": 177,
+    "live_real_count": 177,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-28T10:55Z",
-    "checked": 10,
-    "in_parity": 10,
-    "drifting": []
+    "feed_generated_utc": "2026-08-28T16:10Z",
+    "checked": 11,
+    "in_parity": 9,
+    "drifting": [
+      {
+        "trade_id": "DOGEUSDT_20260827_CJ_001",
+        "coin": "DOGEUSDT",
+        "diffs": {
+          "tp1": {
+            "follower": 0.09614425,
+            "master": 0.08951
+          }
+        }
+      },
+      {
+        "trade_id": "LINKUSDT_20260828_CJ_001",
+        "coin": "LINKUSDT",
+        "diffs": {
+          "tp1": {
+            "follower": 12.66003096,
+            "master": 11.851
+          },
+          "tp2": {
+            "follower": 13.12841881,
+            "master": 12.4
+          }
+        }
+      }
+    ]
   }
 }

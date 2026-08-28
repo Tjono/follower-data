@@ -2751,6 +2751,30 @@
       "braam_trade_id": "ALGOUSDT_20260827_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-28T00:09:21Z"
+    },
+    "1483691528": {
+      "position_id": "1483691528",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 11.546,
+      "opened_at": "2026-08-28T16:00:27Z",
+      "margin_usd": 20.061097826536,
+      "braam_trade_id": "LINKUSDT_20260828_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-28T00:09:23Z"
+    },
+    "1483695037": {
+      "position_id": "1483695037",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.08543,
+      "opened_at": "2026-08-28T16:01:22Z",
+      "margin_usd": 19.98150726733,
+      "braam_trade_id": "DOGEUSDT_20260827_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-27T00:09:14Z"
     }
   },
   "orders": {
@@ -5111,9 +5135,18 @@
       "resting_at": "2026-08-28T04:09:14Z",
       "braam_trade_id": "NEARUSDT_20260826_CJ_001",
       "status": "RESTING"
+    },
+    "848352432530311744": {
+      "order_id": "848352432530311744",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.399,
+      "resting_at": "2026-08-28T16:09:41Z",
+      "braam_trade_id": "RENDERUSDT_20260828_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-28T10:59:52Z",
+  "updated": "2026-08-28T16:11:20Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16522,6 +16555,14 @@
       "unrealized": 4.713,
       "realized": -9.4938,
       "total": -4.7808
+    },
+    {
+      "ts": "2026-08-28T16:11:20Z",
+      "equity": 397.4081,
+      "available": 181.012,
+      "unrealized": 1.7888,
+      "realized": -9.4938,
+      "total": -7.705
     }
   ],
   "capital_events": {
