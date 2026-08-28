@@ -2775,6 +2775,18 @@
       "braam_trade_id": "DOGEUSDT_20260827_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-27T00:09:14Z"
+    },
+    "1483743226": {
+      "position_id": "1483743226",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2409.8,
+      "opened_at": "2026-08-28T16:25:11Z",
+      "margin_usd": 16.10388997268,
+      "braam_trade_id": "ETHUSDT_20260821_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-27T00:09:10Z"
     }
   },
   "orders": {
@@ -5153,9 +5165,18 @@
       "resting_at": "2026-08-28T16:13:06Z",
       "braam_trade_id": "RENDERUSDT_20260828_CJ_001",
       "status": "RESTING"
+    },
+    "848382583188149312": {
+      "order_id": "848382583188149312",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.399,
+      "resting_at": "2026-08-28T18:09:29Z",
+      "braam_trade_id": "RENDERUSDT_20260828_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-28T16:14:46Z",
+  "updated": "2026-08-28T18:11:12Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16580,6 +16601,14 @@
       "unrealized": -0.0604,
       "realized": -9.4938,
       "total": -9.5542
+    },
+    {
+      "ts": "2026-08-28T18:11:12Z",
+      "equity": 395.0042,
+      "available": 181.0216,
+      "unrealized": -0.5862,
+      "realized": -9.4938,
+      "total": -10.08
     }
   ],
   "capital_events": {
