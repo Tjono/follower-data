@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-28T16:11:18+00:00",
+  "generated_at_utc": "2026-08-28T16:14:44+00:00",
   "all_time": {
     "total_trades": 135,
     "wins": 52,
@@ -1677,11 +1677,11 @@
       },
       {
         "iso": "2026-08-28",
-        "pct": 3.942
+        "pct": 3.885
       }
     ],
     "ours_pct": -2.343,
-    "spx_pct": 3.942
+    "spx_pct": 3.885
   },
   "by_direction": {
     "Short": {
@@ -1836,7 +1836,7 @@
       "pnl_usd": 2.27,
       "won": true,
       "close_reason": "reconciled: position gone from MEXC; master STOPPED_AFTER_TP1",
-      "iso": "2026-08-28T16:11:00+00:00"
+      "iso": "2026-08-28T16:14:00+00:00"
     },
     {
       "trade_id": "SUIUSDT_20260821_CJ_001",
@@ -1938,22 +1938,22 @@
     "capital_pending_usd": 600
   },
   "macro": {
-    "vix": 14.49,
+    "vix": 14.59,
     "vix_5d": [
       15.85,
       15.45,
       15.21,
       14.51,
-      14.49
+      14.59
     ],
-    "vix_ma14": 15.09,
-    "dxy": 99.57,
+    "vix_ma14": 15.1,
+    "dxy": 99.58,
     "dxy_5d": [
       99.0,
       98.92,
       99.17,
       99.16,
-      99.57
+      99.58
     ],
     "dxy_ma14": 99.27
   }
