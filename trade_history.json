@@ -5184,7 +5184,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-28T18:53:22Z",
+  "updated": "2026-08-28T20:10:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16625,6 +16625,14 @@
       "unrealized": -1.7578,
       "realized": -11.1158,
       "total": -12.8736
+    },
+    {
+      "ts": "2026-08-28T20:10:32Z",
+      "equity": 394.1883,
+      "available": 199.4967,
+      "unrealized": 0.1839,
+      "realized": -11.1158,
+      "total": -10.9319
     }
   ],
   "capital_events": {
