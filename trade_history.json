@@ -2705,8 +2705,16 @@
       "opened_at": "2026-08-25T21:08:14Z",
       "margin_usd": 20.16561473216,
       "braam_trade_id": "RENDERUSDT_20260823_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-25T04:08:50Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-25T04:08:50Z",
+      "closed_at": "2026-08-28T10:06:44Z",
+      "close_price": 1.534,
+      "pnl_usd": 2.4609,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0865
     },
     "1481591382": {
       "position_id": "1481591382",
@@ -2731,6 +2739,18 @@
       "braam_trade_id": "XRPUSDT_20260826_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-26T12:08:59Z"
+    },
+    "1483362909": {
+      "position_id": "1483362909",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.08774,
+      "opened_at": "2026-08-28T10:07:34Z",
+      "margin_usd": 20.082047986327,
+      "braam_trade_id": "ALGOUSDT_20260827_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-28T00:09:21Z"
     }
   },
   "orders": {
@@ -5093,7 +5113,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-28T06:13:55Z",
+  "updated": "2026-08-28T10:56:45Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16486,6 +16506,14 @@
       "unrealized": 4.4132,
       "realized": -11.9547,
       "total": -7.5415
+    },
+    {
+      "ts": "2026-08-28T10:56:45Z",
+      "equity": 400.0009,
+      "available": 200.668,
+      "unrealized": 4.3098,
+      "realized": -9.4938,
+      "total": -5.184
     }
   ],
   "capital_events": {
