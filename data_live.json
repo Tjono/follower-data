@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-29T11:14:27Z",
+  "last_updated_iso": "2026-08-29T16:10:37Z",
   "mexc_account": {
-    "unrealized_pnl": -0.8082,
-    "equity": 393.2116,
-    "available": 180.5914,
+    "unrealized_pnl": 0.982,
+    "equity": 394.9946,
+    "available": 181.6982,
     "position_margin": 95.8221
   },
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (186 records)",
+      "value": "OK (187 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$393.21",
+      "value": "$394.99",
       "status": "ok",
       "action": null
     },
@@ -83,39 +83,6 @@
     }
   ],
   "active_trades": [
-    {
-      "trade_id": "TRXUSDT_20260814_CJ_001",
-      "coin": "TRXUSDT",
-      "direction": "Long",
-      "entry_price": 0.33089635,
-      "sl": 0.32909274,
-      "tp1": 0.36506963,
-      "tp2": 0.37681451,
-      "capital_usd": 20.73,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-08-14",
-      "time_opened_utc": "16:03",
-      "conviction": "HIGH",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
     {
       "trade_id": "XLMUSDT_20260820_CJ_001",
       "coin": "XLMUSDT",
@@ -445,6 +412,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "TRXUSDT_20260829_CJ_001",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.3308,
+      "sl": 0.32896428,
+      "tp1": 0.35453141,
+      "tp2": 0.36705148,
+      "capital_usd": 19.75,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-08-29",
+      "time_opened_utc": "16:03",
+      "conviction": "HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -459,6 +459,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-08-29T08:03:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "TRXUSDT_20260829_CJ_001",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.3308,
+      "tp1": 0.35453141,
+      "sl": 0.32896428,
+      "conviction": "HIGH",
+      "track_only": false,
+      "iso": "2026-08-29T16:03:00Z",
       "rehearsal": false
     }
   ],
@@ -3178,13 +3191,13 @@
         "closed_count": 20
       }
     },
-    "live_trade_count_total": 178,
-    "live_real_count": 178,
+    "live_trade_count_total": 179,
+    "live_real_count": 179,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-29T10:06Z",
+    "feed_generated_utc": "2026-08-29T16:07Z",
     "checked": 11,
     "in_parity": 11,
     "drifting": []
