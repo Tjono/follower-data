@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-29T16:50:20Z",
+  "last_updated_iso": "2026-08-29T20:10:36Z",
   "mexc_account": {
-    "unrealized_pnl": 1.4144,
-    "equity": 395.427,
-    "available": 181.6982,
+    "unrealized_pnl": 1.8507,
+    "equity": 395.8633,
+    "available": 182.0036,
     "position_margin": 95.8221
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$395.43",
+      "value": "$395.86",
       "status": "ok",
       "action": null
     },
@@ -252,10 +252,10 @@
       "trade_id": "NEARUSDT_20260826_CJ_001",
       "coin": "NEARUSDT",
       "direction": "Long",
-      "entry_price": 1.77592258,
-      "sl": 1.71021284,
-      "tp1": 2.00076808,
-      "tp2": 2.23457432,
+      "entry_price": 1.80294543,
+      "sl": 1.75272869,
+      "tp1": 2.00007618,
+      "tp2": 2.08654262,
       "capital_usd": 19.74,
       "leverage": 3,
       "trading_system": "John",
@@ -448,19 +448,6 @@
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "ONDOUSDT_20260829_CJ_001",
-      "coin": "ONDOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.33230878,
-      "tp1": 0.36238015,
-      "sl": 0.32195085,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-08-29T08:03:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "TRXUSDT_20260829_CJ_001",
       "coin": "TRXUSDT",
@@ -3197,7 +3184,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-29T16:07Z",
+    "feed_generated_utc": "2026-08-29T20:07Z",
     "checked": 11,
     "in_parity": 11,
     "drifting": []
