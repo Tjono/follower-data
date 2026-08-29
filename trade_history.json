@@ -5182,9 +5182,18 @@
       "resting_at": "2026-08-28T18:09:29Z",
       "braam_trade_id": "RENDERUSDT_20260828_CJ_001",
       "status": "RESTING"
+    },
+    "848593845590570048": {
+      "order_id": "848593845590570048",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.3323,
+      "resting_at": "2026-08-29T08:08:58Z",
+      "braam_trade_id": "ONDOUSDT_20260829_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-29T02:53:59Z",
+  "updated": "2026-08-29T08:10:33Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16657,6 +16666,14 @@
       "unrealized": 0.6376,
       "realized": -11.1158,
       "total": -10.4782
+    },
+    {
+      "ts": "2026-08-29T08:10:33Z",
+      "equity": 392.8325,
+      "available": 180.5914,
+      "unrealized": -1.1873,
+      "realized": -11.1158,
+      "total": -12.3031
     }
   ],
   "capital_events": {
