@@ -37,7 +37,8 @@
       "resting_at": "2026-06-30T13:38:21Z",
       "close_fills": 1,
       "margin_usd": null,
-      "fees_usd": 0.0678
+      "fees_usd": 0.0678,
+      "braam_trade_id": "ETHUSDT_20260630_CB_001"
     },
     "1430721048": {
       "position_id": "1430721048",
@@ -5246,7 +5247,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-08-30T19:24:35Z",
+  "updated": "2026-08-30T20:10:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16847,6 +16848,14 @@
       "unrealized": 3.2795,
       "realized": -8.9889,
       "total": -5.7094
+    },
+    {
+      "ts": "2026-08-30T20:10:57Z",
+      "equity": 399.2267,
+      "available": 199.9572,
+      "unrealized": 3.0272,
+      "realized": -8.9889,
+      "total": -5.9617
     }
   ],
   "capital_events": {
