@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-08-29T22:09:29Z",
+  "last_updated_iso": "2026-08-30T00:10:23Z",
   "mexc_account": {
-    "unrealized_pnl": 1.0144,
-    "equity": 395.0269,
-    "available": 182.0036,
+    "unrealized_pnl": 1.1795,
+    "equity": 395.1807,
+    "available": 181.7472,
     "position_margin": 95.8221
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$395.03",
+      "value": "$395.18",
       "status": "ok",
       "action": null
     },
@@ -153,10 +153,10 @@
       "trade_id": "TAOUSDT_20260822_CJ_001",
       "coin": "TAOUSDT",
       "direction": "Long",
-      "entry_price": 213.60322838,
-      "sl": 204.57182932,
-      "tp1": 268.83692703,
-      "tp2": 348.35634136,
+      "entry_price": 212.80988712,
+      "sl": 206.00106244,
+      "tp1": 242.8342,
+      "tp2": 294.79787512,
       "capital_usd": 19.73,
       "leverage": 3,
       "trading_system": "John",
@@ -252,10 +252,10 @@
       "trade_id": "NEARUSDT_20260826_CJ_001",
       "coin": "NEARUSDT",
       "direction": "Long",
-      "entry_price": 1.80294543,
-      "sl": 1.75272869,
-      "tp1": 2.00007618,
-      "tp2": 2.08654262,
+      "entry_price": 1.77691742,
+      "sl": 1.72821617,
+      "tp1": 1.91359523,
+      "tp2": 2.14456767,
       "capital_usd": 19.74,
       "leverage": 3,
       "trading_system": "John",
@@ -3184,7 +3184,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-08-29T22:06Z",
+    "feed_generated_utc": "2026-08-30T00:07Z",
     "checked": 11,
     "in_parity": 11,
     "drifting": []
