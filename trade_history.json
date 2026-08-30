@@ -5227,9 +5227,18 @@
       "resting_at": "2026-08-30T00:09:01Z",
       "braam_trade_id": "TAOUSDT_20260822_CJ_001",
       "status": "RESTING"
+    },
+    "849016653302887488": {
+      "order_id": "849016653302887488",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 213.83,
+      "resting_at": "2026-08-30T12:09:03Z",
+      "braam_trade_id": "TAOUSDT_20260822_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-30T10:09:38Z",
+  "updated": "2026-08-30T12:10:34Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16790,6 +16799,14 @@
       "unrealized": 0.476,
       "realized": -11.1158,
       "total": -10.6398
+    },
+    {
+      "ts": "2026-08-30T12:10:34Z",
+      "equity": 397.2167,
+      "available": 181.6915,
+      "unrealized": 3.1789,
+      "realized": -11.1158,
+      "total": -7.9369
     }
   ],
   "capital_events": {
