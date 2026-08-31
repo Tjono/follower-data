@@ -5335,9 +5335,18 @@
       "resting_at": "2026-08-31T04:08:46Z",
       "braam_trade_id": "TAOUSDT_20260822_CJ_001",
       "status": "RESTING"
+    },
+    "849318624568162368": {
+      "order_id": "849318624568162368",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.3632,
+      "resting_at": "2026-08-31T08:08:59Z",
+      "braam_trade_id": "ONDOUSDT_20260831_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-31T05:49:25Z",
+  "updated": "2026-08-31T08:09:53Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -16978,6 +16987,14 @@
       "unrealized": 0.6366,
       "realized": -15.0901,
       "total": -14.4535
+    },
+    {
+      "ts": "2026-08-31T08:09:53Z",
+      "equity": 391.3891,
+      "available": 199.8822,
+      "unrealized": 1.0755,
+      "realized": -15.0901,
+      "total": -14.0146
     }
   ],
   "capital_events": {
