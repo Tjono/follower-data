@@ -5362,9 +5362,63 @@
       "resting_at": "2026-08-31T12:08:36Z",
       "braam_trade_id": "NEARUSDT_20260826_CJ_001",
       "status": "RESTING"
+    },
+    "849499916793393664": {
+      "order_id": "849499916793393664",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "entry_price": 0.761,
+      "resting_at": "2026-08-31T20:09:22Z",
+      "braam_trade_id": "SUIUSDT_20260831_CJ_001",
+      "status": "RESTING"
+    },
+    "849499908863441434": {
+      "order_id": "849499908863441434",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.17154,
+      "resting_at": "2026-08-31T20:09:21Z",
+      "braam_trade_id": "XLMUSDT_20260831_CJ_001",
+      "status": "RESTING"
+    },
+    "849499898863776768": {
+      "order_id": "849499898863776768",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2404.41,
+      "resting_at": "2026-08-31T20:09:18Z",
+      "braam_trade_id": "ETHUSDT_20260831_CJ_001",
+      "status": "RESTING"
+    },
+    "849499887170107968": {
+      "order_id": "849499887170107968",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.3632,
+      "resting_at": "2026-08-31T20:09:15Z",
+      "braam_trade_id": "ONDOUSDT_20260831_CJ_001",
+      "status": "RESTING"
+    },
+    "849499867394275328": {
+      "order_id": "849499867394275328",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.31969,
+      "resting_at": "2026-08-31T20:09:11Z",
+      "braam_trade_id": "TRXUSDT_20260829_CJ_001",
+      "status": "RESTING"
+    },
+    "849499849237182464": {
+      "order_id": "849499849237182464",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 1.776,
+      "resting_at": "2026-08-31T20:09:06Z",
+      "braam_trade_id": "NEARUSDT_20260826_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-08-31T16:09:38Z",
+  "updated": "2026-08-31T20:10:20Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17053,6 +17107,14 @@
       "unrealized": 0.6479,
       "realized": -15.0901,
       "total": -14.4422
+    },
+    {
+      "ts": "2026-08-31T20:10:20Z",
+      "equity": 391.9327,
+      "available": 159.9938,
+      "unrealized": 1.6223,
+      "realized": -15.0901,
+      "total": -13.4678
     }
   ],
   "capital_events": {
