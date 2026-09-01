@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-01T15:40:46+00:00",
+  "generated_at_utc": "2026-09-01T16:10:10+00:00",
   "all_time": {
     "total_trades": 143,
     "wins": 58,
@@ -32,7 +32,7 @@
       "pnl_per_day": -0.13,
       "status": "active",
       "open": 2,
-      "pending": 10
+      "pending": 11
     },
     "Braam": {
       "n": 117,
@@ -82,7 +82,7 @@
       "pnl": -8.26,
       "pnl_per_day": -0.13,
       "open": 2,
-      "pending": 10
+      "pending": 11
     },
     {
       "name": "Braam",
@@ -1759,11 +1759,11 @@
       },
       {
         "iso": "2026-09-01",
-        "pct": 2.928
+        "pct": 2.883
       }
     ],
     "ours_pct": -3.808,
-    "spx_pct": 2.928
+    "spx_pct": 2.883
   },
   "by_direction": {
     "Short": {
@@ -2015,27 +2015,27 @@
     "open_count": 2,
     "open_long": 2,
     "open_short": 0,
-    "pending_count": 10,
+    "pending_count": 11,
     "capital_open_usd": 200,
-    "capital_pending_usd": 1000
+    "capital_pending_usd": 1100
   },
   "macro": {
-    "vix": 15.37,
+    "vix": 15.21,
     "vix_5d": [
       15.45,
       15.21,
       14.51,
       14.92,
-      15.37
+      15.21
     ],
-    "vix_ma14": 15.17,
-    "dxy": 99.63,
+    "vix_ma14": 15.16,
+    "dxy": 99.64,
     "dxy_5d": [
       98.92,
       99.17,
       99.16,
       99.43,
-      99.63
+      99.64
     ],
     "dxy_ma14": 99.19
   }
