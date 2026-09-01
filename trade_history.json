@@ -2860,6 +2860,18 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0827
+    },
+    "1486642510": {
+      "position_id": "1486642510",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 5.687,
+      "opened_at": "2026-09-01T08:26:16Z",
+      "margin_usd": 19.572227351413,
+      "braam_trade_id": "UNIUSDT_20260901_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-01T08:08:34Z"
     }
   },
   "orders": {
@@ -5474,7 +5486,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-01T08:09:34Z",
+  "updated": "2026-09-01T09:02:42Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17227,6 +17239,14 @@
       "unrealized": 1.938,
       "realized": -16.4019,
       "total": -14.4639
+    },
+    {
+      "ts": "2026-09-01T09:02:42Z",
+      "equity": 390.1659,
+      "available": 159.2598,
+      "unrealized": 1.1632,
+      "realized": -16.4019,
+      "total": -15.2387
     }
   ],
   "capital_events": {
