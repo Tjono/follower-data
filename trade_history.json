@@ -5537,9 +5537,27 @@
       "resting_at": "2026-09-01T16:09:04Z",
       "braam_trade_id": "ETHUSDT_20260831_CJ_001",
       "status": "RESTING"
+    },
+    "849862260242651648": {
+      "order_id": "849862260242651648",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 5.446,
+      "resting_at": "2026-09-01T20:09:12Z",
+      "braam_trade_id": "UNIUSDT_20260901_CJ_002",
+      "status": "RESTING"
+    },
+    "849862232006702080": {
+      "order_id": "849862232006702080",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 1.775,
+      "resting_at": "2026-09-01T20:09:05Z",
+      "braam_trade_id": "NEARUSDT_20260826_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-01T16:47:31Z",
+  "updated": "2026-09-01T20:10:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17364,6 +17382,14 @@
       "unrealized": 1.2977,
       "realized": -15.4371,
       "total": -14.1394
+    },
+    {
+      "ts": "2026-09-01T20:10:19Z",
+      "equity": 390.4467,
+      "available": 141.1153,
+      "unrealized": 0.4546,
+      "realized": -15.4371,
+      "total": -14.9825
     }
   ],
   "capital_events": {
