@@ -5463,9 +5463,18 @@
       "resting_at": "2026-09-01T00:09:02Z",
       "braam_trade_id": "TAOUSDT_20260822_CJ_001",
       "status": "RESTING"
+    },
+    "849680904179028480": {
+      "order_id": "849680904179028480",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 5.687,
+      "resting_at": "2026-09-01T08:08:33Z",
+      "braam_trade_id": "UNIUSDT_20260901_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-01T05:22:47Z",
+  "updated": "2026-09-01T08:09:34Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17210,6 +17219,14 @@
       "unrealized": 2.6491,
       "realized": -16.4019,
       "total": -13.7528
+    },
+    {
+      "ts": "2026-09-01T08:09:34Z",
+      "equity": 390.9758,
+      "available": 159.248,
+      "unrealized": 1.938,
+      "realized": -16.4019,
+      "total": -14.4639
     }
   ],
   "capital_events": {
