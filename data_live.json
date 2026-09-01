@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-01T02:09:53Z",
+  "last_updated_iso": "2026-09-01T04:09:21Z",
   "mexc_account": {
-    "unrealized_pnl": 1.9749,
-    "equity": 392.2466,
-    "available": 160.5712,
-    "position_margin": 58.7834
+    "unrealized_pnl": 2.9891,
+    "equity": 392.0347,
+    "available": 178.8749,
+    "position_margin": 39.2536
   },
   "order_levels": {
-    "checked": 12,
-    "in_sync": 12,
+    "checked": 11,
+    "in_sync": 11,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$392.25",
+      "value": "$392.03",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "value": "all protected (2 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -376,39 +376,6 @@
       "live_exit_fill": null,
       "live_entry_slippage_pct": null,
       "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "ALGOUSDT_20260831_CJ_001",
-      "coin": "ALGOUSDT",
-      "direction": "Short",
-      "entry_price": 0.08742926,
-      "sl": 0.08924891,
-      "tp1": 0.07883081,
-      "tp2": 0.07350218,
-      "capital_usd": 19.47,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-09-01",
-      "time_activated_utc": "01:48",
-      "date_opened": "2026-08-31",
-      "time_opened_utc": "04:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.08743,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": -0.0008,
-      "live_fees_usd": 0.035,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -3354,20 +3321,40 @@
       "won": false,
       "close_iso": "2026-08-30T23:41:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "ALGOUSDT_20260831_CJ_001",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -1.31,
+      "close_reason": "live MEXC exit: sl @ 0.08927",
+      "date_closed": "2026-09-01",
+      "time_closed_utc": "03:26",
+      "trading_system": "John",
+      "live_entry_fill": 0.08743,
+      "live_exit_fill": 0.08927,
+      "live_entry_slippage_pct": -0.0008,
+      "live_fees_usd": 0.0827,
+      "live_funding_usd": 0.0,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-09-01T03:26:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -12.91,
-    "realized_pnl_pct": -0.48,
+    "realized_pnl_usd": -14.22,
+    "realized_pnl_pct": -0.52,
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
     "deployed_trades": 144,
-    "return_on_peak_pct": -6.01,
-    "win_rate_pct": 39.7,
-    "closed_count": 141,
+    "return_on_peak_pct": -6.62,
+    "win_rate_pct": 39.4,
+    "closed_count": 142,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -4.99,
@@ -3375,9 +3362,9 @@
         "closed_count": 117
       },
       "John": {
-        "realized_pnl_usd": -7.92,
-        "win_rate_pct": 25.0,
-        "closed_count": 24
+        "realized_pnl_usd": -9.23,
+        "win_rate_pct": 24.0,
+        "closed_count": 25
       }
     },
     "live_trade_count_total": 185,
@@ -3386,9 +3373,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-01T02:08Z",
-    "checked": 12,
-    "in_parity": 12,
+    "feed_generated_utc": "2026-09-01T04:07Z",
+    "checked": 11,
+    "in_parity": 11,
     "drifting": []
   }
 }
