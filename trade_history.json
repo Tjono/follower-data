@@ -2840,6 +2840,18 @@
       "braam_trade_id": "RENDERUSDT_20260828_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-08-28T18:09:30Z"
+    },
+    "1486434669": {
+      "position_id": "1486434669",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.08743,
+      "opened_at": "2026-09-01T01:48:08Z",
+      "margin_usd": 19.529856370798793,
+      "braam_trade_id": "ALGOUSDT_20260831_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-31T04:08:52Z"
     }
   },
   "orders": {
@@ -5445,7 +5457,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-01T00:10:11Z",
+  "updated": "2026-09-01T02:10:10Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17166,6 +17178,14 @@
       "unrealized": 1.8855,
       "realized": -15.0901,
       "total": -13.2046
+    },
+    {
+      "ts": "2026-09-01T02:10:10Z",
+      "equity": 392.2466,
+      "available": 160.5712,
+      "unrealized": 1.9749,
+      "realized": -15.0901,
+      "total": -13.1152
     }
   ],
   "capital_events": {
