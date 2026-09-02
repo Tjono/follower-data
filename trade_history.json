@@ -2746,8 +2746,16 @@
       "opened_at": "2026-08-26T15:02:22Z",
       "margin_usd": 19.620576444264,
       "braam_trade_id": "XRPUSDT_20260826_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-26T12:08:59Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-26T12:08:59Z",
+      "closed_at": "2026-09-02T10:49:27Z",
+      "close_price": 1.3134,
+      "pnl_usd": -2.3732,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0803
     },
     "1483362909": {
       "position_id": "1483362909",
@@ -2880,6 +2888,18 @@
       "close_reason": "tp1_breakeven",
       "close_fills": 2,
       "fees_usd": 0.0827
+    },
+    "1487699981": {
+      "position_id": "1487699981",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2362.39,
+      "opened_at": "2026-09-02T10:32:11Z",
+      "margin_usd": 15.787064749174,
+      "braam_trade_id": "ETHUSDT_20260831_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-02T04:08:47Z"
     }
   },
   "orders": {
@@ -5611,7 +5631,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-02T08:09:33Z",
+  "updated": "2026-09-02T11:31:01Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17492,6 +17512,14 @@
       "unrealized": 0.3021,
       "realized": -15.4371,
       "total": -15.135
+    },
+    {
+      "ts": "2026-09-02T11:31:01Z",
+      "equity": 387.7269,
+      "available": 177.3881,
+      "unrealized": 0.017,
+      "realized": -17.8103,
+      "total": -17.7933
     }
   ],
   "capital_events": {
