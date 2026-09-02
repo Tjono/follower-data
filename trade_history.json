@@ -5600,9 +5600,18 @@
       "resting_at": "2026-09-02T04:08:41Z",
       "braam_trade_id": "NEARUSDT_20260826_CJ_001",
       "status": "RESTING"
+    },
+    "850043280116134912": {
+      "order_id": "850043280116134912",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 1.776,
+      "resting_at": "2026-09-02T08:08:30Z",
+      "braam_trade_id": "NEARUSDT_20260826_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-02T04:49:51Z",
+  "updated": "2026-09-02T08:09:33Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17475,6 +17484,14 @@
       "unrealized": 0.6626,
       "realized": -15.4371,
       "total": -14.7745
+    },
+    {
+      "ts": "2026-09-02T08:09:33Z",
+      "equity": 390.3301,
+      "available": 160.0479,
+      "unrealized": 0.3021,
+      "realized": -15.4371,
+      "total": -15.135
     }
   ],
   "capital_events": {
