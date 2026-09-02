@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-02T16:09:30Z",
+  "last_updated_iso": "2026-09-02T16:43:12Z",
   "mexc_account": {
-    "unrealized_pnl": 0.8564,
-    "equity": 388.558,
-    "available": 119.4487,
+    "unrealized_pnl": 0.8572,
+    "equity": 388.5588,
+    "available": 99.9268,
     "position_margin": 35.4201
   },
   "order_levels": {
-    "checked": 14,
-    "in_sync": 14,
+    "checked": 15,
+    "in_sync": 15,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (12 resting = journal)",
+      "value": "in sync (13 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open, 2 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -544,6 +544,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "RENDERUSDT_20260902_CJ_001",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "entry_price": 1.45583486,
+      "sl": 1.48914378,
+      "tp1": 1.26136895,
+      "tp2": 1.23671245,
+      "capital_usd": 19.43,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-09-02",
+      "time_opened_utc": "16:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -581,6 +614,19 @@
       "entry_price": 1.30240186,
       "tp1": 1.43681962,
       "sl": 1.27443012,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-09-02T16:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "RENDERUSDT_20260902_CJ_001",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 1.45583486,
+      "tp1": 1.26136895,
+      "sl": 1.48914378,
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-09-02T16:04:00Z",
@@ -3531,15 +3577,15 @@
         "closed_count": 27
       }
     },
-    "live_trade_count_total": 193,
-    "live_real_count": 193,
+    "live_trade_count_total": 194,
+    "live_real_count": 194,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
     "feed_generated_utc": "2026-09-02T16:07Z",
-    "checked": 14,
-    "in_parity": 14,
+    "checked": 15,
+    "in_parity": 15,
     "drifting": []
   }
 }

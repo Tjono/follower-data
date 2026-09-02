@@ -5656,9 +5656,18 @@
       "resting_at": "2026-09-02T16:08:45Z",
       "braam_trade_id": "XRPUSDT_20260902_CJ_001",
       "status": "RESTING"
+    },
+    "850172638391093824": {
+      "order_id": "850172638391093824",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "entry_price": 1.456,
+      "resting_at": "2026-09-02T16:42:32Z",
+      "braam_trade_id": "RENDERUSDT_20260902_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-02T16:09:48Z",
+  "updated": "2026-09-02T16:43:29Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17579,6 +17588,14 @@
       "unrealized": 0.8564,
       "realized": -17.8103,
       "total": -16.9539
+    },
+    {
+      "ts": "2026-09-02T16:43:29Z",
+      "equity": 388.5588,
+      "available": 99.9268,
+      "unrealized": 0.8572,
+      "realized": -17.8103,
+      "total": -16.9531
     }
   ],
   "capital_events": {
