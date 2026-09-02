@@ -5647,9 +5647,18 @@
       "resting_at": "2026-09-02T12:09:12Z",
       "braam_trade_id": "SUIUSDT_20260902_CJ_001",
       "status": "RESTING"
+    },
+    "850164137274250240": {
+      "order_id": "850164137274250240",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.3024,
+      "resting_at": "2026-09-02T16:08:45Z",
+      "braam_trade_id": "XRPUSDT_20260902_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-02T12:10:07Z",
+  "updated": "2026-09-02T16:09:48Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17562,6 +17571,14 @@
       "unrealized": 0.1112,
       "realized": -17.8103,
       "total": -17.6991
+    },
+    {
+      "ts": "2026-09-02T16:09:48Z",
+      "equity": 388.558,
+      "available": 119.4487,
+      "unrealized": 0.8564,
+      "realized": -17.8103,
+      "total": -16.9539
     }
   ],
   "capital_events": {
