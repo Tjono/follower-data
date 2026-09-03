@@ -2900,6 +2900,30 @@
       "braam_trade_id": "ETHUSDT_20260831_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-02T04:08:47Z"
+    },
+    "1488355836": {
+      "position_id": "1488355836",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.761,
+      "opened_at": "2026-09-03T01:43:04Z",
+      "margin_usd": 19.59464909412041,
+      "braam_trade_id": "SUIUSDT_20260831_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-08-31T20:09:23Z"
+    },
+    "1488357627": {
+      "position_id": "1488357627",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 5.687,
+      "opened_at": "2026-09-03T01:47:35Z",
+      "margin_usd": 19.382205726642,
+      "braam_trade_id": "UNIUSDT_20260901_CJ_002",
+      "status": "OPEN",
+      "resting_at": "2026-09-03T00:09:17Z"
     }
   },
   "orders": {
@@ -5703,7 +5727,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-03T00:23:49Z",
+  "updated": "2026-09-03T02:10:33Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17664,6 +17688,14 @@
       "unrealized": 0.7548,
       "realized": -17.8103,
       "total": -17.0555
+    },
+    {
+      "ts": "2026-09-03T02:10:33Z",
+      "equity": 389.4319,
+      "available": 81.2516,
+      "unrealized": 1.8104,
+      "realized": -17.8103,
+      "total": -15.9999
     }
   ],
   "capital_events": {
