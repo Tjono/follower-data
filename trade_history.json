@@ -2932,6 +2932,18 @@
       "braam_trade_id": "UNIUSDT_20260901_CJ_002",
       "status": "OPEN",
       "resting_at": "2026-09-03T00:09:17Z"
+    },
+    "1488568035": {
+      "position_id": "1488568035",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 223.45,
+      "opened_at": "2026-09-03T08:06:17Z",
+      "margin_usd": 19.42745069578841,
+      "braam_trade_id": "TAOUSDT_20260902_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-02T12:09:14Z"
     }
   },
   "orders": {
@@ -5751,9 +5763,18 @@
       "resting_at": "2026-09-03T04:09:13Z",
       "braam_trade_id": "XRPUSDT_20260902_CJ_001",
       "status": "RESTING"
+    },
+    "850405837955561536": {
+      "order_id": "850405837955561536",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 212.87,
+      "resting_at": "2026-09-03T08:09:11Z",
+      "braam_trade_id": "TAOUSDT_20260822_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-03T06:31:05Z",
+  "updated": "2026-09-03T08:10:26Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17746,6 +17767,14 @@
       "unrealized": 2.492,
       "realized": -19.3796,
       "total": -16.8876
+    },
+    {
+      "ts": "2026-09-03T08:10:26Z",
+      "equity": 389.7988,
+      "available": 80.4283,
+      "unrealized": 3.7088,
+      "realized": -19.3796,
+      "total": -15.6708
     }
   ],
   "capital_events": {
