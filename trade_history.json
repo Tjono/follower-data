@@ -5674,9 +5674,36 @@
       "resting_at": "2026-09-02T20:08:41Z",
       "braam_trade_id": "NEARUSDT_20260826_CJ_001",
       "status": "RESTING"
+    },
+    "850285085006894592": {
+      "order_id": "850285085006894592",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.5665,
+      "resting_at": "2026-09-03T00:09:21Z",
+      "braam_trade_id": "APTUSDT_20260903_CJ_001",
+      "status": "RESTING"
+    },
+    "850285078973958720": {
+      "order_id": "850285078973958720",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "entry_price": 1.461,
+      "resting_at": "2026-09-03T00:09:20Z",
+      "braam_trade_id": "RENDERUSDT_20260902_CJ_001",
+      "status": "RESTING"
+    },
+    "850285064704365056": {
+      "order_id": "850285064704365056",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 5.687,
+      "resting_at": "2026-09-03T00:09:16Z",
+      "braam_trade_id": "UNIUSDT_20260901_CJ_002",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-02T21:10:29Z",
+  "updated": "2026-09-03T00:10:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17621,6 +17648,14 @@
       "unrealized": 0.905,
       "realized": -17.8103,
       "total": -16.9053
+    },
+    {
+      "ts": "2026-09-03T00:10:19Z",
+      "equity": 388.5439,
+      "available": 81.2283,
+      "unrealized": 0.8524,
+      "realized": -17.8103,
+      "total": -16.9579
     }
   ],
   "capital_events": {
