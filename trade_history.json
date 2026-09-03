@@ -5838,9 +5838,18 @@
       "resting_at": "2026-09-03T16:09:10Z",
       "braam_trade_id": "DOGEUSDT_20260903_CJ_001",
       "status": "RESTING"
+    },
+    "850587056295340545": {
+      "order_id": "850587056295340545",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.1721,
+      "resting_at": "2026-09-03T20:09:17Z",
+      "braam_trade_id": "THETAUSDT_20260903_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-03T16:35:00Z",
+  "updated": "2026-09-03T20:10:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17929,6 +17938,14 @@
       "unrealized": 1.3373,
       "realized": -19.3913,
       "total": -18.054
+    },
+    {
+      "ts": "2026-09-03T20:10:15Z",
+      "equity": 390.9271,
+      "available": 109.3705,
+      "unrealized": 1.4278,
+      "realized": -19.3913,
+      "total": -17.9635
     }
   ],
   "capital_events": {
