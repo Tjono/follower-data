@@ -5829,9 +5829,18 @@
       "resting_at": "2026-09-03T12:09:02Z",
       "braam_trade_id": "ONDOUSDT_20260903_CJ_001",
       "status": "RESTING"
+    },
+    "850526630706713088": {
+      "order_id": "850526630706713088",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "entry_price": 0.08542,
+      "resting_at": "2026-09-03T16:09:10Z",
+      "braam_trade_id": "DOGEUSDT_20260903_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-03T15:56:11Z",
+  "updated": "2026-09-03T16:10:10Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17904,6 +17913,14 @@
       "unrealized": 1.4405,
       "realized": -19.3913,
       "total": -17.9508
+    },
+    {
+      "ts": "2026-09-03T16:10:10Z",
+      "equity": 391.077,
+      "available": 128.9665,
+      "unrealized": 1.58,
+      "realized": -19.3913,
+      "total": -17.8113
     }
   ],
   "capital_events": {
