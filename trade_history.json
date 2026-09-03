@@ -2930,8 +2930,16 @@
       "opened_at": "2026-09-03T01:47:35Z",
       "margin_usd": 19.382205726642,
       "braam_trade_id": "UNIUSDT_20260901_CJ_002",
-      "status": "OPEN",
-      "resting_at": "2026-09-03T00:09:17Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-03T00:09:17Z",
+      "closed_at": "2026-09-03T12:56:51Z",
+      "close_price": 5.969,
+      "pnl_usd": 2.7907,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0834
     },
     "1488568035": {
       "position_id": "1488568035",
@@ -2944,6 +2952,18 @@
       "braam_trade_id": "TAOUSDT_20260902_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-02T12:09:14Z"
+    },
+    "1488756356": {
+      "position_id": "1488756356",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.3574,
+      "opened_at": "2026-09-03T12:32:12Z",
+      "margin_usd": 19.122146420434177,
+      "braam_trade_id": "ONDOUSDT_20260831_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-01T00:09:11Z"
     }
   },
   "orders": {
@@ -5783,7 +5803,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-03T12:10:10Z",
+  "updated": "2026-09-03T13:14:52Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -17824,6 +17844,14 @@
       "unrealized": 4.2854,
       "realized": -19.3796,
       "total": -15.0942
+    },
+    {
+      "ts": "2026-09-03T13:14:52Z",
+      "equity": 392.8312,
+      "available": 83.1356,
+      "unrealized": 3.949,
+      "realized": -16.5889,
+      "total": -12.6399
     }
   ],
   "capital_events": {
