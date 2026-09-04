@@ -5892,9 +5892,18 @@
       "resting_at": "2026-09-04T04:09:31Z",
       "braam_trade_id": "XRPUSDT_20260902_CJ_001",
       "status": "RESTING"
+    },
+    "850828633961900546": {
+      "order_id": "850828633961900546",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 1.779,
+      "resting_at": "2026-09-04T12:09:13Z",
+      "braam_trade_id": "NEARUSDT_20260826_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-04T11:31:15Z",
+  "updated": "2026-09-04T12:10:37Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18039,6 +18048,14 @@
       "unrealized": 1.8771,
       "realized": -19.3913,
       "total": -17.5142
+    },
+    {
+      "ts": "2026-09-04T12:10:37Z",
+      "equity": 391.2918,
+      "available": 70.116,
+      "unrealized": 1.7342,
+      "realized": -19.3913,
+      "total": -17.6571
     }
   ],
   "capital_events": {
