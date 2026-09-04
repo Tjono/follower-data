@@ -2992,6 +2992,42 @@
       "braam_trade_id": "RENDERUSDT_20260902_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-03T00:09:20Z"
+    },
+    "1489741779": {
+      "position_id": "1489741779",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.1721,
+      "opened_at": "2026-09-04T12:32:39Z",
+      "margin_usd": 19.55147767162,
+      "braam_trade_id": "THETAUSDT_20260903_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-03T20:09:17Z"
+    },
+    "1489741224": {
+      "position_id": "1489741224",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 11.543,
+      "opened_at": "2026-09-04T12:32:36Z",
+      "margin_usd": 19.28450514095,
+      "braam_trade_id": "LINKUSDT_20260904_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-04T04:09:36Z"
+    },
+    "1489730625": {
+      "position_id": "1489730625",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.08542,
+      "opened_at": "2026-09-04T12:30:21Z",
+      "margin_usd": 17.12500142916,
+      "braam_trade_id": "DOGEUSDT_20260903_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-03T16:09:11Z"
     }
   },
   "orders": {
@@ -5903,7 +5939,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-04T12:10:37Z",
+  "updated": "2026-09-04T12:42:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18056,6 +18092,14 @@
       "unrealized": 1.7342,
       "realized": -19.3913,
       "total": -17.6571
+    },
+    {
+      "ts": "2026-09-04T12:42:15Z",
+      "equity": 393.9561,
+      "available": 70.1494,
+      "unrealized": 4.499,
+      "realized": -19.3913,
+      "total": -14.8923
     }
   ],
   "capital_events": {
