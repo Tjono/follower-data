@@ -3034,8 +3034,28 @@
       "opened_at": "2026-09-04T12:30:21Z",
       "margin_usd": 17.12500142916,
       "braam_trade_id": "DOGEUSDT_20260903_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-09-03T16:09:11Z",
+      "closed_at": "2026-09-05T17:58:21Z",
+      "close_price": 0.09001,
+      "pnl_usd": 2.6687,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0738
+    },
+    "1490603412": {
+      "position_id": "1490603412",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.33439,
+      "opened_at": "2026-09-05T16:53:03Z",
+      "margin_usd": 19.009220622200743,
+      "braam_trade_id": "TRXUSDT_20260901_CJ_001",
       "status": "OPEN",
-      "resting_at": "2026-09-03T16:09:11Z"
+      "resting_at": "2026-09-05T13:42:29Z"
     }
   },
   "orders": {
@@ -6073,7 +6093,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-05T16:10:14Z",
+  "updated": "2026-09-05T18:11:16Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18362,6 +18382,14 @@
       "unrealized": 6.5323,
       "realized": -17.3256,
       "total": -10.7933
+    },
+    {
+      "ts": "2026-09-05T18:11:16Z",
+      "equity": 400.2089,
+      "available": 70.0455,
+      "unrealized": 4.068,
+      "realized": -14.6569,
+      "total": -10.5889
     }
   ],
   "capital_events": {
