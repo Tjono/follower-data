@@ -5954,9 +5954,27 @@
       "resting_at": "2026-09-04T16:09:06Z",
       "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
       "status": "RESTING"
+    },
+    "851009803374696960": {
+      "order_id": "851009803374696960",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 5.931,
+      "resting_at": "2026-09-05T00:09:08Z",
+      "braam_trade_id": "UNIUSDT_20260905_CJ_001",
+      "status": "RESTING"
+    },
+    "851009781224425984": {
+      "order_id": "851009781224425984",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.08774,
+      "resting_at": "2026-09-05T00:09:02Z",
+      "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-04T20:53:39Z",
+  "updated": "2026-09-05T00:10:12Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18157,6 +18175,14 @@
       "unrealized": 1.5438,
       "realized": -17.3256,
       "total": -15.7818
+    },
+    {
+      "ts": "2026-09-05T00:10:12Z",
+      "equity": 393.3211,
+      "available": 71.59,
+      "unrealized": 1.8044,
+      "realized": -17.3256,
+      "total": -15.5212
     }
   ],
   "capital_events": {
