@@ -5990,9 +5990,18 @@
       "resting_at": "2026-09-05T04:10:21Z",
       "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
       "status": "RESTING"
+    },
+    "851130592232854016": {
+      "order_id": "851130592232854016",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 52.15,
+      "resting_at": "2026-09-05T08:09:06Z",
+      "braam_trade_id": "LTCUSDT_20260905_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-05T06:09:48Z",
+  "updated": "2026-09-05T08:10:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18233,6 +18242,14 @@
       "unrealized": 2.7746,
       "realized": -17.3256,
       "total": -14.551
+    },
+    {
+      "ts": "2026-09-05T08:10:11Z",
+      "equity": 395.7433,
+      "available": 51.9591,
+      "unrealized": 4.1887,
+      "realized": -17.3256,
+      "total": -13.1369
     }
   ],
   "capital_events": {
