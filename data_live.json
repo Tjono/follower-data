@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-05T18:27:04Z",
+  "last_updated_iso": "2026-09-05T22:07:40Z",
   "mexc_account": {
-    "unrealized_pnl": 4.0743,
-    "equity": 400.2152,
-    "available": 70.0455,
-    "position_margin": 54.0508
+    "unrealized_pnl": 2.8906,
+    "equity": 400.9231,
+    "available": 87.5783,
+    "position_margin": 38.4096
   },
   "order_levels": {
     "checked": 19,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$400.22",
+      "value": "$400.92",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 2 pre-TP1 runners)",
+      "value": "all protected (5 open, 1 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -531,7 +531,7 @@
       "date_opened": "2026-09-03",
       "time_opened_utc": "20:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -540,9 +540,9 @@
       "live_entry_fill": 0.1721,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0052,
-      "live_fees_usd": 0.0351,
+      "live_fees_usd": 0.074,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 1.9312,
       "rehearsal": false
     },
     {
@@ -713,19 +713,6 @@
   ],
   "recent_signals": [
     {
-      "trade_id": "LTCUSDT_20260905_CJ_001",
-      "coin": "LTCUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 52.15290009,
-      "tp1": 55.73993262,
-      "sl": 51.22754271,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-05T08:03:00Z",
-      "rehearsal": false
-    },
-    {
       "trade_id": "CAKEUSDT_20260905_CJ_001",
       "coin": "CAKEUSDT",
       "direction": "Long",
@@ -759,7 +746,7 @@
       "trading_system": "John",
       "entry_price": 0.17210895,
       "live_entry_fill": 0.1721,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-09-04T12:32:00Z",
       "_iso_ms": 1788525120000,
       "rehearsal": false
@@ -3806,6 +3793,12 @@
       "entry_price": 2362.38523891
     },
     {
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.17210895
+    },
+    {
       "coin": "LINKUSDT",
       "direction": "Long",
       "trading_system": "John",
@@ -3840,9 +3833,20 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-05T18:08Z",
+    "feed_generated_utc": "2026-09-05T22:07Z",
     "checked": 19,
-    "in_parity": 19,
-    "drifting": []
+    "in_parity": 18,
+    "drifting": [
+      {
+        "trade_id": "NEARUSDT_20260826_CJ_001",
+        "coin": "NEARUSDT",
+        "diffs": {
+          "status": {
+            "follower": "PENDING",
+            "master": "CANCELLED"
+          }
+        }
+      }
+    ]
   }
 }
