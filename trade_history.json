@@ -6153,9 +6153,27 @@
       "resting_at": "2026-09-06T04:09:10Z",
       "braam_trade_id": "TRXUSDT_20260829_CJ_001",
       "status": "RESTING"
+    },
+    "851492973803088384": {
+      "order_id": "851492973803088384",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 6.961,
+      "resting_at": "2026-09-06T08:09:04Z",
+      "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
+      "status": "RESTING"
+    },
+    "851492964244322304": {
+      "order_id": "851492964244322304",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.3308,
+      "resting_at": "2026-09-06T08:09:02Z",
+      "braam_trade_id": "TRXUSDT_20260829_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-06T04:52:07Z",
+  "updated": "2026-09-06T08:10:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18516,6 +18534,14 @@
       "unrealized": 2.8807,
       "realized": -11.9228,
       "total": -9.0421
+    },
+    {
+      "ts": "2026-09-06T08:10:11Z",
+      "equity": 401.5815,
+      "available": 92.2205,
+      "unrealized": 2.6652,
+      "realized": -11.9228,
+      "total": -9.2576
     }
   ],
   "capital_events": {

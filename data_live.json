@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-06T04:51:42Z",
+  "last_updated_iso": "2026-09-06T08:09:54Z",
   "mexc_account": {
-    "unrealized_pnl": 2.8807,
-    "equity": 401.8118,
-    "available": 91.7084,
+    "unrealized_pnl": 2.6652,
+    "equity": 401.5815,
+    "available": 92.2205,
     "position_margin": 34.5527
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$401.81",
+      "value": "$401.58",
       "status": "ok",
       "action": null
     },
@@ -153,10 +153,10 @@
       "trade_id": "TRXUSDT_20260829_CJ_001",
       "coin": "TRXUSDT",
       "direction": "Long",
-      "entry_price": 0.31966093,
-      "sl": 0.3180775,
-      "tp1": 0.36096613,
-      "tp2": 0.36700177,
+      "entry_price": 0.3308,
+      "sl": 0.32925824,
+      "tp1": 0.34052802,
+      "tp2": 0.36699927,
       "capital_usd": 19.75,
       "leverage": 3,
       "trading_system": "John",
@@ -186,10 +186,10 @@
       "trade_id": "AVAXUSDT_20260831_CJ_001",
       "coin": "AVAXUSDT",
       "direction": "Long",
-      "entry_price": 6.82863297,
-      "sl": 6.72217281,
+      "entry_price": 6.96113297,
+      "sl": 6.85384854,
       "tp1": 8.52282036,
-      "tp2": 9.65565437,
+      "tp2": 9.24230292,
       "capital_usd": 19.48,
       "leverage": 3,
       "trading_system": "John",
@@ -3814,7 +3814,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-06T04:08Z",
+    "feed_generated_utc": "2026-09-06T08:07Z",
     "checked": 18,
     "in_parity": 18,
     "drifting": []
