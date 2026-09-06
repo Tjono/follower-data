@@ -6210,9 +6210,27 @@
       "resting_at": "2026-09-06T12:09:28Z",
       "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
       "status": "RESTING"
+    },
+    "851613990907320832": {
+      "order_id": "851613990907320832",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "entry_price": 0.08525,
+      "resting_at": "2026-09-06T16:09:57Z",
+      "braam_trade_id": "DOGEUSDT_20260906_CJ_001",
+      "status": "RESTING"
+    },
+    "851613955754702848": {
+      "order_id": "851613955754702848",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 6.96,
+      "resting_at": "2026-09-06T16:09:49Z",
+      "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-06T15:44:53Z",
+  "updated": "2026-09-06T16:11:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18621,6 +18639,14 @@
       "unrealized": 3.1848,
       "realized": -11.9228,
       "total": -8.738
+    },
+    {
+      "ts": "2026-09-06T16:11:11Z",
+      "equity": 401.9404,
+      "available": 72.0038,
+      "unrealized": 3.0657,
+      "realized": -11.9228,
+      "total": -8.8571
     }
   ],
   "capital_events": {
