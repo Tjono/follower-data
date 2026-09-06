@@ -6117,9 +6117,45 @@
       "resting_at": "2026-09-06T00:08:55Z",
       "braam_trade_id": "TAOUSDT_20260822_CJ_001",
       "status": "RESTING"
+    },
+    "851432644477606400": {
+      "order_id": "851432644477606400",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.926,
+      "resting_at": "2026-09-06T04:09:21Z",
+      "braam_trade_id": "LINKUSDT_20260906_CJ_001",
+      "status": "RESTING"
+    },
+    "851432624382678528": {
+      "order_id": "851432624382678528",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.3684,
+      "resting_at": "2026-09-06T04:09:16Z",
+      "braam_trade_id": "XRPUSDT_20260902_CJ_001",
+      "status": "RESTING"
+    },
+    "851432609958737920": {
+      "order_id": "851432609958737920",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 6.829,
+      "resting_at": "2026-09-06T04:09:12Z",
+      "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
+      "status": "RESTING"
+    },
+    "851432599691129856": {
+      "order_id": "851432599691129856",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.31966,
+      "resting_at": "2026-09-06T04:09:10Z",
+      "braam_trade_id": "TRXUSDT_20260829_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-06T02:10:33Z",
+  "updated": "2026-09-06T04:10:24Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18464,6 +18500,14 @@
       "unrealized": 2.9436,
       "realized": -11.9228,
       "total": -8.9792
+    },
+    {
+      "ts": "2026-09-06T04:10:24Z",
+      "equity": 401.7385,
+      "available": 91.7084,
+      "unrealized": 2.8074,
+      "realized": -11.9228,
+      "total": -9.1154
     }
   ],
   "capital_events": {
