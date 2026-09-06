@@ -3064,6 +3064,18 @@
       "braam_trade_id": "TRXUSDT_20260901_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-05T13:42:29Z"
+    },
+    "1491211514": {
+      "position_id": "1491211514",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2.152,
+      "opened_at": "2026-09-06T14:32:22Z",
+      "margin_usd": 19.41448300632,
+      "braam_trade_id": "CAKEUSDT_20260905_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-05T16:09:10Z"
     }
   },
   "orders": {
@@ -6200,7 +6212,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-06T12:10:41Z",
+  "updated": "2026-09-06T15:36:16Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18585,6 +18597,14 @@
       "unrealized": 3.0047,
       "realized": -11.9228,
       "total": -8.9181
+    },
+    {
+      "ts": "2026-09-06T15:36:16Z",
+      "equity": 401.8694,
+      "available": 72.6408,
+      "unrealized": 2.9886,
+      "realized": -11.9228,
+      "total": -8.9342
     }
   ],
   "capital_events": {
