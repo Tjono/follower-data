@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-06T16:10:46Z",
+  "last_updated_iso": "2026-09-06T18:10:19Z",
   "mexc_account": {
-    "unrealized_pnl": 3.0657,
-    "equity": 401.9404,
-    "available": 72.0038,
+    "unrealized_pnl": 3.7855,
+    "equity": 402.6602,
+    "available": 91.6066,
     "position_margin": 53.9672
   },
   "order_levels": {
-    "checked": 19,
-    "in_sync": 19,
+    "checked": 18,
+    "in_sync": 18,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$401.94",
+      "value": "$402.66",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (14 resting = journal)",
+      "value": "in sync (13 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -497,39 +497,6 @@
       "time_activated_utc": null,
       "date_opened": "2026-09-04",
       "time_opened_utc": "04:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "UNIUSDT_20260905_CJ_001",
-      "coin": "UNIUSDT",
-      "direction": "Long",
-      "entry_price": 5.73775,
-      "sl": 5.48519463,
-      "tp1": 6.686638,
-      "tp2": 7.91761074,
-      "capital_usd": 19.65,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-09-05",
-      "time_opened_utc": "00:04",
       "conviction": "MEDIUM",
       "tp1_hit": null,
       "sl_moved_to_be": null,
@@ -3836,9 +3803,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-06T16:08Z",
-    "checked": 19,
-    "in_parity": 19,
+    "feed_generated_utc": "2026-09-06T18:08Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   }
 }
