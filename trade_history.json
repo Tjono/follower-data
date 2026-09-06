@@ -2846,8 +2846,16 @@
       "opened_at": "2026-08-30T23:29:36Z",
       "margin_usd": 19.63300620414,
       "braam_trade_id": "RENDERUSDT_20260828_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-08-28T18:09:30Z"
+      "status": "CLOSED",
+      "resting_at": "2026-08-28T18:09:30Z",
+      "closed_at": "2026-09-06T20:48:59Z",
+      "close_price": 1.481,
+      "pnl_usd": 3.3305,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0849
     },
     "1486434669": {
       "position_id": "1486434669",
@@ -6230,7 +6238,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-06T18:27:11Z",
+  "updated": "2026-09-06T22:09:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18663,6 +18671,14 @@
       "unrealized": 3.7121,
       "realized": -11.9228,
       "total": -8.2107
+    },
+    {
+      "ts": "2026-09-06T22:09:57Z",
+      "equity": 403.4103,
+      "available": 96.5328,
+      "unrealized": 3.3491,
+      "realized": -8.5923,
+      "total": -5.2432
     }
   ],
   "capital_events": {
