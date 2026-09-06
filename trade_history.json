@@ -6171,9 +6171,36 @@
       "resting_at": "2026-09-06T08:09:02Z",
       "braam_trade_id": "TRXUSDT_20260829_CJ_001",
       "status": "RESTING"
+    },
+    "851553511174289920": {
+      "order_id": "851553511174289920",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 2.33,
+      "resting_at": "2026-09-06T12:09:38Z",
+      "braam_trade_id": "NEARUSDT_20260906_CJ_001",
+      "status": "RESTING"
+    },
+    "851553483625846784": {
+      "order_id": "851553483625846784",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.0901,
+      "resting_at": "2026-09-06T12:09:31Z",
+      "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
+      "status": "RESTING"
+    },
+    "851553472754364928": {
+      "order_id": "851553472754364928",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 6.829,
+      "resting_at": "2026-09-06T12:09:28Z",
+      "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-06T11:08:59Z",
+  "updated": "2026-09-06T12:10:41Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18550,6 +18577,14 @@
       "unrealized": 2.7665,
       "realized": -11.9228,
       "total": -9.1563
+    },
+    {
+      "ts": "2026-09-06T12:10:41Z",
+      "equity": 401.9204,
+      "available": 72.6292,
+      "unrealized": 3.0047,
+      "realized": -11.9228,
+      "total": -8.9181
     }
   ],
   "capital_events": {
