@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-07T18:48:05Z",
+  "last_updated_iso": "2026-09-07T22:08:29Z",
   "mexc_account": {
-    "unrealized_pnl": 1.3176,
-    "equity": 407.6181,
-    "available": 102.8726,
+    "unrealized_pnl": 1.5948,
+    "equity": 407.8917,
+    "available": 102.8691,
     "position_margin": 69.2919
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$407.62",
+      "value": "$407.89",
       "status": "ok",
       "action": null
     },
@@ -645,21 +645,7 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "RENDERUSDT_20260907_CJ_001",
-      "coin": "RENDERUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 1.46198929,
-      "tp1": 1.61679922,
-      "sl": 1.42514945,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-07T08:03:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "CAKEUSDT_20260905_CJ_001",
@@ -3867,7 +3853,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-07T18:07Z",
+    "feed_generated_utc": "2026-09-07T22:06Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
