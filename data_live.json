@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-07T00:05:34Z",
+  "last_updated_iso": "2026-09-07T00:10:24Z",
   "mexc_account": {
-    "unrealized_pnl": 4.6875,
-    "equity": 404.7406,
-    "available": 96.5247,
+    "unrealized_pnl": 4.8758,
+    "equity": 404.9289,
+    "available": 77.7577,
     "position_margin": 50.2275
   },
   "order_levels": {
-    "checked": 17,
-    "in_sync": 17,
+    "checked": 18,
+    "in_sync": 18,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (215 records)",
+      "value": "OK (216 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$404.74",
+      "value": "$404.93",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (13 resting = journal)",
+      "value": "in sync (14 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -120,10 +120,10 @@
       "trade_id": "AVAXUSDT_20260831_CJ_001",
       "coin": "AVAXUSDT",
       "direction": "Long",
-      "entry_price": 6.96048297,
-      "sl": 6.85000813,
-      "tp1": 8.52152816,
-      "tp2": 9.18398374,
+      "entry_price": 6.82943687,
+      "sl": 6.71051213,
+      "tp1": 8.5244185,
+      "tp2": 10.31197574,
       "capital_usd": 19.48,
       "leverage": 3,
       "trading_system": "John",
@@ -219,10 +219,10 @@
       "trade_id": "ALGOUSDT_20260901_CJ_001",
       "coin": "ALGOUSDT",
       "direction": "Long",
-      "entry_price": 0.09009693,
-      "sl": 0.08798807,
-      "tp1": 0.10334665,
-      "tp2": 0.11052385,
+      "entry_price": 0.09075901,
+      "sl": 0.08875148,
+      "tp1": 0.10345063,
+      "tp2": 0.11229704,
       "capital_usd": 19.63,
       "leverage": 3,
       "trading_system": "John",
@@ -483,10 +483,10 @@
       "trade_id": "LTCUSDT_20260905_CJ_001",
       "coin": "LTCUSDT",
       "direction": "Long",
-      "entry_price": 52.15290009,
-      "sl": 51.22754271,
-      "tp1": 55.73993262,
-      "tp2": 59.03491457,
+      "entry_price": 53.9447,
+      "sl": 52.91646974,
+      "tp1": 58.78223816,
+      "tp2": 64.41138808,
       "capital_usd": 19.79,
       "leverage": 3,
       "trading_system": "John",
@@ -643,6 +643,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "BTCUSDT_20260907_CJ_001",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 79102.48699386,
+      "sl": 78412.85430961,
+      "tp1": 83662.1683525,
+      "tp2": 87676.7292847,
+      "capital_usd": 20.25,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-09-07",
+      "time_opened_utc": "00:03",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -657,6 +690,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-09-06T16:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "BTCUSDT_20260907_CJ_001",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 79102.48699386,
+      "tp1": 83662.1683525,
+      "sl": 78412.85430961,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-09-07T00:03:00Z",
       "rehearsal": false
     }
   ],
@@ -3765,15 +3811,70 @@
         "closed_count": 35
       }
     },
-    "live_trade_count_total": 207,
-    "live_real_count": 207,
+    "live_trade_count_total": 208,
+    "live_real_count": 208,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
     "feed_generated_utc": "2026-09-06T22:07Z",
     "checked": 17,
-    "in_parity": 17,
-    "drifting": []
+    "in_parity": 14,
+    "drifting": [
+      {
+        "trade_id": "AVAXUSDT_20260831_CJ_001",
+        "coin": "AVAXUSDT",
+        "diffs": {
+          "tp1": {
+            "follower": 8.5244185,
+            "master": 8.52152816
+          },
+          "tp2": {
+            "follower": 10.31197574,
+            "master": 9.18398374
+          },
+          "sl": {
+            "follower": 6.71051213,
+            "master": 6.85000813
+          }
+        }
+      },
+      {
+        "trade_id": "ALGOUSDT_20260901_CJ_001",
+        "coin": "ALGOUSDT",
+        "diffs": {
+          "tp1": {
+            "follower": 0.10345063,
+            "master": 0.10334665
+          },
+          "tp2": {
+            "follower": 0.11229704,
+            "master": 0.11052385
+          },
+          "sl": {
+            "follower": 0.08875148,
+            "master": 0.08798807
+          }
+        }
+      },
+      {
+        "trade_id": "LTCUSDT_20260905_CJ_001",
+        "coin": "LTCUSDT",
+        "diffs": {
+          "tp1": {
+            "follower": 58.78223816,
+            "master": 55.73993262
+          },
+          "tp2": {
+            "follower": 64.41138808,
+            "master": 59.03491457
+          },
+          "sl": {
+            "follower": 52.91646974,
+            "master": 51.22754271
+          }
+        }
+      }
+    ]
   }
 }
