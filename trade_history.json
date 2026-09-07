@@ -3104,6 +3104,30 @@
       "braam_trade_id": "LTCUSDT_20260905_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-07T00:09:34Z"
+    },
+    "1491757927": {
+      "position_id": "1491757927",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2.33,
+      "opened_at": "2026-09-07T07:38:51Z",
+      "margin_usd": 19.4632664725,
+      "braam_trade_id": "NEARUSDT_20260906_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-06T12:09:38Z"
+    },
+    "1491759443": {
+      "position_id": "1491759443",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 79102.5,
+      "opened_at": "2026-09-07T07:40:13Z",
+      "margin_usd": 18.5015472154275,
+      "braam_trade_id": "BTCUSDT_20260907_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-07T00:09:37Z"
     }
   },
   "orders": {
@@ -6301,9 +6325,36 @@
       "resting_at": "2026-09-07T04:08:56Z",
       "braam_trade_id": "XRPUSDT_20260902_CJ_001",
       "status": "RESTING"
+    },
+    "851855429260464704": {
+      "order_id": "851855429260464704",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.462,
+      "resting_at": "2026-09-07T08:09:20Z",
+      "braam_trade_id": "RENDERUSDT_20260907_CJ_001",
+      "status": "RESTING"
+    },
+    "851855420606806080": {
+      "order_id": "851855420606806080",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 258.14,
+      "resting_at": "2026-09-07T08:09:18Z",
+      "braam_trade_id": "TAOUSDT_20260907_CJ_001",
+      "status": "RESTING"
+    },
+    "851855391225796096": {
+      "order_id": "851855391225796096",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.0901,
+      "resting_at": "2026-09-07T08:09:11Z",
+      "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-07T06:09:11Z",
+  "updated": "2026-09-07T08:10:39Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18808,6 +18859,14 @@
       "unrealized": 4.6509,
       "realized": -9.0248,
       "total": -4.3739
+    },
+    {
+      "ts": "2026-09-07T08:10:39Z",
+      "equity": 404.0425,
+      "available": 56.5315,
+      "unrealized": 4.4289,
+      "realized": -9.0248,
+      "total": -4.5959
     }
   ],
   "capital_events": {
