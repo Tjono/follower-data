@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-07T15:37:00Z",
+  "last_updated_iso": "2026-09-07T16:10:01Z",
   "mexc_account": {
-    "unrealized_pnl": 1.7071,
-    "equity": 406.6156,
-    "available": 97.5186,
+    "unrealized_pnl": 1.7922,
+    "equity": 406.6888,
+    "available": 97.5584,
     "position_margin": 73.2021
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$406.62",
+      "value": "$406.69",
       "status": "ok",
       "action": null
     },
@@ -120,10 +120,10 @@
       "trade_id": "AVAXUSDT_20260831_CJ_001",
       "coin": "AVAXUSDT",
       "direction": "Long",
-      "entry_price": 6.82943687,
-      "sl": 6.71051213,
-      "tp1": 8.5244185,
-      "tp2": 10.31197574,
+      "entry_price": 7.05992405,
+      "sl": 6.91325914,
+      "tp1": 8.51549735,
+      "tp2": 10.42248173,
       "capital_usd": 19.48,
       "leverage": 3,
       "trading_system": "John",
@@ -3898,7 +3898,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-07T15:34Z",
+    "feed_generated_utc": "2026-09-07T16:07Z",
     "checked": 18,
     "in_parity": 18,
     "drifting": []

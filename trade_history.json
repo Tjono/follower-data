@@ -6372,9 +6372,18 @@
       "resting_at": "2026-09-07T08:09:11Z",
       "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
       "status": "RESTING"
+    },
+    "851976145137447936": {
+      "order_id": "851976145137447936",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 7.06,
+      "resting_at": "2026-09-07T16:09:01Z",
+      "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-07T15:37:22Z",
+  "updated": "2026-09-07T16:10:28Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18943,6 +18952,14 @@
       "unrealized": 1.7071,
       "realized": -6.1751,
       "total": -4.468
+    },
+    {
+      "ts": "2026-09-07T16:10:28Z",
+      "equity": 406.6888,
+      "available": 97.5584,
+      "unrealized": 1.7922,
+      "realized": -6.1751,
+      "total": -4.3829
     }
   ],
   "capital_events": {
