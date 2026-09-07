@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-07T14:09:28Z",
+  "last_updated_iso": "2026-09-07T15:34:40Z",
   "mexc_account": {
-    "unrealized_pnl": 3.9239,
-    "equity": 408.868,
-    "available": 97.5067,
-    "position_margin": 53.3639
+    "unrealized_pnl": 1.6842,
+    "equity": 406.5927,
+    "available": 97.5186,
+    "position_margin": 73.2021
   },
   "order_levels": {
     "checked": 18,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$408.87",
+      "value": "$406.59",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (13 resting = journal)",
+      "value": "in sync (12 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 2 pre-TP1 runners)",
+      "value": "all protected (6 open, 3 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -617,16 +617,16 @@
       "direction": "Long",
       "entry_price": 258.13954458,
       "sl": 249.43904391,
-      "tp1": 291.95958071,
-      "tp2": 301.757,
+      "tp1": 272.5,
+      "tp2": 288,
       "capital_usd": 20.19,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-09-07",
+      "time_activated_utc": "15:15",
       "date_opened": "2026-09-07",
       "time_opened_utc": "08:03",
       "conviction": "MEDIUM",
@@ -635,11 +635,11 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 258.14,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": 0.0002,
+      "live_fees_usd": 0.0356,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -679,19 +679,6 @@
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "TAOUSDT_20260907_CJ_001",
-      "coin": "TAOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 258.13954458,
-      "tp1": 291.95958071,
-      "sl": 249.43904391,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-07T08:03:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "RENDERUSDT_20260907_CJ_001",
       "coin": "RENDERUSDT",
@@ -765,6 +752,18 @@
       "tp1_hit": false,
       "iso": "2026-09-07T07:40:00Z",
       "_iso_ms": 1788766800000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "TAOUSDT_20260907_CJ_001",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 258.13954458,
+      "live_entry_fill": 258.14,
+      "tp1_hit": false,
+      "iso": "2026-09-07T15:15:00Z",
+      "_iso_ms": 1788794100000,
       "rehearsal": false
     }
   ],
@@ -3877,7 +3876,7 @@
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
-    "deployed_trades": 159,
+    "deployed_trades": 160,
     "return_on_peak_pct": -1.72,
     "win_rate_pct": 40.9,
     "closed_count": 154,
@@ -3899,7 +3898,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-07T14:07Z",
+    "feed_generated_utc": "2026-09-07T15:34Z",
     "checked": 18,
     "in_parity": 18,
     "drifting": []
