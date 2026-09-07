@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-07T09:06:15Z",
+  "last_updated_iso": "2026-09-07T10:09:27Z",
   "mexc_account": {
-    "unrealized_pnl": 4.4384,
-    "equity": 404.052,
-    "available": 56.5315,
-    "position_margin": 89.0086
+    "unrealized_pnl": 4.08,
+    "equity": 405.5813,
+    "available": 74.2795,
+    "position_margin": 73.1482
   },
   "order_levels": {
     "checked": 19,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$404.05",
+      "value": "$405.58",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (6 open, 4 pre-TP1 runners)",
+      "value": "all protected (6 open, 3 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -465,7 +465,7 @@
       "date_opened": "2026-09-05",
       "time_opened_utc": "08:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -474,9 +474,9 @@
       "live_entry_fill": 53.94,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0087,
-      "live_fees_usd": 0.0356,
+      "live_fees_usd": 0.0751,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 1.9272,
       "rehearsal": false
     },
     {
@@ -771,7 +771,7 @@
       "trading_system": "John",
       "entry_price": 53.9447,
       "live_entry_fill": 53.94,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-09-07T03:28:00Z",
       "_iso_ms": 1788751680000,
       "rehearsal": false
@@ -3876,6 +3876,12 @@
       "direction": "Long",
       "trading_system": "John",
       "entry_price": 0.17210895
+    },
+    {
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 53.9447
     }
   ],
   "stats": {
@@ -3906,7 +3912,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-07T09:05Z",
+    "feed_generated_utc": "2026-09-07T10:07Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
