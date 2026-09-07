@@ -3018,8 +3018,16 @@
       "opened_at": "2026-09-04T12:32:39Z",
       "margin_usd": 19.55147767162,
       "braam_trade_id": "THETAUSDT_20260903_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-03T20:09:17Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-03T20:09:17Z",
+      "closed_at": "2026-09-07T16:56:51Z",
+      "close_price": 0.1819,
+      "pnl_usd": 3.2296,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0844
     },
     "1489741224": {
       "position_id": "1489741224",
@@ -6383,7 +6391,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-07T16:10:28Z",
+  "updated": "2026-09-07T18:09:26Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18960,6 +18968,14 @@
       "unrealized": 1.7922,
       "realized": -6.1751,
       "total": -4.3829
+    },
+    {
+      "ts": "2026-09-07T18:09:26Z",
+      "equity": 407.8249,
+      "available": 102.8726,
+      "unrealized": 1.5244,
+      "realized": -2.9455,
+      "total": -1.4211
     }
   ],
   "capital_events": {
