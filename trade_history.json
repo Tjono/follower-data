@@ -3084,6 +3084,18 @@
       "braam_trade_id": "CAKEUSDT_20260905_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-05T16:09:10Z"
+    },
+    "1491640030": {
+      "position_id": "1491640030",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 53.94,
+      "opened_at": "2026-09-07T03:28:27Z",
+      "margin_usd": 19.82546700222,
+      "braam_trade_id": "LTCUSDT_20260905_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-07T00:09:34Z"
     }
   },
   "orders": {
@@ -6272,9 +6284,18 @@
       "resting_at": "2026-09-07T00:09:24Z",
       "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
       "status": "RESTING"
+    },
+    "851794929020703744": {
+      "order_id": "851794929020703744",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.3341,
+      "resting_at": "2026-09-07T04:08:56Z",
+      "braam_trade_id": "XRPUSDT_20260902_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-07T00:10:46Z",
+  "updated": "2026-09-07T04:10:20Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -18739,6 +18760,14 @@
       "unrealized": 4.8758,
       "realized": -8.5923,
       "total": -3.7165
+    },
+    {
+      "ts": "2026-09-07T04:10:20Z",
+      "equity": 403.17,
+      "available": 77.8588,
+      "unrealized": 3.0989,
+      "realized": -8.5923,
+      "total": -5.4934
     }
   ],
   "capital_events": {
