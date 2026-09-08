@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-08T04:53:10Z",
+  "last_updated_iso": "2026-09-08T06:09:11Z",
   "mexc_account": {
-    "unrealized_pnl": -0.2405,
-    "equity": 406.095,
-    "available": 82.3083,
-    "position_margin": 69.2919
+    "unrealized_pnl": 0.2072,
+    "equity": 406.0035,
+    "available": 100.2707,
+    "position_margin": 50.7903
   },
   "order_levels": {
-    "checked": 18,
-    "in_sync": 18,
+    "checked": 17,
+    "in_sync": 17,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$406.10",
+      "value": "$406.00",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 3 pre-TP1 runners)",
+      "value": "all protected (4 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -541,39 +541,6 @@
       "live_exit_fill": null,
       "live_entry_slippage_pct": null,
       "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "BTCUSDT_20260907_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Long",
-      "entry_price": 79102.48699386,
-      "sl": 78412.85430961,
-      "tp1": 81391,
-      "tp2": 87676.7292847,
-      "capital_usd": 20.25,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-09-07",
-      "time_activated_utc": "07:40",
-      "date_opened": "2026-09-07",
-      "time_opened_utc": "00:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 79102.5,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.0332,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -3855,6 +3822,26 @@
       "won": true,
       "close_iso": "2026-09-07T16:56:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "BTCUSDT_20260907_CJ_001",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "status": "STOPPED",
+      "pnl_usd": -0.57,
+      "close_reason": "live MEXC exit: sl @ 78395.0",
+      "date_closed": "2026-09-08",
+      "time_closed_utc": "06:05",
+      "trading_system": "John",
+      "live_entry_fill": 79102.5,
+      "live_exit_fill": 78395.0,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0771,
+      "live_funding_usd": -0.005371,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-09-08T06:05:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
@@ -3873,15 +3860,15 @@
     }
   ],
   "stats": {
-    "realized_pnl_usd": -0.41,
-    "realized_pnl_pct": -0.01,
+    "realized_pnl_usd": -0.98,
+    "realized_pnl_pct": -0.03,
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
     "deployed_trades": 160,
-    "return_on_peak_pct": -0.19,
-    "win_rate_pct": 41.3,
-    "closed_count": 155,
+    "return_on_peak_pct": -0.46,
+    "win_rate_pct": 41.0,
+    "closed_count": 156,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -4.99,
@@ -3889,9 +3876,9 @@
         "closed_count": 117
       },
       "John": {
-        "realized_pnl_usd": 4.58,
-        "win_rate_pct": 36.8,
-        "closed_count": 38
+        "realized_pnl_usd": 4.01,
+        "win_rate_pct": 35.9,
+        "closed_count": 39
       }
     },
     "live_trade_count_total": 211,
@@ -3900,9 +3887,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-08T04:08Z",
-    "checked": 18,
-    "in_parity": 18,
+    "feed_generated_utc": "2026-09-08T06:07Z",
+    "checked": 17,
+    "in_parity": 17,
     "drifting": []
   }
 }
