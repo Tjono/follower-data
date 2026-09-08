@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-08T12:10:27Z",
+  "last_updated_iso": "2026-09-08T16:45:46Z",
   "mexc_account": {
-    "unrealized_pnl": -0.4971,
-    "equity": 405.2875,
-    "available": 119.7002,
+    "unrealized_pnl": 5.6083,
+    "equity": 411.3826,
+    "available": 119.6899,
     "position_margin": 50.7903
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$405.29",
+      "value": "$411.38",
       "status": "ok",
       "action": null
     },
@@ -614,18 +614,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "CAKEUSDT_20260905_CJ_001",
-      "coin": "CAKEUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 2.152,
-      "live_entry_fill": 2.152,
-      "tp1_hit": true,
-      "iso": "2026-09-06T14:32:00Z",
-      "_iso_ms": 1788705120000,
-      "rehearsal": false
-    },
     {
       "trade_id": "LTCUSDT_20260905_CJ_001",
       "coin": "LTCUSDT",
