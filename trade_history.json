@@ -6425,9 +6425,27 @@
       "resting_at": "2026-09-08T00:09:18Z",
       "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
       "status": "RESTING"
+    },
+    "852157478748674560": {
+      "order_id": "852157478748674560",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 53.04,
+      "resting_at": "2026-09-08T04:09:35Z",
+      "braam_trade_id": "LTCUSDT_20260908_CJ_001",
+      "status": "RESTING"
+    },
+    "852157447203326464": {
+      "order_id": "852157447203326464",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.3351,
+      "resting_at": "2026-09-08T04:09:27Z",
+      "braam_trade_id": "XRPUSDT_20260902_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-08T02:09:34Z",
+  "updated": "2026-09-08T04:10:48Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19052,6 +19070,14 @@
       "unrealized": 2.5831,
       "realized": -2.9455,
       "total": -0.3624
+    },
+    {
+      "ts": "2026-09-08T04:10:48Z",
+      "equity": 405.5424,
+      "available": 82.3083,
+      "unrealized": -0.7931,
+      "realized": -2.9455,
+      "total": -3.7386
     }
   ],
   "capital_events": {
