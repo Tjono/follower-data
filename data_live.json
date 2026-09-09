@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-09T12:08:43Z",
+  "last_updated_iso": "2026-09-09T12:11:40Z",
   "mexc_account": {
-    "unrealized_pnl": 5.2329,
-    "equity": 413.9387,
-    "available": 117.806,
+    "unrealized_pnl": 5.1758,
+    "equity": 413.8816,
+    "available": 117.7682,
     "position_margin": 35.2197
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$413.94",
+      "value": "$413.88",
       "status": "ok",
       "action": null
     },
@@ -69,9 +69,9 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (13 resting = journal)",
-      "status": "ok",
-      "action": null
+      "value": "1 ORPHAN order(s) on MEXC",
+      "status": "urgent",
+      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): AVAX_USDT Long @ 6.826 (id 852640954417821696)"
     },
     {
       "key": "position_protection",
@@ -3845,7 +3845,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-09T12:07Z",
+    "feed_generated_utc": "2026-09-09T12:09Z",
     "checked": 17,
     "in_parity": 16,
     "drifting": [
