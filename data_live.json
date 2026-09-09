@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-09T08:11:14Z",
+  "last_updated_iso": "2026-09-09T10:08:55Z",
   "mexc_account": {
-    "unrealized_pnl": 5.8462,
-    "equity": 411.6546,
-    "available": 99.3379,
-    "position_margin": 50.7903
+    "unrealized_pnl": 2.3579,
+    "equity": 411.0666,
+    "available": 117.8089,
+    "position_margin": 35.2197
   },
   "order_levels": {
     "checked": 17,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$411.65",
+      "value": "$411.07",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (4 open, 2 pre-TP1 runners)",
+      "value": "all protected (4 open, 1 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -465,7 +465,7 @@
       "date_opened": "2026-09-06",
       "time_opened_utc": "12:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -474,9 +474,9 @@
       "live_entry_fill": 2.33,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.0349,
+      "live_fees_usd": 0.0745,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 2.94,
       "rehearsal": false
     },
     {
@@ -3809,6 +3809,12 @@
       "direction": "Long",
       "trading_system": "John",
       "entry_price": 2.152
+    },
+    {
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 2.33
     }
   ],
   "stats": {
@@ -3839,7 +3845,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-09T08:08Z",
+    "feed_generated_utc": "2026-09-09T10:06Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
