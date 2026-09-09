@@ -6505,9 +6505,54 @@
       "resting_at": "2026-09-09T00:09:59Z",
       "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
       "status": "RESTING"
+    },
+    "852519876722914304": {
+      "order_id": "852519876722914304",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.1724,
+      "resting_at": "2026-09-09T04:09:37Z",
+      "braam_trade_id": "THETAUSDT_20260909_CJ_001",
+      "status": "RESTING"
+    },
+    "852519871072817664": {
+      "order_id": "852519871072817664",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 51.77,
+      "resting_at": "2026-09-09T04:09:36Z",
+      "braam_trade_id": "LTCUSDT_20260908_CJ_001",
+      "status": "RESTING"
+    },
+    "852519848784705536": {
+      "order_id": "852519848784705536",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.17203,
+      "resting_at": "2026-09-09T04:09:30Z",
+      "braam_trade_id": "XLMUSDT_20260903_CJ_001",
+      "status": "RESTING"
+    },
+    "852519832690873344": {
+      "order_id": "852519832690873344",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.09006,
+      "resting_at": "2026-09-09T04:09:27Z",
+      "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
+      "status": "RESTING"
+    },
+    "852519820238140416": {
+      "order_id": "852519820238140416",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 6.827,
+      "resting_at": "2026-09-09T04:09:24Z",
+      "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-09T00:24:06Z",
+  "updated": "2026-09-09T04:10:41Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19228,6 +19273,14 @@
       "unrealized": 2.424,
       "realized": -3.5232,
       "total": -1.0992
+    },
+    {
+      "ts": "2026-09-09T04:10:41Z",
+      "equity": 406.4606,
+      "available": 99.2224,
+      "unrealized": 0.6422,
+      "realized": -3.5232,
+      "total": -2.881
     }
   ],
   "capital_events": {
