@@ -3164,6 +3164,18 @@
       "braam_trade_id": "TAOUSDT_20260907_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-07T08:09:19Z"
+    },
+    "1493679466": {
+      "position_id": "1493679466",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 11.914,
+      "opened_at": "2026-09-09T15:21:47Z",
+      "margin_usd": 19.9043224681,
+      "braam_trade_id": "LINKUSDT_20260906_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-08T12:09:40Z"
     }
   },
   "orders": {
@@ -6597,7 +6609,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-09T14:09:30Z",
+  "updated": "2026-09-09T15:37:36Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19398,6 +19410,14 @@
       "unrealized": 4.3554,
       "realized": -3.5232,
       "total": 0.8322
+    },
+    {
+      "ts": "2026-09-09T15:37:36Z",
+      "equity": 412.1508,
+      "available": 117.7802,
+      "unrealized": 3.4808,
+      "realized": -3.5232,
+      "total": -0.0424
     }
   ],
   "capital_events": {
