@@ -6769,9 +6769,18 @@
       "resting_at": "2026-09-10T08:09:32Z",
       "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
       "status": "RESTING"
+    },
+    "853002994034297344": {
+      "order_id": "853002994034297344",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.525,
+      "resting_at": "2026-09-10T12:09:21Z",
+      "braam_trade_id": "LINKUSDT_20260910_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-10T11:33:34Z",
+  "updated": "2026-09-10T12:10:34Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19708,6 +19717,14 @@
       "unrealized": 1.1662,
       "realized": -8.9731,
       "total": -7.8069
+    },
+    {
+      "ts": "2026-09-10T12:10:34Z",
+      "equity": 403.5647,
+      "available": 91.3173,
+      "unrealized": 0.293,
+      "realized": -8.9731,
+      "total": -8.6801
     }
   ],
   "capital_events": {
