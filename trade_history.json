@@ -6834,9 +6834,36 @@
       "resting_at": "2026-09-10T12:09:21Z",
       "braam_trade_id": "LINKUSDT_20260910_CJ_001",
       "status": "RESTING"
+    },
+    "853063877028624448": {
+      "order_id": "853063877028624448",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.3567,
+      "resting_at": "2026-09-10T16:11:17Z",
+      "braam_trade_id": "ONDOUSDT_20260910_CJ_001",
+      "status": "RESTING"
+    },
+    "853063862080116224": {
+      "order_id": "853063862080116224",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.2942,
+      "resting_at": "2026-09-10T16:11:13Z",
+      "braam_trade_id": "XRPUSDT_20260902_CJ_001",
+      "status": "RESTING"
+    },
+    "853063848151102976": {
+      "order_id": "853063848151102976",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 6.956,
+      "resting_at": "2026-09-10T16:11:10Z",
+      "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-10T16:05:25Z",
+  "updated": "2026-09-10T16:12:17Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19813,6 +19840,14 @@
       "unrealized": 2.0805,
       "realized": -11.3531,
       "total": -9.2726
+    },
+    {
+      "ts": "2026-09-10T16:12:17Z",
+      "equity": 400.3414,
+      "available": 150.0622,
+      "unrealized": 1.8137,
+      "realized": -11.3531,
+      "total": -9.5394
     }
   ],
   "capital_events": {
