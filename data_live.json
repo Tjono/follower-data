@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-10T00:11:59Z",
+  "last_updated_iso": "2026-09-10T00:21:15Z",
   "mexc_account": {
-    "unrealized_pnl": 2.0628,
-    "equity": 408.9857,
+    "unrealized_pnl": 0.3389,
+    "equity": 407.2618,
     "available": 115.6591,
     "position_margin": 115.2116
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$408.99",
+      "value": "$407.26",
       "status": "ok",
       "action": null
     },
