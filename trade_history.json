@@ -3206,8 +3206,16 @@
       "opened_at": "2026-09-09T22:09:12Z",
       "margin_usd": 20.02862006686,
       "braam_trade_id": "RENDERUSDT_20260907_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-07T08:09:21Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-07T08:09:21Z",
+      "closed_at": "2026-09-10T01:38:48Z",
+      "close_price": 1.423,
+      "pnl_usd": -1.6843,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0825
     },
     "1493947075": {
       "position_id": "1493947075",
@@ -6710,7 +6718,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-10T00:21:34Z",
+  "updated": "2026-09-10T02:10:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19591,6 +19599,14 @@
       "unrealized": 0.3389,
       "realized": -5.1606,
       "total": -4.8217
+    },
+    {
+      "ts": "2026-09-10T02:10:49Z",
+      "equity": 405.3393,
+      "available": 134.0421,
+      "unrealized": 0.0621,
+      "realized": -6.8449,
+      "total": -6.7828
     }
   ],
   "capital_events": {
