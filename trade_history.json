@@ -6743,9 +6743,27 @@
       "resting_at": "2026-09-10T04:09:23Z",
       "braam_trade_id": "TRXUSDT_20260829_CJ_001",
       "status": "RESTING"
+    },
+    "852942661689985600": {
+      "order_id": "852942661689985600",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "entry_price": 1.463,
+      "resting_at": "2026-09-10T08:09:37Z",
+      "braam_trade_id": "RENDERUSDT_20260910_CJ_001",
+      "status": "RESTING"
+    },
+    "852942641363670528": {
+      "order_id": "852942641363670528",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.09003,
+      "resting_at": "2026-09-10T08:09:32Z",
+      "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-10T06:31:58Z",
+  "updated": "2026-09-10T08:10:43Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19666,6 +19684,14 @@
       "unrealized": 1.0917,
       "realized": -6.8449,
       "total": -5.7532
+    },
+    {
+      "ts": "2026-09-10T08:10:43Z",
+      "equity": 405.336,
+      "available": 93.6105,
+      "unrealized": 0.0053,
+      "realized": -6.8449,
+      "total": -6.8396
     }
   ],
   "capital_events": {
