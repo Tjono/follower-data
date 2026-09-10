@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-10T15:50:58Z",
+  "last_updated_iso": "2026-09-10T16:05:06Z",
   "mexc_account": {
-    "unrealized_pnl": 2.3361,
-    "equity": 400.8671,
-    "available": 150.2319,
+    "unrealized_pnl": 2.0805,
+    "equity": 400.6082,
+    "available": 150.2286,
     "position_margin": 52.2107
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$400.87",
+      "value": "$400.61",
       "status": "ok",
       "action": null
     },
@@ -386,7 +386,7 @@
       "direction": "Long",
       "entry_price": 51.73938428,
       "sl": 50.56260806,
-      "tp1": 56.22,
+      "tp1": 54.86,
       "tp2": 59.18,
       "capital_usd": 20.38,
       "leverage": 3,
@@ -547,19 +547,6 @@
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "XLMUSDT_20260910_CJ_001",
-      "coin": "XLMUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 0.184875,
-      "tp1": 0.16387301,
-      "sl": 0.18900218,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-10T04:04:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "RENDERUSDT_20260910_CJ_001",
       "coin": "RENDERUSDT",
@@ -3965,7 +3952,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-10T15:50Z",
+    "feed_generated_utc": "2026-09-10T16:04Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
