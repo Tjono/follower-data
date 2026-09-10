@@ -3098,8 +3098,16 @@
       "opened_at": "2026-09-06T14:32:22Z",
       "margin_usd": 19.41448300632,
       "braam_trade_id": "CAKEUSDT_20260905_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-05T16:09:10Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-05T16:09:10Z",
+      "closed_at": "2026-09-10T12:12:50Z",
+      "close_price": 2.2439,
+      "pnl_usd": 2.3856,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0832
     },
     "1491640030": {
       "position_id": "1491640030",
@@ -3202,8 +3210,16 @@
       "opened_at": "2026-09-09T22:07:33Z",
       "margin_usd": 20.407159716417,
       "braam_trade_id": "SUIUSDT_20260909_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-09T16:09:19Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-09T16:09:19Z",
+      "closed_at": "2026-09-10T12:47:17Z",
+      "close_price": 0.7459,
+      "pnl_usd": -2.2285,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0837
     },
     "1493948644": {
       "position_id": "1493948644",
@@ -3234,8 +3250,16 @@
       "opened_at": "2026-09-09T22:09:06Z",
       "margin_usd": 19.93940646775,
       "braam_trade_id": "DOGEUSDT_20260906_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-06T16:09:58Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-06T16:09:58Z",
+      "closed_at": "2026-09-10T12:47:18Z",
+      "close_price": 0.0831,
+      "pnl_usd": -1.5858,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0823
     },
     "1493949559": {
       "position_id": "1493949559",
@@ -3246,8 +3270,40 @@
       "opened_at": "2026-09-09T22:09:16Z",
       "margin_usd": 19.6167506176355,
       "braam_trade_id": "HBARUSDT_20260904_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-09-04T04:09:37Z",
+      "closed_at": "2026-09-10T12:47:29Z",
+      "close_price": 0.07483,
+      "pnl_usd": -0.9513,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0814
+    },
+    "1494394218": {
+      "position_id": "1494394218",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 51.74,
+      "opened_at": "2026-09-10T12:47:11Z",
+      "margin_usd": 20.399909023156,
+      "braam_trade_id": "LTCUSDT_20260908_CJ_001",
       "status": "OPEN",
-      "resting_at": "2026-09-04T04:09:37Z"
+      "resting_at": "2026-09-09T20:09:07Z"
+    },
+    "1494395592": {
+      "position_id": "1494395592",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 11.525,
+      "opened_at": "2026-09-10T12:47:18Z",
+      "margin_usd": 20.0246104669,
+      "braam_trade_id": "LINKUSDT_20260910_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-10T12:09:22Z"
     }
   },
   "orders": {
@@ -6780,7 +6836,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-10T12:10:34Z",
+  "updated": "2026-09-10T13:02:09Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19725,6 +19781,14 @@
       "unrealized": 0.293,
       "realized": -8.9731,
       "total": -8.6801
+    },
+    {
+      "ts": "2026-09-10T13:02:09Z",
+      "equity": 400.3157,
+      "available": 150.2319,
+      "unrealized": 1.7847,
+      "realized": -11.3531,
+      "total": -9.5684
     }
   ],
   "capital_events": {
