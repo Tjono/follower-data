@@ -6861,9 +6861,36 @@
       "resting_at": "2026-09-10T16:11:10Z",
       "braam_trade_id": "AVAXUSDT_20260831_CJ_001",
       "status": "RESTING"
+    },
+    "853123782182778880": {
+      "order_id": "853123782182778880",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.0897,
+      "resting_at": "2026-09-10T20:09:19Z",
+      "braam_trade_id": "CAKEUSDT_20260910_CJ_001",
+      "status": "RESTING"
+    },
+    "853123774280741888": {
+      "order_id": "853123774280741888",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "entry_price": 0.7606,
+      "resting_at": "2026-09-10T20:09:17Z",
+      "braam_trade_id": "SUIUSDT_20260910_CJ_001",
+      "status": "RESTING"
+    },
+    "853123743340546560": {
+      "order_id": "853123743340546560",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.08857,
+      "resting_at": "2026-09-10T20:09:10Z",
+      "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-10T16:34:19Z",
+  "updated": "2026-09-10T20:10:30Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19856,6 +19883,14 @@
       "unrealized": 1.2865,
       "realized": -11.3531,
       "total": -10.0666
+    },
+    {
+      "ts": "2026-09-10T20:10:30Z",
+      "equity": 401.3517,
+      "available": 110.3467,
+      "unrealized": 2.824,
+      "realized": -11.3531,
+      "total": -8.5291
     }
   ],
   "capital_events": {
