@@ -2906,8 +2906,16 @@
       "opened_at": "2026-09-02T10:32:11Z",
       "margin_usd": 15.787064749174,
       "braam_trade_id": "ETHUSDT_20260831_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-02T04:08:47Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-02T04:08:47Z",
+      "closed_at": "2026-09-11T13:49:10Z",
+      "close_price": 2510.75,
+      "pnl_usd": 2.8664,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0684
     },
     "1488355836": {
       "position_id": "1488355836",
@@ -3138,8 +3146,16 @@
       "opened_at": "2026-09-07T07:38:51Z",
       "margin_usd": 19.4632664725,
       "braam_trade_id": "NEARUSDT_20260906_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-06T12:09:38Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-06T12:09:38Z",
+      "closed_at": "2026-09-11T13:43:15Z",
+      "close_price": 2.503,
+      "pnl_usd": 4.2081,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0849
     },
     "1491759443": {
       "position_id": "1491759443",
@@ -3326,8 +3342,40 @@
       "opened_at": "2026-09-11T12:47:31Z",
       "margin_usd": 19.08469397920781,
       "braam_trade_id": "ONDOUSDT_20260910_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-09-10T16:11:17Z",
+      "closed_at": "2026-09-11T13:59:14Z",
+      "close_price": 0.3666,
+      "pnl_usd": -1.6651,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0811
+    },
+    "1495267352": {
+      "position_id": "1495267352",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.18488,
+      "opened_at": "2026-09-11T14:02:16Z",
+      "margin_usd": 20.401682323189306,
+      "braam_trade_id": "XLMUSDT_20260910_CJ_001",
       "status": "OPEN",
-      "resting_at": "2026-09-10T16:11:17Z"
+      "resting_at": "2026-09-11T04:09:36Z"
+    },
+    "1495265933": {
+      "position_id": "1495265933",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.7606,
+      "opened_at": "2026-09-11T14:01:41Z",
+      "margin_usd": 20.093034079868435,
+      "braam_trade_id": "SUIUSDT_20260910_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-10T20:09:18Z"
     }
   },
   "orders": {
@@ -6986,7 +7034,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-11T13:39:39Z",
+  "updated": "2026-09-11T14:11:09Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -20091,6 +20139,14 @@
       "unrealized": 6.6559,
       "realized": -11.3531,
       "total": -4.6972
+    },
+    {
+      "ts": "2026-09-11T14:11:09Z",
+      "equity": 409.6063,
+      "available": 160.1592,
+      "unrealized": 7.4851,
+      "realized": -5.9437,
+      "total": 1.5414
     }
   ],
   "capital_events": {
