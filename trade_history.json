@@ -6933,9 +6933,36 @@
       "resting_at": "2026-09-11T04:09:31Z",
       "braam_trade_id": "THETAUSDT_20260909_CJ_001",
       "status": "RESTING"
+    },
+    "853304968630114304": {
+      "order_id": "853304968630114304",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 5.69,
+      "resting_at": "2026-09-11T08:09:18Z",
+      "braam_trade_id": "UNIUSDT_20260911_CJ_001",
+      "status": "RESTING"
+    },
+    "853304948141027840": {
+      "order_id": "853304948141027840",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.1709,
+      "resting_at": "2026-09-11T08:09:13Z",
+      "braam_trade_id": "THETAUSDT_20260909_CJ_001",
+      "status": "RESTING"
+    },
+    "853304929329543680": {
+      "order_id": "853304929329543680",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.3308,
+      "resting_at": "2026-09-11T08:09:08Z",
+      "braam_trade_id": "TRXUSDT_20260829_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-11T04:53:50Z",
+  "updated": "2026-09-11T08:10:21Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -19976,6 +20003,14 @@
       "unrealized": 2.7427,
       "realized": -11.3531,
       "total": -8.6104
+    },
+    {
+      "ts": "2026-09-11T08:10:21Z",
+      "equity": 401.1655,
+      "available": 109.3858,
+      "unrealized": 2.5833,
+      "realized": -11.3531,
+      "total": -8.7698
     }
   ],
   "capital_events": {
