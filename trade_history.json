@@ -3396,6 +3396,18 @@
       "braam_trade_id": "ETHUSDT_20260911_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-11T16:10:16Z"
+    },
+    "1496066796": {
+      "position_id": "1496066796",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2.333,
+      "opened_at": "2026-09-12T19:52:07Z",
+      "margin_usd": 20.26785953114,
+      "braam_trade_id": "NEARUSDT_20260912_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-12T16:08:50Z"
     }
   },
   "orders": {
@@ -7205,9 +7217,27 @@
       "resting_at": "2026-09-12T16:08:46Z",
       "braam_trade_id": "APTUSDT_20260903_CJ_001",
       "status": "RESTING"
+    },
+    "853848509537987136": {
+      "order_id": "853848509537987136",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.3327,
+      "resting_at": "2026-09-12T20:09:08Z",
+      "braam_trade_id": "ONDOUSDT_20260912_CJ_001",
+      "status": "RESTING"
+    },
+    "853848486783882240": {
+      "order_id": "853848486783882240",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.2942,
+      "resting_at": "2026-09-12T20:09:02Z",
+      "braam_trade_id": "XRPUSDT_20260902_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-12T18:32:15Z",
+  "updated": "2026-09-12T20:10:16Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -20472,6 +20502,14 @@
       "unrealized": 10.2029,
       "realized": -3.8483,
       "total": 6.3546
+    },
+    {
+      "ts": "2026-09-12T20:10:16Z",
+      "equity": 412.6377,
+      "available": 87.3455,
+      "unrealized": 10.539,
+      "realized": -3.8483,
+      "total": 6.6907
     }
   ],
   "capital_events": {
