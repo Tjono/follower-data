@@ -7133,9 +7133,18 @@
       "resting_at": "2026-09-12T00:09:16Z",
       "braam_trade_id": "TRXUSDT_20260829_CJ_001",
       "status": "RESTING"
+    },
+    "853606880856381440": {
+      "order_id": "853606880856381440",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 5.69,
+      "resting_at": "2026-09-12T04:08:59Z",
+      "braam_trade_id": "UNIUSDT_20260911_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-12T02:09:08Z",
+  "updated": "2026-09-12T04:10:09Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -20328,6 +20337,14 @@
       "unrealized": 9.6478,
       "realized": -3.8483,
       "total": 5.7995
+    },
+    {
+      "ts": "2026-09-12T04:10:09Z",
+      "equity": 411.9838,
+      "available": 127.572,
+      "unrealized": 9.8407,
+      "realized": -3.8483,
+      "total": 5.9924
     }
   ],
   "capital_events": {
