@@ -7306,9 +7306,54 @@
       "resting_at": "2026-09-13T06:04:34Z",
       "braam_trade_id": "TRXUSDT_20260829_CJ_001",
       "status": "RESTING"
+    },
+    "854090281207820800": {
+      "order_id": "854090281207820800",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2409.29,
+      "resting_at": "2026-09-13T12:09:51Z",
+      "braam_trade_id": "ETHUSDT_20260913_CJ_001",
+      "status": "RESTING"
+    },
+    "854090271900965376": {
+      "order_id": "854090271900965376",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 5.668,
+      "resting_at": "2026-09-13T12:09:48Z",
+      "braam_trade_id": "UNIUSDT_20260911_CJ_001",
+      "status": "RESTING"
+    },
+    "854090262005232640": {
+      "order_id": "854090262005232640",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.0912,
+      "resting_at": "2026-09-13T12:09:46Z",
+      "braam_trade_id": "CAKEUSDT_20260910_CJ_001",
+      "status": "RESTING"
+    },
+    "854090248016497152": {
+      "order_id": "854090248016497152",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.5711,
+      "resting_at": "2026-09-13T12:09:43Z",
+      "braam_trade_id": "APTUSDT_20260903_CJ_001",
+      "status": "RESTING"
+    },
+    "854090237754873856": {
+      "order_id": "854090237754873856",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.2955,
+      "resting_at": "2026-09-13T12:09:40Z",
+      "braam_trade_id": "XRPUSDT_20260902_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-13T12:07:46Z",
+  "updated": "2026-09-13T12:10:54Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -20701,6 +20746,14 @@
       "unrealized": 5.236,
       "realized": -4.887,
       "total": 0.349
+    },
+    {
+      "ts": "2026-09-13T12:10:54Z",
+      "equity": 411.8904,
+      "available": 124.5518,
+      "unrealized": 5.6262,
+      "realized": -4.887,
+      "total": 0.7392
     }
   ],
   "capital_events": {
