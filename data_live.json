@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-13T09:16:36Z",
+  "last_updated_iso": "2026-09-13T10:09:46Z",
   "mexc_account": {
-    "unrealized_pnl": 7.1779,
-    "equity": 412.4202,
-    "available": 106.9467,
-    "position_margin": 101.5966
+    "unrealized_pnl": 5.2424,
+    "equity": 412.5071,
+    "available": 125.0431,
+    "position_margin": 85.5225
   },
   "order_levels": {
     "checked": 16,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$412.42",
+      "value": "$412.51",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (6 open, 5 pre-TP1 runners)",
+      "value": "all protected (6 open, 4 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -333,7 +333,7 @@
       "date_opened": "2026-09-10",
       "time_opened_utc": "04:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -342,9 +342,9 @@
       "live_entry_fill": 0.18488,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0027,
-      "live_fees_usd": 0.0366,
+      "live_fees_usd": 0.0734,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 2.0592,
       "rehearsal": false
     },
     {
@@ -657,7 +657,7 @@
       "trading_system": "John",
       "entry_price": 0.184875,
       "live_entry_fill": 0.18488,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-09-11T14:02:00Z",
       "_iso_ms": 1789135320000,
       "rehearsal": false
@@ -4032,6 +4032,12 @@
   "recent_cancels": [],
   "tp1_hits_open": [
     {
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 0.184875
+    },
+    {
       "coin": "SUIUSDT",
       "direction": "Short",
       "trading_system": "John",
@@ -4066,7 +4072,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-13T09:13Z",
+    "feed_generated_utc": "2026-09-13T10:07Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
