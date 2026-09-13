@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-13T08:09:38Z",
+  "last_updated_iso": "2026-09-13T09:16:36Z",
   "mexc_account": {
-    "unrealized_pnl": 10.2971,
-    "equity": 412.4631,
-    "available": 87.8468,
-    "position_margin": 117.6201
+    "unrealized_pnl": 7.1779,
+    "equity": 412.4202,
+    "available": 106.9467,
+    "position_margin": 101.5966
   },
   "order_levels": {
     "checked": 16,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$412.46",
+      "value": "$412.42",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (6 open, 6 pre-TP1 runners)",
+      "value": "all protected (6 open, 5 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -320,7 +320,7 @@
       "direction": "Short",
       "entry_price": 0.184875,
       "sl": 0.18865535,
-      "tp1": 0.1741,
+      "tp1": 0.17706,
       "tp2": 0.1567,
       "capital_usd": 20.43,
       "leverage": 3,
@@ -399,7 +399,7 @@
       "date_opened": "2026-09-10",
       "time_opened_utc": "20:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -408,9 +408,9 @@
       "live_entry_fill": 0.7606,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0002,
-      "live_fees_usd": 0.036,
+      "live_fees_usd": 0.0718,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 3.1122,
       "rehearsal": false
     },
     {
@@ -645,7 +645,7 @@
       "trading_system": "John",
       "entry_price": 0.76060183,
       "live_entry_fill": 0.7606,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-09-11T14:01:00Z",
       "_iso_ms": 1789135260000,
       "rehearsal": false
@@ -4030,7 +4030,14 @@
     }
   ],
   "recent_cancels": [],
-  "tp1_hits_open": [],
+  "tp1_hits_open": [
+    {
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 0.76060183
+    }
+  ],
   "stats": {
     "realized_pnl_usd": -1.06,
     "realized_pnl_pct": -0.03,
@@ -4059,7 +4066,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-13T08:07Z",
+    "feed_generated_utc": "2026-09-13T09:13Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
