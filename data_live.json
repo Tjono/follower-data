@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-14T05:09:48Z",
+  "last_updated_iso": "2026-09-14T06:08:59Z",
   "mexc_account": {
-    "unrealized_pnl": 4.1188,
-    "equity": 415.8939,
-    "available": 140.1396,
-    "position_margin": 36.7501
+    "unrealized_pnl": 2.9047,
+    "equity": 416.2353,
+    "available": 158.0654,
+    "position_margin": 20.3799
   },
   "order_levels": {
     "checked": 17,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$415.89",
+      "value": "$416.24",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 1 pre-TP1 runners)",
+      "value": "all protected (5 open, 0 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -498,7 +498,7 @@
       "date_opened": "2026-09-12",
       "time_opened_utc": "16:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -507,9 +507,9 @@
       "live_entry_fill": 2.333,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0107,
-      "live_fees_usd": 0.0363,
+      "live_fees_usd": 0.0767,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 1.596,
       "rehearsal": false
     },
     {
@@ -681,7 +681,7 @@
       "trading_system": "John",
       "entry_price": 2.33275,
       "live_entry_fill": 2.333,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-09-12T19:52:00Z",
       "_iso_ms": 1789242720000,
       "rehearsal": false
@@ -4074,6 +4074,12 @@
       "direction": "Short",
       "trading_system": "John",
       "entry_price": 0.76060183
+    },
+    {
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 2.33275
     }
   ],
   "stats": {
@@ -4104,7 +4110,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-14T04:08Z",
+    "feed_generated_utc": "2026-09-14T06:06Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
