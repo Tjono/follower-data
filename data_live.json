@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-14T00:18:21Z",
+  "last_updated_iso": "2026-09-14T04:10:21Z",
   "mexc_account": {
-    "unrealized_pnl": 2.101,
-    "equity": 413.8208,
-    "available": 140.0912,
+    "unrealized_pnl": 4.1556,
+    "equity": 415.9307,
+    "available": 140.1396,
     "position_margin": 36.7501
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$413.82",
+      "value": "$415.93",
       "status": "ok",
       "action": null
     },
@@ -153,10 +153,10 @@
       "trade_id": "XRPUSDT_20260902_CJ_001",
       "coin": "XRPUSDT",
       "direction": "Long",
-      "entry_price": 1.29549446,
-      "sl": 1.27419971,
-      "tp1": 1.44004649,
-      "tp2": 1.47910058,
+      "entry_price": 1.32594994,
+      "sl": 1.30245733,
+      "tp1": 1.4770972,
+      "tp2": 1.51258535,
       "capital_usd": 19.43,
       "leverage": 3,
       "trading_system": "John",
@@ -186,10 +186,10 @@
       "trade_id": "APTUSDT_20260903_CJ_001",
       "coin": "APTUSDT",
       "direction": "Long",
-      "entry_price": 0.5711159,
-      "sl": 0.55215454,
-      "tp1": 0.61961371,
-      "tp2": 0.66569092,
+      "entry_price": 0.56025,
+      "sl": 0.54084068,
+      "tp1": 0.6202821,
+      "tp2": 0.70631863,
       "capital_usd": 19.43,
       "leverage": 3,
       "trading_system": "John",
@@ -4104,7 +4104,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-14T00:08Z",
+    "feed_generated_utc": "2026-09-14T04:08Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
