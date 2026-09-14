@@ -3432,6 +3432,18 @@
       "close_reason": "tp1_tp2",
       "close_fills": 2,
       "fees_usd": 0.0868
+    },
+    "1497519518": {
+      "position_id": "1497519518",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.3639,
+      "opened_at": "2026-09-14T20:18:05Z",
+      "margin_usd": 19.469919088964737,
+      "braam_trade_id": "ONDOUSDT_20260911_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-12T00:09:29Z"
     }
   },
   "orders": {
@@ -7495,7 +7507,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-14T20:10:35Z",
+  "updated": "2026-09-14T22:10:52Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21040,6 +21052,14 @@
       "unrealized": 2.0416,
       "realized": -0.3586,
       "total": 1.683
+    },
+    {
+      "ts": "2026-09-14T22:10:52Z",
+      "equity": 416.9136,
+      "available": 126.025,
+      "unrealized": 2.6236,
+      "realized": -0.3586,
+      "total": 2.265
     }
   ],
   "capital_events": {
