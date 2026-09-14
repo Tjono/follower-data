@@ -7369,9 +7369,45 @@
       "resting_at": "2026-09-13T20:09:21Z",
       "braam_trade_id": "CAKEUSDT_20260910_CJ_001",
       "status": "RESTING"
+    },
+    "854271417202906624": {
+      "order_id": "854271417202906624",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "entry_price": 0.6269,
+      "resting_at": "2026-09-14T00:09:37Z",
+      "braam_trade_id": "APTUSDT_20260914_CJ_001",
+      "status": "RESTING"
+    },
+    "854271411911850497": {
+      "order_id": "854271411911850497",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.33427,
+      "resting_at": "2026-09-14T00:09:36Z",
+      "braam_trade_id": "TRXUSDT_20260914_CJ_001",
+      "status": "RESTING"
+    },
+    "854271398846535168": {
+      "order_id": "854271398846535168",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 5.694,
+      "resting_at": "2026-09-14T00:09:32Z",
+      "braam_trade_id": "UNIUSDT_20260911_CJ_001",
+      "status": "RESTING"
+    },
+    "854271384259318336": {
+      "order_id": "854271384259318336",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "entry_price": 1.462,
+      "resting_at": "2026-09-14T00:09:29Z",
+      "braam_trade_id": "RENDERUSDT_20260910_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-13T20:59:01Z",
+  "updated": "2026-09-14T00:10:54Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -20820,6 +20856,14 @@
       "unrealized": 3.6506,
       "realized": -4.887,
       "total": -1.2364
+    },
+    {
+      "ts": "2026-09-14T00:10:54Z",
+      "equity": 413.9294,
+      "available": 140.0912,
+      "unrealized": 2.2096,
+      "realized": -4.887,
+      "total": -2.6774
     }
   ],
   "capital_events": {
