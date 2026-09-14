@@ -3370,8 +3370,16 @@
       "opened_at": "2026-09-11T14:02:16Z",
       "margin_usd": 20.401682323189306,
       "braam_trade_id": "XLMUSDT_20260910_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-11T04:09:36Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-11T04:09:36Z",
+      "closed_at": "2026-09-14T06:49:32Z",
+      "close_price": 0.17865,
+      "pnl_usd": 2.0027,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0837
     },
     "1495265933": {
       "position_id": "1495265933",
@@ -7423,9 +7431,36 @@
       "resting_at": "2026-09-14T04:09:26Z",
       "braam_trade_id": "XRPUSDT_20260902_CJ_001",
       "status": "RESTING"
+    },
+    "854392114271156736": {
+      "order_id": "854392114271156736",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.3308,
+      "resting_at": "2026-09-14T08:09:13Z",
+      "braam_trade_id": "TRXUSDT_20260914_CJ_001",
+      "status": "RESTING"
+    },
+    "854392102392575040": {
+      "order_id": "854392102392575040",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.3444,
+      "resting_at": "2026-09-14T08:09:10Z",
+      "braam_trade_id": "ONDOUSDT_20260912_CJ_001",
+      "status": "RESTING"
+    },
+    "854392080938702336": {
+      "order_id": "854392080938702336",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.355,
+      "resting_at": "2026-09-14T08:09:05Z",
+      "braam_trade_id": "XRPUSDT_20260902_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-14T06:09:17Z",
+  "updated": "2026-09-14T08:10:17Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -20914,6 +20949,14 @@
       "unrealized": 2.9047,
       "realized": -4.887,
       "total": -1.9823
+    },
+    {
+      "ts": "2026-09-14T08:10:17Z",
+      "equity": 415.7748,
+      "available": 162.6158,
+      "unrealized": 2.4596,
+      "realized": -2.8843,
+      "total": -0.4247
     }
   ],
   "capital_events": {
