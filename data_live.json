@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-15T05:04:54Z",
+  "last_updated_iso": "2026-09-15T06:08:51Z",
   "mexc_account": {
-    "unrealized_pnl": 3.8329,
-    "equity": 418.1861,
+    "unrealized_pnl": 3.8368,
+    "equity": 418.1899,
     "available": 165.5296,
     "position_margin": 31.6246
   },
@@ -4072,7 +4072,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-15T04:09Z",
+    "feed_generated_utc": "2026-09-15T06:06Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
