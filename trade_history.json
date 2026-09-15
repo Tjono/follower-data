@@ -3346,8 +3346,16 @@
       "opened_at": "2026-09-11T11:11:19Z",
       "margin_usd": 19.6505415212984,
       "braam_trade_id": "ALGOUSDT_20260901_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-10T20:09:11Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-10T20:09:11Z",
+      "closed_at": "2026-09-15T20:34:22Z",
+      "close_price": 0.09356,
+      "pnl_usd": 3.2301,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0848
     },
     "1495163172": {
       "position_id": "1495163172",
@@ -7716,7 +7724,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-15T20:16:34Z",
+  "updated": "2026-09-15T21:32:35Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21421,6 +21429,14 @@
       "unrealized": 1.0853,
       "realized": 5.688,
       "total": 6.7733
+    },
+    {
+      "ts": "2026-09-15T21:32:35Z",
+      "equity": 418.9073,
+      "available": 215.806,
+      "unrealized": 1.05,
+      "realized": 8.9181,
+      "total": 9.9681
     }
   ],
   "capital_events": {
