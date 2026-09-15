@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-15T12:09:55Z",
+  "last_updated_iso": "2026-09-15T14:09:16Z",
   "mexc_account": {
-    "unrealized_pnl": 5.001,
-    "equity": 419.3177,
-    "available": 164.7778,
-    "position_margin": 52.4735
+    "unrealized_pnl": 5.0478,
+    "equity": 421.0367,
+    "available": 183.1189,
+    "position_margin": 35.8045
   },
   "order_levels": {
     "checked": 15,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$419.32",
+      "value": "$421.04",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 2 pre-TP1 runners)",
+      "value": "all protected (5 open, 1 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -531,7 +531,7 @@
       "date_opened": "2026-09-14",
       "time_opened_utc": "20:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -540,9 +540,9 @@
       "live_entry_fill": 0.07628,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0025,
-      "live_fees_usd": 0.0374,
+      "live_fees_usd": 0.0786,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 1.71348,
       "rehearsal": false
     },
     {
@@ -614,7 +614,7 @@
       "trading_system": "John",
       "entry_price": 0.07627808,
       "live_entry_fill": 0.07628,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-09-15T08:08:00Z",
       "_iso_ms": 1789459680000,
       "rehearsal": false
@@ -4041,6 +4041,12 @@
       "direction": "Short",
       "trading_system": "John",
       "entry_price": 0.76060183
+    },
+    {
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.07627808
     }
   ],
   "stats": {
@@ -4071,7 +4077,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-15T12:07Z",
+    "feed_generated_utc": "2026-09-15T14:07Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
