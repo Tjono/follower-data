@@ -7705,9 +7705,18 @@
       "resting_at": "2026-09-15T20:09:12Z",
       "braam_trade_id": "NEARUSDT_20260915_CJ_001",
       "status": "RESTING"
+    },
+    "854937207780603904": {
+      "order_id": "854937207780603904",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.3308,
+      "resting_at": "2026-09-15T20:15:14Z",
+      "braam_trade_id": "TRXUSDT_20260915_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-15T20:10:20Z",
+  "updated": "2026-09-15T20:16:34Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21404,6 +21413,14 @@
       "unrealized": 1.0884,
       "realized": 5.688,
       "total": 6.7764
+    },
+    {
+      "ts": "2026-09-15T20:16:34Z",
+      "equity": 418.9547,
+      "available": 211.882,
+      "unrealized": 1.0853,
+      "realized": 5.688,
+      "total": 6.7733
     }
   ],
   "capital_events": {
