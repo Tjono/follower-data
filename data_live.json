@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-15T08:23:44Z",
+  "last_updated_iso": "2026-09-15T08:26:24Z",
   "mexc_account": {
-    "unrealized_pnl": 4.6309,
-    "equity": 418.9467,
+    "unrealized_pnl": 4.6644,
+    "equity": 418.9802,
     "available": 164.7769,
     "position_margin": 52.4735
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$418.95",
+      "value": "$418.98",
       "status": "ok",
       "action": null
     },
@@ -69,9 +69,9 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (10 resting = journal)",
-      "status": "ok",
-      "action": null
+      "value": "1 ORPHAN order(s) on MEXC",
+      "status": "urgent",
+      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): NEAR_USDT Long @ 2.281 (id 854758816347566592)"
     },
     {
       "key": "position_protection",
