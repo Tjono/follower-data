@@ -3444,6 +3444,18 @@
       "braam_trade_id": "ONDOUSDT_20260911_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-12T00:09:29Z"
+    },
+    "1497826046": {
+      "position_id": "1497826046",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.07628,
+      "opened_at": "2026-09-15T08:08:25Z",
+      "margin_usd": 20.8489307573432,
+      "braam_trade_id": "HBARUSDT_20260914_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-14T20:09:23Z"
     }
   },
   "orders": {
@@ -7540,9 +7552,27 @@
       "resting_at": "2026-09-15T05:04:05Z",
       "braam_trade_id": "NEARUSDT_20260915_CJ_001",
       "status": "RESTING"
+    },
+    "854754499406312448": {
+      "order_id": "854754499406312448",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 2.281,
+      "resting_at": "2026-09-15T08:09:13Z",
+      "braam_trade_id": "NEARUSDT_20260915_CJ_001",
+      "status": "RESTING"
+    },
+    "854754479634004544": {
+      "order_id": "854754479634004544",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.3328,
+      "resting_at": "2026-09-15T08:09:08Z",
+      "braam_trade_id": "ONDOUSDT_20260912_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-15T06:09:10Z",
+  "updated": "2026-09-15T08:10:24Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21151,6 +21181,14 @@
       "unrealized": 3.8368,
       "realized": -0.3586,
       "total": 3.4782
+    },
+    {
+      "ts": "2026-09-15T08:10:24Z",
+      "equity": 419.059,
+      "available": 164.7769,
+      "unrealized": 4.7432,
+      "realized": -0.3586,
+      "total": 4.3846
     }
   ],
   "capital_events": {
