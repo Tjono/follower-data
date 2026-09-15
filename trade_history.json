@@ -3470,8 +3470,16 @@
       "opened_at": "2026-09-15T08:08:25Z",
       "margin_usd": 20.8489307573432,
       "braam_trade_id": "HBARUSDT_20260914_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-14T20:09:23Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-14T20:09:23Z",
+      "closed_at": "2026-09-15T18:40:13Z",
+      "close_price": 0.07834,
+      "pnl_usd": 1.6021,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0885
     },
     "1498095677": {
       "position_id": "1498095677",
@@ -3482,8 +3490,35 @@
       "opened_at": "2026-09-15T14:46:04Z",
       "margin_usd": 16.100481812714,
       "braam_trade_id": "ETHUSDT_20260913_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-13T12:09:51Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-13T12:09:51Z",
+      "closed_at": "2026-09-15T18:37:20Z",
+      "close_price": 2388.76,
+      "pnl_usd": -0.4754,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0671
+    },
+    "1498284378": {
+      "position_id": "1498284378",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.3361,
+      "opened_at": "2026-09-15T18:40:39Z",
+      "closed_at": "2026-09-15T18:45:47Z",
+      "close_price": 1.3096,
+      "pnl_usd": -1.219,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "status": "CLOSED",
+      "braam_trade_id": "XRPUSDT_20260902_CJ_001",
+      "resting_at": "2026-09-15T00:09:07Z",
+      "close_fills": 1,
+      "fees_usd": 0.0794
     }
   },
   "orders": {
@@ -7634,9 +7669,45 @@
       "resting_at": "2026-09-15T16:09:07Z",
       "braam_trade_id": "UNIUSDT_20260911_CJ_001",
       "status": "RESTING"
+    },
+    "854935716764251136": {
+      "order_id": "854935716764251136",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.34371,
+      "resting_at": "2026-09-15T20:09:18Z",
+      "braam_trade_id": "TRXUSDT_20260915_CJ_001",
+      "status": "RESTING"
+    },
+    "854935711664059904": {
+      "order_id": "854935711664059904",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.18567,
+      "resting_at": "2026-09-15T20:09:17Z",
+      "braam_trade_id": "XLMUSDT_20260915_CJ_001",
+      "status": "RESTING"
+    },
+    "854935699823097856": {
+      "order_id": "854935699823097856",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2360.65,
+      "resting_at": "2026-09-15T20:09:14Z",
+      "braam_trade_id": "ETHUSDT_20260915_CJ_001",
+      "status": "RESTING"
+    },
+    "854935691011274240": {
+      "order_id": "854935691011274240",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 2.18,
+      "resting_at": "2026-09-15T20:09:12Z",
+      "braam_trade_id": "NEARUSDT_20260915_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-15T17:10:32Z",
+  "updated": "2026-09-15T20:10:20Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21325,6 +21396,14 @@
       "unrealized": 1.476,
       "realized": 5.7803,
       "total": 7.2563
+    },
+    {
+      "ts": "2026-09-15T20:10:20Z",
+      "equity": 418.9577,
+      "available": 211.882,
+      "unrealized": 1.0884,
+      "realized": 5.688,
+      "total": 6.7764
     }
   ],
   "capital_events": {
