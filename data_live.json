@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-15T14:09:16Z",
+  "last_updated_iso": "2026-09-15T14:51:59Z",
   "mexc_account": {
-    "unrealized_pnl": 5.0478,
-    "equity": 421.0367,
-    "available": 183.1189,
-    "position_margin": 35.8045
+    "unrealized_pnl": 1.1456,
+    "equity": 420.7138,
+    "available": 210.7747,
+    "position_margin": 27.8671
   },
   "order_levels": {
-    "checked": 15,
-    "in_sync": 15,
+    "checked": 13,
+    "in_sync": 13,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$421.04",
+      "value": "$420.71",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (10 resting = journal)",
+      "value": "in sync (9 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 1 pre-TP1 runners)",
+      "value": "all protected (4 open, 1 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -150,39 +150,6 @@
       "rehearsal": false
     },
     {
-      "trade_id": "LTCUSDT_20260908_CJ_001",
-      "coin": "LTCUSDT",
-      "direction": "Long",
-      "entry_price": 51.73938428,
-      "sl": 50.56260806,
-      "tp1": 54.09,
-      "tp2": 55.05,
-      "capital_usd": 20.38,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-09-10",
-      "time_activated_utc": "12:47",
-      "date_opened": "2026-09-08",
-      "time_opened_utc": "00:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": true,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 51.74,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0012,
-      "live_fees_usd": 0.0772,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": 2.2278,
-      "rehearsal": false
-    },
-    {
       "trade_id": "THETAUSDT_20260909_CJ_001",
       "coin": "THETAUSDT",
       "direction": "Long",
@@ -246,39 +213,6 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "SUIUSDT_20260910_CJ_001",
-      "coin": "SUIUSDT",
-      "direction": "Short",
-      "entry_price": 0.76060183,
-      "sl": 0.7831165,
-      "tp1": 0.7111,
-      "tp2": 0.698,
-      "capital_usd": 20.06,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-09-11",
-      "time_activated_utc": "14:01",
-      "date_opened": "2026-09-10",
-      "time_opened_utc": "20:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": true,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.7606,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0002,
-      "live_fees_usd": 0.0718,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": 3.1122,
       "rehearsal": false
     },
     {
@@ -366,7 +300,7 @@
       "date_opened": "2026-09-11",
       "time_opened_utc": "16:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -375,9 +309,9 @@
       "live_entry_fill": 0.3639,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0044,
-      "live_fees_usd": 0.0349,
+      "live_fees_usd": 0.0706,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 2.678,
       "rehearsal": false
     },
     {
@@ -419,16 +353,16 @@
       "direction": "Long",
       "entry_price": 2409.28726939,
       "sl": 2376.14136547,
-      "tp1": 2656.11386705,
-      "tp2": 2686.72726906,
+      "tp1": 2525.82,
+      "tp2": 2641,
       "capital_usd": 20.59,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-09-15",
+      "time_activated_utc": "14:46",
       "date_opened": "2026-09-13",
       "time_opened_utc": "12:04",
       "conviction": "MEDIUM",
@@ -437,11 +371,11 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 2409.29,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": 0.0001,
+      "live_fees_usd": 0.0289,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -602,7 +536,7 @@
       "trading_system": "John",
       "entry_price": 0.36388381,
       "live_entry_fill": 0.3639,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-09-14T20:18:00Z",
       "_iso_ms": 1789417080000,
       "rehearsal": false
@@ -617,6 +551,18 @@
       "tp1_hit": true,
       "iso": "2026-09-15T08:08:00Z",
       "_iso_ms": 1789459680000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ETHUSDT_20260913_CJ_001",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 2409.28726939,
+      "live_entry_fill": 2409.29,
+      "tp1_hit": false,
+      "iso": "2026-09-15T14:46:00Z",
+      "_iso_ms": 1789483560000,
       "rehearsal": false
     }
   ],
@@ -4020,6 +3966,46 @@
       "won": true,
       "close_iso": "2026-09-14T17:11:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "SUIUSDT_20260910_CJ_001",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "status": "TP2_HIT",
+      "pnl_usd": 4.02,
+      "close_reason": "live MEXC exit: tp2 @ 0.6989",
+      "date_closed": "2026-09-15",
+      "time_closed_utc": "14:40",
+      "trading_system": "John",
+      "live_entry_fill": 0.7606,
+      "live_exit_fill": 0.6989,
+      "live_entry_slippage_pct": 0.0002,
+      "live_fees_usd": 0.0807,
+      "live_funding_usd": -0.002081,
+      "pnl_estimated": null,
+      "won": true,
+      "close_iso": "2026-09-15T14:40:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "LTCUSDT_20260908_CJ_001",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "status": "STOPPED_AFTER_TP1",
+      "pnl_usd": 2.15,
+      "close_reason": "live MEXC exit: sl @ 51.73",
+      "date_closed": "2026-09-15",
+      "time_closed_utc": "14:50",
+      "trading_system": "John",
+      "live_entry_fill": 51.74,
+      "live_exit_fill": 51.73,
+      "live_entry_slippage_pct": 0.0012,
+      "live_fees_usd": 0.0871,
+      "live_funding_usd": -0.015559,
+      "pnl_estimated": null,
+      "won": true,
+      "close_iso": "2026-09-15T14:50:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
@@ -4031,16 +4017,10 @@
       "entry_price": 0.08857088
     },
     {
-      "coin": "LTCUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 51.73938428
-    },
-    {
-      "coin": "SUIUSDT",
+      "coin": "ONDOUSDT",
       "direction": "Short",
       "trading_system": "John",
-      "entry_price": 0.76060183
+      "entry_price": 0.36388381
     },
     {
       "coin": "HBARUSDT",
@@ -4050,15 +4030,15 @@
     }
   ],
   "stats": {
-    "realized_pnl_usd": 2.39,
-    "realized_pnl_pct": 0.07,
+    "realized_pnl_usd": 8.56,
+    "realized_pnl_pct": 0.26,
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
-    "deployed_trades": 175,
-    "return_on_peak_pct": 1.11,
-    "win_rate_pct": 41.2,
-    "closed_count": 170,
+    "deployed_trades": 176,
+    "return_on_peak_pct": 3.98,
+    "win_rate_pct": 41.9,
+    "closed_count": 172,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -4.99,
@@ -4066,9 +4046,9 @@
         "closed_count": 117
       },
       "John": {
-        "realized_pnl_usd": 7.38,
-        "win_rate_pct": 37.7,
-        "closed_count": 53
+        "realized_pnl_usd": 13.56,
+        "win_rate_pct": 40.0,
+        "closed_count": 55
       }
     },
     "live_trade_count_total": 231,
@@ -4077,9 +4057,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-15T14:07Z",
-    "checked": 15,
-    "in_parity": 15,
+    "feed_generated_utc": "2026-09-15T14:51Z",
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   }
 }
