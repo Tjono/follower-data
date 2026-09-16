@@ -7811,9 +7811,36 @@
       "resting_at": "2026-09-16T08:08:51Z",
       "braam_trade_id": "CAKEUSDT_20260910_CJ_001",
       "status": "RESTING"
+    },
+    "855302870420043328": {
+      "order_id": "855302870420043328",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.3606,
+      "resting_at": "2026-09-16T20:28:14Z",
+      "braam_trade_id": "ONDOUSDT_20260916_CJ_001",
+      "status": "RESTING"
+    },
+    "855302865043053056": {
+      "order_id": "855302865043053056",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.08439,
+      "resting_at": "2026-09-16T20:28:13Z",
+      "braam_trade_id": "ALGOUSDT_20260916_CJ_002",
+      "status": "RESTING"
+    },
+    "855302851554424320": {
+      "order_id": "855302851554424320",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 2.284,
+      "resting_at": "2026-09-16T20:28:10Z",
+      "braam_trade_id": "NEARUSDT_20260915_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-16T18:16:23Z",
+  "updated": "2026-09-16T20:29:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21603,6 +21630,14 @@
       "ts": "2026-09-16T18:16:23Z",
       "equity": 419.0223,
       "available": 178.1238,
+      "unrealized": 0.0,
+      "realized": 12.6403,
+      "total": 12.6403
+    },
+    {
+      "ts": "2026-09-16T20:29:11Z",
+      "equity": 419.0223,
+      "available": 157.2303,
       "unrealized": 0.0,
       "realized": 12.6403,
       "total": 12.6403
