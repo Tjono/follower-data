@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-16T00:32:59Z",
+  "last_updated_iso": "2026-09-16T04:09:45Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 418.9654,
-    "available": 177.6494,
+    "equity": 419.0223,
+    "available": 177.5937,
     "position_margin": 0.0
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$418.97",
+      "value": "$419.02",
       "status": "ok",
       "action": null
     },
@@ -186,10 +186,10 @@
       "trade_id": "UNIUSDT_20260911_CJ_001",
       "coin": "UNIUSDT",
       "direction": "Long",
-      "entry_price": 5.68961779,
-      "sl": 5.41515503,
-      "tp1": 6.6678789,
-      "tp2": 8.31568993,
+      "entry_price": 5.66763676,
+      "sl": 5.39899277,
+      "tp1": 6.66357985,
+      "tp2": 8.23401446,
       "capital_usd": 20.04,
       "leverage": 3,
       "trading_system": "John",
@@ -4169,7 +4169,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-16T00:07Z",
+    "feed_generated_utc": "2026-09-16T04:07Z",
     "checked": 12,
     "in_parity": 12,
     "drifting": []
