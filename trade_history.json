@@ -7730,9 +7730,54 @@
       "resting_at": "2026-09-15T20:15:14Z",
       "braam_trade_id": "TRXUSDT_20260915_CJ_001",
       "status": "RESTING"
+    },
+    "854996177950427648": {
+      "order_id": "854996177950427648",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.07795,
+      "resting_at": "2026-09-16T00:09:33Z",
+      "braam_trade_id": "HBARUSDT_20260916_CJ_001",
+      "status": "RESTING"
+    },
+    "854996171809184256": {
+      "order_id": "854996171809184256",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 78038.2,
+      "resting_at": "2026-09-16T00:09:32Z",
+      "braam_trade_id": "BTCUSDT_20260916_CJ_001",
+      "status": "RESTING"
+    },
+    "854996151869879296": {
+      "order_id": "854996151869879296",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 2.218,
+      "resting_at": "2026-09-16T00:09:27Z",
+      "braam_trade_id": "NEARUSDT_20260915_CJ_001",
+      "status": "RESTING"
+    },
+    "854996128289453056": {
+      "order_id": "854996128289453056",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32397,
+      "resting_at": "2026-09-16T00:09:21Z",
+      "braam_trade_id": "TRXUSDT_20260915_CJ_001",
+      "status": "RESTING"
+    },
+    "854996110568462848": {
+      "order_id": "854996110568462848",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 5.69,
+      "resting_at": "2026-09-16T00:09:17Z",
+      "braam_trade_id": "UNIUSDT_20260911_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-15T22:09:48Z",
+  "updated": "2026-09-16T00:10:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21453,6 +21498,14 @@
       "unrealized": 1.113,
       "realized": 12.6403,
       "total": 13.7533
+    },
+    {
+      "ts": "2026-09-16T00:10:32Z",
+      "equity": 418.9654,
+      "available": 177.6494,
+      "unrealized": 0.0,
+      "realized": 12.6403,
+      "total": 12.6403
     }
   ],
   "capital_events": {
