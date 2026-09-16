@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-16T07:47:47Z",
+  "last_updated_iso": "2026-09-16T08:09:44Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
     "equity": 419.0223,
-    "available": 177.5937,
+    "available": 157.0872,
     "position_margin": 0.0
   },
   "order_levels": {
-    "checked": 12,
-    "in_sync": 12,
+    "checked": 13,
+    "in_sync": 13,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (244 records)",
+      "value": "OK (245 records)",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (12 resting = journal)",
+      "value": "in sync (13 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -153,10 +153,10 @@
       "trade_id": "CAKEUSDT_20260910_CJ_001",
       "coin": "CAKEUSDT",
       "direction": "Long",
-      "entry_price": 2.15225918,
-      "sl": 2.10287257,
-      "tp1": 2.3127823,
-      "tp2": 2.59825486,
+      "entry_price": 2.09065641,
+      "sl": 2.03594407,
+      "tp1": 2.41573094,
+      "tp2": 2.46211186,
       "capital_usd": 20.06,
       "leverage": 3,
       "trading_system": "John",
@@ -219,10 +219,10 @@
       "trade_id": "TRXUSDT_20260914_CJ_001",
       "coin": "TRXUSDT",
       "direction": "Long",
-      "entry_price": 0.32397181,
-      "sl": 0.32204834,
-      "tp1": 0.35277389,
-      "tp2": 0.36711036,
+      "entry_price": 0.3308,
+      "sl": 0.32889813,
+      "tp1": 0.34571691,
+      "tp2": 0.36703536,
       "capital_usd": 20.71,
       "leverage": 3,
       "trading_system": "John",
@@ -478,48 +478,42 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "ALGOUSDT_20260916_CJ_001",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.08442483,
+      "sl": 0.08177426,
+      "tp1": 0.09219317,
+      "tp2": 0.10105149,
+      "capital_usd": 20.95,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-09-16",
+      "time_opened_utc": "08:03",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "ETHUSDT_20260915_CJ_001",
-      "coin": "ETHUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 2360.64961704,
-      "tp1": 2598.1873743,
-      "sl": 2316.46470106,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-15T20:03:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "XLMUSDT_20260915_CJ_001",
-      "coin": "XLMUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 0.18567367,
-      "tp1": 0.1620666,
-      "sl": 0.19153072,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-09-15T20:03:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "TRXUSDT_20260915_CJ_001",
-      "coin": "TRXUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 0.34370687,
-      "tp1": 0.30890114,
-      "sl": 0.34567061,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-15T20:03:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "BTCUSDT_20260916_CJ_001",
       "coin": "BTCUSDT",
@@ -544,6 +538,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-09-16T00:03:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ALGOUSDT_20260916_CJ_001",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.08442483,
+      "tp1": 0.09219317,
+      "sl": 0.08177426,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-09-16T08:03:00Z",
       "rehearsal": false
     }
   ],
@@ -4163,15 +4170,15 @@
         "closed_count": 60
       }
     },
-    "live_trade_count_total": 236,
-    "live_real_count": 236,
+    "live_trade_count_total": 237,
+    "live_real_count": 237,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-16T06:06Z",
-    "checked": 12,
-    "in_parity": 12,
+    "feed_generated_utc": "2026-09-16T08:07Z",
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   }
 }
