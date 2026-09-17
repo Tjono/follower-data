@@ -7838,9 +7838,36 @@
       "resting_at": "2026-09-16T20:28:10Z",
       "braam_trade_id": "NEARUSDT_20260915_CJ_001",
       "status": "RESTING"
+    },
+    "855358455702517760": {
+      "order_id": "855358455702517760",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "entry_price": 96.01,
+      "resting_at": "2026-09-17T00:09:07Z",
+      "braam_trade_id": "SOLUSDT_20260917_CJ_001",
+      "status": "RESTING"
+    },
+    "855358428133390336": {
+      "order_id": "855358428133390336",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32399,
+      "resting_at": "2026-09-17T00:09:00Z",
+      "braam_trade_id": "TRXUSDT_20260915_CJ_001",
+      "status": "RESTING"
+    },
+    "855358413456094208": {
+      "order_id": "855358413456094208",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.1521,
+      "resting_at": "2026-09-17T00:08:57Z",
+      "braam_trade_id": "CAKEUSDT_20260910_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-16T21:28:34Z",
+  "updated": "2026-09-17T00:10:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21646,6 +21673,14 @@
       "ts": "2026-09-16T21:28:34Z",
       "equity": 419.0223,
       "available": 157.2303,
+      "unrealized": 0.0,
+      "realized": 12.6403,
+      "total": 12.6403
+    },
+    {
+      "ts": "2026-09-17T00:10:15Z",
+      "equity": 419.0223,
+      "available": 137.4066,
       "unrealized": 0.0,
       "realized": 12.6403,
       "total": 12.6403
