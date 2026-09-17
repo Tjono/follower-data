@@ -3,6 +3,162 @@
   "mexc_key_expires": "2026-09-26",
   "mexc_key_ip_locked": false,
   "capital_events": [],
-  "capital_events_note": "Deposits/withdrawals since go-live. Each entry: {\"date\":\"YYYY-MM-DD\",\"amount\":100,\"note\":\"deposit\"} \u2014 positive amount=deposit, negative=withdrawal. Dashboard shows the net as 'capital +/-$X' and excludes it from P&L / return %.",
-  "note": "MEXC futures key, no IP whitelist => 90-day validity. Renew in MEXC > API Management > Renew (extends 90d). Update mexc_key_expires here after renewing."
+  "capital_events_note": "Deposits/withdrawals since go-live. Each entry: {\"date\":\"YYYY-MM-DD\",\"amount\":100,\"note\":\"deposit\"} — positive amount=deposit, negative=withdrawal. Dashboard shows the net as 'capital +/-$X' and excludes it from P&L / return %.",
+  "note": "MEXC futures key, no IP whitelist => 90-day validity. Renew in MEXC > API Management > Renew (extends 90d). Update mexc_key_expires here after renewing.",
+  "calendar": {
+    "_note": "Hand-maintained; CI does not touch this file. Times are ET, the dashboard converts to local. Re-fetch yearly: FOMC dates are TENTATIVE by the Fed's own wording until confirmed at the preceding meeting, and the 2027 BLS schedule was not yet published when this was built.",
+    "refreshed": "2026-09-17",
+    "sources": {
+      "fomc": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "cpi_nfp": "https://www.bls.gov/schedule/news_release/",
+      "holidays": "https://www.nyse.com/markets/hours-calendars"
+    },
+    "session_et": {
+      "pre_open": "04:00",
+      "open": "09:30",
+      "close": "16:00",
+      "after_close": "20:00"
+    },
+    "market_holidays": {
+      "2026-11-26": "Thanksgiving Day",
+      "2026-12-25": "Christmas Day",
+      "2027-01-01": "New Year's Day",
+      "2027-01-18": "Martin Luther King Jr. Day",
+      "2027-02-15": "Presidents' Day",
+      "2027-03-26": "Good Friday",
+      "2027-05-31": "Memorial Day",
+      "2027-06-18": "Juneteenth (observed)",
+      "2027-07-05": "Independence Day (observed)",
+      "2027-09-06": "Labor Day",
+      "2027-11-25": "Thanksgiving Day",
+      "2027-12-24": "Christmas Day (observed)"
+    },
+    "half_days": {
+      "2026-11-27": {
+        "close": "13:00",
+        "after_close": "17:00",
+        "label": "Day after Thanksgiving"
+      },
+      "2026-12-24": {
+        "close": "13:00",
+        "after_close": "17:00",
+        "label": "Christmas Eve"
+      },
+      "2027-11-26": {
+        "close": "13:00",
+        "after_close": "17:00",
+        "label": "Day after Thanksgiving"
+      }
+    },
+    "events": [
+      {
+        "date": "2026-10-02",
+        "time_et": "08:30",
+        "label": "Non-farm payrolls",
+        "kind": "macro"
+      },
+      {
+        "date": "2026-10-14",
+        "time_et": "08:30",
+        "label": "CPI",
+        "kind": "macro"
+      },
+      {
+        "date": "2026-10-28",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision",
+        "kind": "fomc"
+      },
+      {
+        "date": "2026-11-06",
+        "time_et": "08:30",
+        "label": "Non-farm payrolls",
+        "kind": "macro"
+      },
+      {
+        "date": "2026-11-10",
+        "time_et": "08:30",
+        "label": "CPI",
+        "kind": "macro"
+      },
+      {
+        "date": "2026-12-04",
+        "time_et": "08:30",
+        "label": "Non-farm payrolls",
+        "kind": "macro"
+      },
+      {
+        "date": "2026-12-09",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision + SEP",
+        "kind": "fomc"
+      },
+      {
+        "date": "2026-12-10",
+        "time_et": "08:30",
+        "label": "CPI",
+        "kind": "macro"
+      },
+      {
+        "date": "2027-01-27",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision",
+        "kind": "fomc"
+      },
+      {
+        "date": "2027-03-17",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision + SEP",
+        "kind": "fomc"
+      },
+      {
+        "date": "2027-04-28",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision",
+        "kind": "fomc"
+      },
+      {
+        "date": "2027-06-09",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision + SEP",
+        "kind": "fomc"
+      },
+      {
+        "date": "2027-07-28",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision",
+        "kind": "fomc"
+      },
+      {
+        "date": "2027-09-15",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision + SEP",
+        "kind": "fomc"
+      },
+      {
+        "date": "2027-10-27",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision",
+        "kind": "fomc"
+      },
+      {
+        "date": "2027-12-08",
+        "time_et": "14:00",
+        "time_assumed": true,
+        "label": "FOMC decision + SEP",
+        "kind": "fomc"
+      }
+    ],
+    "crypto_events": [],
+    "_crypto_hint": "No free authoritative feed for unlocks / halvings / ETF-flow dates, so add these by hand. Same shape, kind:'crypto', e.g. {\"date\":\"2026-10-15\",\"time_et\":\"00:00\",\"label\":\"ARB unlock\",\"kind\":\"crypto\"}"
+  }
 }
