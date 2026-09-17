@@ -7947,9 +7947,18 @@
       "resting_at": "2026-09-17T16:09:55Z",
       "braam_trade_id": "ETHUSDT_20260915_CJ_001",
       "status": "RESTING"
+    },
+    "855660529631458816": {
+      "order_id": "855660529631458816",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2361.58,
+      "resting_at": "2026-09-17T20:09:27Z",
+      "braam_trade_id": "ETHUSDT_20260915_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-17T18:23:32Z",
+  "updated": "2026-09-17T20:10:35Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21835,6 +21844,14 @@
       "ts": "2026-09-17T18:23:32Z",
       "equity": 417.4966,
       "available": 93.9951,
+      "unrealized": 0.0,
+      "realized": 11.0573,
+      "total": 11.0573
+    },
+    {
+      "ts": "2026-09-17T20:10:35Z",
+      "equity": 417.4966,
+      "available": 94.4052,
       "unrealized": 0.0,
       "realized": 11.0573,
       "total": 11.0573
