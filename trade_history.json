@@ -7865,9 +7865,18 @@
       "resting_at": "2026-09-17T00:08:57Z",
       "braam_trade_id": "CAKEUSDT_20260910_CJ_001",
       "status": "RESTING"
+    },
+    "855479344599128576": {
+      "order_id": "855479344599128576",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.08722,
+      "resting_at": "2026-09-17T08:09:29Z",
+      "braam_trade_id": "ALGOUSDT_20260916_CJ_002",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-17T07:50:54Z",
+  "updated": "2026-09-17T08:10:29Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21705,6 +21714,14 @@
       "ts": "2026-09-17T07:50:54Z",
       "equity": 419.0796,
       "available": 137.4639,
+      "unrealized": 0.0,
+      "realized": 12.6403,
+      "total": 12.6403
+    },
+    {
+      "ts": "2026-09-17T08:10:29Z",
+      "equity": 419.0796,
+      "available": 137.4598,
       "unrealized": 0.0,
       "realized": 12.6403,
       "total": 12.6403

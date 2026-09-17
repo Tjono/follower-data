@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-17T07:50:36Z",
+  "last_updated_iso": "2026-09-17T08:10:15Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
     "equity": 419.0796,
-    "available": 137.4639,
+    "available": 137.4598,
     "position_margin": 0.0
   },
   "order_levels": {
@@ -450,10 +450,10 @@
       "trade_id": "ALGOUSDT_20260916_CJ_002",
       "coin": "ALGOUSDT",
       "direction": "Long",
-      "entry_price": 0.08438895,
-      "sl": 0.08170845,
-      "tp1": 0.09203342,
-      "tp2": 0.10028311,
+      "entry_price": 0.087225,
+      "sl": 0.08456437,
+      "tp1": 0.09853224,
+      "tp2": 0.10237126,
       "capital_usd": 20.95,
       "leverage": 3,
       "trading_system": "John",
@@ -552,9 +552,9 @@
       "coin": "ALGOUSDT",
       "direction": "Long",
       "trading_system": "John",
-      "entry_price": 0.08438895,
-      "tp1": 0.09203342,
-      "sl": 0.08170845,
+      "entry_price": 0.087225,
+      "tp1": 0.09853224,
+      "sl": 0.08456437,
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-09-16T20:23:00Z",
@@ -588,18 +588,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "HBARUSDT_20260914_CJ_001",
-      "coin": "HBARUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.07627808,
-      "live_entry_fill": 0.07628,
-      "tp1_hit": true,
-      "iso": "2026-09-15T08:08:00Z",
-      "_iso_ms": 1789459680000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ETHUSDT_20260913_CJ_001",
       "coin": "ETHUSDT",
@@ -4197,7 +4185,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-17T06:06Z",
+    "feed_generated_utc": "2026-09-17T08:08Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
