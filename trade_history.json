@@ -7956,9 +7956,54 @@
       "resting_at": "2026-09-17T20:09:27Z",
       "braam_trade_id": "ETHUSDT_20260915_CJ_001",
       "status": "RESTING"
+    },
+    "855720964026406912": {
+      "order_id": "855720964026406912",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.5654,
+      "resting_at": "2026-09-18T00:09:36Z",
+      "braam_trade_id": "APTUSDT_20260917_CJ_001",
+      "status": "RESTING"
+    },
+    "855720953307582976": {
+      "order_id": "855720953307582976",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 52.22,
+      "resting_at": "2026-09-18T00:09:33Z",
+      "braam_trade_id": "LTCUSDT_20260917_CJ_001",
+      "status": "RESTING"
+    },
+    "855720942088124928": {
+      "order_id": "855720942088124928",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "entry_price": 96.89,
+      "resting_at": "2026-09-18T00:09:31Z",
+      "braam_trade_id": "SOLUSDT_20260917_CJ_001",
+      "status": "RESTING"
+    },
+    "855720925121833472": {
+      "order_id": "855720925121833472",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2304.22,
+      "resting_at": "2026-09-18T00:09:26Z",
+      "braam_trade_id": "ETHUSDT_20260915_CJ_001",
+      "status": "RESTING"
+    },
+    "855720910198863873": {
+      "order_id": "855720910198863873",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32405,
+      "resting_at": "2026-09-18T00:09:23Z",
+      "braam_trade_id": "TRXUSDT_20260915_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-17T22:09:04Z",
+  "updated": "2026-09-18T00:10:36Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21868,6 +21913,14 @@
       "ts": "2026-09-17T22:09:04Z",
       "equity": 417.4966,
       "available": 94.4052,
+      "unrealized": 0.0,
+      "realized": 11.0573,
+      "total": 11.0573
+    },
+    {
+      "ts": "2026-09-18T00:10:36Z",
+      "equity": 417.4966,
+      "available": 114.1039,
       "unrealized": 0.0,
       "realized": 11.0573,
       "total": 11.0573
