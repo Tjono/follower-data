@@ -1,9 +1,9 @@
 {
- "_note": "Raw ^GSPC daily closes. NOT rebased - each dashboard tab rebases to its own inception (Paper 2026-04-28, Braam 2026-06-12, Tjono 2026-06-29). The per-feed `benchmark.spx` arrays cannot serve all three because each is pre-rebased to whatever date its own 3-month fetch began at.",
+ "_note": "Raw ^GSPC daily closes. NOT rebased - each dashboard tab rebases to its own inception (Paper 2026-04-28, Braam 2026-06-12, Tjono 2026-06-29). benchmark.spx inside analytics.json is pre-rebased and cannot serve them all.",
  "symbol": "^GSPC",
  "source": "yfinance ^GSPC, auto_adjust=True",
  "start": "2026-04-01",
- "fetched_utc": "2026-09-18T07:27:32Z",
+ "fetched_utc": "2026-09-18T07:35:44Z",
  "closes": [
   {
    "iso": "2026-04-01",
