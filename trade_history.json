@@ -3592,6 +3592,18 @@
       "resting_at": "2026-09-14T00:09:37Z",
       "close_fills": 1,
       "fees_usd": 0.0884
+    },
+    "1500364615": {
+      "position_id": "1500364615",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.07625,
+      "opened_at": "2026-09-18T05:47:37Z",
+      "margin_usd": 20.738820459775,
+      "braam_trade_id": "HBARUSDT_20260918_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-18T04:09:43Z"
     }
   },
   "orders": {
@@ -8077,7 +8089,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-18T04:10:52Z",
+  "updated": "2026-09-18T05:55:24Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22022,6 +22034,14 @@
       "unrealized": 0.0,
       "realized": 7.6879,
       "total": 7.6879
+    },
+    {
+      "ts": "2026-09-18T05:55:24Z",
+      "equity": 414.074,
+      "available": 69.2351,
+      "unrealized": -0.0733,
+      "realized": 7.6879,
+      "total": 7.6146
     }
   ],
   "capital_events": {
