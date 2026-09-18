@@ -8120,9 +8120,45 @@
       "resting_at": "2026-09-18T08:09:59Z",
       "braam_trade_id": "LTCUSDT_20260917_CJ_001",
       "status": "RESTING"
+    },
+    "855902397040915456": {
+      "order_id": "855902397040915456",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.1993,
+      "resting_at": "2026-09-18T12:10:33Z",
+      "braam_trade_id": "THETAUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855902391562801664": {
+      "order_id": "855902391562801664",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.2927,
+      "resting_at": "2026-09-18T12:10:31Z",
+      "braam_trade_id": "XRPUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855902376551371264": {
+      "order_id": "855902376551371264",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 53.36,
+      "resting_at": "2026-09-18T12:10:28Z",
+      "braam_trade_id": "LTCUSDT_20260917_CJ_001",
+      "status": "RESTING"
+    },
+    "855902359648662016": {
+      "order_id": "855902359648662016",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.3308,
+      "resting_at": "2026-09-18T12:10:24Z",
+      "braam_trade_id": "TRXUSDT_20260915_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-18T10:39:31Z",
+  "updated": "2026-09-18T12:11:39Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22155,6 +22191,14 @@
       "unrealized": 0.2032,
       "realized": 7.6879,
       "total": 7.8911
+    },
+    {
+      "ts": "2026-09-18T12:11:39Z",
+      "equity": 415.7212,
+      "available": 127.2781,
+      "unrealized": 0.8791,
+      "realized": 7.6879,
+      "total": 8.567
     }
   ],
   "capital_events": {
