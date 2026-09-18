@@ -3614,8 +3614,16 @@
       "opened_at": "2026-09-18T08:54:14Z",
       "margin_usd": 20.87428183333165,
       "braam_trade_id": "BTCUSDT_20260916_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-16T00:09:32Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-16T00:09:32Z",
+      "closed_at": "2026-09-18T13:40:19Z",
+      "close_price": 78979,
+      "pnl_usd": -0.8406,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0879
     },
     "1500533237": {
       "position_id": "1500533237",
@@ -8158,7 +8166,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-18T13:03:11Z",
+  "updated": "2026-09-18T14:11:00Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22207,6 +22215,14 @@
       "unrealized": 0.9096,
       "realized": 7.6879,
       "total": 8.5975
+    },
+    {
+      "ts": "2026-09-18T14:11:00Z",
+      "equity": 414.4061,
+      "available": 168.0871,
+      "unrealized": 0.3671,
+      "realized": 6.8473,
+      "total": 7.2144
     }
   ],
   "capital_events": {
