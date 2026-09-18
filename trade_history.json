@@ -3616,6 +3616,18 @@
       "braam_trade_id": "BTCUSDT_20260916_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-16T00:09:32Z"
+    },
+    "1500533237": {
+      "position_id": "1500533237",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.07795,
+      "opened_at": "2026-09-18T10:24:59Z",
+      "margin_usd": 21.009381621766792,
+      "braam_trade_id": "HBARUSDT_20260918_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-16T00:09:34Z"
     }
   },
   "orders": {
@@ -8110,7 +8122,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-18T10:12:01Z",
+  "updated": "2026-09-18T10:37:12Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22127,6 +22139,14 @@
       "unrealized": 0.159,
       "realized": 7.6879,
       "total": 7.8469
+    },
+    {
+      "ts": "2026-09-18T10:37:12Z",
+      "equity": 414.9703,
+      "available": 168.1001,
+      "unrealized": 0.1282,
+      "realized": 7.6879,
+      "total": 7.8161
     }
   ],
   "capital_events": {
