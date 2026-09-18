@@ -3602,8 +3602,16 @@
       "opened_at": "2026-09-18T05:47:37Z",
       "margin_usd": 20.738820459775,
       "braam_trade_id": "HBARUSDT_20260918_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-18T04:09:43Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-18T04:09:43Z",
+      "closed_at": "2026-09-18T14:47:31Z",
+      "close_price": 0.07771,
+      "pnl_usd": 1.1007,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0877
     },
     "1500470384": {
       "position_id": "1500470384",
@@ -8164,9 +8172,63 @@
       "resting_at": "2026-09-18T12:10:24Z",
       "braam_trade_id": "TRXUSDT_20260915_CJ_001",
       "status": "RESTING"
+    },
+    "855962731500049408": {
+      "order_id": "855962731500049408",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "entry_price": 0.08546,
+      "resting_at": "2026-09-18T16:10:18Z",
+      "braam_trade_id": "DOGEUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855962726076742144": {
+      "order_id": "855962726076742144",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.1918,
+      "resting_at": "2026-09-18T16:10:16Z",
+      "braam_trade_id": "THETAUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855962716182026752": {
+      "order_id": "855962716182026752",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.3306,
+      "resting_at": "2026-09-18T16:10:14Z",
+      "braam_trade_id": "XRPUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855962703313924673": {
+      "order_id": "855962703313924673",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 228.32,
+      "resting_at": "2026-09-18T16:10:11Z",
+      "braam_trade_id": "TAOUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855962689007145984": {
+      "order_id": "855962689007145984",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.914,
+      "resting_at": "2026-09-18T16:10:07Z",
+      "braam_trade_id": "LINKUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855962668647962624": {
+      "order_id": "855962668647962624",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 54.88,
+      "resting_at": "2026-09-18T16:10:03Z",
+      "braam_trade_id": "LTCUSDT_20260917_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-18T14:11:00Z",
+  "updated": "2026-09-18T16:11:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22223,6 +22285,14 @@
       "unrealized": 0.3671,
       "realized": 6.8473,
       "total": 7.2144
+    },
+    {
+      "ts": "2026-09-18T16:11:19Z",
+      "equity": 413.8951,
+      "available": 152.481,
+      "unrealized": -0.5158,
+      "realized": 7.948,
+      "total": 7.4322
     }
   ],
   "capital_events": {
