@@ -3573,6 +3573,25 @@
       "resting_at": "2026-09-14T00:09:29Z",
       "close_fills": 1,
       "fees_usd": 0.0849
+    },
+    "1500247675": {
+      "position_id": "1500247675",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.6269,
+      "opened_at": "2026-09-18T02:16:04Z",
+      "closed_at": "2026-09-18T02:30:15Z",
+      "close_price": 0.6459,
+      "pnl_usd": -1.9725,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "status": "CLOSED",
+      "braam_trade_id": "APTUSDT_20260914_CJ_001",
+      "resting_at": "2026-09-14T00:09:37Z",
+      "close_fills": 1,
+      "fees_usd": 0.0884
     }
   },
   "orders": {
@@ -8020,9 +8039,45 @@
       "resting_at": "2026-09-18T00:09:23Z",
       "braam_trade_id": "TRXUSDT_20260915_CJ_001",
       "status": "RESTING"
+    },
+    "855781391723219456": {
+      "order_id": "855781391723219456",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "entry_price": 0.07625,
+      "resting_at": "2026-09-18T04:09:43Z",
+      "braam_trade_id": "HBARUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855781386173442624": {
+      "order_id": "855781386173442624",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 233.62,
+      "resting_at": "2026-09-18T04:09:41Z",
+      "braam_trade_id": "TAOUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855781379763451392": {
+      "order_id": "855781379763451392",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.7681,
+      "resting_at": "2026-09-18T04:09:40Z",
+      "braam_trade_id": "SUIUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "855781367584281088": {
+      "order_id": "855781367584281088",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.485,
+      "resting_at": "2026-09-18T04:09:37Z",
+      "braam_trade_id": "LINKUSDT_20260918_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-18T02:10:40Z",
+  "updated": "2026-09-18T04:10:52Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21959,6 +22014,14 @@
       "unrealized": 0.0,
       "realized": 9.6604,
       "total": 9.6604
+    },
+    {
+      "ts": "2026-09-18T04:10:52Z",
+      "equity": 414.1845,
+      "available": 69.2227,
+      "unrealized": 0.0,
+      "realized": 7.6879,
+      "total": 7.6879
     }
   ],
   "capital_events": {
