@@ -3554,6 +3554,25 @@
       "resting_at": "2026-09-16T20:28:15Z",
       "close_fills": 1,
       "fees_usd": 0.0869
+    },
+    "1500208191": {
+      "position_id": "1500208191",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1.462,
+      "opened_at": "2026-09-18T00:43:38Z",
+      "closed_at": "2026-09-18T01:45:53Z",
+      "close_price": 1.494,
+      "pnl_usd": -1.3969,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "status": "CLOSED",
+      "braam_trade_id": "RENDERUSDT_20260910_CJ_001",
+      "resting_at": "2026-09-14T00:09:29Z",
+      "close_fills": 1,
+      "fees_usd": 0.0849
     }
   },
   "orders": {
@@ -8003,7 +8022,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-18T00:31:01Z",
+  "updated": "2026-09-18T02:10:40Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -21932,6 +21951,14 @@
       "unrealized": 0.0,
       "realized": 11.0573,
       "total": 11.0573
+    },
+    {
+      "ts": "2026-09-18T02:10:40Z",
+      "equity": 416.0996,
+      "available": 132.7994,
+      "unrealized": 0.0,
+      "realized": 9.6604,
+      "total": 9.6604
     }
   ],
   "capital_events": {
