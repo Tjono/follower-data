@@ -8279,9 +8279,36 @@
       "resting_at": "2026-09-18T20:09:56Z",
       "braam_trade_id": "LTCUSDT_20260917_CJ_001",
       "status": "RESTING"
+    },
+    "856083673562297857": {
+      "order_id": "856083673562297857",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.2618,
+      "resting_at": "2026-09-19T00:10:52Z",
+      "braam_trade_id": "CAKEUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "856083440964917343": {
+      "order_id": "856083440964917343",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.463,
+      "resting_at": "2026-09-19T00:09:57Z",
+      "braam_trade_id": "RENDERUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "856083398811351616": {
+      "order_id": "856083398811351616",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 233.62,
+      "resting_at": "2026-09-19T00:09:47Z",
+      "braam_trade_id": "TAOUSDT_20260918_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-18T22:10:33Z",
+  "updated": "2026-09-19T00:11:12Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22399,6 +22426,14 @@
       "ts": "2026-09-18T22:10:33Z",
       "equity": 412.9893,
       "available": 110.4401,
+      "unrealized": 0.0,
+      "realized": 6.4928,
+      "total": 6.4928
+    },
+    {
+      "ts": "2026-09-19T00:11:12Z",
+      "equity": 412.9893,
+      "available": 111.3049,
       "unrealized": 0.0,
       "realized": 6.4928,
       "total": 6.4928
