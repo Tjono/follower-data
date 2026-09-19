@@ -8324,9 +8324,27 @@
       "resting_at": "2026-09-19T00:26:10Z",
       "braam_trade_id": "CAKEUSDT_20260918_CJ_001",
       "status": "RESTING"
+    },
+    "856143762030679552": {
+      "order_id": "856143762030679552",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 75314.8,
+      "resting_at": "2026-09-19T04:09:39Z",
+      "braam_trade_id": "BTCUSDT_20260919_CJ_001",
+      "status": "RESTING"
+    },
+    "856143739914515456": {
+      "order_id": "856143739914515456",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2052,
+      "resting_at": "2026-09-19T04:09:33Z",
+      "braam_trade_id": "THETAUSDT_20260918_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-19T00:27:24Z",
+  "updated": "2026-09-19T04:10:51Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22460,6 +22478,14 @@
       "ts": "2026-09-19T00:27:24Z",
       "equity": 412.9893,
       "available": 90.062,
+      "unrealized": 0.0,
+      "realized": 6.4928,
+      "total": 6.4928
+    },
+    {
+      "ts": "2026-09-19T04:10:51Z",
+      "equity": 413.0463,
+      "available": 90.4259,
       "unrealized": 0.0,
       "realized": 6.4928,
       "total": 6.4928
