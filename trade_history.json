@@ -8492,9 +8492,36 @@
       "resting_at": "2026-09-20T03:08:37Z",
       "braam_trade_id": "BTCUSDT_20260919_CJ_001",
       "status": "RESTING"
+    },
+    "856506295736742400": {
+      "order_id": "856506295736742400",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 8.764,
+      "resting_at": "2026-09-20T04:10:13Z",
+      "braam_trade_id": "AVAXUSDT_20260919_CJ_001",
+      "status": "RESTING"
+    },
+    "856506285410047488": {
+      "order_id": "856506285410047488",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 76452.9,
+      "resting_at": "2026-09-20T04:10:11Z",
+      "braam_trade_id": "BTCUSDT_20260919_CJ_001",
+      "status": "RESTING"
+    },
+    "856506262270134784": {
+      "order_id": "856506262270134784",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.478,
+      "resting_at": "2026-09-20T04:10:05Z",
+      "braam_trade_id": "LINKUSDT_20260918_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-20T03:10:00Z",
+  "updated": "2026-09-20T04:11:23Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22743,6 +22770,14 @@
       "unrealized": 0.623,
       "realized": 6.4928,
       "total": 7.1158
+    },
+    {
+      "ts": "2026-09-20T04:11:23Z",
+      "equity": 413.6761,
+      "available": 69.0232,
+      "unrealized": 0.646,
+      "realized": 6.4928,
+      "total": 7.1388
     }
   ],
   "capital_events": {
