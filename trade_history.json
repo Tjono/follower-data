@@ -3652,6 +3652,30 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0889
+    },
+    "1501993755": {
+      "position_id": "1501993755",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.3682,
+      "opened_at": "2026-09-20T02:56:37Z",
+      "margin_usd": 20.57225499477,
+      "braam_trade_id": "XRPUSDT_20260918_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-20T02:09:16Z"
+    },
+    "1501993191": {
+      "position_id": "1501993191",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.08546,
+      "opened_at": "2026-09-20T02:56:31Z",
+      "margin_usd": 19.98852406726,
+      "braam_trade_id": "DOGEUSDT_20260918_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-18T16:10:18Z"
     }
   },
   "orders": {
@@ -8450,9 +8474,18 @@
       "resting_at": "2026-09-20T02:09:08Z",
       "braam_trade_id": "TRXUSDT_20260914_CJ_001",
       "status": "RESTING"
+    },
+    "856490090208252416": {
+      "order_id": "856490090208252416",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 76452.9,
+      "resting_at": "2026-09-20T03:05:50Z",
+      "braam_trade_id": "BTCUSDT_20260919_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-20T02:10:32Z",
+  "updated": "2026-09-20T03:07:17Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22685,6 +22718,14 @@
       "unrealized": 0.0,
       "realized": 6.4928,
       "total": 6.4928
+    },
+    {
+      "ts": "2026-09-20T03:07:17Z",
+      "equity": 413.8149,
+      "available": 68.807,
+      "unrealized": 0.8415,
+      "realized": 6.4928,
+      "total": 7.3343
     }
   ],
   "capital_events": {
