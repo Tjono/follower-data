@@ -8546,9 +8546,27 @@
       "resting_at": "2026-09-20T16:10:11Z",
       "braam_trade_id": "LINKUSDT_20260918_CJ_001",
       "status": "RESTING"
+    },
+    "856747853130871296": {
+      "order_id": "856747853130871296",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.7749,
+      "resting_at": "2026-09-20T20:10:05Z",
+      "braam_trade_id": "SUIUSDT_20260918_CJ_001",
+      "status": "RESTING"
+    },
+    "856747842004474368": {
+      "order_id": "856747842004474368",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 12.26,
+      "resting_at": "2026-09-20T20:10:03Z",
+      "braam_trade_id": "LINKUSDT_20260918_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-20T18:56:46Z",
+  "updated": "2026-09-20T20:11:27Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -22877,6 +22895,14 @@
       "unrealized": 2.3875,
       "realized": 6.4928,
       "total": 8.8803
+    },
+    {
+      "ts": "2026-09-20T20:11:27Z",
+      "equity": 416.1442,
+      "available": 70.6402,
+      "unrealized": 3.13,
+      "realized": 6.4928,
+      "total": 9.6228
     }
   ],
   "capital_events": {
