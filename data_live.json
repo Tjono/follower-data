@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-20T00:11:29Z",
+  "last_updated_iso": "2026-09-20T00:14:03Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
     "equity": 413.0463,
@@ -69,9 +69,9 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (17 resting = journal)",
-      "status": "ok",
-      "action": null
+      "value": "3 ORPHAN order(s) on MEXC",
+      "status": "urgent",
+      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): BTC_USDT Long @ 76452.9 (id 856446642612688896), XRP_USDT Long @ 1.3682 (id 856446622517827584), TRX_USDT Long @ 0.33427 (id 856446596047893012)"
     },
     {
       "key": "position_protection",
