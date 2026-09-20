@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-20T08:11:05Z",
+  "last_updated_iso": "2026-09-20T10:10:07Z",
   "mexc_account": {
-    "unrealized_pnl": 0.4075,
-    "equity": 413.4254,
+    "unrealized_pnl": -0.133,
+    "equity": 412.8849,
     "available": 69.2203,
     "position_margin": 40.5608
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$413.43",
+      "value": "$412.88",
       "status": "ok",
       "action": null
     },
@@ -647,18 +647,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "BTCUSDT_20260916_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 78038.15744488,
-      "live_entry_fill": 78038.2,
-      "tp1_hit": false,
-      "iso": "2026-09-18T08:54:00Z",
-      "_iso_ms": 1789721640000,
-      "rehearsal": false
-    },
     {
       "trade_id": "HBARUSDT_20260916_CJ_001",
       "coin": "HBARUSDT",
@@ -4388,7 +4376,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-20T08:08Z",
+    "feed_generated_utc": "2026-09-20T10:07Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
