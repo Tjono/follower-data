@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-20T00:14:03Z",
+  "last_updated_iso": "2026-09-20T02:10:14Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
     "equity": 413.0463,
@@ -69,17 +69,17 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "3 ORPHAN order(s) on MEXC",
+      "value": "1 ORPHAN order(s) on MEXC",
       "status": "urgent",
-      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): BTC_USDT Long @ 76452.9 (id 856446642612688896), XRP_USDT Long @ 1.3682 (id 856446622517827584), TRX_USDT Long @ 0.33427 (id 856446596047893012)"
+      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): BTC_USDT Long @ 76452.9 (id 856446642612688896)"
     },
     {
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (0 open, 0 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -661,18 +661,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "RENDERUSDT_20260910_CJ_001",
-      "coin": "RENDERUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 1.46152605,
-      "live_entry_fill": 1.462,
-      "tp1_hit": false,
-      "iso": "2026-09-18T00:43:00Z",
-      "_iso_ms": 1789692180000,
-      "rehearsal": false
-    },
     {
       "trade_id": "APTUSDT_20260914_CJ_001",
       "coin": "APTUSDT",
@@ -4414,7 +4402,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-20T00:09Z",
+    "feed_generated_utc": "2026-09-20T02:07Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
