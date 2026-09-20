@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-20T10:10:07Z",
+  "last_updated_iso": "2026-09-20T11:38:40Z",
   "mexc_account": {
-    "unrealized_pnl": -0.133,
-    "equity": 412.8849,
+    "unrealized_pnl": 0.0125,
+    "equity": 413.0304,
     "available": 69.2203,
     "position_margin": 40.5608
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$412.88",
+      "value": "$413.03",
       "status": "ok",
       "action": null
     },
@@ -647,18 +647,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "HBARUSDT_20260916_CJ_001",
-      "coin": "HBARUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 0.07795031,
-      "live_entry_fill": 0.07795,
-      "tp1_hit": false,
-      "iso": "2026-09-18T10:24:00Z",
-      "_iso_ms": 1789727040000,
-      "rehearsal": false
-    },
     {
       "trade_id": "XRPUSDT_20260918_CJ_001",
       "coin": "XRPUSDT",
