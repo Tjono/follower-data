@@ -3,7 +3,7 @@
  "symbol": "^GSPC",
  "source": "yfinance ^GSPC, auto_adjust=True",
  "start": "2026-04-01",
- "fetched_utc": "2026-09-19T20:52:37Z",
+ "fetched_utc": "2026-09-20T00:11:44Z",
  "closes": [
   {
    "iso": "2026-04-01",
