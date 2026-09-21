@@ -8607,9 +8607,27 @@
       "resting_at": "2026-09-21T08:10:17Z",
       "braam_trade_id": "NEARUSDT_20260921_CJ_001",
       "status": "RESTING"
+    },
+    "856989525153978368": {
+      "order_id": "856989525153978368",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "entry_price": 0.08932,
+      "resting_at": "2026-09-21T12:10:24Z",
+      "braam_trade_id": "DOGEUSDT_20260921_CJ_001",
+      "status": "RESTING"
+    },
+    "856989517113440768": {
+      "order_id": "856989517113440768",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.05,
+      "resting_at": "2026-09-21T12:10:22Z",
+      "braam_trade_id": "NEARUSDT_20260921_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-21T10:11:22Z",
+  "updated": "2026-09-21T12:11:31Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23007,6 +23025,14 @@
       "ts": "2026-09-21T10:11:22Z",
       "equity": 420.1059,
       "available": 76.6278,
+      "unrealized": 0.0,
+      "realized": 13.4391,
+      "total": 13.4391
+    },
+    {
+      "ts": "2026-09-21T12:11:31Z",
+      "equity": 420.1059,
+      "available": 56.1889,
       "unrealized": 0.0,
       "realized": 13.4391,
       "total": 13.4391
