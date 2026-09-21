@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-21T08:11:16Z",
+  "last_updated_iso": "2026-09-21T08:27:56Z",
   "mexc_account": {
-    "unrealized_pnl": 1.194,
-    "equity": 419.4548,
+    "unrealized_pnl": 1.2791,
+    "equity": 419.5399,
     "available": 67.8128,
     "position_margin": 6.97
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$419.45",
+      "value": "$419.54",
       "status": "ok",
       "action": null
     },
@@ -420,7 +420,7 @@
       "entry_price": 0.08545771,
       "sl": 0.08377539,
       "tp1": 0.09005,
-      "tp2": 0.09854,
+      "tp2": 0.09414,
       "capital_usd": 20.7,
       "leverage": 3,
       "trading_system": "John",
@@ -4470,9 +4470,20 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-21T08:08Z",
+    "feed_generated_utc": "2026-09-21T08:28Z",
     "checked": 19,
-    "in_parity": 19,
-    "drifting": []
+    "in_parity": 18,
+    "drifting": [
+      {
+        "trade_id": "XRPUSDT_20260918_CJ_001",
+        "coin": "XRPUSDT",
+        "diffs": {
+          "tp2": {
+            "follower": 1.5338,
+            "master": 1.4788
+          }
+        }
+      }
+    ]
   }
 }
