@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-20T22:35:05Z",
+  "last_updated_iso": "2026-09-21T00:11:21Z",
   "mexc_account": {
-    "unrealized_pnl": 3.0795,
-    "equity": 416.0937,
-    "available": 70.6402,
+    "unrealized_pnl": 3.7585,
+    "equity": 416.7605,
+    "available": 70.8793,
     "position_margin": 40.5608
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$416.09",
+      "value": "$416.76",
       "status": "ok",
       "action": null
     },
@@ -153,10 +153,10 @@
       "trade_id": "SOLUSDT_20260917_CJ_001",
       "coin": "SOLUSDT",
       "direction": "Long",
-      "entry_price": 96.89194036,
-      "sl": 95.20350418,
-      "tp1": 113.8557337,
-      "tp2": 115.38888073,
+      "entry_price": 95.64025865,
+      "sl": 93.70166162,
+      "tp1": 124.52832,
+      "tp2": 147.09667676,
       "capital_usd": 20.95,
       "leverage": 3,
       "trading_system": "John",
@@ -645,21 +645,7 @@
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "ONDOUSDT_20260920_CJ_001",
-      "coin": "ONDOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.39120805,
-      "tp1": 0.45923868,
-      "sl": 0.37690761,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-20T12:04:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "XRPUSDT_20260918_CJ_001",
@@ -4378,7 +4364,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-20T22:08Z",
+    "feed_generated_utc": "2026-09-21T00:08Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
