@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-21T23:24:53Z",
+  "last_updated_iso": "2026-09-22T00:11:11Z",
   "mexc_account": {
-    "unrealized_pnl": 3.165,
-    "equity": 423.2283,
-    "available": 76.7424,
+    "unrealized_pnl": 3.795,
+    "equity": 423.8519,
+    "available": 55.6383,
     "position_margin": 20.2986
   },
   "order_levels": {
-    "checked": 17,
-    "in_sync": 17,
+    "checked": 18,
+    "in_sync": 18,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (267 records)",
+      "value": "OK (268 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$423.23",
+      "value": "$423.85",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (16 resting = journal)",
+      "value": "in sync (17 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (0 open, 0 pre-TP1 runners)",
+      "value": "all protected (1 open, 1 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -643,20 +643,53 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "XRPUSDT_20260922_CJ_001",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.46485386,
+      "sl": 1.42963055,
+      "tp1": 1.56938458,
+      "tp2": 1.75323889,
+      "capital_usd": 21.2,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-09-22",
+      "time_opened_utc": "00:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
     {
-      "trade_id": "DOGEUSDT_20260921_CJ_001",
-      "coin": "DOGEUSDT",
+      "trade_id": "XRPUSDT_20260922_CJ_001",
+      "coin": "XRPUSDT",
       "direction": "Long",
       "trading_system": "John",
-      "entry_price": 0.0893229,
-      "tp1": 0.09991825,
-      "sl": 0.08725118,
+      "entry_price": 1.46485386,
+      "tp1": 1.56938458,
+      "sl": 1.42963055,
       "conviction": "MEDIUM",
       "track_only": false,
-      "iso": "2026-09-21T12:04:00Z",
+      "iso": "2026-09-22T00:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4424,15 +4457,15 @@
         "closed_count": 68
       }
     },
-    "live_trade_count_total": 259,
-    "live_real_count": 259,
+    "live_trade_count_total": 260,
+    "live_real_count": 260,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-21T22:07Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-09-22T00:08Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   }
 }
