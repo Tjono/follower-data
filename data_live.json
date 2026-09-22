@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-22T06:11:05Z",
+  "last_updated_iso": "2026-09-22T08:10:59Z",
   "mexc_account": {
-    "unrealized_pnl": 1.284,
-    "equity": 425.3757,
-    "available": 74.9062,
+    "unrealized_pnl": 0.969,
+    "equity": 425.0589,
+    "available": 75.0198,
     "position_margin": 4.0597
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$425.38",
+      "value": "$425.06",
       "status": "ok",
       "action": null
     },
@@ -186,10 +186,10 @@
       "trade_id": "LTCUSDT_20260917_CJ_001",
       "coin": "LTCUSDT",
       "direction": "Long",
-      "entry_price": 53.66896065,
-      "sl": 52.53412917,
-      "tp1": 63.94165983,
-      "tp2": 68.57174165,
+      "entry_price": 54.78172752,
+      "sl": 53.25309784,
+      "tp1": 70.25644871,
+      "tp2": 75.59380432,
       "capital_usd": 20.95,
       "leverage": 3,
       "trading_system": "John",
@@ -4472,7 +4472,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-22T06:08Z",
+    "feed_generated_utc": "2026-09-22T08:08Z",
     "checked": 18,
     "in_parity": 18,
     "drifting": []

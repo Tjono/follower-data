@@ -8673,9 +8673,18 @@
       "resting_at": "2026-09-22T04:10:29Z",
       "braam_trade_id": "ONDOUSDT_20260920_CJ_001",
       "status": "RESTING"
+    },
+    "857291419730171392": {
+      "order_id": "857291419730171392",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 54.78,
+      "resting_at": "2026-09-22T08:10:02Z",
+      "braam_trade_id": "LTCUSDT_20260917_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-22T06:11:24Z",
+  "updated": "2026-09-22T08:11:17Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23188,6 +23197,14 @@
       "unrealized": 1.284,
       "realized": 13.4391,
       "total": 14.7231
+    },
+    {
+      "ts": "2026-09-22T08:11:17Z",
+      "equity": 425.0589,
+      "available": 75.0198,
+      "unrealized": 0.969,
+      "realized": 13.4391,
+      "total": 14.4081
     }
   ],
   "capital_events": {
