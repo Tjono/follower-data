@@ -8646,9 +8646,36 @@
       "resting_at": "2026-09-22T00:10:20Z",
       "braam_trade_id": "XRPUSDT_20260922_CJ_001",
       "status": "RESTING"
+    },
+    "857231156938125824": {
+      "order_id": "857231156938125824",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.9729,
+      "resting_at": "2026-09-22T04:10:34Z",
+      "braam_trade_id": "SUIUSDT_20260922_CJ_001",
+      "status": "RESTING"
+    },
+    "857231150417147392": {
+      "order_id": "857231150417147392",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2387,
+      "resting_at": "2026-09-22T04:10:32Z",
+      "braam_trade_id": "ADAUSDT_20260922_CJ_001",
+      "status": "RESTING"
+    },
+    "857231137850931779": {
+      "order_id": "857231137850931779",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.389,
+      "resting_at": "2026-09-22T04:10:29Z",
+      "braam_trade_id": "ONDOUSDT_20260920_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-22T02:11:28Z",
+  "updated": "2026-09-22T04:11:46Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23137,6 +23164,14 @@
       "unrealized": 0.957,
       "realized": 13.4391,
       "total": 14.3961
+    },
+    {
+      "ts": "2026-09-22T04:11:46Z",
+      "equity": 425.0067,
+      "available": 54.2588,
+      "unrealized": 0.915,
+      "realized": 13.4391,
+      "total": 14.3541
     }
   ],
   "capital_events": {
