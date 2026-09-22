@@ -8718,9 +8718,18 @@
       "resting_at": "2026-09-22T16:10:34Z",
       "braam_trade_id": "ADAUSDT_20260922_CJ_001",
       "status": "RESTING"
+    },
+    "857472726707983872": {
+      "order_id": "857472726707983872",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.10256,
+      "resting_at": "2026-09-22T20:10:28Z",
+      "braam_trade_id": "ALGOUSDT_20260922_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-22T17:06:30Z",
+  "updated": "2026-09-22T20:11:41Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23281,6 +23290,14 @@
       "unrealized": 1.206,
       "realized": 13.4391,
       "total": 14.6451
+    },
+    {
+      "ts": "2026-09-22T20:11:41Z",
+      "equity": 424.6825,
+      "available": 109.197,
+      "unrealized": 0.594,
+      "realized": 13.4391,
+      "total": 14.0331
     }
   ],
   "capital_events": {
