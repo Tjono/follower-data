@@ -3753,8 +3753,16 @@
       "opened_at": "2026-09-23T14:11:44Z",
       "margin_usd": 21.26558165452,
       "braam_trade_id": "NEARUSDT_20260923_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-23T12:10:14Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-23T12:10:14Z",
+      "closed_at": "2026-09-23T15:53:06Z",
+      "close_price": 4.292,
+      "pnl_usd": -3.6422,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0861
     },
     "1505221966": {
       "position_id": "1505221966",
@@ -3779,6 +3787,18 @@
       "braam_trade_id": "LINKUSDT_20260918_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-20T20:10:03Z"
+    },
+    "1505368587": {
+      "position_id": "1505368587",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 290.3,
+      "opened_at": "2026-09-23T15:53:14Z",
+      "margin_usd": 20.36977019679,
+      "braam_trade_id": "TAOUSDT_20260922_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-22T16:10:38Z"
     }
   },
   "orders": {
@@ -8858,7 +8878,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-23T15:10:23Z",
+  "updated": "2026-09-23T16:00:31Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23523,6 +23543,14 @@
       "unrealized": 3.2039,
       "realized": 15.1324,
       "total": 18.3363
+    },
+    {
+      "ts": "2026-09-23T16:00:31Z",
+      "equity": 416.4831,
+      "available": 107.3022,
+      "unrealized": -1.6278,
+      "realized": 11.4902,
+      "total": 9.8624
     }
   ],
   "capital_events": {
