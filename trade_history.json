@@ -8893,9 +8893,18 @@
       "resting_at": "2026-09-23T16:11:20Z",
       "braam_trade_id": "HBARUSDT_20260923_CJ_001",
       "status": "RESTING"
+    },
+    "857835013451920384": {
+      "order_id": "857835013451920384",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.9238,
+      "resting_at": "2026-09-23T20:10:04Z",
+      "braam_trade_id": "SUIUSDT_20260923_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-23T18:29:13Z",
+  "updated": "2026-09-23T20:11:17Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23608,6 +23617,14 @@
       "unrealized": -0.243,
       "realized": 9.118,
       "total": 8.875
+    },
+    {
+      "ts": "2026-09-23T20:11:17Z",
+      "equity": 415.3055,
+      "available": 84.4477,
+      "unrealized": -0.4721,
+      "realized": 9.118,
+      "total": 8.6459
     }
   ],
   "capital_events": {
