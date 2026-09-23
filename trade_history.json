@@ -3773,8 +3773,16 @@
       "opened_at": "2026-09-23T14:11:12Z",
       "margin_usd": 21.130090589205,
       "braam_trade_id": "SUIUSDT_20260922_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-22T04:10:34Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-22T04:10:34Z",
+      "closed_at": "2026-09-23T16:01:37Z",
+      "close_price": 0.9378,
+      "pnl_usd": -2.3722,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0866
     },
     "1505234665": {
       "position_id": "1505234665",
@@ -8878,7 +8886,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-23T16:00:31Z",
+  "updated": "2026-09-23T16:03:24Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23551,6 +23559,14 @@
       "unrealized": -1.6278,
       "realized": 11.4902,
       "total": 9.8624
+    },
+    {
+      "ts": "2026-09-23T16:03:24Z",
+      "equity": 413.1385,
+      "available": 126.1021,
+      "unrealized": -2.6422,
+      "realized": 9.118,
+      "total": 6.4758
     }
   ],
   "capital_events": {
