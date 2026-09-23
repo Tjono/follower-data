@@ -8884,9 +8884,18 @@
       "resting_at": "2026-09-23T12:10:05Z",
       "braam_trade_id": "XRPUSDT_20260922_CJ_001",
       "status": "RESTING"
+    },
+    "857774934058686464": {
+      "order_id": "857774934058686464",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "entry_price": 0.0858,
+      "resting_at": "2026-09-23T16:11:20Z",
+      "braam_trade_id": "HBARUSDT_20260923_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-23T16:03:24Z",
+  "updated": "2026-09-23T16:12:31Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23567,6 +23576,14 @@
       "unrealized": -2.6422,
       "realized": 9.118,
       "total": 6.4758
+    },
+    {
+      "ts": "2026-09-23T16:12:31Z",
+      "equity": 416.5691,
+      "available": 105.1813,
+      "unrealized": 0.7884,
+      "realized": 9.118,
+      "total": 9.9064
     }
   ],
   "capital_events": {

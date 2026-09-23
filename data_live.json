@@ -1,20 +1,18 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-23T16:03:02Z",
+  "last_updated_iso": "2026-09-23T16:12:14Z",
   "mexc_account": {
-    "unrealized_pnl": -2.6422,
-    "equity": 413.1385,
-    "available": 126.1021,
+    "unrealized_pnl": 0.7884,
+    "equity": 416.5691,
+    "available": 105.1813,
     "position_margin": 62.1207
   },
   "order_levels": {
-    "checked": 14,
-    "in_sync": 14,
+    "checked": 15,
+    "in_sync": 15,
     "drifted": [],
-    "reconciling": [
-      "SUI"
-    ],
+    "reconciling": [],
     "detail": []
   },
   "api_keys": [],
@@ -47,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (274 records)",
+      "value": "OK (275 records)",
       "status": "ok",
       "action": null
     },
@@ -55,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$413.14",
+      "value": "$416.57",
       "status": "ok",
       "action": null
     },
@@ -71,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (11 resting = journal)",
+      "value": "in sync (12 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -482,39 +480,6 @@
       "rehearsal": false
     },
     {
-      "trade_id": "SUIUSDT_20260922_CJ_001",
-      "coin": "SUIUSDT",
-      "direction": "Long",
-      "entry_price": 0.97287646,
-      "sl": 0.93258459,
-      "tp1": 1.0289,
-      "tp2": 1.0782,
-      "capital_usd": 21.25,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-09-23",
-      "time_activated_utc": "14:11",
-      "date_opened": "2026-09-22",
-      "time_opened_utc": "04:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.9729,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0024,
-      "live_fees_usd": 0.0379,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
       "trade_id": "ALGOUSDT_20260922_CJ_001",
       "coin": "ALGOUSDT",
       "direction": "Long",
@@ -579,9 +544,56 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "HBARUSDT_20260923_CJ_001",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "entry_price": 0.08580091,
+      "sl": 0.08224417,
+      "tp1": 0.09187302,
+      "tp2": 0.10314166,
+      "capital_usd": 20.83,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-09-23",
+      "time_opened_utc": "16:04",
+      "conviction": "VERY HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "HBARUSDT_20260923_CJ_001",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.08580091,
+      "tp1": 0.09187302,
+      "sl": 0.08224417,
+      "conviction": "VERY HIGH",
+      "track_only": false,
+      "iso": "2026-09-23T16:04:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "SUIUSDT_20260922_CJ_001",
@@ -4416,20 +4428,40 @@
       "won": false,
       "close_iso": "2026-09-23T15:53:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "SUIUSDT_20260922_CJ_001",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "status": "STOPPED",
+      "pnl_usd": -2.36,
+      "close_reason": "live MEXC exit: sl @ 0.9378",
+      "date_closed": "2026-09-23",
+      "time_closed_utc": "16:01",
+      "trading_system": "John",
+      "live_entry_fill": 0.9729,
+      "live_exit_fill": 0.9378,
+      "live_entry_slippage_pct": 0.0024,
+      "live_fees_usd": 0.0866,
+      "live_funding_usd": -0.004036,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-09-23T16:01:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": 14.37,
-    "realized_pnl_pct": 0.39,
+    "realized_pnl_usd": 12.0,
+    "realized_pnl_pct": 0.33,
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
     "deployed_trades": 192,
-    "return_on_peak_pct": 6.68,
-    "win_rate_pct": 42.0,
-    "closed_count": 188,
+    "return_on_peak_pct": 5.58,
+    "win_rate_pct": 41.8,
+    "closed_count": 189,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -4.99,
@@ -4437,18 +4469,18 @@
         "closed_count": 117
       },
       "John": {
-        "realized_pnl_usd": 19.36,
-        "win_rate_pct": 40.8,
-        "closed_count": 71
+        "realized_pnl_usd": 17.0,
+        "win_rate_pct": 40.3,
+        "closed_count": 72
       }
     },
-    "live_trade_count_total": 266,
-    "live_real_count": 266,
+    "live_trade_count_total": 267,
+    "live_real_count": 267,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-23T15:59Z",
+    "feed_generated_utc": "2026-09-23T16:09Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
