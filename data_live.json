@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-23T00:45:30Z",
+  "last_updated_iso": "2026-09-23T04:11:07Z",
   "mexc_account": {
-    "unrealized_pnl": 1.032,
-    "equity": 425.1192,
-    "available": 87.8331,
+    "unrealized_pnl": 1.011,
+    "equity": 425.1561,
+    "available": 87.9173,
     "position_margin": 4.0597
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$425.12",
+      "value": "$425.16",
       "status": "ok",
       "action": null
     },
@@ -483,10 +483,10 @@
       "trade_id": "ADAUSDT_20260922_CJ_001",
       "coin": "ADAUSDT",
       "direction": "Long",
-      "entry_price": 0.249525,
-      "sl": 0.2421985,
-      "tp1": 0.27832298,
-      "tp2": 0.28399245,
+      "entry_price": 0.24444994,
+      "sl": 0.23701819,
+      "tp1": 0.28209715,
+      "tp2": 0.30356362,
       "capital_usd": 21.25,
       "leverage": 3,
       "trading_system": "John",
@@ -646,32 +646,6 @@
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "ALGOUSDT_20260922_CJ_001",
-      "coin": "ALGOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.10256453,
-      "tp1": 0.12369522,
-      "sl": 0.09873933,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-22T16:04:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "TAOUSDT_20260922_CJ_001",
-      "coin": "TAOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 290.29795959,
-      "tp1": 318.44683352,
-      "sl": 277.95237868,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-22T16:04:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "APTUSDT_20260923_CJ_001",
       "coin": "APTUSDT",
@@ -4439,7 +4413,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-23T00:09Z",
+    "feed_generated_utc": "2026-09-23T04:08Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
