@@ -8941,9 +8941,27 @@
       "resting_at": "2026-09-24T08:10:12Z",
       "braam_trade_id": "LTCUSDT_20260917_CJ_001",
       "status": "RESTING"
+    },
+    "858137153015097856": {
+      "order_id": "858137153015097856",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.44,
+      "resting_at": "2026-09-24T16:10:40Z",
+      "braam_trade_id": "NEARUSDT_20260924_CJ_001",
+      "status": "RESTING"
+    },
+    "858137144813795840": {
+      "order_id": "858137144813795840",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.9256,
+      "resting_at": "2026-09-24T16:10:38Z",
+      "braam_trade_id": "SUIUSDT_20260923_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-24T12:11:30Z",
+  "updated": "2026-09-24T16:11:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23744,6 +23762,14 @@
       "unrealized": -1.8786,
       "realized": 9.118,
       "total": 7.2394
+    },
+    {
+      "ts": "2026-09-24T16:11:57Z",
+      "equity": 420.3834,
+      "available": 81.3155,
+      "unrealized": 3.4003,
+      "realized": 9.118,
+      "total": 12.5183
     }
   ],
   "capital_events": {
