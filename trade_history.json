@@ -3807,6 +3807,18 @@
       "braam_trade_id": "TAOUSDT_20260922_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-22T16:10:38Z"
+    },
+    "1505866870": {
+      "position_id": "1505866870",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.4746,
+      "opened_at": "2026-09-24T08:49:49Z",
+      "margin_usd": 21.186659361974,
+      "braam_trade_id": "XRPUSDT_20260922_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-23T20:42:56Z"
     }
   },
   "orders": {
@@ -8931,7 +8943,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-24T08:11:30Z",
+  "updated": "2026-09-24T10:11:46Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23708,6 +23720,14 @@
       "unrealized": 2.098,
       "realized": 9.118,
       "total": 11.216
+    },
+    {
+      "ts": "2026-09-24T10:11:46Z",
+      "equity": 411.9188,
+      "available": 84.4719,
+      "unrealized": -3.8535,
+      "realized": 9.118,
+      "total": 5.2645
     }
   ],
   "capital_events": {
