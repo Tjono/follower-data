@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-24T17:23:06Z",
+  "last_updated_iso": "2026-09-24T20:11:26Z",
   "mexc_account": {
-    "unrealized_pnl": 6.1393,
-    "equity": 423.1224,
-    "available": 81.3155,
-    "position_margin": 66.9214
+    "unrealized_pnl": 6.5317,
+    "equity": 424.3762,
+    "available": 67.3972,
+    "position_margin": 62.825
   },
   "order_levels": {
     "checked": 17,
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (277 records)",
+      "value": "OK (278 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$423.12",
+      "value": "$424.38",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (13 resting = journal)",
+      "value": "in sync (14 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (4 open, 3 pre-TP1 runners)",
+      "value": "all protected (3 open, 3 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -120,10 +120,10 @@
       "trade_id": "LTCUSDT_20260917_CJ_001",
       "coin": "LTCUSDT",
       "direction": "Long",
-      "entry_price": 56.36344937,
-      "sl": 54.15320337,
-      "tp1": 71.06294735,
-      "tp2": 97.67359326,
+      "entry_price": 56.85082437,
+      "sl": 53.93903849,
+      "tp1": 74.43732885,
+      "tp2": 106.44192302,
       "capital_usd": 20.95,
       "leverage": 3,
       "trading_system": "John",
@@ -180,39 +180,6 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "LINKUSDT_20260918_CJ_001",
-      "coin": "LINKUSDT",
-      "direction": "Long",
-      "entry_price": 12.25990937,
-      "sl": 11.99081426,
-      "tp1": 12.58,
-      "tp2": 13.135,
-      "capital_usd": 20.71,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-09-23",
-      "time_activated_utc": "14:13",
-      "date_opened": "2026-09-18",
-      "time_opened_utc": "04:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": true,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 12.26,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0007,
-      "live_fees_usd": 0.0769,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": 1.264,
       "rehearsal": false
     },
     {
@@ -384,10 +351,10 @@
       "trade_id": "DOGEUSDT_20260921_CJ_001",
       "coin": "DOGEUSDT",
       "direction": "Long",
-      "entry_price": 0.0893229,
-      "sl": 0.08725118,
-      "tp1": 0.09991825,
-      "tp2": 0.10518764,
+      "entry_price": 0.0922225,
+      "sl": 0.08912339,
+      "tp1": 0.10372944,
+      "tp2": 0.11041323,
       "capital_usd": 21.01,
       "leverage": 3,
       "trading_system": "John",
@@ -643,6 +610,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20260924_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.79274763,
+      "sl": 0.75421103,
+      "tp1": 0.89536034,
+      "tp2": 0.92397794,
+      "capital_usd": 21.21,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-09-24",
+      "time_opened_utc": "20:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -657,6 +657,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-09-24T16:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20260924_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.79274763,
+      "tp1": 0.89536034,
+      "sl": 0.75421103,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-09-24T20:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4526,27 +4539,40 @@
       "won": false,
       "close_iso": "2026-09-23T16:01:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "LINKUSDT_20260918_CJ_001",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "status": "TP2_HIT",
+      "pnl_usd": 2.06,
+      "close_reason": "live MEXC exit: tp2 @ 13.135",
+      "date_closed": "2026-09-24",
+      "time_closed_utc": "18:16",
+      "trading_system": "John",
+      "live_entry_fill": 12.26,
+      "live_exit_fill": 13.135,
+      "live_entry_slippage_pct": 0.0007,
+      "live_fees_usd": 0.0874,
+      "live_funding_usd": -0.004377,
+      "pnl_estimated": null,
+      "won": true,
+      "close_iso": "2026-09-24T18:16:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
-  "tp1_hits_open": [
-    {
-      "coin": "LINKUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 12.25990937
-    }
-  ],
+  "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": 12.0,
-    "realized_pnl_pct": 0.33,
+    "realized_pnl_usd": 14.06,
+    "realized_pnl_pct": 0.38,
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
     "deployed_trades": 193,
-    "return_on_peak_pct": 5.58,
-    "win_rate_pct": 41.8,
-    "closed_count": 189,
+    "return_on_peak_pct": 6.54,
+    "win_rate_pct": 42.1,
+    "closed_count": 190,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -4.99,
@@ -4554,18 +4580,18 @@
         "closed_count": 117
       },
       "John": {
-        "realized_pnl_usd": 17.0,
-        "win_rate_pct": 40.3,
-        "closed_count": 72
+        "realized_pnl_usd": 19.05,
+        "win_rate_pct": 41.1,
+        "closed_count": 73
       }
     },
-    "live_trade_count_total": 269,
-    "live_real_count": 269,
+    "live_trade_count_total": 270,
+    "live_real_count": 270,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-24T16:09Z",
+    "feed_generated_utc": "2026-09-24T20:09Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []

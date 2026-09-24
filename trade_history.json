@@ -3793,8 +3793,16 @@
       "opened_at": "2026-09-23T14:13:15Z",
       "margin_usd": 20.482373129,
       "braam_trade_id": "LINKUSDT_20260918_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-20T20:10:03Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-20T20:10:03Z",
+      "closed_at": "2026-09-24T18:16:17Z",
+      "close_price": 12.687,
+      "pnl_usd": 2.047,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0874
     },
     "1505368587": {
       "position_id": "1505368587",
@@ -8959,9 +8967,36 @@
       "resting_at": "2026-09-24T16:10:38Z",
       "braam_trade_id": "SUIUSDT_20260923_CJ_001",
       "status": "RESTING"
+    },
+    "858197515565405184": {
+      "order_id": "858197515565405184",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.7927,
+      "resting_at": "2026-09-24T20:10:32Z",
+      "braam_trade_id": "APTUSDT_20260924_CJ_001",
+      "status": "RESTING"
+    },
+    "858197501730656768": {
+      "order_id": "858197501730656768",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "entry_price": 0.09222,
+      "resting_at": "2026-09-24T20:10:28Z",
+      "braam_trade_id": "DOGEUSDT_20260921_CJ_001",
+      "status": "RESTING"
+    },
+    "858197479387158016": {
+      "order_id": "858197479387158016",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 56.85,
+      "resting_at": "2026-09-24T20:10:23Z",
+      "braam_trade_id": "LTCUSDT_20260917_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-24T17:23:27Z",
+  "updated": "2026-09-24T20:11:45Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23778,6 +23813,14 @@
       "unrealized": 6.1393,
       "realized": 9.118,
       "total": 15.2573
+    },
+    {
+      "ts": "2026-09-24T20:11:45Z",
+      "equity": 424.3762,
+      "available": 67.3972,
+      "unrealized": 6.5317,
+      "realized": 11.165,
+      "total": 17.6967
     }
   ],
   "capital_events": {
