@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-25T08:00:32Z",
+  "last_updated_iso": "2026-09-25T10:10:24Z",
   "mexc_account": {
-    "unrealized_pnl": 8.0475,
-    "equity": 425.8358,
-    "available": 66.1648,
-    "position_margin": 103.8009
+    "unrealized_pnl": 13.4377,
+    "equity": 433.5179,
+    "available": 83.6362,
+    "position_margin": 88.6212
   },
   "order_levels": {
     "checked": 17,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$425.84",
+      "value": "$433.52",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 5 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -597,7 +597,7 @@
       "date_opened": "2026-09-24",
       "time_opened_utc": "16:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -606,9 +606,9 @@
       "live_entry_fill": 4.543,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0001,
-      "live_fees_usd": 0.0354,
+      "live_fees_usd": 0.0736,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 2.33,
       "rehearsal": false
     },
     {
@@ -738,7 +738,7 @@
       "trading_system": "John",
       "entry_price": 4.54299511,
       "live_entry_fill": 4.543,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-09-25T01:37:00Z",
       "_iso_ms": 1790300220000,
       "rehearsal": false
@@ -4559,7 +4559,14 @@
     }
   ],
   "recent_cancels": [],
-  "tp1_hits_open": [],
+  "tp1_hits_open": [
+    {
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 4.54299511
+    }
+  ],
   "stats": {
     "realized_pnl_usd": 14.06,
     "realized_pnl_pct": 0.38,
@@ -4588,7 +4595,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-25T06:07Z",
+    "feed_generated_utc": "2026-09-25T10:08Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
