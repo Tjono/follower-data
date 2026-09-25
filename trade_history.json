@@ -8994,9 +8994,36 @@
       "resting_at": "2026-09-24T20:10:23Z",
       "braam_trade_id": "LTCUSDT_20260917_CJ_001",
       "status": "RESTING"
+    },
+    "858258091249478144": {
+      "order_id": "858258091249478144",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.543,
+      "resting_at": "2026-09-25T00:11:14Z",
+      "braam_trade_id": "NEARUSDT_20260924_CJ_001",
+      "status": "RESTING"
+    },
+    "858258073964808704": {
+      "order_id": "858258073964808704",
+      "coin": "DOGEUSDT",
+      "direction": "Long",
+      "entry_price": 0.08888,
+      "resting_at": "2026-09-25T00:11:10Z",
+      "braam_trade_id": "DOGEUSDT_20260921_CJ_001",
+      "status": "RESTING"
+    },
+    "858258046856583680": {
+      "order_id": "858258046856583680",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 57.73,
+      "resting_at": "2026-09-25T00:11:03Z",
+      "braam_trade_id": "LTCUSDT_20260917_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-24T21:39:06Z",
+  "updated": "2026-09-25T00:12:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23829,6 +23856,14 @@
       "unrealized": 7.5603,
       "realized": 11.165,
       "total": 18.7253
+    },
+    {
+      "ts": "2026-09-25T00:12:32Z",
+      "equity": 425.436,
+      "available": 66.1816,
+      "unrealized": 7.6025,
+      "realized": 11.165,
+      "total": 18.7675
     }
   ],
   "capital_events": {
