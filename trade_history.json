@@ -3839,6 +3839,18 @@
       "braam_trade_id": "NEARUSDT_20260924_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-25T00:11:15Z"
+    },
+    "1506510849": {
+      "position_id": "1506510849",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.7927,
+      "opened_at": "2026-09-25T02:39:00Z",
+      "margin_usd": 21.2423727534182,
+      "braam_trade_id": "APTUSDT_20260924_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-24T20:10:32Z"
     }
   },
   "orders": {
@@ -9033,9 +9045,18 @@
       "resting_at": "2026-09-25T00:11:03Z",
       "braam_trade_id": "LTCUSDT_20260917_CJ_001",
       "status": "RESTING"
+    },
+    "858318206895511552": {
+      "order_id": "858318206895511552",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 56.87,
+      "resting_at": "2026-09-25T04:10:07Z",
+      "braam_trade_id": "LTCUSDT_20260917_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-25T02:11:22Z",
+  "updated": "2026-09-25T04:11:29Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23892,6 +23913,14 @@
       "unrealized": 9.3067,
       "realized": 11.165,
       "total": 20.4717
+    },
+    {
+      "ts": "2026-09-25T04:11:29Z",
+      "equity": 422.9141,
+      "available": 66.1902,
+      "unrealized": 5.1003,
+      "realized": 11.165,
+      "total": 16.2653
     }
   ],
   "capital_events": {
