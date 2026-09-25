@@ -9054,9 +9054,18 @@
       "resting_at": "2026-09-25T04:10:07Z",
       "braam_trade_id": "LTCUSDT_20260917_CJ_001",
       "status": "RESTING"
+    },
+    "858499491999929344": {
+      "order_id": "858499491999929344",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 13.534,
+      "resting_at": "2026-09-25T16:10:28Z",
+      "braam_trade_id": "LINKUSDT_20260925_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-25T14:11:15Z",
+  "updated": "2026-09-25T16:11:47Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -23977,6 +23986,14 @@
       "unrealized": 5.8428,
       "realized": 11.165,
       "total": 17.0078
+    },
+    {
+      "ts": "2026-09-25T16:11:47Z",
+      "equity": 439.0819,
+      "available": 185.3161,
+      "unrealized": 7.3166,
+      "realized": 11.165,
+      "total": 18.4816
     }
   ],
   "capital_events": {
