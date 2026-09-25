@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-25T20:11:03Z",
+  "last_updated_iso": "2026-09-25T23:22:58Z",
   "mexc_account": {
-    "unrealized_pnl": 8.1184,
-    "equity": 439.8805,
-    "available": 165.4849,
-    "position_margin": 37.8178
+    "unrealized_pnl": 5.6541,
+    "equity": 442.1431,
+    "available": 186.7016,
+    "position_margin": 21.328
   },
   "order_levels": {
     "checked": 16,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$439.88",
+      "value": "$442.14",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 1 pre-TP1 runners)",
+      "value": "all protected (5 open, 0 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -399,7 +399,7 @@
       "date_opened": "2026-09-22",
       "time_opened_utc": "16:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -408,9 +408,9 @@
       "live_entry_fill": 290.3,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0007,
-      "live_fees_usd": 0.0365,
+      "live_fees_usd": 0.0797,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 4.7702,
       "rehearsal": false
     },
     {
@@ -4495,6 +4495,12 @@
       "entry_price": 0.23842673
     },
     {
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 290.29795959
+    },
+    {
       "coin": "NEARUSDT",
       "direction": "Long",
       "trading_system": "John",
@@ -4535,7 +4541,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-25T20:08Z",
+    "feed_generated_utc": "2026-09-25T22:07Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
