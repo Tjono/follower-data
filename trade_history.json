@@ -9107,9 +9107,18 @@
       "resting_at": "2026-09-27T00:10:03Z",
       "braam_trade_id": "TRXUSDT_20260927_CJ_001",
       "status": "RESTING"
+    },
+    "859103438888661504": {
+      "order_id": "859103438888661504",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "entry_price": 121.11,
+      "resting_at": "2026-09-27T08:10:21Z",
+      "braam_trade_id": "SOLUSDT_20260925_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-27T07:43:54Z",
+  "updated": "2026-09-27T08:11:39Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24102,6 +24111,14 @@
       "unrealized": 4.2228,
       "realized": 15.2557,
       "total": 19.4785
+    },
+    {
+      "ts": "2026-09-27T08:11:39Z",
+      "equity": 442.9629,
+      "available": 168.6878,
+      "unrealized": 4.5383,
+      "realized": 15.2557,
+      "total": 19.794
     }
   ],
   "capital_events": {
