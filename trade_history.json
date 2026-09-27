@@ -9116,9 +9116,18 @@
       "resting_at": "2026-09-27T08:10:21Z",
       "braam_trade_id": "SOLUSDT_20260925_CJ_001",
       "status": "RESTING"
+    },
+    "859106751520717312": {
+      "order_id": "859106751520717312",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.21265,
+      "resting_at": "2026-09-27T08:23:30Z",
+      "braam_trade_id": "XLMUSDT_20260926_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-27T08:11:39Z",
+  "updated": "2026-09-27T08:23:53Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24119,6 +24128,14 @@
       "unrealized": 4.5383,
       "realized": 15.2557,
       "total": 19.794
+    },
+    {
+      "ts": "2026-09-27T08:23:53Z",
+      "equity": 442.9834,
+      "available": 168.6878,
+      "unrealized": 4.5588,
+      "realized": 15.2557,
+      "total": 19.8145
     }
   ],
   "capital_events": {
