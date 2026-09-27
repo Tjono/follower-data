@@ -3859,6 +3859,18 @@
       "braam_trade_id": "APTUSDT_20260924_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-24T20:10:32Z"
+    },
+    "1508557533": {
+      "position_id": "1508557533",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 121.1,
+      "opened_at": "2026-09-27T22:35:36Z",
+      "margin_usd": 20.2317731315,
+      "braam_trade_id": "SOLUSDT_20260925_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-27T20:10:37Z"
     }
   },
   "orders": {
@@ -9163,7 +9175,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-27T22:10:34Z",
+  "updated": "2026-09-27T23:11:40Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24260,6 +24272,14 @@
       "unrealized": 3.3594,
       "realized": 15.2557,
       "total": 18.6151
+    },
+    {
+      "ts": "2026-09-27T23:11:40Z",
+      "equity": 441.7745,
+      "available": 168.2751,
+      "unrealized": 3.3903,
+      "realized": 15.2557,
+      "total": 18.646
     }
   ],
   "capital_events": {
