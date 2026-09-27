@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-27T08:23:33Z",
+  "last_updated_iso": "2026-09-27T12:11:11Z",
   "mexc_account": {
-    "unrealized_pnl": 4.5588,
-    "equity": 442.9834,
-    "available": 168.6878,
+    "unrealized_pnl": 4.3689,
+    "equity": 442.7929,
+    "available": 168.2648,
     "position_margin": 16.7741
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$442.98",
+      "value": "$442.79",
       "status": "ok",
       "action": null
     },
@@ -582,10 +582,10 @@
       "trade_id": "NEARUSDT_20260927_CJ_001",
       "coin": "NEARUSDT",
       "direction": "Long",
-      "entry_price": 4.93914596,
-      "sl": 4.68997369,
-      "tp1": 5.64299031,
-      "tp2": 5.99252582,
+      "entry_price": 5.03562096,
+      "sl": 4.76607446,
+      "tp1": 5.98969597,
+      "tp2": 6.24422582,
       "capital_usd": 22.07,
       "leverage": 3,
       "trading_system": "John",
@@ -614,26 +614,13 @@
   ],
   "recent_signals": [
     {
-      "trade_id": "TRXUSDT_20260927_CJ_001",
-      "coin": "TRXUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 0.3442979,
-      "tp1": 0.31727858,
-      "sl": 0.34589697,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-09-27T00:04:00Z",
-      "rehearsal": false
-    },
-    {
       "trade_id": "NEARUSDT_20260927_CJ_001",
       "coin": "NEARUSDT",
       "direction": "Long",
       "trading_system": "John",
-      "entry_price": 4.93914596,
-      "tp1": 5.64299031,
-      "sl": 4.68997369,
+      "entry_price": 5.03562096,
+      "tp1": 5.98969597,
+      "sl": 4.76607446,
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-09-27T04:04:00Z",
@@ -4518,7 +4505,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-27T08:08Z",
+    "feed_generated_utc": "2026-09-27T12:08Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
