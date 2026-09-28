@@ -3897,8 +3897,16 @@
       "opened_at": "2026-09-28T02:04:53Z",
       "margin_usd": 21.00629419044,
       "braam_trade_id": "NEARUSDT_20260927_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-28T00:10:49Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-28T00:10:49Z",
+      "closed_at": "2026-09-28T09:44:13Z",
+      "close_price": 4.97,
+      "pnl_usd": -3.3195,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0854
     },
     "1508713948": {
       "position_id": "1508713948",
@@ -3911,6 +3919,18 @@
       "braam_trade_id": "XLMUSDT_20260926_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-27T12:10:15Z"
+    },
+    "1508929202": {
+      "position_id": "1508929202",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 13.534,
+      "opened_at": "2026-09-28T09:46:54Z",
+      "margin_usd": 21.706370343456,
+      "braam_trade_id": "LINKUSDT_20260925_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-25T16:10:29Z"
     }
   },
   "orders": {
@@ -9233,7 +9253,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-28T08:11:33Z",
+  "updated": "2026-09-28T09:53:08Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24450,6 +24470,14 @@
       "unrealized": -1.1815,
       "realized": 18.8758,
       "total": 17.6943
+    },
+    {
+      "ts": "2026-09-28T09:53:08Z",
+      "equity": 434.7027,
+      "available": 188.7212,
+      "unrealized": 0.8252,
+      "realized": 15.5563,
+      "total": 16.3815
     }
   ],
   "capital_events": {
