@@ -3871,6 +3871,18 @@
       "braam_trade_id": "SOLUSDT_20260925_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-09-27T20:10:37Z"
+    },
+    "1508678461": {
+      "position_id": "1508678461",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 5.239,
+      "opened_at": "2026-09-28T02:04:53Z",
+      "margin_usd": 21.00629419044,
+      "braam_trade_id": "NEARUSDT_20260927_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-28T00:10:49Z"
     }
   },
   "orders": {
@@ -9184,7 +9196,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-28T00:48:18Z",
+  "updated": "2026-09-28T02:11:55Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24313,6 +24325,14 @@
       "unrealized": 4.2508,
       "realized": 15.2557,
       "total": 19.5065
+    },
+    {
+      "ts": "2026-09-28T02:11:55Z",
+      "equity": 442.3274,
+      "available": 169.1558,
+      "unrealized": 3.9837,
+      "realized": 15.2557,
+      "total": 19.2394
     }
   ],
   "capital_events": {
