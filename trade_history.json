@@ -3917,8 +3917,16 @@
       "opened_at": "2026-09-28T03:25:13Z",
       "margin_usd": 22.026570313595,
       "braam_trade_id": "XLMUSDT_20260926_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-27T12:10:15Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-27T12:10:15Z",
+      "closed_at": "2026-09-28T18:22:24Z",
+      "close_price": 0.22419,
+      "pnl_usd": 3.4755,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.095
     },
     "1508929202": {
       "position_id": "1508929202",
@@ -3949,8 +3957,16 @@
       "opened_at": "2026-09-28T14:29:36Z",
       "margin_usd": 21.86635338186,
       "braam_trade_id": "NEARUSDT_20260928_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-28T12:10:58Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-28T12:10:58Z",
+      "closed_at": "2026-09-28T19:35:38Z",
+      "close_price": 4.774,
+      "pnl_usd": -3.4733,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0888
     }
   },
   "orders": {
@@ -9289,9 +9305,18 @@
       "resting_at": "2026-09-28T16:10:27Z",
       "braam_trade_id": "CAKEUSDT_20260928_CJ_001",
       "status": "RESTING"
+    },
+    "859647144003873280": {
+      "order_id": "859647144003873280",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.631,
+      "resting_at": "2026-09-28T20:10:50Z",
+      "braam_trade_id": "NEARUSDT_20260928_CJ_002",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-28T18:10:45Z",
+  "updated": "2026-09-28T20:12:05Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24612,6 +24637,14 @@
       "unrealized": 1.9394,
       "realized": 20.2181,
       "total": 22.1575
+    },
+    {
+      "ts": "2026-09-28T20:12:05Z",
+      "equity": 440.0803,
+      "available": 193.8072,
+      "unrealized": 1.4563,
+      "realized": 20.2203,
+      "total": 21.6766
     }
   ],
   "capital_events": {
