@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-28T05:54:02Z",
+  "last_updated_iso": "2026-09-28T06:01:30Z",
   "mexc_account": {
-    "unrealized_pnl": -0.3657,
-    "equity": 436.8414,
+    "unrealized_pnl": -0.3052,
+    "equity": 436.9019,
     "available": 192.7381,
     "position_margin": 55.3725
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$436.84",
+      "value": "$436.90",
       "status": "ok",
       "action": null
     },
@@ -452,8 +452,8 @@
       "direction": "Long",
       "entry_price": 0.21264877,
       "sl": 0.20584646,
-      "tp1": 0.2303098,
-      "tp2": 0.24770707,
+      "tp1": 0.2207,
+      "tp2": 0.2459,
       "capital_usd": 22.1,
       "leverage": 3,
       "trading_system": "John",
@@ -4496,7 +4496,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-28T05:51Z",
+    "feed_generated_utc": "2026-09-28T06:00Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
