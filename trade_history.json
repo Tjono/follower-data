@@ -3929,8 +3929,16 @@
       "opened_at": "2026-09-28T09:46:54Z",
       "margin_usd": 21.706370343456,
       "braam_trade_id": "LINKUSDT_20260925_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-25T16:10:29Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-25T16:10:29Z",
+      "closed_at": "2026-09-28T12:18:33Z",
+      "close_price": 14.524,
+      "pnl_usd": 4.6618,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0946
     }
   },
   "orders": {
@@ -9262,7 +9270,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-28T12:12:14Z",
+  "updated": "2026-09-28T13:04:46Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24503,6 +24511,14 @@
       "unrealized": 6.6851,
       "realized": 15.5563,
       "total": 22.2414
+    },
+    {
+      "ts": "2026-09-28T13:04:46Z",
+      "equity": 443.5765,
+      "available": 213.2681,
+      "unrealized": 2.7032,
+      "realized": 20.2181,
+      "total": 22.9213
     }
   ],
   "capital_events": {
