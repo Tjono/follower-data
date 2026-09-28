@@ -9251,9 +9251,18 @@
       "resting_at": "2026-09-28T08:10:18Z",
       "braam_trade_id": "RENDERUSDT_20260928_CJ_001",
       "status": "RESTING"
+    },
+    "859526378000200192": {
+      "order_id": "859526378000200192",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 5.034,
+      "resting_at": "2026-09-28T12:10:57Z",
+      "braam_trade_id": "NEARUSDT_20260928_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-28T09:56:31Z",
+  "updated": "2026-09-28T12:12:14Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24486,6 +24495,14 @@
       "unrealized": 0.2604,
       "realized": 15.5563,
       "total": 15.8167
+    },
+    {
+      "ts": "2026-09-28T12:12:14Z",
+      "equity": 440.562,
+      "available": 166.8019,
+      "unrealized": 6.6851,
+      "realized": 15.5563,
+      "total": 22.2414
     }
   ],
   "capital_events": {
