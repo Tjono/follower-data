@@ -9383,9 +9383,18 @@
       "resting_at": "2026-09-29T08:10:42Z",
       "braam_trade_id": "XRPUSDT_20260929_CJ_001",
       "status": "RESTING"
+    },
+    "859888716742027776": {
+      "order_id": "859888716742027776",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "entry_price": 118.46,
+      "resting_at": "2026-09-29T12:10:45Z",
+      "braam_trade_id": "SOLUSDT_20260929_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-29T10:11:46Z",
+  "updated": "2026-09-29T12:12:00Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24818,6 +24827,14 @@
       "unrealized": 3.6204,
       "realized": 20.2203,
       "total": 23.8407
+    },
+    {
+      "ts": "2026-09-29T12:12:00Z",
+      "equity": 447.0537,
+      "available": 214.4296,
+      "unrealized": 5.2955,
+      "realized": 20.2203,
+      "total": 25.5158
     }
   ],
   "capital_events": {
