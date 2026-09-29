@@ -3865,8 +3865,16 @@
       "opened_at": "2026-09-25T02:39:00Z",
       "margin_usd": 21.2423727534182,
       "braam_trade_id": "APTUSDT_20260924_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-24T20:10:32Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-24T20:10:32Z",
+      "closed_at": "2026-09-29T17:50:52Z",
+      "close_price": 0.83,
+      "pnl_usd": 2.8814,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0913
     },
     "1508557533": {
       "position_id": "1508557533",
@@ -9406,7 +9414,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-29T16:35:34Z",
+  "updated": "2026-09-29T18:11:44Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24879,6 +24887,14 @@
       "unrealized": 4.8084,
       "realized": 20.2203,
       "total": 25.0287
+    },
+    {
+      "ts": "2026-09-29T18:11:44Z",
+      "equity": 444.6323,
+      "available": 218.6538,
+      "unrealized": 2.9352,
+      "realized": 23.1017,
+      "total": 26.0369
     }
   ],
   "capital_events": {
