@@ -3967,6 +3967,30 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0888
+    },
+    "1509508597": {
+      "position_id": "1509508597",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 8.561,
+      "opened_at": "2026-09-29T01:32:06Z",
+      "margin_usd": 20.881762698349,
+      "braam_trade_id": "UNIUSDT_20260921_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-09-29T00:11:01Z"
+    },
+    "1509493530": {
+      "position_id": "1509493530",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 4.736,
+      "opened_at": "2026-09-29T01:10:31Z",
+      "margin_usd": 20.57192086144,
+      "braam_trade_id": "NEARUSDT_20260928_CJ_002",
+      "status": "OPEN",
+      "resting_at": "2026-09-29T00:11:08Z"
     }
   },
   "orders": {
@@ -9352,7 +9376,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-29T00:12:27Z",
+  "updated": "2026-09-29T02:06:50Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -24713,6 +24737,14 @@
       "unrealized": 1.7894,
       "realized": 20.2203,
       "total": 22.0097
+    },
+    {
+      "ts": "2026-09-29T02:06:50Z",
+      "equity": 438.3949,
+      "available": 171.878,
+      "unrealized": -0.1514,
+      "realized": 20.2203,
+      "total": 20.0689
     }
   ],
   "capital_events": {
