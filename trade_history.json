@@ -3997,8 +3997,16 @@
       "opened_at": "2026-09-29T01:10:31Z",
       "margin_usd": 20.57192086144,
       "braam_trade_id": "NEARUSDT_20260928_CJ_002",
-      "status": "OPEN",
-      "resting_at": "2026-09-29T00:11:08Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-29T00:11:08Z",
+      "closed_at": "2026-09-30T12:35:10Z",
+      "close_price": 5.235,
+      "pnl_usd": 6.385,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0913
     },
     "1509955690": {
       "position_id": "1509955690",
@@ -9441,7 +9449,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-09-30T12:12:11Z",
+  "updated": "2026-09-30T12:49:41Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -25002,6 +25010,14 @@
       "unrealized": 3.9082,
       "realized": 23.1017,
       "total": 27.0099
+    },
+    {
+      "ts": "2026-09-30T12:49:41Z",
+      "equity": 451.7243,
+      "available": 261.6864,
+      "unrealized": 2.7527,
+      "realized": 29.4867,
+      "total": 32.2394
     }
   ],
   "capital_events": {
