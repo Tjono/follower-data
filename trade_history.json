@@ -4017,8 +4017,28 @@
       "opened_at": "2026-09-29T15:23:58Z",
       "margin_usd": 19.7907171359,
       "braam_trade_id": "SOLUSDT_20260929_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-09-29T12:10:46Z",
+      "closed_at": "2026-09-30T14:32:51Z",
+      "close_price": 120.12,
+      "pnl_usd": 0.7459,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0834
+    },
+    "1510713170": {
+      "position_id": "1510713170",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.22135,
+      "opened_at": "2026-09-30T14:33:02Z",
+      "margin_usd": 22.18812377865,
+      "braam_trade_id": "XLMUSDT_20260930_CJ_001",
       "status": "OPEN",
-      "resting_at": "2026-09-29T12:10:46Z"
+      "resting_at": "2026-09-30T12:10:37Z"
     }
   },
   "orders": {
@@ -9447,9 +9467,18 @@
       "resting_at": "2026-09-30T12:10:37Z",
       "braam_trade_id": "XLMUSDT_20260930_CJ_001",
       "status": "RESTING"
+    },
+    "860311363514407424": {
+      "order_id": "860311363514407424",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.4748,
+      "resting_at": "2026-09-30T16:10:12Z",
+      "braam_trade_id": "XRPUSDT_20260929_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-09-30T14:11:29Z",
+  "updated": "2026-09-30T16:11:29Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -25026,6 +25055,14 @@
       "unrealized": 2.1001,
       "realized": 29.4867,
       "total": 31.5868
+    },
+    {
+      "ts": "2026-09-30T16:11:29Z",
+      "equity": 451.6809,
+      "available": 265.9724,
+      "unrealized": 2.7702,
+      "realized": 30.2326,
+      "total": 33.0028
     }
   ],
   "capital_events": {
