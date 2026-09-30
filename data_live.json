@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-09-30T10:10:21Z",
+  "last_updated_iso": "2026-09-30T12:11:50Z",
   "mexc_account": {
-    "unrealized_pnl": 6.685,
-    "equity": 448.4232,
-    "available": 196.2254,
-    "position_margin": 52.7552
+    "unrealized_pnl": 3.9082,
+    "equity": 450.0144,
+    "available": 238.2411,
+    "position_margin": 36.9307
   },
   "order_levels": {
-    "checked": 14,
-    "in_sync": 14,
+    "checked": 13,
+    "in_sync": 13,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$448.42",
+      "value": "$450.01",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (9 resting = journal)",
+      "value": "in sync (8 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 2 pre-TP1 runners)",
+      "value": "all protected (5 open, 1 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -282,39 +282,6 @@
       "rehearsal": false
     },
     {
-      "trade_id": "TRXUSDT_20260927_CJ_001",
-      "coin": "TRXUSDT",
-      "direction": "Short",
-      "entry_price": 0.3442979,
-      "sl": 0.34589697,
-      "tp1": 0.31727858,
-      "tp2": 0.31110607,
-      "capital_usd": 22.07,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-09-27",
-      "time_opened_utc": "00:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
       "trade_id": "RENDERUSDT_20260928_CJ_001",
       "coin": "RENDERUSDT",
       "direction": "Long",
@@ -399,7 +366,7 @@
       "date_opened": "2026-09-28",
       "time_opened_utc": "20:04",
       "conviction": "HIGH",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -408,9 +375,9 @@
       "live_entry_fill": 4.736,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0007,
-      "live_fees_usd": 0.0369,
+      "live_fees_usd": 0.0783,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 4.41,
       "rehearsal": false
     },
     {
@@ -516,10 +483,10 @@
       "trade_id": "XLMUSDT_20260930_CJ_001",
       "coin": "XLMUSDT",
       "direction": "Long",
-      "entry_price": 0.22031344,
-      "sl": 0.21288116,
-      "tp1": 0.2410717,
-      "tp2": 0.24893769,
+      "entry_price": 0.22135,
+      "sl": 0.21399146,
+      "tp1": 0.24098224,
+      "tp2": 0.25811709,
       "capital_usd": 22.3,
       "leverage": 3,
       "trading_system": "John",
@@ -552,9 +519,9 @@
       "coin": "XLMUSDT",
       "direction": "Long",
       "trading_system": "John",
-      "entry_price": 0.22031344,
-      "tp1": 0.2410717,
-      "sl": 0.21288116,
+      "entry_price": 0.22135,
+      "tp1": 0.24098224,
+      "sl": 0.21399146,
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-09-30T08:04:00Z",
@@ -581,7 +548,7 @@
       "trading_system": "John",
       "entry_price": 4.73596504,
       "live_entry_fill": 4.736,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-09-29T01:10:00Z",
       "_iso_ms": 1790644200000,
       "rehearsal": false
@@ -4592,6 +4559,12 @@
       "direction": "Long",
       "trading_system": "John",
       "entry_price": 290.29795959
+    },
+    {
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 4.73596504
     }
   ],
   "stats": {
@@ -4622,9 +4595,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-09-30T10:07Z",
-    "checked": 14,
-    "in_parity": 14,
+    "feed_generated_utc": "2026-09-30T12:09Z",
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   }
 }
