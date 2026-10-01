@@ -4059,6 +4059,18 @@
       "close_reason": "tp1_breakeven",
       "close_fills": 2,
       "fees_usd": 0.0894
+    },
+    "1511367559": {
+      "position_id": "1511367559",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 4.927,
+      "opened_at": "2026-10-01T13:06:01Z",
+      "margin_usd": 21.40157391983,
+      "braam_trade_id": "NEARUSDT_20261001_CJ_002",
+      "status": "OPEN",
+      "resting_at": "2026-10-01T12:10:31Z"
     }
   },
   "orders": {
@@ -9525,7 +9537,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-01T12:11:45Z",
+  "updated": "2026-10-01T13:35:21Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -25214,6 +25226,14 @@
       "unrealized": 2.0954,
       "realized": 32.2479,
       "total": 34.3433
+    },
+    {
+      "ts": "2026-10-01T13:35:21Z",
+      "equity": 452.3357,
+      "available": 246.2493,
+      "unrealized": 1.4079,
+      "realized": 32.2479,
+      "total": 33.6558
     }
   ],
   "capital_events": {
