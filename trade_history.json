@@ -9535,9 +9535,18 @@
       "resting_at": "2026-10-01T12:10:30Z",
       "braam_trade_id": "NEARUSDT_20261001_CJ_002",
       "status": "RESTING"
+    },
+    "860854861493949440": {
+      "order_id": "860854861493949440",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.11902,
+      "resting_at": "2026-10-02T04:09:52Z",
+      "braam_trade_id": "ALGOUSDT_20261002_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-02T00:00:00Z",
+  "updated": "2026-10-02T04:11:09Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -25274,6 +25283,14 @@
       "unrealized": -0.6967,
       "realized": 32.2479,
       "total": 31.5512
+    },
+    {
+      "ts": "2026-10-02T04:11:09Z",
+      "equity": 452.1577,
+      "available": 223.6192,
+      "unrealized": 1.1775,
+      "realized": 32.2479,
+      "total": 33.4254
     }
   ],
   "capital_events": {
