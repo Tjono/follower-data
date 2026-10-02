@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-02T14:11:08Z",
+  "last_updated_iso": "2026-10-02T16:11:11Z",
   "mexc_account": {
-    "unrealized_pnl": 2.0472,
-    "equity": 453.0185,
-    "available": 181.2161,
+    "unrealized_pnl": 0.9941,
+    "equity": 451.9521,
+    "available": 158.49,
     "position_margin": 55.9823
   },
   "order_levels": {
-    "checked": 15,
-    "in_sync": 15,
+    "checked": 16,
+    "in_sync": 16,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (297 records)",
+      "value": "OK (298 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$453.02",
+      "value": "$451.95",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (10 resting = journal)",
+      "value": "in sync (11 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open, 2 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -577,22 +577,42 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20261002_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.79776968,
+      "sl": 0.76849053,
+      "tp1": 0.89198387,
+      "tp2": 0.97041894,
+      "capital_usd": 22.61,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-02",
+      "time_opened_utc": "16:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "ALGOUSDT_20261002_CJ_001",
-      "coin": "ALGOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.119025,
-      "tp1": 0.14087792,
-      "sl": 0.1142429,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-02T04:04:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "SOLUSDT_20261002_CJ_001",
       "coin": "SOLUSDT",
@@ -618,21 +638,22 @@
       "track_only": false,
       "iso": "2026-10-02T12:04:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20261002_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.79776968,
+      "tp1": 0.89198387,
+      "sl": 0.76849053,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-02T16:04:00Z",
+      "rehearsal": false
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "XLMUSDT_20260930_CJ_001",
-      "coin": "XLMUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.22135,
-      "live_entry_fill": 0.22135,
-      "tp1_hit": false,
-      "iso": "2026-09-30T14:33:00Z",
-      "_iso_ms": 1790778780000,
-      "rehearsal": false
-    },
     {
       "trade_id": "NEARUSDT_20261001_CJ_001",
       "coin": "NEARUSDT",
@@ -4703,15 +4724,15 @@
         "closed_count": 84
       }
     },
-    "live_trade_count_total": 288,
-    "live_real_count": 288,
+    "live_trade_count_total": 289,
+    "live_real_count": 289,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-02T14:08Z",
-    "checked": 15,
-    "in_parity": 15,
+    "feed_generated_utc": "2026-10-02T16:08Z",
+    "checked": 16,
+    "in_parity": 16,
     "drifting": []
   }
 }
