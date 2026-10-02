@@ -9663,9 +9663,18 @@
       "resting_at": "2026-10-02T16:10:09Z",
       "braam_trade_id": "APTUSDT_20261002_CJ_001",
       "status": "RESTING"
+    },
+    "861096574439585280": {
+      "order_id": "861096574439585280",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.3443,
+      "resting_at": "2026-10-02T20:10:21Z",
+      "braam_trade_id": "TRXUSDT_20261002_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-02T19:26:38Z",
+  "updated": "2026-10-02T20:11:40Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -25490,6 +25499,14 @@
       "unrealized": -1.2073,
       "realized": 34.7607,
       "total": 33.5534
+    },
+    {
+      "ts": "2026-10-02T20:11:40Z",
+      "equity": 444.6358,
+      "available": 182.5551,
+      "unrealized": -0.3635,
+      "realized": 34.7607,
+      "total": 34.3972
     }
   ],
   "capital_events": {
