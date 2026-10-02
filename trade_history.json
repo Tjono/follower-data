@@ -9544,9 +9544,18 @@
       "resting_at": "2026-10-02T04:09:52Z",
       "braam_trade_id": "ALGOUSDT_20261002_CJ_001",
       "status": "RESTING"
+    },
+    "860915339788449792": {
+      "order_id": "860915339788449792",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "entry_price": 117.95,
+      "resting_at": "2026-10-02T08:10:11Z",
+      "braam_trade_id": "SOLUSDT_20261002_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-02T06:11:45Z",
+  "updated": "2026-10-02T08:11:28Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -25307,6 +25316,14 @@
       "unrealized": 4.4307,
       "realized": 32.2479,
       "total": 36.6786
+    },
+    {
+      "ts": "2026-10-02T08:11:28Z",
+      "equity": 454.549,
+      "available": 203.8582,
+      "unrealized": 3.5771,
+      "realized": 32.2479,
+      "total": 35.825
     }
   ],
   "capital_events": {
