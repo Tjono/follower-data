@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-03T12:11:15Z",
+  "last_updated_iso": "2026-10-03T14:35:09Z",
   "mexc_account": {
-    "unrealized_pnl": 5.3355,
-    "equity": 450.3953,
+    "unrealized_pnl": 6.0276,
+    "equity": 451.0874,
     "available": 137.5373,
     "position_margin": 112.8891
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$450.40",
+      "value": "$451.09",
       "status": "ok",
       "action": null
     },
@@ -595,18 +595,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "NEARUSDT_20261001_CJ_002",
-      "coin": "NEARUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 4.92723252,
-      "live_entry_fill": 4.927,
-      "tp1_hit": false,
-      "iso": "2026-10-01T13:06:00Z",
-      "_iso_ms": 1790859960000,
-      "rehearsal": false
-    },
     {
       "trade_id": "APTUSDT_20261002_CJ_001",
       "coin": "APTUSDT",
@@ -4707,7 +4695,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-03T12:08Z",
+    "feed_generated_utc": "2026-10-03T14:34Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
