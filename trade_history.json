@@ -9708,9 +9708,18 @@
       "resting_at": "2026-10-03T08:10:27Z",
       "braam_trade_id": "TAOUSDT_20261003_CJ_001",
       "status": "RESTING"
+    },
+    "861307667585659392": {
+      "order_id": "861307667585659392",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2325,
+      "resting_at": "2026-10-03T10:09:10Z",
+      "braam_trade_id": "ADAUSDT_20261003_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-03T08:11:56Z",
+  "updated": "2026-10-03T10:10:36Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -25575,6 +25584,14 @@
       "unrealized": 3.235,
       "realized": 34.7607,
       "total": 37.9957
+    },
+    {
+      "ts": "2026-10-03T10:10:36Z",
+      "equity": 449.7308,
+      "available": 116.7166,
+      "unrealized": 4.6677,
+      "realized": 34.7607,
+      "total": 39.4284
     }
   ],
   "capital_events": {
