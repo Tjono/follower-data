@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-03T00:11:28Z",
+  "last_updated_iso": "2026-10-03T05:30:27Z",
   "mexc_account": {
-    "unrealized_pnl": 3.222,
-    "equity": 448.2378,
-    "available": 138.289,
+    "unrealized_pnl": 4.968,
+    "equity": 450.0423,
+    "available": 138.3476,
     "position_margin": 112.8891
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$448.24",
+      "value": "$450.04",
       "status": "ok",
       "action": null
     },
@@ -621,18 +621,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "NEARUSDT_20261001_CJ_001",
-      "coin": "NEARUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 5.23216109,
-      "live_entry_fill": 5.232,
-      "tp1_hit": true,
-      "iso": "2026-10-01T01:48:00Z",
-      "_iso_ms": 1790819280000,
-      "rehearsal": false
-    },
     {
       "trade_id": "NEARUSDT_20261001_CJ_002",
       "coin": "NEARUSDT",
@@ -4745,7 +4733,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-03T00:08Z",
+    "feed_generated_utc": "2026-10-03T04:08Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
