@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-02T23:53:52Z",
+  "last_updated_iso": "2026-10-03T00:11:28Z",
   "mexc_account": {
-    "unrealized_pnl": 2.9137,
-    "equity": 447.913,
-    "available": 182.5551,
+    "unrealized_pnl": 3.222,
+    "equity": 448.2378,
+    "available": 138.289,
     "position_margin": 112.8891
   },
   "order_levels": {
-    "checked": 13,
-    "in_sync": 13,
+    "checked": 15,
+    "in_sync": 15,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (299 records)",
+      "value": "OK (301 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$447.91",
+      "value": "$448.24",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (7 resting = journal)",
+      "value": "in sync (9 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -511,6 +511,72 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20261003_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2383,
+      "sl": 0.2305932,
+      "tp1": 0.26452649,
+      "tp2": 0.2726136,
+      "capital_usd": 22.39,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-03",
+      "time_opened_utc": "00:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "TAOUSDT_20261003_CJ_001",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 283.7,
+      "sl": 273.08222911,
+      "tp1": 309.8298,
+      "tp2": 329.23554178,
+      "capital_usd": 22.39,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-03",
+      "time_opened_utc": "00:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -525,6 +591,32 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-02T20:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20261003_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.2383,
+      "tp1": 0.26452649,
+      "sl": 0.2305932,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-03T00:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "TAOUSDT_20261003_CJ_001",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 283.7,
+      "tp1": 309.8298,
+      "sl": 273.08222911,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-03T00:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4647,15 +4739,15 @@
         "closed_count": 88
       }
     },
-    "live_trade_count_total": 290,
-    "live_real_count": 290,
+    "live_trade_count_total": 292,
+    "live_real_count": 292,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-02T22:07Z",
-    "checked": 13,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-10-03T00:08Z",
+    "checked": 15,
+    "in_parity": 15,
     "drifting": []
   }
 }
