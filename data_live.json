@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-03T16:02:19Z",
+  "last_updated_iso": "2026-10-03T16:11:03Z",
   "mexc_account": {
-    "unrealized_pnl": 5.2657,
-    "equity": 450.3129,
-    "available": 137.5246,
+    "unrealized_pnl": 5.1242,
+    "equity": 450.1714,
+    "available": 137.913,
     "position_margin": 112.8891
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$450.31",
+      "value": "$450.17",
       "status": "ok",
       "action": null
     },
@@ -516,10 +516,10 @@
       "trade_id": "TAOUSDT_20261003_CJ_001",
       "coin": "TAOUSDT",
       "direction": "Long",
-      "entry_price": 276.70819139,
-      "sl": 266.89490935,
+      "entry_price": 283.7,
+      "sl": 274.53905783,
       "tp1": 309.8298,
-      "tp2": 332.01018131,
+      "tp2": 326.02188434,
       "capital_usd": 22.39,
       "leverage": 3,
       "trading_system": "John",
@@ -4695,7 +4695,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-03T16:01Z",
+    "feed_generated_utc": "2026-10-03T16:08Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
