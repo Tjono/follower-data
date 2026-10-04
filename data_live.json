@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-04T19:57:16Z",
+  "last_updated_iso": "2026-10-04T20:11:09Z",
   "mexc_account": {
-    "unrealized_pnl": 6.7073,
-    "equity": 453.3483,
-    "available": 152.5153,
+    "unrealized_pnl": 6.7829,
+    "equity": 453.4206,
+    "available": 153.6554,
     "position_margin": 97.1247
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$453.35",
+      "value": "$453.42",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "live read failed",
-      "status": "warn",
-      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
+      "value": "all protected (6 open, 4 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -450,10 +450,10 @@
       "trade_id": "ADAUSDT_20261003_CJ_001",
       "coin": "ADAUSDT",
       "direction": "Long",
-      "entry_price": 0.23845058,
-      "sl": 0.23276133,
-      "tp1": 0.2648276,
-      "tp2": 0.27217734,
+      "entry_price": 0.24474522,
+      "sl": 0.23890364,
+      "tp1": 0.26422055,
+      "tp2": 0.27939271,
       "capital_usd": 22.39,
       "leverage": 3,
       "trading_system": "John",
@@ -516,10 +516,10 @@
       "trade_id": "NEARUSDT_20261003_CJ_001",
       "coin": "NEARUSDT",
       "direction": "Long",
-      "entry_price": 4.72982025,
-      "sl": 4.54827491,
-      "tp1": 5.84333475,
-      "tp2": 6.46646703,
+      "entry_price": 4.82864168,
+      "sl": 4.64786534,
+      "tp1": 5.9597215,
+      "tp2": 6.59526524,
       "capital_usd": 22.42,
       "leverage": 3,
       "trading_system": "John",
@@ -4640,7 +4640,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-04T19:56Z",
+    "feed_generated_utc": "2026-10-04T20:08Z",
     "checked": 15,
     "in_parity": 15,
     "drifting": []
