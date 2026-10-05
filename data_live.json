@@ -1,32 +1,19 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-05T00:11:30Z",
+  "last_updated_iso": "2026-10-05T04:11:23Z",
   "mexc_account": {
-    "unrealized_pnl": 7.7672,
-    "equity": 454.3874,
-    "available": 153.8983,
+    "unrealized_pnl": 5.9944,
+    "equity": 452.6724,
+    "available": 129.9545,
     "position_margin": 97.1247
   },
   "order_levels": {
     "checked": 16,
-    "in_sync": 15,
-    "drifted": [
-      "ADA"
-    ],
+    "in_sync": 16,
+    "drifted": [],
     "reconciling": [],
-    "detail": [
-      {
-        "coin": "ADA",
-        "trade_id": "ADAUSDT_20261003_CJ_001",
-        "status": "PENDING",
-        "fields": [
-          "tp1",
-          "sl"
-        ],
-        "synced_at": "2026-10-04T20:10:07.439201+00:00"
-      }
-    ]
+    "detail": []
   },
   "api_keys": [],
   "housekeeping": [
@@ -66,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$454.39",
+      "value": "$452.67",
       "status": "ok",
       "action": null
     },
@@ -82,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (9 resting = journal)",
+      "value": "in sync (10 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -463,10 +450,10 @@
       "trade_id": "ADAUSDT_20261003_CJ_001",
       "coin": "ADAUSDT",
       "direction": "Long",
-      "entry_price": 0.25602562,
-      "sl": 0.2493013,
-      "tp1": 0.28182003,
-      "tp2": 0.30556099,
+      "entry_price": 0.25848696,
+      "sl": 0.25120009,
+      "tp1": 0.28824127,
+      "tp2": 0.30429983,
       "capital_usd": 22.39,
       "leverage": 3,
       "trading_system": "John",
@@ -626,19 +613,6 @@
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "BTCUSDT_20261004_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 81454.04387623,
-      "tp1": 91817.36044732,
-      "sl": 80826.81410075,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-04T16:04:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "XLMUSDT_20261005_CJ_001",
       "coin": "XLMUSDT",
@@ -4699,7 +4673,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-05T00:08Z",
+    "feed_generated_utc": "2026-10-05T04:08Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
