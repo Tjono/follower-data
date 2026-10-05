@@ -1,19 +1,32 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-04T23:20:29Z",
+  "last_updated_iso": "2026-10-05T00:11:30Z",
   "mexc_account": {
-    "unrealized_pnl": 8.5178,
-    "equity": 455.1555,
-    "available": 153.6554,
+    "unrealized_pnl": 7.7672,
+    "equity": 454.3874,
+    "available": 153.8983,
     "position_margin": 97.1247
   },
   "order_levels": {
-    "checked": 15,
+    "checked": 16,
     "in_sync": 15,
-    "drifted": [],
+    "drifted": [
+      "ADA"
+    ],
     "reconciling": [],
-    "detail": []
+    "detail": [
+      {
+        "coin": "ADA",
+        "trade_id": "ADAUSDT_20261003_CJ_001",
+        "status": "PENDING",
+        "fields": [
+          "tp1",
+          "sl"
+        ],
+        "synced_at": "2026-10-04T20:10:07.439201+00:00"
+      }
+    ]
   },
   "api_keys": [],
   "housekeeping": [
@@ -45,7 +58,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (303 records)",
+      "value": "OK (304 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +66,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$455.16",
+      "value": "$454.39",
       "status": "ok",
       "action": null
     },
@@ -450,10 +463,10 @@
       "trade_id": "ADAUSDT_20261003_CJ_001",
       "coin": "ADAUSDT",
       "direction": "Long",
-      "entry_price": 0.24474522,
-      "sl": 0.23890364,
-      "tp1": 0.26422055,
-      "tp2": 0.27939271,
+      "entry_price": 0.25602562,
+      "sl": 0.2493013,
+      "tp1": 0.28182003,
+      "tp2": 0.30556099,
       "capital_usd": 22.39,
       "leverage": 3,
       "trading_system": "John",
@@ -516,10 +529,10 @@
       "trade_id": "NEARUSDT_20261003_CJ_001",
       "coin": "NEARUSDT",
       "direction": "Long",
-      "entry_price": 4.82864168,
-      "sl": 4.64786534,
-      "tp1": 5.9597215,
-      "tp2": 6.59526524,
+      "entry_price": 4.709,
+      "sl": 4.53077911,
+      "tp1": 5.88980988,
+      "tp2": 6.51789826,
       "capital_usd": 22.42,
       "leverage": 3,
       "trading_system": "John",
@@ -577,6 +590,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "XLMUSDT_20261005_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.21197094,
+      "sl": 0.20755886,
+      "tp1": 0.2303098,
+      "tp2": 0.25508227,
+      "capital_usd": 22.7,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-05",
+      "time_opened_utc": "00:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -591,6 +637,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-04T16:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "XLMUSDT_20261005_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.21197094,
+      "tp1": 0.2303098,
+      "sl": 0.20755886,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-05T00:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4634,15 +4693,15 @@
         "closed_count": 88
       }
     },
-    "live_trade_count_total": 294,
-    "live_real_count": 294,
+    "live_trade_count_total": 295,
+    "live_real_count": 295,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-04T22:07Z",
-    "checked": 15,
-    "in_parity": 15,
+    "feed_generated_utc": "2026-10-05T00:08Z",
+    "checked": 16,
+    "in_parity": 16,
     "drifting": []
   }
 }
