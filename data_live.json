@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-05T16:11:40Z",
+  "last_updated_iso": "2026-10-05T22:10:50Z",
   "mexc_account": {
-    "unrealized_pnl": 3.9845,
-    "equity": 450.5854,
-    "available": 129.9302,
-    "position_margin": 119.7891
+    "unrealized_pnl": 7.1879,
+    "equity": 456.6027,
+    "available": 150.8709,
+    "position_margin": 101.6622
   },
   "order_levels": {
     "checked": 16,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$450.59",
+      "value": "$456.60",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (7 open, 5 pre-TP1 runners)",
+      "value": "all protected (7 open, 4 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -399,7 +399,7 @@
       "date_opened": "2026-10-02",
       "time_opened_utc": "16:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -408,9 +408,9 @@
       "live_entry_fill": 0.7978,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0038,
-      "live_fees_usd": 0.0406,
+      "live_fees_usd": 0.0862,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 2.8628,
       "rehearsal": false
     },
     {
@@ -4642,6 +4642,12 @@
       "direction": "Long",
       "trading_system": "John",
       "entry_price": 117.9475
+    },
+    {
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.79776968
     }
   ],
   "stats": {
@@ -4672,7 +4678,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-05T16:09Z",
+    "feed_generated_utc": "2026-10-05T22:08Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
