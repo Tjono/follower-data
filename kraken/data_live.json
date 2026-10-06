@@ -2,25 +2,25 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": true,
-  "last_updated_iso": "2026-10-06T19:11:27Z",
+  "last_updated_iso": "2026-10-06T19:34:31Z",
   "freshness": {
-    "engine_run_iso": "2026-10-06T19:11:16Z",
+    "engine_run_iso": "2026-10-06T19:32:43Z",
     "engine_run_note": null,
-    "engine_protect_iso": null,
+    "engine_protect_iso": "2026-10-06T19:33:44Z",
     "feed_generated_iso": "2026-10-06T18:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-06T19:11:27Z",
-    "cadence_min": 120.0,
-    "run_warn_min": 155.0,
-    "run_urgent_min": 255.0,
+    "published_iso": "2026-10-06T19:34:31Z",
+    "cadence_min": 30.0,
+    "run_warn_min": 42.5,
+    "run_urgent_min": 75.0,
     "feed_warn_min": 120.0,
     "feed_urgent_min": 360.0,
-    "publish_urgent_min": 255.0
+    "publish_urgent_min": 75.0
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 112.6,
-    "available": 112.6,
+    "equity": 112.592,
+    "available": 112.592,
     "position_margin": 0.0
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "11s ago",
+      "value": "1 min ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Signal feed",
-      "value": "62 min old",
+      "value": "85 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$112.60",
+      "value": "$112.59",
       "status": "ok",
       "action": null
     },
@@ -361,8 +361,8 @@
       "reason_code": "pre_go_live",
       "reason": "Opened on the master before the Kraken engine went live - not chased.",
       "reason_short": "opened before go-live",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T19:11:16Z"
+      "iso": "2026-10-06T19:27:40Z",
+      "last_seen_iso": "2026-10-06T19:32:43Z"
     },
     {
       "trade_id": "TRXUSDT_20261002_CJ_001",
@@ -373,8 +373,8 @@
       "reason_code": "coin_illiquid",
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T19:11:16Z"
+      "iso": "2026-10-06T19:27:40Z",
+      "last_seen_iso": "2026-10-06T19:32:43Z"
     },
     {
       "trade_id": "TRXUSDT_20260929_CJ_001",
@@ -385,8 +385,8 @@
       "reason_code": "coin_illiquid",
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T19:11:16Z"
+      "iso": "2026-10-06T19:27:40Z",
+      "last_seen_iso": "2026-10-06T19:32:43Z"
     },
     {
       "trade_id": "SOLUSDT_20261002_CJ_001",
@@ -397,8 +397,8 @@
       "reason_code": "source_past_tp1",
       "reason": "The master had already reached its first target before Kraken got in, so the trade was not taken.",
       "reason_short": "master already past TP1",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T19:11:16Z"
+      "iso": "2026-10-06T19:27:40Z",
+      "last_seen_iso": "2026-10-06T19:32:43Z"
     },
     {
       "trade_id": "RENDERUSDT_20260928_CJ_001",
@@ -409,8 +409,8 @@
       "reason_code": "coin_illiquid",
       "reason": "RENDER is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T19:11:16Z"
+      "iso": "2026-10-06T19:27:40Z",
+      "last_seen_iso": "2026-10-06T19:32:43Z"
     },
     {
       "trade_id": "ONDOUSDT_20260928_CM_001",
@@ -421,8 +421,8 @@
       "reason_code": "pre_go_live",
       "reason": "Opened on the master before the Kraken engine went live - not chased.",
       "reason_short": "opened before go-live",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T19:11:16Z"
+      "iso": "2026-10-06T19:27:40Z",
+      "last_seen_iso": "2026-10-06T19:32:43Z"
     },
     {
       "trade_id": "CAKEUSDT_20260928_CJ_001",
@@ -433,8 +433,8 @@
       "reason_code": "closed_before_seen",
       "reason": "The signal opened and closed on the master between two Kraken checks, so there was nothing to copy.",
       "reason_short": "closed before it was seen",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T19:11:16Z"
+      "iso": "2026-10-06T19:27:40Z",
+      "last_seen_iso": "2026-10-06T19:27:40Z"
     },
     {
       "trade_id": "APTUSDT_20261002_CJ_001",
@@ -445,8 +445,8 @@
       "reason_code": "coin_illiquid",
       "reason": "APT is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T19:11:16Z"
+      "iso": "2026-10-06T19:27:40Z",
+      "last_seen_iso": "2026-10-06T19:32:43Z"
     },
     {
       "trade_id": "ALGOUSDT_20261002_CJ_001",
@@ -457,8 +457,8 @@
       "reason_code": "coin_illiquid",
       "reason": "ALGO is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T19:11:16Z"
+      "iso": "2026-10-06T19:27:40Z",
+      "last_seen_iso": "2026-10-06T19:32:43Z"
     }
   ],
   "tp1_hits_open": [],
@@ -485,7 +485,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-06T19:11:27Z",
+    "updated_iso": "2026-10-06T19:34:31Z",
     "trades": [
       {
         "trade_id": "SOLUSDT_20261002_CJ_001",
