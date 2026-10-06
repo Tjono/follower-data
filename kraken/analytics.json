@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-06T19:34:31+00:00",
+  "generated_at_utc": "2026-10-06T21:43:16+00:00",
   "venue": "Kraken",
   "all_time": {
     "total_trades": 0,
@@ -105,7 +105,7 @@
   "equity_curve": [],
   "benchmark": {
     "inception_iso": "2026-10-02T00:00:00Z",
-    "base_usd": 112.61,
+    "base_usd": 112.6,
     "base_source": "first_snapshot",
     "ours": [],
     "spx": [
@@ -119,11 +119,11 @@
       },
       {
         "iso": "2026-10-06",
-        "pct": 1.312
+        "pct": 1.246
       }
     ],
     "ours_pct": 0.0,
-    "spx_pct": 1.312,
+    "spx_pct": 1.246,
     "spx_last_close_iso": "2026-10-06"
   },
   "by_direction": {},
