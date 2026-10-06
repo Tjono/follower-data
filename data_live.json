@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-06T08:11:18Z",
+  "last_updated_iso": "2026-10-06T12:11:25Z",
   "mexc_account": {
-    "unrealized_pnl": 5.3887,
-    "equity": 454.8678,
-    "available": 150.9283,
+    "unrealized_pnl": 6.7835,
+    "equity": 456.2607,
+    "available": 171.7645,
     "position_margin": 101.6622
   },
   "order_levels": {
-    "checked": 16,
-    "in_sync": 16,
+    "checked": 15,
+    "in_sync": 15,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$454.87",
+      "value": "$456.26",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (9 resting = journal)",
+      "value": "in sync (8 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -114,39 +114,6 @@
       "live_fees_usd": 0.0796,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": 3.2074,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "DOGEUSDT_20260921_CJ_001",
-      "coin": "DOGEUSDT",
-      "direction": "Long",
-      "entry_price": 0.08888187,
-      "sl": 0.08590127,
-      "tp1": 0.10070164,
-      "tp2": 0.11583746,
-      "capital_usd": 21.01,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-09-21",
-      "time_opened_utc": "12:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
       "rehearsal": false
     },
     {
@@ -4678,9 +4645,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-06T08:08Z",
-    "checked": 16,
-    "in_parity": 16,
+    "feed_generated_utc": "2026-10-06T12:09Z",
+    "checked": 15,
+    "in_parity": 15,
     "drifting": []
   }
 }
