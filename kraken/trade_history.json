@@ -1,0 +1,28 @@
+{
+  "positions": {},
+  "orders": {},
+  "capital_events": {
+    "kraken_log_1": {
+      "id": "kraken_log_1",
+      "txid": "6c1adde6-3b17-4483-aa4f-4716cef2a4d0",
+      "ts": "2026-10-01T16:39:11Z",
+      "amount": 100.0,
+      "type": "deposit",
+      "currency": "EUR",
+      "info": "cross-exchange transfer"
+    }
+  },
+  "fills": {},
+  "snapshots": [
+    {
+      "ts": "2026-10-06T19:11:25Z",
+      "equity": 112.6,
+      "available": 112.6,
+      "unrealized": 0.0,
+      "realized": 0,
+      "total": 0.0
+    }
+  ],
+  "venue": "kraken_futures",
+  "updated": "2026-10-06T19:11:25Z"
+}
