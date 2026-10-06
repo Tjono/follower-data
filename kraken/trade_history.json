@@ -1,6 +1,70 @@
 {
   "positions": {},
-  "orders": {},
+  "orders": {
+    "a2eb89b8-81a7-475f-b4a4-08db0239bfd4": {
+      "order_id": "a2eb89b8-81a7-475f-b4a4-08db0239bfd4",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.21197,
+      "resting_at": "2026-10-06T22:18:35Z",
+      "braam_trade_id": "XLMUSDT_20261005_CJ_001",
+      "status": "RESTING"
+    },
+    "a2eb89b6-3284-4fcf-99da-b4002d2c3f94": {
+      "order_id": "a2eb89b6-3284-4fcf-99da-b4002d2c3f94",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 81454.0,
+      "resting_at": "2026-10-06T22:18:34Z",
+      "braam_trade_id": "BTCUSDT_20261004_CJ_001",
+      "status": "RESTING"
+    },
+    "a2eb89b3-e598-41ad-a366-ab323b99f3aa": {
+      "order_id": "a2eb89b3-e598-41ad-a366-ab323b99f3aa",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.709,
+      "resting_at": "2026-10-06T22:18:32Z",
+      "braam_trade_id": "NEARUSDT_20261003_CJ_001",
+      "status": "RESTING"
+    },
+    "a2eb89b1-9f1a-47dd-aa0d-60f627543389": {
+      "order_id": "a2eb89b1-9f1a-47dd-aa0d-60f627543389",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 289.56,
+      "resting_at": "2026-10-06T22:18:31Z",
+      "braam_trade_id": "TAOUSDT_20261003_CJ_001",
+      "status": "RESTING"
+    },
+    "a2eb89af-b34d-489c-bcba-e2b526b84195": {
+      "order_id": "a2eb89af-b34d-489c-bcba-e2b526b84195",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.25849,
+      "resting_at": "2026-10-06T22:18:30Z",
+      "braam_trade_id": "ADAUSDT_20261003_CJ_001",
+      "status": "RESTING"
+    },
+    "a2eb89ad-02aa-4562-aebb-5fde5a3c9416": {
+      "order_id": "a2eb89ad-02aa-4562-aebb-5fde5a3c9416",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 13.52,
+      "resting_at": "2026-10-06T22:18:28Z",
+      "braam_trade_id": "LINKUSDT_20261002_CJ_001",
+      "status": "RESTING"
+    },
+    "a2eb89ab-1b77-4a0f-82cf-a53795364cc2": {
+      "order_id": "a2eb89ab-1b77-4a0f-82cf-a53795364cc2",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.4645,
+      "resting_at": "2026-10-06T22:18:27Z",
+      "braam_trade_id": "XRPUSDT_20260929_CJ_001",
+      "status": "RESTING"
+    }
+  },
   "capital_events": {
     "kraken_log_1": {
       "id": "kraken_log_1",
@@ -48,5 +112,5 @@
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-06T22:17:21Z"
+  "updated": "2026-10-06T22:18:46Z"
 }

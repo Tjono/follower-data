@@ -1,15 +1,15 @@
 {
   "mode": "live",
   "venue": "Kraken",
-  "rehearsal_mode": true,
-  "last_updated_iso": "2026-10-06T22:17:23Z",
+  "rehearsal_mode": false,
+  "last_updated_iso": "2026-10-06T22:18:47Z",
   "freshness": {
-    "engine_run_iso": "2026-10-06T22:17:16Z",
+    "engine_run_iso": "2026-10-06T22:18:24Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-06T22:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-06T22:17:23Z",
+    "published_iso": "2026-10-06T22:18:47Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,14 +19,14 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 112.607,
-    "available": 112.607,
+    "equity": 112.606,
+    "available": 101.5283,
     "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 0,
-    "in_sync": 0,
+    "checked": 7,
+    "in_sync": 7,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -37,15 +37,15 @@
       "key": "trading_enabled",
       "tier": 1,
       "label": "Live Trading",
-      "value": "DISABLED (dry-run)",
-      "status": "info",
+      "value": "ENABLED",
+      "status": "ok",
       "action": null
     },
     {
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "7s ago",
+      "value": "23s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Signal feed",
-      "value": "9 min old",
+      "value": "10 min old",
       "status": "ok",
       "action": null
     },
@@ -61,7 +61,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (7 records, 7 dry-run)",
+      "value": "OK (7 records, 7 resting)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (0 resting = journal)",
+      "value": "in sync (7 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -106,8 +106,7 @@
       "action": null
     }
   ],
-  "active_trades": [],
-  "dry_run_plans": [
+  "active_trades": [
     {
       "trade_id": "XRPUSDT_20260929_CJ_001",
       "coin": "XRPUSDT",
@@ -139,7 +138,7 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": true,
+      "rehearsal": false,
       "live_filled_ts": null
     },
     {
@@ -173,7 +172,7 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": true,
+      "rehearsal": false,
       "live_filled_ts": null
     },
     {
@@ -207,7 +206,7 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": true,
+      "rehearsal": false,
       "live_filled_ts": null
     },
     {
@@ -241,7 +240,7 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": true,
+      "rehearsal": false,
       "live_filled_ts": null
     },
     {
@@ -275,7 +274,7 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": true,
+      "rehearsal": false,
       "live_filled_ts": null
     },
     {
@@ -309,7 +308,7 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": true,
+      "rehearsal": false,
       "live_filled_ts": null
     },
     {
@@ -343,10 +342,11 @@
       "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
-      "rehearsal": true,
+      "rehearsal": false,
       "live_filled_ts": null
     }
   ],
+  "dry_run_plans": [],
   "recent_signals": [],
   "recent_opens": [],
   "recent_closes": [],
@@ -374,7 +374,7 @@
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T22:17:16Z"
+      "last_seen_iso": "2026-10-06T22:18:24Z"
     },
     {
       "trade_id": "TRXUSDT_20260929_CJ_001",
@@ -386,7 +386,7 @@
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T22:17:16Z"
+      "last_seen_iso": "2026-10-06T22:18:24Z"
     },
     {
       "trade_id": "SOLUSDT_20261002_CJ_001",
@@ -398,7 +398,7 @@
       "reason": "The master had already reached its first target before Kraken got in, so the trade was not taken.",
       "reason_short": "master already past TP1",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T22:17:16Z"
+      "last_seen_iso": "2026-10-06T22:18:24Z"
     },
     {
       "trade_id": "RENDERUSDT_20260928_CJ_001",
@@ -410,7 +410,7 @@
       "reason": "RENDER is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T22:17:16Z"
+      "last_seen_iso": "2026-10-06T22:18:24Z"
     },
     {
       "trade_id": "ONDOUSDT_20260928_CM_001",
@@ -422,7 +422,7 @@
       "reason": "Opened on the master before the Kraken engine went live - not chased.",
       "reason_short": "opened before go-live",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T22:17:16Z"
+      "last_seen_iso": "2026-10-06T22:18:24Z"
     },
     {
       "trade_id": "CAKEUSDT_20260928_CJ_001",
@@ -446,7 +446,7 @@
       "reason": "APT is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T22:17:16Z"
+      "last_seen_iso": "2026-10-06T22:18:24Z"
     },
     {
       "trade_id": "ALGOUSDT_20261002_CJ_001",
@@ -458,7 +458,7 @@
       "reason": "ALGO is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-06T22:17:16Z"
+      "last_seen_iso": "2026-10-06T22:18:24Z"
     }
   ],
   "tp1_hits_open": [],
@@ -474,18 +474,18 @@
     "closed_count": 0,
     "per_system": {},
     "live_trade_count_total": 7,
-    "live_real_count": 0,
-    "live_rehearsal_count": 7
+    "live_real_count": 7,
+    "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
     "feed_generated_utc": "2026-10-06T22:08Z",
-    "checked": 0,
-    "in_parity": 0,
+    "checked": 7,
+    "in_parity": 7,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-06T22:17:23Z",
+    "updated_iso": "2026-10-06T22:18:47Z",
     "trades": [
       {
         "trade_id": "SOLUSDT_20261002_CJ_001",
@@ -532,7 +532,7 @@
         "direction": "Long",
         "trading_system": "John",
         "kraken": {
-          "status": "DRY_RUN",
+          "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 5.63
@@ -550,7 +550,7 @@
         "direction": "Long",
         "trading_system": "John",
         "kraken": {
-          "status": "DRY_RUN",
+          "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 5.63
@@ -563,7 +563,7 @@
         "direction": "Long",
         "trading_system": "John",
         "kraken": {
-          "status": "DRY_RUN",
+          "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 5.63
@@ -576,7 +576,7 @@
         "direction": "Long",
         "trading_system": "John",
         "kraken": {
-          "status": "DRY_RUN",
+          "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 5.63
@@ -589,7 +589,7 @@
         "direction": "Long",
         "trading_system": "John",
         "kraken": {
-          "status": "DRY_RUN",
+          "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 5.63
@@ -602,7 +602,7 @@
         "direction": "Long",
         "trading_system": "John",
         "kraken": {
-          "status": "DRY_RUN",
+          "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 5.63
@@ -620,7 +620,7 @@
         "direction": "Long",
         "trading_system": "John",
         "kraken": {
-          "status": "DRY_RUN",
+          "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 5.63
