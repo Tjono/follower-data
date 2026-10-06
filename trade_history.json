@@ -4001,8 +4001,16 @@
       "opened_at": "2026-09-29T01:32:06Z",
       "margin_usd": 20.881762698349,
       "braam_trade_id": "UNIUSDT_20260921_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-09-29T00:11:01Z"
+      "status": "CLOSED",
+      "resting_at": "2026-09-29T00:11:01Z",
+      "closed_at": "2026-10-06T21:32:11Z",
+      "close_price": 8.997,
+      "pnl_usd": 3.0711,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0898
     },
     "1509493530": {
       "position_id": "1509493530",
@@ -9919,7 +9927,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-06T21:06:05Z",
+  "updated": "2026-10-06T22:11:31Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26136,6 +26144,14 @@
       "unrealized": 4.9425,
       "realized": 32.8216,
       "total": 37.7641
+    },
+    {
+      "ts": "2026-10-06T22:11:31Z",
+      "equity": 452.3661,
+      "available": 195.7439,
+      "unrealized": 4.8269,
+      "realized": 35.8927,
+      "total": 40.7196
     }
   ],
   "capital_events": {
