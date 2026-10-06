@@ -9891,9 +9891,18 @@
       "resting_at": "2026-10-05T12:10:05Z",
       "braam_trade_id": "TAOUSDT_20261003_CJ_001",
       "status": "RESTING"
+    },
+    "862244225704978944": {
+      "order_id": "862244225704978944",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.3242,
+      "resting_at": "2026-10-06T00:10:43Z",
+      "braam_trade_id": "TRXUSDT_20261002_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-05T22:48:42Z",
+  "updated": "2026-10-06T00:12:03Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26054,6 +26063,14 @@
       "unrealized": 7.0509,
       "realized": 34.7607,
       "total": 41.8116
+    },
+    {
+      "ts": "2026-10-06T00:12:03Z",
+      "equity": 455.6206,
+      "available": 150.2072,
+      "unrealized": 6.2037,
+      "realized": 34.7607,
+      "total": 40.9644
     }
   ],
   "capital_events": {
