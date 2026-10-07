@@ -9925,9 +9925,27 @@
       "resting_at": "2026-10-06T08:10:13Z",
       "braam_trade_id": "TRXUSDT_20261002_CJ_001",
       "status": "RESTING"
+    },
+    "862606549275736064": {
+      "order_id": "862606549275736064",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2643,
+      "resting_at": "2026-10-07T00:10:27Z",
+      "braam_trade_id": "ETHUSDT_20261007_CJ_001",
+      "status": "RESTING"
+    },
+    "862606532373051392": {
+      "order_id": "862606532373051392",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.34779,
+      "resting_at": "2026-10-07T00:10:23Z",
+      "braam_trade_id": "TRXUSDT_20261002_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-06T22:11:31Z",
+  "updated": "2026-10-07T00:11:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26152,6 +26170,14 @@
       "unrealized": 4.8269,
       "realized": 35.8927,
       "total": 40.7196
+    },
+    {
+      "ts": "2026-10-07T00:11:49Z",
+      "equity": 452.1256,
+      "available": 177.8197,
+      "unrealized": 4.5837,
+      "realized": 35.8927,
+      "total": 40.4764
     }
   ],
   "capital_events": {
