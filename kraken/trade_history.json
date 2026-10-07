@@ -1,5 +1,36 @@
 {
-  "positions": {},
+  "positions": {
+    "XLMUSDT_20261005_CJ_001": {
+      "position_id": "XLMUSDT_20261005_CJ_001",
+      "braam_trade_id": "XLMUSDT_20261005_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.21197,
+      "entry_size": 79.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-07T00:03:45Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.581877,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "pnl_basis": null,
+      "tag": null,
+      "fees_usd": 0.0033,
+      "funding_usd": null,
+      "fill_ids": [
+        "40b11f79-ec35-42dc-a3ab-c3548f40b78c"
+      ],
+      "unrealized_pnl": 0.009305183270001488,
+      "fee_asset": [
+        "usd"
+      ]
+    }
+  },
   "orders": {
     "a2eb89b8-81a7-475f-b4a4-08db0239bfd4": {
       "order_id": "a2eb89b8-81a7-475f-b4a4-08db0239bfd4",
@@ -63,6 +94,15 @@
       "resting_at": "2026-10-06T22:18:27Z",
       "braam_trade_id": "XRPUSDT_20260929_CJ_001",
       "status": "RESTING"
+    },
+    "a2ebb15b-915d-4c69-bdb5-d0224cc2f915": {
+      "order_id": "a2ebb15b-915d-4c69-bdb5-d0224cc2f915",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2643.0,
+      "resting_at": "2026-10-07T00:09:25Z",
+      "braam_trade_id": "ETHUSDT_20261007_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -76,7 +116,22 @@
       "info": "cross-exchange transfer"
     }
   },
-  "fills": {},
+  "fills": {
+    "40b11f79-ec35-42dc-a3ab-c3548f40b78c": {
+      "fill_id": "40b11f79-ec35-42dc-a3ab-c3548f40b78c",
+      "symbol": "PF_XLMUSD",
+      "side": "buy",
+      "order_id": "a2eb89b8-81a7-475f-b4a4-08db0239bfd4",
+      "cliOrdId": "XLMUSDT_20261005_CJ_001",
+      "size": 79,
+      "price": 0.21197,
+      "fillTime": "2026-10-07T00:03:45.716Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "3969149"
+    }
+  },
   "snapshots": [
     {
       "ts": "2026-10-06T19:11:25Z",
@@ -117,8 +172,16 @@
       "unrealized": 0.0,
       "realized": 0,
       "total": 0.0
+    },
+    {
+      "ts": "2026-10-07T00:09:39Z",
+      "equity": 112.51040305615184,
+      "available": 99.84692505615185,
+      "unrealized": 0.010520124881841161,
+      "realized": 0,
+      "total": 0.0105
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-06T23:17:30Z"
+  "updated": "2026-10-07T00:09:39Z"
 }
