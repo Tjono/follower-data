@@ -3,8 +3,8 @@
   "symbol": "^NDX",
   "source": "Yahoo chart ^NDX, interval 1d (stdlib fetch)",
   "start": "2026-04-01",
-  "end": "2026-10-06",
-  "fetched_utc": "2026-10-07T13:18:21Z",
+  "end": "2026-10-07",
+  "fetched_utc": "2026-10-07T13:55:57Z",
   "venue": "Kraken",
   "closes": [
     {
@@ -526,6 +526,10 @@
     {
       "iso": "2026-10-06",
       "close": 31224.4707
+    },
+    {
+      "iso": "2026-10-07",
+      "close": 30965.1289
     }
   ]
 }
