@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-07T06:17:31+00:00",
+  "generated_at_utc": "2026-10-07T06:27:36+00:00",
   "venue": "Kraken",
   "all_time": {
     "total_trades": 2,
     "wins": 0,
     "losses": 2,
     "win_rate": 0.0,
-    "total_pnl_usd": -0.56,
+    "total_pnl_usd": -0.57,
     "avg_pnl_usd": -0.28,
     "best_usd": -0.18,
     "worst_usd": -0.38,
@@ -26,11 +26,11 @@
       "n": 2,
       "wins": 0,
       "wr": 0.0,
-      "pnl": -0.56,
+      "pnl": -0.57,
       "avg": -0.28,
       "inception": "2026-10-07",
       "days_active": 1,
-      "pnl_per_day": -0.56,
+      "pnl_per_day": -0.57,
       "status": "active",
       "open": 4,
       "pending": 2
@@ -71,8 +71,8 @@
       "closed": 2,
       "wins": 0,
       "wr": 0.0,
-      "pnl": -0.56,
-      "pnl_per_day": -0.56,
+      "pnl": -0.57,
+      "pnl_per_day": -0.57,
       "open": 4,
       "pending": 2
     },
@@ -107,8 +107,8 @@
       "n": 2,
       "wins": 0,
       "wr": 0.0,
-      "pnl": -0.56,
-      "cumulative_pnl": -0.56
+      "pnl": -0.57,
+      "cumulative_pnl": -0.57
     }
   ],
   "equity_curve": [
@@ -121,7 +121,7 @@
     {
       "iso": "2026-10-07T02:17:27Z",
       "pnl": -0.18,
-      "cumulative": -0.56,
+      "cumulative": -0.57,
       "won": false
     }
   ],
@@ -132,11 +132,11 @@
     "ours": [
       {
         "iso": "2026-10-07",
-        "pct": -0.334
+        "pct": -0.341
       },
       {
         "iso": "2026-10-07",
-        "pct": -0.495
+        "pct": -0.502
       }
     ],
     "spx": [
@@ -153,7 +153,7 @@
         "pct": 1.246
       }
     ],
-    "ours_pct": -0.495,
+    "ours_pct": -0.502,
     "spx_pct": 1.246,
     "spx_last_close_iso": "2026-10-06"
   },
@@ -162,7 +162,7 @@
       "n": 2,
       "wins": 0,
       "wr": 0.0,
-      "pnl": -0.56,
+      "pnl": -0.57,
       "avg": -0.28
     }
   },
@@ -171,7 +171,7 @@
       "n": 2,
       "wins": 0,
       "wr": 0.0,
-      "pnl": -0.56,
+      "pnl": -0.57,
       "avg": -0.28
     }
   },
@@ -234,7 +234,7 @@
     "direction": "Long",
     "system": "John",
     "pnl_usd": -0.38,
-    "pnl_pct": -6.74,
+    "pnl_pct": -6.88,
     "date_closed": "2026-10-07",
     "close_reason": "live Kraken exit: sl @ 0.20725",
     "conviction": "MEDIUM"
