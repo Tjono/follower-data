@@ -10064,9 +10064,18 @@
       "resting_at": "2026-10-07T08:10:33Z",
       "braam_trade_id": "ADAUSDT_20261007_CJ_001",
       "status": "RESTING"
+    },
+    "862787778202388995": {
+      "order_id": "862787778202388995",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "entry_price": 0.08916,
+      "resting_at": "2026-10-07T12:10:36Z",
+      "braam_trade_id": "HBARUSDT_20261007_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-07T08:55:45Z",
+  "updated": "2026-10-07T12:11:47Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26355,6 +26364,14 @@
       "unrealized": 3.4151,
       "realized": 34.9523,
       "total": 38.3674
+    },
+    {
+      "ts": "2026-10-07T12:11:47Z",
+      "equity": 441.0472,
+      "available": 221.6389,
+      "unrealized": -1.3605,
+      "realized": 34.9523,
+      "total": 33.5918
     }
   ],
   "capital_events": {
