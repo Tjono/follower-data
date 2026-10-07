@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-07T05:19:14Z",
+  "last_updated_iso": "2026-10-07T06:10:16Z",
   "mexc_account": {
-    "unrealized_pnl": 1.9445,
-    "equity": 444.3642,
+    "unrealized_pnl": 3.0569,
+    "equity": 445.4765,
     "available": 244.0537,
     "position_margin": 67.4686
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$444.36",
+      "value": "$445.48",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "live read failed",
-      "status": "warn",
-      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
+      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -4490,7 +4490,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-07T05:16Z",
+    "feed_generated_utc": "2026-10-07T06:08Z",
     "checked": 9,
     "in_parity": 9,
     "drifting": []
