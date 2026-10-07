@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-07T07:33:55Z",
+  "last_updated_iso": "2026-10-07T08:11:29Z",
   "mexc_account": {
-    "unrealized_pnl": 4.5314,
-    "equity": 446.9511,
-    "available": 244.0537,
+    "unrealized_pnl": 3.6232,
+    "equity": 446.0343,
+    "available": 221.6523,
     "position_margin": 67.4686
   },
   "order_levels": {
-    "checked": 9,
-    "in_sync": 9,
+    "checked": 10,
+    "in_sync": 10,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (306 records)",
+      "value": "OK (307 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$446.95",
+      "value": "$446.03",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (6 resting = journal)",
+      "value": "in sync (7 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -379,6 +379,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20261007_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.24585,
+      "sl": 0.23779065,
+      "tp1": 0.28129858,
+      "tp2": 0.29511869,
+      "capital_usd": 22.3,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-07",
+      "time_opened_utc": "08:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -393,6 +426,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-07T04:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20261007_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.24585,
+      "tp1": 0.28129858,
+      "sl": 0.23779065,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-07T08:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4484,15 +4530,15 @@
         "closed_count": 96
       }
     },
-    "live_trade_count_total": 297,
-    "live_real_count": 297,
+    "live_trade_count_total": 298,
+    "live_real_count": 298,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-07T07:33Z",
-    "checked": 9,
-    "in_parity": 9,
+    "feed_generated_utc": "2026-10-07T08:09Z",
+    "checked": 10,
+    "in_parity": 10,
     "drifting": []
   }
 }
