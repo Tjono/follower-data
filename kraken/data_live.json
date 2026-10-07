@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-07T05:17:53Z",
+  "last_updated_iso": "2026-10-07T06:08:35Z",
   "freshness": {
-    "engine_run_iso": "2026-10-07T05:17:38Z",
+    "engine_run_iso": "2026-10-07T06:08:15Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-07T05:16:00Z",
+    "feed_generated_iso": "2026-10-07T06:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-07T05:17:53Z",
+    "published_iso": "2026-10-07T06:08:35Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.2756,
-    "equity": 112.0158,
-    "available": 102.6127,
+    "unrealized_pnl": 0.6446,
+    "equity": 112.3213,
+    "available": 102.9182,
     "position_margin": 6.3613
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "15s ago",
+      "value": "20s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Signal feed",
-      "value": "1 min old",
+      "value": "35s old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$112.02",
+      "value": "$112.32",
       "status": "ok",
       "action": null
     },
@@ -446,7 +446,7 @@
       "reason": "HBAR is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-07T04:09:53Z",
-      "last_seen_iso": "2026-10-07T05:17:38Z"
+      "last_seen_iso": "2026-10-07T06:08:15Z"
     },
     {
       "trade_id": "UNIUSDT_20260921_CJ_001",
@@ -470,7 +470,7 @@
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-07T05:17:38Z"
+      "last_seen_iso": "2026-10-07T06:08:15Z"
     },
     {
       "trade_id": "TRXUSDT_20260929_CJ_001",
@@ -482,7 +482,7 @@
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-07T05:17:38Z"
+      "last_seen_iso": "2026-10-07T06:08:15Z"
     },
     {
       "trade_id": "SOLUSDT_20261002_CJ_001",
@@ -506,7 +506,7 @@
       "reason": "RENDER is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-07T05:17:38Z"
+      "last_seen_iso": "2026-10-07T06:08:15Z"
     },
     {
       "trade_id": "ONDOUSDT_20260928_CM_001",
@@ -518,7 +518,7 @@
       "reason": "Opened on the master before the Kraken engine went live - not chased.",
       "reason_short": "opened before go-live",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-07T05:17:38Z"
+      "last_seen_iso": "2026-10-07T06:08:15Z"
     },
     {
       "trade_id": "CAKEUSDT_20260928_CJ_001",
@@ -554,7 +554,7 @@
       "reason": "ALGO is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-07T05:17:38Z"
+      "last_seen_iso": "2026-10-07T06:08:15Z"
     }
   ],
   "tp1_hits_open": [],
@@ -581,13 +581,13 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-07T05:16Z",
+    "feed_generated_utc": "2026-10-07T06:08Z",
     "checked": 6,
     "in_parity": 6,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-07T05:17:53Z",
+    "updated_iso": "2026-10-07T06:08:35Z",
     "trades": [
       {
         "trade_id": "ETHUSDT_20261007_CJ_001",
