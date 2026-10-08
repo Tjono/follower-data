@@ -4141,8 +4141,16 @@
       "opened_at": "2026-10-02T18:39:31Z",
       "margin_usd": 22.587413108,
       "braam_trade_id": "LINKUSDT_20261002_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-02T12:09:54Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-02T12:09:54Z",
+      "closed_at": "2026-10-08T03:21:26Z",
+      "close_price": 13.145,
+      "pnl_usd": -2.0169,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.093
     },
     "1512404475": {
       "position_id": "1512404475",
@@ -10093,7 +10101,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-08T00:11:47Z",
+  "updated": "2026-10-08T04:11:35Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26414,6 +26422,14 @@
       "unrealized": -1.1182,
       "realized": 34.9523,
       "total": 33.8341
+    },
+    {
+      "ts": "2026-10-08T04:11:35Z",
+      "equity": 439.5696,
+      "available": 241.6605,
+      "unrealized": -0.9437,
+      "realized": 32.9354,
+      "total": 31.9917
     }
   ],
   "capital_events": {
