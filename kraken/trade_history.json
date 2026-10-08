@@ -304,6 +304,238 @@
         "usd"
       ],
       "pnl_basis": null
+    },
+    "HTEST1008060742-P12-ENTRY": {
+      "position_id": "HTEST1008060742-P12-ENTRY",
+      "braam_trade_id": "HTEST1008060742-P12-ENTRY",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 115.25,
+      "entry_size": 0.06,
+      "exit_size": 0,
+      "opened_at": "2026-10-08T06:08:21Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 2.305,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0035,
+      "funding_usd": null,
+      "fill_ids": [
+        "a0d13479-607b-4910-b74e-202b13ccd91b"
+      ],
+      "unrealized_pnl": null,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "HTEST1008060742-P12A": {
+      "position_id": "HTEST1008060742-P12A",
+      "braam_trade_id": "HTEST1008060742-P12A",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": null,
+      "entry_size": 0,
+      "exit_size": 0.06,
+      "opened_at": null,
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": null,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0035,
+      "funding_usd": null,
+      "fill_ids": [
+        "c187bb09-2374-4b0f-ba65-13ad4bb9dc38"
+      ],
+      "unrealized_pnl": null,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "HTEST1008060742-P10-ENTRY": {
+      "position_id": "HTEST1008060742-P10-ENTRY",
+      "braam_trade_id": "HTEST1008060742-P10-ENTRY",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 115.21,
+      "entry_size": 0.06,
+      "exit_size": 0,
+      "opened_at": "2026-10-08T06:08:49Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 2.3042,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0035,
+      "funding_usd": null,
+      "fill_ids": [
+        "c9ae63d1-9edd-482a-b627-1b496de14b41"
+      ],
+      "unrealized_pnl": null,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "HTEST1008060742-P10X": {
+      "position_id": "HTEST1008060742-P10X",
+      "braam_trade_id": "HTEST1008060742-P10X",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": null,
+      "entry_size": 0,
+      "exit_size": 0.1,
+      "opened_at": null,
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": null,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0058,
+      "funding_usd": null,
+      "fill_ids": [
+        "09e80585-db1c-4ff4-9aa9-6595695e5cb9"
+      ],
+      "unrealized_pnl": null,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "HTEST1008060742-P10-CLOSE": {
+      "position_id": "HTEST1008060742-P10-CLOSE",
+      "braam_trade_id": "HTEST1008060742-P10-CLOSE",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 115.2,
+      "entry_size": 0.04,
+      "exit_size": 0,
+      "opened_at": "2026-10-08T06:08:54Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 1.536,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0023,
+      "funding_usd": null,
+      "fill_ids": [
+        "84d024c4-1dcf-4f0d-9175-39a047f4bcbf"
+      ],
+      "unrealized_pnl": null,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "HTEST1008060742-P11-ENTRY": {
+      "position_id": "HTEST1008060742-P11-ENTRY",
+      "braam_trade_id": "HTEST1008060742-P11-ENTRY",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 115.19,
+      "entry_size": 0.06,
+      "exit_size": 0,
+      "opened_at": "2026-10-08T06:09:01Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 2.3038,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0035,
+      "funding_usd": null,
+      "fill_ids": [
+        "401287b1-d403-46c6-9c66-65758d34d554"
+      ],
+      "unrealized_pnl": null,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "HTEST1008060742-P11-FLIP": {
+      "position_id": "HTEST1008060742-P11-FLIP",
+      "braam_trade_id": "HTEST1008060742-P11-FLIP",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 115.18,
+      "entry_size": 0.12,
+      "exit_size": 0,
+      "opened_at": "2026-10-08T06:09:02Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 4.6072,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0069,
+      "funding_usd": null,
+      "fill_ids": [
+        "1c49f920-1b1a-423b-a8f1-b1f57dc50f1b"
+      ],
+      "unrealized_pnl": null,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "HTEST1008060742-P11-CLOSE": {
+      "position_id": "HTEST1008060742-P11-CLOSE",
+      "braam_trade_id": "HTEST1008060742-P11-CLOSE",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 115.17,
+      "entry_size": 0.06,
+      "exit_size": 0,
+      "opened_at": "2026-10-08T06:09:25Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 2.3034,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0035,
+      "funding_usd": null,
+      "fill_ids": [
+        "4127e198-7cc4-494c-bd2a-5433fa2ac522"
+      ],
+      "unrealized_pnl": null,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -633,6 +865,118 @@
       "realized_pnl": -0.4675,
       "realized_funding": -0.00018071061,
       "sequence_id": "6694712"
+    },
+    "4127e198-7cc4-494c-bd2a-5433fa2ac522": {
+      "fill_id": "4127e198-7cc4-494c-bd2a-5433fa2ac522",
+      "symbol": "PF_SOLUSD",
+      "side": "buy",
+      "order_id": "a2ee3515-82ed-4d22-851a-261fd2a96909",
+      "cliOrdId": "HTEST1008060742-P11-CLOSE",
+      "size": 0.06,
+      "price": 115.17,
+      "fillTime": "2026-10-08T06:09:25.183Z",
+      "fillType": "taker",
+      "realized_pnl": 0.0006,
+      "realized_funding": 2.465e-07,
+      "sequence_id": "52673977"
+    },
+    "1c49f920-1b1a-423b-a8f1-b1f57dc50f1b": {
+      "fill_id": "1c49f920-1b1a-423b-a8f1-b1f57dc50f1b",
+      "symbol": "PF_SOLUSD",
+      "side": "sell",
+      "order_id": "a2ee34f3-7c84-4bbf-9fab-1a5aee6aac04",
+      "cliOrdId": "HTEST1008060742-P11-FLIP",
+      "size": 0.12,
+      "price": 115.18,
+      "fillTime": "2026-10-08T06:09:02.885Z",
+      "fillType": "taker",
+      "realized_pnl": -0.0006,
+      "realized_funding": -1.405e-08,
+      "sequence_id": "52673972"
+    },
+    "401287b1-d403-46c6-9c66-65758d34d554": {
+      "fill_id": "401287b1-d403-46c6-9c66-65758d34d554",
+      "symbol": "PF_SOLUSD",
+      "side": "buy",
+      "order_id": "a2ee34f1-8bb5-4211-83ec-86bd9d2f1225",
+      "cliOrdId": "HTEST1008060742-P11-ENTRY",
+      "size": 0.06,
+      "price": 115.19,
+      "fillTime": "2026-10-08T06:09:01.613Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "52673971"
+    },
+    "84d024c4-1dcf-4f0d-9175-39a047f4bcbf": {
+      "fill_id": "84d024c4-1dcf-4f0d-9175-39a047f4bcbf",
+      "symbol": "PF_SOLUSD",
+      "side": "buy",
+      "order_id": "a2ee34e6-8303-4e22-b8ba-a2f42140ec15",
+      "cliOrdId": "HTEST1008060742-P10-CLOSE",
+      "size": 0.04,
+      "price": 115.2,
+      "fillTime": "2026-10-08T06:08:54.382Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": 2.492e-08,
+      "sequence_id": "52673970"
+    },
+    "09e80585-db1c-4ff4-9aa9-6595695e5cb9": {
+      "fill_id": "09e80585-db1c-4ff4-9aa9-6595695e5cb9",
+      "symbol": "PF_SOLUSD",
+      "side": "sell",
+      "order_id": "a2ee34e0-f76f-4ea7-9c59-927d7da48aae",
+      "cliOrdId": "HTEST1008060742-P10X:SL",
+      "size": 0.1,
+      "price": 115.2,
+      "fillTime": "2026-10-08T06:08:51.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.0006,
+      "realized_funding": -1.367e-08,
+      "sequence_id": "52673969"
+    },
+    "c9ae63d1-9edd-482a-b627-1b496de14b41": {
+      "fill_id": "c9ae63d1-9edd-482a-b627-1b496de14b41",
+      "symbol": "PF_SOLUSD",
+      "side": "buy",
+      "order_id": "a2ee34df-76b3-4bd0-a239-9190221dc48a",
+      "cliOrdId": "HTEST1008060742-P10-ENTRY",
+      "size": 0.06,
+      "price": 115.21,
+      "fillTime": "2026-10-08T06:08:49.763Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "52673968"
+    },
+    "c187bb09-2374-4b0f-ba65-13ad4bb9dc38": {
+      "fill_id": "c187bb09-2374-4b0f-ba65-13ad4bb9dc38",
+      "symbol": "PF_SOLUSD",
+      "side": "sell",
+      "order_id": "a2ee34b6-6dfa-4cac-8d19-d50542be2718",
+      "cliOrdId": "HTEST1008060742-P12A:SL",
+      "size": 0.06,
+      "price": 115.2,
+      "fillTime": "2026-10-08T06:08:38.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.003,
+      "realized_funding": -1.7856e-07,
+      "sequence_id": "52673966"
+    },
+    "a0d13479-607b-4910-b74e-202b13ccd91b": {
+      "fill_id": "a0d13479-607b-4910-b74e-202b13ccd91b",
+      "symbol": "PF_SOLUSD",
+      "side": "buy",
+      "order_id": "a2ee34b4-de79-439b-b8d8-ccff4b2f07de",
+      "cliOrdId": "HTEST1008060742-P12-ENTRY",
+      "size": 0.06,
+      "price": 115.25,
+      "fillTime": "2026-10-08T06:08:21.848Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "52673960"
     }
   },
   "snapshots": [
@@ -1059,8 +1403,16 @@
       "unrealized": 0.0,
       "realized": -1.7904,
       "total": -1.7904
+    },
+    {
+      "ts": "2026-10-08T06:09:32Z",
+      "equity": 110.0707022255514,
+      "available": 104.6719862255514,
+      "unrealized": -0.0013977744485998754,
+      "realized": -1.7904,
+      "total": -1.7918
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-08T05:17:46Z"
+  "updated": "2026-10-08T06:09:32Z"
 }
