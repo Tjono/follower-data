@@ -10292,9 +10292,54 @@
       "resting_at": "2026-10-08T16:11:44Z",
       "braam_trade_id": "AVAXUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "863271047943607872": {
+      "order_id": "863271047943607872",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.788,
+      "resting_at": "2026-10-08T20:10:56Z",
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "863271040502501888": {
+      "order_id": "863271040502501888",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.08915,
+      "resting_at": "2026-10-08T20:10:54Z",
+      "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "863271033825113600": {
+      "order_id": "863271033825113600",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.42,
+      "resting_at": "2026-10-08T20:10:53Z",
+      "braam_trade_id": "NEARUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "863271025465456128": {
+      "order_id": "863271025465456128",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 2587.81,
+      "resting_at": "2026-10-08T20:10:51Z",
+      "braam_trade_id": "ETHUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "863271015261492224": {
+      "order_id": "863271015261492224",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.09681,
+      "resting_at": "2026-10-08T20:10:48Z",
+      "braam_trade_id": "HBARUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-08T20:02:17Z",
+  "updated": "2026-10-08T20:12:16Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26695,6 +26740,14 @@
       "unrealized": 5.5125,
       "realized": 26.1939,
       "total": 31.7064
+    },
+    {
+      "ts": "2026-10-08T20:12:16Z",
+      "equity": 439.8606,
+      "available": 155.8287,
+      "unrealized": 6.1065,
+      "realized": 26.1939,
+      "total": 32.3004
     }
   ],
   "capital_events": {
