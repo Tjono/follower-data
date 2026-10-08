@@ -4291,8 +4291,16 @@
       "opened_at": "2026-10-07T02:01:21Z",
       "margin_usd": 22.252878818004,
       "braam_trade_id": "TAOUSDT_20261003_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-05T12:10:06Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-05T12:10:06Z",
+      "closed_at": "2026-10-08T04:20:40Z",
+      "close_price": 281.81,
+      "pnl_usd": -1.8879,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0917
     }
   },
   "orders": {
@@ -10101,7 +10109,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-08T04:11:35Z",
+  "updated": "2026-10-08T06:11:27Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26430,6 +26438,14 @@
       "unrealized": -0.9437,
       "realized": 32.9354,
       "total": 31.9917
+    },
+    {
+      "ts": "2026-10-08T06:11:27Z",
+      "equity": 437.9278,
+      "available": 262.079,
+      "unrealized": -0.7511,
+      "realized": 31.0475,
+      "total": 30.2964
     }
   ],
   "capital_events": {
