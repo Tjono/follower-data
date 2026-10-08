@@ -885,6 +885,33 @@
       "resting_at": "2026-10-08T16:10:51Z",
       "braam_trade_id": "AVAXUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "a2ef619e-1953-45b7-8c52-e48b8748d04d": {
+      "order_id": "a2ef619e-1953-45b7-8c52-e48b8748d04d",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.4197,
+      "resting_at": "2026-10-08T20:09:46Z",
+      "braam_trade_id": "NEARUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "a2ef619b-6e98-4428-ac96-ca3aef8cbb49": {
+      "order_id": "a2ef619b-6e98-4428-ac96-ca3aef8cbb49",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 2587.8,
+      "resting_at": "2026-10-08T20:09:44Z",
+      "braam_trade_id": "ETHUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "a2ef6199-8a56-429f-a59e-b81eeef2288c": {
+      "order_id": "a2ef6199-8a56-429f-a59e-b81eeef2288c",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.08915,
+      "resting_at": "2026-10-08T20:09:43Z",
+      "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -2000,8 +2027,16 @@
       "unrealized": 0.0,
       "realized": -3.0287,
       "total": -3.0287
+    },
+    {
+      "ts": "2026-10-08T20:09:57Z",
+      "equity": 109.0633,
+      "available": 101.295076,
+      "unrealized": 0.0,
+      "realized": -3.0287,
+      "total": -3.0287
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-08T19:17:37Z"
+  "updated": "2026-10-08T20:09:57Z"
 }
