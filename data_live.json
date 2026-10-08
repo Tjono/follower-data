@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-08T06:21:13Z",
+  "last_updated_iso": "2026-10-08T08:11:29Z",
   "mexc_account": {
-    "unrealized_pnl": -0.7909,
-    "equity": 437.888,
-    "available": 262.079,
-    "position_margin": 22.6283
+    "unrealized_pnl": 0.7513,
+    "equity": 440.9134,
+    "available": 281.6569,
+    "position_margin": 4.5336
   },
   "order_levels": {
     "checked": 8,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$437.89",
+      "value": "$440.91",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (1 open, 1 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -168,7 +168,7 @@
       "date_opened": "2026-10-02",
       "time_opened_utc": "04:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -177,9 +177,9 @@
       "live_entry_fill": 0.11902,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0042,
-      "live_fees_usd": 0.0406,
+      "live_fees_usd": 0.0851,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 1.5288,
       "rehearsal": false
     },
     {
@@ -369,7 +369,7 @@
       "trading_system": "John",
       "entry_price": 0.119025,
       "live_entry_fill": 0.11902,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-10-07T02:01:00Z",
       "_iso_ms": 1791338460000,
       "rehearsal": false
@@ -4402,7 +4402,14 @@
     }
   ],
   "recent_cancels": [],
-  "tp1_hits_open": [],
+  "tp1_hits_open": [
+    {
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.119025
+    }
+  ],
   "stats": {
     "realized_pnl_usd": 34.76,
     "realized_pnl_pct": 0.82,
@@ -4431,7 +4438,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-08T06:08Z",
+    "feed_generated_utc": "2026-10-08T08:09Z",
     "checked": 8,
     "in_parity": 8,
     "drifting": []
