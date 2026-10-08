@@ -101,27 +101,28 @@
       "leverage": 3,
       "entry_price": 13.52,
       "entry_size": 1.2,
-      "exit_size": 0,
+      "exit_size": 1.2,
       "opened_at": "2026-10-07T02:00:58Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-08T03:21:27Z",
+      "close_price": 13.135,
       "margin_usd": 5.408,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "pnl_basis": null,
-      "tag": null,
-      "fees_usd": 0.0032,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.462,
+      "pnl_usd": -0.4796,
+      "tag": "LOSS",
+      "fees_usd": 0.0111,
+      "funding_usd": -0.0065,
       "fill_ids": [
-        "bdf53de4-260e-4c57-9422-130cccbfaec6"
+        "bdf53de4-260e-4c57-9422-130cccbfaec6",
+        "2bd98be3-60ed-4022-8d76-d2792ebcc818"
       ],
       "unrealized_pnl": -0.41488443693599847,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": "net"
     },
     "ETHUSDT_20261007_CJ_001": {
       "position_id": "ETHUSDT_20261007_CJ_001",
@@ -178,7 +179,7 @@
       "fill_ids": [
         "c8178538-f380-477d-9ceb-a827c97e5507"
       ],
-      "unrealized_pnl": -0.053556200202999095,
+      "unrealized_pnl": -0.05906177480549957,
       "fee_asset": [
         "usd"
       ]
@@ -603,6 +604,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "52635017"
+    },
+    "2bd98be3-60ed-4022-8d76-d2792ebcc818": {
+      "fill_id": "2bd98be3-60ed-4022-8d76-d2792ebcc818",
+      "symbol": "PF_LINKUSD",
+      "side": "sell",
+      "order_id": "a2ebdf30-01f5-414d-a0bb-c1ff7032b5c1",
+      "cliOrdId": "LINKUSDT_20261002_CJ_001:SL#1791339454629",
+      "size": 1.2,
+      "price": 13.135,
+      "fillTime": "2026-10-08T03:21:27.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.462,
+      "realized_funding": 1.251334e-05,
+      "sequence_id": "14500320"
     }
   },
   "snapshots": [
@@ -997,8 +1012,16 @@
       "unrealized": -0.46875258779677687,
       "realized": -0.821,
       "total": -1.2898
+    },
+    {
+      "ts": "2026-10-08T04:09:25Z",
+      "equity": 110.6459678565525,
+      "available": 104.4905918565525,
+      "unrealized": -0.06003348116899521,
+      "realized": -1.3006,
+      "total": -1.3606
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-08T03:17:41Z"
+  "updated": "2026-10-08T04:09:25Z"
 }
