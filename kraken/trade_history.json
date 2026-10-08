@@ -689,7 +689,37 @@
       "fill_ids": [
         "ca480a5e-ceb7-44ed-8ea0-965cfeef2d08"
       ],
-      "unrealized_pnl": 0.001859262299999942,
+      "unrealized_pnl": -0.24045919799999899,
+      "fee_asset": [
+        "usd"
+      ],
+      "pnl_basis": null
+    },
+    "BTCUSDT_20261004_CJ_001": {
+      "position_id": "BTCUSDT_20261004_CJ_001",
+      "braam_trade_id": "BTCUSDT_20261004_CJ_001",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 81454.0,
+      "entry_size": 0.0002,
+      "exit_size": 0,
+      "opened_at": "2026-10-08T15:23:07Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.430267,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0033,
+      "funding_usd": null,
+      "fill_ids": [
+        "8dd7ed95-5e66-45da-ba90-2d15d42b3e61"
+      ],
+      "unrealized_pnl": -0.012268261482083473,
       "fee_asset": [
         "usd"
       ]
@@ -1222,6 +1252,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "18307281"
+    },
+    "8dd7ed95-5e66-45da-ba90-2d15d42b3e61": {
+      "fill_id": "8dd7ed95-5e66-45da-ba90-2d15d42b3e61",
+      "symbol": "PF_XBTUSD",
+      "side": "buy",
+      "order_id": "a2eb89b6-3284-4fcf-99da-b4002d2c3f94",
+      "cliOrdId": "BTCUSDT_20261004_CJ_001",
+      "size": 0.0002,
+      "price": 81454,
+      "fillTime": "2026-10-08T15:23:07.001Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "102081773"
     }
   },
   "snapshots": [
@@ -1776,8 +1820,16 @@
       "unrealized": 0.0018579395139638117,
       "realized": -1.7904,
       "total": -1.7885
+    },
+    {
+      "ts": "2026-10-08T15:30:54Z",
+      "equity": 109.8694840864785,
+      "available": 105.16756801905288,
+      "unrealized": -0.25277511152150656,
+      "realized": -1.7904,
+      "total": -2.0432
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-08T15:21:48Z"
+  "updated": "2026-10-08T15:30:54Z"
 }
