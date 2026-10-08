@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-08T04:17:47Z",
+  "last_updated_iso": "2026-10-08T05:06:44Z",
   "freshness": {
-    "engine_run_iso": "2026-10-08T04:17:39Z",
+    "engine_run_iso": "2026-10-08T05:06:33Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-08T04:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-08T04:17:47Z",
+    "published_iso": "2026-10-08T05:06:44Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,15 +18,15 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.1578,
-    "equity": 110.5485,
-    "available": 104.3931,
-    "position_margin": 1.4478
+    "unrealized_pnl": 0.0,
+    "equity": 110.2493,
+    "available": 105.5417,
+    "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 4,
-    "in_sync": 4,
+    "checked": 3,
+    "in_sync": 3,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "8s ago",
+      "value": "11s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "58 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (9 records, 3 resting, 1 open, 5 closed)",
+      "value": "OK (9 records, 3 resting, 6 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$110.55",
+      "value": "$110.25",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (1 open)",
+      "value": "all protected (0 open)",
       "status": "ok",
       "action": null
     },
@@ -115,40 +115,6 @@
     }
   ],
   "active_trades": [
-    {
-      "trade_id": "TAOUSDT_20261003_CJ_001",
-      "coin": "TAOUSDT",
-      "direction": "Long",
-      "entry_price": 289.55794673,
-      "sl": 281.79512497,
-      "tp1": 307.0,
-      "tp2": 335.0,
-      "capital_usd": 4.83,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-10-07",
-      "time_activated_utc": "02:01",
-      "date_opened": "2026-10-03",
-      "time_opened_utc": "00:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": false,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 289.56,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.0,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false,
-      "live_filled_ts": "2026-10-07T02:01:09.001000+00:00"
-    },
     {
       "trade_id": "NEARUSDT_20261003_CJ_001",
       "coin": "NEARUSDT",
@@ -438,6 +404,28 @@
       "rehearsal": false,
       "margin_usd": 5.408,
       "leverage": 3
+    },
+    {
+      "trade_id": "TAOUSDT_20261003_CJ_001",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "status": "STOPPED",
+      "pnl_usd": -0.49,
+      "close_reason": "live Kraken exit: sl @ 280.21",
+      "date_closed": "2026-10-08",
+      "time_closed_utc": "04:20",
+      "trading_system": "John",
+      "live_entry_fill": 289.56,
+      "live_exit_fill": 280.21,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0099,
+      "live_funding_usd": -0.0124,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-10-08T04:20:43Z",
+      "rehearsal": false,
+      "margin_usd": 4.826,
+      "leverage": 3
     }
   ],
   "recent_cancels": [],
@@ -452,7 +440,7 @@
       "reason": "HBAR is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-07T04:09:53Z",
-      "last_seen_iso": "2026-10-08T04:17:39Z"
+      "last_seen_iso": "2026-10-08T05:06:33Z"
     },
     {
       "trade_id": "UNIUSDT_20260921_CJ_001",
@@ -476,7 +464,7 @@
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T04:17:39Z"
+      "last_seen_iso": "2026-10-08T05:06:33Z"
     },
     {
       "trade_id": "TRXUSDT_20260929_CJ_001",
@@ -488,7 +476,7 @@
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T04:17:39Z"
+      "last_seen_iso": "2026-10-08T05:06:33Z"
     },
     {
       "trade_id": "SOLUSDT_20261002_CJ_001",
@@ -512,7 +500,7 @@
       "reason": "RENDER is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T04:17:39Z"
+      "last_seen_iso": "2026-10-08T05:06:33Z"
     },
     {
       "trade_id": "ONDOUSDT_20260928_CM_001",
@@ -524,7 +512,7 @@
       "reason": "Opened in the feed before the Kraken start date - not chased.",
       "reason_short": "opened before go-live",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T04:17:39Z"
+      "last_seen_iso": "2026-10-08T05:06:33Z"
     },
     {
       "trade_id": "CAKEUSDT_20260928_CJ_001",
@@ -560,25 +548,25 @@
       "reason": "ALGO is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T04:17:39Z"
+      "last_seen_iso": "2026-10-08T05:06:33Z"
     }
   ],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -1.3,
-    "realized_pnl_pct": -4.77,
+    "realized_pnl_usd": -1.79,
+    "realized_pnl_pct": -5.58,
     "peak_capital_usd": 26.49,
     "peak_concurrent": 5,
     "peak_date": "2026-10-07",
     "deployed_trades": 6,
-    "return_on_peak_pct": -4.91,
+    "return_on_peak_pct": -6.76,
     "win_rate_pct": 0.0,
-    "closed_count": 5,
+    "closed_count": 6,
     "per_system": {
       "John": {
-        "realized_pnl_usd": -1.3,
+        "realized_pnl_usd": -1.79,
         "win_rate_pct": 0.0,
-        "closed_count": 5
+        "closed_count": 6
       }
     },
     "live_trade_count_total": 9,
@@ -589,29 +577,47 @@
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-10-08T04:08Z",
-    "checked": 4,
-    "in_parity": 4,
+    "checked": 3,
+    "in_parity": 3,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-10-08T04:08Z",
-    "checked": 4,
-    "in_parity": 4,
+    "checked": 3,
+    "in_parity": 3,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-10-08T04:08Z",
-    "checked": 4,
-    "in_parity": 4,
+    "checked": 3,
+    "in_parity": 3,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-08T04:17:47Z",
+    "updated_iso": "2026-10-08T05:06:44Z",
     "trades": [
+      {
+        "trade_id": "TAOUSDT_20261003_CJ_001",
+        "coin": "TAOUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "CLOSED",
+          "ret_pct": -10.149,
+          "pnl_usd": -0.4898,
+          "margin_usd": 4.826
+        },
+        "mexc": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 22.2529
+        }
+      },
       {
         "trade_id": "LINKUSDT_20261002_CJ_001",
         "coin": "LINKUSDT",
@@ -708,24 +714,6 @@
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 22.6283
-        }
-      },
-      {
-        "trade_id": "TAOUSDT_20261003_CJ_001",
-        "coin": "TAOUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "OPEN",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 4.826
-        },
-        "mexc": {
-          "status": "OPEN",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 22.2529
         }
       },
       {
