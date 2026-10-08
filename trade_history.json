@@ -4381,8 +4381,16 @@
       "opened_at": "2026-10-08T15:34:27Z",
       "margin_usd": 22.02807391358,
       "braam_trade_id": "NEARUSDT_20261003_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-05T04:10:20Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-05T04:10:20Z",
+      "closed_at": "2026-10-08T17:21:00Z",
+      "close_price": 4.531,
+      "pnl_usd": -2.5795,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0902
     },
     "1516307115": {
       "position_id": "1516307115",
@@ -4393,8 +4401,28 @@
       "opened_at": "2026-10-08T15:23:16Z",
       "margin_usd": 21.69360645025,
       "braam_trade_id": "RENDERUSDT_20260928_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-09-28T08:10:18Z",
+      "closed_at": "2026-10-08T17:23:17Z",
+      "close_price": 1.785,
+      "pnl_usd": -2.5421,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0888
+    },
+    "1516460361": {
+      "position_id": "1516460361",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.11515,
+      "opened_at": "2026-10-08T17:21:29Z",
+      "margin_usd": 21.9694836341645,
+      "braam_trade_id": "ALGOUSDT_20261008_CJ_001",
       "status": "OPEN",
-      "resting_at": "2026-09-28T08:10:18Z"
+      "resting_at": "2026-10-08T16:11:46Z"
     }
   },
   "orders": {
@@ -10266,7 +10294,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-08T16:13:17Z",
+  "updated": "2026-10-08T18:11:55Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26651,6 +26679,14 @@
       "unrealized": -1.5704,
       "realized": 31.3155,
       "total": 29.7451
+    },
+    {
+      "ts": "2026-10-08T18:11:55Z",
+      "equity": 432.8436,
+      "available": 236.3737,
+      "unrealized": -0.9105,
+      "realized": 26.1939,
+      "total": 25.2834
     }
   ],
   "capital_events": {
