@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-08T15:34:53Z",
+  "last_updated_iso": "2026-10-08T16:11:05Z",
   "freshness": {
-    "engine_run_iso": "2026-10-08T15:34:38Z",
+    "engine_run_iso": "2026-10-08T16:10:44Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-08T14:07:00Z",
+    "feed_generated_iso": "2026-10-08T16:10:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-08T15:34:53Z",
+    "published_iso": "2026-10-08T16:11:05Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.4373,
-    "equity": 109.6642,
-    "available": 104.9935,
-    "position_margin": 4.7142
+    "unrealized_pnl": -0.0619,
+    "equity": 109.2632,
+    "available": 104.5923,
+    "position_margin": 1.4127
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "15s ago",
+      "value": "21s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "87 min old",
+      "value": "65s old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (9 records, 3 open, 6 closed)",
+      "value": "OK (11 records, 2 resting, 1 open, 8 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$109.66",
+      "value": "$109.26",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (0 resting = journal)",
+      "value": "in sync (2 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open)",
+      "value": "all protected (1 open)",
       "status": "ok",
       "action": null
     },
@@ -109,7 +109,7 @@
       "key": "signals_skipped",
       "tier": 1,
       "label": "Feed trades not taken",
-      "value": "11 (6 coin illiquid, 2 pre go live, 1 coin not listed, 1 source past tp1)",
+      "value": "14 (9 coin illiquid, 2 pre go live, 1 coin not listed, 1 source past tp1)",
       "status": "info",
       "action": null
     }
@@ -150,76 +150,103 @@
       "live_filled_ts": "2026-10-08T15:34:21.132000+00:00"
     },
     {
-      "trade_id": "BTCUSDT_20261004_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Long",
-      "entry_price": 81454.04387623,
-      "sl": 80826.81410075,
-      "tp1": 91817.36044732,
-      "tp2": 94038.02179851,
-      "capital_usd": 5.43,
+      "trade_id": "AVAXUSDT_20261008_CJ_001",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 10.65965794,
+      "sl": 10.98065781,
+      "tp1": 9.8030919,
+      "tp2": 8.08968438,
+      "capital_usd": 5.46,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "OPEN",
+      "status": "PENDING",
       "price_at_run": null,
-      "date_activated": "2026-10-08",
-      "time_activated_utc": "15:23",
-      "date_opened": "2026-10-04",
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-08",
       "time_opened_utc": "16:04",
       "conviction": "MEDIUM",
-      "tp1_hit": false,
+      "tp1_hit": null,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 81454.0,
+      "live_executed": null,
+      "live_entry_fill": null,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.0,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": "2026-10-08T15:23:07.001000+00:00"
+      "live_filled_ts": null
     },
     {
-      "trade_id": "ADAUSDT_20261007_CJ_001",
-      "coin": "ADAUSDT",
-      "direction": "Long",
-      "entry_price": 0.23891739,
-      "sl": 0.23206189,
-      "tp1": 0.28117897,
-      "tp2": 0.28316645,
-      "capital_usd": 5.57,
+      "trade_id": "XLMUSDT_20261008_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.20088823,
+      "sl": 0.2053483,
+      "tp1": 0.1847016,
+      "tp2": 0.15660339,
+      "capital_usd": 5.46,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "OPEN",
+      "status": "PENDING",
       "price_at_run": null,
-      "date_activated": "2026-10-08",
-      "time_activated_utc": "15:20",
-      "date_opened": "2026-10-07",
-      "time_opened_utc": "08:04",
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-08",
+      "time_opened_utc": "16:04",
       "conviction": "MEDIUM",
-      "tp1_hit": false,
+      "tp1_hit": null,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.23892,
+      "live_executed": null,
+      "live_entry_fill": null,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.0,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": "2026-10-08T15:20:39.206000+00:00"
+      "live_filled_ts": null
     }
   ],
   "dry_run_plans": [],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "AVAXUSDT_20261008_CJ_001",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 10.65965794,
+      "tp1": 9.8030919,
+      "sl": 10.98065781,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-08T16:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "XLMUSDT_20261008_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 0.20088823,
+      "tp1": 0.1847016,
+      "sl": 0.2053483,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-08T16:04:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "XLMUSDT_20261005_CJ_001",
@@ -462,10 +489,90 @@
       "rehearsal": false,
       "margin_usd": 4.826,
       "leverage": 3
+    },
+    {
+      "trade_id": "ADAUSDT_20261007_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "status": "STOPPED",
+      "pnl_usd": -0.52,
+      "close_reason": "live Kraken exit: sl @ 0.23161",
+      "date_closed": "2026-10-08",
+      "time_closed_utc": "15:35",
+      "trading_system": "John",
+      "live_entry_fill": 0.23892,
+      "live_exit_fill": 0.23161,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0114,
+      "live_funding_usd": 0.0,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-10-08T15:35:41Z",
+      "rehearsal": false,
+      "margin_usd": 5.5748,
+      "leverage": 3
+    },
+    {
+      "trade_id": "BTCUSDT_20261004_CJ_001",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "status": "STOPPED",
+      "pnl_usd": -0.15,
+      "close_reason": "live Kraken exit: sl @ 80744.0",
+      "date_closed": "2026-10-08",
+      "time_closed_utc": "16:07",
+      "trading_system": "John",
+      "live_entry_fill": 81454.0,
+      "live_exit_fill": 80744.0,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0114,
+      "live_funding_usd": -0.0002,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-10-08T16:07:07Z",
+      "rehearsal": false,
+      "margin_usd": 5.4303,
+      "leverage": 3
     }
   ],
   "recent_cancels": [],
   "recent_skips": [
+    {
+      "trade_id": "HBARUSDT_20261008_CJ_001",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 0.09500604,
+      "reason_code": "coin_illiquid",
+      "reason": "HBAR is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
+      "reason_short": "coin too thin on Kraken",
+      "iso": "2026-10-08T16:10:44Z",
+      "last_seen_iso": "2026-10-08T16:10:44Z"
+    },
+    {
+      "trade_id": "APTUSDT_20261008_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 0.76584495,
+      "reason_code": "coin_illiquid",
+      "reason": "APT is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
+      "reason_short": "coin too thin on Kraken",
+      "iso": "2026-10-08T16:10:44Z",
+      "last_seen_iso": "2026-10-08T16:10:44Z"
+    },
+    {
+      "trade_id": "ALGOUSDT_20261008_CJ_001",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.11515,
+      "reason_code": "coin_illiquid",
+      "reason": "ALGO is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
+      "reason_short": "coin too thin on Kraken",
+      "iso": "2026-10-08T16:10:44Z",
+      "last_seen_iso": "2026-10-08T16:10:44Z"
+    },
     {
       "trade_id": "THETAUSDT_20261008_CJ_001",
       "coin": "THETAUSDT",
@@ -476,7 +583,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-08T12:08:59Z",
-      "last_seen_iso": "2026-10-08T15:34:38Z"
+      "last_seen_iso": "2026-10-08T16:10:44Z"
     },
     {
       "trade_id": "HBARUSDT_20261007_CJ_001",
@@ -488,7 +595,7 @@
       "reason": "HBAR is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-07T04:09:53Z",
-      "last_seen_iso": "2026-10-08T15:34:38Z"
+      "last_seen_iso": "2026-10-08T16:10:44Z"
     },
     {
       "trade_id": "UNIUSDT_20260921_CJ_001",
@@ -512,7 +619,7 @@
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T15:34:38Z"
+      "last_seen_iso": "2026-10-08T16:10:44Z"
     },
     {
       "trade_id": "TRXUSDT_20260929_CJ_001",
@@ -524,7 +631,7 @@
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T15:34:38Z"
+      "last_seen_iso": "2026-10-08T16:10:44Z"
     },
     {
       "trade_id": "SOLUSDT_20261002_CJ_001",
@@ -548,7 +655,7 @@
       "reason": "RENDER is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T15:34:38Z"
+      "last_seen_iso": "2026-10-08T16:10:44Z"
     },
     {
       "trade_id": "ONDOUSDT_20260928_CM_001",
@@ -601,30 +708,30 @@
   ],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -1.79,
-    "realized_pnl_pct": -5.58,
+    "realized_pnl_usd": -2.47,
+    "realized_pnl_pct": -5.73,
     "peak_capital_usd": 26.49,
     "peak_concurrent": 5,
     "peak_date": "2026-10-07",
     "deployed_trades": 9,
-    "return_on_peak_pct": -6.76,
+    "return_on_peak_pct": -9.31,
     "win_rate_pct": 0.0,
-    "closed_count": 6,
+    "closed_count": 8,
     "per_system": {
       "John": {
-        "realized_pnl_usd": -1.79,
+        "realized_pnl_usd": -2.47,
         "win_rate_pct": 0.0,
-        "closed_count": 6
+        "closed_count": 8
       }
     },
-    "live_trade_count_total": 9,
-    "live_real_count": 9,
+    "live_trade_count_total": 11,
+    "live_real_count": 11,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-08T14:07Z",
+    "feed_generated_utc": "2026-10-08T16:10Z",
     "checked": 3,
     "in_parity": 3,
     "drifting": []
@@ -632,7 +739,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-08T14:07Z",
+    "feed_generated_utc": "2026-10-08T16:10Z",
     "checked": 3,
     "in_parity": 3,
     "drifting": []
@@ -640,14 +747,66 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-08T14:07Z",
+    "feed_generated_utc": "2026-10-08T16:10Z",
     "checked": 3,
     "in_parity": 3,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-08T15:34:53Z",
+    "updated_iso": "2026-10-08T16:11:05Z",
     "trades": [
+      {
+        "trade_id": "BTCUSDT_20261004_CJ_001",
+        "coin": "BTCUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "CLOSED",
+          "ret_pct": -2.829,
+          "pnl_usd": -0.1536,
+          "margin_usd": 5.4303
+        },
+        "mexc": null
+      },
+      {
+        "trade_id": "XLMUSDT_20261008_CJ_001",
+        "coin": "XLMUSDT",
+        "direction": "Short",
+        "trading_system": "John",
+        "kraken": {
+          "status": "RESTING",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.46
+        },
+        "mexc": null
+      },
+      {
+        "trade_id": "AVAXUSDT_20261008_CJ_001",
+        "coin": "AVAXUSDT",
+        "direction": "Short",
+        "trading_system": "John",
+        "kraken": {
+          "status": "RESTING",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.46
+        },
+        "mexc": null
+      },
+      {
+        "trade_id": "ADAUSDT_20261007_CJ_001",
+        "coin": "ADAUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "CLOSED",
+          "ret_pct": -9.383,
+          "pnl_usd": -0.5231,
+          "margin_usd": 5.5748
+        },
+        "mexc": null
+      },
       {
         "trade_id": "NEARUSDT_20261003_CJ_001",
         "coin": "NEARUSDT",
@@ -658,32 +817,6 @@
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 4.709
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "BTCUSDT_20261004_CJ_001",
-        "coin": "BTCUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "OPEN",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 5.4303
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "ADAUSDT_20261007_CJ_001",
-        "coin": "ADAUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "OPEN",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 5.5748
         },
         "mexc": null
       },
