@@ -10073,9 +10073,27 @@
       "resting_at": "2026-10-07T12:10:36Z",
       "braam_trade_id": "HBARUSDT_20261007_CJ_001",
       "status": "RESTING"
+    },
+    "862968980854503424": {
+      "order_id": "862968980854503424",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.245,
+      "resting_at": "2026-10-08T00:10:38Z",
+      "braam_trade_id": "ADAUSDT_20261007_CJ_001",
+      "status": "RESTING"
+    },
+    "862968963662279680": {
+      "order_id": "862968963662279680",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32425,
+      "resting_at": "2026-10-08T00:10:34Z",
+      "braam_trade_id": "TRXUSDT_20261002_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-07T23:14:08Z",
+  "updated": "2026-10-08T00:11:47Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26388,6 +26406,14 @@
       "unrealized": -1.3308,
       "realized": 34.9523,
       "total": 33.6215
+    },
+    {
+      "ts": "2026-10-08T00:11:47Z",
+      "equity": 441.2636,
+      "available": 220.9416,
+      "unrealized": -1.1182,
+      "realized": 34.9523,
+      "total": 33.8341
     }
   ],
   "capital_events": {
