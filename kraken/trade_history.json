@@ -664,6 +664,35 @@
         "usd"
       ],
       "pnl_basis": null
+    },
+    "ADAUSDT_20261007_CJ_001": {
+      "position_id": "ADAUSDT_20261007_CJ_001",
+      "braam_trade_id": "ADAUSDT_20261007_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.23892,
+      "entry_size": 70.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-08T15:20:39Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.5748,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0033,
+      "funding_usd": null,
+      "fill_ids": [
+        "ca480a5e-ceb7-44ed-8ea0-965cfeef2d08"
+      ],
+      "unrealized_pnl": 0.001859262299999942,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -1179,6 +1208,20 @@
       "realized_pnl": 0.0012,
       "realized_funding": -3.7666e-07,
       "sequence_id": "52673991"
+    },
+    "ca480a5e-ceb7-44ed-8ea0-965cfeef2d08": {
+      "fill_id": "ca480a5e-ceb7-44ed-8ea0-965cfeef2d08",
+      "symbol": "PF_ADAUSD",
+      "side": "buy",
+      "order_id": "a2eeb5b7-6407-411f-9dcd-0fa15885bca5",
+      "cliOrdId": "ADAUSDT_20261007_CJ_001#1791461345160",
+      "size": 70,
+      "price": 0.23892,
+      "fillTime": "2026-10-08T15:20:39.206Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "18307281"
     }
   },
   "snapshots": [
@@ -1725,8 +1768,16 @@
       "unrealized": 0.0,
       "realized": -1.7904,
       "total": -1.7904
+    },
+    {
+      "ts": "2026-10-08T15:21:48Z",
+      "equity": 110.12864867721396,
+      "available": 105.41442867721396,
+      "unrealized": 0.0018579395139638117,
+      "realized": -1.7904,
+      "total": -1.7885
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-08T14:17:54Z"
+  "updated": "2026-10-08T15:21:48Z"
 }
