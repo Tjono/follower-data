@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-08T10:11:06Z",
+  "last_updated_iso": "2026-10-08T12:11:05Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
     "equity": 441.7107,
-    "available": 287.7391,
+    "available": 265.5447,
     "position_margin": 0.0
   },
   "order_levels": {
-    "checked": 7,
-    "in_sync": 7,
+    "checked": 8,
+    "in_sync": 8,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (307 records)",
+      "value": "OK (308 records)",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (7 resting = journal)",
+      "value": "in sync (8 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (0 open, 0 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -285,10 +285,10 @@
       "trade_id": "ADAUSDT_20261007_CJ_001",
       "coin": "ADAUSDT",
       "direction": "Long",
-      "entry_price": 0.244975,
-      "sl": 0.23778615,
-      "tp1": 0.26416036,
-      "tp2": 0.29062769,
+      "entry_price": 0.23891739,
+      "sl": 0.23206189,
+      "tp1": 0.28117897,
+      "tp2": 0.28316645,
       "capital_usd": 22.3,
       "leverage": 3,
       "trading_system": "John",
@@ -313,9 +313,56 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "THETAUSDT_20261008_CJ_001",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.20452275,
+      "sl": 0.1981595,
+      "tp1": 0.23251454,
+      "tp2": 0.245981,
+      "capital_usd": 22.09,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-08",
+      "time_opened_utc": "12:04",
+      "conviction": "HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "THETAUSDT_20261008_CJ_001",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.20452275,
+      "tp1": 0.23251454,
+      "sl": 0.1981595,
+      "conviction": "HIGH",
+      "track_only": false,
+      "iso": "2026-10-08T12:04:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "ADAUSDT_20261003_CJ_001",
@@ -4392,15 +4439,15 @@
         "closed_count": 99
       }
     },
-    "live_trade_count_total": 298,
-    "live_real_count": 298,
+    "live_trade_count_total": 299,
+    "live_real_count": 299,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-08T10:08Z",
-    "checked": 7,
-    "in_parity": 7,
+    "feed_generated_utc": "2026-10-08T12:08Z",
+    "checked": 8,
+    "in_parity": 8,
     "drifting": []
   }
 }

@@ -10115,9 +10115,27 @@
       "resting_at": "2026-10-08T00:10:34Z",
       "braam_trade_id": "TRXUSDT_20261002_CJ_001",
       "status": "RESTING"
+    },
+    "863150067253999104": {
+      "order_id": "863150067253999104",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2045,
+      "resting_at": "2026-10-08T12:10:12Z",
+      "braam_trade_id": "THETAUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "863150055341914624": {
+      "order_id": "863150055341914624",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2389,
+      "resting_at": "2026-10-08T12:10:09Z",
+      "braam_trade_id": "ADAUSDT_20261007_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-08T10:11:17Z",
+  "updated": "2026-10-08T12:11:17Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26475,6 +26493,14 @@
       "ts": "2026-10-08T10:11:17Z",
       "equity": 441.7107,
       "available": 287.7391,
+      "unrealized": 0.0,
+      "realized": 34.027,
+      "total": 34.027
+    },
+    {
+      "ts": "2026-10-08T12:11:17Z",
+      "equity": 441.7107,
+      "available": 265.5447,
       "unrealized": 0.0,
       "realized": 34.027,
       "total": 34.027
