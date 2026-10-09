@@ -4433,8 +4433,16 @@
       "opened_at": "2026-10-09T03:18:07Z",
       "margin_usd": 21.971755538757986,
       "braam_trade_id": "APTUSDT_20261008_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-08T16:11:51Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-08T16:11:51Z",
+      "closed_at": "2026-10-09T05:43:10Z",
+      "close_price": 0.7966,
+      "pnl_usd": -2.7367,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.094
     }
   },
   "orders": {
@@ -10387,7 +10395,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-09T04:11:59Z",
+  "updated": "2026-10-09T06:12:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26836,6 +26844,14 @@
       "unrealized": 7.538,
       "realized": 26.1939,
       "total": 33.7319
+    },
+    {
+      "ts": "2026-10-09T06:12:19Z",
+      "equity": 439.5754,
+      "available": 131.7316,
+      "unrealized": 8.5021,
+      "realized": 23.4572,
+      "total": 31.9593
     }
   ],
   "capital_events": {
