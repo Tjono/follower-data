@@ -975,6 +975,24 @@
       "resting_at": "2026-10-09T11:29:53Z",
       "braam_trade_id": "TRXUSDT_20260929_CJ_001",
       "status": "RESTING"
+    },
+    "a2f0adb9-6abd-4ab0-acdb-defba8146b27": {
+      "order_id": "a2f0adb9-6abd-4ab0-acdb-defba8146b27",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.09681,
+      "resting_at": "2026-10-09T11:38:24Z",
+      "braam_trade_id": "HBARUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f0adb5-75ce-48ce-a6f0-1432b0e28092": {
+      "order_id": "a2f0adb5-75ce-48ce-a6f0-1432b0e28092",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.33755,
+      "resting_at": "2026-10-09T11:38:22Z",
+      "braam_trade_id": "TRXUSDT_20261002_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -2330,8 +2348,16 @@
       "unrealized": 0.0,
       "realized": -3.0287,
       "total": -3.0287
+    },
+    {
+      "ts": "2026-10-09T11:38:41Z",
+      "equity": 109.0351,
+      "available": 91.600543,
+      "unrealized": 0.0,
+      "realized": -3.0287,
+      "total": -3.0287
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-09T11:30:12Z"
+  "updated": "2026-10-09T11:38:41Z"
 }

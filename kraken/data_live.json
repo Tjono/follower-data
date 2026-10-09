@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-09T11:30:15Z",
+  "last_updated_iso": "2026-10-09T11:38:43Z",
   "freshness": {
-    "engine_run_iso": "2026-10-09T11:29:47Z",
+    "engine_run_iso": "2026-10-09T11:38:15Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-09T11:15:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-09T11:30:15Z",
+    "published_iso": "2026-10-09T11:38:43Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,14 +19,14 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 109.0235,
-    "available": 91.5889,
+    "equity": 109.0351,
+    "available": 91.6005,
     "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 11,
-    "in_sync": 11,
+    "checked": 13,
+    "in_sync": 13,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "15 min old",
+      "value": "23 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (20 records, 11 resting, 9 closed)",
+      "value": "OK (22 records, 13 resting, 9 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$109.02",
+      "value": "$109.04",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (11 resting = journal)",
+      "value": "in sync (13 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -109,7 +109,7 @@
       "key": "signals_skipped",
       "tier": 1,
       "label": "Feed trades not taken",
-      "value": "11 (4 coin illiquid, 2 hedge not possible, 2 pre go live, 1 coin not listed)",
+      "value": "9 (4 coin illiquid, 2 pre go live, 1 coin not listed, 1 source past tp1)",
       "status": "info",
       "action": null
     }
@@ -488,6 +488,74 @@
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
       "live_filled_ts": null
+    },
+    {
+      "trade_id": "TRXUSDT_20261002_CJ_001",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.33755114,
+      "sl": 0.33887871,
+      "tp1": 0.32226464,
+      "tp2": 0.30397614,
+      "capital_usd": 5.45,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-02",
+      "time_opened_utc": "20:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false,
+      "live_filled_ts": null
+    },
+    {
+      "trade_id": "HBARUSDT_20261008_CJ_001",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.09681052,
+      "sl": 0.09944449,
+      "tp1": 0.08587426,
+      "tp2": 0.07861102,
+      "capital_usd": 5.45,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-08",
+      "time_opened_utc": "16:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false,
+      "live_filled_ts": null
     }
   ],
   "dry_run_plans": [],
@@ -760,18 +828,6 @@
   "recent_cancels": [],
   "recent_skips": [
     {
-      "trade_id": "HBARUSDT_20261008_CJ_001",
-      "coin": "HBARUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 0.09681052,
-      "reason_code": "hedge_not_possible",
-      "reason": "Kraken holds one position per coin, so it can't run a short while a long is open (no hedging).",
-      "reason_short": "hedge - one position per coin",
-      "iso": "2026-10-08T16:10:44Z",
-      "last_seen_iso": "2026-10-09T11:29:47Z"
-    },
-    {
       "trade_id": "APTUSDT_20261008_CJ_001",
       "coin": "APTUSDT",
       "direction": "Short",
@@ -793,7 +849,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-08T12:08:59Z",
-      "last_seen_iso": "2026-10-09T11:29:47Z"
+      "last_seen_iso": "2026-10-09T11:38:15Z"
     },
     {
       "trade_id": "UNIUSDT_20260921_CJ_001",
@@ -806,18 +862,6 @@
       "reason_short": "opened before go-live",
       "iso": "2026-10-06T19:11:16Z",
       "last_seen_iso": "2026-10-06T21:43:12Z"
-    },
-    {
-      "trade_id": "TRXUSDT_20261002_CJ_001",
-      "coin": "TRXUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 0.33755114,
-      "reason_code": "hedge_not_possible",
-      "reason": "Kraken holds one position per coin, so it can't run a short while a long is open (no hedging).",
-      "reason_short": "hedge - one position per coin",
-      "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-09T11:29:47Z"
     },
     {
       "trade_id": "SOLUSDT_20261002_CJ_001",
@@ -910,36 +954,36 @@
         "closed_count": 9
       }
     },
-    "live_trade_count_total": 20,
-    "live_real_count": 20,
+    "live_trade_count_total": 22,
+    "live_real_count": 22,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-10-09T11:15Z",
-    "checked": 11,
-    "in_parity": 11,
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-10-09T11:15Z",
-    "checked": 11,
-    "in_parity": 11,
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-10-09T11:15Z",
-    "checked": 11,
-    "in_parity": 11,
+    "checked": 13,
+    "in_parity": 13,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-09T11:30:15Z",
+    "updated_iso": "2026-10-09T11:38:43Z",
     "trades": [
       {
         "trade_id": "APTUSDT_20261008_CJ_001",
@@ -1080,6 +1124,19 @@
           "pnl_usd": -2.5795,
           "margin_usd": 22.0281
         }
+      },
+      {
+        "trade_id": "HBARUSDT_20261008_CJ_001",
+        "coin": "HBARUSDT",
+        "direction": "Short",
+        "trading_system": "John",
+        "kraken": {
+          "status": "RESTING",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.45
+        },
+        "mexc": null
       },
       {
         "trade_id": "BTCUSDT_20261004_CJ_001",
@@ -1320,6 +1377,19 @@
           "pnl_usd": 2.7112,
           "margin_usd": 22.6586
         }
+      },
+      {
+        "trade_id": "TRXUSDT_20261002_CJ_001",
+        "coin": "TRXUSDT",
+        "direction": "Short",
+        "trading_system": "John",
+        "kraken": {
+          "status": "RESTING",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.45
+        },
+        "mexc": null
       },
       {
         "trade_id": "TRXUSDT_20260929_CJ_001",
