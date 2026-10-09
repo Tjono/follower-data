@@ -10411,9 +10411,27 @@
       "resting_at": "2026-10-09T12:10:42Z",
       "braam_trade_id": "ONDOUSDT_20261009_CJ_001",
       "status": "RESTING"
+    },
+    "863573051026167296": {
+      "order_id": "863573051026167296",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.12269,
+      "resting_at": "2026-10-09T16:10:59Z",
+      "braam_trade_id": "ALGOUSDT_20261009_CJ_001",
+      "status": "RESTING"
+    },
+    "863573044977865216": {
+      "order_id": "863573044977865216",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.3354,
+      "resting_at": "2026-10-09T16:10:58Z",
+      "braam_trade_id": "XRPUSDT_20261009_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-09T12:12:05Z",
+  "updated": "2026-10-09T16:12:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26910,6 +26928,14 @@
       "unrealized": 8.0338,
       "realized": 23.4572,
       "total": 31.491
+    },
+    {
+      "ts": "2026-10-09T16:12:19Z",
+      "equity": 437.3074,
+      "available": 64.5535,
+      "unrealized": 3.2807,
+      "realized": 23.4572,
+      "total": 26.7379
     }
   ],
   "capital_events": {
