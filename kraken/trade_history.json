@@ -766,28 +766,29 @@
       "leverage": 3,
       "entry_price": 0.11515,
       "entry_size": 142.0,
-      "exit_size": 0,
+      "exit_size": 142.0,
       "opened_at": "2026-10-09T17:11:46Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-09T19:51:27Z",
+      "close_price": 0.1096,
       "margin_usd": 5.450433,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0033,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.7881,
+      "pnl_usd": -0.7999,
+      "tag": "LOSS",
+      "fees_usd": 0.0111,
+      "funding_usd": -0.0007,
       "fill_ids": [
         "e8ef4723-dcc8-4f38-b17d-29ed4ed9ddde",
-        "8399e532-86d5-4ad6-93d2-84aed121f8a2"
+        "8399e532-86d5-4ad6-93d2-84aed121f8a2",
+        "25d2e21d-fa49-4ce2-b4a4-a10d6ee11b5c"
       ],
       "unrealized_pnl": -0.26070670481999997,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     }
   },
   "orders": {
@@ -1041,6 +1042,15 @@
       "entry_price": 0.7769,
       "resting_at": "2026-10-09T12:09:39Z",
       "braam_trade_id": "APTUSDT_20261009_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f1647c-0982-48a6-956e-35dfa1b9b122": {
+      "order_id": "a2f1647c-0982-48a6-956e-35dfa1b9b122",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.3354,
+      "resting_at": "2026-10-09T20:09:26Z",
+      "braam_trade_id": "XRPUSDT_20261009_CJ_001",
       "status": "RESTING"
     }
   },
@@ -1559,6 +1569,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "1268793"
+    },
+    "25d2e21d-fa49-4ce2-b4a4-a10d6ee11b5c": {
+      "fill_id": "25d2e21d-fa49-4ce2-b4a4-a10d6ee11b5c",
+      "symbol": "PF_ALGOUSD",
+      "side": "sell",
+      "order_id": "a2f12554-de2c-4579-8989-8756fa3bcd2d",
+      "cliOrdId": "ALGOUSDT_20261008_CJ_001:SL#1791565971203",
+      "size": 142,
+      "price": 0.1096,
+      "fillTime": "2026-10-09T19:51:27.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.7881,
+      "realized_funding": -0.00019764625,
+      "sequence_id": "1269729"
     }
   },
   "snapshots": [
@@ -2529,8 +2553,16 @@
       "unrealized": -0.2607753461170243,
       "realized": -3.0287,
       "total": -3.2895
+    },
+    {
+      "ts": "2026-10-09T20:09:48Z",
+      "equity": 108.1184,
+      "available": 87.496183,
+      "unrealized": 0.0,
+      "realized": -3.8286,
+      "total": -3.8286
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-09T19:17:52Z"
+  "updated": "2026-10-09T20:09:48Z"
 }
