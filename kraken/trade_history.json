@@ -993,6 +993,24 @@
       "resting_at": "2026-10-09T11:38:22Z",
       "braam_trade_id": "TRXUSDT_20261002_CJ_001",
       "status": "RESTING"
+    },
+    "a2f0b8e8-d0d9-47cc-8a5c-2da964943231": {
+      "order_id": "a2f0b8e8-d0d9-47cc-8a5c-2da964943231",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.4673,
+      "resting_at": "2026-10-09T12:09:41Z",
+      "braam_trade_id": "ONDOUSDT_20261009_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f0b8e6-ea61-40d5-9cc5-48b32ca1c252": {
+      "order_id": "a2f0b8e6-ea61-40d5-9cc5-48b32ca1c252",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.7769,
+      "resting_at": "2026-10-09T12:09:39Z",
+      "braam_trade_id": "APTUSDT_20261009_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -2356,8 +2374,16 @@
       "unrealized": 0.0,
       "realized": -3.0287,
       "total": -3.0287
+    },
+    {
+      "ts": "2026-10-09T12:09:57Z",
+      "equity": 108.9574,
+      "available": 88.30253300000001,
+      "unrealized": 0.0,
+      "realized": -3.0287,
+      "total": -3.0287
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-09T11:38:41Z"
+  "updated": "2026-10-09T12:09:57Z"
 }

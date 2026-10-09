@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-09T11:38:43Z",
+  "last_updated_iso": "2026-10-09T12:10:00Z",
   "freshness": {
-    "engine_run_iso": "2026-10-09T11:38:15Z",
+    "engine_run_iso": "2026-10-09T12:09:29Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-09T11:15:00Z",
+    "feed_generated_iso": "2026-10-09T12:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-09T11:38:43Z",
+    "published_iso": "2026-10-09T12:10:00Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,14 +19,14 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 109.0351,
-    "available": 91.6005,
+    "equity": 108.9583,
+    "available": 88.3034,
     "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 13,
-    "in_sync": 13,
+    "checked": 15,
+    "in_sync": 15,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "28s ago",
+      "value": "31s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "23 min old",
+      "value": "60s old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (22 records, 13 resting, 9 closed)",
+      "value": "OK (24 records, 15 resting, 9 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$109.04",
+      "value": "$108.96",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (13 resting = journal)",
+      "value": "in sync (15 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -556,23 +556,78 @@
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
       "live_filled_ts": null
+    },
+    {
+      "trade_id": "APTUSDT_20261009_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.776925,
+      "sl": 0.74178542,
+      "tp1": 0.87299876,
+      "tp2": 0.94702917,
+      "capital_usd": 5.45,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-09",
+      "time_opened_utc": "12:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false,
+      "live_filled_ts": null
+    },
+    {
+      "trade_id": "ONDOUSDT_20261009_CJ_001",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.46732465,
+      "sl": 0.44734974,
+      "tp1": 0.53277043,
+      "tp2": 0.57950052,
+      "capital_usd": 5.45,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-09",
+      "time_opened_utc": "12:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false,
+      "live_filled_ts": null
     }
   ],
   "dry_run_plans": [],
   "recent_signals": [
-    {
-      "trade_id": "LINKUSDT_20261009_CJ_001",
-      "coin": "LINKUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 12.25,
-      "tp1": 13.73314122,
-      "sl": 11.9451005,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-10-09T00:04:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "BTCUSDT_20261009_CJ_001",
       "coin": "BTCUSDT",
@@ -584,6 +639,32 @@
       "conviction": "HIGH",
       "track_only": false,
       "iso": "2026-10-09T04:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20261009_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.776925,
+      "tp1": 0.87299876,
+      "sl": 0.74178542,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-09T12:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ONDOUSDT_20261009_CJ_001",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.46732465,
+      "tp1": 0.53277043,
+      "sl": 0.44734974,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-09T12:04:00Z",
       "rehearsal": false
     }
   ],
@@ -849,7 +930,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-08T12:08:59Z",
-      "last_seen_iso": "2026-10-09T11:38:15Z"
+      "last_seen_iso": "2026-10-09T12:09:29Z"
     },
     {
       "trade_id": "UNIUSDT_20260921_CJ_001",
@@ -954,37 +1035,63 @@
         "closed_count": 9
       }
     },
-    "live_trade_count_total": 22,
-    "live_real_count": 22,
+    "live_trade_count_total": 24,
+    "live_real_count": 24,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-09T11:15Z",
-    "checked": 13,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-10-09T12:09Z",
+    "checked": 15,
+    "in_parity": 15,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-09T11:15Z",
-    "checked": 13,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-10-09T12:09Z",
+    "checked": 15,
+    "in_parity": 15,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-09T11:15Z",
-    "checked": 13,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-10-09T12:09Z",
+    "checked": 15,
+    "in_parity": 15,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-09T11:38:43Z",
+    "updated_iso": "2026-10-09T12:10:00Z",
     "trades": [
+      {
+        "trade_id": "ONDOUSDT_20261009_CJ_001",
+        "coin": "ONDOUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "RESTING",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.45
+        },
+        "mexc": null
+      },
+      {
+        "trade_id": "APTUSDT_20261009_CJ_001",
+        "coin": "APTUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "RESTING",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.45
+        },
+        "mexc": null
+      },
       {
         "trade_id": "APTUSDT_20261008_CJ_001",
         "coin": "APTUSDT",
