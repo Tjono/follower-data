@@ -939,6 +939,42 @@
       "resting_at": "2026-10-09T04:09:32Z",
       "braam_trade_id": "BTCUSDT_20261009_CJ_001",
       "status": "RESTING"
+    },
+    "a2f0aab6-b62f-42ca-8402-6de10cf72a40": {
+      "order_id": "a2f0aab6-b62f-42ca-8402-6de10cf72a40",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.7885,
+      "resting_at": "2026-10-09T11:29:59Z",
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f0aab1-d136-4048-9b6d-fb13e89e0bd2": {
+      "order_id": "a2f0aab1-d136-4048-9b6d-fb13e89e0bd2",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.11515,
+      "resting_at": "2026-10-09T11:29:56Z",
+      "braam_trade_id": "ALGOUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f0aaaf-1ce5-4f46-b9aa-5646497ffb87": {
+      "order_id": "a2f0aaaf-1ce5-4f46-b9aa-5646497ffb87",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "entry_price": 0.08916,
+      "resting_at": "2026-10-09T11:29:54Z",
+      "braam_trade_id": "HBARUSDT_20261007_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f0aaad-3472-4211-8817-50a5b162329c": {
+      "order_id": "a2f0aaad-3472-4211-8817-50a5b162329c",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32425,
+      "resting_at": "2026-10-09T11:29:53Z",
+      "braam_trade_id": "TRXUSDT_20260929_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -2286,8 +2322,16 @@
       "unrealized": 0.0,
       "realized": -3.0287,
       "total": -3.0287
+    },
+    {
+      "ts": "2026-10-09T11:30:12Z",
+      "equity": 109.0235,
+      "available": 91.588943,
+      "unrealized": 0.0,
+      "realized": -3.0287,
+      "total": -3.0287
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-09T11:17:42Z"
+  "updated": "2026-10-09T11:30:12Z"
 }
