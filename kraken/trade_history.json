@@ -930,6 +930,15 @@
       "resting_at": "2026-10-09T00:10:07Z",
       "braam_trade_id": "NEARUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "a2f00d32-0889-4d50-bbab-c257573d94ce": {
+      "order_id": "a2f00d32-0889-4d50-bbab-c257573d94ce",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 81444.0,
+      "resting_at": "2026-10-09T04:09:32Z",
+      "braam_trade_id": "BTCUSDT_20261009_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -2157,8 +2166,16 @@
       "unrealized": 0.0,
       "realized": -3.0287,
       "total": -3.0287
+    },
+    {
+      "ts": "2026-10-09T04:09:42Z",
+      "equity": 109.1625,
+      "available": 98.24348599999999,
+      "unrealized": 0.0,
+      "realized": -3.0287,
+      "total": -3.0287
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-09T03:17:44Z"
+  "updated": "2026-10-09T04:09:42Z"
 }
