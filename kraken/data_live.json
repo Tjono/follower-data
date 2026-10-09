@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-08T23:17:45Z",
+  "last_updated_iso": "2026-10-09T00:10:26Z",
   "freshness": {
-    "engine_run_iso": "2026-10-08T23:17:35Z",
+    "engine_run_iso": "2026-10-09T00:10:00Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-08T22:08:00Z",
+    "feed_generated_iso": "2026-10-09T00:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-08T23:17:45Z",
+    "published_iso": "2026-10-09T00:10:26Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,14 +19,14 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 109.0186,
-    "available": 101.2504,
+    "equity": 109.0245,
+    "available": 99.7344,
     "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 5,
-    "in_sync": 5,
+    "checked": 6,
+    "in_sync": 6,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "10s ago",
+      "value": "26s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "69 min old",
+      "value": "86s old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (14 records, 5 resting, 9 closed)",
+      "value": "OK (15 records, 6 resting, 9 closed)",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (5 resting = journal)",
+      "value": "in sync (6 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -255,10 +255,10 @@
       "trade_id": "NEARUSDT_20261008_CJ_001",
       "coin": "NEARUSDT",
       "direction": "Long",
-      "entry_price": 4.41969086,
-      "sl": 4.15412966,
-      "tp1": 5.42300623,
-      "tp2": 5.97909757,
+      "entry_price": 4.18442523,
+      "sl": 3.92604697,
+      "tp1": 5.51859463,
+      "tp2": 6.06008167,
       "capital_usd": 5.45,
       "leverage": 3,
       "trading_system": "John",
@@ -269,6 +269,40 @@
       "time_activated_utc": null,
       "date_opened": "2026-10-08",
       "time_opened_utc": "20:04",
+      "conviction": "HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false,
+      "live_filled_ts": null
+    },
+    {
+      "trade_id": "LINKUSDT_20261009_CJ_001",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 12.25,
+      "sl": 11.9451005,
+      "tp1": 13.73314122,
+      "tp2": 14.27579901,
+      "capital_usd": 5.45,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-09",
+      "time_opened_utc": "00:04",
       "conviction": "HIGH",
       "tp1_hit": null,
       "sl_moved_to_be": null,
@@ -345,28 +379,29 @@
       "coin": "NEARUSDT",
       "direction": "Long",
       "trading_system": "John",
-      "entry_price": 4.41969086,
-      "tp1": 5.42300623,
-      "sl": 4.15412966,
+      "entry_price": 4.18442523,
+      "tp1": 5.51859463,
+      "sl": 3.92604697,
       "conviction": "HIGH",
       "track_only": false,
       "iso": "2026-10-08T20:04:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "LINKUSDT_20261009_CJ_001",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 12.25,
+      "tp1": 13.73314122,
+      "sl": 11.9451005,
+      "conviction": "HIGH",
+      "track_only": false,
+      "iso": "2026-10-09T00:04:00Z",
+      "rehearsal": false
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "XLMUSDT_20261005_CJ_001",
-      "coin": "XLMUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.21197094,
-      "live_entry_fill": 0.21197,
-      "tp1_hit": false,
-      "iso": "2026-10-07T00:03:45Z",
-      "_iso_ms": 1791331425000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ADAUSDT_20261003_CJ_001",
       "coin": "ADAUSDT",
@@ -676,7 +711,7 @@
       "reason": "RENDER is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-08T20:09:38Z",
-      "last_seen_iso": "2026-10-08T23:17:35Z"
+      "last_seen_iso": "2026-10-09T00:10:00Z"
     },
     {
       "trade_id": "HBARUSDT_20261008_CJ_001",
@@ -688,7 +723,7 @@
       "reason": "HBAR is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-08T16:10:44Z",
-      "last_seen_iso": "2026-10-08T23:17:35Z"
+      "last_seen_iso": "2026-10-09T00:10:00Z"
     },
     {
       "trade_id": "APTUSDT_20261008_CJ_001",
@@ -700,7 +735,7 @@
       "reason": "APT is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-08T16:10:44Z",
-      "last_seen_iso": "2026-10-08T23:17:35Z"
+      "last_seen_iso": "2026-10-09T00:10:00Z"
     },
     {
       "trade_id": "ALGOUSDT_20261008_CJ_001",
@@ -712,7 +747,7 @@
       "reason": "ALGO is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-08T16:10:44Z",
-      "last_seen_iso": "2026-10-08T23:17:35Z"
+      "last_seen_iso": "2026-10-09T00:10:00Z"
     },
     {
       "trade_id": "THETAUSDT_20261008_CJ_001",
@@ -724,7 +759,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-08T12:08:59Z",
-      "last_seen_iso": "2026-10-08T23:17:35Z"
+      "last_seen_iso": "2026-10-09T00:10:00Z"
     },
     {
       "trade_id": "HBARUSDT_20261007_CJ_001",
@@ -736,7 +771,7 @@
       "reason": "HBAR is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-07T04:09:53Z",
-      "last_seen_iso": "2026-10-08T23:17:35Z"
+      "last_seen_iso": "2026-10-09T00:10:00Z"
     },
     {
       "trade_id": "UNIUSDT_20260921_CJ_001",
@@ -755,12 +790,12 @@
       "coin": "TRXUSDT",
       "direction": "Short",
       "trading_system": "John",
-      "entry_price": 0.34418074,
+      "entry_price": 0.33755114,
       "reason_code": "coin_illiquid",
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T23:17:35Z"
+      "last_seen_iso": "2026-10-09T00:10:00Z"
     },
     {
       "trade_id": "TRXUSDT_20260929_CJ_001",
@@ -772,7 +807,7 @@
       "reason": "TRX is listed on Kraken but trades too thinly there, so it's switched off (stray prints would fill orders and stops would slip).",
       "reason_short": "coin too thin on Kraken",
       "iso": "2026-10-06T19:11:16Z",
-      "last_seen_iso": "2026-10-08T23:17:35Z"
+      "last_seen_iso": "2026-10-09T00:10:00Z"
     },
     {
       "trade_id": "SOLUSDT_20261002_CJ_001",
@@ -865,37 +900,50 @@
         "closed_count": 9
       }
     },
-    "live_trade_count_total": 14,
-    "live_real_count": 14,
+    "live_trade_count_total": 15,
+    "live_real_count": 15,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-08T22:08Z",
-    "checked": 5,
-    "in_parity": 5,
+    "feed_generated_utc": "2026-10-09T00:09Z",
+    "checked": 6,
+    "in_parity": 6,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-08T22:08Z",
-    "checked": 5,
-    "in_parity": 5,
+    "feed_generated_utc": "2026-10-09T00:09Z",
+    "checked": 6,
+    "in_parity": 6,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-08T22:08Z",
-    "checked": 5,
-    "in_parity": 5,
+    "feed_generated_utc": "2026-10-09T00:09Z",
+    "checked": 6,
+    "in_parity": 6,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-08T23:17:45Z",
+    "updated_iso": "2026-10-09T00:10:26Z",
     "trades": [
+      {
+        "trade_id": "LINKUSDT_20261009_CJ_001",
+        "coin": "LINKUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "RESTING",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.45
+        },
+        "mexc": null
+      },
       {
         "trade_id": "NEARUSDT_20261008_CJ_001",
         "coin": "NEARUSDT",

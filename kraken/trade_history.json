@@ -912,6 +912,24 @@
       "resting_at": "2026-10-08T20:09:43Z",
       "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "a2efb794-f600-4896-a079-b0bffe565198": {
+      "order_id": "a2efb794-f600-4896-a079-b0bffe565198",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 12.25,
+      "resting_at": "2026-10-09T00:10:08Z",
+      "braam_trade_id": "LINKUSDT_20261009_CJ_001",
+      "status": "RESTING"
+    },
+    "a2efb792-4ae5-453f-8104-0852085a0699": {
+      "order_id": "a2efb792-4ae5-453f-8104-0852085a0699",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.1844,
+      "resting_at": "2026-10-09T00:10:07Z",
+      "braam_trade_id": "NEARUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -2083,8 +2101,16 @@
       "unrealized": 0.0,
       "realized": -3.0287,
       "total": -3.0287
+    },
+    {
+      "ts": "2026-10-09T00:10:20Z",
+      "equity": 109.0245,
+      "available": 99.734366,
+      "unrealized": 0.0,
+      "realized": -3.0287,
+      "total": -3.0287
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-08T23:17:44Z"
+  "updated": "2026-10-09T00:10:20Z"
 }
