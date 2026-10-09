@@ -10337,9 +10337,36 @@
       "resting_at": "2026-10-08T20:10:48Z",
       "braam_trade_id": "HBARUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "863331524186102272": {
+      "order_id": "863331524186102272",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 12.25,
+      "resting_at": "2026-10-09T00:11:15Z",
+      "braam_trade_id": "LINKUSDT_20261009_CJ_001",
+      "status": "RESTING"
+    },
+    "863331511452547584": {
+      "order_id": "863331511452547584",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.184,
+      "resting_at": "2026-10-09T00:11:12Z",
+      "braam_trade_id": "NEARUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "863331484692838400": {
+      "order_id": "863331484692838400",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.33755,
+      "resting_at": "2026-10-09T00:11:05Z",
+      "braam_trade_id": "TRXUSDT_20261002_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-08T22:11:12Z",
+  "updated": "2026-10-09T00:12:36Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26756,6 +26783,14 @@
       "unrealized": 4.9153,
       "realized": 26.1939,
       "total": 31.1092
+    },
+    {
+      "ts": "2026-10-09T00:12:36Z",
+      "equity": 437.3006,
+      "available": 134.2062,
+      "unrealized": 3.551,
+      "realized": 26.1939,
+      "total": 29.7449
     }
   ],
   "capital_events": {
