@@ -4423,6 +4423,18 @@
       "braam_trade_id": "ALGOUSDT_20261008_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-08T16:11:46Z"
+    },
+    "1516742443": {
+      "position_id": "1516742443",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.7658,
+      "opened_at": "2026-10-09T03:18:07Z",
+      "margin_usd": 21.971755538757986,
+      "braam_trade_id": "APTUSDT_20261008_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-08T16:11:51Z"
     }
   },
   "orders": {
@@ -10364,9 +10376,18 @@
       "resting_at": "2026-10-09T00:11:05Z",
       "braam_trade_id": "TRXUSDT_20261002_CJ_001",
       "status": "RESTING"
+    },
+    "863391761391769600": {
+      "order_id": "863391761391769600",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 81444.1,
+      "resting_at": "2026-10-09T04:10:36Z",
+      "braam_trade_id": "BTCUSDT_20261009_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-09T02:10:49Z",
+  "updated": "2026-10-09T04:11:59Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26807,6 +26828,14 @@
       "unrealized": 6.3225,
       "realized": 26.1939,
       "total": 32.5164
+    },
+    {
+      "ts": "2026-10-09T04:11:59Z",
+      "equity": 441.3087,
+      "available": 112.4572,
+      "unrealized": 7.538,
+      "realized": 26.1939,
+      "total": 33.7319
     }
   ],
   "capital_events": {
