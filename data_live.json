@@ -1,19 +1,32 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-09T06:12:01Z",
+  "last_updated_iso": "2026-10-09T06:26:15Z",
   "mexc_account": {
-    "unrealized_pnl": 8.5021,
-    "equity": 439.5754,
+    "unrealized_pnl": 8.9156,
+    "equity": 439.989,
     "available": 131.7316,
     "position_margin": 66.3328
   },
   "order_levels": {
     "checked": 14,
-    "in_sync": 14,
-    "drifted": [],
+    "in_sync": 13,
+    "drifted": [
+      "THETA"
+    ],
     "reconciling": [],
-    "detail": []
+    "detail": [
+      {
+        "coin": "THETA",
+        "trade_id": "THETAUSDT_20261008_CJ_001",
+        "status": "OPEN",
+        "fields": [
+          "tp1",
+          "tp2"
+        ],
+        "synced_at": null
+      }
+    ]
   },
   "api_keys": [],
   "housekeeping": [
@@ -53,7 +66,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$439.58",
+      "value": "$439.99",
       "status": "ok",
       "action": null
     },
@@ -77,7 +90,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 3 pre-TP1 runners)",
+      "value": "all protected (3 open, 2 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -155,8 +168,8 @@
       "direction": "Long",
       "entry_price": 0.08915532,
       "sl": 0.08705252,
-      "tp1": 0.09725361,
-      "tp2": 0.10747497,
+      "tp1": 0.09592,
+      "tp2": 0.10386,
       "capital_usd": 22.19,
       "leverage": 3,
       "trading_system": "John",
@@ -188,8 +201,8 @@
       "direction": "Long",
       "entry_price": 0.20452275,
       "sl": 0.1981595,
-      "tp1": 0.23251454,
-      "tp2": 0.245981,
+      "tp1": 0.2162,
+      "tp2": 0.2364,
       "capital_usd": 22.09,
       "leverage": 3,
       "trading_system": "John",
@@ -254,7 +267,7 @@
       "direction": "Long",
       "entry_price": 0.11515,
       "sl": 0.10971798,
-      "tp1": 0.12425,
+      "tp1": 0.1226,
       "tp2": 0.13696403,
       "capital_usd": 21.92,
       "leverage": 3,
@@ -4756,7 +4769,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-09T06:09Z",
+    "feed_generated_utc": "2026-10-09T06:25Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
