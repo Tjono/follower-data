@@ -10393,9 +10393,27 @@
       "resting_at": "2026-10-09T04:10:36Z",
       "braam_trade_id": "BTCUSDT_20261009_CJ_001",
       "status": "RESTING"
+    },
+    "863512586222967296": {
+      "order_id": "863512586222967296",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.7769,
+      "resting_at": "2026-10-09T12:10:43Z",
+      "braam_trade_id": "APTUSDT_20261009_CJ_001",
+      "status": "RESTING"
+    },
+    "863512579337759296": {
+      "order_id": "863512579337759296",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.4673,
+      "resting_at": "2026-10-09T12:10:42Z",
+      "braam_trade_id": "ONDOUSDT_20261009_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-09T11:16:21Z",
+  "updated": "2026-10-09T12:12:05Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26884,6 +26902,14 @@
       "unrealized": 6.3351,
       "realized": 23.4572,
       "total": 29.7923
+    },
+    {
+      "ts": "2026-10-09T12:12:05Z",
+      "equity": 439.1016,
+      "available": 87.7743,
+      "unrealized": 8.0338,
+      "realized": 23.4572,
+      "total": 31.491
     }
   ],
   "capital_events": {

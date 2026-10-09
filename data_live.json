@@ -1,32 +1,19 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-09T11:16:03Z",
+  "last_updated_iso": "2026-10-09T12:11:45Z",
   "mexc_account": {
-    "unrealized_pnl": 6.3351,
-    "equity": 437.4029,
-    "available": 131.7261,
+    "unrealized_pnl": 8.0338,
+    "equity": 439.1016,
+    "available": 87.7743,
     "position_margin": 66.3328
   },
   "order_levels": {
-    "checked": 14,
-    "in_sync": 13,
-    "drifted": [
-      "THETA"
-    ],
+    "checked": 16,
+    "in_sync": 16,
+    "drifted": [],
     "reconciling": [],
-    "detail": [
-      {
-        "coin": "THETA",
-        "trade_id": "THETAUSDT_20261008_CJ_001",
-        "status": "OPEN",
-        "fields": [
-          "tp1",
-          "tp2"
-        ],
-        "synced_at": null
-      }
-    ]
+    "detail": []
   },
   "api_keys": [],
   "housekeeping": [
@@ -58,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (319 records)",
+      "value": "OK (321 records)",
       "status": "ok",
       "action": null
     },
@@ -66,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$437.40",
+      "value": "$439.10",
       "status": "ok",
       "action": null
     },
@@ -82,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (11 resting = journal)",
+      "value": "in sync (13 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -90,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 2 pre-TP1 runners)",
+      "value": "all protected (3 open, 3 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -557,22 +544,75 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "ONDOUSDT_20261009_CJ_001",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.46732465,
+      "sl": 0.44734974,
+      "tp1": 0.53277043,
+      "tp2": 0.57950052,
+      "capital_usd": 21.96,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-09",
+      "time_opened_utc": "12:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20261009_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.776925,
+      "sl": 0.74178542,
+      "tp1": 0.87299876,
+      "tp2": 0.94702917,
+      "capital_usd": 21.96,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-09",
+      "time_opened_utc": "12:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "LINKUSDT_20261009_CJ_001",
-      "coin": "LINKUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 12.25,
-      "tp1": 13.73314122,
-      "sl": 11.9451005,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-10-09T00:04:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "BTCUSDT_20261009_CJ_001",
       "coin": "BTCUSDT",
@@ -584,6 +624,32 @@
       "conviction": "HIGH",
       "track_only": false,
       "iso": "2026-10-09T04:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ONDOUSDT_20261009_CJ_001",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.46732465,
+      "tp1": 0.53277043,
+      "sl": 0.44734974,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-09T12:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20261009_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.776925,
+      "tp1": 0.87299876,
+      "sl": 0.74178542,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-09T12:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4711,15 +4777,15 @@
         "closed_count": 104
       }
     },
-    "live_trade_count_total": 310,
-    "live_real_count": 310,
+    "live_trade_count_total": 312,
+    "live_real_count": 312,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-09T11:15Z",
-    "checked": 14,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-10-09T12:09Z",
+    "checked": 16,
+    "in_parity": 15,
     "drifting": [
       {
         "trade_id": "THETAUSDT_20261008_CJ_001",
