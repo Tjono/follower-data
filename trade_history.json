@@ -10503,9 +10503,27 @@
       "resting_at": "2026-10-10T10:10:33Z",
       "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "863875016100812800": {
+      "order_id": "863875016100812800",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 7.229,
+      "resting_at": "2026-10-10T12:10:53Z",
+      "braam_trade_id": "UNIUSDT_20261010_CJ_001",
+      "status": "RESTING"
+    },
+    "863874983024693760": {
+      "order_id": "863874983024693760",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.08915,
+      "resting_at": "2026-10-10T12:10:45Z",
+      "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-10T10:11:03Z",
+  "updated": "2026-10-10T12:12:22Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27090,6 +27108,14 @@
       "unrealized": 3.0773,
       "realized": 28.4015,
       "total": 31.4788
+    },
+    {
+      "ts": "2026-10-10T12:12:22Z",
+      "equity": 439.0128,
+      "available": 49.1111,
+      "unrealized": 2.9045,
+      "realized": 28.4015,
+      "total": 31.306
     }
   ],
   "capital_events": {
