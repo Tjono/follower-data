@@ -10429,9 +10429,18 @@
       "resting_at": "2026-10-09T16:10:58Z",
       "braam_trade_id": "XRPUSDT_20261009_CJ_001",
       "status": "RESTING"
+    },
+    "863693732220989952": {
+      "order_id": "863693732220989952",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2357,
+      "resting_at": "2026-10-10T00:10:32Z",
+      "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-09T22:47:36Z",
+  "updated": "2026-10-10T00:11:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26960,6 +26969,14 @@
       "unrealized": 1.8262,
       "realized": 23.4572,
       "total": 25.2834
+    },
+    {
+      "ts": "2026-10-10T00:11:57Z",
+      "equity": 437.9941,
+      "available": 64.5778,
+      "unrealized": 3.9577,
+      "realized": 23.4572,
+      "total": 27.4149
     }
   ],
   "capital_events": {

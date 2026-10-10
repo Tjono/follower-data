@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-09T22:47:14Z",
+  "last_updated_iso": "2026-10-10T00:11:36Z",
   "mexc_account": {
-    "unrealized_pnl": 1.8262,
-    "equity": 435.8529,
-    "available": 86.5144,
+    "unrealized_pnl": 3.9577,
+    "equity": 437.9941,
+    "available": 64.5778,
     "position_margin": 48.6353
   },
   "order_levels": {
-    "checked": 17,
-    "in_sync": 17,
+    "checked": 18,
+    "in_sync": 18,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (323 records)",
+      "value": "OK (324 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$435.85",
+      "value": "$437.99",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (14 resting = journal)",
+      "value": "in sync (15 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 2 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -643,35 +643,42 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20261010_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.23571917,
+      "sl": 0.22873992,
+      "tp1": 0.26081478,
+      "tp2": 0.27152016,
+      "capital_usd": 21.9,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-10",
+      "time_opened_utc": "00:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
-    {
-      "trade_id": "ONDOUSDT_20261009_CJ_001",
-      "coin": "ONDOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.46732465,
-      "tp1": 0.53277043,
-      "sl": 0.44734974,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-09T12:04:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "APTUSDT_20261009_CJ_001",
-      "coin": "APTUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.776925,
-      "tp1": 0.87299876,
-      "sl": 0.74178542,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-09T12:04:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "XRPUSDT_20261009_CJ_001",
       "coin": "XRPUSDT",
@@ -683,6 +690,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-09T16:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ADAUSDT_20261010_CJ_001",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.23571917,
+      "tp1": 0.26081478,
+      "sl": 0.22873992,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-10T00:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4817,15 +4837,15 @@
         "closed_count": 104
       }
     },
-    "live_trade_count_total": 314,
-    "live_real_count": 314,
+    "live_trade_count_total": 315,
+    "live_real_count": 315,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-09T22:08Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-10-10T00:08Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   }
 }
