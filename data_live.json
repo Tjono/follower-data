@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-10T04:12:22Z",
+  "last_updated_iso": "2026-10-10T05:57:09Z",
   "mexc_account": {
-    "unrealized_pnl": 1.8245,
-    "equity": 437.962,
-    "available": 71.2449,
-    "position_margin": 44.1938
+    "unrealized_pnl": 3.1203,
+    "equity": 439.2187,
+    "available": 71.258,
+    "position_margin": 65.9383
   },
   "order_levels": {
     "checked": 17,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$437.96",
+      "value": "$439.22",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (15 resting = journal)",
+      "value": "in sync (14 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open, 2 pre-TP1 runners)",
+      "value": "all protected (3 open, 3 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -188,16 +188,16 @@
       "direction": "Short",
       "entry_price": 10.65965794,
       "sl": 10.98065781,
-      "tp1": 9.8030919,
-      "tp2": 8.08968438,
+      "tp1": 10.473,
+      "tp2": 10.172,
       "capital_usd": 21.92,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-10",
+      "time_activated_utc": "05:42",
       "date_opened": "2026-10-08",
       "time_opened_utc": "16:04",
       "conviction": "MEDIUM",
@@ -206,11 +206,11 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 10.66,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0032,
+      "live_fees_usd": 0.039,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -755,6 +755,18 @@
       "tp1_hit": false,
       "iso": "2026-10-09T03:18:00Z",
       "_iso_ms": 1791515880000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "AVAXUSDT_20261008_CJ_001",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 10.65965794,
+      "live_entry_fill": 10.66,
+      "tp1_hit": false,
+      "iso": "2026-10-10T05:42:00Z",
+      "_iso_ms": 1791610920000,
       "rehearsal": false
     }
   ],
@@ -4768,7 +4780,7 @@
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
-    "deployed_trades": 224,
+    "deployed_trades": 225,
     "return_on_peak_pct": 14.97,
     "win_rate_pct": 42.8,
     "closed_count": 222,
@@ -4790,7 +4802,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-10T04:09Z",
+    "feed_generated_utc": "2026-10-10T05:56Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
