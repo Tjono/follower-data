@@ -10521,9 +10521,27 @@
       "resting_at": "2026-10-10T12:10:45Z",
       "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "863995953672251968": {
+      "order_id": "863995953672251968",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 276.6,
+      "resting_at": "2026-10-10T20:11:27Z",
+      "braam_trade_id": "TAOUSDT_20261010_CJ_001",
+      "status": "RESTING"
+    },
+    "863995939571070464": {
+      "order_id": "863995939571070464",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.24,
+      "resting_at": "2026-10-10T20:11:24Z",
+      "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-10T18:45:19Z",
+  "updated": "2026-10-10T20:12:50Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27156,6 +27174,14 @@
       "unrealized": 4.6266,
       "realized": 28.4015,
       "total": 33.0281
+    },
+    {
+      "ts": "2026-10-10T20:12:50Z",
+      "equity": 441.3934,
+      "available": 46.1523,
+      "unrealized": 4.4195,
+      "realized": 28.4015,
+      "total": 32.821
     }
   ],
   "capital_events": {
