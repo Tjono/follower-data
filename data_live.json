@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-10T14:10:44Z",
+  "last_updated_iso": "2026-10-10T16:11:40Z",
   "mexc_account": {
-    "unrealized_pnl": 2.8246,
-    "equity": 439.8032,
-    "available": 67.4483,
+    "unrealized_pnl": 4.869,
+    "equity": 441.843,
+    "available": 67.4437,
     "position_margin": 48.4714
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$439.80",
+      "value": "$441.84",
       "status": "ok",
       "action": null
     },
@@ -694,78 +694,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "ADAUSDT_20261007_CJ_001",
-      "coin": "ADAUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.23891739,
-      "live_entry_fill": 0.2389,
-      "tp1_hit": false,
-      "iso": "2026-10-08T15:20:00Z",
-      "_iso_ms": 1791472800000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "RENDERUSDT_20260928_CJ_001",
-      "coin": "RENDERUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 1.85549,
-      "live_entry_fill": 1.855,
-      "tp1_hit": false,
-      "iso": "2026-10-08T15:23:00Z",
-      "_iso_ms": 1791472980000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "BTCUSDT_20261004_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 81454.04387623,
-      "live_entry_fill": 81454.0,
-      "tp1_hit": false,
-      "iso": "2026-10-08T15:23:00Z",
-      "_iso_ms": 1791472980000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "HBARUSDT_20261007_CJ_001",
-      "coin": "HBARUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.08915532,
-      "live_entry_fill": 0.08916,
-      "tp1_hit": false,
-      "iso": "2026-10-08T15:23:00Z",
-      "_iso_ms": 1791472980000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "THETAUSDT_20261008_CJ_001",
-      "coin": "THETAUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.20452275,
-      "live_entry_fill": 0.2045,
-      "tp1_hit": true,
-      "iso": "2026-10-08T15:23:00Z",
-      "_iso_ms": 1791472980000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "NEARUSDT_20261003_CJ_001",
-      "coin": "NEARUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 4.709,
-      "live_entry_fill": 4.709,
-      "tp1_hit": false,
-      "iso": "2026-10-08T15:34:00Z",
-      "_iso_ms": 1791473640000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ALGOUSDT_20261008_CJ_001",
       "coin": "ALGOUSDT",
@@ -4842,7 +4770,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-10T14:08Z",
+    "feed_generated_utc": "2026-10-10T16:09Z",
     "checked": 18,
     "in_parity": 18,
     "drifting": []
