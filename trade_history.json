@@ -4369,8 +4369,16 @@
       "opened_at": "2026-10-08T15:23:06Z",
       "margin_usd": 22.13900617914,
       "braam_trade_id": "THETAUSDT_20261008_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-08T12:10:12Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-08T12:10:12Z",
+      "closed_at": "2026-10-10T02:17:33Z",
+      "close_price": 0.2201,
+      "pnl_usd": 4.9443,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0966
     },
     "1516332239": {
       "position_id": "1516332239",
@@ -10438,9 +10446,27 @@
       "resting_at": "2026-10-10T00:10:32Z",
       "braam_trade_id": "ADAUSDT_20261010_CJ_001",
       "status": "RESTING"
+    },
+    "863754341675399168": {
+      "order_id": "863754341675399168",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2401,
+      "resting_at": "2026-10-10T04:11:22Z",
+      "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "RESTING"
+    },
+    "863754327439839744": {
+      "order_id": "863754327439839744",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.355,
+      "resting_at": "2026-10-10T04:11:19Z",
+      "braam_trade_id": "XRPUSDT_20261009_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-10T00:11:57Z",
+  "updated": "2026-10-10T04:12:41Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -26977,6 +27003,14 @@
       "unrealized": 3.9577,
       "realized": 23.4572,
       "total": 27.4149
+    },
+    {
+      "ts": "2026-10-10T04:12:41Z",
+      "equity": 437.962,
+      "available": 71.2449,
+      "unrealized": 1.8245,
+      "realized": 28.4015,
+      "total": 30.226
     }
   ],
   "capital_events": {
