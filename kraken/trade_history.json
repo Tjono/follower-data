@@ -1052,6 +1052,15 @@
       "resting_at": "2026-10-09T20:09:26Z",
       "braam_trade_id": "XRPUSDT_20261009_CJ_001",
       "status": "RESTING"
+    },
+    "a2f2106d-232a-4ba8-8ea3-8d2bffecca7d": {
+      "order_id": "a2f2106d-232a-4ba8-8ea3-8d2bffecca7d",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.355,
+      "resting_at": "2026-10-10T04:10:13Z",
+      "braam_trade_id": "XRPUSDT_20261009_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -2641,8 +2650,16 @@
       "unrealized": 0.0,
       "realized": -3.8286,
       "total": -3.8286
+    },
+    {
+      "ts": "2026-10-10T04:10:21Z",
+      "equity": 108.13,
+      "available": 87.61976299999999,
+      "unrealized": 0.0,
+      "realized": -3.8286,
+      "total": -3.8286
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-10T03:17:50Z"
+  "updated": "2026-10-10T04:10:21Z"
 }
