@@ -4461,8 +4461,28 @@
       "opened_at": "2026-10-10T05:42:17Z",
       "margin_usd": 21.744486099873264,
       "braam_trade_id": "AVAXUSDT_20261008_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-10-08T16:11:44Z",
+      "closed_at": "2026-10-11T15:05:39Z",
+      "close_price": 10.51,
+      "pnl_usd": 0.8262,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0902
+    },
+    "1518147273": {
+      "position_id": "1518147273",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.20089,
+      "opened_at": "2026-10-11T15:17:44Z",
+      "margin_usd": 21.49663119418591,
+      "braam_trade_id": "XLMUSDT_20261008_CJ_001",
       "status": "OPEN",
-      "resting_at": "2026-10-08T16:11:44Z"
+      "resting_at": "2026-10-08T16:11:48Z"
     }
   },
   "orders": {
@@ -10559,7 +10579,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-11T13:09:23Z",
+  "updated": "2026-10-11T15:27:39Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27248,6 +27268,14 @@
       "unrealized": 3.6358,
       "realized": 28.4015,
       "total": 32.0373
+    },
+    {
+      "ts": "2026-10-11T15:27:39Z",
+      "equity": 444.1605,
+      "available": 91.6463,
+      "unrealized": 3.7788,
+      "realized": 29.2277,
+      "total": 33.0065
     }
   ],
   "capital_events": {
