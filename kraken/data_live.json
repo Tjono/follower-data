@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-11T18:17:51Z",
+  "last_updated_iso": "2026-10-11T19:17:48Z",
   "freshness": {
-    "engine_run_iso": "2026-10-11T18:17:33Z",
+    "engine_run_iso": "2026-10-11T19:17:30Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-11T18:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-11T18:17:51Z",
+    "published_iso": "2026-10-11T19:17:48Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,8 +19,8 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 108.0922,
-    "available": 87.465,
+    "equity": 107.937,
+    "available": 87.3098,
     "position_margin": 0.0
   },
   "account_source": "live",
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "8 min old",
+      "value": "68 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$108.09",
+      "value": "$107.94",
       "status": "ok",
       "action": null
     },
@@ -1098,7 +1098,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-11T18:17:51Z",
+    "updated_iso": "2026-10-11T19:17:48Z",
     "trades": [
       {
         "trade_id": "XLMUSDT_20261008_CJ_001",
@@ -1112,9 +1112,9 @@
           "margin_usd": 5.424
         },
         "mexc": {
-          "status": "OPEN",
-          "ret_pct": null,
-          "pnl_usd": null,
+          "status": "CLOSED",
+          "ret_pct": -7.19,
+          "pnl_usd": -1.5457,
           "margin_usd": 21.4966
         }
       },
@@ -1622,11 +1622,11 @@
       }
     ],
     "totals": {
-      "n_both_closed": 6,
-      "kraken_ret_sum": -34.827,
-      "mexc_ret_sum": -37.111,
-      "kraken_avg": -5.804,
-      "mexc_avg": -6.185
+      "n_both_closed": 7,
+      "kraken_ret_sum": -41.877,
+      "mexc_ret_sum": -44.301,
+      "kraken_avg": -5.982,
+      "mexc_avg": -6.329
     }
   }
 }
