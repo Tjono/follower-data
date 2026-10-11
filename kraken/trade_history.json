@@ -830,27 +830,28 @@
       "leverage": 3,
       "entry_price": 0.20089,
       "entry_size": 81.0,
-      "exit_size": 0,
+      "exit_size": 81.0,
       "opened_at": "2026-10-11T15:17:44Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-11T16:42:11Z",
+      "close_price": 0.20547,
       "margin_usd": 5.42403,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0033,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.37098,
+      "pnl_usd": -0.38238,
+      "tag": "LOSS",
+      "fees_usd": 0.0116,
+      "funding_usd": 0.0002,
       "fill_ids": [
-        "73785502-d665-4674-802f-d93c6afbb438"
+        "73785502-d665-4674-802f-d93c6afbb438",
+        "d4d56b45-f566-45c8-8654-3aa01b8de202"
       ],
       "unrealized_pnl": -0.28124875808999966,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     }
   },
   "orders": {
@@ -1158,6 +1159,15 @@
       "entry_price": 0.24579,
       "resting_at": "2026-10-11T16:10:17Z",
       "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f52d0e-91e9-4a59-8c5a-6d668c95900b": {
+      "order_id": "a2f52d0e-91e9-4a59-8c5a-6d668c95900b",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 283.7,
+      "resting_at": "2026-10-11T17:17:46Z",
+      "braam_trade_id": "TAOUSDT_20261010_CJ_001",
       "status": "RESTING"
     }
   },
@@ -1746,6 +1756,20 @@
       "realized_pnl": 0.01426,
       "realized_funding": 2.871056e-05,
       "sequence_id": "11711214"
+    },
+    "d4d56b45-f566-45c8-8654-3aa01b8de202": {
+      "fill_id": "d4d56b45-f566-45c8-8654-3aa01b8de202",
+      "symbol": "PF_XLMUSD",
+      "side": "buy",
+      "order_id": "a2f50283-0405-43b6-a440-5117a791d413",
+      "cliOrdId": "XLMUSDT_20261008_CJ_001:SL#1791731928078",
+      "size": 81,
+      "price": 0.20547,
+      "fillTime": "2026-10-11T16:42:11.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.37098,
+      "realized_funding": 0.00030756455,
+      "sequence_id": "3982346"
     }
   },
   "snapshots": [
@@ -3284,8 +3308,16 @@
       "unrealized": -0.28111872128175497,
       "realized": -3.5999,
       "total": -3.881
+    },
+    {
+      "ts": "2026-10-11T17:18:04Z",
+      "equity": 108.0922,
+      "available": 87.46496900000001,
+      "unrealized": 0.0,
+      "realized": -3.9823,
+      "total": -3.9823
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-11T16:17:50Z"
+  "updated": "2026-10-11T17:18:04Z"
 }

@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-11T16:17:52Z",
+  "last_updated_iso": "2026-10-11T17:18:05Z",
   "freshness": {
-    "engine_run_iso": "2026-10-11T16:17:32Z",
+    "engine_run_iso": "2026-10-11T17:17:33Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-11T16:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-11T16:17:52Z",
+    "published_iso": "2026-10-11T17:18:05Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.2834,
-    "equity": 108.1878,
-    "available": 87.3518,
-    "position_margin": 1.6272
+    "unrealized_pnl": 0.0,
+    "equity": 108.0922,
+    "available": 87.465,
+    "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "20s ago",
+      "value": "32s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "8 min old",
+      "value": "69 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (27 records, 14 resting, 1 open, 11 closed)",
+      "value": "OK (28 records, 15 resting, 12 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$108.19",
+      "value": "$108.09",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (14 resting = journal)",
+      "value": "in sync (15 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (1 open)",
+      "value": "all protected (0 open)",
       "status": "ok",
       "action": null
     },
@@ -109,46 +109,12 @@
       "key": "signals_skipped",
       "tier": 1,
       "label": "Feed trades not taken",
-      "value": "11 (4 coin illiquid, 2 margin cap, 2 pre go live, 1 coin not listed)",
+      "value": "10 (4 coin illiquid, 2 pre go live, 1 margin cap, 1 coin not listed)",
       "status": "info",
       "action": null
     }
   ],
   "active_trades": [
-    {
-      "trade_id": "XLMUSDT_20261008_CJ_001",
-      "coin": "XLMUSDT",
-      "direction": "Short",
-      "entry_price": 0.20088823,
-      "sl": 0.2053483,
-      "tp1": 0.1952,
-      "tp2": 0.192,
-      "capital_usd": 5.42,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-10-11",
-      "time_activated_utc": "15:17",
-      "date_opened": "2026-10-08",
-      "time_opened_utc": "16:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": false,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.20089,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": -0.0,
-      "live_fees_usd": 0.0,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false,
-      "live_filled_ts": "2026-10-11T15:17:44.356000+00:00"
-    },
     {
       "trade_id": "DOGEUSDT_20261008_CJ_001",
       "coin": "DOGEUSDT",
@@ -624,23 +590,45 @@
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
       "live_filled_ts": null
+    },
+    {
+      "trade_id": "TAOUSDT_20261010_CJ_001",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 283.7,
+      "sl": 276.84383234,
+      "tp1": 309.8298,
+      "tp2": 324.71233532,
+      "capital_usd": 5.4,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-10",
+      "time_opened_utc": "20:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false,
+      "live_filled_ts": null
     }
   ],
   "dry_run_plans": [],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "ALGOUSDT_20261008_CJ_001",
-      "coin": "ALGOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.11515,
-      "live_entry_fill": 0.11515,
-      "tp1_hit": false,
-      "iso": "2026-10-09T17:11:46Z",
-      "_iso_ms": 1791565906000,
-      "rehearsal": false
-    },
     {
       "trade_id": "AVAXUSDT_20261008_CJ_001",
       "coin": "AVAXUSDT",
@@ -908,6 +896,28 @@
       "rehearsal": false,
       "margin_usd": 5.4366,
       "leverage": 3
+    },
+    {
+      "trade_id": "XLMUSDT_20261008_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "status": "STOPPED",
+      "pnl_usd": -0.38,
+      "close_reason": "live Kraken exit: sl @ 0.20547",
+      "date_closed": "2026-10-11",
+      "time_closed_utc": "16:42",
+      "trading_system": "John",
+      "live_entry_fill": 0.20089,
+      "live_exit_fill": 0.20547,
+      "live_entry_slippage_pct": -0.0,
+      "live_fees_usd": 0.0116,
+      "live_funding_usd": 0.0002,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-10-11T16:42:11Z",
+      "rehearsal": false,
+      "margin_usd": 5.424,
+      "leverage": 3
     }
   ],
   "recent_cancels": [
@@ -920,18 +930,6 @@
     }
   ],
   "recent_skips": [
-    {
-      "trade_id": "TAOUSDT_20261010_CJ_001",
-      "coin": "TAOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 283.7,
-      "reason_code": "margin_cap",
-      "reason": "Not enough free margin on Kraken for another trade right now.",
-      "reason_short": "margin cap reached",
-      "iso": "2026-10-10T20:10:08Z",
-      "last_seen_iso": "2026-10-11T16:17:32Z"
-    },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
       "coin": "ALGOUSDT",
@@ -1055,24 +1053,24 @@
   ],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -3.6,
-    "realized_pnl_pct": -6.14,
+    "realized_pnl_usd": -3.98,
+    "realized_pnl_pct": -6.21,
     "peak_capital_usd": 26.49,
     "peak_concurrent": 5,
     "peak_date": "2026-10-07",
     "deployed_trades": 12,
-    "return_on_peak_pct": -13.59,
-    "win_rate_pct": 9.1,
-    "closed_count": 11,
+    "return_on_peak_pct": -15.03,
+    "win_rate_pct": 8.3,
+    "closed_count": 12,
     "per_system": {
       "John": {
-        "realized_pnl_usd": -3.6,
-        "win_rate_pct": 9.1,
-        "closed_count": 11
+        "realized_pnl_usd": -3.98,
+        "win_rate_pct": 8.3,
+        "closed_count": 12
       }
     },
-    "live_trade_count_total": 26,
-    "live_real_count": 26,
+    "live_trade_count_total": 27,
+    "live_real_count": 27,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
@@ -1100,8 +1098,26 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-11T16:17:52Z",
+    "updated_iso": "2026-10-11T17:18:05Z",
     "trades": [
+      {
+        "trade_id": "XLMUSDT_20261008_CJ_001",
+        "coin": "XLMUSDT",
+        "direction": "Short",
+        "trading_system": "John",
+        "kraken": {
+          "status": "CLOSED",
+          "ret_pct": -7.05,
+          "pnl_usd": -0.3824,
+          "margin_usd": 5.424
+        },
+        "mexc": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 21.4966
+        }
+      },
       {
         "trade_id": "AVAXUSDT_20261008_CJ_001",
         "coin": "AVAXUSDT",
@@ -1121,22 +1137,17 @@
         }
       },
       {
-        "trade_id": "XLMUSDT_20261008_CJ_001",
-        "coin": "XLMUSDT",
-        "direction": "Short",
+        "trade_id": "TAOUSDT_20261010_CJ_001",
+        "coin": "TAOUSDT",
+        "direction": "Long",
         "trading_system": "John",
         "kraken": {
-          "status": "OPEN",
+          "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
-          "margin_usd": 5.424
+          "margin_usd": 5.4
         },
-        "mexc": {
-          "status": "OPEN",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 21.4966
-        }
+        "mexc": null
       },
       {
         "trade_id": "UNIUSDT_20261010_CJ_001",
