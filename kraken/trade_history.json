@@ -846,7 +846,7 @@
       "fill_ids": [
         "73785502-d665-4674-802f-d93c6afbb438"
       ],
-      "unrealized_pnl": -0.00785509730999881,
+      "unrealized_pnl": -0.32325617456999817,
       "fee_asset": [
         "usd"
       ],
@@ -1149,6 +1149,15 @@
       "entry_price": 7.229,
       "resting_at": "2026-10-11T15:27:05Z",
       "braam_trade_id": "UNIUSDT_20261010_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f514ec-8e04-4635-806c-af95854975d6": {
+      "order_id": "a2f514ec-8e04-4635-806c-af95854975d6",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.24579,
+      "resting_at": "2026-10-11T16:10:17Z",
+      "braam_trade_id": "ADAUSDT_20261010_CJ_001",
       "status": "RESTING"
     }
   },
@@ -3259,8 +3268,16 @@
       "unrealized": -0.007866728857942316,
       "realized": -3.5999,
       "total": -3.6078
+    },
+    {
+      "ts": "2026-10-11T16:10:26Z",
+      "equity": 108.14801990005245,
+      "available": 87.31207990005245,
+      "unrealized": -0.323180099947556,
+      "realized": -3.5999,
+      "total": -3.9231
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-11T15:27:25Z"
+  "updated": "2026-10-11T16:10:26Z"
 }
