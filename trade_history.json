@@ -4481,8 +4481,16 @@
       "opened_at": "2026-10-11T15:17:44Z",
       "margin_usd": 21.49663119418591,
       "braam_trade_id": "XLMUSDT_20261008_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-08T16:11:48Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-08T16:11:48Z",
+      "closed_at": "2026-10-11T16:40:28Z",
+      "close_price": 0.20543,
+      "pnl_usd": -1.5457,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.091
     }
   },
   "orders": {
@@ -10597,7 +10605,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-11T16:12:52Z",
+  "updated": "2026-10-11T19:03:06Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27310,6 +27318,14 @@
       "unrealized": 3.6356,
       "realized": 29.2277,
       "total": 32.8633
+    },
+    {
+      "ts": "2026-10-11T19:03:06Z",
+      "equity": 442.9433,
+      "available": 111.8909,
+      "unrealized": 4.0768,
+      "realized": 27.682,
+      "total": 31.7588
     }
   ],
   "capital_events": {
