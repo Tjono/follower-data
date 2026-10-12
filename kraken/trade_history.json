@@ -877,7 +877,7 @@
       "fill_ids": [
         "109f22d1-3c4d-4342-a3f6-563b0c0f16a8"
       ],
-      "unrealized_pnl": 0.07787970244999953,
+      "unrealized_pnl": 0.06817296519000027,
       "fee_asset": [
         "usd"
       ],
@@ -907,11 +907,40 @@
       "fill_ids": [
         "64618bb8-bb9a-408f-bc60-e577d3992fa7"
       ],
-      "unrealized_pnl": 0.03620613824999884,
+      "unrealized_pnl": 0.00027761099999863703,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "NEARUSDT_20261011_CJ_001": {
+      "position_id": "NEARUSDT_20261011_CJ_001",
+      "braam_trade_id": "NEARUSDT_20261011_CJ_001",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 5.4245,
+      "entry_size": 2.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-12T17:55:34Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 3.616333,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0054,
+      "funding_usd": null,
+      "fill_ids": [
+        "704bad17-ee5f-40eb-b0ce-ea1f30962be1"
+      ],
+      "unrealized_pnl": -0.003624650700000842,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -1309,6 +1338,33 @@
       "entry_price": 0.2356,
       "resting_at": "2026-10-12T16:10:35Z",
       "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f73d96-b570-4da3-a104-208f11b13709": {
+      "order_id": "a2f73d96-b570-4da3-a104-208f11b13709",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.12287,
+      "resting_at": "2026-10-12T17:55:39Z",
+      "braam_trade_id": "ALGOUSDT_20261012_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f73d94-cded-4b4a-ac9b-e4718ece2a1b": {
+      "order_id": "a2f73d94-cded-4b4a-ac9b-e4718ece2a1b",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.19519,
+      "resting_at": "2026-10-12T17:55:37Z",
+      "braam_trade_id": "XLMUSDT_20261012_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f73d91-d83f-4190-b47d-3a58976789e8": {
+      "order_id": "a2f73d91-d83f-4190-b47d-3a58976789e8",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2496.8,
+      "resting_at": "2026-10-12T17:55:35Z",
+      "braam_trade_id": "ETHUSDT_20261012_CJ_001",
       "status": "RESTING"
     }
   },
@@ -1939,6 +1995,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "2654734"
+    },
+    "704bad17-ee5f-40eb-b0ce-ea1f30962be1": {
+      "fill_id": "704bad17-ee5f-40eb-b0ce-ea1f30962be1",
+      "symbol": "PF_NEARUSD",
+      "side": "buy",
+      "order_id": "a2f73d8f-55e2-4fb6-941d-51534ef8e0c1",
+      "cliOrdId": "NEARUSDT_20261011_CJ_001",
+      "size": 2,
+      "price": 5.4245,
+      "fillTime": "2026-10-12T17:55:34.256Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "9335555"
     }
   },
   "snapshots": [
@@ -3845,8 +3915,16 @@
       "unrealized": 0.11365263770874447,
       "realized": -3.9823,
       "total": -3.8686
+    },
+    {
+      "ts": "2026-10-12T17:56:04Z",
+      "equity": 107.59493588436335,
+      "available": 83.51622788436335,
+      "unrealized": 0.06517319591334109,
+      "realized": -3.9823,
+      "total": -3.9171
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-12T17:18:06Z"
+  "updated": "2026-10-12T17:56:04Z"
 }
