@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-12T18:18:00Z",
+  "last_updated_iso": "2026-10-12T18:20:03Z",
   "freshness": {
-    "engine_run_iso": "2026-10-12T18:17:34Z",
+    "engine_run_iso": "2026-10-12T18:19:34Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-12T18:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-12T18:18:00Z",
+    "published_iso": "2026-10-12T18:20:03Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.0164,
-    "equity": 107.518,
-    "available": 82.3099,
-    "position_margin": 4.207
+    "unrealized_pnl": -0.003,
+    "equity": 107.5252,
+    "available": 82.317,
+    "position_margin": 5.8166
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "26s ago",
+      "value": "29s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "10 min old",
+      "value": "12 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (33 records, 17 resting, 3 open, 12 closed)",
+      "value": "OK (33 records, 16 resting, 4 open, 12 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$107.52",
+      "value": "$107.53",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (17 resting = journal)",
+      "value": "in sync (16 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open)",
+      "value": "all protected (4 open)",
       "status": "ok",
       "action": null
     },
@@ -735,31 +735,31 @@
       "sl": 0.11832204,
       "tp1": 0.13276929,
       "tp2": 0.14885592,
-      "capital_usd": 5.38,
+      "capital_usd": 5.37,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-12",
+      "time_activated_utc": "18:19",
       "date_opened": "2026-10-12",
       "time_opened_utc": "12:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 0.12287,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-10-12T18:19:10.001000+00:00"
     },
     {
       "trade_id": "CAKEUSDT_20261012_CJ_001",
@@ -798,19 +798,6 @@
   ],
   "dry_run_plans": [],
   "recent_signals": [
-    {
-      "trade_id": "ALGOUSDT_20261012_CJ_001",
-      "coin": "ALGOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.12286862,
-      "tp1": 0.13276929,
-      "sl": 0.11832204,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-12T12:04:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "CAKEUSDT_20261012_CJ_001",
       "coin": "CAKEUSDT",
@@ -872,6 +859,18 @@
       "tp1_hit": false,
       "iso": "2026-10-12T17:55:34Z",
       "_iso_ms": 1791827734000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ALGOUSDT_20261012_CJ_001",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.12286862,
+      "live_entry_fill": 0.12287,
+      "tp1_hit": false,
+      "iso": "2026-10-12T18:19:10Z",
+      "_iso_ms": 1791829150000,
       "rehearsal": false
     }
   ],
@@ -1279,7 +1278,7 @@
     "peak_capital_usd": 26.49,
     "peak_concurrent": 5,
     "peak_date": "2026-10-07",
-    "deployed_trades": 15,
+    "deployed_trades": 16,
     "return_on_peak_pct": -15.03,
     "win_rate_pct": 8.3,
     "closed_count": 12,
@@ -1319,8 +1318,21 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-12T18:18:00Z",
+    "updated_iso": "2026-10-12T18:20:03Z",
     "trades": [
+      {
+        "trade_id": "ALGOUSDT_20261012_CJ_001",
+        "coin": "ALGOUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.3653
+        },
+        "mexc": null
+      },
       {
         "trade_id": "NEARUSDT_20261011_CJ_001",
         "coin": "NEARUSDT",
@@ -1398,19 +1410,6 @@
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 4.45
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "ALGOUSDT_20261012_CJ_001",
-        "coin": "ALGOUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "RESTING",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 5.38
         },
         "mexc": null
       },

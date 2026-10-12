@@ -877,7 +877,7 @@
       "fill_ids": [
         "109f22d1-3c4d-4342-a3f6-563b0c0f16a8"
       ],
-      "unrealized_pnl": 0.028076687980000736,
+      "unrealized_pnl": 0.037029188679999825,
       "fee_asset": [
         "usd"
       ],
@@ -907,7 +907,7 @@
       "fill_ids": [
         "64618bb8-bb9a-408f-bc60-e577d3992fa7"
       ],
-      "unrealized_pnl": -0.04667787404999951,
+      "unrealized_pnl": -0.04428555897000018,
       "fee_asset": [
         "usd"
       ],
@@ -937,11 +937,40 @@
       "fill_ids": [
         "704bad17-ee5f-40eb-b0ce-ea1f30962be1"
       ],
-      "unrealized_pnl": 0.0026999023599998395,
+      "unrealized_pnl": 0.030699777140000606,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "ALGOUSDT_20261012_CJ_001": {
+      "position_id": "ALGOUSDT_20261012_CJ_001",
+      "braam_trade_id": "ALGOUSDT_20261012_CJ_001",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.12287,
+      "entry_size": 131.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-12T18:19:10Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.365323,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0032,
+      "funding_usd": null,
+      "fill_ids": [
+        "ff4d965e-abcd-4fc6-901f-6d034e095d3e"
+      ],
+      "unrealized_pnl": -0.023855576839998227,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -2019,6 +2048,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "9335555"
+    },
+    "ff4d965e-abcd-4fc6-901f-6d034e095d3e": {
+      "fill_id": "ff4d965e-abcd-4fc6-901f-6d034e095d3e",
+      "symbol": "PF_ALGOUSD",
+      "side": "buy",
+      "order_id": "a2f73d96-b570-4da3-a104-208f11b13709",
+      "cliOrdId": "ALGOUSDT_20261012_CJ_001",
+      "size": 131,
+      "price": 0.12287,
+      "fillTime": "2026-10-12T18:19:10.001Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "1275614"
     }
   },
   "snapshots": [
@@ -3949,8 +3992,16 @@
       "unrealized": -0.01632931238725508,
       "realized": -3.9823,
       "total": -3.9986
+    },
+    {
+      "ts": "2026-10-12T18:20:02Z",
+      "equity": 107.52515065743115,
+      "available": 82.31704265743116,
+      "unrealized": -0.0030213649288449752,
+      "realized": -3.9823,
+      "total": -3.9853
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-12T18:17:59Z"
+  "updated": "2026-10-12T18:20:02Z"
 }
