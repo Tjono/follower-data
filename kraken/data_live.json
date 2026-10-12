@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-12T04:17:51Z",
+  "last_updated_iso": "2026-10-12T05:17:52Z",
   "freshness": {
-    "engine_run_iso": "2026-10-12T04:17:32Z",
+    "engine_run_iso": "2026-10-12T05:17:33Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-12T04:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-12T04:17:51Z",
+    "published_iso": "2026-10-12T05:17:52Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,8 +19,8 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 108.0507,
-    "available": 88.231,
+    "equity": 107.9881,
+    "available": 88.1684,
     "position_margin": 0.0
   },
   "account_source": "live",
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "8 min old",
+      "value": "68 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$108.05",
+      "value": "$107.99",
       "status": "ok",
       "action": null
     },
@@ -940,7 +940,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-12T04:09:15Z",
-      "last_seen_iso": "2026-10-12T04:17:32Z"
+      "last_seen_iso": "2026-10-12T05:17:33Z"
     },
     {
       "trade_id": "ETHUSDT_20261012_CJ_001",
@@ -952,7 +952,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-12T00:09:41Z",
-      "last_seen_iso": "2026-10-12T04:17:32Z"
+      "last_seen_iso": "2026-10-12T05:17:33Z"
     },
     {
       "trade_id": "NEARUSDT_20261011_CJ_001",
@@ -964,7 +964,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-11T20:09:34Z",
-      "last_seen_iso": "2026-10-12T04:17:32Z"
+      "last_seen_iso": "2026-10-12T05:17:33Z"
     },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
@@ -1134,7 +1134,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-12T04:17:51Z",
+    "updated_iso": "2026-10-12T05:17:52Z",
     "trades": [
       {
         "trade_id": "XLMUSDT_20261008_CJ_001",
