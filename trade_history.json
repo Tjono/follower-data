@@ -10683,9 +10683,45 @@
       "resting_at": "2026-10-12T08:10:27Z",
       "braam_trade_id": "ADAUSDT_20261010_CJ_001",
       "status": "RESTING"
+    },
+    "864599853345526272": {
+      "order_id": "864599853345526272",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.12287,
+      "resting_at": "2026-10-12T12:11:08Z",
+      "braam_trade_id": "ALGOUSDT_20261012_CJ_001",
+      "status": "RESTING"
+    },
+    "864599840842217536": {
+      "order_id": "864599840842217536",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 276.56,
+      "resting_at": "2026-10-12T12:11:05Z",
+      "braam_trade_id": "TAOUSDT_20261010_CJ_001",
+      "status": "RESTING"
+    },
+    "864599827554724352": {
+      "order_id": "864599827554724352",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2387,
+      "resting_at": "2026-10-12T12:11:02Z",
+      "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "RESTING"
+    },
+    "864599813132782080": {
+      "order_id": "864599813132782080",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.7989,
+      "resting_at": "2026-10-12T12:10:58Z",
+      "braam_trade_id": "APTUSDT_20261009_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-12T08:11:51Z",
+  "updated": "2026-10-12T12:12:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27454,6 +27490,14 @@
       "unrealized": 3.6032,
       "realized": 33.0206,
       "total": 36.6238
+    },
+    {
+      "ts": "2026-10-12T12:12:32Z",
+      "equity": 443.7791,
+      "available": 35.5813,
+      "unrealized": 2.9169,
+      "realized": 33.0206,
+      "total": 35.9375
     }
   ],
   "capital_events": {
