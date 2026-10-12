@@ -1241,6 +1241,15 @@
       "resting_at": "2026-10-12T12:09:51Z",
       "braam_trade_id": "APTUSDT_20261009_CJ_001",
       "status": "RESTING"
+    },
+    "a2f71803-a806-424b-af67-89d53ef9fde4": {
+      "order_id": "a2f71803-a806-424b-af67-89d53ef9fde4",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2356,
+      "resting_at": "2026-10-12T16:10:35Z",
+      "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -3668,8 +3677,16 @@
       "unrealized": 0.0,
       "realized": -3.9823,
       "total": -3.9823
+    },
+    {
+      "ts": "2026-10-12T16:10:43Z",
+      "equity": 107.5679,
+      "available": 87.784247,
+      "unrealized": 0.0,
+      "realized": -3.9823,
+      "total": -3.9823
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-12T16:06:28Z"
+  "updated": "2026-10-12T16:10:43Z"
 }
