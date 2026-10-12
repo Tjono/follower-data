@@ -852,6 +852,35 @@
         "usd"
       ],
       "pnl_basis": "net"
+    },
+    "XRPUSDT_20261009_CJ_001": {
+      "position_id": "XRPUSDT_20261009_CJ_001",
+      "braam_trade_id": "XRPUSDT_20261009_CJ_001",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.355,
+      "entry_size": 11.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-12T17:00:24Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 4.968333,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.003,
+      "funding_usd": null,
+      "fill_ids": [
+        "109f22d1-3c4d-4342-a3f6-563b0c0f16a8"
+      ],
+      "unrealized_pnl": 0.007577525779999483,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -1851,6 +1880,20 @@
       "realized_pnl": -0.37098,
       "realized_funding": 0.00030756455,
       "sequence_id": "3982346"
+    },
+    "109f22d1-3c4d-4342-a3f6-563b0c0f16a8": {
+      "fill_id": "109f22d1-3c4d-4342-a3f6-563b0c0f16a8",
+      "symbol": "PF_XRPUSD",
+      "side": "buy",
+      "order_id": "a2f2106d-232a-4ba8-8ea3-8d2bffecca7d",
+      "cliOrdId": "XRPUSDT_20261009_CJ_001#1791605412799",
+      "size": 11,
+      "price": 1.355,
+      "fillTime": "2026-10-12T17:00:24.013Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "39504735"
     }
   },
   "snapshots": [
@@ -3728,5 +3771,5 @@
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-12T17:00:06Z"
+  "updated": "2026-10-12T17:00:55Z"
 }
