@@ -3472,8 +3472,16 @@
       "unrealized": 0.0,
       "realized": -3.9823,
       "total": -3.9823
+    },
+    {
+      "ts": "2026-10-12T04:17:49Z",
+      "equity": 108.0507,
+      "available": 88.23100500000001,
+      "unrealized": 0.0,
+      "realized": -3.9823,
+      "total": -3.9823
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-12T04:09:33Z"
+  "updated": "2026-10-12T04:17:49Z"
 }
