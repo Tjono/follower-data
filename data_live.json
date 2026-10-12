@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-12T00:12:07Z",
+  "last_updated_iso": "2026-10-12T04:11:53Z",
   "mexc_account": {
-    "unrealized_pnl": 4.9604,
-    "equity": 443.8225,
-    "available": 73.1395,
+    "unrealized_pnl": 4.9291,
+    "equity": 443.8511,
+    "available": 50.9591,
     "position_margin": 26.6105
   },
   "order_levels": {
-    "checked": 18,
-    "in_sync": 18,
+    "checked": 19,
+    "in_sync": 19,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (328 records)",
+      "value": "OK (329 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$443.82",
+      "value": "$443.85",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (16 resting = journal)",
+      "value": "in sync (17 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "\ud83d\udd34 1 NAKED: ALGOUSDT",
-      "status": "urgent",
-      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: ALGOUSDT"
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -516,10 +516,10 @@
       "trade_id": "ADAUSDT_20261010_CJ_001",
       "coin": "ADAUSDT",
       "direction": "Long",
-      "entry_price": 0.244975,
-      "sl": 0.23901004,
-      "tp1": 0.27527511,
-      "tp2": 0.27827992,
+      "entry_price": 0.23885906,
+      "sl": 0.23302732,
+      "tp1": 0.27517819,
+      "tp2": 0.28634537,
       "capital_usd": 21.9,
       "leverage": 3,
       "trading_system": "John",
@@ -676,6 +676,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "XLMUSDT_20261012_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.19518852,
+      "sl": 0.19190646,
+      "tp1": 0.21734662,
+      "tp2": 0.22158709,
+      "capital_usd": 22.19,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-12",
+      "time_opened_utc": "04:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -703,6 +736,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-12T00:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "XLMUSDT_20261012_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.19518852,
+      "tp1": 0.21734662,
+      "sl": 0.19190646,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-12T04:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4765,15 +4811,15 @@
         "closed_count": 107
       }
     },
-    "live_trade_count_total": 319,
-    "live_real_count": 319,
+    "live_trade_count_total": 320,
+    "live_real_count": 320,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-12T00:09Z",
-    "checked": 18,
-    "in_parity": 18,
+    "feed_generated_utc": "2026-10-12T04:09Z",
+    "checked": 19,
+    "in_parity": 19,
     "drifting": []
   }
 }

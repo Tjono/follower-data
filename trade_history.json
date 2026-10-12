@@ -10648,9 +10648,27 @@
       "resting_at": "2026-10-12T00:10:56Z",
       "braam_trade_id": "BTCUSDT_20261009_CJ_001",
       "status": "RESTING"
+    },
+    "864478977430403584": {
+      "order_id": "864478977430403584",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.19519,
+      "resting_at": "2026-10-12T04:10:49Z",
+      "braam_trade_id": "XLMUSDT_20261012_CJ_001",
+      "status": "RESTING"
+    },
+    "864478947365320704": {
+      "order_id": "864478947365320704",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2389,
+      "resting_at": "2026-10-12T04:10:42Z",
+      "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-12T00:12:28Z",
+  "updated": "2026-10-12T04:12:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27395,6 +27413,14 @@
       "unrealized": 4.9604,
       "realized": 27.682,
       "total": 32.6424
+    },
+    {
+      "ts": "2026-10-12T04:12:15Z",
+      "equity": 443.8511,
+      "available": 50.9591,
+      "unrealized": 4.9291,
+      "realized": 27.682,
+      "total": 32.6111
     }
   ],
   "capital_events": {
