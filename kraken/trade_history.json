@@ -877,7 +877,7 @@
       "fill_ids": [
         "109f22d1-3c4d-4342-a3f6-563b0c0f16a8"
       ],
-      "unrealized_pnl": 0.09746131240999967,
+      "unrealized_pnl": -0.07998716197999967,
       "fee_asset": [
         "usd"
       ],
@@ -907,7 +907,7 @@
       "fill_ids": [
         "64618bb8-bb9a-408f-bc60-e577d3992fa7"
       ],
-      "unrealized_pnl": 0.08594386745999821,
+      "unrealized_pnl": -0.19751507870999985,
       "fee_asset": [
         "usd"
       ],
@@ -921,27 +921,28 @@
       "leverage": 3,
       "entry_price": 5.4245,
       "entry_size": 2.0,
-      "exit_size": 0,
+      "exit_size": 2.0,
       "opened_at": "2026-10-12T17:55:34Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-12T21:44:57Z",
+      "close_price": 5.2122,
       "margin_usd": 3.616333,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0054,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.4246,
+      "pnl_usd": -0.4357,
+      "tag": "LOSS",
+      "fees_usd": 0.0106,
+      "funding_usd": -0.0005,
       "fill_ids": [
-        "704bad17-ee5f-40eb-b0ce-ea1f30962be1"
+        "704bad17-ee5f-40eb-b0ce-ea1f30962be1",
+        "f5a2dedd-033c-4998-8373-5ee6e299832a"
       ],
       "unrealized_pnl": -0.1567102508399998,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "ALGOUSDT_20261012_CJ_001": {
       "position_id": "ALGOUSDT_20261012_CJ_001",
@@ -967,11 +968,98 @@
       "fill_ids": [
         "ff4d965e-abcd-4fc6-901f-6d034e095d3e"
       ],
-      "unrealized_pnl": -0.09098861104999947,
+      "unrealized_pnl": -0.25668242965999977,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "XLMUSDT_20261012_CJ_001": {
+      "position_id": "XLMUSDT_20261012_CJ_001",
+      "braam_trade_id": "XLMUSDT_20261012_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.19519,
+      "entry_size": 82.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-12T21:44:23Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.335193,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0032,
+      "funding_usd": null,
+      "fill_ids": [
+        "ad90df9c-0b25-464c-a595-abb320f70a9f"
+      ],
+      "unrealized_pnl": -0.02851127945999965,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "UNIUSDT_20261010_CJ_001": {
+      "position_id": "UNIUSDT_20261010_CJ_001",
+      "braam_trade_id": "UNIUSDT_20261010_CJ_001",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 7.229,
+      "entry_size": 2.2,
+      "exit_size": 0,
+      "opened_at": "2026-10-12T21:44:25Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.301267,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0032,
+      "funding_usd": null,
+      "fill_ids": [
+        "2c21b739-e80c-4f09-9573-3b0355160169"
+      ],
+      "unrealized_pnl": -0.030298055105999568,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "TAOUSDT_20261010_CJ_001": {
+      "position_id": "TAOUSDT_20261010_CJ_001",
+      "braam_trade_id": "TAOUSDT_20261010_CJ_001",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 276.56,
+      "entry_size": 0.05,
+      "exit_size": 0,
+      "opened_at": "2026-10-12T21:45:58Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 4.609333,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0028,
+      "funding_usd": null,
+      "fill_ids": [
+        "df3123f9-15e4-4f02-bb1b-5165632786b5"
+      ],
+      "unrealized_pnl": 0.08500368343750041,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -2072,6 +2160,62 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "1275614"
+    },
+    "df3123f9-15e4-4f02-bb1b-5165632786b5": {
+      "fill_id": "df3123f9-15e4-4f02-bb1b-5165632786b5",
+      "symbol": "PF_TAOUSD",
+      "side": "buy",
+      "order_id": "a2f6c1f4-d508-4218-82a8-795caedcddf0",
+      "cliOrdId": "TAOUSDT_20261010_CJ_001#1791806996071",
+      "size": 0.05,
+      "price": 276.56,
+      "fillTime": "2026-10-12T21:45:58.001Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "6732002"
+    },
+    "f5a2dedd-033c-4998-8373-5ee6e299832a": {
+      "fill_id": "f5a2dedd-033c-4998-8373-5ee6e299832a",
+      "symbol": "PF_NEARUSD",
+      "side": "sell",
+      "order_id": "a2f73db7-ea73-41bb-a456-2b23b99e681a",
+      "cliOrdId": "NEARUSDT_20261011_CJ_001:SL#1791827760657",
+      "size": 2,
+      "price": 5.2122,
+      "fillTime": "2026-10-12T21:44:57.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.4246,
+      "realized_funding": -0.00022385902,
+      "sequence_id": "9340564"
+    },
+    "2c21b739-e80c-4f09-9573-3b0355160169": {
+      "fill_id": "2c21b739-e80c-4f09-9573-3b0355160169",
+      "symbol": "PF_UNIUSD",
+      "side": "buy",
+      "order_id": "a2f5057a-3ef9-404a-b4e4-d609e77dba70",
+      "cliOrdId": "UNIUSDT_20261010_CJ_001",
+      "size": 2.2,
+      "price": 7.229,
+      "fillTime": "2026-10-12T21:44:25.001Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "9338233"
+    },
+    "ad90df9c-0b25-464c-a595-abb320f70a9f": {
+      "fill_id": "ad90df9c-0b25-464c-a595-abb320f70a9f",
+      "symbol": "PF_XLMUSD",
+      "side": "buy",
+      "order_id": "a2f73d94-cded-4b4a-ac9b-e4718ece2a1b",
+      "cliOrdId": "XLMUSDT_20261012_CJ_001",
+      "size": 82,
+      "price": 0.19519,
+      "fillTime": "2026-10-12T21:44:23.715Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "3985433"
     }
   },
   "snapshots": [
@@ -4074,8 +4218,16 @@
       "unrealized": -0.06466518238856252,
       "realized": -3.9823,
       "total": -4.047
+    },
+    {
+      "ts": "2026-10-12T21:46:09Z",
+      "equity": 106.54377070474062,
+      "available": 82.42056270474062,
+      "unrealized": -0.5087151663593746,
+      "realized": -4.418,
+      "total": -4.9267
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-12T21:17:59Z"
+  "updated": "2026-10-12T21:46:09Z"
 }
