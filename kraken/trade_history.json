@@ -877,7 +877,37 @@
       "fill_ids": [
         "109f22d1-3c4d-4342-a3f6-563b0c0f16a8"
       ],
-      "unrealized_pnl": 0.007577525779999483,
+      "unrealized_pnl": 0.07738859887000116,
+      "fee_asset": [
+        "usd"
+      ],
+      "pnl_basis": null
+    },
+    "HBARUSDT_20261007_CJ_001": {
+      "position_id": "HBARUSDT_20261007_CJ_001",
+      "braam_trade_id": "HBARUSDT_20261007_CJ_001",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.08916,
+      "entry_size": 183.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-12T17:04:36Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.43876,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0033,
+      "funding_usd": null,
+      "fill_ids": [
+        "64618bb8-bb9a-408f-bc60-e577d3992fa7"
+      ],
+      "unrealized_pnl": 0.004117073609999314,
       "fee_asset": [
         "usd"
       ]
@@ -1894,6 +1924,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "39504735"
+    },
+    "64618bb8-bb9a-408f-bc60-e577d3992fa7": {
+      "fill_id": "64618bb8-bb9a-408f-bc60-e577d3992fa7",
+      "symbol": "PF_HBARUSD",
+      "side": "buy",
+      "order_id": "a2f0aaaf-1ce5-4f46-b9aa-5646497ffb87",
+      "cliOrdId": "HBARUSDT_20261007_CJ_001",
+      "size": 183,
+      "price": 0.08916,
+      "fillTime": "2026-10-12T17:04:36.341Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "2654734"
     }
   },
   "snapshots": [
@@ -3768,8 +3812,16 @@
       "unrealized": 0.0,
       "realized": -3.9823,
       "total": -3.9823
+    },
+    {
+      "ts": "2026-10-12T17:06:09Z",
+      "equity": 107.62780136364387,
+      "available": 87.84414836364387,
+      "unrealized": 0.08096202484386678,
+      "realized": -3.9823,
+      "total": -3.9013
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-12T17:00:55Z"
+  "updated": "2026-10-12T17:06:09Z"
 }
