@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-12T21:51:05Z",
+  "last_updated_iso": "2026-10-12T21:52:30Z",
   "freshness": {
-    "engine_run_iso": "2026-10-12T21:50:34Z",
+    "engine_run_iso": "2026-10-12T21:51:54Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-12T20:09:00Z",
+    "feed_generated_iso": "2026-10-12T21:51:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-12T21:51:05Z",
+    "published_iso": "2026-10-12T21:52:30Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.388,
-    "equity": 106.6685,
-    "available": 82.5453,
+    "unrealized_pnl": -0.4026,
+    "equity": 106.6594,
+    "available": 82.5362,
     "position_margin": 9.3055
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "31s ago",
+      "value": "36s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "102 min old",
+      "value": "1 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$106.67",
+      "value": "$106.66",
       "status": "ok",
       "action": null
     },
@@ -563,7 +563,7 @@
       "direction": "Long",
       "entry_price": 7.22900103,
       "sl": 7.02082768,
-      "tp1": 7.860552,
+      "tp1": 7.755,
       "tp2": 8.46734463,
       "capital_usd": 5.3,
       "leverage": 3,
@@ -597,8 +597,8 @@
       "direction": "Long",
       "entry_price": 276.56272298,
       "sl": 269.4043469,
-      "tp1": 309.8298,
-      "tp2": 333.29130621,
+      "tp1": 296.3,
+      "tp2": 308.5,
       "capital_usd": 4.61,
       "leverage": 3,
       "trading_system": "John",
@@ -1320,7 +1320,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-12T20:09Z",
+    "feed_generated_utc": "2026-10-12T21:51Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
@@ -1328,7 +1328,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-12T20:09Z",
+    "feed_generated_utc": "2026-10-12T21:51Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
@@ -1336,13 +1336,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-12T20:09Z",
+    "feed_generated_utc": "2026-10-12T21:51Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-12T21:51:05Z",
+    "updated_iso": "2026-10-12T21:52:30Z",
     "trades": [
       {
         "trade_id": "TAOUSDT_20261010_CJ_001",
