@@ -877,7 +877,7 @@
       "fill_ids": [
         "109f22d1-3c4d-4342-a3f6-563b0c0f16a8"
       ],
-      "unrealized_pnl": -0.021122217049999392,
+      "unrealized_pnl": -0.05386269921999998,
       "fee_asset": [
         "usd"
       ],
@@ -907,7 +907,7 @@
       "fill_ids": [
         "64618bb8-bb9a-408f-bc60-e577d3992fa7"
       ],
-      "unrealized_pnl": -0.13480512548999984,
+      "unrealized_pnl": -0.18321389040000136,
       "fee_asset": [
         "usd"
       ],
@@ -968,7 +968,7 @@
       "fill_ids": [
         "ff4d965e-abcd-4fc6-901f-6d034e095d3e"
       ],
-      "unrealized_pnl": -0.16076791861999926,
+      "unrealized_pnl": -0.18757610052999923,
       "fee_asset": [
         "usd"
       ],
@@ -998,7 +998,7 @@
       "fill_ids": [
         "ad90df9c-0b25-464c-a595-abb320f70a9f"
       ],
-      "unrealized_pnl": -0.01590000254000057,
+      "unrealized_pnl": -0.03160194638000058,
       "fee_asset": [
         "usd"
       ],
@@ -1028,7 +1028,7 @@
       "fill_ids": [
         "2c21b739-e80c-4f09-9573-3b0355160169"
       ],
-      "unrealized_pnl": -0.02175536499399975,
+      "unrealized_pnl": -0.05918987085000076,
       "fee_asset": [
         "usd"
       ],
@@ -1058,11 +1058,40 @@
       "fill_ids": [
         "df3123f9-15e4-4f02-bb1b-5165632786b5"
       ],
-      "unrealized_pnl": 0.13532226926049873,
+      "unrealized_pnl": 0.09436743487050024,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "TRXUSDT_20260929_CJ_001": {
+      "position_id": "TRXUSDT_20260929_CJ_001",
+      "braam_trade_id": "TRXUSDT_20260929_CJ_001",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.32425,
+      "entry_size": 50.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-12T22:00:01Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.404167,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0032,
+      "funding_usd": null,
+      "fill_ids": [
+        "59c52166-79b1-4372-82eb-9339ed885e75"
+      ],
+      "unrealized_pnl": 0.24046226899999967,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -2219,6 +2248,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "3985433"
+    },
+    "59c52166-79b1-4372-82eb-9339ed885e75": {
+      "fill_id": "59c52166-79b1-4372-82eb-9339ed885e75",
+      "symbol": "PF_TRXUSD",
+      "side": "buy",
+      "order_id": "a2f0aaad-3472-4211-8817-50a5b162329c",
+      "cliOrdId": "TRXUSDT_20260929_CJ_001",
+      "size": 50,
+      "price": 0.32425,
+      "fillTime": "2026-10-12T22:00:01.001Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "1030284"
     }
   },
   "snapshots": [
@@ -4245,8 +4288,16 @@
       "unrealized": -0.2199092851462055,
       "realized": -4.418,
       "total": -4.6379
+    },
+    {
+      "ts": "2026-10-12T22:01:07Z",
+      "equity": 106.87437378047642,
+      "available": 82.75116578047641,
+      "unrealized": -0.1805873200535815,
+      "realized": -4.418,
+      "total": -4.5986
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-12T21:54:40Z"
+  "updated": "2026-10-12T22:01:07Z"
 }
