@@ -4357,8 +4357,16 @@
       "opened_at": "2026-10-08T15:23:04Z",
       "margin_usd": 22.2243304662888,
       "braam_trade_id": "HBARUSDT_20261007_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-07T12:10:36Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-07T12:10:36Z",
+      "closed_at": "2026-10-12T23:06:26Z",
+      "close_price": 0.08693,
+      "pnl_usd": -1.8034,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0917
     },
     "1516301931": {
       "position_id": "1516301931",
@@ -4528,9 +4536,17 @@
       "entry_price": 0.19519,
       "opened_at": "2026-10-12T16:53:10Z",
       "margin_usd": 22.174624792118,
-      "status": "OPEN",
+      "status": "CLOSED",
       "resting_at": "2026-10-12T04:10:49Z",
-      "braam_trade_id": "XLMUSDT_20261012_CJ_001"
+      "braam_trade_id": "XLMUSDT_20261012_CJ_001",
+      "closed_at": "2026-10-12T23:05:40Z",
+      "close_price": 0.19189,
+      "pnl_usd": -1.214,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0919
     },
     "1518959535": {
       "position_id": "1518959535",
@@ -4579,6 +4595,30 @@
       "braam_trade_id": "TAOUSDT_20261010_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-12T12:11:05Z"
+    },
+    "1519104461": {
+      "position_id": "1519104461",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 81931.3,
+      "opened_at": "2026-10-12T23:05:35Z",
+      "margin_usd": 21.9007824801832,
+      "braam_trade_id": "BTCUSDT_20261009_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-12T00:10:57Z"
+    },
+    "1519100290": {
+      "position_id": "1519100290",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.2356,
+      "opened_at": "2026-10-12T23:02:03Z",
+      "margin_usd": 21.884663888344,
+      "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-12T16:11:39Z"
     }
   },
   "orders": {
@@ -10837,7 +10877,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-12T21:57:16Z",
+  "updated": "2026-10-12T23:07:22Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27742,6 +27782,14 @@
       "unrealized": -2.4624,
       "realized": 30.0275,
       "total": 27.5651
+    },
+    {
+      "ts": "2026-10-12T23:07:22Z",
+      "equity": 429.4626,
+      "available": 74.8464,
+      "unrealized": -5.2351,
+      "realized": 27.0101,
+      "total": 21.775
     }
   ],
   "capital_events": {
