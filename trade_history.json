@@ -4523,6 +4523,18 @@
       "status": "OPEN",
       "resting_at": "2026-10-12T04:10:49Z",
       "braam_trade_id": "XLMUSDT_20261012_CJ_001"
+    },
+    "1518959535": {
+      "position_id": "1518959535",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.12287,
+      "opened_at": "2026-10-12T18:19:08Z",
+      "margin_usd": 22.2107345810911,
+      "braam_trade_id": "ALGOUSDT_20261012_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-12T12:11:08Z"
     }
   },
   "orders": {
@@ -10772,7 +10784,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-12T17:12:02Z",
+  "updated": "2026-10-12T18:38:35Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27629,6 +27641,14 @@
       "unrealized": 0.3589,
       "realized": 33.0206,
       "total": 33.3795
+    },
+    {
+      "ts": "2026-10-12T18:38:35Z",
+      "equity": 440.6967,
+      "available": 13.7232,
+      "unrealized": -0.0398,
+      "realized": 33.0206,
+      "total": 32.9808
     }
   ],
   "capital_events": {
