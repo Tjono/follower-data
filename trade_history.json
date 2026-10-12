@@ -4509,8 +4509,16 @@
       "opened_at": "2026-10-12T16:45:39Z",
       "margin_usd": 21.82826218224,
       "braam_trade_id": "NEARUSDT_20261011_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-11T20:10:47Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-11T20:10:47Z",
+      "closed_at": "2026-10-12T21:44:54Z",
+      "close_price": 5.202,
+      "pnl_usd": -2.9931,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.089
     },
     "1518912411": {
       "position_id": "1518912411",
@@ -4547,6 +4555,30 @@
       "braam_trade_id": "XRPUSDT_20261009_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-12T17:10:32Z"
+    },
+    "1519052530": {
+      "position_id": "1519052530",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 7.229,
+      "opened_at": "2026-10-12T21:44:25Z",
+      "margin_usd": 21.980593567387,
+      "braam_trade_id": "UNIUSDT_20261010_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-10T12:10:54Z"
+    },
+    "1519057107": {
+      "position_id": "1519057107",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 276.56,
+      "opened_at": "2026-10-12T21:45:57Z",
+      "margin_usd": 21.253820161304,
+      "braam_trade_id": "TAOUSDT_20261010_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-12T12:11:05Z"
     }
   },
   "orders": {
@@ -10805,7 +10837,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-12T20:12:39Z",
+  "updated": "2026-10-12T21:54:16Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27694,6 +27726,14 @@
       "unrealized": 2.9763,
       "realized": 33.0206,
       "total": 35.9969
+    },
+    {
+      "ts": "2026-10-12T21:54:16Z",
+      "equity": 436.5962,
+      "available": 33.3109,
+      "unrealized": -1.0697,
+      "realized": 30.0275,
+      "total": 28.9578
     }
   ],
   "capital_events": {
