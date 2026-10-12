@@ -877,7 +877,7 @@
       "fill_ids": [
         "109f22d1-3c4d-4342-a3f6-563b0c0f16a8"
       ],
-      "unrealized_pnl": 0.06817296519000027,
+      "unrealized_pnl": 0.07664478624000126,
       "fee_asset": [
         "usd"
       ],
@@ -907,7 +907,7 @@
       "fill_ids": [
         "64618bb8-bb9a-408f-bc60-e577d3992fa7"
       ],
-      "unrealized_pnl": 0.00027761099999863703,
+      "unrealized_pnl": -0.04557525329999958,
       "fee_asset": [
         "usd"
       ],
@@ -937,10 +937,11 @@
       "fill_ids": [
         "704bad17-ee5f-40eb-b0ce-ea1f30962be1"
       ],
-      "unrealized_pnl": -0.003624650700000842,
+      "unrealized_pnl": 0.006269568840000517,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -1365,6 +1366,15 @@
       "entry_price": 2496.8,
       "resting_at": "2026-10-12T17:55:35Z",
       "braam_trade_id": "ETHUSDT_20261012_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f740e0-7313-45d0-b35c-25e4ba1f0a6d": {
+      "order_id": "a2f740e0-7313-45d0-b35c-25e4ba1f0a6d",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.2588,
+      "resting_at": "2026-10-12T18:04:50Z",
+      "braam_trade_id": "CAKEUSDT_20261012_CJ_001",
       "status": "RESTING"
     }
   },
@@ -3923,8 +3933,16 @@
       "unrealized": 0.06517319591334109,
       "realized": -3.9823,
       "total": -3.9171
+    },
+    {
+      "ts": "2026-10-12T18:05:18Z",
+      "equity": 107.59374093210994,
+      "available": 82.38563293210994,
+      "unrealized": 0.03754093210993514,
+      "realized": -3.9823,
+      "total": -3.9448
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-12T17:56:04Z"
+  "updated": "2026-10-12T18:05:18Z"
 }
