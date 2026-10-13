@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-13T04:13:15Z",
+  "last_updated_iso": "2026-10-13T05:45:11Z",
   "mexc_account": {
-    "unrealized_pnl": 5.9697,
-    "equity": 426.5448,
+    "unrealized_pnl": 6.9471,
+    "equity": 427.5222,
     "available": 174.884,
     "position_margin": 43.5533
   },
   "order_levels": {
-    "checked": 11,
-    "in_sync": 11,
+    "checked": 12,
+    "in_sync": 12,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$426.54",
+      "value": "$427.52",
       "status": "ok",
       "action": null
     },
@@ -69,17 +69,17 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "1 ORPHAN order(s) on MEXC",
-      "status": "urgent",
-      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): BTC_USDT Long @ 81664 (id 864841636969011200)"
+      "value": "in sync (10 resting = journal)",
+      "status": "ok",
+      "action": null
     },
     {
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "live read failed",
-      "status": "warn",
-      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
+      "value": "all protected (2 open, 2 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -287,8 +287,8 @@
       "direction": "Long",
       "entry_price": 12.25,
       "sl": 11.9451005,
-      "tp1": 13.73314122,
-      "tp2": 14.27579901,
+      "tp1": 13.433,
+      "tp2": 14.231,
       "capital_usd": 21.87,
       "leverage": 3,
       "trading_system": "John",
@@ -320,8 +320,8 @@
       "direction": "Long",
       "entry_price": 0.46732465,
       "sl": 0.44734974,
-      "tp1": 0.53277043,
-      "tp2": 0.57950052,
+      "tp1": 0.529,
+      "tp2": 0.5746,
       "capital_usd": 21.96,
       "leverage": 3,
       "trading_system": "John",
@@ -414,6 +414,39 @@
       "rehearsal": false
     },
     {
+      "trade_id": "BTCUSDT_20261013_CJ_001",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 81663.99935133,
+      "sl": 80841.2537342,
+      "tp1": 87949.26167641,
+      "tp2": 89600.46003681,
+      "capital_usd": 21.32,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-13",
+      "time_opened_utc": "04:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
       "trade_id": "CAKEUSDT_20261013_CJ_001",
       "coin": "CAKEUSDT",
       "direction": "Long",
@@ -459,6 +492,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-13T00:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "BTCUSDT_20261013_CJ_001",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 81663.99935133,
+      "tp1": 87949.26167641,
+      "sl": 80841.2537342,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-13T04:04:00Z",
       "rehearsal": false
     },
     {
@@ -4659,15 +4705,15 @@
         "closed_count": 119
       }
     },
-    "live_trade_count_total": 324,
-    "live_real_count": 324,
+    "live_trade_count_total": 325,
+    "live_real_count": 325,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-13T04:10Z",
-    "checked": 11,
-    "in_parity": 11,
+    "feed_generated_utc": "2026-10-13T05:44Z",
+    "checked": 12,
+    "in_parity": 12,
     "drifting": []
   }
 }
