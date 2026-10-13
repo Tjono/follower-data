@@ -4557,8 +4557,16 @@
       "opened_at": "2026-10-12T18:19:08Z",
       "margin_usd": 22.2107345810911,
       "braam_trade_id": "ALGOUSDT_20261012_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-12T12:11:08Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-12T12:11:08Z",
+      "closed_at": "2026-10-13T00:07:00Z",
+      "close_price": 0.11821,
+      "pnl_usd": -2.6153,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0909
     },
     "1518983479": {
       "position_id": "1518983479",
@@ -4569,8 +4577,16 @@
       "opened_at": "2026-10-12T19:17:07Z",
       "margin_usd": 21.7320317832,
       "braam_trade_id": "XRPUSDT_20261009_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-12T17:10:32Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-12T17:10:32Z",
+      "closed_at": "2026-10-13T00:07:10Z",
+      "close_price": 1.3314,
+      "pnl_usd": -1.2188,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0901
     },
     "1519052530": {
       "position_id": "1519052530",
@@ -4581,8 +4597,16 @@
       "opened_at": "2026-10-12T21:44:25Z",
       "margin_usd": 21.980593567387,
       "braam_trade_id": "UNIUSDT_20261010_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-10T12:10:54Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-10T12:10:54Z",
+      "closed_at": "2026-10-12T23:34:11Z",
+      "close_price": 7.019,
+      "pnl_usd": -2.0015,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0904
     },
     "1519057107": {
       "position_id": "1519057107",
@@ -4593,8 +4617,16 @@
       "opened_at": "2026-10-12T21:45:57Z",
       "margin_usd": 21.253820161304,
       "braam_trade_id": "TAOUSDT_20261010_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-12T12:11:05Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-12T12:11:05Z",
+      "closed_at": "2026-10-13T00:06:58Z",
+      "close_price": 269.25,
+      "pnl_usd": -1.7709,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0876
     },
     "1519104461": {
       "position_id": "1519104461",
@@ -4605,8 +4637,16 @@
       "opened_at": "2026-10-12T23:05:35Z",
       "margin_usd": 21.9007824801832,
       "braam_trade_id": "BTCUSDT_20261009_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-12T00:10:57Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-12T00:10:57Z",
+      "closed_at": "2026-10-13T00:07:28Z",
+      "close_price": 81344.4,
+      "pnl_usd": -0.5652,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0913
     },
     "1519100290": {
       "position_id": "1519100290",
@@ -4617,8 +4657,52 @@
       "opened_at": "2026-10-12T23:02:03Z",
       "margin_usd": 21.884663888344,
       "braam_trade_id": "ADAUSDT_20261010_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-10-12T16:11:39Z",
+      "closed_at": "2026-10-13T00:07:00Z",
+      "close_price": 0.2293,
+      "pnl_usd": -1.8407,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0901
+    },
+    "1519110687": {
+      "position_id": "1519110687",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.7989,
+      "opened_at": "2026-10-12T23:11:55Z",
+      "margin_usd": 21.9957832685688,
+      "braam_trade_id": "APTUSDT_20261009_CJ_001",
       "status": "OPEN",
-      "resting_at": "2026-10-12T16:11:39Z"
+      "resting_at": "2026-10-12T12:10:59Z"
+    },
+    "1519124973": {
+      "position_id": "1519124973",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2.2588,
+      "opened_at": "2026-10-12T23:39:08Z",
+      "margin_usd": 21.887470608316,
+      "braam_trade_id": "CAKEUSDT_20261012_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-12T16:11:43Z"
+    },
+    "1519124379": {
+      "position_id": "1519124379",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.4673,
+      "opened_at": "2026-10-12T23:38:27Z",
+      "margin_usd": 21.85967071526,
+      "braam_trade_id": "ONDOUSDT_20261009_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-09T12:10:42Z"
     }
   },
   "orders": {
@@ -10875,9 +10959,36 @@
       "resting_at": "2026-10-12T20:11:12Z",
       "braam_trade_id": "ETHUSDT_20261012_CJ_001",
       "status": "RESTING"
+    },
+    "864781174999366145": {
+      "order_id": "864781174999366145",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.20064,
+      "resting_at": "2026-10-13T00:11:38Z",
+      "braam_trade_id": "XLMUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "864781159047985152": {
+      "order_id": "864781159047985152",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 2549.35,
+      "resting_at": "2026-10-13T00:11:35Z",
+      "braam_trade_id": "ETHUSDT_20261012_CJ_001",
+      "status": "RESTING"
+    },
+    "864781134721382912": {
+      "order_id": "864781134721382912",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.33355,
+      "resting_at": "2026-10-13T00:11:29Z",
+      "braam_trade_id": "TRXUSDT_20261002_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-12T23:07:22Z",
+  "updated": "2026-10-13T00:13:10Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27790,6 +27901,14 @@
       "unrealized": -5.2351,
       "realized": 27.0101,
       "total": 21.775
+    },
+    {
+      "ts": "2026-10-13T00:13:10Z",
+      "equity": 424.2326,
+      "available": 175.7414,
+      "unrealized": -0.5763,
+      "realized": 16.9977,
+      "total": 16.4214
     }
   ],
   "capital_events": {
