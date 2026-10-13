@@ -1095,7 +1095,7 @@
       "fill_ids": [
         "59c52166-79b1-4372-82eb-9339ed885e75"
       ],
-      "unrealized_pnl": 0.22039319750000175,
+      "unrealized_pnl": 0.21617154450000176,
       "fee_asset": [
         "usd"
       ],
@@ -1218,7 +1218,7 @@
       "fill_ids": [
         "a204669f-5ca5-4aca-846f-46ac9c24997f"
       ],
-      "unrealized_pnl": 0.05931555272000111,
+      "unrealized_pnl": 0.009132838600000692,
       "fee_asset": [
         "usd"
       ],
@@ -1279,7 +1279,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.8397442556880004,
+      "unrealized_pnl": 0.8648983630170006,
       "fee_asset": [
         "usd"
       ],
@@ -1310,7 +1310,7 @@
         "3942aaf8-c242-4bbf-a9f4-2fa35b0df843",
         "0f78f4f2-17bd-4f86-b705-a7b612518c4f"
       ],
-      "unrealized_pnl": 0.13640368360400004,
+      "unrealized_pnl": 0.1271146139159999,
       "fee_asset": [
         "usd"
       ],
@@ -1883,6 +1883,15 @@
       "entry_price": 1.4069,
       "resting_at": "2026-10-13T16:10:34Z",
       "braam_trade_id": "XRPUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f970a1-3a1f-43bf-a97a-2ad6f460d882": {
+      "order_id": "a2f970a1-3a1f-43bf-a97a-2ad6f460d882",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.7962,
+      "resting_at": "2026-10-13T20:10:01Z",
+      "braam_trade_id": "APTUSDT_20261013_CJ_001",
       "status": "RESTING"
     }
   },
@@ -5303,8 +5312,16 @@
       "unrealized": 1.2558161080489243,
       "realized": -8.3738,
       "total": -7.118
+    },
+    {
+      "ts": "2026-10-13T20:10:51Z",
+      "equity": 105.20301095681222,
+      "available": 86.87286595681222,
+      "unrealized": 1.2177972453562267,
+      "realized": -8.3738,
+      "total": -7.156
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-13T19:32:21Z"
+  "updated": "2026-10-13T20:10:51Z"
 }
