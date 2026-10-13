@@ -1095,7 +1095,7 @@
       "fill_ids": [
         "59c52166-79b1-4372-82eb-9339ed885e75"
       ],
-      "unrealized_pnl": 0.2422347044999995,
+      "unrealized_pnl": 0.27600864400000036,
       "fee_asset": [
         "usd"
       ],
@@ -1218,7 +1218,7 @@
       "fill_ids": [
         "a204669f-5ca5-4aca-846f-46ac9c24997f"
       ],
-      "unrealized_pnl": 0.2963370636599999,
+      "unrealized_pnl": 0.5091456435800006,
       "fee_asset": [
         "usd"
       ],
@@ -1279,7 +1279,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.7320638067599988,
+      "unrealized_pnl": 0.8945554069010001,
       "fee_asset": [
         "usd"
       ],
@@ -1753,6 +1753,42 @@
       "entry_price": 0.33355,
       "resting_at": "2026-10-13T00:10:33Z",
       "braam_trade_id": "TRXUSDT_20261002_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f8198c-eda2-46c9-b175-2818d075a1e7": {
+      "order_id": "a2f8198c-eda2-46c9-b175-2818d075a1e7",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.2583,
+      "resting_at": "2026-10-13T04:10:42Z",
+      "braam_trade_id": "CAKEUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f8198a-ff22-48d2-be96-7787ae4d3fa2": {
+      "order_id": "a2f8198a-ff22-48d2-be96-7787ae4d3fa2",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 81664.0,
+      "resting_at": "2026-10-13T04:10:41Z",
+      "braam_trade_id": "BTCUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f81987-e1d5-458a-b7ed-759b5fe81bf9": {
+      "order_id": "a2f81987-e1d5-458a-b7ed-759b5fe81bf9",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2410.0,
+      "resting_at": "2026-10-13T04:10:39Z",
+      "braam_trade_id": "ETHUSDT_20261012_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f81984-0a80-4752-a041-3cd60f19d9f9": {
+      "order_id": "a2f81984-0a80-4752-a041-3cd60f19d9f9",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.8611,
+      "resting_at": "2026-10-13T04:10:36Z",
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
       "status": "RESTING"
     }
   },
@@ -4873,8 +4909,16 @@
       "unrealized": 1.2707004497446805,
       "realized": -8.3738,
       "total": -7.1031
+    },
+    {
+      "ts": "2026-10-13T04:11:04Z",
+      "equity": 104.96290116035694,
+      "available": 90.03713316035693,
+      "unrealized": 1.6798465410079462,
+      "realized": -8.3738,
+      "total": -6.694
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-13T03:18:00Z"
+  "updated": "2026-10-13T04:11:04Z"
 }
