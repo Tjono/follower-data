@@ -4677,8 +4677,16 @@
       "opened_at": "2026-10-12T23:11:55Z",
       "margin_usd": 21.9957832685688,
       "braam_trade_id": "APTUSDT_20261009_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-12T12:10:59Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-12T12:10:59Z",
+      "closed_at": "2026-10-13T00:52:20Z",
+      "close_price": 0.7646,
+      "pnl_usd": -2.9122,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0898
     },
     "1519124973": {
       "position_id": "1519124973",
@@ -4689,8 +4697,16 @@
       "opened_at": "2026-10-12T23:39:08Z",
       "margin_usd": 21.887470608316,
       "braam_trade_id": "CAKEUSDT_20261012_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-12T16:11:43Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-12T16:11:43Z",
+      "closed_at": "2026-10-13T00:52:26Z",
+      "close_price": 2.213,
+      "pnl_usd": -1.4161,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0906
     },
     "1519124379": {
       "position_id": "1519124379",
@@ -4703,6 +4719,18 @@
       "braam_trade_id": "ONDOUSDT_20261009_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-09T12:10:42Z"
+    },
+    "1519179649": {
+      "position_id": "1519179649",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 12.25,
+      "opened_at": "2026-10-13T00:52:28Z",
+      "margin_usd": 21.69360645025,
+      "braam_trade_id": "LINKUSDT_20261009_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-09T00:11:15Z"
     }
   },
   "orders": {
@@ -10988,7 +11016,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-13T00:13:10Z",
+  "updated": "2026-10-13T02:12:24Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27909,6 +27937,14 @@
       "unrealized": -0.5763,
       "realized": 16.9977,
       "total": 16.4214
+    },
+    {
+      "ts": "2026-10-13T02:12:24Z",
+      "equity": 423.9476,
+      "available": 215.3814,
+      "unrealized": 3.4339,
+      "realized": 12.6694,
+      "total": 16.1033
     }
   ],
   "capital_events": {
