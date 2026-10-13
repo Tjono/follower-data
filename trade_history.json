@@ -4731,6 +4731,18 @@
       "braam_trade_id": "LINKUSDT_20261009_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-09T00:11:15Z"
+    },
+    "1519497006": {
+      "position_id": "1519497006",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 7.226,
+      "opened_at": "2026-10-13T12:17:46Z",
+      "margin_usd": 21.247137494704,
+      "braam_trade_id": "UNIUSDT_20261013_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-13T08:11:05Z"
     }
   },
   "orders": {
@@ -11114,7 +11126,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-13T12:12:02Z",
+  "updated": "2026-10-13T12:24:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28091,6 +28103,14 @@
       "unrealized": 2.4031,
       "realized": 12.6694,
       "total": 15.0725
+    },
+    {
+      "ts": "2026-10-13T12:24:07Z",
+      "equity": 423.0618,
+      "available": 70.4921,
+      "unrealized": 2.525,
+      "realized": 12.6694,
+      "total": 15.1944
     }
   ],
   "capital_events": {
