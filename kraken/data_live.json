@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-13T09:17:52Z",
+  "last_updated_iso": "2026-10-13T10:17:55Z",
   "freshness": {
-    "engine_run_iso": "2026-10-13T09:17:31Z",
+    "engine_run_iso": "2026-10-13T10:17:34Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-13T08:09:00Z",
+    "feed_generated_iso": "2026-10-13T10:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-13T09:17:52Z",
+    "published_iso": "2026-10-13T10:17:55Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.2888,
-    "equity": 104.641,
-    "available": 86.7567,
+    "unrealized_pnl": 1.1481,
+    "equity": 104.5217,
+    "available": 86.6374,
     "position_margin": 4.8026
   },
   "account_source": "live",
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "68 min old",
+      "value": "9 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.64",
+      "value": "$104.52",
       "status": "ok",
       "action": null
     },
@@ -1498,7 +1498,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-13T08:09Z",
+    "feed_generated_utc": "2026-10-13T10:08Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
@@ -1506,7 +1506,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-13T08:09Z",
+    "feed_generated_utc": "2026-10-13T10:08Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
@@ -1514,13 +1514,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-13T08:09Z",
+    "feed_generated_utc": "2026-10-13T10:08Z",
     "checked": 14,
     "in_parity": 14,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-13T09:17:52Z",
+    "updated_iso": "2026-10-13T10:17:55Z",
     "trades": [
       {
         "trade_id": "XRPUSDT_20261013_CJ_001",
