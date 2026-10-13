@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-13T14:30:22Z",
+  "last_updated_iso": "2026-10-13T16:09:52Z",
   "mexc_account": {
-    "unrealized_pnl": 5.2402,
-    "equity": 427.6181,
-    "available": 89.2342,
+    "unrealized_pnl": 4.378,
+    "equity": 426.7603,
+    "available": 89.2386,
     "position_margin": 47.8993
   },
   "order_levels": {
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.1h ago",
+      "value": "0.0h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$427.62",
+      "value": "$426.76",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open, 2 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -647,32 +647,6 @@
   ],
   "recent_signals": [
     {
-      "trade_id": "BTCUSDT_20261013_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 81663.99935133,
-      "tp1": 87949.26167641,
-      "sl": 80841.2537342,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-13T04:04:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "CAKEUSDT_20261013_CJ_001",
-      "coin": "CAKEUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 2.25831579,
-      "tp1": 2.47519079,
-      "sl": 2.2099382,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-13T04:04:00Z",
-      "rehearsal": false
-    },
-    {
       "trade_id": "XRPUSDT_20261013_CJ_001",
       "coin": "XRPUSDT",
       "direction": "Short",
@@ -726,18 +700,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "XLMUSDT_20261008_CJ_001",
-      "coin": "XLMUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 0.20088823,
-      "live_entry_fill": 0.20089,
-      "tp1_hit": false,
-      "iso": "2026-10-11T15:17:00Z",
-      "_iso_ms": 1791731820000,
-      "rehearsal": false
-    },
     {
       "trade_id": "NEARUSDT_20261011_CJ_001",
       "coin": "NEARUSDT",
@@ -4934,9 +4896,28 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-13T14:26Z",
+    "feed_generated_utc": "2026-10-13T16:10Z",
     "checked": 17,
-    "in_parity": 17,
-    "drifting": []
+    "in_parity": 16,
+    "drifting": [
+      {
+        "trade_id": "XRPUSDT_20261013_CJ_001",
+        "coin": "XRPUSDT",
+        "diffs": {
+          "tp1": {
+            "follower": 1.31060715,
+            "master": 1.27095085
+          },
+          "tp2": {
+            "follower": 1.20689599,
+            "master": 1.22067678
+          },
+          "sl": {
+            "follower": 1.46475201,
+            "master": 1.43141469
+          }
+        }
+      }
+    ]
   }
 }
