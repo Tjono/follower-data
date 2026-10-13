@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-13T14:18:14Z",
+  "last_updated_iso": "2026-10-13T14:25:15Z",
   "freshness": {
-    "engine_run_iso": "2026-10-13T14:17:42Z",
+    "engine_run_iso": "2026-10-13T14:24:44Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-13T14:13:00Z",
+    "feed_generated_iso": "2026-10-13T14:24:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-13T14:18:14Z",
+    "published_iso": "2026-10-13T14:25:15Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.5614,
-    "equity": 105.4723,
-    "available": 87.2297,
+    "unrealized_pnl": 1.4815,
+    "equity": 105.3866,
+    "available": 87.144,
     "position_margin": 5.0916
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "32s ago",
+      "value": "31s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "5 min old",
+      "value": "75s old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$105.47",
+      "value": "$105.39",
       "status": "ok",
       "action": null
     },
@@ -359,7 +359,7 @@
       "direction": "Long",
       "entry_price": 0.46732465,
       "sl": 0.44734974,
-      "tp1": 0.529,
+      "tp1": 0.5081,
       "tp2": 0.5746,
       "capital_usd": 5.3,
       "leverage": 3,
@@ -1632,7 +1632,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-13T14:13Z",
+    "feed_generated_utc": "2026-10-13T14:24Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
@@ -1640,7 +1640,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-13T14:13Z",
+    "feed_generated_utc": "2026-10-13T14:24Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
@@ -1648,13 +1648,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-13T14:13Z",
+    "feed_generated_utc": "2026-10-13T14:24Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-13T14:18:14Z",
+    "updated_iso": "2026-10-13T14:25:15Z",
     "trades": [
       {
         "trade_id": "UNIUSDT_20261013_CJ_001",
