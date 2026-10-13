@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-13T06:56:21Z",
+  "last_updated_iso": "2026-10-13T08:12:05Z",
   "mexc_account": {
-    "unrealized_pnl": 6.678,
-    "equity": 427.2531,
-    "available": 174.884,
+    "unrealized_pnl": 6.3651,
+    "equity": 426.9374,
+    "available": 132.3297,
     "position_margin": 43.5533
   },
   "order_levels": {
-    "checked": 12,
-    "in_sync": 12,
+    "checked": 14,
+    "in_sync": 14,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (334 records)",
+      "value": "OK (336 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$427.25",
+      "value": "$426.94",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (10 resting = journal)",
+      "value": "in sync (12 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -478,6 +478,72 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "XRPUSDT_20261013_CJ_001",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.44113615,
+      "sl": 1.46475201,
+      "tp1": 1.31060715,
+      "tp2": 1.20689599,
+      "capital_usd": 21.34,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-13",
+      "time_opened_utc": "08:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "UNIUSDT_20261013_CJ_001",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 7.2265,
+      "sl": 6.99191353,
+      "tp1": 7.860552,
+      "tp2": 8.55217293,
+      "capital_usd": 21.34,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-13",
+      "time_opened_utc": "08:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -518,6 +584,32 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-13T04:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "XRPUSDT_20261013_CJ_001",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 1.44113615,
+      "tp1": 1.31060715,
+      "sl": 1.46475201,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-13T08:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "UNIUSDT_20261013_CJ_001",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 7.2265,
+      "tp1": 7.860552,
+      "sl": 6.99191353,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-13T08:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4705,15 +4797,15 @@
         "closed_count": 119
       }
     },
-    "live_trade_count_total": 325,
-    "live_real_count": 325,
+    "live_trade_count_total": 327,
+    "live_real_count": 327,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-13T06:08Z",
-    "checked": 12,
-    "in_parity": 12,
+    "feed_generated_utc": "2026-10-13T08:09Z",
+    "checked": 14,
+    "in_parity": 14,
     "drifting": []
   }
 }
