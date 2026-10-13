@@ -1095,7 +1095,7 @@
       "fill_ids": [
         "59c52166-79b1-4372-82eb-9339ed885e75"
       ],
-      "unrealized_pnl": 0.20657295700000078,
+      "unrealized_pnl": 0.19208552600000206,
       "fee_asset": [
         "usd"
       ],
@@ -1218,7 +1218,7 @@
       "fill_ids": [
         "a204669f-5ca5-4aca-846f-46ac9c24997f"
       ],
-      "unrealized_pnl": -0.13575126143999938,
+      "unrealized_pnl": -0.17977040659999932,
       "fee_asset": [
         "usd"
       ],
@@ -1279,11 +1279,40 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.7414027527139994,
+      "unrealized_pnl": 0.6737745565199992,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "UNIUSDT_20261013_CJ_001": {
+      "position_id": "UNIUSDT_20261013_CJ_001",
+      "braam_trade_id": "UNIUSDT_20261013_CJ_001",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 7.226,
+      "entry_size": 2.1,
+      "exit_size": 0,
+      "opened_at": "2026-10-13T12:17:34Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.0582,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.003,
+      "funding_usd": null,
+      "fill_ids": [
+        "3942aaf8-c242-4bbf-a9f4-2fa35b0df843"
+      ],
+      "unrealized_pnl": 0.0011829029100006495,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -2809,6 +2838,20 @@
       "realized_pnl": -0.70788,
       "realized_funding": -0.00107948133,
       "sequence_id": "1452724"
+    },
+    "3942aaf8-c242-4bbf-a9f4-2fa35b0df843": {
+      "fill_id": "3942aaf8-c242-4bbf-a9f4-2fa35b0df843",
+      "symbol": "PF_UNIUSD",
+      "side": "buy",
+      "order_id": "a2f86f28-2bb4-4548-b62f-ed0a9aa34038",
+      "cliOrdId": "UNIUSDT_20261013_CJ_001",
+      "size": 2.1,
+      "price": 7.226,
+      "fillTime": "2026-10-13T12:17:34.575Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "9350959"
     }
   },
   "snapshots": [
@@ -5083,8 +5126,16 @@
       "unrealized": 0.8123170806187207,
       "realized": -8.3738,
       "total": -7.5615
+    },
+    {
+      "ts": "2026-10-13T12:18:07Z",
+      "equity": 104.10140843183122,
+      "available": 84.63039543183122,
+      "unrealized": 0.687438025231212,
+      "realized": -8.3738,
+      "total": -7.6864
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-13T12:10:04Z"
+  "updated": "2026-10-13T12:18:07Z"
 }
