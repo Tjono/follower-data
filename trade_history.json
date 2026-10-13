@@ -11014,9 +11014,44 @@
       "resting_at": "2026-10-13T00:11:29Z",
       "braam_trade_id": "TRXUSDT_20261002_CJ_001",
       "status": "RESTING"
+    },
+    "864841710930311680": {
+      "order_id": "864841710930311680",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.2583,
+      "resting_at": "2026-10-13T04:12:11Z",
+      "braam_trade_id": "CAKEUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "864841636969011200": {
+      "order_id": "864841636969011200",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 81664,
+      "resting_at": "2026-10-13T04:11:54Z",
+      "status": "RESTING"
+    },
+    "864841617499059200": {
+      "order_id": "864841617499059200",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2410.04,
+      "resting_at": "2026-10-13T04:11:49Z",
+      "braam_trade_id": "ETHUSDT_20261012_CJ_001",
+      "status": "RESTING"
+    },
+    "864841602664683584": {
+      "order_id": "864841602664683584",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.861,
+      "resting_at": "2026-10-13T04:11:45Z",
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-13T02:12:24Z",
+  "updated": "2026-10-13T04:13:43Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -27945,6 +27980,14 @@
       "unrealized": 3.4339,
       "realized": 12.6694,
       "total": 16.1033
+    },
+    {
+      "ts": "2026-10-13T04:13:43Z",
+      "equity": 426.5448,
+      "available": 174.884,
+      "unrealized": 5.9697,
+      "realized": 12.6694,
+      "total": 18.6391
     }
   ],
   "capital_events": {

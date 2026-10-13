@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-13T02:12:04Z",
+  "last_updated_iso": "2026-10-13T04:13:15Z",
   "mexc_account": {
-    "unrealized_pnl": 3.4339,
-    "equity": 423.9476,
-    "available": 215.3814,
+    "unrealized_pnl": 5.9697,
+    "equity": 426.5448,
+    "available": 174.884,
     "position_margin": 43.5533
   },
   "order_levels": {
-    "checked": 10,
-    "in_sync": 10,
+    "checked": 11,
+    "in_sync": 11,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (332 records)",
+      "value": "OK (334 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$423.95",
+      "value": "$426.54",
       "status": "ok",
       "action": null
     },
@@ -69,17 +69,17 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (8 resting = journal)",
-      "status": "ok",
-      "action": null
+      "value": "1 ORPHAN order(s) on MEXC",
+      "status": "urgent",
+      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): BTC_USDT Long @ 81664 (id 864841636969011200)"
     },
     {
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open, 2 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "live read failed",
+      "status": "warn",
+      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
     }
   ],
   "active_trades": [
@@ -252,10 +252,10 @@
       "trade_id": "RENDERUSDT_20261008_CJ_001",
       "coin": "RENDERUSDT",
       "direction": "Long",
-      "entry_price": 1.84884479,
-      "sl": 1.77963021,
-      "tp1": 2.06088187,
-      "tp2": 2.24573959,
+      "entry_price": 1.86111916,
+      "sl": 1.78417026,
+      "tp1": 2.34644476,
+      "tp2": 2.92365947,
       "capital_usd": 22.0,
       "leverage": 3,
       "trading_system": "John",
@@ -351,10 +351,10 @@
       "trade_id": "ETHUSDT_20261012_CJ_001",
       "coin": "ETHUSDT",
       "direction": "Long",
-      "entry_price": 2396.13907213,
-      "sl": 2369.81883814,
-      "tp1": 2729.47742539,
-      "tp2": 2826.54232373,
+      "entry_price": 2410.03585335,
+      "sl": 2374.22320261,
+      "tp1": 2692.23984909,
+      "tp2": 2782.84359477,
       "capital_usd": 22.19,
       "leverage": 3,
       "trading_system": "John",
@@ -412,6 +412,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "CAKEUSDT_20261013_CJ_001",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.25831579,
+      "sl": 2.2099382,
+      "tp1": 2.47519079,
+      "tp2": 2.54612359,
+      "capital_usd": 21.32,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-13",
+      "time_opened_utc": "04:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -426,6 +459,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-13T00:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "CAKEUSDT_20261013_CJ_001",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 2.25831579,
+      "tp1": 2.47519079,
+      "sl": 2.2099382,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-13T04:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4613,15 +4659,15 @@
         "closed_count": 119
       }
     },
-    "live_trade_count_total": 323,
-    "live_real_count": 323,
+    "live_trade_count_total": 324,
+    "live_real_count": 324,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-13T02:09Z",
-    "checked": 10,
-    "in_parity": 10,
+    "feed_generated_utc": "2026-10-13T04:10Z",
+    "checked": 11,
+    "in_parity": 11,
     "drifting": []
   }
 }
