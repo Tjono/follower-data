@@ -11076,9 +11076,45 @@
       "resting_at": "2026-10-13T08:11:03Z",
       "braam_trade_id": "XRPUSDT_20261013_CJ_001",
       "status": "RESTING"
+    },
+    "864962131289052160": {
+      "order_id": "864962131289052160",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.793,
+      "resting_at": "2026-10-13T12:10:42Z",
+      "braam_trade_id": "APTUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "864962124135413312": {
+      "order_id": "864962124135413312",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.4973,
+      "resting_at": "2026-10-13T12:10:40Z",
+      "braam_trade_id": "ONDOUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "864962116942170624": {
+      "order_id": "864962116942170624",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "entry_price": 1.3258,
+      "resting_at": "2026-10-13T12:10:38Z",
+      "braam_trade_id": "XRPUSDT_20261013_CJ_002",
+      "status": "RESTING"
+    },
+    "864962100325175872": {
+      "order_id": "864962100325175872",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.787,
+      "resting_at": "2026-10-13T12:10:34Z",
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-13T08:12:22Z",
+  "updated": "2026-10-13T12:12:02Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28047,6 +28083,14 @@
       "unrealized": 6.3651,
       "realized": 12.6694,
       "total": 19.0345
+    },
+    {
+      "ts": "2026-10-13T12:12:02Z",
+      "equity": 422.9781,
+      "available": 70.4794,
+      "unrealized": 2.4031,
+      "realized": 12.6694,
+      "total": 15.0725
     }
   ],
   "capital_events": {
