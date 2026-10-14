@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-14T10:38:38Z",
+  "last_updated_iso": "2026-10-14T12:11:52Z",
   "mexc_account": {
-    "unrealized_pnl": 3.1996,
-    "equity": 425.5969,
-    "available": 89.5781,
+    "unrealized_pnl": 3.9626,
+    "equity": 426.3614,
+    "available": 89.5692,
     "position_margin": 69.0915
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$425.60",
+      "value": "$426.36",
       "status": "ok",
       "action": null
     },
@@ -582,10 +582,10 @@
       "trade_id": "APTUSDT_20261013_CJ_001",
       "coin": "APTUSDT",
       "direction": "Long",
-      "entry_price": 0.79618307,
-      "sl": 0.76039745,
-      "tp1": 0.88909933,
-      "tp2": 0.9923051,
+      "entry_price": 0.79355183,
+      "sl": 0.76155913,
+      "tp1": 0.88964489,
+      "tp2": 0.95608175,
       "capital_usd": 21.15,
       "leverage": 3,
       "trading_system": "John",
@@ -4869,7 +4869,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-14T10:38Z",
+    "feed_generated_utc": "2026-10-14T12:09Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []

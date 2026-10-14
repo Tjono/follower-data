@@ -11190,9 +11190,18 @@
       "resting_at": "2026-10-14T08:10:34Z",
       "braam_trade_id": "ALGOUSDT_20261014_CJ_001",
       "status": "RESTING"
+    },
+    "865324516013115904": {
+      "order_id": "865324516013115904",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.7936,
+      "resting_at": "2026-10-14T12:10:41Z",
+      "braam_trade_id": "APTUSDT_20261013_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-14T10:38:57Z",
+  "updated": "2026-10-14T12:12:12Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28313,6 +28322,14 @@
       "unrealized": 3.1996,
       "realized": 12.6694,
       "total": 15.869
+    },
+    {
+      "ts": "2026-10-14T12:12:12Z",
+      "equity": 426.3614,
+      "available": 89.5692,
+      "unrealized": 3.9626,
+      "realized": 12.6694,
+      "total": 16.632
     }
   ],
   "capital_events": {
