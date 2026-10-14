@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-14T22:12:08Z",
+  "last_updated_iso": "2026-10-14T23:21:04Z",
   "mexc_account": {
-    "unrealized_pnl": 1.1067,
-    "equity": 417.9253,
+    "unrealized_pnl": 2.3904,
+    "equity": 419.2089,
     "available": 90.3677,
     "position_margin": 120.0355
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$417.93",
+      "value": "$419.21",
       "status": "ok",
       "action": null
     },
@@ -654,42 +654,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "ADAUSDT_20261010_CJ_001",
-      "coin": "ADAUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.23560004,
-      "live_entry_fill": 0.2356,
-      "tp1_hit": false,
-      "iso": "2026-10-12T23:02:00Z",
-      "_iso_ms": 1791846120000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "BTCUSDT_20261009_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 81931.34467667,
-      "live_entry_fill": 81931.3,
-      "tp1_hit": false,
-      "iso": "2026-10-12T23:05:00Z",
-      "_iso_ms": 1791846300000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "APTUSDT_20261009_CJ_001",
-      "coin": "APTUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.79888705,
-      "live_entry_fill": 0.7989,
-      "tp1_hit": false,
-      "iso": "2026-10-12T23:11:00Z",
-      "_iso_ms": 1791846660000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ONDOUSDT_20261009_CJ_001",
       "coin": "ONDOUSDT",
