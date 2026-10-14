@@ -4741,8 +4741,16 @@
       "opened_at": "2026-10-13T12:17:46Z",
       "margin_usd": 21.247137494704,
       "braam_trade_id": "UNIUSDT_20261013_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-13T08:11:05Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-13T08:11:05Z",
+      "closed_at": "2026-10-14T12:58:15Z",
+      "close_price": 7.439,
+      "pnl_usd": 1.7858,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0904
     },
     "1520029784": {
       "position_id": "1520029784",
@@ -4767,6 +4775,30 @@
       "braam_trade_id": "CAKEUSDT_20261013_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-13T04:12:12Z"
+    },
+    "1520164134": {
+      "position_id": "1520164134",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.11859,
+      "opened_at": "2026-10-14T13:13:47Z",
+      "margin_usd": 21.4370555381427,
+      "braam_trade_id": "ALGOUSDT_20261014_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-14T08:10:34Z"
+    },
+    "1520173329": {
+      "position_id": "1520173329",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.7936,
+      "opened_at": "2026-10-14T13:21:16Z",
+      "margin_usd": 21.1869400339712,
+      "braam_trade_id": "APTUSDT_20261013_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-14T12:10:41Z"
     }
   },
   "orders": {
@@ -11213,7 +11245,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-14T12:54:29Z",
+  "updated": "2026-10-14T13:22:22Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28358,6 +28390,14 @@
       "unrealized": 0.9903,
       "realized": 12.6694,
       "total": 13.6597
+    },
+    {
+      "ts": "2026-10-14T13:22:22Z",
+      "equity": 420.8781,
+      "available": 93.9394,
+      "unrealized": -1.3922,
+      "realized": 14.4552,
+      "total": 13.063
     }
   ],
   "capital_events": {
