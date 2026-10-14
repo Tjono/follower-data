@@ -4801,8 +4801,16 @@
       "opened_at": "2026-10-14T13:13:47Z",
       "margin_usd": 21.4370555381427,
       "braam_trade_id": "ALGOUSDT_20261014_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-14T08:10:34Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-14T08:10:34Z",
+      "closed_at": "2026-10-14T21:03:35Z",
+      "close_price": 0.11452,
+      "pnl_usd": -2.2936,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0879
     },
     "1520173329": {
       "position_id": "1520173329",
@@ -4839,6 +4847,18 @@
       "braam_trade_id": "BTCUSDT_20261013_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-13T05:44:00Z"
+    },
+    "1520442952": {
+      "position_id": "1520442952",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2410.04,
+      "opened_at": "2026-10-14T20:45:35Z",
+      "margin_usd": 16.105493812664,
+      "braam_trade_id": "ETHUSDT_20261012_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-13T04:11:49Z"
     }
   },
   "orders": {
@@ -11330,7 +11350,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-14T20:12:49Z",
+  "updated": "2026-10-14T22:12:29Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28547,6 +28567,14 @@
       "unrealized": 0.1127,
       "realized": 11.2927,
       "total": 11.4054
+    },
+    {
+      "ts": "2026-10-14T22:12:29Z",
+      "equity": 417.9253,
+      "available": 90.3677,
+      "unrealized": 1.1067,
+      "realized": 8.9991,
+      "total": 10.1058
     }
   ],
   "capital_events": {
