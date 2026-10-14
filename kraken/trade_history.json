@@ -1219,7 +1219,7 @@
       "fill_ids": [
         "a204669f-5ca5-4aca-846f-46ac9c24997f"
       ],
-      "unrealized_pnl": -0.09677336121999935,
+      "unrealized_pnl": -0.005448750239999023,
       "fee_asset": [
         "usd"
       ],
@@ -1280,7 +1280,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.8479747167190003,
+      "unrealized_pnl": 0.9432199303539994,
       "fee_asset": [
         "usd"
       ],
@@ -1311,7 +1311,7 @@
         "3942aaf8-c242-4bbf-a9f4-2fa35b0df843",
         "0f78f4f2-17bd-4f86-b705-a7b612518c4f"
       ],
-      "unrealized_pnl": 0.04148143790399992,
+      "unrealized_pnl": 0.06256314972400005,
       "fee_asset": [
         "usd"
       ],
@@ -1341,7 +1341,7 @@
       "fill_ids": [
         "02282421-1057-4266-a9a4-8b59716536f7"
       ],
-      "unrealized_pnl": -0.0009368971500006151,
+      "unrealized_pnl": -0.012349850729999556,
       "fee_asset": [
         "usd"
       ],
@@ -1950,6 +1950,15 @@
       "entry_price": 0.11859,
       "resting_at": "2026-10-14T08:09:36Z",
       "braam_trade_id": "ALGOUSDT_20261014_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fac7cb-232a-4f76-8978-120c60880d86": {
+      "order_id": "a2fac7cb-232a-4f76-8978-120c60880d86",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.7936,
+      "resting_at": "2026-10-14T12:09:35Z",
+      "braam_trade_id": "APTUSDT_20261013_CJ_001",
       "status": "RESTING"
     }
   },
@@ -5622,8 +5631,16 @@
       "unrealized": 0.7912501856429934,
       "realized": -8.2329,
       "total": -7.4416
+    },
+    {
+      "ts": "2026-10-14T12:09:50Z",
+      "equity": 105.07393054625935,
+      "available": 85.15009854625934,
+      "unrealized": 0.9879156258833528,
+      "realized": -8.2329,
+      "total": -7.245
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-14T11:18:46Z"
+  "updated": "2026-10-14T12:09:50Z"
 }
