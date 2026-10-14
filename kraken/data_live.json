@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-14T21:18:49Z",
+  "last_updated_iso": "2026-10-14T21:56:39Z",
   "freshness": {
-    "engine_run_iso": "2026-10-14T21:18:19Z",
+    "engine_run_iso": "2026-10-14T21:56:04Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-14T20:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-14T21:18:49Z",
+    "published_iso": "2026-10-14T21:56:39Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.1519,
-    "equity": 102.8252,
-    "available": 81.9787,
+    "unrealized_pnl": 0.1873,
+    "equity": 103.1866,
+    "available": 82.3388,
     "position_margin": 9.8091
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "30s ago",
+      "value": "35s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "69 min old",
+      "value": "107 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$102.83",
+      "value": "$103.19",
       "status": "ok",
       "action": null
     },
@@ -737,42 +737,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "XLMUSDT_20261012_CJ_001",
-      "coin": "XLMUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.19518852,
-      "live_entry_fill": 0.19519,
-      "tp1_hit": false,
-      "iso": "2026-10-12T21:44:23Z",
-      "_iso_ms": 1791841463000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "UNIUSDT_20261010_CJ_001",
-      "coin": "UNIUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 7.22900103,
-      "live_entry_fill": 7.229,
-      "tp1_hit": false,
-      "iso": "2026-10-12T21:44:25Z",
-      "_iso_ms": 1791841465000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "TAOUSDT_20261010_CJ_001",
-      "coin": "TAOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 276.56272298,
-      "live_entry_fill": 276.56,
-      "tp1_hit": false,
-      "iso": "2026-10-12T21:45:58Z",
-      "_iso_ms": 1791841558000,
-      "rehearsal": false
-    },
     {
       "trade_id": "TRXUSDT_20260929_CJ_001",
       "coin": "TRXUSDT",
@@ -1747,7 +1711,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-14T21:18:49Z",
+    "updated_iso": "2026-10-14T21:56:39Z",
     "trades": [
       {
         "trade_id": "ETHUSDT_20261012_CJ_001",

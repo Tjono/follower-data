@@ -1281,7 +1281,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.1893790749110007,
+      "unrealized_pnl": 0.2277843066980001,
       "fee_asset": [
         "usd"
       ],
@@ -1374,7 +1374,7 @@
       "fill_ids": [
         "98fcf6eb-139d-4932-b486-0ed89c0f3d05"
       ],
-      "unrealized_pnl": -0.18324402276000118,
+      "unrealized_pnl": -0.1519742509800004,
       "fee_asset": [
         "usd"
       ],
@@ -1404,7 +1404,7 @@
       "fill_ids": [
         "8e842ad6-f581-4d85-a83d-d027f4273aaf"
       ],
-      "unrealized_pnl": -0.47665043537999924,
+      "unrealized_pnl": -0.40894641032,
       "fee_asset": [
         "usd"
       ],
@@ -1434,7 +1434,7 @@
       "fill_ids": [
         "8e38f87d-a935-41df-8acc-67983752b6fb"
       ],
-      "unrealized_pnl": 0.2811171911460013,
+      "unrealized_pnl": 0.373659623723001,
       "fee_asset": [
         "usd"
       ],
@@ -1464,7 +1464,7 @@
       "fill_ids": [
         "f99c26b8-1b10-4953-842f-0ac50d294b35"
       ],
-      "unrealized_pnl": 0.0032996237581945026,
+      "unrealized_pnl": 0.004603998291367316,
       "fee_asset": [
         "usd"
       ],
@@ -1494,7 +1494,7 @@
       "fill_ids": [
         "b8e330b6-cd2b-4e12-b69b-0060f121311f"
       ],
-      "unrealized_pnl": 0.001657495839998413,
+      "unrealized_pnl": 0.09044413784999805,
       "fee_asset": [
         "usd"
       ],
@@ -1524,7 +1524,7 @@
       "fill_ids": [
         "34613a66-d320-475b-8628-74e57e4a4e88"
       ],
-      "unrealized_pnl": 0.0325255795173598,
+      "unrealized_pnl": 0.0495341103476394,
       "fee_asset": [
         "usd"
       ],
@@ -6201,8 +6201,16 @@
       "unrealized": -0.15188340305465983,
       "realized": -8.4785,
       "total": -8.6304
+    },
+    {
+      "ts": "2026-10-14T21:56:38Z",
+      "equity": 103.1881207649973,
+      "available": 82.34042909431948,
+      "unrealized": 0.18845608406430248,
+      "realized": -8.4785,
+      "total": -8.29
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-14T21:18:48Z"
+  "updated": "2026-10-14T21:56:38Z"
 }
