@@ -11319,9 +11319,18 @@
       "resting_at": "2026-10-14T16:11:53Z",
       "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "865445404061127744": {
+      "order_id": "865445404061127744",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.85,
+      "resting_at": "2026-10-14T20:11:03Z",
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-14T18:46:20Z",
+  "updated": "2026-10-14T20:12:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28530,6 +28539,14 @@
       "unrealized": -1.1553,
       "realized": 11.2927,
       "total": 10.1374
+    },
+    {
+      "ts": "2026-10-14T20:12:49Z",
+      "equity": 419.2116,
+      "available": 71.1724,
+      "unrealized": 0.1127,
+      "realized": 11.2927,
+      "total": 11.4054
     }
   ],
   "capital_events": {
