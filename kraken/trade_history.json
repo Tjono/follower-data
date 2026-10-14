@@ -45,7 +45,7 @@
       "close_price": 0.2557,
       "margin_usd": 5.600617,
       "status": "CLOSED",
-      "close_reason": "manual",
+      "close_reason": "engine_close",
       "close_fills": 1,
       "pnl_gross_usd": -0.18135,
       "pnl_usd": -0.19055,
@@ -76,7 +76,7 @@
       "close_price": 1.4597,
       "margin_usd": 5.369833,
       "status": "CLOSED",
-      "close_reason": "manual",
+      "close_reason": "engine_close",
       "close_fills": 1,
       "pnl_gross_usd": -0.0528,
       "pnl_usd": -0.0649,
@@ -804,7 +804,7 @@
       "close_price": 10.5031633987,
       "margin_usd": 5.4366,
       "status": "CLOSED",
-      "close_reason": "tp1_manual",
+      "close_reason": "tp1_engine_close",
       "close_fills": 2,
       "pnl_gross_usd": 0.23996,
       "pnl_usd": 0.22876,
@@ -1085,7 +1085,7 @@
       "close_price": 0.32706,
       "margin_usd": 5.404167,
       "status": "CLOSED",
-      "close_reason": "manual",
+      "close_reason": "engine_close",
       "close_fills": 1,
       "pnl_gross_usd": 0.1405,
       "pnl_usd": 0.1409,
@@ -1219,7 +1219,7 @@
       "fill_ids": [
         "a204669f-5ca5-4aca-846f-46ac9c24997f"
       ],
-      "unrealized_pnl": -0.02174185352000002,
+      "unrealized_pnl": -0.03372968061999915,
       "fee_asset": [
         "usd"
       ],
@@ -1280,7 +1280,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.8796129313009994,
+      "unrealized_pnl": 0.8634196393029999,
       "fee_asset": [
         "usd"
       ],
@@ -1311,7 +1311,7 @@
         "3942aaf8-c242-4bbf-a9f4-2fa35b0df843",
         "0f78f4f2-17bd-4f86-b705-a7b612518c4f"
       ],
-      "unrealized_pnl": 0.06655430514800002,
+      "unrealized_pnl": 0.06655333417599998,
       "fee_asset": [
         "usd"
       ],
@@ -5489,8 +5489,16 @@
       "unrealized": 0.9247726613673167,
       "realized": -8.2329,
       "total": -7.3081
+    },
+    {
+      "ts": "2026-10-14T08:00:37Z",
+      "equity": 105.02380475205142,
+      "available": 86.68005975205142,
+      "unrealized": 0.896244710734424,
+      "realized": -8.2329,
+      "total": -7.3367
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-14T07:57:41Z"
+  "updated": "2026-10-14T08:00:37Z"
 }

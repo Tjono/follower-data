@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-14T07:57:44+00:00",
+  "generated_at_utc": "2026-10-14T08:00:38+00:00",
   "venue": "Kraken",
   "all_time": {
     "total_trades": 24,
@@ -527,7 +527,7 @@
     "pnl_usd": 0.23,
     "pnl_pct": 4.21,
     "date_closed": "2026-10-11",
-    "close_reason": "tp1_manual",
+    "close_reason": "tp1_engine_close",
     "conviction": "MEDIUM"
   },
   "worst_trade": {
@@ -549,7 +549,7 @@
       "system": "John",
       "pnl_usd": 0.14,
       "won": true,
-      "close_reason": "manual",
+      "close_reason": "engine_close",
       "iso": "2026-10-14T00:10:06+00:00"
     },
     {
