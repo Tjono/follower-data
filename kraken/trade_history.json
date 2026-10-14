@@ -1281,7 +1281,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.12228416778499973,
+      "unrealized_pnl": 0.14329434076100078,
       "fee_asset": [
         "usd"
       ],
@@ -1343,7 +1343,7 @@
       "fill_ids": [
         "02282421-1057-4266-a9a4-8b59716536f7"
       ],
-      "unrealized_pnl": 0.048990084360001074,
+      "unrealized_pnl": 0.028364447230001644,
       "fee_asset": [
         "usd"
       ],
@@ -1373,7 +1373,7 @@
       "fill_ids": [
         "98fcf6eb-139d-4932-b486-0ed89c0f3d05"
       ],
-      "unrealized_pnl": -0.14106399558000238,
+      "unrealized_pnl": -0.18153963900000036,
       "fee_asset": [
         "usd"
       ],
@@ -1403,7 +1403,7 @@
       "fill_ids": [
         "8e842ad6-f581-4d85-a83d-d027f4273aaf"
       ],
-      "unrealized_pnl": -0.3324257873300007,
+      "unrealized_pnl": -0.3599815306500009,
       "fee_asset": [
         "usd"
       ],
@@ -1433,7 +1433,7 @@
       "fill_ids": [
         "8e38f87d-a935-41df-8acc-67983752b6fb"
       ],
-      "unrealized_pnl": -0.0398251541709995,
+      "unrealized_pnl": 0.04793293601200099,
       "fee_asset": [
         "usd"
       ],
@@ -1463,11 +1463,40 @@
       "fill_ids": [
         "f99c26b8-1b10-4953-842f-0ac50d294b35"
       ],
-      "unrealized_pnl": 0.006527961574340589,
+      "unrealized_pnl": -0.000518815126901609,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "XRPUSDT_20261013_CJ_002": {
+      "position_id": "XRPUSDT_20261013_CJ_002",
+      "braam_trade_id": "XRPUSDT_20261013_CJ_002",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.3258,
+      "entry_size": 11.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-14T15:08:41Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 4.861267,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0029,
+      "funding_usd": null,
+      "fill_ids": [
+        "b8e330b6-cd2b-4e12-b69b-0060f121311f"
+      ],
+      "unrealized_pnl": 0.028003294110000132,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -3187,6 +3216,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "103248648"
+    },
+    "b8e330b6-cd2b-4e12-b69b-0060f121311f": {
+      "fill_id": "b8e330b6-cd2b-4e12-b69b-0060f121311f",
+      "symbol": "PF_XRPUSD",
+      "side": "buy",
+      "order_id": "a2f8c4d6-f98d-4524-8d1e-edf5dc4b0316",
+      "cliOrdId": "XRPUSDT_20261013_CJ_002",
+      "size": 11,
+      "price": 1.3258,
+      "fillTime": "2026-10-14T15:08:41.803Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "39586164"
     }
   },
   "snapshots": [
@@ -5949,8 +5992,16 @@
       "unrealized": -0.38907814874836977,
       "realized": -8.4616,
       "total": -8.8507
+    },
+    {
+      "ts": "2026-10-14T15:09:43Z",
+      "equity": 102.34173200159576,
+      "available": 82.84405385891901,
+      "unrealized": -0.2945560674081384,
+      "realized": -8.4616,
+      "total": -8.7562
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-14T14:52:41Z"
+  "updated": "2026-10-14T15:09:43Z"
 }
