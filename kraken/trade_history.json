@@ -1281,7 +1281,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.28911208298700014,
+      "unrealized_pnl": 0.2523207389170001,
       "fee_asset": [
         "usd"
       ],
@@ -1343,7 +1343,7 @@
       "fill_ids": [
         "02282421-1057-4266-a9a4-8b59716536f7"
       ],
-      "unrealized_pnl": 0.005728247000000075,
+      "unrealized_pnl": 0.016830967859999324,
       "fee_asset": [
         "usd"
       ],
@@ -1373,7 +1373,7 @@
       "fill_ids": [
         "98fcf6eb-139d-4932-b486-0ed89c0f3d05"
       ],
-      "unrealized_pnl": -0.08734953114000188,
+      "unrealized_pnl": -0.1750611507600004,
       "fee_asset": [
         "usd"
       ],
@@ -1403,7 +1403,7 @@
       "fill_ids": [
         "8e842ad6-f581-4d85-a83d-d027f4273aaf"
       ],
-      "unrealized_pnl": -0.22223102733999947,
+      "unrealized_pnl": -0.35735480325999924,
       "fee_asset": [
         "usd"
       ],
@@ -1433,7 +1433,7 @@
       "fill_ids": [
         "8e38f87d-a935-41df-8acc-67983752b6fb"
       ],
-      "unrealized_pnl": 0.08427428446200096,
+      "unrealized_pnl": -0.03190413443699863,
       "fee_asset": [
         "usd"
       ],
@@ -1463,7 +1463,7 @@
       "fill_ids": [
         "f99c26b8-1b10-4953-842f-0ac50d294b35"
       ],
-      "unrealized_pnl": 0.032300192272001,
+      "unrealized_pnl": -0.008507971890925546,
       "fee_asset": [
         "usd"
       ],
@@ -1493,7 +1493,7 @@
       "fill_ids": [
         "b8e330b6-cd2b-4e12-b69b-0060f121311f"
       ],
-      "unrealized_pnl": 0.13234221560999937,
+      "unrealized_pnl": 0.03412775574999927,
       "fee_asset": [
         "usd"
       ],
@@ -2111,6 +2111,42 @@
       "entry_price": 0.7936,
       "resting_at": "2026-10-14T12:09:35Z",
       "braam_trade_id": "APTUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fb1e23-f419-4187-ae6a-0f27619c6ece": {
+      "order_id": "a2fb1e23-f419-4187-ae6a-0f27619c6ece",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "entry_price": 61.23,
+      "resting_at": "2026-10-14T16:11:01Z",
+      "braam_trade_id": "LTCUSDT_20261014_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fb1e20-e5dd-41a4-b3c6-bc9eb55cc8d0": {
+      "order_id": "a2fb1e20-e5dd-41a4-b3c6-bc9eb55cc8d0",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "entry_price": 13.315,
+      "resting_at": "2026-10-14T16:10:59Z",
+      "braam_trade_id": "LINKUSDT_20261014_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fb1e17-8b12-4c22-a2a8-b202ebd1fd25": {
+      "order_id": "a2fb1e17-8b12-4c22-a2a8-b202ebd1fd25",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 9.51,
+      "resting_at": "2026-10-14T16:10:53Z",
+      "braam_trade_id": "AVAXUSDT_20261014_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fb1e12-ff2e-44cd-b16d-55c29ca1cd9c": {
+      "order_id": "a2fb1e12-ff2e-44cd-b16d-55c29ca1cd9c",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.7946,
+      "resting_at": "2026-10-14T16:10:50Z",
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
       "status": "RESTING"
     }
   },
@@ -6009,8 +6045,16 @@
       "unrealized": 0.23397128981668774,
       "realized": -8.4616,
       "total": -8.2276
+    },
+    {
+      "ts": "2026-10-14T16:11:34Z",
+      "equity": 102.44086189046655,
+      "available": 79.8830532170271,
+      "unrealized": -0.27179374041205984,
+      "realized": -8.4616,
+      "total": -8.7334
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-14T15:18:45Z"
+  "updated": "2026-10-14T16:11:34Z"
 }
