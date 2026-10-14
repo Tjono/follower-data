@@ -1219,7 +1219,7 @@
       "fill_ids": [
         "a204669f-5ca5-4aca-846f-46ac9c24997f"
       ],
-      "unrealized_pnl": -0.0898508728200006,
+      "unrealized_pnl": -0.11314421127999907,
       "fee_asset": [
         "usd"
       ],
@@ -1280,7 +1280,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.9147827305370004,
+      "unrealized_pnl": 0.831437499060999,
       "fee_asset": [
         "usd"
       ],
@@ -1311,11 +1311,40 @@
         "3942aaf8-c242-4bbf-a9f4-2fa35b0df843",
         "0f78f4f2-17bd-4f86-b705-a7b612518c4f"
       ],
-      "unrealized_pnl": 0.05848499718000007,
+      "unrealized_pnl": 0.05062763629600014,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "TRXUSDT_20261002_CJ_001": {
+      "position_id": "TRXUSDT_20261002_CJ_001",
+      "braam_trade_id": "TRXUSDT_20261002_CJ_001",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.33355,
+      "entry_size": 49.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-14T09:56:00Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.447983,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0033,
+      "funding_usd": null,
+      "fill_ids": [
+        "02282421-1057-4266-a9a4-8b59716536f7"
+      ],
+      "unrealized_pnl": -0.0014672074899989007,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -2928,6 +2957,20 @@
       "realized_pnl": 0.1405,
       "realized_funding": 0.00013701865,
       "sequence_id": "1039112"
+    },
+    "02282421-1057-4266-a9a4-8b59716536f7": {
+      "fill_id": "02282421-1057-4266-a9a4-8b59716536f7",
+      "symbol": "PF_TRXUSD",
+      "side": "sell",
+      "order_id": "a2f7c3aa-5e6a-4119-a5d0-fdbc2cb78769",
+      "cliOrdId": "TRXUSDT_20261002_CJ_001#1791850232495",
+      "size": 49,
+      "price": 0.33355,
+      "fillTime": "2026-10-14T09:56:00.432Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "1041791"
     }
   },
   "snapshots": [
@@ -5530,8 +5573,16 @@
       "unrealized": 0.883436912746122,
       "realized": -8.2329,
       "total": -7.3495
+    },
+    {
+      "ts": "2026-10-14T09:56:47Z",
+      "equity": 104.83839807895775,
+      "available": 84.91740607895775,
+      "unrealized": 0.7675185077637532,
+      "realized": -8.2329,
+      "total": -7.4654
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-14T09:18:56Z"
+  "updated": "2026-10-14T09:56:47Z"
 }
