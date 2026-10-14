@@ -1079,27 +1079,28 @@
       "leverage": 3,
       "entry_price": 0.32425,
       "entry_size": 50.0,
-      "exit_size": 0,
+      "exit_size": 50.0,
       "opened_at": "2026-10-12T22:00:01Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-14T00:10:06Z",
+      "close_price": 0.32706,
       "margin_usd": 5.404167,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0032,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "manual",
+      "close_fills": 1,
+      "pnl_gross_usd": 0.1405,
+      "pnl_usd": 0.1409,
+      "tag": "WIN",
+      "fees_usd": 0.0114,
+      "funding_usd": 0.0118,
       "fill_ids": [
-        "59c52166-79b1-4372-82eb-9339ed885e75"
+        "59c52166-79b1-4372-82eb-9339ed885e75",
+        "fd0eea3e-60cc-4a89-aa1b-72c42ebb8de2"
       ],
       "unrealized_pnl": 0.16187276050000088,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "ADAUSDT_20261010_CJ_001": {
       "position_id": "ADAUSDT_20261010_CJ_001",
@@ -1218,7 +1219,7 @@
       "fill_ids": [
         "a204669f-5ca5-4aca-846f-46ac9c24997f"
       ],
-      "unrealized_pnl": -0.04403758947999914,
+      "unrealized_pnl": 0.06462963916000108,
       "fee_asset": [
         "usd"
       ],
@@ -1279,7 +1280,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": 0.8232695459040006,
+      "unrealized_pnl": 0.8603680522970008,
       "fee_asset": [
         "usd"
       ],
@@ -1310,7 +1311,7 @@
         "3942aaf8-c242-4bbf-a9f4-2fa35b0df843",
         "0f78f4f2-17bd-4f86-b705-a7b612518c4f"
       ],
-      "unrealized_pnl": 0.1393175019360001,
+      "unrealized_pnl": 0.14514211574399988,
       "fee_asset": [
         "usd"
       ],
@@ -1892,6 +1893,15 @@
       "entry_price": 0.7962,
       "resting_at": "2026-10-13T20:10:01Z",
       "braam_trade_id": "APTUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "a2f9c685-0c1c-4dbb-aca1-dc989498ee2d": {
+      "order_id": "a2f9c685-0c1c-4dbb-aca1-dc989498ee2d",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.8518,
+      "resting_at": "2026-10-14T00:10:11Z",
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
       "status": "RESTING"
     }
   },
@@ -2886,6 +2896,20 @@
       "realized_pnl": 0.4573,
       "realized_funding": 6.238016e-05,
       "sequence_id": "9352320"
+    },
+    "fd0eea3e-60cc-4a89-aa1b-72c42ebb8de2": {
+      "fill_id": "fd0eea3e-60cc-4a89-aa1b-72c42ebb8de2",
+      "symbol": "PF_TRXUSD",
+      "side": "sell",
+      "order_id": "a2f9c67d-0bca-4ee3-b0d4-db2d1313cba5",
+      "cliOrdId": "TRXUSDT_20260929_CJ_001:MC",
+      "size": 50,
+      "price": 0.32706,
+      "fillTime": "2026-10-14T00:10:06.402Z",
+      "fillType": "taker",
+      "realized_pnl": 0.1405,
+      "realized_funding": 0.00013701865,
+      "sequence_id": "1039112"
     }
   },
   "snapshots": [
@@ -5352,8 +5376,16 @@
       "unrealized": 1.079498825896724,
       "realized": -8.3738,
       "total": -7.2943
+    },
+    {
+      "ts": "2026-10-14T00:10:26Z",
+      "equity": 105.2269163405507,
+      "available": 86.88039434055071,
+      "unrealized": 1.0702343928476952,
+      "realized": -8.2329,
+      "total": -7.1627
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-13T23:18:02Z"
+  "updated": "2026-10-14T00:10:26Z"
 }
