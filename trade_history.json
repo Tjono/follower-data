@@ -11151,9 +11151,18 @@
       "resting_at": "2026-10-13T20:10:59Z",
       "braam_trade_id": "APTUSDT_20261013_CJ_001",
       "status": "RESTING"
+    },
+    "865143462114019904": {
+      "order_id": "865143462114019904",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.852,
+      "resting_at": "2026-10-14T00:11:14Z",
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-13T21:23:54Z",
+  "updated": "2026-10-14T00:12:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28218,6 +28227,14 @@
       "unrealized": 3.7109,
       "realized": 12.6694,
       "total": 16.3803
+    },
+    {
+      "ts": "2026-10-14T00:12:57Z",
+      "equity": 427.0494,
+      "available": 110.8433,
+      "unrealized": 4.6732,
+      "realized": 12.6694,
+      "total": 17.3426
     }
   ],
   "capital_events": {
