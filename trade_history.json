@@ -4769,8 +4769,16 @@
       "opened_at": "2026-10-14T09:52:49Z",
       "margin_usd": 21.19222979018267,
       "braam_trade_id": "TRXUSDT_20261002_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-13T00:11:29Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-13T00:11:29Z",
+      "closed_at": "2026-10-14T17:00:42Z",
+      "close_price": 0.33459,
+      "pnl_usd": -0.2801,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0888
     },
     "1520105800": {
       "position_id": "1520105800",
@@ -11313,7 +11321,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-14T16:13:47Z",
+  "updated": "2026-10-14T18:12:07Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28506,6 +28514,14 @@
       "unrealized": -1.5415,
       "realized": 11.5728,
       "total": 10.0313
+    },
+    {
+      "ts": "2026-10-14T18:12:07Z",
+      "equity": 419.0605,
+      "available": 71.2191,
+      "unrealized": -0.0415,
+      "realized": 11.2927,
+      "total": 11.2512
     }
   ],
   "capital_events": {
