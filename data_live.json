@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-14T07:49:59Z",
+  "last_updated_iso": "2026-10-14T08:11:37Z",
   "mexc_account": {
-    "unrealized_pnl": 3.4667,
-    "equity": 425.9008,
-    "available": 111.0526,
+    "unrealized_pnl": 5.2527,
+    "equity": 427.688,
+    "available": 89.5654,
     "position_margin": 47.8993
   },
   "order_levels": {
-    "checked": 16,
-    "in_sync": 16,
+    "checked": 17,
+    "in_sync": 17,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (339 records)",
+      "value": "OK (340 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$425.90",
+      "value": "$427.69",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (13 resting = journal)",
+      "value": "in sync (14 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -610,9 +610,56 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "ALGOUSDT_20261014_CJ_001",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.11859144,
+      "sl": 0.11453481,
+      "tp1": 0.13283109,
+      "tp2": 0.13573039,
+      "capital_usd": 21.4,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-14",
+      "time_opened_utc": "08:03",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "ALGOUSDT_20261014_CJ_001",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.11859144,
+      "tp1": 0.13283109,
+      "sl": 0.11453481,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-14T08:03:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "NEARUSDT_20261011_CJ_001",
@@ -4804,15 +4851,15 @@
         "closed_count": 119
       }
     },
-    "live_trade_count_total": 330,
-    "live_real_count": 330,
+    "live_trade_count_total": 331,
+    "live_real_count": 331,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-14T06:07Z",
-    "checked": 16,
-    "in_parity": 16,
+    "feed_generated_utc": "2026-10-14T08:08Z",
+    "checked": 17,
+    "in_parity": 17,
     "drifting": []
   }
 }
