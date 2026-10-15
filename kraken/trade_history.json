@@ -1281,7 +1281,7 @@
       "fill_ids": [
         "99c2400b-394e-4a8e-8465-b04bf82588d8"
       ],
-      "unrealized_pnl": -0.1888731031459999,
+      "unrealized_pnl": -0.16110786348800019,
       "fee_asset": [
         "usd"
       ],
@@ -1420,27 +1420,28 @@
       "leverage": 3,
       "entry_price": 0.7936,
       "entry_size": 19.7,
-      "exit_size": 0,
+      "exit_size": 19.7,
       "opened_at": "2026-10-14T13:19:35Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-15T02:24:28Z",
+      "close_price": 0.756,
       "margin_usd": 5.211307,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0031,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.74072,
+      "pnl_usd": -0.74682,
+      "tag": "LOSS",
+      "fees_usd": 0.0105,
+      "funding_usd": 0.0044,
       "fill_ids": [
-        "8e38f87d-a935-41df-8acc-67983752b6fb"
+        "8e38f87d-a935-41df-8acc-67983752b6fb",
+        "21b5bd99-e44c-47f8-aefd-5fc5d87ba6ed"
       ],
       "unrealized_pnl": -0.5071219995559987,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "BTCUSDT_20261013_CJ_001": {
       "position_id": "BTCUSDT_20261013_CJ_001",
@@ -1450,27 +1451,28 @@
       "leverage": 3,
       "entry_price": 81664.0,
       "entry_size": 0.0001,
-      "exit_size": 0,
+      "exit_size": 0.0001,
       "opened_at": "2026-10-14T14:50:23Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-15T02:24:19Z",
+      "close_price": 80811.0,
       "margin_usd": 2.722133,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0016,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.0853,
+      "pnl_usd": -0.0923,
+      "tag": "LOSS",
+      "fees_usd": 0.0056,
+      "funding_usd": -0.0014,
       "fill_ids": [
-        "f99c26b8-1b10-4953-842f-0ac50d294b35"
+        "f99c26b8-1b10-4953-842f-0ac50d294b35",
+        "bd1db7da-92ea-4ed3-b926-55abe519ac74"
       ],
       "unrealized_pnl": -0.0735985745052807,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "XRPUSDT_20261013_CJ_002": {
       "position_id": "XRPUSDT_20261013_CJ_002",
@@ -1558,7 +1560,7 @@
       "fill_ids": [
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56"
       ],
-      "unrealized_pnl": -0.0616864253999978,
+      "unrealized_pnl": -0.007368751799999629,
       "fee_asset": [
         "usd"
       ],
@@ -1588,7 +1590,37 @@
       "fill_ids": [
         "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d"
       ],
-      "unrealized_pnl": -0.04403145894400123,
+      "unrealized_pnl": -0.0019633262000011698,
+      "fee_asset": [
+        "usd"
+      ],
+      "pnl_basis": null
+    },
+    "AVAXUSDT_20261014_CJ_001": {
+      "position_id": "AVAXUSDT_20261014_CJ_001",
+      "braam_trade_id": "AVAXUSDT_20261014_CJ_001",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 9.51,
+      "entry_size": 1.61,
+      "exit_size": 0,
+      "opened_at": "2026-10-15T02:24:05Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.1037,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0031,
+      "funding_usd": null,
+      "fill_ids": [
+        "e1629999-e85f-4cf9-bac6-b30f830d5d14"
+      ],
+      "unrealized_pnl": 0.13525464893920172,
       "fee_asset": [
         "usd"
       ]
@@ -3500,6 +3532,48 @@
       "realized_pnl": -0.2827,
       "realized_funding": -4.489156e-05,
       "sequence_id": "39609631"
+    },
+    "21b5bd99-e44c-47f8-aefd-5fc5d87ba6ed": {
+      "fill_id": "21b5bd99-e44c-47f8-aefd-5fc5d87ba6ed",
+      "symbol": "PF_APTUSD",
+      "side": "sell",
+      "order_id": "a2fae0f6-1f99-4db3-9bc7-505cd33143af",
+      "cliOrdId": "APTUSDT_20261013_CJ_001:SL#1791983997350",
+      "size": 19.7,
+      "price": 0.756,
+      "fillTime": "2026-10-15T02:24:28Z",
+      "fillType": "taker",
+      "realized_pnl": -0.74072,
+      "realized_funding": -6.929512e-05,
+      "sequence_id": "1456935"
+    },
+    "bd1db7da-92ea-4ed3-b926-55abe519ac74": {
+      "fill_id": "bd1db7da-92ea-4ed3-b926-55abe519ac74",
+      "symbol": "PF_XBTUSD",
+      "side": "sell",
+      "order_id": "a2fb01c2-2d86-4cba-bc72-227186ed9eec",
+      "cliOrdId": "BTCUSDT_20261013_CJ_001:SL#1791989499753",
+      "size": 0.0001,
+      "price": 80811,
+      "fillTime": "2026-10-15T02:24:19.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.0853,
+      "realized_funding": -4.541902e-05,
+      "sequence_id": "103386323"
+    },
+    "e1629999-e85f-4cf9-bac6-b30f830d5d14": {
+      "fill_id": "e1629999-e85f-4cf9-bac6-b30f830d5d14",
+      "symbol": "PF_AVAXUSD",
+      "side": "buy",
+      "order_id": "a2fb1e17-8b12-4c22-a2a8-b202ebd1fd25",
+      "cliOrdId": "AVAXUSDT_20261014_CJ_001",
+      "size": 1.61,
+      "price": 9.51,
+      "fillTime": "2026-10-15T02:24:05.403Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "11736147"
     }
   },
   "snapshots": [
@@ -6446,8 +6520,16 @@
       "unrealized": -0.8728313589562288,
       "realized": -9.7709,
       "total": -10.6437
+    },
+    {
+      "ts": "2026-10-15T02:26:03Z",
+      "equity": 101.377447679889,
+      "available": 82.756602679889,
+      "unrealized": -0.04470068917068703,
+      "realized": -10.6101,
+      "total": -10.6548
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-15T02:23:51Z"
+  "updated": "2026-10-15T02:26:03Z"
 }
