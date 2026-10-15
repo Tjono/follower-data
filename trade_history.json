@@ -11498,9 +11498,36 @@
       "resting_at": "2026-10-15T04:11:43Z",
       "braam_trade_id": "BTCUSDT_20261015_CJ_001",
       "status": "RESTING"
+    },
+    "865747557954229248": {
+      "order_id": "865747557954229248",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 7.224,
+      "resting_at": "2026-10-15T16:11:42Z",
+      "braam_trade_id": "UNIUSDT_20261015_CJ_002",
+      "status": "RESTING"
+    },
+    "865747550450308096": {
+      "order_id": "865747550450308096",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 84898.9,
+      "resting_at": "2026-10-15T16:11:40Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_002",
+      "status": "RESTING"
+    },
+    "865747526454744576": {
+      "order_id": "865747526454744576",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.3773,
+      "resting_at": "2026-10-15T16:11:34Z",
+      "braam_trade_id": "XRPUSDT_20261013_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-15T15:11:58Z",
+  "updated": "2026-10-15T16:13:18Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28805,6 +28832,14 @@
       "unrealized": 9.6332,
       "realized": 0.3234,
       "total": 9.9566
+    },
+    {
+      "ts": "2026-10-15T16:13:18Z",
+      "equity": 418.4101,
+      "available": 102.5847,
+      "unrealized": 3.7204,
+      "realized": 0.3234,
+      "total": 4.0438
     }
   ],
   "capital_events": {
