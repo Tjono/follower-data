@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-15T20:18:47Z",
+  "last_updated_iso": "2026-10-15T21:18:39Z",
   "freshness": {
-    "engine_run_iso": "2026-10-15T20:18:13Z",
+    "engine_run_iso": "2026-10-15T21:18:12Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-15T20:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-15T20:18:47Z",
+    "published_iso": "2026-10-15T21:18:39Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.7505,
-    "equity": 104.1402,
-    "available": 82.7032,
+    "unrealized_pnl": 1.4886,
+    "equity": 103.9249,
+    "available": 82.4879,
     "position_margin": 3.8166
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "34s ago",
+      "value": "27s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "69 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.14",
+      "value": "$103.92",
       "status": "ok",
       "action": null
     },
@@ -1879,7 +1879,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-15T20:18:47Z",
+    "updated_iso": "2026-10-15T21:18:39Z",
     "trades": [
       {
         "trade_id": "APTUSDT_20261015_CJ_001",
