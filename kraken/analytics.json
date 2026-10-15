@@ -1,39 +1,39 @@
 {
-  "generated_at_utc": "2026-10-14T23:18:48+00:00",
+  "generated_at_utc": "2026-10-15T00:10:29+00:00",
   "venue": "Kraken",
   "all_time": {
-    "total_trades": 27,
+    "total_trades": 28,
     "wins": 3,
-    "losses": 24,
-    "win_rate": 11.1,
-    "total_pnl_usd": -8.48,
-    "avg_pnl_usd": -0.31,
+    "losses": 25,
+    "win_rate": 10.7,
+    "total_pnl_usd": -8.93,
+    "avg_pnl_usd": -0.32,
     "best_usd": 0.45,
     "worst_usd": -0.8,
     "avg_win_usd": 0.27,
     "avg_loss_usd": -0.39,
-    "expectancy_usd": -0.31,
-    "profit_factor": 0.09,
+    "expectancy_usd": -0.32,
+    "profit_factor": 0.08,
     "longest_win_streak": 2,
     "longest_loss_streak": 12,
     "current_streak_type": "loss",
-    "current_streak_count": 2,
-    "avg_hold_hours": 8.9,
-    "median_hold_hours": 2.7
+    "current_streak_count": 3,
+    "avg_hold_hours": 9.0,
+    "median_hold_hours": 3.2
   },
   "by_system": {
     "John": {
-      "n": 27,
+      "n": 28,
       "wins": 3,
-      "wr": 11.1,
-      "pnl": -8.48,
-      "avg": -0.31,
+      "wr": 10.7,
+      "pnl": -8.93,
+      "avg": -0.32,
       "inception": "2026-10-07",
-      "days_active": 8,
-      "pnl_per_day": -1.06,
+      "days_active": 9,
+      "pnl_per_day": -0.99,
       "status": "active",
-      "open": 7,
-      "pending": 10
+      "open": 6,
+      "pending": 12
     },
     "Braam": {
       "n": 0,
@@ -67,14 +67,14 @@
     {
       "name": "John",
       "inception": "2026-10-07",
-      "days_active": 8,
-      "closed": 27,
+      "days_active": 9,
+      "closed": 28,
       "wins": 3,
-      "wr": 11.1,
-      "pnl": -8.48,
-      "pnl_per_day": -1.06,
-      "open": 7,
-      "pending": 10
+      "wr": 10.7,
+      "pnl": -8.93,
+      "pnl_per_day": -0.99,
+      "open": 6,
+      "pending": 12
     },
     {
       "name": "Braam",
@@ -104,11 +104,11 @@
   "monthly": [
     {
       "month": "2026-10",
-      "n": 27,
+      "n": 28,
       "wins": 3,
-      "wr": 11.1,
-      "pnl": -8.48,
-      "cumulative_pnl": -8.48
+      "wr": 10.7,
+      "pnl": -8.93,
+      "cumulative_pnl": -8.93
     }
   ],
   "equity_curve": [
@@ -273,6 +273,12 @@
       "pnl": -0.02,
       "cumulative": -8.48,
       "won": false
+    },
+    {
+      "iso": "2026-10-15T00:09:51Z",
+      "pnl": -0.45,
+      "cumulative": -8.93,
+      "won": false
     }
   ],
   "benchmark": {
@@ -387,6 +393,10 @@
       {
         "iso": "2026-10-14",
         "pct": -7.53
+      },
+      {
+        "iso": "2026-10-15",
+        "pct": -7.933
       }
     ],
     "spx": [
@@ -427,16 +437,16 @@
         "pct": -0.049
       }
     ],
-    "ours_pct": -7.53,
+    "ours_pct": -7.933,
     "spx_pct": -0.049,
     "spx_last_close_iso": "2026-10-14"
   },
   "by_direction": {
     "Long": {
-      "n": 24,
+      "n": 25,
       "wins": 2,
-      "wr": 8.3,
-      "pnl": -8.31,
+      "wr": 8.0,
+      "pnl": -8.76,
       "avg": -0.35
     },
     "Short": {
@@ -456,11 +466,11 @@
       "avg": -0.43
     },
     "MEDIUM": {
-      "n": 25,
+      "n": 26,
       "wins": 3,
-      "wr": 12.0,
-      "pnl": -7.61,
-      "avg": -0.3
+      "wr": 11.5,
+      "pnl": -8.07,
+      "avg": -0.31
     }
   },
   "by_entry_type": {},
@@ -514,11 +524,11 @@
   "worst_coins": [
     {
       "coin": "ALGO",
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "wr": 0.0,
-      "pnl": -1.44,
-      "avg": -0.72
+      "pnl": -1.9,
+      "avg": -0.63
     },
     {
       "coin": "ADA",
@@ -576,6 +586,16 @@
     "conviction": "HIGH"
   },
   "recent_closes": [
+    {
+      "trade_id": "ALGOUSDT_20261014_CJ_001",
+      "coin": "ALGO",
+      "direction": "Long",
+      "system": "John",
+      "pnl_usd": -0.45,
+      "won": false,
+      "close_reason": "engine_close",
+      "iso": "2026-10-15T00:09:51+00:00"
+    },
     {
       "trade_id": "TRXUSDT_20261002_CJ_001",
       "coin": "TRX",
@@ -665,25 +685,15 @@
       "won": false,
       "close_reason": "stopped_out",
       "iso": "2026-10-13T00:07:00+00:00"
-    },
-    {
-      "trade_id": "ALGOUSDT_20261012_CJ_001",
-      "coin": "ALGO",
-      "direction": "Long",
-      "system": "John",
-      "pnl_usd": -0.64,
-      "won": false,
-      "close_reason": "stopped_out",
-      "iso": "2026-10-13T00:07:00+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 7,
-    "open_long": 7,
+    "open_count": 6,
+    "open_long": 6,
     "open_short": 0,
-    "pending_count": 10,
-    "capital_open_usd": 32.7,
-    "capital_pending_usd": 52.86
+    "pending_count": 12,
+    "capital_open_usd": 27.44,
+    "capital_pending_usd": 63.22
   },
   "macro": {
     "vix": null,
