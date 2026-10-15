@@ -11543,9 +11543,18 @@
       "resting_at": "2026-10-15T20:11:51Z",
       "braam_trade_id": "APTUSDT_20261015_CJ_001",
       "status": "RESTING"
+    },
+    "865828452291409408": {
+      "order_id": "865828452291409408",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 2589.2,
+      "resting_at": "2026-10-15T21:33:09Z",
+      "braam_trade_id": "ETHUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-15T20:14:04Z",
+  "updated": "2026-10-15T21:34:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28890,6 +28899,14 @@
       "unrealized": 6.2402,
       "realized": 0.3234,
       "total": 6.5636
+    },
+    {
+      "ts": "2026-10-15T21:34:57Z",
+      "equity": 419.9436,
+      "available": 81.167,
+      "unrealized": 5.2546,
+      "realized": 0.3234,
+      "total": 5.578
     }
   ],
   "capital_events": {
