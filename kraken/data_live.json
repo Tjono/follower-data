@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-15T14:18:40Z",
+  "last_updated_iso": "2026-10-15T14:59:08Z",
   "freshness": {
-    "engine_run_iso": "2026-10-15T14:18:16Z",
+    "engine_run_iso": "2026-10-15T14:58:35Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-15T14:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-15T14:18:40Z",
+    "published_iso": "2026-10-15T14:59:08Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.4316,
-    "equity": 101.3689,
-    "available": 77.7637,
-    "position_margin": 4.5716
+    "unrealized_pnl": 2.0119,
+    "equity": 102.8488,
+    "available": 79.2436,
+    "position_margin": 6.0532
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "24s ago",
+      "value": "33s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "10 min old",
+      "value": "51 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (51 records, 13 resting, 3 open, 34 closed)",
+      "value": "OK (51 records, 12 resting, 4 open, 34 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$101.37",
+      "value": "$102.85",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (13 resting = journal)",
+      "value": "in sync (12 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (3 open)",
+      "value": "all protected (4 open)",
       "status": "ok",
       "action": null
     },
@@ -633,31 +633,31 @@
       "sl": 7.64975644,
       "tp1": 6.782452,
       "tp2": 5.48748713,
-      "capital_usd": 5.04,
+      "capital_usd": 4.94,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-15",
+      "time_activated_utc": "14:57",
       "date_opened": "2026-10-15",
       "time_opened_utc": "04:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 7.408,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-10-15T14:57:16.034000+00:00"
     }
   ],
   "dry_run_plans": [],
@@ -697,19 +697,6 @@
       "tp1": 1.07895445,
       "sl": 0.92220045,
       "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-10-15T04:04:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "UNIUSDT_20261015_CJ_001",
-      "coin": "UNIUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 7.40835918,
-      "tp1": 6.782452,
-      "sl": 7.64975644,
-      "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-15T04:04:00Z",
       "rehearsal": false
@@ -834,6 +821,18 @@
       "tp1_hit": false,
       "iso": "2026-10-15T02:24:05Z",
       "_iso_ms": 1792031045000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "UNIUSDT_20261015_CJ_001",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 7.40835918,
+      "live_entry_fill": 7.408,
+      "tp1_hit": false,
+      "iso": "2026-10-15T14:57:16Z",
+      "_iso_ms": 1792076236000,
       "rehearsal": false
     }
   ],
@@ -1751,7 +1750,7 @@
     "peak_capital_usd": 44.57,
     "peak_concurrent": 9,
     "peak_date": "2026-10-12",
-    "deployed_trades": 37,
+    "deployed_trades": 38,
     "return_on_peak_pct": -24.91,
     "win_rate_pct": 8.8,
     "closed_count": 34,
@@ -1791,7 +1790,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-15T14:18:40Z",
+    "updated_iso": "2026-10-15T14:59:08Z",
     "trades": [
       {
         "trade_id": "UNIUSDT_20261015_CJ_001",
@@ -1799,10 +1798,10 @@
         "direction": "Short",
         "trading_system": "John",
         "kraken": {
-          "status": "RESTING",
+          "status": "OPEN",
           "ret_pct": null,
           "pnl_usd": null,
-          "margin_usd": 5.04
+          "margin_usd": 4.9387
         },
         "mexc": null
       },
