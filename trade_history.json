@@ -4943,6 +4943,18 @@
       "braam_trade_id": "NEARUSDT_20261015_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-15T00:11:02Z"
+    },
+    "1521032269": {
+      "position_id": "1521032269",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 7.408,
+      "opened_at": "2026-10-15T14:57:16Z",
+      "margin_usd": 20.31313405143268,
+      "braam_trade_id": "UNIUSDT_20261015_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-15T04:11:46Z"
     }
   },
   "orders": {
@@ -11488,7 +11500,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-15T11:46:58Z",
+  "updated": "2026-10-15T15:08:52Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28777,6 +28789,14 @@
       "unrealized": -1.1135,
       "realized": 0.3234,
       "total": -0.7901
+    },
+    {
+      "ts": "2026-10-15T15:08:52Z",
+      "equity": 417.2288,
+      "available": 83.8569,
+      "unrealized": 8.963,
+      "realized": 0.3234,
+      "total": 9.2864
     }
   ],
   "capital_events": {
