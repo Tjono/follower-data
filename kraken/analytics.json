@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-15T19:18:52+00:00",
+  "generated_at_utc": "2026-10-15T20:10:56+00:00",
   "venue": "Kraken",
   "all_time": {
     "total_trades": 34,
@@ -33,7 +33,7 @@
       "pnl_per_day": -1.23,
       "status": "active",
       "open": 4,
-      "pending": 13
+      "pending": 14
     },
     "Braam": {
       "n": 0,
@@ -74,7 +74,7 @@
       "pnl": -11.1,
       "pnl_per_day": -1.23,
       "open": 4,
-      "pending": 13
+      "pending": 14
     },
     {
       "name": "Braam",
@@ -498,11 +498,11 @@
       },
       {
         "iso": "2026-10-15",
-        "pct": 0.383
+        "pct": 0.276
       }
     ],
     "ours_pct": -9.859,
-    "spx_pct": 0.383,
+    "spx_pct": 0.276,
     "spx_last_close_iso": "2026-10-15"
   },
   "by_direction": {
@@ -755,9 +755,9 @@
     "open_count": 4,
     "open_long": 3,
     "open_short": 1,
-    "pending_count": 13,
+    "pending_count": 14,
     "capital_open_usd": 20.18,
-    "capital_pending_usd": 67.71
+    "capital_pending_usd": 72.92
   },
   "macro": {
     "vix": null,
