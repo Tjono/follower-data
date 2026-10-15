@@ -1561,7 +1561,7 @@
       "fill_ids": [
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56"
       ],
-      "unrealized_pnl": 0.16156016496000092,
+      "unrealized_pnl": -0.15366056243999804,
       "fee_asset": [
         "usd"
       ],
@@ -1591,7 +1591,7 @@
       "fill_ids": [
         "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d"
       ],
-      "unrealized_pnl": 0.15907046126399857,
+      "unrealized_pnl": -0.05104230533600145,
       "fee_asset": [
         "usd"
       ],
@@ -1621,7 +1621,7 @@
       "fill_ids": [
         "e1629999-e85f-4cf9-bac6-b30f830d5d14"
       ],
-      "unrealized_pnl": 0.19772320327830067,
+      "unrealized_pnl": 0.11258123670780068,
       "fee_asset": [
         "usd"
       ],
@@ -2302,6 +2302,42 @@
       "entry_price": 752.16,
       "resting_at": "2026-10-15T00:09:57Z",
       "braam_trade_id": "BNBUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fc1f98-347f-40ec-b6ea-5b9532f9f274": {
+      "order_id": "a2fc1f98-347f-40ec-b6ea-5b9532f9f274",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "entry_price": 7.408,
+      "resting_at": "2026-10-15T04:10:55Z",
+      "braam_trade_id": "UNIUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fc1f85-9b20-4c94-926b-2c077022f191": {
+      "order_id": "a2fc1f85-9b20-4c94-926b-2c077022f191",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.9549,
+      "resting_at": "2026-10-15T04:10:43Z",
+      "braam_trade_id": "SUIUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fc1f82-c79e-4bab-b7d5-d990e6c657da": {
+      "order_id": "a2fc1f82-c79e-4bab-b7d5-d990e6c657da",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "entry_price": 108.25,
+      "resting_at": "2026-10-15T04:10:41Z",
+      "braam_trade_id": "SOLUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fc1f80-89b1-452a-8c8d-68666de47f51": {
+      "order_id": "a2fc1f80-89b1-452a-8c8d-68666de47f51",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 79100.0,
+      "resting_at": "2026-10-15T04:10:39Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_001",
       "status": "RESTING"
     }
   },
@@ -6560,8 +6596,16 @@
       "unrealized": 0.45020868473440623,
       "realized": -11.1017,
       "total": -10.6515
+    },
+    {
+      "ts": "2026-10-15T04:11:19Z",
+      "equity": 100.9222647896888,
+      "available": 77.31706978968879,
+      "unrealized": -0.09199751564720868,
+      "realized": -11.1017,
+      "total": -11.1937
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-15T03:18:46Z"
+  "updated": "2026-10-15T04:11:19Z"
 }
