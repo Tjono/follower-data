@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-14T23:21:04Z",
+  "last_updated_iso": "2026-10-15T00:12:10Z",
   "mexc_account": {
-    "unrealized_pnl": 2.3904,
-    "equity": 419.2089,
-    "available": 90.3677,
+    "unrealized_pnl": 3.6269,
+    "equity": 420.4374,
+    "available": 49.6852,
     "position_margin": 120.0355
   },
   "order_levels": {
-    "checked": 16,
-    "in_sync": 16,
+    "checked": 18,
+    "in_sync": 18,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (343 records)",
+      "value": "OK (345 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$419.21",
+      "value": "$420.44",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (10 resting = journal)",
+      "value": "in sync (12 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -610,6 +610,72 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "NEARUSDT_20261015_CJ_001",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.709,
+      "sl": 4.48506752,
+      "tp1": 6.07047468,
+      "tp2": 6.71782912,
+      "capital_usd": 21.0,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-15",
+      "time_opened_utc": "00:04",
+      "conviction": "HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20261015_CJ_001",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 752.165,
+      "sl": 759.71087449,
+      "tp1": 676.08054053,
+      "tp2": 669.44868092,
+      "capital_usd": 21.0,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-15",
+      "time_opened_utc": "00:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -651,33 +717,35 @@
       "track_only": false,
       "iso": "2026-10-14T16:04:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "NEARUSDT_20261015_CJ_001",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 4.709,
+      "tp1": 6.07047468,
+      "sl": 4.48506752,
+      "conviction": "HIGH",
+      "track_only": false,
+      "iso": "2026-10-15T00:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20261015_CJ_001",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 752.165,
+      "tp1": 676.08054053,
+      "sl": 759.71087449,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-15T00:04:00Z",
+      "rehearsal": false
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "ONDOUSDT_20261009_CJ_001",
-      "coin": "ONDOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.46732465,
-      "live_entry_fill": 0.4673,
-      "tp1_hit": false,
-      "iso": "2026-10-12T23:38:00Z",
-      "_iso_ms": 1791848280000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "CAKEUSDT_20261012_CJ_001",
-      "coin": "CAKEUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 2.2588236,
-      "live_entry_fill": 2.2588,
-      "tp1_hit": false,
-      "iso": "2026-10-12T23:39:00Z",
-      "_iso_ms": 1791848340000,
-      "rehearsal": false
-    },
     {
       "trade_id": "LINKUSDT_20261009_CJ_001",
       "coin": "LINKUSDT",
@@ -4813,15 +4881,15 @@
         "closed_count": 123
       }
     },
-    "live_trade_count_total": 334,
-    "live_real_count": 334,
+    "live_trade_count_total": 336,
+    "live_real_count": 336,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-14T22:09Z",
-    "checked": 16,
-    "in_parity": 16,
+    "feed_generated_utc": "2026-10-15T00:09Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   }
 }
