@@ -1561,7 +1561,7 @@
       "fill_ids": [
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56"
       ],
-      "unrealized_pnl": 0.8198168934600005,
+      "unrealized_pnl": 0.9043909183200016,
       "fee_asset": [
         "usd"
       ],
@@ -1575,7 +1575,7 @@
       "leverage": 3,
       "entry_price": 1.8498,
       "entry_size": 8.8,
-      "exit_size": 0,
+      "exit_size": 7.0,
       "opened_at": "2026-10-15T02:23:13Z",
       "closed_at": null,
       "close_price": null,
@@ -1583,19 +1583,19 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 0.6188,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.0033,
+      "fees_usd": 0.0101,
       "funding_usd": null,
       "fill_ids": [
-        "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d"
+        "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d",
+        "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588"
       ],
-      "unrealized_pnl": 0.6656448677999992,
+      "unrealized_pnl": 0.15350111789399978,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     },
     "AVAXUSDT_20261014_CJ_001": {
       "position_id": "AVAXUSDT_20261014_CJ_001",
@@ -1621,7 +1621,7 @@
       "fill_ids": [
         "e1629999-e85f-4cf9-bac6-b30f830d5d14"
       ],
-      "unrealized_pnl": 0.7135005732995007,
+      "unrealized_pnl": 0.7413637182154015,
       "fee_asset": [
         "usd"
       ],
@@ -1651,7 +1651,7 @@
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d"
       ],
-      "unrealized_pnl": -0.02960368827999993,
+      "unrealized_pnl": -0.1309152576599999,
       "fee_asset": [
         "usd"
       ],
@@ -3670,6 +3670,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "9378613"
+    },
+    "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588": {
+      "fill_id": "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588",
+      "symbol": "PF_RENDERUSD",
+      "side": "sell",
+      "order_id": "a2fc2791-bd79-4b4d-9ec3-503d324c9e65",
+      "cliOrdId": "RENDERUSDT_20261008_CJ_001:TP1#1792038792285",
+      "size": 7,
+      "price": 1.9382,
+      "fillTime": "2026-10-15T15:14:44Z",
+      "fillType": "taker",
+      "realized_pnl": 0.6188,
+      "realized_funding": 0.00011219618,
+      "sequence_id": "1506373"
     }
   },
   "snapshots": [
@@ -6792,8 +6806,16 @@
       "unrealized": 2.1694041559534893,
       "realized": -11.1017,
       "total": -8.9323
+    },
+    {
+      "ts": "2026-10-15T15:18:48Z",
+      "equity": 103.09754099191508,
+      "available": 80.78720599191509,
+      "unrealized": 1.6700520033957864,
+      "realized": -11.1017,
+      "total": -9.4316
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-15T15:08:29Z"
+  "updated": "2026-10-15T15:18:48Z"
 }
