@@ -4737,8 +4737,16 @@
       "opened_at": "2026-10-13T00:52:28Z",
       "margin_usd": 21.69360645025,
       "braam_trade_id": "LINKUSDT_20261009_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-09T00:11:15Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-09T00:11:15Z",
+      "closed_at": "2026-10-15T02:28:55Z",
+      "close_price": 11.941,
+      "pnl_usd": -1.737,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0895
     },
     "1519497006": {
       "position_id": "1519497006",
@@ -4789,8 +4797,16 @@
       "opened_at": "2026-10-14T12:30:05Z",
       "margin_usd": 21.128052375892,
       "braam_trade_id": "CAKEUSDT_20261013_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-13T04:12:12Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-13T04:12:12Z",
+      "closed_at": "2026-10-15T02:15:47Z",
+      "close_price": 2.2092,
+      "pnl_usd": -1.469,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0873
     },
     "1520164134": {
       "position_id": "1520164134",
@@ -4821,8 +4837,16 @@
       "opened_at": "2026-10-14T13:21:16Z",
       "margin_usd": 21.1869400339712,
       "braam_trade_id": "APTUSDT_20261013_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-14T12:10:41Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-14T12:10:41Z",
+      "closed_at": "2026-10-15T02:24:28Z",
+      "close_price": 0.7583,
+      "pnl_usd": -2.9042,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0864
     },
     "1520303538": {
       "position_id": "1520303538",
@@ -4833,8 +4857,16 @@
       "opened_at": "2026-10-14T15:57:00Z",
       "margin_usd": 20.820716538958,
       "braam_trade_id": "XRPUSDT_20261013_CJ_002",
-      "status": "OPEN",
-      "resting_at": "2026-10-13T12:10:39Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-13T12:10:39Z",
+      "closed_at": "2026-10-15T02:23:09Z",
+      "close_price": 1.3012,
+      "pnl_usd": -1.2401,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0862
     },
     "1520272251": {
       "position_id": "1520272251",
@@ -4845,8 +4877,16 @@
       "opened_at": "2026-10-14T15:08:42Z",
       "margin_usd": 19.100664982784,
       "braam_trade_id": "BTCUSDT_20261013_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-13T05:44:00Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-13T05:44:00Z",
+      "closed_at": "2026-10-15T02:24:21Z",
+      "close_price": 80870.7,
+      "pnl_usd": -0.6314,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0794
     },
     "1520442952": {
       "position_id": "1520442952",
@@ -4857,8 +4897,52 @@
       "opened_at": "2026-10-14T20:45:35Z",
       "margin_usd": 16.105493812664,
       "braam_trade_id": "ETHUSDT_20261012_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-10-13T04:11:49Z",
+      "closed_at": "2026-10-15T02:23:16Z",
+      "close_price": 2378.88,
+      "pnl_usd": -0.694,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0669
+    },
+    "1520570055": {
+      "position_id": "1520570055",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.85,
+      "opened_at": "2026-10-15T02:23:14Z",
+      "margin_usd": 21.6351331175,
+      "braam_trade_id": "RENDERUSDT_20261008_CJ_001",
       "status": "OPEN",
-      "resting_at": "2026-10-13T04:11:49Z"
+      "resting_at": "2026-10-14T20:11:03Z"
+    },
+    "1520575418": {
+      "position_id": "1520575418",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 9.51,
+      "opened_at": "2026-10-15T02:24:13Z",
+      "margin_usd": 20.65445179395,
+      "braam_trade_id": "AVAXUSDT_20261014_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-14T16:11:58Z"
+    },
+    "1520563682": {
+      "position_id": "1520563682",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 4.709,
+      "opened_at": "2026-10-15T02:22:19Z",
+      "margin_usd": 20.45464006261,
+      "braam_trade_id": "NEARUSDT_20261015_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-15T00:11:02Z"
     }
   },
   "orders": {
@@ -11366,9 +11450,45 @@
       "resting_at": "2026-10-15T00:11:01Z",
       "braam_trade_id": "NEARUSDT_20261015_CJ_001",
       "status": "RESTING"
+    },
+    "865566384869980672": {
+      "order_id": "865566384869980672",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.9549,
+      "resting_at": "2026-10-15T04:11:47Z",
+      "braam_trade_id": "SUIUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "865566379343221760": {
+      "order_id": "865566379343221760",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "entry_price": 7.408,
+      "resting_at": "2026-10-15T04:11:46Z",
+      "braam_trade_id": "UNIUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "865566373454443520": {
+      "order_id": "865566373454443520",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "entry_price": 108.25,
+      "resting_at": "2026-10-15T04:11:44Z",
+      "braam_trade_id": "SOLUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "865566367531750912": {
+      "order_id": "865566367531750912",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 79100.5,
+      "resting_at": "2026-10-15T04:11:43Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-15T02:12:32Z",
+  "updated": "2026-10-15T04:13:15Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28617,6 +28737,14 @@
       "unrealized": -0.7658,
       "realized": 8.9991,
       "total": 8.2333
+    },
+    {
+      "ts": "2026-10-15T04:13:15Z",
+      "equity": 407.4724,
+      "available": 83.8498,
+      "unrealized": -0.835,
+      "realized": 0.3234,
+      "total": -0.5116
     }
   ],
   "capital_events": {
