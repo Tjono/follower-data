@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-15T16:11:30Z",
+  "last_updated_iso": "2026-10-15T16:18:43Z",
   "freshness": {
-    "engine_run_iso": "2026-10-15T16:10:35Z",
+    "engine_run_iso": "2026-10-15T16:18:15Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-15T16:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-15T16:11:30Z",
+    "published_iso": "2026-10-15T16:18:43Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.0621,
-    "equity": 103.3309,
-    "available": 83.4786,
+    "unrealized_pnl": 1.0369,
+    "equity": 103.3262,
+    "available": 83.4739,
     "position_margin": 3.8166
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "55s ago",
+      "value": "28s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "2 min old",
+      "value": "9 min old",
       "status": "ok",
       "action": null
     },
@@ -475,7 +475,7 @@
       "time_opened_utc": "00:04",
       "conviction": "HIGH",
       "tp1_hit": true,
-      "sl_moved_to_be": false,
+      "sl_moved_to_be": true,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
@@ -1832,7 +1832,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-15T16:11:30Z",
+    "updated_iso": "2026-10-15T16:18:43Z",
     "trades": [
       {
         "trade_id": "UNIUSDT_20261015_CJ_002",
