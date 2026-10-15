@@ -1545,7 +1545,7 @@
       "leverage": 3,
       "entry_price": 4.709,
       "entry_size": 3.0,
-      "exit_size": 0,
+      "exit_size": 2.0,
       "opened_at": "2026-10-15T02:18:40Z",
       "closed_at": null,
       "close_price": null,
@@ -1553,19 +1553,19 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 0.8452,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.0028,
+      "fees_usd": 0.0079,
       "funding_usd": null,
       "fill_ids": [
-        "e486e9c5-5c2b-4a61-b20a-b284ebc09e56"
+        "e486e9c5-5c2b-4a61-b20a-b284ebc09e56",
+        "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6"
       ],
-      "unrealized_pnl": 0.9043909183200016,
+      "unrealized_pnl": 0.4407216535100007,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     },
     "RENDERUSDT_20261008_CJ_001": {
       "position_id": "RENDERUSDT_20261008_CJ_001",
@@ -1592,10 +1592,11 @@
         "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d",
         "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588"
       ],
-      "unrealized_pnl": 0.15350111789399978,
+      "unrealized_pnl": 0.24193005847199986,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "AVAXUSDT_20261014_CJ_001": {
       "position_id": "AVAXUSDT_20261014_CJ_001",
@@ -1621,7 +1622,7 @@
       "fill_ids": [
         "e1629999-e85f-4cf9-bac6-b30f830d5d14"
       ],
-      "unrealized_pnl": 0.7413637182154015,
+      "unrealized_pnl": 0.7580896512140005,
       "fee_asset": [
         "usd"
       ],
@@ -1651,7 +1652,7 @@
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d"
       ],
-      "unrealized_pnl": -0.1309152576599999,
+      "unrealized_pnl": -0.3753485270599999,
       "fee_asset": [
         "usd"
       ],
@@ -2368,6 +2369,33 @@
       "entry_price": 79100.0,
       "resting_at": "2026-10-15T04:10:39Z",
       "braam_trade_id": "BTCUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fd211b-75b7-4f62-977e-cedf6c86f51c": {
+      "order_id": "a2fd211b-75b7-4f62-977e-cedf6c86f51c",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "entry_price": 7.224,
+      "resting_at": "2026-10-15T16:10:58Z",
+      "braam_trade_id": "UNIUSDT_20261015_CJ_002",
+      "status": "RESTING"
+    },
+    "a2fd2110-1c04-43a2-862c-c111d718ac90": {
+      "order_id": "a2fd2110-1c04-43a2-862c-c111d718ac90",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 84899.0,
+      "resting_at": "2026-10-15T16:10:51Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_002",
+      "status": "RESTING"
+    },
+    "a2fd210a-4680-41c6-9f8e-809be8f325ae": {
+      "order_id": "a2fd210a-4680-41c6-9f8e-809be8f325ae",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.3773,
+      "resting_at": "2026-10-15T16:10:47Z",
+      "braam_trade_id": "XRPUSDT_20261013_CJ_001",
       "status": "RESTING"
     }
   },
@@ -3684,6 +3712,20 @@
       "realized_pnl": 0.6188,
       "realized_funding": 0.00011219618,
       "sequence_id": "1506373"
+    },
+    "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6": {
+      "fill_id": "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6",
+      "symbol": "PF_NEARUSD",
+      "side": "sell",
+      "order_id": "a2fc279e-0f26-4181-9246-bf7cc1266b91",
+      "cliOrdId": "NEARUSDT_20261015_CJ_001:TP1#1792038800309",
+      "size": 2,
+      "price": 5.1316,
+      "fillTime": "2026-10-15T16:01:27Z",
+      "fillType": "taker",
+      "realized_pnl": 0.8452,
+      "realized_funding": 3.383106e-05,
+      "sequence_id": "9413480"
     }
   },
   "snapshots": [
@@ -6814,8 +6856,16 @@
       "unrealized": 1.6700520033957864,
       "realized": -11.1017,
       "total": -9.4316
+    },
+    {
+      "ts": "2026-10-15T16:11:28Z",
+      "equity": 103.3305811742174,
+      "available": 83.4782461742174,
+      "unrealized": 1.0653675374133915,
+      "realized": -11.1017,
+      "total": -10.0363
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-15T15:18:48Z"
+  "updated": "2026-10-15T16:11:28Z"
 }
