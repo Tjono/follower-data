@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-15T02:18:45Z",
+  "last_updated_iso": "2026-10-15T02:19:37Z",
   "freshness": {
-    "engine_run_iso": "2026-10-15T02:18:12Z",
+    "engine_run_iso": "2026-10-15T02:19:08Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-15T02:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-15T02:18:45Z",
+    "published_iso": "2026-10-15T02:19:37Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,19 +18,17 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.1228,
-    "equity": 102.692,
-    "available": 81.8935,
+    "unrealized_pnl": 0.0956,
+    "equity": 102.9158,
+    "available": 82.099,
     "position_margin": 8.2896
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 16,
-    "in_sync": 16,
+    "checked": 17,
+    "in_sync": 17,
     "drifted": [],
-    "reconciling": [
-      "NEAR"
-    ],
+    "reconciling": [],
     "detail": []
   },
   "api_keys": [],
@@ -47,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "33s ago",
+      "value": "29s ago",
       "status": "ok",
       "action": null
     },
@@ -55,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "10 min old",
       "status": "ok",
       "action": null
     },
@@ -71,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (47 records, 12 resting, 5 open, 29 closed)",
+      "value": "OK (47 records, 11 resting, 6 open, 29 closed)",
       "status": "ok",
       "action": null
     },
@@ -79,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$102.69",
+      "value": "$102.92",
       "status": "ok",
       "action": null
     },
@@ -87,17 +85,17 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "1 journal order(s) not resting on Kraken",
-      "status": "warn",
-      "action": "Filled or cancelled since the last engine run - the next run reconciles: NEAR Long"
+      "value": "in sync (11 resting = journal)",
+      "status": "ok",
+      "action": null
     },
     {
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "1 NAKED: NEAR",
-      "status": "urgent",
-      "action": "Position(s) with NO stop-loss resting on Kraken - place a stop NOW: NEAR"
+      "value": "all protected (6 open)",
+      "status": "ok",
+      "action": null
     },
     {
       "key": "fee_tier",
@@ -669,31 +667,31 @@
       "sl": 4.48506752,
       "tp1": 6.07047468,
       "tp2": 6.71782912,
-      "capital_usd": 5.18,
+      "capital_usd": 4.71,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-15",
+      "time_activated_utc": "02:18",
       "date_opened": "2026-10-15",
       "time_opened_utc": "00:04",
       "conviction": "HIGH",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 4.709,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-10-15T02:18:40.647000+00:00"
     }
   ],
   "dry_run_plans": [],
@@ -746,19 +744,6 @@
       "tp1": 676.08054053,
       "sl": 759.71087449,
       "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-15T00:04:00Z",
-      "rehearsal": false
-    },
-    {
-      "trade_id": "NEARUSDT_20261015_CJ_001",
-      "coin": "NEARUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 4.709,
-      "tp1": 6.07047468,
-      "sl": 4.48506752,
-      "conviction": "HIGH",
       "track_only": false,
       "iso": "2026-10-15T00:04:00Z",
       "rehearsal": false
@@ -859,6 +844,18 @@
       "tp1_hit": false,
       "iso": "2026-10-14T20:45:33Z",
       "_iso_ms": 1792010733000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "NEARUSDT_20261015_CJ_001",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 4.709,
+      "live_entry_fill": 4.709,
+      "tp1_hit": false,
+      "iso": "2026-10-15T02:18:40Z",
+      "_iso_ms": 1792030720000,
       "rehearsal": false
     }
   ],
@@ -1661,7 +1658,7 @@
     "peak_capital_usd": 44.57,
     "peak_concurrent": 9,
     "peak_date": "2026-10-12",
-    "deployed_trades": 34,
+    "deployed_trades": 35,
     "return_on_peak_pct": -20.76,
     "win_rate_pct": 10.3,
     "closed_count": 29,
@@ -1701,8 +1698,21 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-15T02:18:45Z",
+    "updated_iso": "2026-10-15T02:19:37Z",
     "trades": [
+      {
+        "trade_id": "NEARUSDT_20261015_CJ_001",
+        "coin": "NEARUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 4.709
+        },
+        "mexc": null
+      },
       {
         "trade_id": "CAKEUSDT_20261013_CJ_001",
         "coin": "CAKEUSDT",
@@ -1738,19 +1748,6 @@
           "pnl_usd": -2.2936,
           "margin_usd": 21.4371
         }
-      },
-      {
-        "trade_id": "NEARUSDT_20261015_CJ_001",
-        "coin": "NEARUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "RESTING",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 5.18
-        },
-        "mexc": null
       },
       {
         "trade_id": "BNBUSDT_20261015_CJ_001",
