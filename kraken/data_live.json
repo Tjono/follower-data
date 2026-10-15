@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-15T17:18:46Z",
+  "last_updated_iso": "2026-10-15T17:21:37Z",
   "freshness": {
-    "engine_run_iso": "2026-10-15T17:18:12Z",
+    "engine_run_iso": "2026-10-15T17:21:10Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-15T16:34:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-15T17:18:46Z",
+    "published_iso": "2026-10-15T17:21:37Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.2432,
-    "equity": 103.5942,
-    "available": 83.7419,
+    "unrealized_pnl": 1.2744,
+    "equity": 103.6273,
+    "available": 83.7749,
     "position_margin": 3.8166
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "34s ago",
+      "value": "27s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "44 min old",
+      "value": "47 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$103.59",
+      "value": "$103.63",
       "status": "ok",
       "action": null
     },
@@ -1832,7 +1832,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-15T17:18:46Z",
+    "updated_iso": "2026-10-15T17:21:37Z",
     "trades": [
       {
         "trade_id": "UNIUSDT_20261015_CJ_002",
