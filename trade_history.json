@@ -4967,6 +4967,30 @@
       "braam_trade_id": "LTCUSDT_20261014_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-14T16:12:03Z"
+    },
+    "1521792323": {
+      "position_id": "1521792323",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 7.179,
+      "opened_at": "2026-10-16T17:04:58Z",
+      "margin_usd": 20.869065631809,
+      "braam_trade_id": "UNIUSDT_20261015_CJ_002",
+      "status": "OPEN",
+      "resting_at": "2026-10-16T12:11:55Z"
+    },
+    "1521793965": {
+      "position_id": "1521793965",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 276.55,
+      "opened_at": "2026-10-16T17:06:35Z",
+      "margin_usd": 20.32900593053,
+      "braam_trade_id": "TAOUSDT_20261016_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-16T08:11:54Z"
     }
   },
   "orders": {
@@ -11620,7 +11644,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-16T16:41:11Z",
+  "updated": "2026-10-16T17:14:24Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29085,6 +29109,14 @@
       "unrealized": 4.6163,
       "realized": 0.3234,
       "total": 4.9397
+    },
+    {
+      "ts": "2026-10-16T17:14:24Z",
+      "equity": 423.095,
+      "available": 59.9665,
+      "unrealized": 5.0556,
+      "realized": 0.3234,
+      "total": 5.379
     }
   ],
   "capital_events": {
