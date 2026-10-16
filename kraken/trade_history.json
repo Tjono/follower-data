@@ -1562,7 +1562,7 @@
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56",
         "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6"
       ],
-      "unrealized_pnl": 0.5079306907800003,
+      "unrealized_pnl": 0.5062908112300004,
       "fee_asset": [
         "usd"
       ],
@@ -1593,7 +1593,7 @@
         "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d",
         "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588"
       ],
-      "unrealized_pnl": 0.1691344161179998,
+      "unrealized_pnl": 0.16176977868599993,
       "fee_asset": [
         "usd"
       ],
@@ -1624,10 +1624,11 @@
         "e1629999-e85f-4cf9-bac6-b30f830d5d14",
         "2d3a779c-5681-4963-b13f-7dfae2716130"
       ],
-      "unrealized_pnl": 0.2005971564416001,
+      "unrealized_pnl": 0.19302733057280022,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "UNIUSDT_20261015_CJ_001": {
       "position_id": "UNIUSDT_20261015_CJ_001",
@@ -1653,7 +1654,7 @@
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d"
       ],
-      "unrealized_pnl": -0.10315152709999964,
+      "unrealized_pnl": -0.08848750099999947,
       "fee_asset": [
         "usd"
       ],
@@ -1683,7 +1684,7 @@
       "fill_ids": [
         "fefbc9a8-37a6-484b-95d5-4d900619168a"
       ],
-      "unrealized_pnl": 0.117697353632499,
+      "unrealized_pnl": 0.12492853177499974,
       "fee_asset": [
         "usd"
       ],
@@ -7242,8 +7243,16 @@
       "unrealized": 0.8922498498309785,
       "realized": -11.1017,
       "total": -10.2095
+    },
+    {
+      "ts": "2026-10-16T08:18:41Z",
+      "equity": 104.3823522299319,
+      "available": 82.7414592299319,
+      "unrealized": 0.8975980922796967,
+      "realized": -11.1017,
+      "total": -10.2041
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-16T08:11:17Z"
+  "updated": "2026-10-16T08:18:41Z"
 }
