@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-16T06:11:32Z",
+  "last_updated_iso": "2026-10-16T07:22:31Z",
   "mexc_account": {
-    "unrealized_pnl": 5.4624,
-    "equity": 420.1671,
-    "available": 81.4231,
-    "position_margin": 70.8992
+    "unrealized_pnl": 2.354,
+    "equity": 420.4588,
+    "available": 101.3467,
+    "position_margin": 54.3757
   },
   "order_levels": {
     "checked": 18,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$420.17",
+      "value": "$420.46",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "live read failed",
-      "status": "warn",
-      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
+      "value": "all protected (5 open, 2 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -300,7 +300,7 @@
       "date_opened": "2026-10-14",
       "time_opened_utc": "16:04",
       "conviction": "HIGH",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -309,9 +309,9 @@
       "live_entry_fill": 9.51,
       "live_exit_fill": null,
       "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.037,
+      "live_fees_usd": 0.0793,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 3.4424,
       "rehearsal": false
     },
     {
@@ -809,7 +809,7 @@
       "trading_system": "John",
       "entry_price": 9.51,
       "live_entry_fill": 9.51,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-10-15T02:24:00Z",
       "_iso_ms": 1792031040000,
       "rehearsal": false
@@ -4848,6 +4848,12 @@
       "direction": "Long",
       "trading_system": "John",
       "entry_price": 1.84983849
+    },
+    {
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 9.51
     },
     {
       "coin": "NEARUSDT",
