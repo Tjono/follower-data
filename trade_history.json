@@ -4955,6 +4955,18 @@
       "braam_trade_id": "UNIUSDT_20261015_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-15T04:11:46Z"
+    },
+    "1521305562": {
+      "position_id": "1521305562",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 61.23,
+      "opened_at": "2026-10-16T00:18:22Z",
+      "margin_usd": 20.884318394851455,
+      "braam_trade_id": "LTCUSDT_20261014_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-14T16:12:03Z"
     }
   },
   "orders": {
@@ -11572,7 +11584,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-16T00:12:50Z",
+  "updated": "2026-10-16T00:33:04Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28933,6 +28945,14 @@
       "unrealized": 5.342,
       "realized": 0.3234,
       "total": 5.6654
+    },
+    {
+      "ts": "2026-10-16T00:33:04Z",
+      "equity": 420.1323,
+      "available": 81.0402,
+      "unrealized": 5.4835,
+      "realized": 0.3234,
+      "total": 5.8069
     }
   ],
   "capital_events": {
