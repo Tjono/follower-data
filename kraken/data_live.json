@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-16T17:14:00Z",
+  "last_updated_iso": "2026-10-16T17:18:46Z",
   "freshness": {
-    "engine_run_iso": "2026-10-16T17:13:25Z",
+    "engine_run_iso": "2026-10-16T17:18:12Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-16T17:13:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-16T17:14:00Z",
+    "published_iso": "2026-10-16T17:18:46Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.8665,
-    "equity": 104.6075,
-    "available": 84.3764,
+    "unrealized_pnl": 0.6272,
+    "equity": 104.3893,
+    "available": 84.1583,
     "position_margin": 5.5635
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "35s ago",
+      "value": "34s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "60s old",
+      "value": "5 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.61",
+      "value": "$104.39",
       "status": "ok",
       "action": null
     },
@@ -1712,7 +1712,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-16T16:10:52Z",
-      "last_seen_iso": "2026-10-16T17:13:25Z"
+      "last_seen_iso": "2026-10-16T17:18:12Z"
     },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
@@ -1879,29 +1879,80 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-16T17:13Z",
+    "feed_generated_utc": "2026-10-16T17:18Z",
     "checked": 20,
-    "in_parity": 20,
-    "drifting": []
+    "in_parity": 19,
+    "drifting": [
+      {
+        "trade_id": "LINKUSDT_20261016_CJ_001",
+        "coin": "LINK",
+        "fields": [
+          {
+            "field": "tp1",
+            "journal": 13.69638198,
+            "feed": 12.661
+          },
+          {
+            "field": "tp2",
+            "journal": 13.89922001,
+            "feed": 13.043
+          }
+        ]
+      }
+    ]
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-16T17:13Z",
+    "feed_generated_utc": "2026-10-16T17:18Z",
     "checked": 20,
-    "in_parity": 20,
-    "drifting": []
+    "in_parity": 19,
+    "drifting": [
+      {
+        "trade_id": "LINKUSDT_20261016_CJ_001",
+        "coin": "LINK",
+        "fields": [
+          {
+            "field": "tp1",
+            "journal": 13.69638198,
+            "feed": 12.661
+          },
+          {
+            "field": "tp2",
+            "journal": 13.89922001,
+            "feed": 13.043
+          }
+        ]
+      }
+    ]
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-16T17:13Z",
+    "feed_generated_utc": "2026-10-16T17:18Z",
     "checked": 20,
-    "in_parity": 20,
-    "drifting": []
+    "in_parity": 19,
+    "drifting": [
+      {
+        "trade_id": "LINKUSDT_20261016_CJ_001",
+        "coin": "LINK",
+        "fields": [
+          {
+            "field": "tp1",
+            "journal": 13.69638198,
+            "feed": 12.661
+          },
+          {
+            "field": "tp2",
+            "journal": 13.89922001,
+            "feed": 13.043
+          }
+        ]
+      }
+    ]
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-16T17:14:00Z",
+    "updated_iso": "2026-10-16T17:18:46Z",
     "trades": [
       {
         "trade_id": "LINKUSDT_20261016_CJ_001",
@@ -1927,7 +1978,12 @@
           "pnl_usd": null,
           "margin_usd": 4.6092
         },
-        "mexc": null
+        "mexc": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 20.329
+        }
       },
       {
         "trade_id": "UNIUSDT_20261015_CJ_002",
@@ -1940,7 +1996,12 @@
           "pnl_usd": null,
           "margin_usd": 5.0253
         },
-        "mexc": null
+        "mexc": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 20.8691
+        }
       },
       {
         "trade_id": "LTCUSDT_20261014_CJ_001",
