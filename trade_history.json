@@ -11552,9 +11552,27 @@
       "resting_at": "2026-10-15T21:33:09Z",
       "braam_trade_id": "ETHUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "865868273935300608": {
+      "order_id": "865868273935300608",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.9674,
+      "resting_at": "2026-10-16T00:11:23Z",
+      "braam_trade_id": "SUIUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "865868253589803520": {
+      "order_id": "865868253589803520",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.3898,
+      "resting_at": "2026-10-16T00:11:18Z",
+      "braam_trade_id": "XRPUSDT_20261013_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-15T21:34:57Z",
+  "updated": "2026-10-16T00:12:50Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -28907,6 +28925,14 @@
       "unrealized": 5.2546,
       "realized": 0.3234,
       "total": 5.578
+    },
+    {
+      "ts": "2026-10-16T00:12:50Z",
+      "equity": 420.0283,
+      "available": 81.0276,
+      "unrealized": 5.342,
+      "realized": 0.3234,
+      "total": 5.6654
     }
   ],
   "capital_events": {
