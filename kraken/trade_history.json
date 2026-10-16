@@ -1562,7 +1562,7 @@
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56",
         "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6"
       ],
-      "unrealized_pnl": 0.5796049426200005,
+      "unrealized_pnl": 0.4906659839500005,
       "fee_asset": [
         "usd"
       ],
@@ -1593,7 +1593,7 @@
         "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d",
         "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588"
       ],
-      "unrealized_pnl": 0.1621145121659997,
+      "unrealized_pnl": 0.12482532208799989,
       "fee_asset": [
         "usd"
       ],
@@ -1623,7 +1623,7 @@
       "fill_ids": [
         "e1629999-e85f-4cf9-bac6-b30f830d5d14"
       ],
-      "unrealized_pnl": 0.8775540751173013,
+      "unrealized_pnl": 0.7921574720255004,
       "fee_asset": [
         "usd"
       ],
@@ -1653,7 +1653,7 @@
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d"
       ],
-      "unrealized_pnl": -0.15248444895999924,
+      "unrealized_pnl": 0.10518155118000116,
       "fee_asset": [
         "usd"
       ],
@@ -1683,7 +1683,7 @@
       "fill_ids": [
         "fefbc9a8-37a6-484b-95d5-4d900619168a"
       ],
-      "unrealized_pnl": 0.029539815202499042,
+      "unrealized_pnl": 0.10198184092499929,
       "fee_asset": [
         "usd"
       ],
@@ -2462,6 +2462,15 @@
       "direction": "Short",
       "entry_price": 1.3898,
       "resting_at": "2026-10-16T00:10:11Z",
+      "braam_trade_id": "XRPUSDT_20261013_CJ_001",
+      "status": "RESTING"
+    },
+    "a2fe225e-8316-4d7b-a7c2-653cdd669c4e": {
+      "order_id": "a2fe225e-8316-4d7b-a7c2-653cdd669c4e",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.399,
+      "resting_at": "2026-10-16T04:10:20Z",
       "braam_trade_id": "XRPUSDT_20261013_CJ_001",
       "status": "RESTING"
     }
@@ -7113,8 +7122,16 @@
       "unrealized": 1.496486059188088,
       "realized": -11.1017,
       "total": -9.6052
+    },
+    {
+      "ts": "2026-10-16T04:10:38Z",
+      "equity": 104.1235726578489,
+      "available": 82.64398965784889,
+      "unrealized": 1.6149419707993966,
+      "realized": -11.1017,
+      "total": -9.4868
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-16T03:18:44Z"
+  "updated": "2026-10-16T04:10:38Z"
 }
