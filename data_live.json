@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-16T20:14:26Z",
+  "last_updated_iso": "2026-10-16T21:26:38Z",
   "mexc_account": {
-    "unrealized_pnl": 5.0826,
-    "equity": 423.0821,
+    "unrealized_pnl": 5.4165,
+    "equity": 423.416,
     "available": 60.0275,
     "position_margin": 116.4487
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$423.08",
+      "value": "$423.42",
       "status": "ok",
       "action": null
     },
@@ -746,18 +746,6 @@
   ],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "ETHUSDT_20261012_CJ_001",
-      "coin": "ETHUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 2410.03585335,
-      "live_entry_fill": 2410.04,
-      "tp1_hit": false,
-      "iso": "2026-10-14T20:45:00Z",
-      "_iso_ms": 1792010700000,
-      "rehearsal": false
-    },
     {
       "trade_id": "NEARUSDT_20261015_CJ_001",
       "coin": "NEARUSDT",
