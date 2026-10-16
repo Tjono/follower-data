@@ -11591,9 +11591,27 @@
       "resting_at": "2026-10-16T04:11:34Z",
       "braam_trade_id": "XRPUSDT_20261013_CJ_001",
       "status": "RESTING"
+    },
+    "865989199638198848": {
+      "order_id": "865989199638198848",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 276.55,
+      "resting_at": "2026-10-16T08:11:54Z",
+      "braam_trade_id": "TAOUSDT_20261016_CJ_001",
+      "status": "RESTING"
+    },
+    "865989193975876096": {
+      "order_id": "865989193975876096",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 12.25,
+      "resting_at": "2026-10-16T08:11:53Z",
+      "braam_trade_id": "LINKUSDT_20261016_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-16T07:22:49Z",
+  "updated": "2026-10-16T08:13:22Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29010,6 +29028,14 @@
       "unrealized": 2.354,
       "realized": 0.3234,
       "total": 2.6774
+    },
+    {
+      "ts": "2026-10-16T08:13:22Z",
+      "equity": 421.1132,
+      "available": 60.0532,
+      "unrealized": 2.9993,
+      "realized": 0.3234,
+      "total": 3.3227
     }
   ],
   "capital_events": {
