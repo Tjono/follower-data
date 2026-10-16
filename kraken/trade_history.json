@@ -1562,7 +1562,7 @@
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56",
         "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6"
       ],
-      "unrealized_pnl": 0.30106338044000047,
+      "unrealized_pnl": 0.2974461876400003,
       "fee_asset": [
         "usd"
       ],
@@ -1593,7 +1593,7 @@
         "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d",
         "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588"
       ],
-      "unrealized_pnl": 0.07971328267199965,
+      "unrealized_pnl": 0.07609647958199983,
       "fee_asset": [
         "usd"
       ],
@@ -1624,7 +1624,7 @@
         "e1629999-e85f-4cf9-bac6-b30f830d5d14",
         "2d3a779c-5681-4963-b13f-7dfae2716130"
       ],
-      "unrealized_pnl": 0.15546649728000034,
+      "unrealized_pnl": 0.1515062753120003,
       "fee_asset": [
         "usd"
       ],
@@ -1654,7 +1654,7 @@
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d"
       ],
-      "unrealized_pnl": -0.0013017070300000101,
+      "unrealized_pnl": -0.0031178879010000495,
       "fee_asset": [
         "usd"
       ],
@@ -1684,7 +1684,7 @@
       "fill_ids": [
         "fefbc9a8-37a6-484b-95d5-4d900619168a"
       ],
-      "unrealized_pnl": 0.40654264169999976,
+      "unrealized_pnl": 0.4262134374899986,
       "fee_asset": [
         "usd"
       ],
@@ -1743,10 +1743,11 @@
       "fill_ids": [
         "9292092d-3a31-426d-8485-ef24a3458f9a"
       ],
-      "unrealized_pnl": -0.04110382259050027,
+      "unrealized_pnl": -0.06458549604300004,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "LINKUSDT_20261016_CJ_001": {
       "position_id": "LINKUSDT_20261016_CJ_001",
@@ -1772,10 +1773,11 @@
       "fill_ids": [
         "9a2ce42a-4ab2-492e-97bb-a97412a75652"
       ],
-      "unrealized_pnl": 0.046227192372001014,
+      "unrealized_pnl": 0.028617565944000486,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -7536,5 +7538,5 @@
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-16T17:11:45Z"
+  "updated": "2026-10-16T17:12:47Z"
 }
