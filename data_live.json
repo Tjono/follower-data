@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-16T14:11:33Z",
+  "last_updated_iso": "2026-10-16T16:13:07Z",
   "mexc_account": {
-    "unrealized_pnl": 4.0411,
-    "equity": 422.1543,
-    "available": 59.9417,
+    "unrealized_pnl": 4.6609,
+    "equity": 422.7743,
+    "available": 59.9418,
     "position_margin": 54.3757
   },
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (354 records)",
+      "value": "OK (355 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$422.15",
+      "value": "$422.77",
       "status": "ok",
       "action": null
     },
@@ -773,30 +773,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "BTCUSDT_20261013_CJ_001",
-      "coin": "BTCUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 81663.99935133,
-      "live_entry_fill": 81664.0,
-      "tp1_hit": false,
-      "iso": "2026-10-14T15:08:00Z",
-      "_iso_ms": 1791990480000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "XRPUSDT_20261013_CJ_002",
-      "coin": "XRPUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 1.32580403,
-      "live_entry_fill": 1.3258,
-      "tp1_hit": false,
-      "iso": "2026-10-14T15:57:00Z",
-      "_iso_ms": 1791993420000,
-      "rehearsal": false
-    },
     {
       "trade_id": "ETHUSDT_20261012_CJ_001",
       "coin": "ETHUSDT",
@@ -4921,7 +4897,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-16T14:08Z",
+    "feed_generated_utc": "2026-10-16T16:10Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
