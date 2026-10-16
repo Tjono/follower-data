@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-16T12:13:09Z",
+  "last_updated_iso": "2026-10-16T13:23:12Z",
   "mexc_account": {
-    "unrealized_pnl": 3.4245,
-    "equity": 421.5377,
+    "unrealized_pnl": 3.6902,
+    "equity": 421.8034,
     "available": 59.9417,
     "position_margin": 54.3757
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$421.54",
+      "value": "$421.80",
       "status": "ok",
       "action": null
     },
@@ -773,42 +773,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "CAKEUSDT_20261013_CJ_001",
-      "coin": "CAKEUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 2.25831579,
-      "live_entry_fill": 2.2583,
-      "tp1_hit": false,
-      "iso": "2026-10-14T12:30:00Z",
-      "_iso_ms": 1791981000000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "ALGOUSDT_20261014_CJ_001",
-      "coin": "ALGOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.11859144,
-      "live_entry_fill": 0.11859,
-      "tp1_hit": false,
-      "iso": "2026-10-14T13:13:00Z",
-      "_iso_ms": 1791983580000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "APTUSDT_20261013_CJ_001",
-      "coin": "APTUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.79355183,
-      "live_entry_fill": 0.7936,
-      "tp1_hit": false,
-      "iso": "2026-10-14T13:21:00Z",
-      "_iso_ms": 1791984060000,
-      "rehearsal": false
-    },
     {
       "trade_id": "BTCUSDT_20261013_CJ_001",
       "coin": "BTCUSDT",
