@@ -5001,7 +5001,8 @@
       "opened_at": "2026-10-16T17:15:34Z",
       "margin_usd": 20.87497979175,
       "status": "OPEN",
-      "resting_at": "2026-10-16T08:11:53Z"
+      "resting_at": "2026-10-16T08:11:53Z",
+      "braam_trade_id": "LINKUSDT_20261016_CJ_001"
     }
   },
   "orders": {
@@ -11655,7 +11656,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-16T17:17:52Z",
+  "updated": "2026-10-16T17:21:55Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29136,6 +29137,14 @@
       "unrealized": 4.3901,
       "realized": 0.3234,
       "total": 4.7135
+    },
+    {
+      "ts": "2026-10-16T17:21:55Z",
+      "equity": 422.5194,
+      "available": 59.979,
+      "unrealized": 4.5175,
+      "realized": 0.3234,
+      "total": 4.8409
     }
   ],
   "capital_events": {
