@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-16T22:18:47Z",
+  "last_updated_iso": "2026-10-16T23:18:53Z",
   "freshness": {
-    "engine_run_iso": "2026-10-16T22:18:11Z",
+    "engine_run_iso": "2026-10-16T23:18:08Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-16T22:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-16T22:18:47Z",
+    "published_iso": "2026-10-16T23:18:53Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.049,
-    "equity": 104.983,
-    "available": 84.7751,
+    "unrealized_pnl": 1.0576,
+    "equity": 104.9948,
+    "available": 84.7869,
     "position_margin": 5.5635
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "36s ago",
+      "value": "45s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "69 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.98",
+      "value": "$104.99",
       "status": "ok",
       "action": null
     },
@@ -1700,7 +1700,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-16T16:10:52Z",
-      "last_seen_iso": "2026-10-16T22:18:11Z"
+      "last_seen_iso": "2026-10-16T23:18:08Z"
     },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
@@ -1889,7 +1889,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-16T22:18:47Z",
+    "updated_iso": "2026-10-16T23:18:53Z",
     "trades": [
       {
         "trade_id": "LINKUSDT_20261016_CJ_001",
