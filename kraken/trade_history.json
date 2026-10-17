@@ -1562,7 +1562,7 @@
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56",
         "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6"
       ],
-      "unrealized_pnl": 0.14827158050000033,
+      "unrealized_pnl": 0.1510313211900005,
       "fee_asset": [
         "usd"
       ],
@@ -1625,7 +1625,7 @@
         "e1629999-e85f-4cf9-bac6-b30f830d5d14",
         "2d3a779c-5681-4963-b13f-7dfae2716130"
       ],
-      "unrealized_pnl": 0.0539420317183999,
+      "unrealized_pnl": 0.0567208841887998,
       "fee_asset": [
         "usd"
       ],
@@ -1655,7 +1655,7 @@
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d"
       ],
-      "unrealized_pnl": -0.009968552353000072,
+      "unrealized_pnl": -0.007674690271000007,
       "fee_asset": [
         "usd"
       ],
@@ -1686,10 +1686,11 @@
         "fefbc9a8-37a6-484b-95d5-4d900619168a",
         "5bbb08bb-ef69-474d-8552-fe1db2f3f5a4"
       ],
-      "unrealized_pnl": 0.14980112581099975,
+      "unrealized_pnl": 0.14536338490399991,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "UNIUSDT_20261015_CJ_002": {
       "position_id": "UNIUSDT_20261015_CJ_002",
@@ -1806,7 +1807,7 @@
       "fill_ids": [
         "140d23a8-29da-4c67-9fcc-22fd288245fc"
       ],
-      "unrealized_pnl": -0.10082935545199959,
+      "unrealized_pnl": -0.13481485404799926,
       "fee_asset": [
         "usd"
       ],
@@ -1836,7 +1837,7 @@
       "fill_ids": [
         "3c38329a-e866-44c7-ae62-1542caa98718"
       ],
-      "unrealized_pnl": -0.03167096543999959,
+      "unrealized_pnl": -0.003810478319998589,
       "fee_asset": [
         "usd"
       ],
@@ -8220,8 +8221,16 @@
       "unrealized": 0.8031684020263572,
       "realized": -11.3086,
       "total": -10.5054
+    },
+    {
+      "ts": "2026-10-17T22:08:59Z",
+      "equity": 103.86483896415643,
+      "available": 83.49323496415644,
+      "unrealized": 0.2076607860306346,
+      "realized": -11.3086,
+      "total": -11.1009
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-17T21:32:45Z"
+  "updated": "2026-10-17T22:08:59Z"
 }
