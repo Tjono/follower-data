@@ -11735,9 +11735,45 @@
       "resting_at": "2026-10-17T04:10:39Z",
       "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "866472122471494144": {
+      "order_id": "866472122471494144",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.152,
+      "resting_at": "2026-10-17T16:10:52Z",
+      "braam_trade_id": "CAKEUSDT_20261017_CJ_001",
+      "status": "RESTING"
+    },
+    "866472115984028672": {
+      "order_id": "866472115984028672",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.45,
+      "resting_at": "2026-10-17T16:10:50Z",
+      "braam_trade_id": "LINKUSDT_20261017_CJ_001",
+      "status": "RESTING"
+    },
+    "866472110686722560": {
+      "order_id": "866472110686722560",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.10556,
+      "resting_at": "2026-10-17T16:10:49Z",
+      "braam_trade_id": "ALGOUSDT_20261017_CJ_001",
+      "status": "RESTING"
+    },
+    "866472103106425856": {
+      "order_id": "866472103106425856",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.9443,
+      "resting_at": "2026-10-17T16:10:47Z",
+      "braam_trade_id": "SUIUSDT_20261015_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-17T16:04:47Z",
+  "updated": "2026-10-17T16:12:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29346,6 +29382,14 @@
       "unrealized": 5.6189,
       "realized": -0.9977,
       "total": 4.6212
+    },
+    {
+      "ts": "2026-10-17T16:12:32Z",
+      "equity": 419.7782,
+      "available": 61.3986,
+      "unrealized": 5.2674,
+      "realized": -0.9977,
+      "total": 4.2697
     }
   ],
   "capital_events": {
