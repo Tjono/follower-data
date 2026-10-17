@@ -1562,7 +1562,7 @@
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56",
         "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6"
       ],
-      "unrealized_pnl": 0.3440000870100004,
+      "unrealized_pnl": 0.2756833981,
       "fee_asset": [
         "usd"
       ],
@@ -1576,28 +1576,29 @@
       "leverage": 3,
       "entry_price": 1.8498,
       "entry_size": 8.8,
-      "exit_size": 7.0,
+      "exit_size": 8.8,
       "opened_at": "2026-10-15T02:23:13Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-17T15:06:29Z",
+      "close_price": 1.919525,
       "margin_usd": 5.42608,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": 0.6188,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0101,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "pnl_gross_usd": 0.61358,
+      "pnl_usd": 0.61718,
+      "tag": "WIN",
+      "fees_usd": 0.0118,
+      "funding_usd": 0.0154,
       "fill_ids": [
         "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d",
-        "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588"
+        "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588",
+        "388cb5f5-f149-49f0-ad48-afd494759b7a"
       ],
       "unrealized_pnl": 0.032015672747999616,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "AVAXUSDT_20261014_CJ_001": {
       "position_id": "AVAXUSDT_20261014_CJ_001",
@@ -1624,7 +1625,7 @@
         "e1629999-e85f-4cf9-bac6-b30f830d5d14",
         "2d3a779c-5681-4963-b13f-7dfae2716130"
       ],
-      "unrealized_pnl": 0.10956091402559992,
+      "unrealized_pnl": 0.12007617206400027,
       "fee_asset": [
         "usd"
       ],
@@ -1654,7 +1655,7 @@
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d"
       ],
-      "unrealized_pnl": -0.0022103220760000043,
+      "unrealized_pnl": -0.00199850687400005,
       "fee_asset": [
         "usd"
       ],
@@ -1684,7 +1685,7 @@
       "fill_ids": [
         "fefbc9a8-37a6-484b-95d5-4d900619168a"
       ],
-      "unrealized_pnl": 0.48327023247499845,
+      "unrealized_pnl": 0.5006914036099985,
       "fee_asset": [
         "usd"
       ],
@@ -1743,7 +1744,7 @@
       "fill_ids": [
         "9292092d-3a31-426d-8485-ef24a3458f9a"
       ],
-      "unrealized_pnl": -0.24860168022050005,
+      "unrealized_pnl": -0.22693685597500066,
       "fee_asset": [
         "usd"
       ],
@@ -1773,7 +1774,7 @@
       "fill_ids": [
         "9a2ce42a-4ab2-492e-97bb-a97412a75652"
       ],
-      "unrealized_pnl": -0.28047340982400043,
+      "unrealized_pnl": -0.282303508607999,
       "fee_asset": [
         "usd"
       ],
@@ -4043,6 +4044,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "6762951"
+    },
+    "388cb5f5-f149-49f0-ad48-afd494759b7a": {
+      "fill_id": "388cb5f5-f149-49f0-ad48-afd494759b7a",
+      "symbol": "PF_RENDERUSD",
+      "side": "sell",
+      "order_id": "a2fd0e65-293d-4719-abb7-1b678099176f",
+      "cliOrdId": "RENDERUSDT_20261008_CJ_001:SL2",
+      "size": 1.8,
+      "price": 1.8469,
+      "fillTime": "2026-10-17T15:06:29Z",
+      "fillType": "taker",
+      "realized_pnl": -0.00522,
+      "realized_funding": -4.49783e-06,
+      "sequence_id": "1508817"
     }
   },
   "snapshots": [
@@ -7869,8 +7884,16 @@
       "unrealized": 0.43748656786187845,
       "realized": -11.1017,
       "total": -10.6642
+    },
+    {
+      "ts": "2026-10-17T15:19:05Z",
+      "equity": 104.26446908628007,
+      "available": 84.42102708628008,
+      "unrealized": 0.3854213201425734,
+      "realized": -10.4845,
+      "total": -10.0991
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-17T14:18:40Z"
+  "updated": "2026-10-17T15:19:05Z"
 }
