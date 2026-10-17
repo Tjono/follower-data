@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-17T04:18:47Z",
+  "last_updated_iso": "2026-10-17T04:59:21Z",
   "freshness": {
-    "engine_run_iso": "2026-10-17T04:18:12Z",
+    "engine_run_iso": "2026-10-17T04:58:47Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-17T04:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-17T04:18:47Z",
+    "published_iso": "2026-10-17T04:59:21Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.9516,
-    "equity": 104.8871,
-    "available": 84.6572,
+    "unrealized_pnl": 1.0198,
+    "equity": 104.9553,
+    "available": 84.7254,
     "position_margin": 5.5635
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "35s ago",
+      "value": "34s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "50 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.89",
+      "value": "$104.96",
       "status": "ok",
       "action": null
     },
@@ -1664,7 +1664,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-17T00:10:25Z",
-      "last_seen_iso": "2026-10-17T04:18:12Z"
+      "last_seen_iso": "2026-10-17T04:58:47Z"
     },
     {
       "trade_id": "ADAUSDT_20261016_CJ_001",
@@ -1676,7 +1676,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-16T16:10:52Z",
-      "last_seen_iso": "2026-10-17T04:18:12Z"
+      "last_seen_iso": "2026-10-17T04:58:47Z"
     },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
@@ -1865,7 +1865,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-17T04:18:47Z",
+    "updated_iso": "2026-10-17T04:59:21Z",
     "trades": [
       {
         "trade_id": "LINKUSDT_20261016_CJ_001",
