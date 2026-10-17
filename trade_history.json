@@ -4997,8 +4997,16 @@
       "opened_at": "2026-10-16T17:06:35Z",
       "margin_usd": 20.32900593053,
       "braam_trade_id": "TAOUSDT_20261016_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-16T08:11:54Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-16T08:11:54Z",
+      "closed_at": "2026-10-17T15:49:55Z",
+      "close_price": 268.06,
+      "pnl_usd": -1.9666,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0836
     },
     "1521801253": {
       "position_id": "1521801253",
@@ -5019,6 +5027,18 @@
       "close_reason": "stopped_out",
       "close_fills": 1,
       "fees_usd": 0.0861
+    },
+    "1522280732": {
+      "position_id": "1522280732",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.7963,
+      "opened_at": "2026-10-17T15:49:32Z",
+      "margin_usd": 21.0993803948447,
+      "braam_trade_id": "APTUSDT_20261015_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-15T20:11:52Z"
     }
   },
   "orders": {
@@ -11717,7 +11737,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-17T15:47:03Z",
+  "updated": "2026-10-17T16:01:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29310,6 +29330,14 @@
       "unrealized": 3.6173,
       "realized": 0.9689,
       "total": 4.5862
+    },
+    {
+      "ts": "2026-10-17T16:01:32Z",
+      "equity": 420.0278,
+      "available": 124.2817,
+      "unrealized": 5.517,
+      "realized": -0.9977,
+      "total": 4.5193
     }
   ],
   "capital_events": {

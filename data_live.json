@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-17T15:46:41Z",
+  "last_updated_iso": "2026-10-17T16:01:08Z",
   "mexc_account": {
-    "unrealized_pnl": 3.6173,
-    "equity": 420.0828,
-    "available": 105.8568,
-    "position_margin": 91.2467
+    "unrealized_pnl": 5.517,
+    "equity": 420.0278,
+    "available": 124.2817,
+    "position_margin": 92.0171
   },
   "order_levels": {
-    "checked": 17,
-    "in_sync": 17,
+    "checked": 16,
+    "in_sync": 16,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$420.08",
+      "value": "$420.03",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (11 resting = journal)",
+      "value": "in sync (10 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "live read failed",
-      "status": "warn",
-      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
+      "value": "all protected (6 open, 4 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -584,16 +584,16 @@
       "direction": "Long",
       "entry_price": 0.79626097,
       "sl": 0.76072924,
-      "tp1": 0.88925421,
-      "tp2": 0.96944151,
+      "tp1": 0.8797,
+      "tp2": 0.9404,
       "capital_usd": 21.05,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-17",
+      "time_activated_utc": "15:49",
       "date_opened": "2026-10-15",
       "time_opened_utc": "20:04",
       "conviction": "MEDIUM",
@@ -602,44 +602,11 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "TAOUSDT_20261016_CJ_001",
-      "coin": "TAOUSDT",
-      "direction": "Long",
-      "entry_price": 276.55,
-      "sl": 268.14013137,
-      "tp1": 288.1,
-      "tp2": 297.7,
-      "capital_usd": 20.38,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-10-16",
-      "time_activated_utc": "17:06",
-      "date_opened": "2026-10-16",
-      "time_opened_utc": "08:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
       "live_executed": true,
-      "live_entry_fill": 276.55,
+      "live_entry_fill": 0.7963,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.0365,
+      "live_entry_slippage_pct": 0.0049,
+      "live_fees_usd": 0.0378,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -694,29 +661,21 @@
       "iso": "2026-10-16T17:15:00Z",
       "_iso_ms": 1792170900000,
       "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20261015_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.79626097,
+      "live_entry_fill": 0.7963,
+      "tp1_hit": false,
+      "iso": "2026-10-17T15:49:00Z",
+      "_iso_ms": 1792252140000,
+      "rehearsal": false
     }
   ],
   "recent_closes": [
-    {
-      "trade_id": "ALGOUSDT_20260713_CB_001",
-      "coin": "ALGOUSDT",
-      "direction": "Short",
-      "status": "STOPPED_AFTER_TP1",
-      "pnl_usd": 1.11,
-      "close_reason": "live MEXC exit: manual @ 0.0842",
-      "date_closed": "2026-07-21",
-      "time_closed_utc": "05:57",
-      "trading_system": "Braam",
-      "live_entry_fill": 0.0848,
-      "live_exit_fill": 0.0842,
-      "live_entry_slippage_pct": 0.0224,
-      "live_fees_usd": 0.0598,
-      "live_funding_usd": -0.036521,
-      "pnl_estimated": false,
-      "won": true,
-      "close_iso": "2026-07-21T05:57:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "BNBUSDT_20260720_CB_001",
       "coin": "BNBUSDT",
@@ -4696,6 +4655,26 @@
       "won": false,
       "close_iso": "2026-10-17T15:27:00Z",
       "rehearsal": false
+    },
+    {
+      "trade_id": "TAOUSDT_20261016_CJ_001",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "status": "STOPPED",
+      "pnl_usd": -1.94,
+      "close_reason": "live MEXC exit: sl @ 268.06",
+      "date_closed": "2026-10-17",
+      "time_closed_utc": "15:49",
+      "trading_system": "John",
+      "live_entry_fill": 276.55,
+      "live_exit_fill": 268.06,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0836,
+      "live_funding_usd": -0.015128,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-10-17T15:49:00Z",
+      "rehearsal": false
     }
   ],
   "recent_cancels": [],
@@ -4714,15 +4693,15 @@
     }
   ],
   "stats": {
-    "realized_pnl_usd": 4.85,
-    "realized_pnl_pct": 0.1,
+    "realized_pnl_usd": 2.92,
+    "realized_pnl_pct": 0.06,
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
-    "deployed_trades": 254,
-    "return_on_peak_pct": 2.26,
-    "win_rate_pct": 39.9,
-    "closed_count": 248,
+    "deployed_trades": 255,
+    "return_on_peak_pct": 1.36,
+    "win_rate_pct": 39.8,
+    "closed_count": 249,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -4.99,
@@ -4730,9 +4709,9 @@
         "closed_count": 117
       },
       "John": {
-        "realized_pnl_usd": 9.85,
-        "win_rate_pct": 37.4,
-        "closed_count": 131
+        "realized_pnl_usd": 7.91,
+        "win_rate_pct": 37.1,
+        "closed_count": 132
       }
     },
     "live_trade_count_total": 345,
@@ -4741,9 +4720,9 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-17T14:07Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-10-17T16:00Z",
+    "checked": 16,
+    "in_parity": 16,
     "drifting": []
   }
 }
