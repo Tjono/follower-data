@@ -1562,7 +1562,7 @@
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56",
         "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6"
       ],
-      "unrealized_pnl": 0.4419501006200006,
+      "unrealized_pnl": 0.4354304386500001,
       "fee_asset": [
         "usd"
       ],
@@ -1593,7 +1593,7 @@
         "d3a77b51-d487-4e99-b5c1-5e6f905cbc5d",
         "f5f5c92c-c8a4-4e6a-a266-11d41e2b5588"
       ],
-      "unrealized_pnl": 0.10454492617199973,
+      "unrealized_pnl": 0.1026316424519997,
       "fee_asset": [
         "usd"
       ],
@@ -1624,7 +1624,7 @@
         "e1629999-e85f-4cf9-bac6-b30f830d5d14",
         "2d3a779c-5681-4963-b13f-7dfae2716130"
       ],
-      "unrealized_pnl": 0.17508885831680004,
+      "unrealized_pnl": 0.160519860032,
       "fee_asset": [
         "usd"
       ],
@@ -1654,7 +1654,7 @@
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d"
       ],
-      "unrealized_pnl": 0.01450845405800001,
+      "unrealized_pnl": 0.013390998096999951,
       "fee_asset": [
         "usd"
       ],
@@ -1684,7 +1684,7 @@
       "fill_ids": [
         "fefbc9a8-37a6-484b-95d5-4d900619168a"
       ],
-      "unrealized_pnl": 0.4763894688474988,
+      "unrealized_pnl": 0.49042576093249934,
       "fee_asset": [
         "usd"
       ],
@@ -1743,7 +1743,7 @@
       "fill_ids": [
         "9292092d-3a31-426d-8485-ef24a3458f9a"
       ],
-      "unrealized_pnl": -0.08418006472600155,
+      "unrealized_pnl": -0.10362855932850153,
       "fee_asset": [
         "usd"
       ],
@@ -1773,7 +1773,7 @@
       "fill_ids": [
         "9a2ce42a-4ab2-492e-97bb-a97412a75652"
       ],
-      "unrealized_pnl": -0.0058605587640009555,
+      "unrealized_pnl": -0.039092079936001056,
       "fee_asset": [
         "usd"
       ],
@@ -2634,6 +2634,15 @@
       "entry_price": 0.08881,
       "resting_at": "2026-10-17T04:09:30Z",
       "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
+      "status": "RESTING"
+    },
+    "a3009ccf-e96b-4221-a816-7c35bcaa9d09": {
+      "order_id": "a3009ccf-e96b-4221-a816-7c35bcaa9d09",
+      "coin": "ADAUSDT",
+      "direction": "Long",
+      "entry_price": 0.21846,
+      "resting_at": "2026-10-17T09:44:21Z",
+      "braam_trade_id": "ADAUSDT_20261016_CJ_001",
       "status": "RESTING"
     }
   },
@@ -7796,8 +7805,16 @@
       "unrealized": 1.1225880076270416,
       "realized": -11.1017,
       "total": -9.9791
+    },
+    {
+      "ts": "2026-10-17T09:44:56Z",
+      "equity": 104.9471087057471,
+      "available": 84.7707027057471,
+      "unrealized": 1.0599773440980897,
+      "realized": -11.1017,
+      "total": -10.0417
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-17T09:22:03Z"
+  "updated": "2026-10-17T09:44:56Z"
 }
