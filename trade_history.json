@@ -11690,9 +11690,18 @@
       "resting_at": "2026-10-17T00:11:38Z",
       "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "866290874186238464": {
+      "order_id": "866290874186238464",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.08881,
+      "resting_at": "2026-10-17T04:10:39Z",
+      "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-17T00:38:27Z",
+  "updated": "2026-10-17T04:12:30Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29245,6 +29254,14 @@
       "unrealized": 5.6816,
       "realized": 0.3234,
       "total": 6.005
+    },
+    {
+      "ts": "2026-10-17T04:12:30Z",
+      "equity": 423.7838,
+      "available": 60.2085,
+      "unrealized": 5.7307,
+      "realized": 0.3234,
+      "total": 6.0541
     }
   ],
   "capital_events": {
