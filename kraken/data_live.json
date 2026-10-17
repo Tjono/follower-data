@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-17T15:50:40Z",
+  "last_updated_iso": "2026-10-17T15:56:37Z",
   "freshness": {
-    "engine_run_iso": "2026-10-17T15:50:09Z",
+    "engine_run_iso": "2026-10-17T15:56:09Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-17T14:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-17T15:50:40Z",
+    "published_iso": "2026-10-17T15:56:37Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.9431,
-    "equity": 104.0094,
-    "available": 85.554,
+    "unrealized_pnl": 0.8984,
+    "equity": 103.9624,
+    "available": 85.507,
     "position_margin": 3.9385
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "31s ago",
+      "value": "28s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "103 min old",
+      "value": "109 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.01",
+      "value": "$103.96",
       "status": "ok",
       "action": null
     },
@@ -1638,7 +1638,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-17T00:10:25Z",
-      "last_seen_iso": "2026-10-17T15:50:09Z"
+      "last_seen_iso": "2026-10-17T15:56:09Z"
     },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
@@ -1821,7 +1821,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-17T15:50:40Z",
+    "updated_iso": "2026-10-17T15:56:37Z",
     "trades": [
       {
         "trade_id": "TAOUSDT_20261016_CJ_001",
