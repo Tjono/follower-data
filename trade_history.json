@@ -11672,9 +11672,27 @@
       "resting_at": "2026-10-16T20:13:08Z",
       "braam_trade_id": "SUIUSDT_20261015_CJ_001",
       "status": "RESTING"
+    },
+    "866230758907425280": {
+      "order_id": "866230758907425280",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.968,
+      "resting_at": "2026-10-17T00:11:46Z",
+      "braam_trade_id": "SUIUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "866230725731981313": {
+      "order_id": "866230725731981313",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.0901,
+      "resting_at": "2026-10-17T00:11:38Z",
+      "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-16T22:12:29Z",
+  "updated": "2026-10-17T00:13:28Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29211,6 +29229,14 @@
       "unrealized": 5.552,
       "realized": 0.3234,
       "total": 5.8754
+    },
+    {
+      "ts": "2026-10-17T00:13:28Z",
+      "equity": 423.9661,
+      "available": 59.8525,
+      "unrealized": 5.9663,
+      "realized": 0.3234,
+      "total": 6.2897
     }
   ],
   "capital_events": {
