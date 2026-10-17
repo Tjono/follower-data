@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-17T16:10:24Z",
+  "last_updated_iso": "2026-10-17T16:18:46Z",
   "freshness": {
-    "engine_run_iso": "2026-10-17T16:09:36Z",
+    "engine_run_iso": "2026-10-17T16:18:12Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-17T16:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-17T16:10:24Z",
+    "published_iso": "2026-10-17T16:18:46Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.9196,
-    "equity": 103.9853,
-    "available": 82.3891,
+    "unrealized_pnl": 0.9698,
+    "equity": 104.033,
+    "available": 82.4368,
     "position_margin": 3.9385
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "48s ago",
+      "value": "34s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "84s old",
+      "value": "9 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$103.99",
+      "value": "$104.03",
       "status": "ok",
       "action": null
     },
@@ -1755,13 +1755,6 @@
   ],
   "recent_cancels": [
     {
-      "coin": "ONDOUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "close_reason": "the feed cancelled it (CANCELLED: Signal direction flipped to Long (5/8 signals)",
-      "iso": "2026-10-15T16:10:35Z"
-    },
-    {
       "coin": "HBARUSDT",
       "direction": "Short",
       "trading_system": "John",
@@ -1780,7 +1773,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-17T00:10:25Z",
-      "last_seen_iso": "2026-10-17T16:09:36Z"
+      "last_seen_iso": "2026-10-17T16:18:12Z"
     },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
@@ -1963,7 +1956,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-17T16:10:24Z",
+    "updated_iso": "2026-10-17T16:18:46Z",
     "trades": [
       {
         "trade_id": "LINKUSDT_20261017_CJ_001",
