@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-18T14:13:10Z",
+  "last_updated_iso": "2026-10-18T14:15:18Z",
   "freshness": {
-    "engine_run_iso": "2026-10-18T14:12:30Z",
+    "engine_run_iso": "2026-10-18T14:14:42Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-18T14:12:00Z",
+    "feed_generated_iso": "2026-10-18T14:14:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-18T14:13:10Z",
+    "published_iso": "2026-10-18T14:15:18Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.5114,
-    "equity": 103.153,
-    "available": 82.7943,
+    "unrealized_pnl": -0.5216,
+    "equity": 103.1455,
+    "available": 82.7868,
     "position_margin": 5.7932
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "40s ago",
+      "value": "36s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "70s old",
+      "value": "78s old",
       "status": "ok",
       "action": null
     },
@@ -1745,7 +1745,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-17T20:09:44Z",
-      "last_seen_iso": "2026-10-18T14:12:30Z"
+      "last_seen_iso": "2026-10-18T14:14:42Z"
     },
     {
       "trade_id": "THETAUSDT_20261017_CJ_001",
@@ -1757,7 +1757,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-17T00:10:25Z",
-      "last_seen_iso": "2026-10-18T14:12:30Z"
+      "last_seen_iso": "2026-10-18T14:14:42Z"
     },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
@@ -1924,7 +1924,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-18T14:12Z",
+    "feed_generated_utc": "2026-10-18T14:14Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
@@ -1932,7 +1932,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-18T14:12Z",
+    "feed_generated_utc": "2026-10-18T14:14Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
@@ -1940,13 +1940,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-18T14:12Z",
+    "feed_generated_utc": "2026-10-18T14:14Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-18T14:13:10Z",
+    "updated_iso": "2026-10-18T14:15:18Z",
     "trades": [
       {
         "trade_id": "CAKEUSDT_20261017_CJ_001",
