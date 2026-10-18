@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-18T13:18:31Z",
+  "last_updated_iso": "2026-10-18T14:07:37Z",
   "freshness": {
-    "engine_run_iso": "2026-10-18T13:17:58Z",
+    "engine_run_iso": "2026-10-18T14:06:57Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-18T12:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-18T13:18:31Z",
+    "published_iso": "2026-10-18T14:07:37Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.3807,
-    "equity": 104.0407,
-    "available": 83.6819,
-    "position_margin": 4.2868
+    "unrealized_pnl": -0.5036,
+    "equity": 103.1446,
+    "available": 82.7859,
+    "position_margin": 5.7932
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "33s ago",
+      "value": "40s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "69 min old",
+      "value": "118 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (60 records, 13 resting, 7 open, 37 closed)",
+      "value": "OK (60 records, 12 resting, 8 open, 37 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.04",
+      "value": "$103.14",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (13 resting = journal)",
+      "value": "in sync (12 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (6 open)",
+      "value": "all protected (7 open)",
       "status": "ok",
       "action": null
     },
@@ -735,31 +735,31 @@
       "sl": 2.1024602,
       "tp1": 2.30816687,
       "tp2": 2.4220796,
-      "capital_usd": 5.2,
+      "capital_usd": 5.02,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-18",
+      "time_activated_utc": "14:06",
       "date_opened": "2026-10-17",
       "time_opened_utc": "16:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 2.152,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-10-18T14:06:46.181000+00:00"
     },
     {
       "trade_id": "LINKUSDT_20261017_CJ_001",
@@ -857,6 +857,18 @@
       "tp1_hit": false,
       "iso": "2026-10-17T21:29:59Z",
       "_iso_ms": 1792272599000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "CAKEUSDT_20261017_CJ_001",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 2.152,
+      "live_entry_fill": 2.152,
+      "tp1_hit": false,
+      "iso": "2026-10-18T14:06:46Z",
+      "_iso_ms": 1792332406000,
       "rehearsal": false
     }
   ],
@@ -1733,7 +1745,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-17T20:09:44Z",
-      "last_seen_iso": "2026-10-18T13:17:58Z"
+      "last_seen_iso": "2026-10-18T14:06:57Z"
     },
     {
       "trade_id": "THETAUSDT_20261017_CJ_001",
@@ -1745,7 +1757,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-17T00:10:25Z",
-      "last_seen_iso": "2026-10-18T13:17:58Z"
+      "last_seen_iso": "2026-10-18T14:06:57Z"
     },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
@@ -1894,7 +1906,7 @@
     "peak_capital_usd": 44.57,
     "peak_concurrent": 9,
     "peak_date": "2026-10-12",
-    "deployed_trades": 44,
+    "deployed_trades": 45,
     "return_on_peak_pct": -25.37,
     "win_rate_pct": 10.8,
     "closed_count": 37,
@@ -1934,8 +1946,21 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-18T13:18:31Z",
+    "updated_iso": "2026-10-18T14:07:37Z",
     "trades": [
+      {
+        "trade_id": "CAKEUSDT_20261017_CJ_001",
+        "coin": "CAKEUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.0213
+        },
+        "mexc": null
+      },
       {
         "trade_id": "ADAUSDT_20261016_CJ_001",
         "coin": "ADAUSDT",
@@ -1952,19 +1977,6 @@
       {
         "trade_id": "LINKUSDT_20261017_CJ_001",
         "coin": "LINKUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "RESTING",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 5.2
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "CAKEUSDT_20261017_CJ_001",
-        "coin": "CAKEUSDT",
         "direction": "Long",
         "trading_system": "John",
         "kraken": {
