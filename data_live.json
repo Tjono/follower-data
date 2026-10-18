@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-18T16:12:06Z",
+  "last_updated_iso": "2026-10-18T18:45:33Z",
   "mexc_account": {
-    "unrealized_pnl": -0.3558,
-    "equity": 416.5619,
+    "unrealized_pnl": -0.728,
+    "equity": 416.1896,
     "available": 47.8894,
     "position_margin": 108.1158
   },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$416.56",
+      "value": "$416.19",
       "status": "ok",
       "action": null
     },
@@ -727,42 +727,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "UNIUSDT_20261015_CJ_002",
-      "coin": "UNIUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 7.17877708,
-      "live_entry_fill": 7.179,
-      "tp1_hit": false,
-      "iso": "2026-10-16T17:04:00Z",
-      "_iso_ms": 1792170240000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "TAOUSDT_20261016_CJ_001",
-      "coin": "TAOUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 276.55,
-      "live_entry_fill": 276.55,
-      "tp1_hit": false,
-      "iso": "2026-10-16T17:06:00Z",
-      "_iso_ms": 1792170360000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "LINKUSDT_20261016_CJ_001",
-      "coin": "LINKUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 12.25,
-      "live_entry_fill": 12.25,
-      "tp1_hit": false,
-      "iso": "2026-10-16T17:15:00Z",
-      "_iso_ms": 1792170900000,
-      "rehearsal": false
-    },
     {
       "trade_id": "APTUSDT_20261015_CJ_001",
       "coin": "APTUSDT",
@@ -4839,7 +4803,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-18T16:09Z",
+    "feed_generated_utc": "2026-10-18T18:08Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
