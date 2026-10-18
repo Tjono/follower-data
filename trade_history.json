@@ -4989,8 +4989,16 @@
       "opened_at": "2026-10-16T00:18:22Z",
       "margin_usd": 20.884318394851455,
       "braam_trade_id": "LTCUSDT_20261014_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-14T16:12:03Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-14T16:12:03Z",
+      "closed_at": "2026-10-18T19:56:57Z",
+      "close_price": 57.91,
+      "pnl_usd": 3.2982,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0845
     },
     "1521792323": {
       "position_id": "1521792323",
@@ -5001,8 +5009,16 @@
       "opened_at": "2026-10-16T17:04:58Z",
       "margin_usd": 20.869065631809,
       "braam_trade_id": "UNIUSDT_20261015_CJ_002",
-      "status": "OPEN",
-      "resting_at": "2026-10-16T12:11:55Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-16T12:11:55Z",
+      "closed_at": "2026-10-18T19:21:24Z",
+      "close_price": 6.931,
+      "pnl_usd": -2.244,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0856
     },
     "1521793965": {
       "position_id": "1521793965",
@@ -5053,8 +5069,16 @@
       "opened_at": "2026-10-17T15:49:32Z",
       "margin_usd": 21.0993803948447,
       "braam_trade_id": "APTUSDT_20261015_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-15T20:11:52Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-15T20:11:52Z",
+      "closed_at": "2026-10-18T19:30:36Z",
+      "close_price": 0.7607,
+      "pnl_usd": -2.8972,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.086
     },
     "1522783304": {
       "position_id": "1522783304",
@@ -5065,8 +5089,16 @@
       "opened_at": "2026-10-18T14:05:53Z",
       "margin_usd": 20.8866744583,
       "braam_trade_id": "RENDERUSDT_20261017_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-17T20:11:05Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-17T20:11:05Z",
+      "closed_at": "2026-10-18T19:57:07Z",
+      "close_price": 1.72,
+      "pnl_usd": -2.3986,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0856
     },
     "1522783080": {
       "position_id": "1522783080",
@@ -5077,8 +5109,28 @@
       "opened_at": "2026-10-18T14:05:42Z",
       "margin_usd": 20.85259285864,
       "braam_trade_id": "CAKEUSDT_20261017_CJ_001",
+      "status": "CLOSED",
+      "resting_at": "2026-10-17T16:10:52Z",
+      "closed_at": "2026-10-18T19:57:03Z",
+      "close_price": 2.1024,
+      "pnl_usd": -1.5277,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0861
+    },
+    "1522945999": {
+      "position_id": "1522945999",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.9383,
+      "opened_at": "2026-10-18T19:43:00Z",
+      "margin_usd": 20.378624730035,
+      "braam_trade_id": "SUIUSDT_20261015_CJ_001",
       "status": "OPEN",
-      "resting_at": "2026-10-17T16:10:52Z"
+      "resting_at": "2026-10-18T04:11:19Z"
     }
   },
   "orders": {
@@ -11856,9 +11908,36 @@
       "resting_at": "2026-10-18T16:10:51Z",
       "braam_trade_id": "XRPUSDT_20261013_CJ_001",
       "status": "RESTING"
+    },
+    "866895046987838464": {
+      "order_id": "866895046987838464",
+      "coin": "ETHUSDT",
+      "direction": "Long",
+      "entry_price": 2296.01,
+      "resting_at": "2026-10-18T20:11:25Z",
+      "braam_trade_id": "ETHUSDT_20261018_CJ_001",
+      "status": "RESTING"
+    },
+    "866895041762142720": {
+      "order_id": "866895041762142720",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.516,
+      "resting_at": "2026-10-18T20:11:23Z",
+      "braam_trade_id": "NEARUSDT_20261018_CJ_001",
+      "status": "RESTING"
+    },
+    "866895021268644352": {
+      "order_id": "866895021268644352",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 732.1,
+      "resting_at": "2026-10-18T20:11:19Z",
+      "braam_trade_id": "BNBUSDT_20261015_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-18T18:45:55Z",
+  "updated": "2026-10-18T20:13:00Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29611,6 +29690,14 @@
       "unrealized": -0.728,
       "realized": 6.3986,
       "total": 5.6706
+    },
+    {
+      "ts": "2026-10-18T20:13:00Z",
+      "equity": 413.5359,
+      "available": 154.2088,
+      "unrealized": 1.1865,
+      "realized": 0.6293,
+      "total": 1.8158
     }
   ],
   "capital_events": {
