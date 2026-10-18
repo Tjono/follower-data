@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-18T14:07:37Z",
+  "last_updated_iso": "2026-10-18T14:13:10Z",
   "freshness": {
-    "engine_run_iso": "2026-10-18T14:06:57Z",
+    "engine_run_iso": "2026-10-18T14:12:30Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-18T12:09:00Z",
+    "feed_generated_iso": "2026-10-18T14:12:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-18T14:07:37Z",
+    "published_iso": "2026-10-18T14:13:10Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.5036,
-    "equity": 103.1446,
-    "available": 82.7859,
+    "unrealized_pnl": -0.5114,
+    "equity": 103.153,
+    "available": 82.7943,
     "position_margin": 5.7932
   },
   "account_source": "live",
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "118 min old",
+      "value": "70s old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$103.14",
+      "value": "$103.15",
       "status": "ok",
       "action": null
     },
@@ -733,8 +733,8 @@
       "direction": "Long",
       "entry_price": 2.152,
       "sl": 2.1024602,
-      "tp1": 2.30816687,
-      "tp2": 2.4220796,
+      "tp1": 2.254,
+      "tp2": 2.39,
       "capital_usd": 5.02,
       "leverage": 3,
       "trading_system": "John",
@@ -1745,7 +1745,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-17T20:09:44Z",
-      "last_seen_iso": "2026-10-18T14:06:57Z"
+      "last_seen_iso": "2026-10-18T14:12:30Z"
     },
     {
       "trade_id": "THETAUSDT_20261017_CJ_001",
@@ -1757,7 +1757,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-17T00:10:25Z",
-      "last_seen_iso": "2026-10-18T14:06:57Z"
+      "last_seen_iso": "2026-10-18T14:12:30Z"
     },
     {
       "trade_id": "ALGOUSDT_20261009_CJ_001",
@@ -1924,7 +1924,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-18T12:09Z",
+    "feed_generated_utc": "2026-10-18T14:12Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
@@ -1932,7 +1932,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-18T12:09Z",
+    "feed_generated_utc": "2026-10-18T14:12Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
@@ -1940,13 +1940,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-18T12:09Z",
+    "feed_generated_utc": "2026-10-18T14:12Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-18T14:07:37Z",
+    "updated_iso": "2026-10-18T14:13:10Z",
     "trades": [
       {
         "trade_id": "CAKEUSDT_20261017_CJ_001",
