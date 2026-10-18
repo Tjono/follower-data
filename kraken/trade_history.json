@@ -1562,7 +1562,7 @@
         "e486e9c5-5c2b-4a61-b20a-b284ebc09e56",
         "5bc2f628-66c8-4fa2-98f7-abb6c14c1ed6"
       ],
-      "unrealized_pnl": 0.3169792662500006,
+      "unrealized_pnl": 0.30743624725000007,
       "fee_asset": [
         "usd"
       ],
@@ -1625,7 +1625,7 @@
         "e1629999-e85f-4cf9-bac6-b30f830d5d14",
         "2d3a779c-5681-4963-b13f-7dfae2716130"
       ],
-      "unrealized_pnl": 0.10485013216640027,
+      "unrealized_pnl": 0.1011051896319998,
       "fee_asset": [
         "usd"
       ],
@@ -1655,7 +1655,7 @@
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d"
       ],
-      "unrealized_pnl": 0.008697191064999998,
+      "unrealized_pnl": 0.008600321569999991,
       "fee_asset": [
         "usd"
       ],
@@ -1686,7 +1686,7 @@
         "fefbc9a8-37a6-484b-95d5-4d900619168a",
         "5bbb08bb-ef69-474d-8552-fe1db2f3f5a4"
       ],
-      "unrealized_pnl": 0.10880484416199998,
+      "unrealized_pnl": 0.10623122616149985,
       "fee_asset": [
         "usd"
       ],
@@ -1807,7 +1807,7 @@
       "fill_ids": [
         "140d23a8-29da-4c67-9fcc-22fd288245fc"
       ],
-      "unrealized_pnl": -0.014235802223999717,
+      "unrealized_pnl": -0.052757455631999635,
       "fee_asset": [
         "usd"
       ],
@@ -1837,7 +1837,7 @@
       "fill_ids": [
         "3c38329a-e866-44c7-ae62-1542caa98718"
       ],
-      "unrealized_pnl": 0.17108354880000154,
+      "unrealized_pnl": 0.16119481896000187,
       "fee_asset": [
         "usd"
       ],
@@ -2743,6 +2743,24 @@
       "entry_price": 0.9443,
       "resting_at": "2026-10-17T16:09:47Z",
       "braam_trade_id": "SUIUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "a3022848-8087-468c-b053-d7608b970da6": {
+      "order_id": "a3022848-8087-468c-b053-d7608b970da6",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.9383,
+      "resting_at": "2026-10-18T04:10:11Z",
+      "braam_trade_id": "SUIUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "a3022842-6e51-475b-bf16-e182d61ec8fd": {
+      "order_id": "a3022842-6e51-475b-bf16-e182d61ec8fd",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.0901,
+      "resting_at": "2026-10-18T04:10:07Z",
+      "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
       "status": "RESTING"
     }
   },
@@ -8293,8 +8311,16 @@
       "unrealized": 0.6963504326843705,
       "realized": -11.3086,
       "total": -10.6122
+    },
+    {
+      "ts": "2026-10-18T04:10:32Z",
+      "equity": 104.29888057412798,
+      "available": 83.94017057412798,
+      "unrealized": 0.6318745553779739,
+      "realized": -11.3086,
+      "total": -10.6767
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-18T03:18:25Z"
+  "updated": "2026-10-18T04:10:32Z"
 }
