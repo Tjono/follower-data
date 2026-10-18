@@ -1,39 +1,39 @@
 {
-  "generated_at_utc": "2026-10-18T19:36:55+00:00",
+  "generated_at_utc": "2026-10-18T20:05:58+00:00",
   "venue": "Kraken",
   "all_time": {
-    "total_trades": 42,
-    "wins": 6,
-    "losses": 36,
-    "win_rate": 14.3,
-    "total_pnl_usd": -11.35,
-    "avg_pnl_usd": -0.27,
+    "total_trades": 44,
+    "wins": 7,
+    "losses": 37,
+    "win_rate": 15.9,
+    "total_pnl_usd": -11.05,
+    "avg_pnl_usd": -0.25,
     "best_usd": 0.85,
     "worst_usd": -0.8,
-    "avg_win_usd": 0.52,
-    "avg_loss_usd": -0.4,
-    "expectancy_usd": -0.27,
-    "profit_factor": 0.21,
+    "avg_win_usd": 0.56,
+    "avg_loss_usd": -0.41,
+    "expectancy_usd": -0.25,
+    "profit_factor": 0.26,
     "longest_win_streak": 2,
     "longest_loss_streak": 12,
     "current_streak_type": "loss",
-    "current_streak_count": 3,
-    "avg_hold_hours": 17.4,
+    "current_streak_count": 1,
+    "avg_hold_hours": 18.2,
     "median_hold_hours": 7.7
   },
   "by_system": {
     "John": {
-      "n": 42,
-      "wins": 6,
-      "wr": 14.3,
-      "pnl": -11.35,
-      "avg": -0.27,
+      "n": 44,
+      "wins": 7,
+      "wr": 15.9,
+      "pnl": -11.05,
+      "avg": -0.25,
       "inception": "2026-10-07",
       "days_active": 12,
-      "pnl_per_day": -0.95,
+      "pnl_per_day": -0.92,
       "status": "active",
-      "open": 5,
-      "pending": 12
+      "open": 4,
+      "pending": 11
     },
     "Braam": {
       "n": 0,
@@ -68,13 +68,13 @@
       "name": "John",
       "inception": "2026-10-07",
       "days_active": 12,
-      "closed": 42,
-      "wins": 6,
-      "wr": 14.3,
-      "pnl": -11.35,
-      "pnl_per_day": -0.95,
-      "open": 5,
-      "pending": 12
+      "closed": 44,
+      "wins": 7,
+      "wr": 15.9,
+      "pnl": -11.05,
+      "pnl_per_day": -0.92,
+      "open": 4,
+      "pending": 11
     },
     {
       "name": "Braam",
@@ -104,11 +104,11 @@
   "monthly": [
     {
       "month": "2026-10",
-      "n": 42,
-      "wins": 6,
-      "wr": 14.3,
-      "pnl": -11.35,
-      "cumulative_pnl": -11.35
+      "n": 44,
+      "wins": 7,
+      "wr": 15.9,
+      "pnl": -11.05,
+      "cumulative_pnl": -11.05
     }
   ],
   "equity_curve": [
@@ -363,6 +363,18 @@
       "pnl": -0.47,
       "cumulative": -11.35,
       "won": false
+    },
+    {
+      "iso": "2026-10-18T19:43:03Z",
+      "pnl": 0.82,
+      "cumulative": -10.53,
+      "won": true
+    },
+    {
+      "iso": "2026-10-18T19:57:07Z",
+      "pnl": -0.53,
+      "cumulative": -11.05,
+      "won": false
     }
   ],
   "benchmark": {
@@ -537,6 +549,14 @@
       {
         "iso": "2026-10-18",
         "pct": -10.081
+      },
+      {
+        "iso": "2026-10-18",
+        "pct": -9.35
+      },
+      {
+        "iso": "2026-10-18",
+        "pct": -9.818
       }
     ],
     "spx": [
@@ -585,24 +605,24 @@
         "pct": -0.819
       }
     ],
-    "ours_pct": -10.081,
+    "ours_pct": -9.818,
     "spx_pct": -0.819,
     "spx_last_close_iso": "2026-10-16"
   },
   "by_direction": {
     "Long": {
-      "n": 39,
+      "n": 40,
       "wins": 5,
-      "wr": 12.8,
-      "pnl": -11.18,
+      "wr": 12.5,
+      "pnl": -11.71,
       "avg": -0.29
     },
     "Short": {
-      "n": 3,
-      "wins": 1,
-      "wr": 33.3,
-      "pnl": -0.17,
-      "avg": -0.06
+      "n": 4,
+      "wins": 2,
+      "wr": 50.0,
+      "pnl": 0.65,
+      "avg": 0.16
     }
   },
   "by_conviction": {
@@ -614,11 +634,11 @@
       "avg": -0.11
     },
     "MEDIUM": {
-      "n": 34,
-      "wins": 3,
-      "wr": 8.8,
-      "pnl": -11.17,
-      "avg": -0.33
+      "n": 36,
+      "wins": 4,
+      "wr": 11.1,
+      "pnl": -10.87,
+      "avg": -0.3
     },
     "VERY HIGH": {
       "n": 1,
@@ -644,12 +664,12 @@
       "avg": 0.54
     },
     {
-      "coin": "RENDER",
+      "coin": "LTC",
       "n": 1,
       "wins": 1,
       "wr": 100.0,
-      "pnl": 0.62,
-      "avg": 0.62
+      "pnl": 0.82,
+      "avg": 0.82
     },
     {
       "coin": "TRX",
@@ -660,20 +680,20 @@
       "avg": 0.06
     },
     {
+      "coin": "RENDER",
+      "n": 2,
+      "wins": 1,
+      "wr": 50.0,
+      "pnl": 0.09,
+      "avg": 0.05
+    },
+    {
       "coin": "NEAR",
       "n": 3,
       "wins": 1,
       "wr": 33.3,
       "pnl": -0.17,
       "avg": -0.06
-    },
-    {
-      "coin": "BTC",
-      "n": 3,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -0.31,
-      "avg": -0.1
     }
   ],
   "worst_coins": [
@@ -741,6 +761,26 @@
     "conviction": "HIGH"
   },
   "recent_closes": [
+    {
+      "trade_id": "RENDERUSDT_20261017_CJ_001",
+      "coin": "RENDER",
+      "direction": "Long",
+      "system": "John",
+      "pnl_usd": -0.53,
+      "won": false,
+      "close_reason": "stopped_out",
+      "iso": "2026-10-18T19:57:07+00:00"
+    },
+    {
+      "trade_id": "LTCUSDT_20261014_CJ_001",
+      "coin": "LTC",
+      "direction": "Short",
+      "system": "John",
+      "pnl_usd": 0.82,
+      "won": true,
+      "close_reason": "tp1_tp2",
+      "iso": "2026-10-18T19:43:03+00:00"
+    },
     {
       "trade_id": "ADAUSDT_20261016_CJ_001",
       "coin": "ADA",
@@ -820,35 +860,15 @@
       "won": true,
       "close_reason": "tp1_breakeven",
       "iso": "2026-10-17T15:06:29+00:00"
-    },
-    {
-      "trade_id": "LINKUSDT_20261009_CJ_001",
-      "coin": "LINK",
-      "direction": "Long",
-      "system": "John",
-      "pnl_usd": -0.49,
-      "won": false,
-      "close_reason": "stopped_out",
-      "iso": "2026-10-15T02:28:53+00:00"
-    },
-    {
-      "trade_id": "APTUSDT_20261013_CJ_001",
-      "coin": "APT",
-      "direction": "Long",
-      "system": "John",
-      "pnl_usd": -0.75,
-      "won": false,
-      "close_reason": "stopped_out",
-      "iso": "2026-10-15T02:24:28+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 5,
+    "open_count": 4,
     "open_long": 3,
-    "open_short": 2,
-    "pending_count": 12,
-    "capital_open_usd": 25.15,
-    "capital_pending_usd": 61.76
+    "open_short": 1,
+    "pending_count": 11,
+    "capital_open_usd": 18.04,
+    "capital_pending_usd": 57.32
   },
   "macro": {
     "vix": null,
