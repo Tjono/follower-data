@@ -4937,8 +4937,16 @@
       "opened_at": "2026-10-15T02:24:13Z",
       "margin_usd": 20.65445179395,
       "braam_trade_id": "AVAXUSDT_20261014_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-14T16:11:58Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-14T16:11:58Z",
+      "closed_at": "2026-10-18T14:32:07Z",
+      "close_price": 10.037,
+      "pnl_usd": 3.3274,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0891
     },
     "1520563682": {
       "position_id": "1520563682",
@@ -4949,8 +4957,16 @@
       "opened_at": "2026-10-15T02:22:19Z",
       "margin_usd": 20.45464006261,
       "braam_trade_id": "NEARUSDT_20261015_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-15T00:11:02Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-15T00:11:02Z",
+      "closed_at": "2026-10-18T14:30:27Z",
+      "close_price": 5.029,
+      "pnl_usd": 4.0689,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.089
     },
     "1521032269": {
       "position_id": "1521032269",
@@ -11824,7 +11840,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-18T14:19:11Z",
+  "updated": "2026-10-18T16:02:27Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29553,6 +29569,14 @@
       "unrealized": 0.8233,
       "realized": -0.9977,
       "total": -0.1744
+    },
+    {
+      "ts": "2026-10-18T16:02:27Z",
+      "equity": 416.3802,
+      "available": 68.1209,
+      "unrealized": -0.5375,
+      "realized": 6.3986,
+      "total": 5.8611
     }
   ],
   "capital_events": {
