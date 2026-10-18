@@ -5039,6 +5039,30 @@
       "braam_trade_id": "APTUSDT_20261015_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-15T20:11:52Z"
+    },
+    "1522783304": {
+      "position_id": "1522783304",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.786,
+      "opened_at": "2026-10-18T14:05:53Z",
+      "margin_usd": 20.8866744583,
+      "braam_trade_id": "RENDERUSDT_20261017_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-17T20:11:05Z"
+    },
+    "1522783080": {
+      "position_id": "1522783080",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2.152,
+      "opened_at": "2026-10-18T14:05:42Z",
+      "margin_usd": 20.85259285864,
+      "braam_trade_id": "CAKEUSDT_20261017_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-17T16:10:52Z"
     }
   },
   "orders": {
@@ -11800,7 +11824,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-18T11:26:48Z",
+  "updated": "2026-10-18T14:15:40Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29513,6 +29537,14 @@
       "unrealized": 4.057,
       "realized": -0.9977,
       "total": 3.0593
+    },
+    {
+      "ts": "2026-10-18T14:15:40Z",
+      "equity": 417.5377,
+      "available": 59.2961,
+      "unrealized": 0.5937,
+      "realized": -0.9977,
+      "total": -0.404
     }
   ],
   "capital_events": {
