@@ -11838,9 +11838,27 @@
       "resting_at": "2026-10-18T04:11:13Z",
       "braam_trade_id": "DOGEUSDT_20261008_CJ_001",
       "status": "RESTING"
+    },
+    "866834528848033792": {
+      "order_id": "866834528848033792",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.616,
+      "resting_at": "2026-10-18T16:10:56Z",
+      "braam_trade_id": "NEARUSDT_20261018_CJ_001",
+      "status": "RESTING"
+    },
+    "866834508438181888": {
+      "order_id": "866834508438181888",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.3479,
+      "resting_at": "2026-10-18T16:10:51Z",
+      "braam_trade_id": "XRPUSDT_20261013_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-18T16:02:27Z",
+  "updated": "2026-10-18T16:12:26Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29577,6 +29595,14 @@
       "unrealized": -0.5375,
       "realized": 6.3986,
       "total": 5.8611
+    },
+    {
+      "ts": "2026-10-18T16:12:26Z",
+      "equity": 416.5619,
+      "available": 47.8894,
+      "unrealized": -0.3558,
+      "realized": 6.3986,
+      "total": 6.0428
     }
   ],
   "capital_events": {
