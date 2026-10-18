@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-18T16:10:19Z",
+  "last_updated_iso": "2026-10-18T16:18:35Z",
   "freshness": {
-    "engine_run_iso": "2026-10-18T16:09:30Z",
+    "engine_run_iso": "2026-10-18T16:17:59Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-18T16:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-18T16:10:19Z",
+    "published_iso": "2026-10-18T16:18:35Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.6732,
-    "equity": 102.9761,
-    "available": 80.9992,
+    "unrealized_pnl": -0.6146,
+    "equity": 103.0385,
+    "available": 81.0616,
     "position_margin": 6.5444
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "49s ago",
+      "value": "36s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "79s old",
+      "value": "9 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$102.98",
+      "value": "$103.04",
       "status": "ok",
       "action": null
     },
@@ -1994,7 +1994,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-18T16:10:19Z",
+    "updated_iso": "2026-10-18T16:18:35Z",
     "trades": [
       {
         "trade_id": "NEARUSDT_20261018_CJ_001",
