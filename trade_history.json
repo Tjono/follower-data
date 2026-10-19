@@ -5139,6 +5139,18 @@
       "braam_trade_id": "SUIUSDT_20261015_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-18T04:11:19Z"
+    },
+    "1523431614": {
+      "position_id": "1523431614",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 732.1,
+      "opened_at": "2026-10-19T14:46:30Z",
+      "margin_usd": 19.58495158701715,
+      "braam_trade_id": "BNBUSDT_20261015_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-18T20:11:19Z"
     }
   },
   "orders": {
@@ -12017,7 +12029,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-19T13:41:38Z",
+  "updated": "2026-10-19T14:54:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29850,6 +29862,14 @@
       "unrealized": 0.7436,
       "realized": 4.1073,
       "total": 4.8509
+    },
+    {
+      "ts": "2026-10-19T14:54:32Z",
+      "equity": 416.8055,
+      "available": 74.897,
+      "unrealized": 1.0161,
+      "realized": 4.1073,
+      "total": 5.1234
     }
   ],
   "capital_events": {
