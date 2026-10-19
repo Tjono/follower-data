@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-19T21:17:47Z",
+  "last_updated_iso": "2026-10-19T22:10:55Z",
   "freshness": {
-    "engine_run_iso": "2026-10-19T21:17:20Z",
+    "engine_run_iso": "2026-10-19T22:10:25Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-19T20:09:00Z",
+    "feed_generated_iso": "2026-10-19T22:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-19T21:17:47Z",
+    "published_iso": "2026-10-19T22:10:55Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.7213,
-    "equity": 103.0242,
-    "available": 82.7378,
-    "position_margin": 1.2047
+    "unrealized_pnl": 0.8462,
+    "equity": 103.1678,
+    "available": 82.8813,
+    "position_margin": 2.669
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "27s ago",
+      "value": "30s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "68 min old",
+      "value": "2 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (68 records, 16 resting, 2 open, 46 closed)",
+      "value": "OK (68 records, 15 resting, 3 open, 46 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$103.02",
+      "value": "$103.17",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (16 resting = journal)",
+      "value": "in sync (15 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open)",
+      "value": "all protected (3 open)",
       "status": "ok",
       "action": null
     },
@@ -293,31 +293,31 @@
       "sl": 739.40963149,
       "tp1": 709.7,
       "tp2": 684.69,
-      "capital_usd": 5.18,
+      "capital_usd": 4.88,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-19",
+      "time_activated_utc": "22:09",
       "date_opened": "2026-10-15",
       "time_opened_utc": "00:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 732.11,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-10-19T22:09:32.175000+00:00"
     },
     {
       "trade_id": "BTCUSDT_20261015_CJ_001",
@@ -732,18 +732,6 @@
   "recent_signals": [],
   "recent_opens": [
     {
-      "trade_id": "ADAUSDT_20261016_CJ_001",
-      "coin": "ADAUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.21845716,
-      "live_entry_fill": 0.21846,
-      "tp1_hit": false,
-      "iso": "2026-10-17T21:29:59Z",
-      "_iso_ms": 1792272599000,
-      "rehearsal": false
-    },
-    {
       "trade_id": "CAKEUSDT_20261017_CJ_001",
       "coin": "CAKEUSDT",
       "direction": "Long",
@@ -789,6 +777,18 @@
       "tp1_hit": false,
       "iso": "2026-10-18T20:04:15Z",
       "_iso_ms": 1792353855000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20261015_CJ_001",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 732.11055409,
+      "live_entry_fill": 732.11,
+      "tp1_hit": false,
+      "iso": "2026-10-19T22:09:32Z",
+      "_iso_ms": 1792447772000,
       "rehearsal": false
     }
   ],
@@ -2009,7 +2009,7 @@
     "peak_capital_usd": 44.57,
     "peak_concurrent": 9,
     "peak_date": "2026-10-12",
-    "deployed_trades": 48,
+    "deployed_trades": 49,
     "return_on_peak_pct": -23.69,
     "win_rate_pct": 17.4,
     "closed_count": 46,
@@ -2027,7 +2027,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-19T20:09Z",
+    "feed_generated_utc": "2026-10-19T22:08Z",
     "checked": 18,
     "in_parity": 18,
     "drifting": []
@@ -2035,7 +2035,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-19T20:09Z",
+    "feed_generated_utc": "2026-10-19T22:08Z",
     "checked": 18,
     "in_parity": 18,
     "drifting": []
@@ -2043,13 +2043,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-19T20:09Z",
+    "feed_generated_utc": "2026-10-19T22:08Z",
     "checked": 18,
     "in_parity": 18,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-19T21:17:47Z",
+    "updated_iso": "2026-10-19T22:10:55Z",
     "trades": [
       {
         "trade_id": "BNBUSDT_20261015_CJ_001",
@@ -2057,10 +2057,10 @@
         "direction": "Short",
         "trading_system": "John",
         "kraken": {
-          "status": "RESTING",
+          "status": "OPEN",
           "ret_pct": null,
           "pnl_usd": null,
-          "margin_usd": 5.18
+          "margin_usd": 4.8807
         },
         "mexc": {
           "status": "OPEN",
