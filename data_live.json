@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-19T08:40:29Z",
+  "last_updated_iso": "2026-10-19T10:10:46Z",
   "mexc_account": {
-    "unrealized_pnl": 0.962,
-    "equity": 416.7866,
-    "available": 95.6087,
+    "unrealized_pnl": 0.8645,
+    "equity": 416.6891,
+    "available": 74.9022,
     "position_margin": 4.0757
   },
   "order_levels": {
-    "checked": 17,
-    "in_sync": 17,
+    "checked": 18,
+    "in_sync": 18,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (366 records)",
+      "value": "OK (367 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$416.79",
+      "value": "$416.69",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (16 resting = journal)",
+      "value": "in sync (17 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -643,6 +643,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "LINKUSDT_20261019_CJ_001",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.88903279,
+      "sl": 11.62830406,
+      "tp1": 13.23649352,
+      "tp2": 13.78842623,
+      "capital_usd": 20.84,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-19",
+      "time_opened_utc": "08:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -696,6 +729,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-19T04:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "LINKUSDT_20261019_CJ_001",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 11.88903279,
+      "tp1": 13.23649352,
+      "sl": 11.62830406,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-19T08:04:00Z",
       "rehearsal": false
     }
   ],
@@ -4782,15 +4828,15 @@
         "closed_count": 140
       }
     },
-    "live_trade_count_total": 355,
-    "live_real_count": 355,
+    "live_trade_count_total": 356,
+    "live_real_count": 356,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-19T08:39Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-10-19T10:08Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   }
 }
