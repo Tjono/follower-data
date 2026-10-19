@@ -12027,9 +12027,18 @@
       "resting_at": "2026-10-19T12:10:58Z",
       "braam_trade_id": "LINKUSDT_20261019_CJ_001",
       "status": "RESTING"
+    },
+    "867201666422757376": {
+      "order_id": "867201666422757376",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 79115.9,
+      "resting_at": "2026-10-19T16:29:48Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_002",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-19T14:58:10Z",
+  "updated": "2026-10-19T16:31:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29878,6 +29887,14 @@
       "unrealized": 1.0148,
       "realized": 4.1073,
       "total": 5.1221
+    },
+    {
+      "ts": "2026-10-19T16:31:32Z",
+      "equity": 416.8846,
+      "available": 75.4006,
+      "unrealized": 1.0958,
+      "realized": 4.1073,
+      "total": 5.2031
     }
   ],
   "capital_events": {
