@@ -1641,28 +1641,29 @@
       "leverage": 3,
       "entry_price": 7.408,
       "entry_size": 2.0,
-      "exit_size": 1.6,
+      "exit_size": 2.0,
       "opened_at": "2026-10-15T14:57:16Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-19T04:47:48Z",
+      "close_price": 6.9742,
       "margin_usd": 4.938667,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": 0.8688,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0085,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "pnl_gross_usd": 0.8676,
+      "pnl_usd": 0.8589,
+      "tag": "WIN",
+      "fees_usd": 0.01,
+      "funding_usd": 0.0013,
       "fill_ids": [
         "5ea36f28-88bc-4855-9a0c-1b792130f72d",
-        "7afd7a76-7532-48d7-a011-e5cbd38caacd"
+        "7afd7a76-7532-48d7-a011-e5cbd38caacd",
+        "03530769-9a00-4385-8d2c-191d645a9c16"
       ],
       "unrealized_pnl": -0.14582164069599984,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "LTCUSDT_20261014_CJ_001": {
       "position_id": "LTCUSDT_20261014_CJ_001",
@@ -1940,7 +1941,7 @@
         "693c1468-7327-4d5c-b069-f567ca109c89",
         "b68e317a-1a5d-4d94-81af-cb863c7bc885"
       ],
-      "unrealized_pnl": 0.18332976389999978,
+      "unrealized_pnl": 0.19640722043999992,
       "fee_asset": [
         "usd"
       ],
@@ -1970,7 +1971,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.7963997838800001,
+      "unrealized_pnl": 0.8486195035200002,
       "fee_asset": [
         "usd"
       ],
@@ -4706,6 +4707,20 @@
       "realized_pnl": 0.7293,
       "realized_funding": -6.932986e-05,
       "sequence_id": "20969225"
+    },
+    "03530769-9a00-4385-8d2c-191d645a9c16": {
+      "fill_id": "03530769-9a00-4385-8d2c-191d645a9c16",
+      "symbol": "PF_UNIUSD",
+      "side": "buy",
+      "order_id": "a30373a9-67b9-479f-9684-7431662f3ced",
+      "cliOrdId": "UNIUSDT_20261015_CJ_001:SL2",
+      "size": 0.4,
+      "price": 7.411,
+      "fillTime": "2026-10-19T04:47:48Z",
+      "fillType": "taker",
+      "realized_pnl": -0.1928,
+      "realized_funding": -2.353961e-05,
+      "sequence_id": "9416622"
     }
   },
   "snapshots": [
@@ -9100,8 +9115,16 @@
       "unrealized": 0.8338796453283699,
       "realized": -11.417,
       "total": -10.5831
+    },
+    {
+      "ts": "2026-10-19T05:17:40Z",
+      "equity": 103.53272821353212,
+      "available": 83.27119821353213,
+      "unrealized": 1.0449354339721284,
+      "realized": -10.5581,
+      "total": -9.5132
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-19T04:17:41Z"
+  "updated": "2026-10-19T05:17:40Z"
 }
