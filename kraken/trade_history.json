@@ -1941,7 +1941,7 @@
         "693c1468-7327-4d5c-b069-f567ca109c89",
         "b68e317a-1a5d-4d94-81af-cb863c7bc885"
       ],
-      "unrealized_pnl": 0.1625158902899999,
+      "unrealized_pnl": 0.19053263886000005,
       "fee_asset": [
         "usd"
       ],
@@ -1971,7 +1971,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.6498541155800002,
+      "unrealized_pnl": 0.7161651237199997,
       "fee_asset": [
         "usd"
       ],
@@ -2993,6 +2993,15 @@
       "direction": "Long",
       "entry_price": 11.889,
       "resting_at": "2026-10-19T10:08:31Z",
+      "braam_trade_id": "LINKUSDT_20261019_CJ_001",
+      "status": "RESTING"
+    },
+    "a304d6d2-e251-41b7-8bd5-ca767bb4fa38": {
+      "order_id": "a304d6d2-e251-41b7-8bd5-ca767bb4fa38",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.458,
+      "resting_at": "2026-10-19T12:09:53Z",
       "braam_trade_id": "LINKUSDT_20261019_CJ_001",
       "status": "RESTING"
     }
@@ -9220,8 +9229,16 @@
       "unrealized": 0.8120904486526426,
       "realized": -10.5581,
       "total": -9.746
+    },
+    {
+      "ts": "2026-10-19T12:10:06Z",
+      "equity": 103.34497875781956,
+      "available": 83.05855875781955,
+      "unrealized": 0.9065519683495638,
+      "realized": -10.5581,
+      "total": -9.6515
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-19T11:17:52Z"
+  "updated": "2026-10-19T12:10:06Z"
 }
