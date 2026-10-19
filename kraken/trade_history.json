@@ -1658,7 +1658,7 @@
         "5ea36f28-88bc-4855-9a0c-1b792130f72d",
         "7afd7a76-7532-48d7-a011-e5cbd38caacd"
       ],
-      "unrealized_pnl": -0.12238545405999979,
+      "unrealized_pnl": -0.1411242258399998,
       "fee_asset": [
         "usd"
       ],
@@ -1922,7 +1922,7 @@
       "leverage": 3,
       "entry_price": 0.9383,
       "entry_size": 16.0,
-      "exit_size": 0,
+      "exit_size": 13.0,
       "opened_at": "2026-10-18T19:35:46Z",
       "closed_at": null,
       "close_price": null,
@@ -1930,19 +1930,20 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 0.8619,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.003,
+      "fees_usd": 0.0095,
       "funding_usd": null,
       "fill_ids": [
-        "a1e42beb-cc0a-4840-b63b-4fc3c53982bc"
+        "a1e42beb-cc0a-4840-b63b-4fc3c53982bc",
+        "693c1468-7327-4d5c-b069-f567ca109c89",
+        "b68e317a-1a5d-4d94-81af-cb863c7bc885"
       ],
-      "unrealized_pnl": 0.9858538081599999,
+      "unrealized_pnl": 0.18875305661999964,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     },
     "NEARUSDT_20261018_CJ_001": {
       "position_id": "NEARUSDT_20261018_CJ_001",
@@ -1968,7 +1969,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.8443966407999994,
+      "unrealized_pnl": 0.8798265386399997,
       "fee_asset": [
         "usd"
       ],
@@ -4649,6 +4650,34 @@
       "realized_pnl": -0.3584,
       "realized_funding": 0.00020818805,
       "sequence_id": "110873"
+    },
+    "b68e317a-1a5d-4d94-81af-cb863c7bc885": {
+      "fill_id": "b68e317a-1a5d-4d94-81af-cb863c7bc885",
+      "symbol": "PF_SUIUSD",
+      "side": "sell",
+      "order_id": "a30373a5-f6aa-4d11-b3ed-ff73466754a1",
+      "cliOrdId": "SUIUSDT_20261015_CJ_001:TP1",
+      "size": 2,
+      "price": 1.0046,
+      "fillTime": "2026-10-19T02:08:26.001Z",
+      "fillType": "taker",
+      "realized_pnl": 0.1326,
+      "realized_funding": 0,
+      "sequence_id": "20969226"
+    },
+    "693c1468-7327-4d5c-b069-f567ca109c89": {
+      "fill_id": "693c1468-7327-4d5c-b069-f567ca109c89",
+      "symbol": "PF_SUIUSD",
+      "side": "sell",
+      "order_id": "a30373a5-f6aa-4d11-b3ed-ff73466754a1",
+      "cliOrdId": "SUIUSDT_20261015_CJ_001:TP1",
+      "size": 11,
+      "price": 1.0046,
+      "fillTime": "2026-10-19T02:08:26.001Z",
+      "fillType": "taker",
+      "realized_pnl": 0.7293,
+      "realized_funding": -6.932986e-05,
+      "sequence_id": "20969225"
     }
   },
   "snapshots": [
@@ -9011,8 +9040,16 @@
       "unrealized": 1.70776277526965,
       "realized": -11.417,
       "total": -9.7092
+    },
+    {
+      "ts": "2026-10-19T02:17:46Z",
+      "equity": 103.59363076159524,
+      "available": 86.10424076159524,
+      "unrealized": 0.9275573002352425,
+      "realized": -11.417,
+      "total": -10.4894
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-19T01:17:40Z"
+  "updated": "2026-10-19T02:17:46Z"
 }

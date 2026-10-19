@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-19T01:17:41Z",
+  "last_updated_iso": "2026-10-19T02:17:48Z",
   "freshness": {
-    "engine_run_iso": "2026-10-19T01:17:18Z",
+    "engine_run_iso": "2026-10-19T02:17:19Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-19T00:08:00Z",
+    "feed_generated_iso": "2026-10-19T02:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-19T01:17:41Z",
+    "published_iso": "2026-10-19T02:17:48Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.7095,
-    "equity": 103.4939,
-    "available": 84.7847,
-    "position_margin": 2.7017
+    "unrealized_pnl": 0.9266,
+    "equity": 103.5942,
+    "available": 86.1048,
+    "position_margin": 1.4819
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "23s ago",
+      "value": "29s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "69 min old",
+      "value": "10 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$103.49",
+      "value": "$103.59",
       "status": "ok",
       "action": null
     },
@@ -406,8 +406,8 @@
       "date_opened": "2026-10-15",
       "time_opened_utc": "04:04",
       "conviction": "HIGH",
-      "tp1_hit": false,
-      "sl_moved_to_be": null,
+      "tp1_hit": true,
+      "sl_moved_to_be": false,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
@@ -417,7 +417,7 @@
       "live_entry_slippage_pct": 0.0,
       "live_fees_usd": 0.0,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 0.8619,
       "rehearsal": false,
       "live_filled_ts": "2026-10-18T19:35:46.001000+00:00"
     },
@@ -758,7 +758,7 @@
       "trading_system": "John",
       "entry_price": 0.93825904,
       "live_entry_fill": 0.9383,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-10-18T19:35:46Z",
       "_iso_ms": 1792352146000,
       "rehearsal": false
@@ -1965,6 +1965,12 @@
   ],
   "tp1_hits_open": [
     {
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.93825904
+    },
+    {
       "coin": "UNIUSDT",
       "direction": "Short",
       "trading_system": "John",
@@ -1995,7 +2001,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-19T00:08Z",
+    "feed_generated_utc": "2026-10-19T02:07Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
@@ -2003,7 +2009,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-19T00:08Z",
+    "feed_generated_utc": "2026-10-19T02:07Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
@@ -2011,13 +2017,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-19T00:08Z",
+    "feed_generated_utc": "2026-10-19T02:07Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-19T01:17:41Z",
+    "updated_iso": "2026-10-19T02:17:48Z",
     "trades": [
       {
         "trade_id": "LTCUSDT_20261019_CJ_001",
