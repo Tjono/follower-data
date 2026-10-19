@@ -11962,9 +11962,36 @@
       "resting_at": "2026-10-19T00:10:25Z",
       "braam_trade_id": "XRPUSDT_20261013_CJ_001",
       "status": "RESTING"
+    },
+    "867015808818230848": {
+      "order_id": "867015808818230848",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.417,
+      "resting_at": "2026-10-19T04:11:17Z",
+      "braam_trade_id": "ONDOUSDT_20261019_CJ_001",
+      "status": "RESTING"
+    },
+    "867015802869593600": {
+      "order_id": "867015802869593600",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 2.152,
+      "resting_at": "2026-10-19T04:11:15Z",
+      "braam_trade_id": "CAKEUSDT_20261019_CJ_001",
+      "status": "RESTING"
+    },
+    "867015783694292992": {
+      "order_id": "867015783694292992",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 81266.6,
+      "resting_at": "2026-10-19T04:11:11Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_002",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-19T00:11:55Z",
+  "updated": "2026-10-19T04:12:43Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29741,6 +29768,14 @@
       "unrealized": 4.2472,
       "realized": 0.6293,
       "total": 4.8765
+    },
+    {
+      "ts": "2026-10-19T04:12:43Z",
+      "equity": 416.8474,
+      "available": 91.6555,
+      "unrealized": 1.0125,
+      "realized": 0.6293,
+      "total": 1.6418
     }
   ],
   "capital_events": {
