@@ -1658,7 +1658,7 @@
         "5ea36f28-88bc-4855-9a0c-1b792130f72d",
         "7afd7a76-7532-48d7-a011-e5cbd38caacd"
       ],
-      "unrealized_pnl": -0.10582199852399975,
+      "unrealized_pnl": -0.11023146477600002,
       "fee_asset": [
         "usd"
       ],
@@ -1938,7 +1938,7 @@
       "fill_ids": [
         "a1e42beb-cc0a-4840-b63b-4fc3c53982bc"
       ],
-      "unrealized_pnl": 0.8948426027199989,
+      "unrealized_pnl": 0.9547253672,
       "fee_asset": [
         "usd"
       ],
@@ -1968,7 +1968,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.7725341809799993,
+      "unrealized_pnl": 0.8337160742399998,
       "fee_asset": [
         "usd"
       ],
@@ -2928,6 +2928,33 @@
       "entry_price": 732.11,
       "resting_at": "2026-10-18T20:10:08Z",
       "braam_trade_id": "BNBUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "a303d529-4a62-4698-9937-aa19b1e7e6bb": {
+      "order_id": "a303d529-4a62-4698-9937-aa19b1e7e6bb",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "entry_price": 61.31,
+      "resting_at": "2026-10-19T00:09:24Z",
+      "braam_trade_id": "LTCUSDT_20261019_CJ_001",
+      "status": "RESTING"
+    },
+    "a303d527-60dd-4de9-974f-88784a27b9ff": {
+      "order_id": "a303d527-60dd-4de9-974f-88784a27b9ff",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 9.41,
+      "resting_at": "2026-10-19T00:09:23Z",
+      "braam_trade_id": "AVAXUSDT_20261019_CJ_001",
+      "status": "RESTING"
+    },
+    "a303d521-1e75-4c92-a358-1c2ec02bec0c": {
+      "order_id": "a303d521-1e75-4c92-a358-1c2ec02bec0c",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.3365,
+      "resting_at": "2026-10-19T00:09:19Z",
+      "braam_trade_id": "XRPUSDT_20261013_CJ_001",
       "status": "RESTING"
     }
   },
@@ -8960,8 +8987,16 @@
       "unrealized": 1.561885170219558,
       "realized": -11.417,
       "total": -9.8551
+    },
+    {
+      "ts": "2026-10-19T00:09:47Z",
+      "equity": 103.48557950250066,
+      "available": 84.77639950250065,
+      "unrealized": 1.6782209439406572,
+      "realized": -11.417,
+      "total": -9.7388
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-18T23:39:36Z"
+  "updated": "2026-10-19T00:09:47Z"
 }
