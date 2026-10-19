@@ -4,7 +4,7 @@
   "source": "Yahoo chart ^NDX, interval 1d (stdlib fetch)",
   "start": "2026-04-01",
   "end": "2026-10-19",
-  "fetched_utc": "2026-10-19T14:54:31Z",
+  "fetched_utc": "2026-10-19T15:17:50Z",
   "venue": "Kraken",
   "closes": [
     {
@@ -561,7 +561,7 @@
     },
     {
       "iso": "2026-10-19",
-      "close": 29631.2969
+      "close": 29688.998
     }
   ]
 }
