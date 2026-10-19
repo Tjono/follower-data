@@ -1658,7 +1658,7 @@
         "5ea36f28-88bc-4855-9a0c-1b792130f72d",
         "7afd7a76-7532-48d7-a011-e5cbd38caacd"
       ],
-      "unrealized_pnl": -0.1411242258399998,
+      "unrealized_pnl": -0.14696161207599978,
       "fee_asset": [
         "usd"
       ],
@@ -1940,10 +1940,11 @@
         "693c1468-7327-4d5c-b069-f567ca109c89",
         "b68e317a-1a5d-4d94-81af-cb863c7bc885"
       ],
-      "unrealized_pnl": 0.18875305661999964,
+      "unrealized_pnl": 0.1957824686699997,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "NEARUSDT_20261018_CJ_001": {
       "position_id": "NEARUSDT_20261018_CJ_001",
@@ -1969,7 +1970,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.8798265386399997,
+      "unrealized_pnl": 0.7854959459399993,
       "fee_asset": [
         "usd"
       ],
@@ -9048,8 +9049,16 @@
       "unrealized": 0.9275573002352425,
       "realized": -11.417,
       "total": -10.4894
+    },
+    {
+      "ts": "2026-10-19T03:17:44Z",
+      "equity": 103.4761240570152,
+      "available": 85.9867340570152,
+      "unrealized": 0.8343240570151986,
+      "realized": -11.417,
+      "total": -10.5827
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-19T02:17:46Z"
+  "updated": "2026-10-19T03:17:44Z"
 }
