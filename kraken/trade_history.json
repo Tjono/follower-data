@@ -1941,7 +1941,7 @@
         "693c1468-7327-4d5c-b069-f567ca109c89",
         "b68e317a-1a5d-4d94-81af-cb863c7bc885"
       ],
-      "unrealized_pnl": 0.27977814852000005,
+      "unrealized_pnl": 0.27416143292999984,
       "fee_asset": [
         "usd"
       ],
@@ -1971,7 +1971,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.7162072309000003,
+      "unrealized_pnl": 0.5790175019599992,
       "fee_asset": [
         "usd"
       ],
@@ -2033,7 +2033,7 @@
         "f78af866-7b54-4211-bb7a-5f35aca76657",
         "5aedc93c-3d41-4b93-b5b1-9a3aaee8706b"
       ],
-      "unrealized_pnl": 0.1278343727660998,
+      "unrealized_pnl": 0.1093105405589999,
       "fee_asset": [
         "usd"
       ],
@@ -2063,7 +2063,7 @@
       "fill_ids": [
         "4a006094-d9d1-44c5-9aaa-bc37b3a613f7"
       ],
-      "unrealized_pnl": 0.5903407789999977,
+      "unrealized_pnl": 0.5124038097499977,
       "fee_asset": [
         "usd"
       ],
@@ -2094,7 +2094,7 @@
         "e3c0a1d0-0614-4c51-8ac3-d5fe58d7ed8f",
         "962209b6-3de8-45f8-b444-4fb1f9716b7f"
       ],
-      "unrealized_pnl": -0.0070241760599996095,
+      "unrealized_pnl": 0.019031030699999896,
       "fee_asset": [
         "usd"
       ],
@@ -2124,10 +2124,11 @@
       "fill_ids": [
         "c21a1323-c8b5-4c6d-9632-1be64a310516"
       ],
-      "unrealized_pnl": -0.005489341357499455,
+      "unrealized_pnl": 0.04374382321250003,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -10010,8 +10011,16 @@
       "unrealized": 1.7014981463041807,
       "realized": -10.7186,
       "total": -9.0171
+    },
+    {
+      "ts": "2026-10-20T23:17:49Z",
+      "equity": 104.32191213884491,
+      "available": 83.55947313884491,
+      "unrealized": 1.5352531347549185,
+      "realized": -10.7186,
+      "total": -9.1833
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-20T22:27:50Z"
+  "updated": "2026-10-20T23:17:49Z"
 }
