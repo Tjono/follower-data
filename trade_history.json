@@ -5183,6 +5183,18 @@
       "braam_trade_id": "XRPUSDT_20261013_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-19T00:10:26Z"
+    },
+    "1524145666": {
+      "position_id": "1524145666",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.2042,
+      "opened_at": "2026-10-20T17:44:19Z",
+      "margin_usd": 20.946617977702,
+      "braam_trade_id": "THETAUSDT_20261020_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-20T16:12:26Z"
     }
   },
   "orders": {
@@ -12124,7 +12136,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-20T17:24:01Z",
+  "updated": "2026-10-20T18:06:19Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30077,6 +30089,14 @@
       "unrealized": 1.7215,
       "realized": 3.4461,
       "total": 5.1676
+    },
+    {
+      "ts": "2026-10-20T18:06:19Z",
+      "equity": 418.9065,
+      "available": 70.7244,
+      "unrealized": 1.7278,
+      "realized": 3.4461,
+      "total": 5.1739
     }
   ],
   "capital_events": {
