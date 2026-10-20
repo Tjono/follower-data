@@ -12086,9 +12086,45 @@
       "resting_at": "2026-10-20T12:11:56Z",
       "braam_trade_id": "NEARUSDT_20261018_CJ_001",
       "status": "RESTING"
+    },
+    "867559687163139136": {
+      "order_id": "867559687163139136",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.788,
+      "resting_at": "2026-10-20T16:12:27Z",
+      "braam_trade_id": "RENDERUSDT_20261020_CJ_001",
+      "status": "RESTING"
+    },
+    "867559681370322432": {
+      "order_id": "867559681370322432",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.2042,
+      "resting_at": "2026-10-20T16:12:26Z",
+      "braam_trade_id": "THETAUSDT_20261020_CJ_001",
+      "status": "RESTING"
+    },
+    "867559675065947648": {
+      "order_id": "867559675065947648",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.887,
+      "resting_at": "2026-10-20T16:12:24Z",
+      "braam_trade_id": "LINKUSDT_20261019_CJ_001",
+      "status": "RESTING"
+    },
+    "867559651347092992": {
+      "order_id": "867559651347092992",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 81279.4,
+      "resting_at": "2026-10-20T16:12:19Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_002",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-20T14:25:40Z",
+  "updated": "2026-10-20T16:13:59Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30025,6 +30061,14 @@
       "unrealized": 2.0676,
       "realized": 3.4461,
       "total": 5.5137
+    },
+    {
+      "ts": "2026-10-20T16:13:59Z",
+      "equity": 419.2638,
+      "available": 70.7118,
+      "unrealized": 2.0474,
+      "realized": 3.4461,
+      "total": 5.4935
     }
   ],
   "capital_events": {
