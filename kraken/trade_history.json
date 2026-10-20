@@ -1941,7 +1941,7 @@
         "693c1468-7327-4d5c-b069-f567ca109c89",
         "b68e317a-1a5d-4d94-81af-cb863c7bc885"
       ],
-      "unrealized_pnl": 0.29291758901999987,
+      "unrealized_pnl": 0.29192367377999984,
       "fee_asset": [
         "usd"
       ],
@@ -1971,7 +1971,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.6866469336600005,
+      "unrealized_pnl": 0.6598301892999991,
       "fee_asset": [
         "usd"
       ],
@@ -2033,10 +2033,11 @@
         "f78af866-7b54-4211-bb7a-5f35aca76657",
         "5aedc93c-3d41-4b93-b5b1-9a3aaee8706b"
       ],
-      "unrealized_pnl": 0.12733354309500017,
+      "unrealized_pnl": 0.1269609689238002,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "CAKEUSDT_20261019_CJ_001": {
       "position_id": "CAKEUSDT_20261019_CJ_001",
@@ -2062,7 +2063,7 @@
       "fill_ids": [
         "4a006094-d9d1-44c5-9aaa-bc37b3a613f7"
       ],
-      "unrealized_pnl": 0.48599665078999976,
+      "unrealized_pnl": 0.4714921778000005,
       "fee_asset": [
         "usd"
       ],
@@ -2093,10 +2094,11 @@
         "e3c0a1d0-0614-4c51-8ac3-d5fe58d7ed8f",
         "962209b6-3de8-45f8-b444-4fb1f9716b7f"
       ],
-      "unrealized_pnl": 0.026920295050000043,
+      "unrealized_pnl": 0.0331839212099998,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -9785,8 +9787,16 @@
       "unrealized": 1.6200241468171497,
       "realized": -10.7186,
       "total": -9.0986
+    },
+    {
+      "ts": "2026-10-20T14:17:48Z",
+      "equity": 104.3992019758714,
+      "available": 86.80971197587141,
+      "unrealized": 1.583635897081411,
+      "realized": -10.7186,
+      "total": -9.135
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-20T14:16:00Z"
+  "updated": "2026-10-20T14:17:48Z"
 }
