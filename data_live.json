@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-20T18:05:56Z",
+  "last_updated_iso": "2026-10-20T18:09:26Z",
   "mexc_account": {
-    "unrealized_pnl": 1.7278,
-    "equity": 418.9065,
+    "unrealized_pnl": 1.8268,
+    "equity": 419.0055,
     "available": 70.7244,
     "position_margin": 50.1143
   },
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.0h ago",
+      "value": "0.1h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$418.91",
+      "value": "$419.01",
       "status": "ok",
       "action": null
     },
@@ -69,17 +69,17 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (15 resting = journal)",
-      "status": "ok",
-      "action": null
+      "value": "1 ORPHAN order(s) on MEXC",
+      "status": "urgent",
+      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): NEAR_USDT Long @ 4.521 (id 867589067838568448)"
     },
     {
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "live read failed",
-      "status": "warn",
-      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
+      "value": "all protected (4 open, 2 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [

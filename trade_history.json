@@ -12134,9 +12134,18 @@
       "resting_at": "2026-10-20T16:12:19Z",
       "braam_trade_id": "BTCUSDT_20261015_CJ_002",
       "status": "RESTING"
+    },
+    "867589067838568448": {
+      "order_id": "867589067838568448",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.521,
+      "resting_at": "2026-10-20T18:09:12Z",
+      "braam_trade_id": "NEARUSDT_20261018_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-20T18:06:19Z",
+  "updated": "2026-10-20T18:09:52Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30097,6 +30106,14 @@
       "unrealized": 1.7278,
       "realized": 3.4461,
       "total": 5.1739
+    },
+    {
+      "ts": "2026-10-20T18:09:52Z",
+      "equity": 419.0055,
+      "available": 70.7244,
+      "unrealized": 1.8268,
+      "realized": 3.4461,
+      "total": 5.2729
     }
   ],
   "capital_events": {
