@@ -12143,9 +12143,27 @@
       "resting_at": "2026-10-20T18:09:12Z",
       "braam_trade_id": "NEARUSDT_20261018_CJ_001",
       "status": "RESTING"
+    },
+    "867619995040225284": {
+      "order_id": "867619995040225284",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.7967,
+      "resting_at": "2026-10-20T20:12:06Z",
+      "braam_trade_id": "APTUSDT_20261020_CJ_001",
+      "status": "RESTING"
+    },
+    "867619978403623936": {
+      "order_id": "867619978403623936",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.521,
+      "resting_at": "2026-10-20T20:12:02Z",
+      "braam_trade_id": "NEARUSDT_20261018_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-20T18:09:52Z",
+  "updated": "2026-10-20T20:13:38Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30114,6 +30132,14 @@
       "unrealized": 1.8268,
       "realized": 3.4461,
       "total": 5.2729
+    },
+    {
+      "ts": "2026-10-20T20:13:38Z",
+      "equity": 419.3275,
+      "available": 49.6706,
+      "unrealized": 2.1488,
+      "realized": 3.4461,
+      "total": 5.5949
     }
   ],
   "capital_events": {
