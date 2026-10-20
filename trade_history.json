@@ -5149,8 +5149,16 @@
       "opened_at": "2026-10-19T14:46:30Z",
       "margin_usd": 19.58495158701715,
       "braam_trade_id": "BNBUSDT_20261015_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-18T20:11:19Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-18T20:11:19Z",
+      "closed_at": "2026-10-20T14:08:37Z",
+      "close_price": 739.4,
+      "pnl_usd": -0.6612,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0824
     },
     "1523828181": {
       "position_id": "1523828181",
@@ -5163,6 +5171,18 @@
       "braam_trade_id": "AVAXUSDT_20261019_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-19T00:10:31Z"
+    },
+    "1523990179": {
+      "position_id": "1523990179",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 1.3365,
+      "opened_at": "2026-10-20T14:14:57Z",
+      "margin_usd": 21.004497942447493,
+      "braam_trade_id": "XRPUSDT_20261013_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-19T00:10:26Z"
     }
   },
   "orders": {
@@ -12068,7 +12088,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-20T12:13:27Z",
+  "updated": "2026-10-20T14:22:30Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -29989,6 +30009,14 @@
       "unrealized": 1.022,
       "realized": 4.1073,
       "total": 5.1293
+    },
+    {
+      "ts": "2026-10-20T14:22:30Z",
+      "equity": 419.2515,
+      "available": 113.1544,
+      "unrealized": 2.0364,
+      "realized": 3.4461,
+      "total": 5.4825
     }
   ],
   "capital_events": {
