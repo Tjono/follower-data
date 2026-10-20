@@ -1941,7 +1941,7 @@
         "693c1468-7327-4d5c-b069-f567ca109c89",
         "b68e317a-1a5d-4d94-81af-cb863c7bc885"
       ],
-      "unrealized_pnl": 0.14941262852999992,
+      "unrealized_pnl": 0.1619922884699999,
       "fee_asset": [
         "usd"
       ],
@@ -1971,7 +1971,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.14378050656000063,
+      "unrealized_pnl": 0.13658649023999914,
       "fee_asset": [
         "usd"
       ],
@@ -2001,7 +2001,7 @@
       "fill_ids": [
         "d2e6badb-ed22-4fea-8d5f-bc974917ac0e"
       ],
-      "unrealized_pnl": 0.07181060979580024,
+      "unrealized_pnl": 0.0829733584825999,
       "fee_asset": [
         "usd"
       ],
@@ -2031,11 +2031,40 @@
       "fill_ids": [
         "f78af866-7b54-4211-bb7a-5f35aca76657"
       ],
-      "unrealized_pnl": 0.003888241625598354,
+      "unrealized_pnl": 0.012793462519200886,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "CAKEUSDT_20261019_CJ_001": {
+      "position_id": "CAKEUSDT_20261019_CJ_001",
+      "braam_trade_id": "CAKEUSDT_20261019_CJ_001",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2.152,
+      "entry_size": 7.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-20T11:01:28Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.021333,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.003,
+      "funding_usd": null,
+      "fill_ids": [
+        "4a006094-d9d1-44c5-9aaa-bc37b3a613f7"
+      ],
+      "unrealized_pnl": 0.043876719670000064,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -4836,6 +4865,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "11770149"
+    },
+    "4a006094-d9d1-44c5-9aaa-bc37b3a613f7": {
+      "fill_id": "4a006094-d9d1-44c5-9aaa-bc37b3a613f7",
+      "symbol": "PF_CAKEUSD",
+      "side": "buy",
+      "order_id": "a3042b41-5bf8-415b-b46f-a1a51b3eb5a2",
+      "cliOrdId": "CAKEUSDT_20261019_CJ_001",
+      "size": 7,
+      "price": 2.152,
+      "fillTime": "2026-10-20T11:01:28.702Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "110950"
     }
   },
   "snapshots": [
@@ -9606,8 +9649,16 @@
       "unrealized": 0.3689111327910174,
       "realized": -10.5581,
       "total": -10.1892
+    },
+    {
+      "ts": "2026-10-20T11:02:58Z",
+      "equity": 102.70755064871837,
+      "available": 82.42113064871836,
+      "unrealized": 0.43830072687096944,
+      "realized": -10.5581,
+      "total": -10.1198
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-20T10:17:48Z"
+  "updated": "2026-10-20T11:02:58Z"
 }
