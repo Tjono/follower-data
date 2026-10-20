@@ -1941,7 +1941,7 @@
         "693c1468-7327-4d5c-b069-f567ca109c89",
         "b68e317a-1a5d-4d94-81af-cb863c7bc885"
       ],
-      "unrealized_pnl": 0.15454002719999982,
+      "unrealized_pnl": 0.13398077574,
       "fee_asset": [
         "usd"
       ],
@@ -1971,7 +1971,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.2888804187999998,
+      "unrealized_pnl": 0.1965018446200002,
       "fee_asset": [
         "usd"
       ],
@@ -2001,11 +2001,40 @@
       "fill_ids": [
         "d2e6badb-ed22-4fea-8d5f-bc974917ac0e"
       ],
-      "unrealized_pnl": 0.07269678066139931,
+      "unrealized_pnl": 0.10753627617159964,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "AVAXUSDT_20261019_CJ_001": {
+      "position_id": "AVAXUSDT_20261019_CJ_001",
+      "braam_trade_id": "AVAXUSDT_20261019_CJ_001",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 9.41,
+      "entry_size": 1.64,
+      "exit_size": 0,
+      "opened_at": "2026-10-20T09:10:11Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.144133,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0031,
+      "funding_usd": null,
+      "fill_ids": [
+        "f78af866-7b54-4211-bb7a-5f35aca76657"
+      ],
+      "unrealized_pnl": 0.005219971760400738,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -4792,6 +4821,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "6215692"
+    },
+    "f78af866-7b54-4211-bb7a-5f35aca76657": {
+      "fill_id": "f78af866-7b54-4211-bb7a-5f35aca76657",
+      "symbol": "PF_AVAXUSD",
+      "side": "buy",
+      "order_id": "a303d527-60dd-4de9-974f-88784a27b9ff",
+      "cliOrdId": "AVAXUSDT_20261019_CJ_001",
+      "size": 1.64,
+      "price": 9.41,
+      "fillTime": "2026-10-20T09:10:11.909Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "11770149"
     }
   },
   "snapshots": [
@@ -9522,8 +9565,16 @@
       "unrealized": 0.5199565467613232,
       "realized": -10.5581,
       "total": -10.0381
+    },
+    {
+      "ts": "2026-10-20T09:11:00Z",
+      "equity": 102.7639608842948,
+      "available": 82.4775408842948,
+      "unrealized": 0.4432608560552023,
+      "realized": -10.5581,
+      "total": -10.1148
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-20T08:17:48Z"
+  "updated": "2026-10-20T09:11:00Z"
 }
