@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-20T22:18:26Z",
+  "last_updated_iso": "2026-10-20T22:27:51Z",
   "freshness": {
-    "engine_run_iso": "2026-10-20T22:17:44Z",
+    "engine_run_iso": "2026-10-20T22:27:20Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-20T22:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-20T22:18:26Z",
+    "published_iso": "2026-10-20T22:27:51Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.7212,
-    "equity": 104.5354,
-    "available": 83.773,
-    "position_margin": 4.4918
+    "unrealized_pnl": 1.7014,
+    "equity": 104.5151,
+    "available": 83.7526,
+    "position_margin": 6.0246
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "42s ago",
+      "value": "31s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "10 min old",
+      "value": "19 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (70 records, 14 resting, 5 open, 47 closed)",
+      "value": "OK (70 records, 13 resting, 6 open, 47 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.54",
+      "value": "$104.52",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (14 resting = journal)",
+      "value": "in sync (13 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (5 open)",
+      "value": "all protected (6 open)",
       "status": "ok",
       "action": null
     },
@@ -565,31 +565,31 @@
       "sl": 62.56876665,
       "tp1": 52.74670896,
       "tp2": 52.3124667,
-      "capital_usd": 5.17,
+      "capital_usd": 5.11,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-20",
+      "time_activated_utc": "22:26",
       "date_opened": "2026-10-19",
       "time_opened_utc": "00:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 61.31,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-10-20T22:26:29.316000+00:00"
     },
     {
       "trade_id": "CAKEUSDT_20261019_CJ_001",
@@ -838,6 +838,18 @@
       "tp1_hit": false,
       "iso": "2026-10-20T14:15:02Z",
       "_iso_ms": 1792505702000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "LTCUSDT_20261019_CJ_001",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 61.30797424,
+      "live_entry_fill": 61.31,
+      "tp1_hit": false,
+      "iso": "2026-10-20T22:26:29Z",
+      "_iso_ms": 1792535189000,
       "rehearsal": false
     }
   ],
@@ -1936,7 +1948,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-20T16:11:00Z",
-      "last_seen_iso": "2026-10-20T22:17:44Z"
+      "last_seen_iso": "2026-10-20T22:27:20Z"
     },
     {
       "trade_id": "THETAUSDT_20261017_CJ_001",
@@ -2091,7 +2103,7 @@
     "peak_capital_usd": 44.57,
     "peak_concurrent": 9,
     "peak_date": "2026-10-12",
-    "deployed_trades": 52,
+    "deployed_trades": 53,
     "return_on_peak_pct": -24.05,
     "win_rate_pct": 17.0,
     "closed_count": 47,
@@ -2131,8 +2143,21 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-20T22:18:26Z",
+    "updated_iso": "2026-10-20T22:27:51Z",
     "trades": [
+      {
+        "trade_id": "LTCUSDT_20261019_CJ_001",
+        "coin": "LTCUSDT",
+        "direction": "Short",
+        "trading_system": "John",
+        "kraken": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.1092
+        },
+        "mexc": null
+      },
       {
         "trade_id": "APTUSDT_20261020_CJ_001",
         "coin": "APTUSDT",
@@ -2280,19 +2305,6 @@
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 5.18
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "LTCUSDT_20261019_CJ_001",
-        "coin": "LTCUSDT",
-        "direction": "Short",
-        "trading_system": "John",
-        "kraken": {
-          "status": "RESTING",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 5.17
         },
         "mexc": null
       },
