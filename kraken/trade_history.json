@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.07039078873580039,
+      "unrealized_pnl": 0.04324581142050022,
       "fee_asset": [
         "usd"
       ],
@@ -1923,29 +1923,30 @@
       "leverage": 3,
       "entry_price": 0.9383,
       "entry_size": 16.0,
-      "exit_size": 13.0,
+      "exit_size": 16.0,
       "opened_at": "2026-10-18T19:35:46Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-21T18:24:48Z",
+      "close_price": 1.01388125,
       "margin_usd": 5.004267,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": 0.8619,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0095,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "pnl_gross_usd": 1.2093,
+      "pnl_usd": 1.197,
+      "tag": "WIN",
+      "fees_usd": 0.0111,
+      "funding_usd": -0.0012,
       "fill_ids": [
         "a1e42beb-cc0a-4840-b63b-4fc3c53982bc",
         "693c1468-7327-4d5c-b069-f567ca109c89",
-        "b68e317a-1a5d-4d94-81af-cb863c7bc885"
+        "b68e317a-1a5d-4d94-81af-cb863c7bc885",
+        "3ce867fd-a287-44f2-af6f-0f8423bd203d"
       ],
       "unrealized_pnl": 0.3392182662000002,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "NEARUSDT_20261018_CJ_001": {
       "position_id": "NEARUSDT_20261018_CJ_001",
@@ -1971,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 1.5059024990199994,
+      "unrealized_pnl": 1.38631656938,
       "fee_asset": [
         "usd"
       ],
@@ -2033,7 +2034,7 @@
         "f78af866-7b54-4211-bb7a-5f35aca76657",
         "5aedc93c-3d41-4b93-b5b1-9a3aaee8706b"
       ],
-      "unrealized_pnl": 0.19955686118939997,
+      "unrealized_pnl": 0.14980214418840004,
       "fee_asset": [
         "usd"
       ],
@@ -2063,7 +2064,7 @@
       "fill_ids": [
         "4a006094-d9d1-44c5-9aaa-bc37b3a613f7"
       ],
-      "unrealized_pnl": 0.7720227692099986,
+      "unrealized_pnl": 0.680928801489999,
       "fee_asset": [
         "usd"
       ],
@@ -2125,7 +2126,7 @@
       "fill_ids": [
         "c21a1323-c8b5-4c6d-9632-1be64a310516"
       ],
-      "unrealized_pnl": -0.20465941309250013,
+      "unrealized_pnl": -0.11215396590499971,
       "fee_asset": [
         "usd"
       ],
@@ -2184,7 +2185,7 @@
       "fill_ids": [
         "00d69a1a-ff4f-4c11-8e6c-139245df90bf"
       ],
-      "unrealized_pnl": 0.033187700629998707,
+      "unrealized_pnl": 0.013756502380000035,
       "fee_asset": [
         "usd"
       ],
@@ -5178,6 +5179,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "1081305"
+    },
+    "3ce867fd-a287-44f2-af6f-0f8423bd203d": {
+      "fill_id": "3ce867fd-a287-44f2-af6f-0f8423bd203d",
+      "symbol": "PF_SUIUSD",
+      "side": "sell",
+      "order_id": "a3048b2b-4a95-46c7-9587-4693dffc2fae",
+      "cliOrdId": "SUIUSDT_20261015_CJ_001:TP2#1792399099785",
+      "size": 3,
+      "price": 1.0541,
+      "fillTime": "2026-10-21T18:24:48.001Z",
+      "fillType": "taker",
+      "realized_pnl": 0.3474,
+      "realized_funding": -4.457872e-05,
+      "sequence_id": "21079248"
     }
   },
   "snapshots": [
@@ -10436,8 +10451,16 @@
       "unrealized": 2.575349732517504,
       "realized": -10.9884,
       "total": -8.4131
+    },
+    {
+      "ts": "2026-10-21T19:17:50Z",
+      "equity": 104.98101875750663,
+      "available": 84.51787675750663,
+      "unrealized": 2.162660603022134,
+      "realized": -9.7914,
+      "total": -7.6287
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-21T18:17:50Z"
+  "updated": "2026-10-21T19:17:50Z"
 }
