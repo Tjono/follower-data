@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-21T08:10:36Z",
+  "last_updated_iso": "2026-10-21T08:18:12Z",
   "freshness": {
-    "engine_run_iso": "2026-10-21T08:10:04Z",
+    "engine_run_iso": "2026-10-21T08:17:32Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-21T08:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-21T08:10:36Z",
+    "published_iso": "2026-10-21T08:18:12Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 2.1091,
-    "equity": 104.8745,
-    "available": 84.1121,
+    "unrealized_pnl": 2.0668,
+    "equity": 104.7645,
+    "available": 84.0021,
     "position_margin": 6.0246
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "32s ago",
+      "value": "40s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "1 min old",
+      "value": "9 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.87",
+      "value": "$104.76",
       "status": "ok",
       "action": null
     },
@@ -1921,7 +1921,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-20T16:11:00Z",
-      "last_seen_iso": "2026-10-21T08:10:04Z"
+      "last_seen_iso": "2026-10-21T08:17:32Z"
     },
     {
       "trade_id": "THETAUSDT_20261017_CJ_001",
@@ -2116,7 +2116,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-21T08:10:36Z",
+    "updated_iso": "2026-10-21T08:18:12Z",
     "trades": [
       {
         "trade_id": "LTCUSDT_20261019_CJ_001",
