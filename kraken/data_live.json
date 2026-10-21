@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-21T19:17:51Z",
+  "last_updated_iso": "2026-10-21T20:11:35Z",
   "freshness": {
-    "engine_run_iso": "2026-10-21T19:17:20Z",
+    "engine_run_iso": "2026-10-21T20:10:48Z",
     "engine_run_note": "1 error(s)",
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-21T18:09:00Z",
+    "feed_generated_iso": "2026-10-21T20:10:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-21T19:17:51Z",
+    "published_iso": "2026-10-21T20:11:35Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,15 +18,15 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 2.1621,
-    "equity": 104.9844,
-    "available": 84.5212,
+    "unrealized_pnl": 1.9994,
+    "equity": 104.9231,
+    "available": 82.9862,
     "position_margin": 7.24
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 18,
-    "in_sync": 18,
+    "checked": 19,
+    "in_sync": 19,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,15 +45,15 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "31s ago - 1 error(s)",
+      "value": "47s ago - 1 error(s)",
       "status": "warn",
-      "action": "Last run reported: FEED ANOMALY NEARUSDT_20261018_CJ_001: this NEARUSDT trade (ours FILLED on Kraken; the master had not filled it) vanished from the feed with no terminal row (8 feed generations) - our position is KEPT with its own legs (never closed on absence alone); check the master's feed"
+      "action": "Last run reported: FEED ANOMALY NEARUSDT_20261018_CJ_001: this NEARUSDT trade (ours FILLED on Kraken; the master had not filled it) vanished from the feed with no terminal row (9 feed generations) - our position is KEPT with its own legs (never closed on absence alone); check the master's feed"
     },
     {
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "68 min old",
+      "value": "1 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (72 records, 12 resting, 6 open, 49 closed)",
+      "value": "OK (73 records, 13 resting, 6 open, 49 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.98",
+      "value": "$104.92",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (12 resting = journal)",
+      "value": "in sync (13 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -595,10 +595,10 @@
       "trade_id": "RENDERUSDT_20261020_CJ_001",
       "coin": "RENDERUSDT",
       "direction": "Long",
-      "entry_price": 1.85108667,
-      "sl": 1.80068102,
-      "tp1": 2.05932657,
-      "tp2": 2.15263797,
+      "entry_price": 1.78899869,
+      "sl": 1.73912201,
+      "tp1": 2.05870532,
+      "tp2": 2.27275597,
       "capital_usd": 5.21,
       "leverage": 3,
       "trading_system": "John",
@@ -726,6 +726,40 @@
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
       "live_filled_ts": "2026-10-21T16:11:30.245000+00:00"
+    },
+    {
+      "trade_id": "BNBUSDT_20261021_CB_001",
+      "coin": "BNBUSDT",
+      "direction": "Long",
+      "entry_price": 736.12333299,
+      "sl": 719.98474816,
+      "tp1": 819.21574587,
+      "tp2": 874.93306881,
+      "capital_usd": 5.25,
+      "leverage": 3,
+      "trading_system": "Braam",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-21",
+      "time_opened_utc": "20:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false,
+      "live_filled_ts": null
     }
   ],
   "dry_run_plans": [],
@@ -741,6 +775,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-21T12:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20261021_CB_001",
+      "coin": "BNBUSDT",
+      "direction": "Long",
+      "trading_system": "Braam",
+      "entry_price": 736.12333299,
+      "tp1": 819.21574587,
+      "sl": 719.98474816,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-21T20:04:00Z",
       "rehearsal": false
     }
   ],
@@ -1979,7 +2026,7 @@
       "reason": "The engine runs one trade per coin on Kraken and NEAR already has one (NEARUSDT_20261018_CJ_001 is open).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-10-21T12:10:13Z",
-      "last_seen_iso": "2026-10-21T19:17:20Z"
+      "last_seen_iso": "2026-10-21T20:10:48Z"
     },
     {
       "trade_id": "THETAUSDT_20261020_CJ_001",
@@ -1991,7 +2038,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-20T16:11:00Z",
-      "last_seen_iso": "2026-10-21T19:17:20Z"
+      "last_seen_iso": "2026-10-21T20:10:48Z"
     },
     {
       "trade_id": "THETAUSDT_20261017_CJ_001",
@@ -2151,37 +2198,50 @@
         "closed_count": 49
       }
     },
-    "live_trade_count_total": 67,
-    "live_real_count": 67,
+    "live_trade_count_total": 68,
+    "live_real_count": 68,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-21T18:09Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-10-21T20:10Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-21T18:09Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-10-21T20:10Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-21T18:09Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-10-21T20:10Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-21T19:17:51Z",
+    "updated_iso": "2026-10-21T20:11:35Z",
     "trades": [
+      {
+        "trade_id": "BNBUSDT_20261021_CB_001",
+        "coin": "BNBUSDT",
+        "direction": "Long",
+        "trading_system": "Braam",
+        "kraken": {
+          "status": "RESTING",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.25
+        },
+        "mexc": null
+      },
       {
         "trade_id": "SUIUSDT_20261015_CJ_001",
         "coin": "SUIUSDT",

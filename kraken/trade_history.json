@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 0.04324581142050022,
+      "unrealized_pnl": 0.018174792899900042,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 1.38631656938,
+      "unrealized_pnl": 1.3604898906800003,
       "fee_asset": [
         "usd"
       ],
@@ -2034,7 +2034,7 @@
         "f78af866-7b54-4211-bb7a-5f35aca76657",
         "5aedc93c-3d41-4b93-b5b1-9a3aaee8706b"
       ],
-      "unrealized_pnl": 0.14980214418840004,
+      "unrealized_pnl": 0.14502952835580005,
       "fee_asset": [
         "usd"
       ],
@@ -2064,7 +2064,7 @@
       "fill_ids": [
         "4a006094-d9d1-44c5-9aaa-bc37b3a613f7"
       ],
-      "unrealized_pnl": 0.680928801489999,
+      "unrealized_pnl": 0.6462867388599998,
       "fee_asset": [
         "usd"
       ],
@@ -2126,7 +2126,7 @@
       "fill_ids": [
         "c21a1323-c8b5-4c6d-9632-1be64a310516"
       ],
-      "unrealized_pnl": -0.11215396590499971,
+      "unrealized_pnl": -0.15942436129249948,
       "fee_asset": [
         "usd"
       ],
@@ -2185,7 +2185,7 @@
       "fill_ids": [
         "00d69a1a-ff4f-4c11-8e6c-139245df90bf"
       ],
-      "unrealized_pnl": 0.013756502380000035,
+      "unrealized_pnl": -0.017545886310000813,
       "fee_asset": [
         "usd"
       ],
@@ -3289,6 +3289,24 @@
       "entry_price": 12.25,
       "resting_at": "2026-10-21T16:11:13Z",
       "braam_trade_id": "LINKUSDT_20261019_CJ_001",
+      "status": "RESTING"
+    },
+    "a30988e0-2a6f-499e-8c89-963056670334": {
+      "order_id": "a30988e0-2a6f-499e-8c89-963056670334",
+      "coin": "BNBUSDT",
+      "direction": "Long",
+      "entry_price": 736.12,
+      "resting_at": "2026-10-21T20:11:04Z",
+      "braam_trade_id": "BNBUSDT_20261021_CB_001",
+      "status": "RESTING"
+    },
+    "a30988dc-3d34-4348-90eb-bf4bf4585aed": {
+      "order_id": "a30988dc-3d34-4348-90eb-bf4bf4585aed",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.789,
+      "resting_at": "2026-10-21T20:11:01Z",
+      "braam_trade_id": "RENDERUSDT_20261020_CJ_001",
       "status": "RESTING"
     }
   },
@@ -10459,8 +10477,16 @@
       "unrealized": 2.162660603022134,
       "realized": -9.7914,
       "total": -7.6287
+    },
+    {
+      "ts": "2026-10-21T20:11:34Z",
+      "equity": 104.91698943385389,
+      "available": 82.98010143385389,
+      "unrealized": 1.9935887551095886,
+      "realized": -9.7914,
+      "total": -7.7978
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-21T19:17:50Z"
+  "updated": "2026-10-21T20:11:34Z"
 }
