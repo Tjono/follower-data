@@ -1,10 +1,10 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-21T16:13:37Z",
+  "last_updated_iso": "2026-10-21T16:16:56Z",
   "mexc_account": {
-    "unrealized_pnl": 2.0956,
-    "equity": 418.1104,
+    "unrealized_pnl": 2.0959,
+    "equity": 418.1107,
     "available": 70.8701,
     "position_margin": 67.9149
   },
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.0h ago",
+      "value": "0.1h ago",
       "status": "ok",
       "action": null
     },
@@ -69,9 +69,9 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (14 resting = journal)",
-      "status": "ok",
-      "action": null
+      "value": "2 ORPHAN order(s) on MEXC",
+      "status": "urgent",
+      "action": "Untracked resting order(s) \u2014 cancel on MEXC (double-fill risk): RENDER_USDT Long @ 1.851 (id 867922893987567680), LINK_USDT Long @ 12.25 (id 867922883983333376)"
     },
     {
       "key": "position_protection",
@@ -4833,7 +4833,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-21T16:12Z",
+    "feed_generated_utc": "2026-10-21T16:14Z",
     "checked": 18,
     "in_parity": 18,
     "drifting": []
