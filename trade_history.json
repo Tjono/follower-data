@@ -5137,8 +5137,16 @@
       "opened_at": "2026-10-18T19:43:00Z",
       "margin_usd": 20.378624730035,
       "braam_trade_id": "SUIUSDT_20261015_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-18T04:11:19Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-18T04:11:19Z",
+      "closed_at": "2026-10-21T18:24:52Z",
+      "close_price": 1.0149,
+      "pnl_usd": 4.885,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0892
     },
     "1523431614": {
       "position_id": "1523431614",
@@ -12247,9 +12255,18 @@
       "resting_at": "2026-10-21T16:15:40Z",
       "braam_trade_id": "LINKUSDT_20261019_CJ_001",
       "status": "RESTING"
+    },
+    "867960956650445376": {
+      "order_id": "867960956650445376",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.851,
+      "resting_at": "2026-10-21T18:46:57Z",
+      "braam_trade_id": "RENDERUSDT_20261020_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-21T16:17:15Z",
+  "updated": "2026-10-21T18:48:32Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30338,6 +30355,14 @@
       "unrealized": 2.0959,
       "realized": 2.2687,
       "total": 4.3646
+    },
+    {
+      "ts": "2026-10-21T18:48:32Z",
+      "equity": 418.0401,
+      "available": 76.4455,
+      "unrealized": 0.5256,
+      "realized": 7.1537,
+      "total": 7.6793
     }
   ],
   "capital_events": {
