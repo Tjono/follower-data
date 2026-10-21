@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-21T06:17:49Z",
+  "last_updated_iso": "2026-10-21T06:55:40Z",
   "freshness": {
-    "engine_run_iso": "2026-10-21T06:17:19Z",
+    "engine_run_iso": "2026-10-21T06:55:05Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-21T06:08:00Z",
+    "feed_generated_iso": "2026-10-21T06:54:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-21T06:17:49Z",
+    "published_iso": "2026-10-21T06:55:40Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.8607,
-    "equity": 104.5837,
-    "available": 83.8213,
+    "unrealized_pnl": 1.9248,
+    "equity": 104.6548,
+    "available": 83.8924,
     "position_margin": 6.0246
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "30s ago",
+      "value": "35s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "1 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.58",
+      "value": "$104.65",
       "status": "ok",
       "action": null
     },
@@ -563,8 +563,8 @@
       "direction": "Short",
       "entry_price": 61.30797424,
       "sl": 62.56876665,
-      "tp1": 52.74670896,
-      "tp2": 52.3124667,
+      "tp1": 58.63,
+      "tp2": 56.94,
       "capital_usd": 5.11,
       "leverage": 3,
       "trading_system": "John",
@@ -1935,7 +1935,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-20T16:11:00Z",
-      "last_seen_iso": "2026-10-21T06:17:19Z"
+      "last_seen_iso": "2026-10-21T06:55:05Z"
     },
     {
       "trade_id": "THETAUSDT_20261017_CJ_001",
@@ -2108,7 +2108,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-21T06:08Z",
+    "feed_generated_utc": "2026-10-21T06:54Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
@@ -2116,7 +2116,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-21T06:08Z",
+    "feed_generated_utc": "2026-10-21T06:54Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
@@ -2124,13 +2124,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-21T06:08Z",
+    "feed_generated_utc": "2026-10-21T06:54Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-21T06:17:49Z",
+    "updated_iso": "2026-10-21T06:55:40Z",
     "trades": [
       {
         "trade_id": "LTCUSDT_20261019_CJ_001",
