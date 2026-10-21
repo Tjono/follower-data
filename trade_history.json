@@ -5181,8 +5181,16 @@
       "opened_at": "2026-10-20T14:14:57Z",
       "margin_usd": 21.004497942447493,
       "braam_trade_id": "XRPUSDT_20261013_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-19T00:10:26Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-19T00:10:26Z",
+      "closed_at": "2026-10-21T09:29:09Z",
+      "close_price": 1.3599,
+      "pnl_usd": -1.1774,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0887
     },
     "1524145666": {
       "position_id": "1524145666",
@@ -12184,7 +12192,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-21T08:13:02Z",
+  "updated": "2026-10-21T10:13:02Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30217,6 +30225,14 @@
       "unrealized": 1.2784,
       "realized": 3.4461,
       "total": 4.7245
+    },
+    {
+      "ts": "2026-10-21T10:13:02Z",
+      "equity": 417.1401,
+      "available": 68.4112,
+      "unrealized": 1.0935,
+      "realized": 2.2687,
+      "total": 3.3622
     }
   ],
   "capital_events": {
