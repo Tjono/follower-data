@@ -5195,6 +5195,18 @@
       "braam_trade_id": "THETAUSDT_20261020_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-20T16:12:26Z"
+    },
+    "1524251852": {
+      "position_id": "1524251852",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 61.31,
+      "opened_at": "2026-10-20T22:19:31Z",
+      "margin_usd": 20.70658904862454,
+      "braam_trade_id": "LTCUSDT_20261019_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-19T00:10:32Z"
     }
   },
   "orders": {
@@ -12161,9 +12173,18 @@
       "resting_at": "2026-10-20T20:12:02Z",
       "braam_trade_id": "NEARUSDT_20261018_CJ_001",
       "status": "RESTING"
+    },
+    "867680409889518080": {
+      "order_id": "867680409889518080",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.45,
+      "resting_at": "2026-10-21T00:12:10Z",
+      "braam_trade_id": "NEARUSDT_20261018_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-20T21:46:33Z",
+  "updated": "2026-10-21T00:13:58Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30148,6 +30169,14 @@
       "unrealized": 2.652,
       "realized": 3.4461,
       "total": 6.0981
+    },
+    {
+      "ts": "2026-10-21T00:13:58Z",
+      "equity": 418.8639,
+      "available": 48.4984,
+      "unrealized": 1.7256,
+      "realized": 3.4461,
+      "total": 5.1717
     }
   ],
   "capital_events": {
