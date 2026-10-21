@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.049045727571100456,
+      "unrealized_pnl": -0.020298526059499694,
       "fee_asset": [
         "usd"
       ],
@@ -1941,7 +1941,7 @@
         "693c1468-7327-4d5c-b069-f567ca109c89",
         "b68e317a-1a5d-4d94-81af-cb863c7bc885"
       ],
-      "unrealized_pnl": 0.3315037837499998,
+      "unrealized_pnl": 0.32459710362000005,
       "fee_asset": [
         "usd"
       ],
@@ -1971,7 +1971,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 1.5246827607199993,
+      "unrealized_pnl": 1.4316366142000003,
       "fee_asset": [
         "usd"
       ],
@@ -2033,7 +2033,7 @@
         "f78af866-7b54-4211-bb7a-5f35aca76657",
         "5aedc93c-3d41-4b93-b5b1-9a3aaee8706b"
       ],
-      "unrealized_pnl": 0.16973804174909968,
+      "unrealized_pnl": 0.16124930217660013,
       "fee_asset": [
         "usd"
       ],
@@ -2063,7 +2063,7 @@
       "fill_ids": [
         "4a006094-d9d1-44c5-9aaa-bc37b3a613f7"
       ],
-      "unrealized_pnl": 0.6736705193399981,
+      "unrealized_pnl": 0.6772546083799997,
       "fee_asset": [
         "usd"
       ],
@@ -2125,7 +2125,7 @@
       "fill_ids": [
         "c21a1323-c8b5-4c6d-9632-1be64a310516"
       ],
-      "unrealized_pnl": -0.15987292386749985,
+      "unrealized_pnl": -0.1364533105675001,
       "fee_asset": [
         "usd"
       ],
@@ -2157,7 +2157,8 @@
       ],
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -10309,8 +10310,16 @@
       "unrealized": 2.492068225796024,
       "realized": -10.9884,
       "total": -8.4963
+    },
+    {
+      "ts": "2026-10-21T15:30:55Z",
+      "equity": 104.93889003536403,
+      "available": 85.67806103536402,
+      "unrealized": 2.4385755601206194,
+      "realized": -10.9884,
+      "total": -8.5498
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-21T15:26:55Z"
+  "updated": "2026-10-21T15:30:55Z"
 }
