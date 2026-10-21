@@ -12264,9 +12264,36 @@
       "resting_at": "2026-10-21T18:46:57Z",
       "braam_trade_id": "RENDERUSDT_20261020_CJ_001",
       "status": "RESTING"
+    },
+    "867982427417850368": {
+      "order_id": "867982427417850368",
+      "coin": "BNBUSDT",
+      "direction": "Long",
+      "entry_price": 736.1,
+      "resting_at": "2026-10-21T20:12:16Z",
+      "braam_trade_id": "BNBUSDT_20261021_CB_001",
+      "status": "RESTING"
+    },
+    "867982411383625792": {
+      "order_id": "867982411383625792",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.789,
+      "resting_at": "2026-10-21T20:12:13Z",
+      "braam_trade_id": "RENDERUSDT_20261020_CJ_001",
+      "status": "RESTING"
+    },
+    "867982394035164160": {
+      "order_id": "867982394035164160",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 12.25,
+      "resting_at": "2026-10-21T20:12:08Z",
+      "braam_trade_id": "LINKUSDT_20261019_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-21T18:48:32Z",
+  "updated": "2026-10-21T20:13:57Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30363,6 +30390,14 @@
       "unrealized": 0.5256,
       "realized": 7.1537,
       "total": 7.6793
+    },
+    {
+      "ts": "2026-10-21T20:13:57Z",
+      "equity": 417.5752,
+      "available": 56.2088,
+      "unrealized": 0.0607,
+      "realized": 7.1537,
+      "total": 7.2144
     }
   ],
   "capital_events": {
