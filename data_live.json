@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-21T13:59:30Z",
+  "last_updated_iso": "2026-10-21T15:33:28Z",
   "mexc_account": {
-    "unrealized_pnl": 1.6839,
-    "equity": 417.7305,
-    "available": 70.5791,
-    "position_margin": 49.8164
+    "unrealized_pnl": 2.2322,
+    "equity": 418.2463,
+    "available": 70.5899,
+    "position_margin": 67.9149
   },
   "order_levels": {
     "checked": 19,
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$417.73",
+      "value": "$418.25",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (15 resting = journal)",
+      "value": "in sync (14 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (4 open, 2 pre-TP1 runners)",
+      "value": "all protected (5 open, 3 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -254,16 +254,16 @@
       "direction": "Short",
       "entry_price": 108.24516788,
       "sl": 110.50000629,
-      "tp1": 96.39525778,
-      "tp2": 87.66998742,
+      "tp1": 103.98,
+      "tp2": 96.95,
       "capital_usd": 20.4,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-21",
+      "time_activated_utc": "15:12",
       "date_opened": "2026-10-15",
       "time_opened_utc": "04:04",
       "conviction": "MEDIUM",
@@ -272,11 +272,11 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 108.25,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0045,
+      "live_fees_usd": 0.0324,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -728,18 +728,6 @@
   ],
   "recent_opens": [
     {
-      "trade_id": "BNBUSDT_20261015_CJ_001",
-      "coin": "BNBUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 732.11055409,
-      "live_entry_fill": 732.1,
-      "tp1_hit": false,
-      "iso": "2026-10-19T14:46:00Z",
-      "_iso_ms": 1792421160000,
-      "rehearsal": false
-    },
-    {
       "trade_id": "AVAXUSDT_20261019_CJ_001",
       "coin": "AVAXUSDT",
       "direction": "Long",
@@ -785,6 +773,18 @@
       "tp1_hit": false,
       "iso": "2026-10-20T22:19:00Z",
       "_iso_ms": 1792534740000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "SOLUSDT_20261015_CJ_001",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 108.24516788,
+      "live_entry_fill": 108.25,
+      "tp1_hit": false,
+      "iso": "2026-10-21T15:12:00Z",
+      "_iso_ms": 1792595520000,
       "rehearsal": false
     }
   ],
@@ -4811,7 +4811,7 @@
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
-    "deployed_trades": 263,
+    "deployed_trades": 264,
     "return_on_peak_pct": 2.86,
     "win_rate_pct": 39.8,
     "closed_count": 259,
@@ -4833,9 +4833,24 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-21T12:09Z",
+    "feed_generated_utc": "2026-10-21T14:15Z",
     "checked": 18,
-    "in_parity": 18,
-    "drifting": []
+    "in_parity": 17,
+    "drifting": [
+      {
+        "trade_id": "SOLUSDT_20261015_CJ_001",
+        "coin": "SOLUSDT",
+        "diffs": {
+          "tp1": {
+            "follower": 103.98,
+            "master": 96.39525778
+          },
+          "tp2": {
+            "follower": 96.95,
+            "master": 87.66998742
+          }
+        }
+      }
+    ]
   }
 }

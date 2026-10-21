@@ -5215,6 +5215,18 @@
       "braam_trade_id": "LTCUSDT_20261019_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-19T00:10:32Z"
+    },
+    "1524672097": {
+      "position_id": "1524672097",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 108.25,
+      "opened_at": "2026-10-21T15:12:04Z",
+      "margin_usd": 18.098533819439,
+      "braam_trade_id": "SOLUSDT_20261015_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-15T04:11:45Z"
     }
   },
   "orders": {
@@ -12201,7 +12213,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-21T13:59:56Z",
+  "updated": "2026-10-21T15:33:51Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30258,6 +30270,14 @@
       "unrealized": 1.6839,
       "realized": 2.2687,
       "total": 3.9526
+    },
+    {
+      "ts": "2026-10-21T15:33:51Z",
+      "equity": 418.2463,
+      "available": 70.5899,
+      "unrealized": 2.2322,
+      "realized": 2.2687,
+      "total": 4.5009
     }
   ],
   "capital_events": {
