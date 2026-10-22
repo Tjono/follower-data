@@ -5261,8 +5261,16 @@
       "opened_at": "2026-10-22T03:32:21Z",
       "margin_usd": 20.47602459573,
       "braam_trade_id": "RENDERUSDT_20261020_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-22T00:12:22Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-22T00:12:22Z",
+      "closed_at": "2026-10-22T08:35:11Z",
+      "close_price": 1.806,
+      "pnl_usd": -1.7679,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0843
     },
     "1524960329": {
       "position_id": "1524960329",
@@ -5299,6 +5307,18 @@
       "braam_trade_id": "BNBUSDT_20261021_CB_001",
       "status": "OPEN",
       "resting_at": "2026-10-21T20:12:17Z"
+    },
+    "1525108164": {
+      "position_id": "1525108164",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2.152,
+      "opened_at": "2026-10-22T08:31:07Z",
+      "margin_usd": 20.85259285864,
+      "braam_trade_id": "CAKEUSDT_20261019_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-19T04:11:16Z"
     }
   },
   "orders": {
@@ -12411,7 +12431,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-22T08:13:18Z",
+  "updated": "2026-10-22T08:50:30Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30572,6 +30592,14 @@
       "unrealized": 0.1454,
       "realized": 7.0393,
       "total": 7.1847
+    },
+    {
+      "ts": "2026-10-22T08:50:30Z",
+      "equity": 416.4769,
+      "available": 115.321,
+      "unrealized": 1.221,
+      "realized": 5.2714,
+      "total": 6.4924
     }
   ],
   "capital_events": {
