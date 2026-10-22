@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-22T22:18:39Z",
+  "last_updated_iso": "2026-10-22T23:18:38Z",
   "freshness": {
-    "engine_run_iso": "2026-10-22T22:18:06Z",
+    "engine_run_iso": "2026-10-22T23:18:06Z",
     "engine_run_note": "1 error(s)",
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-22T22:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-22T22:18:39Z",
+    "published_iso": "2026-10-22T23:18:38Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.4029,
-    "equity": 103.0775,
-    "available": 84.5869,
+    "unrealized_pnl": 0.1981,
+    "equity": 102.8916,
+    "available": 84.401,
     "position_margin": 5.3533
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "33s ago - 1 error(s)",
+      "value": "32s ago - 1 error(s)",
       "status": "warn",
       "action": "Last run reported: FEED ANOMALY NEARUSDT_20261018_CJ_001: this NEARUSDT trade (ours FILLED on Kraken; the master had not filled it) vanished from the feed with no terminal row (33 feed generations) - our position is KEPT with its own legs (never closed on absence alone); check the master's feed"
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "69 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$103.08",
+      "value": "$102.89",
       "status": "ok",
       "action": null
     },
@@ -724,18 +724,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "LTCUSDT_20261019_CJ_001",
-      "coin": "LTCUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 61.30797424,
-      "live_entry_fill": 61.31,
-      "tp1_hit": true,
-      "iso": "2026-10-20T22:26:29Z",
-      "_iso_ms": 1792535189000,
-      "rehearsal": false
-    },
     {
       "trade_id": "SOLUSDT_20261015_CJ_001",
       "coin": "SOLUSDT",
@@ -2050,7 +2038,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-22T20:10:56Z",
-      "last_seen_iso": "2026-10-22T22:18:06Z"
+      "last_seen_iso": "2026-10-22T23:18:06Z"
     },
     {
       "trade_id": "NEARUSDT_20261021_CB_001",
@@ -2062,7 +2050,7 @@
       "reason": "The engine runs one trade per coin on Kraken and NEAR already has one (NEARUSDT_20261018_CJ_001 is open).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-10-21T12:10:13Z",
-      "last_seen_iso": "2026-10-22T22:18:06Z"
+      "last_seen_iso": "2026-10-22T23:18:06Z"
     },
     {
       "trade_id": "THETAUSDT_20261020_CJ_001",
@@ -2274,7 +2262,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-22T22:18:39Z",
+    "updated_iso": "2026-10-22T23:18:38Z",
     "trades": [
       {
         "trade_id": "APTUSDT_20261020_CJ_001",
