@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-22T17:23:17Z",
+  "last_updated_iso": "2026-10-22T20:13:43Z",
   "mexc_account": {
-    "unrealized_pnl": -2.0372,
-    "equity": 415.3177,
-    "available": 92.8265,
+    "unrealized_pnl": -2.332,
+    "equity": 415.0252,
+    "available": 73.9248,
     "position_margin": 86.8469
   },
   "order_levels": {
-    "checked": 18,
-    "in_sync": 18,
+    "checked": 19,
+    "in_sync": 19,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (376 records)",
+      "value": "OK (377 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$415.32",
+      "value": "$415.03",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (12 resting = journal)",
+      "value": "in sync (13 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "live read failed",
-      "status": "warn",
-      "action": "Worker health read failed \u2014 can't confirm SL protection; check the Worker."
+      "value": "all protected (6 open, 4 pre-TP1 runners)",
+      "status": "ok",
+      "action": null
     }
   ],
   "active_trades": [
@@ -615,10 +615,10 @@
       "trade_id": "XRPUSDT_20261022_CJ_001",
       "coin": "XRPUSDT",
       "direction": "Short",
-      "entry_price": 1.38886049,
-      "sl": 1.41073189,
-      "tp1": 1.21338177,
-      "tp2": 1.14843623,
+      "entry_price": 1.34697268,
+      "sl": 1.36896755,
+      "tp1": 1.21367854,
+      "tp2": 1.1830649,
       "capital_usd": 20.83,
       "leverage": 3,
       "trading_system": "John",
@@ -676,6 +676,39 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "THETAUSDT_20261022_CJ_001",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.18530634,
+      "sl": 0.17938437,
+      "tp1": 0.205758,
+      "tp2": 0.22503126,
+      "capital_usd": 18.56,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-22",
+      "time_opened_utc": "20:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
   "recent_signals": [
@@ -684,9 +717,9 @@
       "coin": "XRPUSDT",
       "direction": "Short",
       "trading_system": "John",
-      "entry_price": 1.38886049,
-      "tp1": 1.21338177,
-      "sl": 1.41073189,
+      "entry_price": 1.34697268,
+      "tp1": 1.21367854,
+      "sl": 1.36896755,
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-22T16:04:00Z",
@@ -704,21 +737,22 @@
       "track_only": false,
       "iso": "2026-10-22T16:04:00Z",
       "rehearsal": false
-    }
-  ],
-  "recent_opens": [
+    },
     {
-      "trade_id": "THETAUSDT_20261020_CJ_001",
+      "trade_id": "THETAUSDT_20261022_CJ_001",
       "coin": "THETAUSDT",
       "direction": "Long",
       "trading_system": "John",
-      "entry_price": 0.20419008,
-      "live_entry_fill": 0.2042,
-      "tp1_hit": false,
-      "iso": "2026-10-20T17:44:00Z",
-      "_iso_ms": 1792518240000,
+      "entry_price": 0.18530634,
+      "tp1": 0.205758,
+      "sl": 0.17938437,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-22T20:04:00Z",
       "rehearsal": false
-    },
+    }
+  ],
+  "recent_opens": [
     {
       "trade_id": "LTCUSDT_20261019_CJ_001",
       "coin": "LTCUSDT",
@@ -4843,15 +4877,15 @@
         "closed_count": 146
       }
     },
-    "live_trade_count_total": 363,
-    "live_real_count": 363,
+    "live_trade_count_total": 364,
+    "live_real_count": 364,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-22T16:10Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-10-22T20:10Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   }
 }

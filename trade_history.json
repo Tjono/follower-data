@@ -12447,9 +12447,27 @@
       "resting_at": "2026-10-22T16:12:04Z",
       "braam_trade_id": "XRPUSDT_20261022_CJ_001",
       "status": "RESTING"
+    },
+    "868344860804348416": {
+      "order_id": "868344860804348416",
+      "coin": "THETAUSDT",
+      "direction": "Long",
+      "entry_price": 0.1853,
+      "resting_at": "2026-10-22T20:12:27Z",
+      "braam_trade_id": "THETAUSDT_20261022_CJ_001",
+      "status": "RESTING"
+    },
+    "868344850322426368": {
+      "order_id": "868344850322426368",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.347,
+      "resting_at": "2026-10-22T20:12:25Z",
+      "braam_trade_id": "XRPUSDT_20261022_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-22T17:23:56Z",
+  "updated": "2026-10-22T20:14:11Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30698,6 +30716,14 @@
       "unrealized": -2.0372,
       "realized": 5.2714,
       "total": 3.2342
+    },
+    {
+      "ts": "2026-10-22T20:14:11Z",
+      "equity": 415.0252,
+      "available": 73.9248,
+      "unrealized": -2.332,
+      "realized": 5.2714,
+      "total": 2.9394
     }
   ],
   "capital_events": {
