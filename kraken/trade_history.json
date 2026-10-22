@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.013000360267599972,
+      "unrealized_pnl": -0.015019435329200519,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.7496295660599994,
+      "unrealized_pnl": 0.7215370167599993,
       "fee_asset": [
         "usd"
       ],
@@ -2065,7 +2065,7 @@
       "fill_ids": [
         "4a006094-d9d1-44c5-9aaa-bc37b3a613f7"
       ],
-      "unrealized_pnl": 0.0879597926199982,
+      "unrealized_pnl": 0.04317469526999895,
       "fee_asset": [
         "usd"
       ],
@@ -2127,7 +2127,7 @@
       "fill_ids": [
         "c21a1323-c8b5-4c6d-9632-1be64a310516"
       ],
-      "unrealized_pnl": 0.42403330473500134,
+      "unrealized_pnl": 0.45865623981250003,
       "fee_asset": [
         "usd"
       ],
@@ -2141,7 +2141,7 @@
       "leverage": 3,
       "entry_price": 108.25,
       "entry_size": 0.13,
-      "exit_size": 0,
+      "exit_size": 0.1,
       "opened_at": "2026-10-21T15:25:29Z",
       "closed_at": null,
       "close_price": null,
@@ -2149,18 +2149,18 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 0.43,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.0028,
+      "fees_usd": 0.008,
       "funding_usd": null,
       "fill_ids": [
-        "dd043039-1b3a-4338-9c66-e92144e3e4a7"
+        "dd043039-1b3a-4338-9c66-e92144e3e4a7",
+        "ee365059-1679-4972-8fa2-1d56b4ec683f"
       ],
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     },
     "TRXUSDT_20261021_CB_001": {
       "position_id": "TRXUSDT_20261021_CB_001",
@@ -2186,7 +2186,7 @@
       "fill_ids": [
         "00d69a1a-ff4f-4c11-8e6c-139245df90bf"
       ],
-      "unrealized_pnl": -0.058956619990000236,
+      "unrealized_pnl": -0.0613024858699997,
       "fee_asset": [
         "usd"
       ],
@@ -2245,7 +2245,7 @@
       "fill_ids": [
         "b588974f-0447-4542-985f-fff76434754e"
       ],
-      "unrealized_pnl": -0.25192386458399946,
+      "unrealized_pnl": -0.2833406704799996,
       "fee_asset": [
         "usd"
       ],
@@ -2275,7 +2275,7 @@
       "fill_ids": [
         "d9bd5807-d315-4dd3-81e5-2ea556188408"
       ],
-      "unrealized_pnl": -0.030338804892001008,
+      "unrealized_pnl": -0.037458409187199775,
       "fee_asset": [
         "usd"
       ],
@@ -2305,10 +2305,11 @@
       "fill_ids": [
         "28781527-ecac-4095-86cc-074b39231bb3"
       ],
-      "unrealized_pnl": -0.01020004730399976,
+      "unrealized_pnl": -0.03595086462300097,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -3461,6 +3462,24 @@
       "direction": "Long",
       "entry_price": 81703.0,
       "resting_at": "2026-10-22T04:11:18Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_001",
+      "status": "RESTING"
+    },
+    "a30a8a33-bf5a-4703-b30b-e869e638a689": {
+      "order_id": "a30a8a33-bf5a-4703-b30b-e869e638a689",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.467,
+      "resting_at": "2026-10-22T08:10:36Z",
+      "braam_trade_id": "LINKUSDT_20261019_CJ_001",
+      "status": "RESTING"
+    },
+    "a30a8a2d-9b5b-4b38-829e-6ce12bb6daa9": {
+      "order_id": "a30a8a2d-9b5b-4b38-829e-6ce12bb6daa9",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 79110.0,
+      "resting_at": "2026-10-22T08:10:32Z",
       "braam_trade_id": "BTCUSDT_20261015_CJ_001",
       "status": "RESTING"
     }
@@ -5436,6 +5455,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "1466542"
+    },
+    "ee365059-1679-4972-8fa2-1d56b4ec683f": {
+      "fill_id": "ee365059-1679-4972-8fa2-1d56b4ec683f",
+      "symbol": "PF_SOLUSD",
+      "side": "buy",
+      "order_id": "a3092332-7237-4810-86e8-4bdb2019651d",
+      "cliOrdId": "SOLUSDT_20261015_CJ_001:TP1",
+      "size": 0.1,
+      "price": 103.95,
+      "fillTime": "2026-10-22T08:10:03.001Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": -7.6787e-07,
+      "sequence_id": "53261432"
     }
   },
   "snapshots": [
@@ -10913,5 +10946,5 @@
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-22T08:09:45Z"
+  "updated": "2026-10-22T08:10:59Z"
 }
