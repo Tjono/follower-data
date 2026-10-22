@@ -5177,8 +5177,16 @@
       "opened_at": "2026-10-20T09:13:48Z",
       "margin_usd": 20.75168459298,
       "braam_trade_id": "AVAXUSDT_20261019_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-19T00:10:31Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-19T00:10:31Z",
+      "closed_at": "2026-10-22T02:18:57Z",
+      "close_price": 9.73,
+      "pnl_usd": 2.0231,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "fees_usd": 0.0884
     },
     "1523990179": {
       "position_id": "1523990179",
@@ -5235,6 +5243,30 @@
       "braam_trade_id": "SOLUSDT_20261015_CJ_001",
       "status": "OPEN",
       "resting_at": "2026-10-15T04:11:45Z"
+    },
+    "1524987320": {
+      "position_id": "1524987320",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.857,
+      "opened_at": "2026-10-22T03:32:21Z",
+      "margin_usd": 20.47602459573,
+      "braam_trade_id": "RENDERUSDT_20261020_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-22T00:12:22Z"
+    },
+    "1524960329": {
+      "position_id": "1524960329",
+      "coin": "SOLUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 105.33,
+      "opened_at": "2026-10-22T02:20:36Z",
+      "margin_usd": 17.59713182445,
+      "braam_trade_id": "SOLUSDT_20261021_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-21T12:11:46Z"
     }
   },
   "orders": {
@@ -12318,9 +12350,18 @@
       "resting_at": "2026-10-22T00:12:17Z",
       "braam_trade_id": "LINKUSDT_20261019_CJ_001",
       "status": "RESTING"
+    },
+    "868103262304291328": {
+      "order_id": "868103262304291328",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 81703.2,
+      "resting_at": "2026-10-22T04:12:26Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-22T00:14:04Z",
+  "updated": "2026-10-22T04:14:16Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30441,6 +30482,14 @@
       "unrealized": 0.0255,
       "realized": 7.1537,
       "total": 7.1792
+    },
+    {
+      "ts": "2026-10-22T04:14:16Z",
+      "equity": 418.0604,
+      "available": 60.8698,
+      "unrealized": 0.5678,
+      "realized": 9.1768,
+      "total": 9.7446
     }
   ],
   "capital_events": {
