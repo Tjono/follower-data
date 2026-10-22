@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 0.016592076862399382,
+      "unrealized_pnl": 0.08241325476399937,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.6958213433200005,
+      "unrealized_pnl": 0.8280817785599996,
       "fee_asset": [
         "usd"
       ],
@@ -2065,7 +2065,7 @@
       "fill_ids": [
         "4a006094-d9d1-44c5-9aaa-bc37b3a613f7"
       ],
-      "unrealized_pnl": -0.002897590570001274,
+      "unrealized_pnl": 0.012416610919998128,
       "fee_asset": [
         "usd"
       ],
@@ -2127,7 +2127,7 @@
       "fill_ids": [
         "c21a1323-c8b5-4c6d-9632-1be64a310516"
       ],
-      "unrealized_pnl": 0.5929674089375006,
+      "unrealized_pnl": 0.49272421272750044,
       "fee_asset": [
         "usd"
       ],
@@ -2187,7 +2187,7 @@
       "fill_ids": [
         "00d69a1a-ff4f-4c11-8e6c-139245df90bf"
       ],
-      "unrealized_pnl": -0.0679467414500004,
+      "unrealized_pnl": -0.07054393372000078,
       "fee_asset": [
         "usd"
       ],
@@ -2277,7 +2277,7 @@
       "fill_ids": [
         "d9bd5807-d315-4dd3-81e5-2ea556188408"
       ],
-      "unrealized_pnl": -0.07978153023819914,
+      "unrealized_pnl": -0.07339053308679923,
       "fee_asset": [
         "usd"
       ],
@@ -2307,7 +2307,7 @@
       "fill_ids": [
         "28781527-ecac-4095-86cc-074b39231bb3"
       ],
-      "unrealized_pnl": -0.06512970679200175,
+      "unrealized_pnl": 0.10291059521100009,
       "fee_asset": [
         "usd"
       ],
@@ -11103,8 +11103,16 @@
       "unrealized": 1.0914674836187677,
       "realized": -9.724,
       "total": -8.6325
+    },
+    {
+      "ts": "2026-10-22T14:14:54Z",
+      "equity": 103.8934193279608,
+      "available": 84.0868543279608,
+      "unrealized": 1.374402234925008,
+      "realized": -9.724,
+      "total": -8.3496
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-22T13:18:57Z"
+  "updated": "2026-10-22T14:14:54Z"
 }
