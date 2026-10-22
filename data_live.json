@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-22T06:30:45Z",
+  "last_updated_iso": "2026-10-22T08:12:58Z",
   "mexc_account": {
-    "unrealized_pnl": 1.8208,
-    "equity": 417.2386,
-    "available": 79.7417,
-    "position_margin": 76.8783
+    "unrealized_pnl": 0.1454,
+    "equity": 417.1694,
+    "available": 96.5632,
+    "position_margin": 103.0766
   },
   "order_levels": {
     "checked": 17,
@@ -29,7 +29,7 @@
       "key": "cron_watchlist",
       "tier": 1,
       "label": "Last cloud run",
-      "value": "0.1h ago",
+      "value": "0.0h ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$417.24",
+      "value": "$417.17",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (13 resting = journal)",
+      "value": "in sync (11 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,9 +77,9 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (4 open, 4 pre-TP1 runners)",
-      "status": "ok",
-      "action": null
+      "value": "\ud83d\udd34 1 NAKED: SOLUSDT",
+      "status": "urgent",
+      "action": "Position(s) with NO stop-loss on MEXC \u2014 place SL NOW: SOLUSDT"
     }
   ],
   "active_trades": [
@@ -219,10 +219,10 @@
       "trade_id": "BTCUSDT_20261015_CJ_001",
       "coin": "BTCUSDT",
       "direction": "Long",
-      "entry_price": 81703.21104538,
-      "sl": 80828.43106361,
-      "tp1": 86687.69212554,
-      "tp2": 87325.47301643,
+      "entry_price": 79110.46352921,
+      "sl": 78235.2699747,
+      "tp1": 85638.5110035,
+      "tp2": 89848.7200506,
       "capital_usd": 20.4,
       "leverage": 3,
       "trading_system": "John",
@@ -267,7 +267,7 @@
       "date_opened": "2026-10-15",
       "time_opened_utc": "04:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -276,9 +276,9 @@
       "live_entry_fill": 108.25,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0045,
-      "live_fees_usd": 0.0324,
+      "live_fees_usd": 0.0656,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 1.708,
       "rehearsal": false
     },
     {
@@ -483,10 +483,10 @@
       "trade_id": "LINKUSDT_20261019_CJ_001",
       "coin": "LINKUSDT",
       "direction": "Long",
-      "entry_price": 11.92625304,
-      "sl": 11.68478506,
-      "tp1": 13.25188828,
-      "tp2": 14.17242989,
+      "entry_price": 11.46718009,
+      "sl": 11.21868984,
+      "tp1": 12.65230801,
+      "tp2": 14.03062032,
       "capital_usd": 20.84,
       "leverage": 3,
       "trading_system": "John",
@@ -557,10 +557,10 @@
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-22",
+      "time_activated_utc": "08:08",
       "date_opened": "2026-10-20",
       "time_opened_utc": "20:04",
       "conviction": "MEDIUM",
@@ -569,11 +569,11 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 0.7769,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0032,
+      "live_fees_usd": 0.0377,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
@@ -623,10 +623,10 @@
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-22",
+      "time_activated_utc": "08:02",
       "date_opened": "2026-10-21",
       "time_opened_utc": "20:04",
       "conviction": "MEDIUM",
@@ -635,31 +635,17 @@
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 736.1,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0032,
+      "live_fees_usd": 0.0353,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
     }
   ],
-  "recent_signals": [
-    {
-      "trade_id": "BNBUSDT_20261021_CB_001",
-      "coin": "BNBUSDT",
-      "direction": "Long",
-      "trading_system": "Braam",
-      "entry_price": 736.12333299,
-      "tp1": 819.21574587,
-      "sl": 719.98474816,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-21T20:04:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "AVAXUSDT_20261019_CJ_001",
@@ -716,7 +702,7 @@
       "trading_system": "John",
       "entry_price": 108.24516788,
       "live_entry_fill": 108.25,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-10-21T15:12:00Z",
       "_iso_ms": 1792595520000,
       "rehearsal": false
@@ -743,6 +729,30 @@
       "tp1_hit": false,
       "iso": "2026-10-22T03:32:00Z",
       "_iso_ms": 1792639920000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "BNBUSDT_20261021_CB_001",
+      "coin": "BNBUSDT",
+      "direction": "Long",
+      "trading_system": "Braam",
+      "entry_price": 736.12333299,
+      "live_entry_fill": 736.1,
+      "tp1_hit": false,
+      "iso": "2026-10-22T08:02:00Z",
+      "_iso_ms": 1792656120000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20261020_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.776925,
+      "live_entry_fill": 0.7769,
+      "tp1_hit": false,
+      "iso": "2026-10-22T08:08:00Z",
+      "_iso_ms": 1792656480000,
       "rehearsal": false
     }
   ],
@@ -4749,14 +4759,21 @@
     }
   ],
   "recent_cancels": [],
-  "tp1_hits_open": [],
+  "tp1_hits_open": [
+    {
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 108.24516788
+    }
+  ],
   "stats": {
     "realized_pnl_usd": 10.98,
     "realized_pnl_pct": 0.21,
     "peak_capital_usd": 215.01,
     "peak_concurrent": 11,
     "peak_date": "2026-08-05",
-    "deployed_trades": 266,
+    "deployed_trades": 268,
     "return_on_peak_pct": 5.11,
     "win_rate_pct": 40.1,
     "closed_count": 262,
@@ -4778,7 +4795,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-22T06:26Z",
+    "feed_generated_utc": "2026-10-22T08:10Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []

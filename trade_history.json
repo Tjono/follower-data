@@ -5275,6 +5275,30 @@
       "braam_trade_id": "SOLUSDT_20261021_CB_001",
       "status": "OPEN",
       "resting_at": "2026-10-21T12:11:46Z"
+    },
+    "1525095784": {
+      "position_id": "1525095784",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.7769,
+      "opened_at": "2026-10-22T08:08:16Z",
+      "margin_usd": 21.0006840918293,
+      "braam_trade_id": "APTUSDT_20261020_CJ_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-22T00:12:25Z"
+    },
+    "1525092055": {
+      "position_id": "1525092055",
+      "coin": "BNBUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 736.1,
+      "opened_at": "2026-10-22T08:02:49Z",
+      "margin_usd": 19.67644353704,
+      "braam_trade_id": "BNBUSDT_20261021_CB_001",
+      "status": "OPEN",
+      "resting_at": "2026-10-21T20:12:17Z"
     }
   },
   "orders": {
@@ -12367,9 +12391,27 @@
       "resting_at": "2026-10-22T04:12:26Z",
       "braam_trade_id": "BTCUSDT_20261015_CJ_001",
       "status": "RESTING"
+    },
+    "868163479629092352": {
+      "order_id": "868163479629092352",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.467,
+      "resting_at": "2026-10-22T08:11:43Z",
+      "braam_trade_id": "LINKUSDT_20261019_CJ_001",
+      "status": "RESTING"
+    },
+    "868163460683356160": {
+      "order_id": "868163460683356160",
+      "coin": "BTCUSDT",
+      "direction": "Long",
+      "entry_price": 79110.5,
+      "resting_at": "2026-10-22T08:11:38Z",
+      "braam_trade_id": "BTCUSDT_20261015_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-22T06:31:05Z",
+  "updated": "2026-10-22T08:13:18Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30522,6 +30564,14 @@
       "unrealized": 1.8208,
       "realized": 7.0393,
       "total": 8.8601
+    },
+    {
+      "ts": "2026-10-22T08:13:18Z",
+      "equity": 417.1694,
+      "available": 96.5632,
+      "unrealized": 0.1454,
+      "realized": 7.0393,
+      "total": 7.1847
     }
   ],
   "capital_events": {
