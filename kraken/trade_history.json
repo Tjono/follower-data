@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 0.03363370446099907,
+      "unrealized_pnl": 0.028615457033400276,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.7841575507199998,
+      "unrealized_pnl": 0.7852172433,
       "fee_asset": [
         "usd"
       ],
@@ -2065,7 +2065,7 @@
       "fill_ids": [
         "4a006094-d9d1-44c5-9aaa-bc37b3a613f7"
       ],
-      "unrealized_pnl": 0.035459424699999964,
+      "unrealized_pnl": 0.0430894343599979,
       "fee_asset": [
         "usd"
       ],
@@ -2127,7 +2127,7 @@
       "fill_ids": [
         "c21a1323-c8b5-4c6d-9632-1be64a310516"
       ],
-      "unrealized_pnl": 0.4972735434600004,
+      "unrealized_pnl": 0.5016130645025001,
       "fee_asset": [
         "usd"
       ],
@@ -2187,7 +2187,7 @@
       "fill_ids": [
         "00d69a1a-ff4f-4c11-8e6c-139245df90bf"
       ],
-      "unrealized_pnl": -0.056127245839999285,
+      "unrealized_pnl": -0.05508911172000058,
       "fee_asset": [
         "usd"
       ],
@@ -2277,7 +2277,7 @@
       "fill_ids": [
         "d9bd5807-d315-4dd3-81e5-2ea556188408"
       ],
-      "unrealized_pnl": -0.05684162130419963,
+      "unrealized_pnl": -0.05492243820840031,
       "fee_asset": [
         "usd"
       ],
@@ -2307,7 +2307,7 @@
       "fill_ids": [
         "28781527-ecac-4095-86cc-074b39231bb3"
       ],
-      "unrealized_pnl": -0.019334539338001323,
+      "unrealized_pnl": -0.04506752634900007,
       "fee_asset": [
         "usd"
       ],
@@ -11079,8 +11079,16 @@
       "unrealized": 1.2208208211788487,
       "realized": -9.724,
       "total": -8.5032
+    },
+    {
+      "ts": "2026-10-22T12:22:06Z",
+      "equity": 103.84172769181774,
+      "available": 84.03516269181773,
+      "unrealized": 1.2032841182512366,
+      "realized": -9.724,
+      "total": -8.5207
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-22T12:19:14Z"
+  "updated": "2026-10-22T12:22:06Z"
 }
