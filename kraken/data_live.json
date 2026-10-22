@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-22T07:19:36Z",
+  "last_updated_iso": "2026-10-22T08:09:47Z",
   "freshness": {
-    "engine_run_iso": "2026-10-22T07:19:03Z",
+    "engine_run_iso": "2026-10-22T08:09:10Z",
     "engine_run_note": "1 error(s)",
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-22T06:26:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-22T07:19:36Z",
+    "published_iso": "2026-10-22T08:09:47Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.9845,
-    "equity": 104.4001,
-    "available": 83.9873,
-    "position_margin": 8.6599
+    "unrealized_pnl": 0.9009,
+    "equity": 104.1667,
+    "available": 83.7539,
+    "position_margin": 10.2215
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "33s ago - 1 error(s)",
+      "value": "37s ago - 1 error(s)",
       "status": "warn",
       "action": "Last run reported: FEED ANOMALY NEARUSDT_20261018_CJ_001: this NEARUSDT trade (ours FILLED on Kraken; the master had not filled it) vanished from the feed with no terminal row (16 feed generations) - our position is KEPT with its own legs (never closed on absence alone); check the master's feed"
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "53 min old",
+      "value": "103 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (73 records, 10 resting, 8 open, 50 closed)",
+      "value": "OK (73 records, 9 resting, 9 open, 50 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$104.40",
+      "value": "$104.17",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (10 resting = journal)",
+      "value": "in sync (9 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (7 open)",
+      "value": "all protected (8 open)",
       "status": "ok",
       "action": null
     },
@@ -603,27 +603,27 @@
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-10-22",
+      "time_activated_utc": "08:08",
       "date_opened": "2026-10-20",
       "time_opened_utc": "20:04",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 0.7769,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-10-22T08:08:15.593000+00:00"
     },
     {
       "trade_id": "SOLUSDT_20261021_CB_001",
@@ -837,6 +837,18 @@
       "tp1_hit": false,
       "iso": "2026-10-22T07:17:26Z",
       "_iso_ms": 1792653446000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "APTUSDT_20261020_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 0.776925,
+      "live_entry_fill": 0.7769,
+      "tp1_hit": false,
+      "iso": "2026-10-22T08:08:15Z",
+      "_iso_ms": 1792656495000,
       "rehearsal": false
     }
   ],
@@ -2012,7 +2024,7 @@
       "reason": "The engine runs one trade per coin on Kraken and NEAR already has one (NEARUSDT_20261018_CJ_001 is open).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-10-21T12:10:13Z",
-      "last_seen_iso": "2026-10-22T07:19:03Z"
+      "last_seen_iso": "2026-10-22T08:09:10Z"
     },
     {
       "trade_id": "THETAUSDT_20261020_CJ_001",
@@ -2166,7 +2178,7 @@
     "peak_capital_usd": 44.57,
     "peak_concurrent": 9,
     "peak_date": "2026-10-12",
-    "deployed_trades": 58,
+    "deployed_trades": 59,
     "return_on_peak_pct": -20.85,
     "win_rate_pct": 20.0,
     "closed_count": 50,
@@ -2206,8 +2218,21 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-22T07:19:36Z",
+    "updated_iso": "2026-10-22T08:09:47Z",
     "trades": [
+      {
+        "trade_id": "APTUSDT_20261020_CJ_001",
+        "coin": "APTUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 5.2052
+        },
+        "mexc": null
+      },
       {
         "trade_id": "BNBUSDT_20261021_CB_001",
         "coin": "BNBUSDT",
@@ -2372,19 +2397,6 @@
           "pnl_usd": null,
           "margin_usd": 20.7066
         }
-      },
-      {
-        "trade_id": "APTUSDT_20261020_CJ_001",
-        "coin": "APTUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "RESTING",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 5.21
-        },
-        "mexc": null
       },
       {
         "trade_id": "BNBUSDT_20261015_CJ_001",
