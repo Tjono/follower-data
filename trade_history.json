@@ -12291,9 +12291,36 @@
       "resting_at": "2026-10-21T20:12:08Z",
       "braam_trade_id": "LINKUSDT_20261019_CJ_001",
       "status": "RESTING"
+    },
+    "868042860487119360": {
+      "order_id": "868042860487119360",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.7769,
+      "resting_at": "2026-10-22T00:12:25Z",
+      "braam_trade_id": "APTUSDT_20261020_CJ_001",
+      "status": "RESTING"
+    },
+    "868042845839088192": {
+      "order_id": "868042845839088192",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.857,
+      "resting_at": "2026-10-22T00:12:21Z",
+      "braam_trade_id": "RENDERUSDT_20261020_CJ_001",
+      "status": "RESTING"
+    },
+    "868042829774084608": {
+      "order_id": "868042829774084608",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 11.926,
+      "resting_at": "2026-10-22T00:12:17Z",
+      "braam_trade_id": "LINKUSDT_20261019_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-21T23:30:20Z",
+  "updated": "2026-10-22T00:14:04Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30406,6 +30433,14 @@
       "unrealized": 0.014,
       "realized": 7.1537,
       "total": 7.1677
+    },
+    {
+      "ts": "2026-10-22T00:14:04Z",
+      "equity": 417.5393,
+      "available": 56.8118,
+      "unrealized": 0.0255,
+      "realized": 7.1537,
+      "total": 7.1792
     }
   ],
   "capital_events": {
