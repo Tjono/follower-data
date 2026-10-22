@@ -12429,9 +12429,27 @@
       "resting_at": "2026-10-22T08:11:38Z",
       "braam_trade_id": "BTCUSDT_20261015_CJ_001",
       "status": "RESTING"
+    },
+    "868284375794854400": {
+      "order_id": "868284375794854400",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 9.81,
+      "resting_at": "2026-10-22T16:12:07Z",
+      "braam_trade_id": "AVAXUSDT_20261022_CJ_001",
+      "status": "RESTING"
+    },
+    "868284365849891328": {
+      "order_id": "868284365849891328",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.3889,
+      "resting_at": "2026-10-22T16:12:04Z",
+      "braam_trade_id": "XRPUSDT_20261022_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-22T14:17:13Z",
+  "updated": "2026-10-22T16:13:49Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30664,6 +30682,14 @@
       "unrealized": 2.0352,
       "realized": 5.2714,
       "total": 7.3066
+    },
+    {
+      "ts": "2026-10-22T16:13:49Z",
+      "equity": 416.4498,
+      "available": 92.8265,
+      "unrealized": -0.9051,
+      "realized": 5.2714,
+      "total": 4.3663
     }
   ],
   "capital_events": {

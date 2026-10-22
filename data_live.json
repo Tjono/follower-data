@@ -1,16 +1,16 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-22T14:16:49Z",
+  "last_updated_iso": "2026-10-22T16:13:23Z",
   "mexc_account": {
-    "unrealized_pnl": 2.0352,
-    "equity": 417.2975,
-    "available": 115.3274,
-    "position_margin": 103.4531
+    "unrealized_pnl": -0.9051,
+    "equity": 416.4498,
+    "available": 92.8265,
+    "position_margin": 86.8469
   },
   "order_levels": {
-    "checked": 16,
-    "in_sync": 16,
+    "checked": 18,
+    "in_sync": 18,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (374 records)",
+      "value": "OK (376 records)",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$417.30",
+      "value": "$416.45",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (10 resting = journal)",
+      "value": "in sync (12 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (6 open, 5 pre-TP1 runners)",
+      "value": "all protected (6 open, 4 pre-TP1 runners)",
       "status": "ok",
       "action": null
     }
@@ -399,7 +399,7 @@
       "date_opened": "2026-10-19",
       "time_opened_utc": "00:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": true,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
@@ -408,9 +408,9 @@
       "live_entry_fill": 61.31,
       "live_exit_fill": null,
       "live_entry_slippage_pct": -0.0033,
-      "live_fees_usd": 0.0371,
+      "live_fees_usd": 0.0751,
       "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
+      "live_tp1_pnl_usd": 2.1303,
       "rehearsal": false
     },
     {
@@ -610,9 +610,102 @@
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false
+    },
+    {
+      "trade_id": "XRPUSDT_20261022_CJ_001",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.38886049,
+      "sl": 1.41073189,
+      "tp1": 1.21338177,
+      "tp2": 1.14843623,
+      "capital_usd": 20.83,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-22",
+      "time_opened_utc": "16:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "AVAXUSDT_20261022_CJ_001",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 9.81,
+      "sl": 10.03221611,
+      "tp1": 8.47569359,
+      "tp2": 7.47556777,
+      "capital_usd": 20.83,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-22",
+      "time_opened_utc": "16:04",
+      "conviction": "MEDIUM",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "trade_id": "XRPUSDT_20261022_CJ_001",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 1.38886049,
+      "tp1": 1.21338177,
+      "sl": 1.41073189,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-22T16:04:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "AVAXUSDT_20261022_CJ_001",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 9.81,
+      "tp1": 8.47569359,
+      "sl": 10.03221611,
+      "conviction": "MEDIUM",
+      "track_only": false,
+      "iso": "2026-10-22T16:04:00Z",
+      "rehearsal": false
+    }
+  ],
   "recent_opens": [
     {
       "trade_id": "THETAUSDT_20261020_CJ_001",
@@ -633,7 +726,7 @@
       "trading_system": "John",
       "entry_price": 61.30797424,
       "live_entry_fill": 61.31,
-      "tp1_hit": false,
+      "tp1_hit": true,
       "iso": "2026-10-20T22:19:00Z",
       "_iso_ms": 1792534740000,
       "rehearsal": false
@@ -4720,6 +4813,12 @@
       "direction": "Short",
       "trading_system": "John",
       "entry_price": 108.24516788
+    },
+    {
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 61.30797424
     }
   ],
   "stats": {
@@ -4744,15 +4843,15 @@
         "closed_count": 146
       }
     },
-    "live_trade_count_total": 361,
-    "live_real_count": 361,
+    "live_trade_count_total": 363,
+    "live_real_count": 363,
     "live_rehearsal_count": 0
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-22T14:13Z",
-    "checked": 15,
-    "in_parity": 15,
+    "feed_generated_utc": "2026-10-22T16:10Z",
+    "checked": 17,
+    "in_parity": 17,
     "drifting": []
   }
 }
