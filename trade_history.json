@@ -5217,8 +5217,16 @@
       "opened_at": "2026-10-20T17:44:19Z",
       "margin_usd": 20.946617977702,
       "braam_trade_id": "THETAUSDT_20261020_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-20T16:12:26Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-20T16:12:26Z",
+      "closed_at": "2026-10-22T05:55:47Z",
+      "close_price": 0.1976,
+      "pnl_usd": -2.1375,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0861
     },
     "1524251852": {
       "position_id": "1524251852",
@@ -12361,7 +12369,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-22T05:06:58Z",
+  "updated": "2026-10-22T06:27:51Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30498,6 +30506,14 @@
       "unrealized": 0.4956,
       "realized": 9.1768,
       "total": 9.6724
+    },
+    {
+      "ts": "2026-10-22T06:27:51Z",
+      "equity": 417.2864,
+      "available": 79.7417,
+      "unrealized": 1.8686,
+      "realized": 7.0393,
+      "total": 8.9079
     }
   ],
   "capital_events": {
