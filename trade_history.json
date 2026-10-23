@@ -5237,8 +5237,16 @@
       "opened_at": "2026-10-20T22:19:31Z",
       "margin_usd": 20.70658904862454,
       "braam_trade_id": "LTCUSDT_20261019_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-19T00:10:32Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-19T00:10:32Z",
+      "closed_at": "2026-10-23T14:53:36Z",
+      "close_price": 58.71,
+      "pnl_usd": 2.5626,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0798
     },
     "1524672097": {
       "position_id": "1524672097",
@@ -5249,8 +5257,16 @@
       "opened_at": "2026-10-21T15:12:04Z",
       "margin_usd": 18.098533819439,
       "braam_trade_id": "SOLUSDT_20261015_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-15T04:11:45Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-15T04:11:45Z",
+      "closed_at": "2026-10-23T14:53:36Z",
+      "close_price": 104.21,
+      "pnl_usd": 1.9569,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_trail",
+      "close_fills": 2,
+      "fees_usd": 0.0698
     },
     "1524987320": {
       "position_id": "1524987320",
@@ -5281,8 +5297,16 @@
       "opened_at": "2026-10-22T02:20:36Z",
       "margin_usd": 17.59713182445,
       "braam_trade_id": "SOLUSDT_20261021_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-21T12:11:46Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-21T12:11:46Z",
+      "closed_at": "2026-10-23T14:53:36Z",
+      "close_price": 105.12,
+      "pnl_usd": -0.1666,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0525
     },
     "1525095784": {
       "position_id": "1525095784",
@@ -5313,8 +5337,16 @@
       "opened_at": "2026-10-22T08:02:49Z",
       "margin_usd": 19.67644353704,
       "braam_trade_id": "BNBUSDT_20261021_CB_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-21T20:12:17Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-21T20:12:17Z",
+      "closed_at": "2026-10-23T14:53:36Z",
+      "close_price": 749.8,
+      "pnl_usd": 1.0246,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "fees_usd": 0.0712
     },
     "1525108164": {
       "position_id": "1525108164",
@@ -5325,8 +5357,16 @@
       "opened_at": "2026-10-22T08:31:07Z",
       "margin_usd": 20.85259285864,
       "braam_trade_id": "CAKEUSDT_20261019_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-19T04:11:16Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-19T04:11:16Z",
+      "closed_at": "2026-10-23T14:53:36Z",
+      "close_price": 2.1853,
+      "pnl_usd": 0.9154,
+      "tag": "WIN",
+      "close_type": 0,
+      "close_reason": "take_profit",
+      "close_fills": 1,
+      "fees_usd": 0.0627
     }
   },
   "orders": {
@@ -12502,7 +12542,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-23T13:38:57Z",
+  "updated": "2026-10-23T16:13:42Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30823,6 +30863,14 @@
       "unrealized": 1.1635,
       "realized": 3.0572,
       "total": 4.2207
+    },
+    {
+      "ts": "2026-10-23T16:13:42Z",
+      "equity": 0.0,
+      "available": 0.0,
+      "unrealized": 0.0,
+      "realized": 9.3501,
+      "total": 9.3501
     }
   ],
   "capital_events": {
@@ -30840,6 +30888,14 @@
       "ts": "2026-10-23T12:13:50Z",
       "amount": 5.1796598,
       "type": "deposit",
+      "currency": "USDT"
+    },
+    "393026601": {
+      "id": "393026601",
+      "txid": "47af4551c6dc451bbc4fee5c5cedff05",
+      "ts": "2026-10-23T15:13:10Z",
+      "amount": 423.08413541,
+      "type": "withdrawal",
       "currency": "USDT"
     }
   }
