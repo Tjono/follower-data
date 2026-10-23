@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-23T15:18:54Z",
+  "last_updated_iso": "2026-10-23T16:11:17Z",
   "freshness": {
-    "engine_run_iso": "2026-10-23T15:18:19Z",
+    "engine_run_iso": "2026-10-23T16:10:43Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-23T14:09:00Z",
+    "feed_generated_iso": "2026-10-23T16:10:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-23T15:18:54Z",
+    "published_iso": "2026-10-23T16:11:17Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.9437,
-    "equity": 103.4908,
-    "available": 85.687,
+    "unrealized_pnl": 0.9953,
+    "equity": 103.5514,
+    "available": 85.7935,
     "position_margin": 4.6171
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "35s ago",
+      "value": "34s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "69 min old",
+      "value": "77s old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$103.49",
+      "value": "$103.55",
       "status": "ok",
       "action": null
     },
@@ -663,10 +663,10 @@
       "trade_id": "XRPUSDT_20261022_CJ_001",
       "coin": "XRPUSDT",
       "direction": "Short",
-      "entry_price": 1.38750056,
-      "sl": 1.40891807,
-      "tp1": 1.21274332,
-      "tp2": 1.14516386,
+      "entry_price": 1.34581507,
+      "sl": 1.36655274,
+      "tp1": 1.21296967,
+      "tp2": 1.20529452,
       "capital_usd": 5.19,
       "leverage": 3,
       "trading_system": "John",
@@ -697,18 +697,6 @@
   "dry_run_plans": [],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "SOLUSDT_20261015_CJ_001",
-      "coin": "SOLUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 108.24516788,
-      "live_entry_fill": 108.25,
-      "tp1_hit": true,
-      "iso": "2026-10-21T15:25:29Z",
-      "_iso_ms": 1792596329000,
-      "rehearsal": false
-    },
     {
       "trade_id": "TRXUSDT_20261021_CB_001",
       "coin": "TRXUSDT",
@@ -2003,7 +1991,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-22T20:10:56Z",
-      "last_seen_iso": "2026-10-23T15:18:19Z"
+      "last_seen_iso": "2026-10-23T16:10:43Z"
     },
     {
       "trade_id": "NEARUSDT_20261021_CB_001",
@@ -2015,7 +2003,7 @@
       "reason": "The engine runs one trade per coin on Kraken and NEAR already has one (NEARUSDT_20261018_CJ_001 is open).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-10-21T12:10:13Z",
-      "last_seen_iso": "2026-10-23T15:18:19Z"
+      "last_seen_iso": "2026-10-23T16:10:43Z"
     },
     {
       "trade_id": "THETAUSDT_20261020_CJ_001",
@@ -2211,7 +2199,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-23T14:09Z",
+    "feed_generated_utc": "2026-10-23T16:10Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
@@ -2219,7 +2207,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-23T14:09Z",
+    "feed_generated_utc": "2026-10-23T16:10Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
@@ -2227,13 +2215,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-23T14:09Z",
+    "feed_generated_utc": "2026-10-23T16:10Z",
     "checked": 16,
     "in_parity": 16,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-23T15:18:54Z",
+    "updated_iso": "2026-10-23T16:11:17Z",
     "trades": [
       {
         "trade_id": "APTUSDT_20261020_CJ_001",
