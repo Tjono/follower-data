@@ -12502,7 +12502,7 @@
       "status": "RESTING"
     }
   },
-  "updated": "2026-10-23T10:12:12Z",
+  "updated": "2026-10-23T12:13:51Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30807,6 +30807,14 @@
       "unrealized": 1.9678,
       "realized": 3.0572,
       "total": 5.025
+    },
+    {
+      "ts": "2026-10-23T12:13:51Z",
+      "equity": 416.9652,
+      "available": 103.1514,
+      "unrealized": 1.2312,
+      "realized": 3.0572,
+      "total": 4.2884
     }
   ],
   "capital_events": {
@@ -30815,6 +30823,14 @@
       "txid": "37ec41c313684003b6694ab52504bcc2",
       "ts": "2026-06-28T14:56:35Z",
       "amount": 131.5727575,
+      "type": "deposit",
+      "currency": "USDT"
+    },
+    "393002119": {
+      "id": "393002119",
+      "txid": "2bafad2e2f3f44b79fef59021541215f",
+      "ts": "2026-10-23T12:13:50Z",
+      "amount": 5.1796598,
       "type": "deposit",
       "currency": "USDT"
     }
