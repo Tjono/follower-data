@@ -5293,8 +5293,16 @@
       "opened_at": "2026-10-22T08:08:16Z",
       "margin_usd": 21.0006840918293,
       "braam_trade_id": "APTUSDT_20261020_CJ_001",
-      "status": "OPEN",
-      "resting_at": "2026-10-22T00:12:25Z"
+      "status": "CLOSED",
+      "resting_at": "2026-10-22T00:12:25Z",
+      "closed_at": "2026-10-22T23:01:38Z",
+      "close_price": 0.7506,
+      "pnl_usd": -2.2142,
+      "tag": "LOSS",
+      "close_type": 0,
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "fees_usd": 0.0862
     },
     "1525092055": {
       "position_id": "1525092055",
@@ -12465,9 +12473,18 @@
       "resting_at": "2026-10-22T20:12:25Z",
       "braam_trade_id": "XRPUSDT_20261022_CJ_001",
       "status": "RESTING"
+    },
+    "868405152795998208": {
+      "order_id": "868405152795998208",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 9.966,
+      "resting_at": "2026-10-23T00:12:02Z",
+      "braam_trade_id": "AVAXUSDT_20261022_CJ_001",
+      "status": "RESTING"
     }
   },
-  "updated": "2026-10-22T21:48:40Z",
+  "updated": "2026-10-23T00:13:46Z",
   "snapshots": [
     {
       "ts": "2026-07-03T10:21:33Z",
@@ -30732,6 +30749,14 @@
       "unrealized": -2.3336,
       "realized": 5.2714,
       "total": 2.9378
+    },
+    {
+      "ts": "2026-10-23T00:13:46Z",
+      "equity": 414.0188,
+      "available": 92.752,
+      "unrealized": -1.1603,
+      "realized": 3.0572,
+      "total": 1.8969
     }
   ],
   "capital_events": {
