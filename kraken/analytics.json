@@ -1,36 +1,36 @@
 {
-  "generated_at_utc": "2026-10-24T07:18:37+00:00",
+  "generated_at_utc": "2026-10-24T08:08:36+00:00",
   "venue": "Kraken",
   "all_time": {
-    "total_trades": 55,
+    "total_trades": 56,
     "wins": 12,
-    "losses": 43,
-    "win_rate": 21.8,
-    "total_pnl_usd": -9.51,
-    "avg_pnl_usd": -0.17,
+    "losses": 44,
+    "win_rate": 21.4,
+    "total_pnl_usd": -9.88,
+    "avg_pnl_usd": -0.18,
     "best_usd": 1.2,
     "worst_usd": -0.8,
     "avg_win_usd": 0.61,
     "avg_loss_usd": -0.39,
-    "expectancy_usd": -0.17,
-    "profit_factor": 0.43,
+    "expectancy_usd": -0.18,
+    "profit_factor": 0.42,
     "longest_win_streak": 2,
     "longest_loss_streak": 12,
-    "current_streak_type": "win",
-    "current_streak_count": 2,
-    "avg_hold_hours": 21.8,
-    "median_hold_hours": 11.6
+    "current_streak_type": "loss",
+    "current_streak_count": 1,
+    "avg_hold_hours": 23.0,
+    "median_hold_hours": 12.3
   },
   "by_system": {
     "John": {
-      "n": 53,
+      "n": 54,
       "wins": 11,
-      "wr": 20.8,
-      "pnl": -9.43,
+      "wr": 20.4,
+      "pnl": -9.8,
       "avg": -0.18,
       "inception": "2026-10-07",
       "days_active": 18,
-      "pnl_per_day": -0.52,
+      "pnl_per_day": -0.54,
       "status": "active",
       "open": 5,
       "pending": 8
@@ -68,11 +68,11 @@
       "name": "John",
       "inception": "2026-10-07",
       "days_active": 18,
-      "closed": 53,
+      "closed": 54,
       "wins": 11,
-      "wr": 20.8,
-      "pnl": -9.43,
-      "pnl_per_day": -0.52,
+      "wr": 20.4,
+      "pnl": -9.8,
+      "pnl_per_day": -0.54,
       "open": 5,
       "pending": 8
     },
@@ -104,11 +104,11 @@
   "monthly": [
     {
       "month": "2026-10",
-      "n": 55,
+      "n": 56,
       "wins": 12,
-      "wr": 21.8,
-      "pnl": -9.51,
-      "cumulative_pnl": -9.51
+      "wr": 21.4,
+      "pnl": -9.88,
+      "cumulative_pnl": -9.88
     }
   ],
   "equity_curve": [
@@ -441,6 +441,12 @@
       "pnl": 0.74,
       "cumulative": -9.51,
       "won": true
+    },
+    {
+      "iso": "2026-10-24T07:54:57Z",
+      "pnl": -0.37,
+      "cumulative": -9.88,
+      "won": false
     }
   ],
   "benchmark": {
@@ -667,6 +673,10 @@
       {
         "iso": "2026-10-23",
         "pct": -8.447
+      },
+      {
+        "iso": "2026-10-24",
+        "pct": -8.777
       }
     ],
     "spx": [
@@ -735,16 +745,16 @@
         "pct": -1.282
       }
     ],
-    "ours_pct": -8.447,
+    "ours_pct": -8.777,
     "spx_pct": -1.282,
     "spx_last_close_iso": "2026-10-23"
   },
   "by_direction": {
     "Long": {
-      "n": 47,
+      "n": 48,
       "wins": 8,
-      "wr": 17.0,
-      "pnl": -11.33,
+      "wr": 16.7,
+      "pnl": -11.7,
       "avg": -0.24
     },
     "Short": {
@@ -764,10 +774,10 @@
       "avg": 0.05
     },
     "MEDIUM": {
-      "n": 46,
+      "n": 47,
       "wins": 8,
-      "wr": 17.4,
-      "pnl": -10.53,
+      "wr": 17.0,
+      "pnl": -10.9,
       "avg": -0.23
     },
     "VERY HIGH": {
@@ -892,6 +902,16 @@
   },
   "recent_closes": [
     {
+      "trade_id": "CAKEUSDT_20261019_CJ_001",
+      "coin": "CAKE",
+      "direction": "Long",
+      "system": "John",
+      "pnl_usd": -0.37,
+      "won": false,
+      "close_reason": "stopped_out",
+      "iso": "2026-10-24T07:54:57+00:00"
+    },
+    {
       "trade_id": "LTCUSDT_20261019_CJ_001",
       "coin": "LTC",
       "direction": "Short",
@@ -980,16 +1000,6 @@
       "won": false,
       "close_reason": "stopped_out",
       "iso": "2026-10-20T14:14:58+00:00"
-    },
-    {
-      "trade_id": "UNIUSDT_20261015_CJ_001",
-      "coin": "UNI",
-      "direction": "Short",
-      "system": "John",
-      "pnl_usd": 0.86,
-      "won": true,
-      "close_reason": "tp1_breakeven",
-      "iso": "2026-10-19T04:47:48+00:00"
     }
   ],
   "live_positions": {
@@ -997,7 +1007,7 @@
     "open_long": 5,
     "open_short": 1,
     "pending_count": 8,
-    "capital_open_usd": 28.02,
+    "capital_open_usd": 27.7,
     "capital_pending_usd": 41.16
   },
   "macro": {
