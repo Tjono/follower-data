@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.30243007947840084,
+      "unrealized_pnl": -0.3137292768296004,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.23769065737999995,
+      "unrealized_pnl": -0.2909318323200001,
       "fee_asset": [
         "usd"
       ],
@@ -2376,7 +2376,7 @@
       "fill_ids": [
         "0b4be846-3cdc-4da3-bbb1-ccdbc32194f3"
       ],
-      "unrealized_pnl": -0.16222476500999972,
+      "unrealized_pnl": -0.12853360128000016,
       "fee_asset": [
         "usd"
       ],
@@ -3682,6 +3682,24 @@
       "entry_price": 0.7665,
       "resting_at": "2026-10-24T08:10:43Z",
       "braam_trade_id": "APTUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a30ee61f-c4de-43d4-9efe-78a17a2d6adf": {
+      "order_id": "a30ee61f-c4de-43d4-9efe-78a17a2d6adf",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 83052.0,
+      "resting_at": "2026-10-24T12:10:57Z",
+      "braam_trade_id": "BTCUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a30ee619-712a-48dd-8d94-ef8336a7c331": {
+      "order_id": "a30ee619-712a-48dd-8d94-ef8336a7c331",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.08988,
+      "resting_at": "2026-10-24T12:10:52Z",
+      "braam_trade_id": "HBARUSDT_20261021_CJ_001",
       "status": "RESTING"
     }
   },
@@ -12148,8 +12166,16 @@
       "unrealized": -0.7013904144421329,
       "realized": -10.4584,
       "total": -11.1598
+    },
+    {
+      "ts": "2026-10-24T12:11:24Z",
+      "equity": 101.103708366306,
+      "available": 83.22072836630599,
+      "unrealized": -0.7334916336940036,
+      "realized": -10.4584,
+      "total": -11.1919
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-24T11:37:53Z"
+  "updated": "2026-10-24T12:11:24Z"
 }
