@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-24T02:18:31Z",
+  "last_updated_iso": "2026-10-24T03:18:48Z",
   "freshness": {
-    "engine_run_iso": "2026-10-24T02:18:03Z",
+    "engine_run_iso": "2026-10-24T03:18:21Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-24T02:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-24T02:18:31Z",
+    "published_iso": "2026-10-24T03:18:48Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.2288,
-    "equity": 102.5642,
-    "available": 87.5459,
+    "unrealized_pnl": -0.1311,
+    "equity": 102.6597,
+    "available": 87.6415,
     "position_margin": 6.6691
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "28s ago",
+      "value": "27s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "69 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$102.56",
+      "value": "$102.66",
       "status": "ok",
       "action": null
     },
@@ -609,18 +609,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "SOLUSDT_20261021_CB_001",
-      "coin": "SOLUSDT",
-      "direction": "Long",
-      "trading_system": "Braam",
-      "entry_price": 105.33092018,
-      "live_entry_fill": 105.33,
-      "tp1_hit": false,
-      "iso": "2026-10-22T02:20:34Z",
-      "_iso_ms": 1792635634000,
-      "rehearsal": false
-    },
     {
       "trade_id": "RENDERUSDT_20261020_CJ_001",
       "coin": "RENDERUSDT",
@@ -1976,7 +1964,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-22T20:10:56Z",
-      "last_seen_iso": "2026-10-24T02:18:03Z"
+      "last_seen_iso": "2026-10-24T03:18:21Z"
     },
     {
       "trade_id": "NEARUSDT_20261021_CB_001",
@@ -1988,7 +1976,7 @@
       "reason": "The engine runs one trade per coin on Kraken and NEAR already has one (NEARUSDT_20261018_CJ_001 is open).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-10-21T12:10:13Z",
-      "last_seen_iso": "2026-10-24T02:18:03Z"
+      "last_seen_iso": "2026-10-24T03:18:21Z"
     },
     {
       "trade_id": "THETAUSDT_20261020_CJ_001",
@@ -2194,7 +2182,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-24T02:18:31Z",
+    "updated_iso": "2026-10-24T03:18:48Z",
     "trades": [
       {
         "trade_id": "ETHUSDT_20261024_CJ_001",
