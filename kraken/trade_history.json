@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 0.06230990024639979,
+      "unrealized_pnl": 0.036050002529399876,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.5529148700600004,
+      "unrealized_pnl": -0.3858263119600007,
       "fee_asset": [
         "usd"
       ],
@@ -2478,7 +2478,7 @@
       "fill_ids": [
         "025d5a28-26bf-4f96-9cdb-bc35db4b4734"
       ],
-      "unrealized_pnl": -0.21070153330200087,
+      "unrealized_pnl": -0.09973658310199962,
       "fee_asset": [
         "usd"
       ],
@@ -3771,6 +3771,15 @@
       "entry_price": 0.08988,
       "resting_at": "2026-10-24T12:10:52Z",
       "braam_trade_id": "HBARUSDT_20261021_CJ_001",
+      "status": "RESTING"
+    },
+    "a30f3c00-e37c-4e03-9272-da86159da442": {
+      "order_id": "a30f3c00-e37c-4e03-9272-da86159da442",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32139,
+      "resting_at": "2026-10-24T16:11:05Z",
+      "braam_trade_id": "TRXUSDT_20261024_CJ_001",
       "status": "RESTING"
     }
   },
@@ -12507,8 +12516,16 @@
       "unrealized": -0.7012620549435835,
       "realized": -11.6445,
       "total": -12.3458
+    },
+    {
+      "ts": "2026-10-24T16:11:32Z",
+      "equity": 100.48439526491501,
+      "available": 83.516583264915,
+      "unrealized": -0.44953104451558323,
+      "realized": -11.6445,
+      "total": -12.094
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-24T15:41:35Z"
+  "updated": "2026-10-24T16:11:32Z"
 }
