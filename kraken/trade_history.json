@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.30540985249439984,
+      "unrealized_pnl": -0.28278950891890065,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.26911149634000076,
+      "unrealized_pnl": -0.23741126294000026,
       "fee_asset": [
         "usd"
       ],
@@ -2376,7 +2376,7 @@
       "fill_ids": [
         "0b4be846-3cdc-4da3-bbb1-ccdbc32194f3"
       ],
-      "unrealized_pnl": -0.1158985102800002,
+      "unrealized_pnl": -0.0735701807400009,
       "fee_asset": [
         "usd"
       ],
@@ -2421,18 +2421,18 @@
       "leverage": 3,
       "entry_price": 0.94732,
       "entry_size": 15.0,
-      "exit_size": 0,
+      "exit_size": 15.0,
       "opened_at": "2026-10-24T12:12:10Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-24T12:13:26Z",
+      "close_price": 0.9463466667,
       "margin_usd": 4.7366,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.007,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.0146,
+      "pnl_usd": -0.0286,
+      "tag": "LOSS",
+      "fees_usd": 0.014,
       "funding_usd": null,
       "fill_ids": [
         "0091c9c2-365d-4b9d-81c4-47bbb27351ba",
@@ -2440,12 +2440,16 @@
         "3b788fe5-3695-423d-9210-7194b516bbfe",
         "90c05e98-343b-4645-8a7a-e45ec898ab8d",
         "a7845de6-683a-4b61-a44f-03e5619bca33",
-        "d74377aa-d103-4da8-8272-8cab8d2edfc9"
+        "d74377aa-d103-4da8-8272-8cab8d2edfc9",
+        "6dc51b78-f4c7-43ac-a8dd-0434c7aca399",
+        "a410cf6b-7580-4a18-8ffc-2c2b1eff9564",
+        "de84b571-5d04-420b-aaa4-42f6e232d5f4"
       ],
       "unrealized_pnl": -0.0025730818500013797,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": "net"
     }
   },
   "orders": {
@@ -6002,6 +6006,48 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "21177822"
+    },
+    "a410cf6b-7580-4a18-8ffc-2c2b1eff9564": {
+      "fill_id": "a410cf6b-7580-4a18-8ffc-2c2b1eff9564",
+      "symbol": "PF_SUIUSD",
+      "side": "sell",
+      "order_id": "a30ee6b8-a2f6-48ce-aa4d-66482331dad6",
+      "cliOrdId": "SUIUSDT_20261022_CJ_001:SL#1792843957131",
+      "size": 10,
+      "price": 0.9463,
+      "fillTime": "2026-10-24T12:13:26.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.0102,
+      "realized_funding": 0,
+      "sequence_id": "21177841"
+    },
+    "de84b571-5d04-420b-aaa4-42f6e232d5f4": {
+      "fill_id": "de84b571-5d04-420b-aaa4-42f6e232d5f4",
+      "symbol": "PF_SUIUSD",
+      "side": "sell",
+      "order_id": "a30ee6b8-a2f6-48ce-aa4d-66482331dad6",
+      "cliOrdId": "SUIUSDT_20261022_CJ_001:SL#1792843957131",
+      "size": 3,
+      "price": 0.9464,
+      "fillTime": "2026-10-24T12:13:26.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.00276,
+      "realized_funding": 0,
+      "sequence_id": "21177840"
+    },
+    "6dc51b78-f4c7-43ac-a8dd-0434c7aca399": {
+      "fill_id": "6dc51b78-f4c7-43ac-a8dd-0434c7aca399",
+      "symbol": "PF_SUIUSD",
+      "side": "sell",
+      "order_id": "a30ee6b8-a2f6-48ce-aa4d-66482331dad6",
+      "cliOrdId": "SUIUSDT_20261022_CJ_001:SL#1792843957131",
+      "size": 2,
+      "price": 0.9465,
+      "fillTime": "2026-10-24T12:13:26.001Z",
+      "fillType": "taker",
+      "realized_pnl": -0.00164,
+      "realized_funding": -3.05523e-06,
+      "sequence_id": "21177839"
     }
   },
   "snapshots": [
@@ -12292,8 +12338,16 @@
       "unrealized": -0.7334916336940036,
       "realized": -10.4584,
       "total": -11.1919
+    },
+    {
+      "ts": "2026-10-24T12:18:31Z",
+      "equity": 101.20261149111026,
+      "available": 83.31963149111026,
+      "unrealized": -0.5962987214387405,
+      "realized": -10.487,
+      "total": -11.0833
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-24T12:12:42Z"
+  "updated": "2026-10-24T12:18:31Z"
 }
