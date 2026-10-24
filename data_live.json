@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-24T00:12:39Z",
+  "last_updated_iso": "2026-10-24T04:12:23Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 0.0,
-    "available": 0.0,
+    "equity": 0.0555,
+    "available": 0.0555,
     "position_margin": 0.0
   },
   "order_levels": {
@@ -53,7 +53,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Sub wallet (algo)",
-      "value": "$0.00",
+      "value": "$0.06",
       "status": "urgent",
       "action": "Sub-wallet too low to size a 5% trade. Transfer USDT master\u2192sub."
     },
@@ -85,30 +85,6 @@
   "active_trades": [],
   "recent_signals": [],
   "recent_opens": [
-    {
-      "trade_id": "SOLUSDT_20261021_CB_001",
-      "coin": "SOLUSDT",
-      "direction": "Long",
-      "trading_system": "Braam",
-      "entry_price": 105.33092018,
-      "live_entry_fill": 105.33,
-      "tp1_hit": false,
-      "iso": "2026-10-22T02:20:00Z",
-      "_iso_ms": 1792635600000,
-      "rehearsal": false
-    },
-    {
-      "trade_id": "RENDERUSDT_20261020_CJ_001",
-      "coin": "RENDERUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 1.85726543,
-      "live_entry_fill": 1.857,
-      "tp1_hit": false,
-      "iso": "2026-10-22T03:32:00Z",
-      "_iso_ms": 1792639920000,
-      "rehearsal": false
-    },
     {
       "trade_id": "BNBUSDT_20261021_CB_001",
       "coin": "BNBUSDT",
@@ -4178,7 +4154,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-24T00:10Z",
+    "feed_generated_utc": "2026-10-24T04:09Z",
     "checked": 0,
     "in_parity": 0,
     "drifting": []
