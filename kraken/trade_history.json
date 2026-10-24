@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.2537238334845003,
+      "unrealized_pnl": -0.25555956734490065,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.10283322875999978,
+      "unrealized_pnl": -0.1238162004000003,
       "fee_asset": [
         "usd"
       ],
@@ -2344,7 +2344,7 @@
       "fill_ids": [
         "c76ab9f4-df9f-42f3-ba0d-b2ddf6bf33d0"
       ],
-      "unrealized_pnl": -0.3159183816799992,
+      "unrealized_pnl": -0.33366703156000005,
       "fee_asset": [
         "usd"
       ],
@@ -2374,7 +2374,7 @@
       "fill_ids": [
         "0b4be846-3cdc-4da3-bbb1-ccdbc32194f3"
       ],
-      "unrealized_pnl": -0.14256593756999994,
+      "unrealized_pnl": -0.15867977327999994,
       "fee_asset": [
         "usd"
       ],
@@ -2404,10 +2404,11 @@
       "fill_ids": [
         "b9b011b9-ad33-4ca8-b270-32355e4a9a48"
       ],
-      "unrealized_pnl": 0.008024364369999093,
+      "unrealized_pnl": -0.013173980269999941,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -3651,6 +3652,33 @@
       "entry_price": 2478.9,
       "resting_at": "2026-10-24T00:10:37Z",
       "braam_trade_id": "ETHUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a30e9042-526a-44fe-81fb-139d034574d8": {
+      "order_id": "a30e9042-526a-44fe-81fb-139d034574d8",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.4325,
+      "resting_at": "2026-10-24T08:10:51Z",
+      "braam_trade_id": "ONDOUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a30e9038-66ff-48f6-bc30-7e204e72f940": {
+      "order_id": "a30e9038-66ff-48f6-bc30-7e204e72f940",
+      "coin": "CAKEUSDT",
+      "direction": "Short",
+      "entry_price": 2.222,
+      "resting_at": "2026-10-24T08:10:44Z",
+      "braam_trade_id": "CAKEUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a30e9036-7ee2-4f8a-a168-af6ba4a16186": {
+      "order_id": "a30e9036-7ee2-4f8a-a168-af6ba4a16186",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "entry_price": 0.7665,
+      "resting_at": "2026-10-24T08:10:43Z",
+      "braam_trade_id": "APTUSDT_20261024_CJ_001",
       "status": "RESTING"
     }
   },
@@ -12003,8 +12031,16 @@
       "unrealized": -0.8070111858446556,
       "realized": -9.8826,
       "total": -10.6896
+    },
+    {
+      "ts": "2026-10-24T08:11:21Z",
+      "equity": 101.51596531377294,
+      "available": 85.22330931377294,
+      "unrealized": -0.8853257233370714,
+      "realized": -9.8826,
+      "total": -10.7679
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-24T08:08:34Z"
+  "updated": "2026-10-24T08:11:21Z"
 }
