@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.017735386298400185,
+      "unrealized_pnl": -0.016088203131900087,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.0979981887400001,
+      "unrealized_pnl": -0.12689600292000058,
       "fee_asset": [
         "usd"
       ],
@@ -2478,7 +2478,7 @@
       "fill_ids": [
         "025d5a28-26bf-4f96-9cdb-bc35db4b4734"
       ],
-      "unrealized_pnl": 0.004857861450000023,
+      "unrealized_pnl": -0.012758362396000145,
       "fee_asset": [
         "usd"
       ],
@@ -3834,6 +3834,15 @@
       "entry_price": 2464.0,
       "resting_at": "2026-10-25T12:10:33Z",
       "braam_trade_id": "ETHUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a3119474-fca3-4b3c-8ef3-c31f3f9000b7": {
+      "order_id": "a3119474-fca3-4b3c-8ef3-c31f3f9000b7",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "entry_price": 0.10134,
+      "resting_at": "2026-10-25T20:10:04Z",
+      "braam_trade_id": "ALGOUSDT_20261025_CJ_001",
       "status": "RESTING"
     }
   },
@@ -12962,8 +12971,16 @@
       "unrealized": -0.11094448074345596,
       "realized": -11.6445,
       "total": -11.7554
+    },
+    {
+      "ts": "2026-10-25T20:10:26Z",
+      "equity": 100.95327712687015,
+      "available": 82.52367212687014,
+      "unrealized": -0.15577723844585098,
+      "realized": -11.6445,
+      "total": -11.8003
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-25T19:31:35Z"
+  "updated": "2026-10-25T20:10:26Z"
 }
