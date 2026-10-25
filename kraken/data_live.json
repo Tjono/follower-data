@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-25T05:18:48Z",
+  "last_updated_iso": "2026-10-25T06:18:28Z",
   "freshness": {
-    "engine_run_iso": "2026-10-25T05:18:25Z",
+    "engine_run_iso": "2026-10-25T06:18:05Z",
     "engine_run_note": "1 error(s)",
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-25T04:10:00Z",
+    "feed_generated_iso": "2026-10-25T06:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-25T05:18:48Z",
+    "published_iso": "2026-10-25T06:18:28Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.1945,
-    "equity": 100.7407,
-    "available": 83.812,
+    "unrealized_pnl": -0.4577,
+    "equity": 100.478,
+    "available": 83.5493,
     "position_margin": 2.717
   },
   "account_source": "live",
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "68 min old",
+      "value": "9 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$100.74",
+      "value": "$100.48",
       "status": "ok",
       "action": null
     },
@@ -2150,7 +2150,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-22T20:10:56Z",
-      "last_seen_iso": "2026-10-25T05:18:25Z"
+      "last_seen_iso": "2026-10-25T06:18:05Z"
     },
     {
       "trade_id": "NEARUSDT_20261021_CB_001",
@@ -2346,7 +2346,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-25T04:10Z",
+    "feed_generated_utc": "2026-10-25T06:09Z",
     "checked": 15,
     "in_parity": 14,
     "drifting": [
@@ -2371,7 +2371,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-25T04:10Z",
+    "feed_generated_utc": "2026-10-25T06:09Z",
     "checked": 15,
     "in_parity": 14,
     "drifting": [
@@ -2396,7 +2396,7 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-25T04:10Z",
+    "feed_generated_utc": "2026-10-25T06:09Z",
     "checked": 15,
     "in_parity": 14,
     "drifting": [
@@ -2419,7 +2419,7 @@
     ]
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-25T05:18:48Z",
+    "updated_iso": "2026-10-25T06:18:28Z",
     "trades": [
       {
         "trade_id": "DOGEUSDT_20261024_CJ_001",
