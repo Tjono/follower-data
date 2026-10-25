@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-25T08:18:29Z",
+  "last_updated_iso": "2026-10-25T09:18:26Z",
   "freshness": {
-    "engine_run_iso": "2026-10-25T08:18:07Z",
+    "engine_run_iso": "2026-10-25T09:18:03Z",
     "engine_run_note": "1 error(s)",
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-25T08:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-25T08:18:29Z",
+    "published_iso": "2026-10-25T09:18:26Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.5284,
-    "equity": 100.4066,
-    "available": 83.4779,
+    "unrealized_pnl": -0.7736,
+    "equity": 100.1572,
+    "available": 83.2285,
     "position_margin": 2.717
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "22s ago - 1 error(s)",
+      "value": "23s ago - 1 error(s)",
       "status": "warn",
       "action": "Last run reported: NEARUSDT_20261018_CJ_001: feed level edit REJECTED, previous levels kept - tp1 5.78996418->4.56246; tp2 6.26291743->5.44226262 (Long, entry ref 4.6162)"
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "69 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$100.41",
+      "value": "$100.16",
       "status": "ok",
       "action": null
     },
@@ -2136,7 +2136,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-22T20:10:56Z",
-      "last_seen_iso": "2026-10-25T08:18:07Z"
+      "last_seen_iso": "2026-10-25T09:18:03Z"
     },
     {
       "trade_id": "NEARUSDT_20261021_CB_001",
@@ -2405,7 +2405,7 @@
     ]
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-25T08:18:29Z",
+    "updated_iso": "2026-10-25T09:18:26Z",
     "trades": [
       {
         "trade_id": "DOGEUSDT_20261024_CJ_001",
