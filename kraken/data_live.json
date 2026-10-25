@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-25T11:59:47Z",
+  "last_updated_iso": "2026-10-25T12:10:51Z",
   "freshness": {
-    "engine_run_iso": "2026-10-25T11:59:25Z",
+    "engine_run_iso": "2026-10-25T12:10:22Z",
     "engine_run_note": "1 error(s)",
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-25T10:09:00Z",
+    "feed_generated_iso": "2026-10-25T12:10:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-25T11:59:47Z",
+    "published_iso": "2026-10-25T12:10:51Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,15 +18,15 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.3642,
-    "equity": 100.5623,
-    "available": 83.6336,
+    "unrealized_pnl": -0.4178,
+    "equity": 100.5096,
+    "available": 83.5899,
     "position_margin": 2.717
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 15,
-    "in_sync": 15,
+    "checked": 14,
+    "in_sync": 14,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "22s ago - 1 error(s)",
+      "value": "29s ago - 1 error(s)",
       "status": "warn",
       "action": "Last run reported: NEARUSDT_20261018_CJ_001: feed level edit REJECTED, previous levels kept - tp1 5.78996418->4.56246; tp2 6.26291743->5.44226262 (Long, entry ref 4.6162)"
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "110 min old",
+      "value": "51s old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (85 records, 12 resting, 3 open, 61 closed)",
+      "value": "OK (85 records, 11 resting, 3 open, 61 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$100.56",
+      "value": "$100.51",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (12 resting = journal)",
+      "value": "in sync (11 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -115,40 +115,6 @@
     }
   ],
   "active_trades": [
-    {
-      "trade_id": "LINKUSDT_20261014_CJ_001",
-      "coin": "LINKUSDT",
-      "direction": "Short",
-      "entry_price": 13.49741299,
-      "sl": 13.73903539,
-      "tp1": 10.93522,
-      "tp2": 9.06792923,
-      "capital_usd": 5.13,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-10-14",
-      "time_opened_utc": "16:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false,
-      "live_filled_ts": null
-    },
     {
       "trade_id": "BTCUSDT_20261015_CJ_001",
       "coin": "BTCUSDT",
@@ -357,10 +323,10 @@
       "trade_id": "ETHUSDT_20261024_CJ_001",
       "coin": "ETHUSDT",
       "direction": "Short",
-      "entry_price": 2479.12795657,
-      "sl": 2514.88635101,
-      "tp1": 2297.56962254,
-      "tp2": 2038.07729797,
+      "entry_price": 2463.97526799,
+      "sl": 2497.93543658,
+      "tp1": 2169.00841187,
+      "tp2": 2018.90912685,
       "capital_usd": 5.13,
       "leverage": 3,
       "trading_system": "John",
@@ -2123,6 +2089,13 @@
       "trading_system": "John",
       "close_reason": "the feed cancelled it (CANCELLED: Stale 28.0h \u2265 24h grace: Price $0.1717 is 16.9",
       "iso": "2026-10-25T04:10:30Z"
+    },
+    {
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "close_reason": "the feed cancelled it (CANCELLED: Stale 28.0h \u2265 24h grace: Price $11.398 is 18.4",
+      "iso": "2026-10-25T12:10:22Z"
     }
   ],
   "recent_skips": [
@@ -2136,7 +2109,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-10-22T20:10:56Z",
-      "last_seen_iso": "2026-10-25T11:59:25Z"
+      "last_seen_iso": "2026-10-25T12:10:22Z"
     },
     {
       "trade_id": "NEARUSDT_20261021_CB_001",
@@ -2325,16 +2298,16 @@
         "closed_count": 58
       }
     },
-    "live_trade_count_total": 76,
-    "live_real_count": 76,
+    "live_trade_count_total": 75,
+    "live_real_count": 75,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-25T10:09Z",
-    "checked": 15,
-    "in_parity": 14,
+    "feed_generated_utc": "2026-10-25T12:10Z",
+    "checked": 14,
+    "in_parity": 13,
     "drifting": [
       {
         "trade_id": "NEARUSDT_20261018_CJ_001",
@@ -2357,9 +2330,9 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-25T10:09Z",
-    "checked": 15,
-    "in_parity": 14,
+    "feed_generated_utc": "2026-10-25T12:10Z",
+    "checked": 14,
+    "in_parity": 13,
     "drifting": [
       {
         "trade_id": "NEARUSDT_20261018_CJ_001",
@@ -2382,9 +2355,9 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-25T10:09Z",
-    "checked": 15,
-    "in_parity": 14,
+    "feed_generated_utc": "2026-10-25T12:10Z",
+    "checked": 14,
+    "in_parity": 13,
     "drifting": [
       {
         "trade_id": "NEARUSDT_20261018_CJ_001",
@@ -2405,7 +2378,7 @@
     ]
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-25T11:59:47Z",
+    "updated_iso": "2026-10-25T12:10:51Z",
     "trades": [
       {
         "trade_id": "DOGEUSDT_20261024_CJ_001",
@@ -3252,7 +3225,7 @@
         "direction": "Short",
         "trading_system": "John",
         "kraken": {
-          "status": "RESTING",
+          "status": "CANCELLED",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 5.13

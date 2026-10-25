@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.006642336925499847,
+      "unrealized_pnl": 0.001956741252600125,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.2702470099400003,
+      "unrealized_pnl": -0.29542344612000093,
       "fee_asset": [
         "usd"
       ],
@@ -2478,7 +2478,7 @@
       "fill_ids": [
         "025d5a28-26bf-4f96-9cdb-bc35db4b4734"
       ],
-      "unrealized_pnl": -0.08785842211900156,
+      "unrealized_pnl": -0.1234955600450018,
       "fee_asset": [
         "usd"
       ],
@@ -3825,6 +3825,15 @@
       "entry_price": 1.3441,
       "resting_at": "2026-10-25T04:10:41Z",
       "braam_trade_id": "XRPUSDT_20261022_CJ_001",
+      "status": "RESTING"
+    },
+    "a310e8f7-0684-4c01-9e8d-976a8fa890ee": {
+      "order_id": "a310e8f7-0684-4c01-9e8d-976a8fa890ee",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 2464.0,
+      "resting_at": "2026-10-25T12:10:33Z",
+      "braam_trade_id": "ETHUSDT_20261024_CJ_001",
       "status": "RESTING"
     }
   },
@@ -12849,8 +12858,16 @@
       "unrealized": -0.3642210367378927,
       "realized": -11.6445,
       "total": -12.0087
+    },
+    {
+      "ts": "2026-10-25T12:10:50Z",
+      "equity": 100.51056146560816,
+      "available": 83.59092246560816,
+      "unrealized": -0.41683853439184626,
+      "realized": -11.6445,
+      "total": -12.0613
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-25T11:59:46Z"
+  "updated": "2026-10-25T12:10:50Z"
 }
