@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-26T04:12:27Z",
+  "last_updated_iso": "2026-10-26T05:26:09Z",
   "mexc_account": {
     "unrealized_pnl": 0.0,
     "equity": 0.0555,
@@ -4117,7 +4117,7 @@
   },
   "drift_vs_master": {
     "available": true,
-    "feed_generated_utc": "2026-10-26T04:09Z",
+    "feed_generated_utc": "2026-10-26T05:25Z",
     "checked": 0,
     "in_parity": 0,
     "drifting": []
