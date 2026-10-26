@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-25T23:32:52+00:00",
+  "generated_at_utc": "2026-10-26T00:11:28+00:00",
   "venue": "Kraken",
   "all_time": {
     "total_trades": 61,
@@ -29,11 +29,11 @@
       "pnl": -10.95,
       "avg": -0.19,
       "inception": "2026-10-07",
-      "days_active": 19,
-      "pnl_per_day": -0.58,
+      "days_active": 20,
+      "pnl_per_day": -0.55,
       "status": "active",
       "open": 3,
-      "pending": 12
+      "pending": 13
     },
     "Braam": {
       "n": 3,
@@ -42,8 +42,8 @@
       "pnl": -0.7,
       "avg": -0.23,
       "inception": "2026-10-21",
-      "days_active": 5,
-      "pnl_per_day": -0.14,
+      "days_active": 6,
+      "pnl_per_day": -0.12,
       "status": "active",
       "open": 0,
       "pending": 0
@@ -67,24 +67,24 @@
     {
       "name": "John",
       "inception": "2026-10-07",
-      "days_active": 19,
+      "days_active": 20,
       "closed": 58,
       "wins": 11,
       "wr": 19.0,
       "pnl": -10.95,
-      "pnl_per_day": -0.58,
+      "pnl_per_day": -0.55,
       "open": 3,
-      "pending": 12
+      "pending": 13
     },
     {
       "name": "Braam",
       "inception": "2026-10-21",
-      "days_active": 5,
+      "days_active": 6,
       "closed": 3,
       "wins": 1,
       "wr": 33.3,
       "pnl": -0.7,
-      "pnl_per_day": -0.14,
+      "pnl_per_day": -0.12,
       "open": 0,
       "pending": 0
     },
@@ -1056,9 +1056,9 @@
     "open_count": 3,
     "open_long": 2,
     "open_short": 1,
-    "pending_count": 12,
+    "pending_count": 13,
     "capital_open_usd": 12.74,
-    "capital_pending_usd": 61.02
+    "capital_pending_usd": 66.07
   },
   "macro": {
     "vix": null,

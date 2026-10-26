@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 0.0027272894427001404,
+      "unrealized_pnl": -0.01201418889030009,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.11656643028000069,
+      "unrealized_pnl": -0.017031652900000083,
       "fee_asset": [
         "usd"
       ],
@@ -2478,7 +2478,7 @@
       "fill_ids": [
         "025d5a28-26bf-4f96-9cdb-bc35db4b4734"
       ],
-      "unrealized_pnl": -0.10909623931700133,
+      "unrealized_pnl": -0.0016866550609998755,
       "fee_asset": [
         "usd"
       ],
@@ -3843,6 +3843,42 @@
       "entry_price": 0.10134,
       "resting_at": "2026-10-25T20:10:04Z",
       "braam_trade_id": "ALGOUSDT_20261025_CJ_001",
+      "status": "RESTING"
+    },
+    "a311ea9d-6ab1-475f-9c2c-ab2a368350f9": {
+      "order_id": "a311ea9d-6ab1-475f-9c2c-ab2a368350f9",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.6647,
+      "resting_at": "2026-10-26T00:10:59Z",
+      "braam_trade_id": "RENDERUSDT_20261026_CJ_001",
+      "status": "RESTING"
+    },
+    "a311ea99-8f9d-4252-b994-b8d93062fe6c": {
+      "order_id": "a311ea99-8f9d-4252-b994-b8d93062fe6c",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.08088,
+      "resting_at": "2026-10-26T00:10:57Z",
+      "braam_trade_id": "DOGEUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a311ea94-f665-43f5-997a-d5cba69c6644": {
+      "order_id": "a311ea94-f665-43f5-997a-d5cba69c6644",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.4375,
+      "resting_at": "2026-10-26T00:10:54Z",
+      "braam_trade_id": "ONDOUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a311ea90-1a8b-4cb6-9fa8-937dc12282ce": {
+      "order_id": "a311ea90-1a8b-4cb6-9fa8-937dc12282ce",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 2370.6,
+      "resting_at": "2026-10-26T00:10:50Z",
+      "braam_trade_id": "ETHUSDT_20261024_CJ_001",
       "status": "RESTING"
     }
   },
@@ -13035,8 +13071,16 @@
       "unrealized": -0.2231299600582689,
       "realized": -11.6445,
       "total": -11.8676
+    },
+    {
+      "ts": "2026-10-26T00:11:27Z",
+      "equity": 101.00007991940761,
+      "available": 81.1410849194076,
+      "unrealized": -0.0309690462123921,
+      "realized": -11.6445,
+      "total": -11.6755
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-25T23:32:51Z"
+  "updated": "2026-10-26T00:11:27Z"
 }
