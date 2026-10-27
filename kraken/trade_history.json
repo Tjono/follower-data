@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 0.041108553235799976,
+      "unrealized_pnl": 0.040525651216199915,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.3353301672800004,
+      "unrealized_pnl": -0.3521415035000004,
       "fee_asset": [
         "usd"
       ],
@@ -2478,7 +2478,7 @@
       "fill_ids": [
         "025d5a28-26bf-4f96-9cdb-bc35db4b4734"
       ],
-      "unrealized_pnl": -0.20333390645100133,
+      "unrealized_pnl": -0.20697821027000138,
       "fee_asset": [
         "usd"
       ],
@@ -2509,11 +2509,40 @@
         "b5a81d64-8fb8-4524-bc92-3e9e39cdc75d",
         "d607a073-ec89-4047-abba-f36c42a1d01f"
       ],
-      "unrealized_pnl": 0.06611616486820013,
+      "unrealized_pnl": 0.07799329344340002,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "ALGOUSDT_20261025_CJ_001": {
+      "position_id": "ALGOUSDT_20261025_CJ_001",
+      "braam_trade_id": "ALGOUSDT_20261025_CJ_001",
+      "coin": "ALGOUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.1027,
+      "entry_size": 147.0,
+      "exit_size": 0,
+      "opened_at": "2026-10-27T09:25:22Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 5.0323,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.003,
+      "funding_usd": null,
+      "fill_ids": [
+        "1afe9cc6-ab14-4deb-9422-f4bff6d1f6ea"
+      ],
+      "unrealized_pnl": 0.0074630121300003766,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -6367,6 +6396,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "11800983"
+    },
+    "1afe9cc6-ab14-4deb-9422-f4bff6d1f6ea": {
+      "fill_id": "1afe9cc6-ab14-4deb-9422-f4bff6d1f6ea",
+      "symbol": "PF_ALGOUSD",
+      "side": "buy",
+      "order_id": "a313edd9-4212-47ba-bcb1-59e15aa44d5e",
+      "cliOrdId": "ALGOUSDT_20261025_CJ_001#1793059900489",
+      "size": 147,
+      "price": 0.1027,
+      "fillTime": "2026-10-27T09:25:22Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "1298383"
     }
   },
   "snapshots": [
@@ -13625,8 +13668,16 @@
       "unrealized": -0.4316089140930431,
       "realized": -11.6445,
       "total": -12.0761
+    },
+    {
+      "ts": "2026-10-27T09:26:11Z",
+      "equity": 99.91967602538244,
+      "available": 81.54237602538244,
+      "unrealized": -0.4333983234013535,
+      "realized": -11.6445,
+      "total": -12.0779
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-27T09:18:01Z"
+  "updated": "2026-10-27T09:26:11Z"
 }
