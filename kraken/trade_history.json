@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.028414847144399857,
+      "unrealized_pnl": -0.05886615512429984,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.16539611752000027,
+      "unrealized_pnl": 0.2827917888199991,
       "fee_asset": [
         "usd"
       ],
@@ -2511,7 +2511,7 @@
         "d607a073-ec89-4047-abba-f36c42a1d01f",
         "3e54094d-d81c-4fbb-ad69-844a1f98fc3a"
       ],
-      "unrealized_pnl": 0.07536642927099972,
+      "unrealized_pnl": 0.11620330863049952,
       "fee_asset": [
         "usd"
       ],
@@ -2525,7 +2525,7 @@
       "leverage": 3,
       "entry_price": 0.1027,
       "entry_size": 147.0,
-      "exit_size": 0,
+      "exit_size": 118.0,
       "opened_at": "2026-10-27T09:25:22Z",
       "closed_at": null,
       "close_price": null,
@@ -2533,19 +2533,19 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 0.35518,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.003,
+      "fees_usd": 0.0092,
       "funding_usd": null,
       "fill_ids": [
-        "1afe9cc6-ab14-4deb-9422-f4bff6d1f6ea"
+        "1afe9cc6-ab14-4deb-9422-f4bff6d1f6ea",
+        "45b5e0d5-de95-4455-a694-0a48b186e5d7"
       ],
-      "unrealized_pnl": 0.06942211121999947,
+      "unrealized_pnl": 0.07090585810999984,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     },
     "RENDERUSDT_20261026_CJ_001": {
       "position_id": "RENDERUSDT_20261026_CJ_001",
@@ -2555,7 +2555,7 @@
       "leverage": 3,
       "entry_price": 1.6647,
       "entry_size": 9.1,
-      "exit_size": 0,
+      "exit_size": 7.3,
       "opened_at": "2026-10-27T09:40:18Z",
       "closed_at": null,
       "close_price": null,
@@ -2563,19 +2563,19 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 0.50516,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.003,
+      "fees_usd": 0.0093,
       "funding_usd": null,
       "fill_ids": [
-        "0394789c-4739-4cdf-b59a-95fda91036f7"
+        "0394789c-4739-4cdf-b59a-95fda91036f7",
+        "d56c9342-77f4-422c-b2b4-170c5b1af602"
       ],
-      "unrealized_pnl": 0.26608954553999953,
+      "unrealized_pnl": 0.10215341301599996,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     },
     "CAKEUSDT_20261026_CJ_001": {
       "position_id": "CAKEUSDT_20261026_CJ_001",
@@ -2602,7 +2602,7 @@
         "c85e1d5b-ccc8-4482-a4c1-e6a4ce41d54c",
         "7b201f72-7dff-4c9a-b4e7-375124c95efe"
       ],
-      "unrealized_pnl": 0.06233290823999971,
+      "unrealized_pnl": 0.08110177919999995,
       "fee_asset": [
         "usd"
       ],
@@ -2663,7 +2663,7 @@
       "fill_ids": [
         "5aed250c-ba0b-480f-90f7-9d9285257e85"
       ],
-      "unrealized_pnl": 0.10896959741682076,
+      "unrealized_pnl": -0.010676293932599947,
       "fee_asset": [
         "usd"
       ],
@@ -6782,6 +6782,34 @@
       "realized_pnl": 0.4134,
       "realized_funding": 0.00021565256,
       "sequence_id": "111357"
+    },
+    "45b5e0d5-de95-4455-a694-0a48b186e5d7": {
+      "fill_id": "45b5e0d5-de95-4455-a694-0a48b186e5d7",
+      "symbol": "PF_ALGOUSD",
+      "side": "sell",
+      "order_id": "a314e7d1-fa03-4ee3-9cc0-881c000ee0db",
+      "cliOrdId": "ALGOUSDT_20261025_CJ_001:TP1#1793101838748",
+      "size": 118,
+      "price": 0.10571,
+      "fillTime": "2026-10-28T20:01:55.001Z",
+      "fillType": "taker",
+      "realized_pnl": 0.35518,
+      "realized_funding": -2.992245e-05,
+      "sequence_id": "1299857"
+    },
+    "d56c9342-77f4-422c-b2b4-170c5b1af602": {
+      "fill_id": "d56c9342-77f4-422c-b2b4-170c5b1af602",
+      "symbol": "PF_RENDERUSD",
+      "side": "sell",
+      "order_id": "a314e7d8-9c7b-4f45-a396-0bc504466785",
+      "cliOrdId": "RENDERUSDT_20261026_CJ_001:TP1#1793101843115",
+      "size": 7.3,
+      "price": 1.7339,
+      "fillTime": "2026-10-28T20:01:50.001Z",
+      "fillType": "taker",
+      "realized_pnl": 0.50516,
+      "realized_funding": -7.55838e-06,
+      "sequence_id": "1522122"
     }
   },
   "snapshots": [
@@ -14600,8 +14628,16 @@
       "unrealized": 0.7191271716502184,
       "realized": -12.2178,
       "total": -11.4987
+    },
+    {
+      "ts": "2026-10-28T20:11:35Z",
+      "equity": 102.11135415688071,
+      "available": 85.30202515688072,
+      "unrealized": 0.5835650164543034,
+      "realized": -12.2178,
+      "total": -11.6342
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-28T19:18:06Z"
+  "updated": "2026-10-28T20:11:35Z"
 }
