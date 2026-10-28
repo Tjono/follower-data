@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.05886615512429984,
+      "unrealized_pnl": -0.04345732166580006,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.2827917888199991,
+      "unrealized_pnl": 0.18101296474000073,
       "fee_asset": [
         "usd"
       ],
@@ -2511,7 +2511,7 @@
         "d607a073-ec89-4047-abba-f36c42a1d01f",
         "3e54094d-d81c-4fbb-ad69-844a1f98fc3a"
       ],
-      "unrealized_pnl": 0.11620330863049952,
+      "unrealized_pnl": 0.09452858251199973,
       "fee_asset": [
         "usd"
       ],
@@ -2542,10 +2542,11 @@
         "1afe9cc6-ab14-4deb-9422-f4bff6d1f6ea",
         "45b5e0d5-de95-4455-a694-0a48b186e5d7"
       ],
-      "unrealized_pnl": 0.07090585810999984,
+      "unrealized_pnl": 0.045590624789999964,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "RENDERUSDT_20261026_CJ_001": {
       "position_id": "RENDERUSDT_20261026_CJ_001",
@@ -2572,10 +2573,11 @@
         "0394789c-4739-4cdf-b59a-95fda91036f7",
         "d56c9342-77f4-422c-b2b4-170c5b1af602"
       ],
-      "unrealized_pnl": 0.10215341301599996,
+      "unrealized_pnl": 0.07147282751999993,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "CAKEUSDT_20261026_CJ_001": {
       "position_id": "CAKEUSDT_20261026_CJ_001",
@@ -2602,7 +2604,7 @@
         "c85e1d5b-ccc8-4482-a4c1-e6a4ce41d54c",
         "7b201f72-7dff-4c9a-b4e7-375124c95efe"
       ],
-      "unrealized_pnl": 0.08110177919999995,
+      "unrealized_pnl": 0.07556663092000004,
       "fee_asset": [
         "usd"
       ],
@@ -2663,7 +2665,7 @@
       "fill_ids": [
         "5aed250c-ba0b-480f-90f7-9d9285257e85"
       ],
-      "unrealized_pnl": -0.010676293932599947,
+      "unrealized_pnl": 0.06446604556499824,
       "fee_asset": [
         "usd"
       ],
@@ -14636,8 +14638,16 @@
       "unrealized": 0.5835650164543034,
       "realized": -12.2178,
       "total": -11.6342
+    },
+    {
+      "ts": "2026-10-28T20:18:01Z",
+      "equity": 102.01092876909769,
+      "available": 85.2015997690977,
+      "unrealized": 0.4891005339488855,
+      "realized": -12.2178,
+      "total": -11.7287
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-28T20:11:35Z"
+  "updated": "2026-10-28T20:18:01Z"
 }
