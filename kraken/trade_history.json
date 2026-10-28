@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.04932182605919991,
+      "unrealized_pnl": -0.048198191873100024,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.2657855693400002,
+      "unrealized_pnl": 0.2458895994999999,
       "fee_asset": [
         "usd"
       ],
@@ -2511,7 +2511,7 @@
         "d607a073-ec89-4047-abba-f36c42a1d01f",
         "3e54094d-d81c-4fbb-ad69-844a1f98fc3a"
       ],
-      "unrealized_pnl": 0.10959887269449994,
+      "unrealized_pnl": 0.10555782065849985,
       "fee_asset": [
         "usd"
       ],
@@ -2541,7 +2541,7 @@
       "fill_ids": [
         "1afe9cc6-ab14-4deb-9422-f4bff6d1f6ea"
       ],
-      "unrealized_pnl": 0.17087593403999934,
+      "unrealized_pnl": 0.16210551126000025,
       "fee_asset": [
         "usd"
       ],
@@ -2571,7 +2571,7 @@
       "fill_ids": [
         "0394789c-4739-4cdf-b59a-95fda91036f7"
       ],
-      "unrealized_pnl": 0.26244048321399976,
+      "unrealized_pnl": 0.24546138498699943,
       "fee_asset": [
         "usd"
       ],
@@ -2601,7 +2601,7 @@
       "fill_ids": [
         "c85e1d5b-ccc8-4482-a4c1-e6a4ce41d54c"
       ],
-      "unrealized_pnl": 0.3558401243599989,
+      "unrealized_pnl": 0.3533647581799979,
       "fee_asset": [
         "usd"
       ],
@@ -2662,7 +2662,7 @@
       "fill_ids": [
         "5aed250c-ba0b-480f-90f7-9d9285257e85"
       ],
-      "unrealized_pnl": 0.009443185039680429,
+      "unrealized_pnl": 0.018540622599599373,
       "fee_asset": [
         "usd"
       ],
@@ -14405,8 +14405,16 @@
       "unrealized": 1.1293930520139244,
       "realized": -12.2178,
       "total": -11.0884
+    },
+    {
+      "ts": "2026-10-28T09:25:05Z",
+      "equity": 101.04732335573746,
+      "available": 81.49914535573745,
+      "unrealized": 1.0836512871559523,
+      "realized": -12.2178,
+      "total": -11.1341
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-28T09:19:05Z"
+  "updated": "2026-10-28T09:25:05Z"
 }
