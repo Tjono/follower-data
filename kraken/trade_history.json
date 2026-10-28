@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": -0.003577326566700094,
+      "unrealized_pnl": -0.003481336443299909,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": 0.13331996305999994,
+      "unrealized_pnl": 0.08739512700000063,
       "fee_asset": [
         "usd"
       ],
@@ -2510,7 +2510,7 @@
         "b5a81d64-8fb8-4524-bc92-3e9e39cdc75d",
         "d607a073-ec89-4047-abba-f36c42a1d01f"
       ],
-      "unrealized_pnl": 0.35591578909999777,
+      "unrealized_pnl": 0.3892757486452986,
       "fee_asset": [
         "usd"
       ],
@@ -2540,7 +2540,7 @@
       "fill_ids": [
         "1afe9cc6-ab14-4deb-9422-f4bff6d1f6ea"
       ],
-      "unrealized_pnl": 0.06598411784999904,
+      "unrealized_pnl": 0.08467904718000067,
       "fee_asset": [
         "usd"
       ],
@@ -2570,7 +2570,7 @@
       "fill_ids": [
         "0394789c-4739-4cdf-b59a-95fda91036f7"
       ],
-      "unrealized_pnl": 0.2846062995229986,
+      "unrealized_pnl": 0.260895403495999,
       "fee_asset": [
         "usd"
       ],
@@ -2600,7 +2600,7 @@
       "fill_ids": [
         "c85e1d5b-ccc8-4482-a4c1-e6a4ce41d54c"
       ],
-      "unrealized_pnl": 0.1991053385299999,
+      "unrealized_pnl": 0.16982493905999796,
       "fee_asset": [
         "usd"
       ],
@@ -2630,7 +2630,7 @@
       "fill_ids": [
         "e4ebc81f-06ae-4aed-9892-1a62e050362f"
       ],
-      "unrealized_pnl": -0.04673434270999999,
+      "unrealized_pnl": -0.04279037125000085,
       "fee_asset": [
         "usd"
       ],
@@ -4121,6 +4121,42 @@
       "entry_price": 84328.0,
       "resting_at": "2026-10-27T16:11:16Z",
       "braam_trade_id": "BTCUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a315f080-211e-49cc-b78c-fc36c1e8ccba": {
+      "order_id": "a315f080-211e-49cc-b78c-fc36c1e8ccba",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 247.92,
+      "resting_at": "2026-10-28T00:10:45Z",
+      "braam_trade_id": "TAOUSDT_20261028_CJ_001",
+      "status": "RESTING"
+    },
+    "a315f07b-2624-47d8-bdcd-6686a6de408f": {
+      "order_id": "a315f07b-2624-47d8-bdcd-6686a6de408f",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32503,
+      "resting_at": "2026-10-28T00:10:42Z",
+      "braam_trade_id": "TRXUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a315f075-9054-4687-a402-87161e9c7cdb": {
+      "order_id": "a315f075-9054-4687-a402-87161e9c7cdb",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "entry_price": 0.7608,
+      "resting_at": "2026-10-28T00:10:38Z",
+      "braam_trade_id": "APTUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a315f069-a710-4469-9df6-e300a0064f94": {
+      "order_id": "a315f069-a710-4469-9df6-e300a0064f94",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 9.728,
+      "resting_at": "2026-10-28T00:10:30Z",
+      "braam_trade_id": "AVAXUSDT_20261022_CJ_001",
       "status": "RESTING"
     }
   },
@@ -14091,8 +14127,16 @@
       "unrealized": 0.9885705567356607,
       "realized": -12.0005,
       "total": -11.0119
+    },
+    {
+      "ts": "2026-10-28T00:11:21Z",
+      "equity": 100.82503372596864,
+      "available": 80.91503872596863,
+      "unrealized": 0.9431093444146303,
+      "realized": -12.0005,
+      "total": -11.0574
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-27T23:18:04Z"
+  "updated": "2026-10-28T00:11:21Z"
 }
