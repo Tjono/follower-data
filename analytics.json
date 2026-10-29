@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-28T22:28:59+00:00",
+  "generated_at_utc": "2026-10-29T00:12:49+00:00",
   "all_time": {
     "total_trades": 269,
     "wins": 110,
@@ -28,7 +28,7 @@
       "pnl": 17.36,
       "avg": 0.12,
       "inception": "2026-06-30",
-      "days_active": 120,
+      "days_active": 121,
       "pnl_per_day": 0.14,
       "status": "active",
       "open": 0,
@@ -41,7 +41,7 @@
       "pnl": -4.12,
       "avg": -0.03,
       "inception": "2026-06-24",
-      "days_active": 126,
+      "days_active": 127,
       "pnl_per_day": -0.03,
       "status": "active",
       "open": 0,
@@ -75,7 +75,7 @@
     {
       "name": "John",
       "inception": "2026-06-30",
-      "days_active": 120,
+      "days_active": 121,
       "closed": 150,
       "wins": 59,
       "wr": 39.3,
@@ -87,7 +87,7 @@
     {
       "name": "Braam",
       "inception": "2026-06-24",
-      "days_active": 126,
+      "days_active": 127,
       "closed": 119,
       "wins": 51,
       "wr": 42.9,
@@ -3468,13 +3468,13 @@
       16.91
     ],
     "vix_ma14": 17.31,
-    "dxy": 102.15,
+    "dxy": 102.14,
     "dxy_5d": [
       101.61,
       101.81,
       101.96,
       102.32,
-      102.15
+      102.14
     ],
     "dxy_ma14": 101.99
   }
