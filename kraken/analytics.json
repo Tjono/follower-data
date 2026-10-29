@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-29T15:49:01+00:00",
+  "generated_at_utc": "2026-10-29T15:55:05+00:00",
   "venue": "Kraken",
   "all_time": {
     "total_trades": 67,
@@ -868,11 +868,11 @@
       },
       {
         "iso": "2026-10-29",
-        "pct": -0.031
+        "pct": -0.06
       }
     ],
     "ours_pct": -9.498,
-    "spx_pct": -0.031,
+    "spx_pct": -0.06,
     "spx_last_close_iso": "2026-10-29"
   },
   "by_direction": {
@@ -1134,7 +1134,7 @@
     "open_short": 3,
     "pending_count": 11,
     "capital_open_usd": 25.03,
-    "capital_pending_usd": 55.75
+    "capital_pending_usd": 178.94
   },
   "macro": {
     "vix": null,

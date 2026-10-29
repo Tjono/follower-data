@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-29T15:49:01Z",
+  "last_updated_iso": "2026-10-29T15:55:05Z",
   "freshness": {
-    "engine_run_iso": "2026-10-29T15:48:27Z",
+    "engine_run_iso": "2026-10-29T15:54:18Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-29T15:03:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-29T15:49:01Z",
+    "published_iso": "2026-10-29T15:55:05Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.233,
-    "equity": 512.1366,
-    "available": 495.0309,
+    "unrealized_pnl": 1.3062,
+    "equity": 512.2751,
+    "available": 458.1393,
     "position_margin": 5.2202
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "34s ago",
+      "value": "47s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "46 min old",
+      "value": "52 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$512.14",
+      "value": "$512.28",
       "status": "ok",
       "action": null
     },
@@ -225,7 +225,7 @@
       "sl": 9.88654378,
       "tp1": 8.43163349,
       "tp2": 7.07991244,
-      "capital_usd": 5.19,
+      "capital_usd": 25.62,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
@@ -293,7 +293,7 @@
       "sl": 0.77816659,
       "tp1": 0.67360889,
       "tp2": 0.53226681,
-      "capital_usd": 5.08,
+      "capital_usd": 25.62,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
@@ -327,7 +327,7 @@
       "sl": 2.2588249,
       "tp1": 1.98685,
       "tp2": 1.77035021,
-      "capital_usd": 5.08,
+      "capital_usd": 25.62,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
@@ -361,7 +361,7 @@
       "sl": 0.44691027,
       "tp1": 0.384761,
       "tp2": 0.32777946,
-      "capital_usd": 5.08,
+      "capital_usd": 25.62,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
@@ -429,7 +429,7 @@
       "sl": 0.32384614,
       "tp1": 0.34502508,
       "tp2": 0.35376851,
-      "capital_usd": 5.02,
+      "capital_usd": 25.62,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
@@ -667,7 +667,7 @@
       "sl": 0.16235268,
       "tp1": 0.183396,
       "tp2": 0.19219463,
-      "capital_usd": 5.08,
+      "capital_usd": 25.62,
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
@@ -2525,7 +2525,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-29T15:49:01Z",
+    "updated_iso": "2026-10-29T15:55:05Z",
     "trades": [
       {
         "trade_id": "BTCUSDT_20261024_CJ_001",
@@ -2627,7 +2627,7 @@
           "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
-          "margin_usd": 5.08
+          "margin_usd": 25.62
         },
         "mexc": null
       },
@@ -2731,7 +2731,7 @@
           "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
-          "margin_usd": 5.02
+          "margin_usd": 25.62
         },
         "mexc": null
       },
@@ -2814,7 +2814,7 @@
           "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
-          "margin_usd": 5.08
+          "margin_usd": 25.62
         },
         "mexc": null
       },
@@ -2827,7 +2827,7 @@
           "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
-          "margin_usd": 5.08
+          "margin_usd": 25.62
         },
         "mexc": null
       },
@@ -2840,7 +2840,7 @@
           "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
-          "margin_usd": 5.08
+          "margin_usd": 25.62
         },
         "mexc": null
       },
@@ -2956,7 +2956,7 @@
           "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
-          "margin_usd": 5.19
+          "margin_usd": 25.62
         },
         "mexc": null
       },
