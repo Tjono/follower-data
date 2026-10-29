@@ -15,6 +15,15 @@
       "type": "deposit",
       "currency": "EUR",
       "info": "cross-exchange transfer"
+    },
+    {
+      "id": "kraken_log_2219",
+      "txid": "95124957-168b-4a41-969b-d2f5974b97f0",
+      "ts": "2026-10-29T15:43:39Z",
+      "amount": 366.4,
+      "type": "deposit",
+      "currency": "EUR",
+      "info": "cross-exchange transfer"
     }
   ],
   "capital_events_note": "Deposits/withdrawals from the Kraken account log (kraken_state/trade_history.json). amount is in `currency` (the flex wallet holds EUR collateral), not USD. Transfers before the go-live date funded the starting balance.",
