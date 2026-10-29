@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-29T20:09:11Z",
+  "last_updated_iso": "2026-10-29T20:18:09Z",
   "freshness": {
-    "engine_run_iso": "2026-10-29T20:08:33Z",
+    "engine_run_iso": "2026-10-29T20:17:36Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-29T20:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-29T20:09:11Z",
+    "published_iso": "2026-10-29T20:18:09Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.1044,
-    "equity": 512.266,
-    "available": 452.0127,
+    "unrealized_pnl": 0.3897,
+    "equity": 512.7178,
+    "available": 452.4606,
     "position_margin": 11.7785
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "38s ago",
+      "value": "33s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "71s old",
+      "value": "10 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$512.27",
+      "value": "$512.72",
       "status": "ok",
       "action": null
     },
@@ -2626,7 +2626,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-29T20:09:11Z",
+    "updated_iso": "2026-10-29T20:18:09Z",
     "trades": [
       {
         "trade_id": "AVAXUSDT_20261029_CJ_001",
