@@ -2781,28 +2781,29 @@
       "leverage": 3,
       "entry_price": 0.08088,
       "entry_size": 186.0,
-      "exit_size": 149.0,
+      "exit_size": 186.0,
       "opened_at": "2026-10-29T16:07:00Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-29T20:47:02Z",
+      "close_price": 0.077392957,
       "margin_usd": 5.01456,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": 0.43806,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0088,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "tp1_tp2",
+      "close_fills": 2,
+      "pnl_gross_usd": 0.64859,
+      "pnl_usd": 0.63939,
+      "tag": "WIN",
+      "fees_usd": 0.0102,
+      "funding_usd": 0.001,
       "fill_ids": [
         "1f0f2e1e-d80c-430e-b50d-8999fab4ef79",
-        "8e2dc044-2174-41dd-bcf0-5981fb9d9d03"
+        "8e2dc044-2174-41dd-bcf0-5981fb9d9d03",
+        "d0db651d-00a7-46fc-88e1-3e435ab98eb2"
       ],
       "unrealized_pnl": -0.07181390015999953,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "AVAXUSDT_20261029_CJ_001": {
       "position_id": "AVAXUSDT_20261029_CJ_001",
@@ -2875,27 +2876,28 @@
       "leverage": 3,
       "entry_price": 1.2453,
       "entry_size": 12.0,
-      "exit_size": 0,
+      "exit_size": 12.0,
       "opened_at": "2026-10-29T20:42:19Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-29T20:47:17Z",
+      "close_price": 1.2206,
       "margin_usd": 4.9812,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.003,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.2964,
+      "pnl_usd": -0.3067,
+      "tag": "LOSS",
+      "fees_usd": 0.0103,
       "funding_usd": null,
       "fill_ids": [
-        "761d3d96-05ec-4cdf-b7bc-e13e72b62af5"
+        "761d3d96-05ec-4cdf-b7bc-e13e72b62af5",
+        "3c588ee1-1632-4146-adf7-3862546ecc0d"
       ],
       "unrealized_pnl": -0.10882427112000048,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "DOGEUSDT_20261027_CJ_001": {
       "position_id": "DOGEUSDT_20261027_CJ_001",
@@ -2905,26 +2907,27 @@
       "leverage": 3,
       "entry_price": 0.07581,
       "entry_size": 199.0,
-      "exit_size": 0,
+      "exit_size": 199.0,
       "opened_at": "2026-10-29T20:43:13Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-29T20:47:19Z",
+      "close_price": 0.07463,
       "margin_usd": 5.02873,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.003,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.23482,
+      "pnl_usd": -0.24522,
+      "tag": "LOSS",
+      "fees_usd": 0.0104,
       "funding_usd": null,
       "fill_ids": [
-        "1397f941-f473-45fe-bfdb-c1622918adec"
+        "1397f941-f473-45fe-bfdb-c1622918adec",
+        "40c660f4-070d-46dc-b8d1-8ac0020a36e0"
       ],
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     }
   },
   "orders": {
@@ -7556,6 +7559,48 @@
       "realized_pnl": -1.26286,
       "realized_funding": -0.00015017053,
       "sequence_id": "4035609"
+    },
+    "40c660f4-070d-46dc-b8d1-8ac0020a36e0": {
+      "fill_id": "40c660f4-070d-46dc-b8d1-8ac0020a36e0",
+      "symbol": "PF_DOGEUSD",
+      "side": "sell",
+      "order_id": "a319ad1c-c31b-4ec2-b9e4-277381cb8270",
+      "cliOrdId": "DOGEUSDT_20261027_CJ_001:SL",
+      "size": 199,
+      "price": 0.07463,
+      "fillTime": "2026-10-29T20:47:19Z",
+      "fillType": "taker",
+      "realized_pnl": -0.21188,
+      "realized_funding": -1.13119e-06,
+      "sequence_id": "27067940"
+    },
+    "3c588ee1-1632-4146-adf7-3862546ecc0d": {
+      "fill_id": "3c588ee1-1632-4146-adf7-3862546ecc0d",
+      "symbol": "PF_XRPUSD",
+      "side": "sell",
+      "order_id": "a319ac15-6c3f-4c2b-a625-b0405dc0f644",
+      "cliOrdId": "XRPUSDT_20261028_CJ_001:SL",
+      "size": 12,
+      "price": 1.2206,
+      "fillTime": "2026-10-29T20:47:17Z",
+      "fillType": "taker",
+      "realized_pnl": -0.2964,
+      "realized_funding": 2.39655e-06,
+      "sequence_id": "40052515"
+    },
+    "d0db651d-00a7-46fc-88e1-3e435ab98eb2": {
+      "fill_id": "d0db651d-00a7-46fc-88e1-3e435ab98eb2",
+      "symbol": "PF_DOGEUSD",
+      "side": "buy",
+      "order_id": "a31949d8-f820-430c-9623-cef9beab7569",
+      "cliOrdId": "DOGEUSDT_20261024_CJ_001:TP2",
+      "size": 37,
+      "price": 0.07519,
+      "fillTime": "2026-10-29T20:47:02Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": -1.238137e-05,
+      "sequence_id": "27067800"
     }
   },
   "snapshots": [
@@ -15854,8 +15899,16 @@
       "unrealized": -0.1806453021607871,
       "realized": -13.1452,
       "total": -13.3258
+    },
+    {
+      "ts": "2026-10-29T20:49:04Z",
+      "equity": 508.5173,
+      "available": 454.226112,
+      "unrealized": 0.0,
+      "realized": -13.0577,
+      "total": -13.0577
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-29T20:45:58Z"
+  "updated": "2026-10-29T20:49:04Z"
 }
