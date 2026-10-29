@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-29T00:11:22Z",
+  "last_updated_iso": "2026-10-29T00:17:59Z",
   "freshness": {
-    "engine_run_iso": "2026-10-29T00:10:36Z",
+    "engine_run_iso": "2026-10-29T00:17:24Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-29T00:10:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-29T00:11:22Z",
+    "published_iso": "2026-10-29T00:17:59Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.5221,
-    "equity": 101.9354,
-    "available": 85.1721,
+    "unrealized_pnl": 0.517,
+    "equity": 101.8844,
+    "available": 85.1212,
     "position_margin": 3.7555
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "46s ago",
+      "value": "35s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "82s old",
+      "value": "7 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$101.94",
+      "value": "$101.88",
       "status": "ok",
       "action": null
     },
@@ -2335,7 +2335,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-28T20:10:55Z",
-      "last_seen_iso": "2026-10-29T00:10:36Z"
+      "last_seen_iso": "2026-10-29T00:17:24Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -2589,7 +2589,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-29T00:11:22Z",
+    "updated_iso": "2026-10-29T00:17:59Z",
     "trades": [
       {
         "trade_id": "XRPUSDT_20261028_CJ_002",
