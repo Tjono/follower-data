@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 0.016053342000000158,
+      "unrealized_pnl": 0.024120224958899997,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.40133576804000093,
+      "unrealized_pnl": -0.4521483770400003,
       "fee_asset": [
         "usd"
       ],
@@ -2670,7 +2670,7 @@
         "5aed250c-ba0b-480f-90f7-9d9285257e85",
         "796878ed-88f6-447c-a060-33448a8f1d69"
       ],
-      "unrealized_pnl": 0.04904991641418974,
+      "unrealized_pnl": 0.05061919732376009,
       "fee_asset": [
         "usd"
       ],
@@ -2700,7 +2700,7 @@
       "fill_ids": [
         "f827e948-f8fc-4823-a1b2-935d26c0e97d"
       ],
-      "unrealized_pnl": 0.21589982496000104,
+      "unrealized_pnl": 0.13350844512000037,
       "fee_asset": [
         "usd"
       ],
@@ -2730,7 +2730,7 @@
       "fill_ids": [
         "24c51003-e8f8-42ea-873a-c61c16c05aea"
       ],
-      "unrealized_pnl": 0.21553909495920096,
+      "unrealized_pnl": 0.16228895026320117,
       "fee_asset": [
         "usd"
       ],
@@ -4365,6 +4365,15 @@
       "entry_price": 81406.0,
       "resting_at": "2026-10-29T08:10:15Z",
       "braam_trade_id": "BTCUSDT_20261024_CJ_001",
+      "status": "RESTING"
+    },
+    "a318f4c5-1335-4592-b002-b903c925d418": {
+      "order_id": "a318f4c5-1335-4592-b002-b903c925d418",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.325,
+      "resting_at": "2026-10-29T12:10:10Z",
+      "braam_trade_id": "TRXUSDT_20261024_CJ_001",
       "status": "RESTING"
     }
   },
@@ -15085,8 +15094,16 @@
       "unrealized": 0.09525260476969807,
       "realized": -10.6943,
       "total": -10.599
+    },
+    {
+      "ts": "2026-10-29T12:10:28Z",
+      "equity": 101.50659901545521,
+      "available": 84.37252001545521,
+      "unrealized": -0.08158174124268522,
+      "realized": -10.6943,
+      "total": -10.7759
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-29T11:17:55Z"
+  "updated": "2026-10-29T12:10:28Z"
 }
