@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 0.04348544502359985,
+      "unrealized_pnl": 0.049288276604399925,
       "fee_asset": [
         "usd"
       ],
@@ -1972,7 +1972,7 @@
       "fill_ids": [
         "65859346-f901-43fd-b301-aa2210b374b3"
       ],
-      "unrealized_pnl": -0.3133857508200002,
+      "unrealized_pnl": -0.35355634497999944,
       "fee_asset": [
         "usd"
       ],
@@ -2590,28 +2590,29 @@
       "leverage": 3,
       "entry_price": 2.0428,
       "entry_size": 7.0,
-      "exit_size": 6.0,
+      "exit_size": 7.0,
       "opened_at": "2026-10-27T12:25:33Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-29T02:40:58Z",
+      "close_price": 2.1012428571,
       "margin_usd": 4.766533,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": 0.4134,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0092,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "pnl_gross_usd": 0.4091,
+      "pnl_usd": 0.3779,
+      "tag": "WIN",
+      "fees_usd": 0.0102,
+      "funding_usd": -0.021,
       "fill_ids": [
         "c85e1d5b-ccc8-4482-a4c1-e6a4ce41d54c",
-        "7b201f72-7dff-4c9a-b4e7-375124c95efe"
+        "7b201f72-7dff-4c9a-b4e7-375124c95efe",
+        "2b146488-1c4e-4f56-b0a1-e1fc05ebf422"
       ],
       "unrealized_pnl": 0.01882122020999999,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "XRPUSDT_20261022_CJ_001": {
       "position_id": "XRPUSDT_20261022_CJ_001",
@@ -2669,7 +2670,7 @@
         "5aed250c-ba0b-480f-90f7-9d9285257e85",
         "796878ed-88f6-447c-a060-33448a8f1d69"
       ],
-      "unrealized_pnl": 0.07016562081283974,
+      "unrealized_pnl": 0.0731583120302098,
       "fee_asset": [
         "usd"
       ],
@@ -2699,7 +2700,7 @@
       "fill_ids": [
         "f827e948-f8fc-4823-a1b2-935d26c0e97d"
       ],
-      "unrealized_pnl": -0.05955261695999958,
+      "unrealized_pnl": -0.12868586127999926,
       "fee_asset": [
         "usd"
       ],
@@ -2729,7 +2730,7 @@
       "fill_ids": [
         "24c51003-e8f8-42ea-873a-c61c16c05aea"
       ],
-      "unrealized_pnl": -0.010272709157399617,
+      "unrealized_pnl": -0.11059117138799876,
       "fee_asset": [
         "usd"
       ],
@@ -6978,6 +6979,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "6816127"
+    },
+    "2b146488-1c4e-4f56-b0a1-e1fc05ebf422": {
+      "fill_id": "2b146488-1c4e-4f56-b0a1-e1fc05ebf422",
+      "symbol": "PF_CAKEUSD",
+      "side": "sell",
+      "order_id": "a314f4c8-5f86-449b-a453-22c870cac8ca",
+      "cliOrdId": "CAKEUSDT_20261026_CJ_001:SL",
+      "size": 1,
+      "price": 2.0385,
+      "fillTime": "2026-10-29T02:40:58.021Z",
+      "fillType": "taker",
+      "realized_pnl": -0.0043,
+      "realized_funding": -0.00017523911,
+      "sequence_id": "111375"
     }
   },
   "snapshots": [
@@ -14908,8 +14923,16 @@
       "unrealized": -0.25087891844974397,
       "realized": -11.0722,
       "total": -11.3231
+    },
+    {
+      "ts": "2026-10-29T02:42:01Z",
+      "equity": 101.25122693254019,
+      "available": 84.19099393254018,
+      "unrealized": -0.4706211004095962,
+      "realized": -10.6943,
+      "total": -11.1649
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-29T02:18:04Z"
+  "updated": "2026-10-29T02:42:01Z"
 }
