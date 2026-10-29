@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-29T12:10:30Z",
+  "last_updated_iso": "2026-10-29T12:18:03Z",
   "freshness": {
-    "engine_run_iso": "2026-10-29T12:09:59Z",
+    "engine_run_iso": "2026-10-29T12:17:35Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-29T12:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-29T12:10:30Z",
+    "published_iso": "2026-10-29T12:18:03Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.0904,
-    "equity": 101.5007,
-    "available": 84.3667,
+    "unrealized_pnl": -0.0264,
+    "equity": 101.5908,
+    "available": 84.4567,
     "position_margin": 4.4062
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "31s ago",
+      "value": "28s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "1 min old",
+      "value": "9 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$101.50",
+      "value": "$101.59",
       "status": "ok",
       "action": null
     },
@@ -2537,7 +2537,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-29T12:10:30Z",
+    "updated_iso": "2026-10-29T12:18:03Z",
     "trades": [
       {
         "trade_id": "CAKEUSDT_20261026_CJ_001",
