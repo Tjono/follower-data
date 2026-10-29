@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-28T23:18:04Z",
+  "last_updated_iso": "2026-10-29T00:11:22Z",
   "freshness": {
-    "engine_run_iso": "2026-10-28T23:17:27Z",
+    "engine_run_iso": "2026-10-29T00:10:36Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-28T22:09:00Z",
+    "feed_generated_iso": "2026-10-29T00:10:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-28T23:18:04Z",
+    "published_iso": "2026-10-29T00:11:22Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.5176,
-    "equity": 102.0182,
-    "available": 85.1284,
+    "unrealized_pnl": 0.5221,
+    "equity": 101.9354,
+    "available": 85.1721,
     "position_margin": 3.7555
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "37s ago",
+      "value": "46s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "69 min old",
+      "value": "82s old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$102.02",
+      "value": "$101.94",
       "status": "ok",
       "action": null
     },
@@ -663,10 +663,10 @@
       "trade_id": "SUIUSDT_20261027_CJ_001",
       "coin": "SUIUSDT",
       "direction": "Long",
-      "entry_price": 0.88323416,
-      "sl": 0.86575105,
-      "tp1": 0.966882,
-      "tp2": 1.04769791,
+      "entry_price": 0.90961267,
+      "sl": 0.8904558,
+      "tp1": 1.00676064,
+      "tp2": 1.04778839,
       "capital_usd": 5.04,
       "leverage": 3,
       "trading_system": "John",
@@ -797,21 +797,7 @@
     }
   ],
   "dry_run_plans": [],
-  "recent_signals": [
-    {
-      "trade_id": "XRPUSDT_20261028_CJ_002",
-      "coin": "XRPUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 1.38420267,
-      "tp1": 1.21058601,
-      "sl": 1.40270731,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-28T12:04:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "AVAXUSDT_20261026_CJ_001",
@@ -2344,12 +2330,12 @@
       "coin": "XLMUSDT",
       "direction": "Long",
       "trading_system": "John",
-      "entry_price": 0.16883979,
+      "entry_price": 0.16490151,
       "reason_code": "margin_cap",
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-10-28T20:10:55Z",
-      "last_seen_iso": "2026-10-28T23:17:27Z"
+      "last_seen_iso": "2026-10-29T00:10:36Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -2581,7 +2567,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-28T22:09Z",
+    "feed_generated_utc": "2026-10-29T00:10Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
@@ -2589,7 +2575,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-28T22:09Z",
+    "feed_generated_utc": "2026-10-29T00:10Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
@@ -2597,13 +2583,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-28T22:09Z",
+    "feed_generated_utc": "2026-10-29T00:10Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-28T23:18:04Z",
+    "updated_iso": "2026-10-29T00:11:22Z",
     "trades": [
       {
         "trade_id": "XRPUSDT_20261028_CJ_002",
