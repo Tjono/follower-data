@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-29T07:18:01Z",
+  "last_updated_iso": "2026-10-29T08:10:44Z",
   "freshness": {
-    "engine_run_iso": "2026-10-29T07:17:30Z",
+    "engine_run_iso": "2026-10-29T08:10:03Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-29T06:08:00Z",
+    "feed_generated_iso": "2026-10-29T08:09:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-29T07:18:01Z",
+    "published_iso": "2026-10-29T08:10:44Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.755,
-    "equity": 100.839,
-    "available": 83.692,
+    "unrealized_pnl": -0.5632,
+    "equity": 101.1045,
+    "available": 83.8991,
     "position_margin": 4.4062
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "31s ago",
+      "value": "41s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "70 min old",
+      "value": "1 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$100.84",
+      "value": "$101.10",
       "status": "ok",
       "action": null
     },
@@ -391,10 +391,10 @@
       "trade_id": "BTCUSDT_20261024_CJ_001",
       "coin": "BTCUSDT",
       "direction": "Short",
-      "entry_price": 84327.84383299,
-      "sl": 85073.05186865,
-      "tp1": 73356.18336099,
-      "tp2": 71428.20626271,
+      "entry_price": 81405.77107255,
+      "sl": 82210.25346227,
+      "tp1": 75619.68511392,
+      "tp2": 72903.66384069,
       "capital_usd": 5.06,
       "leverage": 3,
       "trading_system": "John",
@@ -695,21 +695,7 @@
     }
   ],
   "dry_run_plans": [],
-  "recent_signals": [
-    {
-      "trade_id": "XLMUSDT_20261028_CJ_001",
-      "coin": "XLMUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.16490151,
-      "tp1": 0.183396,
-      "sl": 0.16235268,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-28T20:04:00Z",
-      "rehearsal": false
-    }
-  ],
+  "recent_signals": [],
   "recent_opens": [
     {
       "trade_id": "ALGOUSDT_20261025_CJ_001",
@@ -2553,7 +2539,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-29T06:08Z",
+    "feed_generated_utc": "2026-10-29T08:09Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
@@ -2561,7 +2547,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-29T06:08Z",
+    "feed_generated_utc": "2026-10-29T08:09Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
@@ -2569,13 +2555,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-29T06:08Z",
+    "feed_generated_utc": "2026-10-29T08:09Z",
     "checked": 17,
     "in_parity": 17,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-29T07:18:01Z",
+    "updated_iso": "2026-10-29T08:10:44Z",
     "trades": [
       {
         "trade_id": "CAKEUSDT_20261026_CJ_001",
