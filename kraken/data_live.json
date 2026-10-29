@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-29T08:18:12Z",
+  "last_updated_iso": "2026-10-29T08:19:03Z",
   "freshness": {
-    "engine_run_iso": "2026-10-29T08:17:35Z",
+    "engine_run_iso": "2026-10-29T08:18:31Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-29T08:09:00Z",
+    "feed_generated_iso": "2026-10-29T08:17:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-29T08:18:12Z",
+    "published_iso": "2026-10-29T08:19:03Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.4781,
-    "equity": 101.1395,
-    "available": 84.0218,
+    "unrealized_pnl": -0.4583,
+    "equity": 101.16,
+    "available": 84.0423,
     "position_margin": 4.4062
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "37s ago",
+      "value": "32s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "2 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$101.14",
+      "value": "$101.16",
       "status": "ok",
       "action": null
     },
@@ -529,8 +529,8 @@
       "direction": "Long",
       "entry_price": 0.90961267,
       "sl": 0.8904558,
-      "tp1": 1.00676064,
-      "tp2": 1.04778839,
+      "tp1": 0.9542,
+      "tp2": 0.9974,
       "capital_usd": 4.85,
       "leverage": 3,
       "trading_system": "John",
@@ -2539,23 +2539,23 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-29T08:17Z",
+    "feed_generated_utc": "2026-10-29T08:18Z",
     "checked": 17,
     "in_parity": 16,
     "drifting": [
       {
-        "trade_id": "SUIUSDT_20261027_CJ_001",
-        "coin": "SUI",
+        "trade_id": "TAOUSDT_20261028_CJ_001",
+        "coin": "TAO",
         "fields": [
           {
             "field": "tp1",
-            "journal": 1.00676064,
-            "feed": 0.9542
+            "journal": 268.12974776,
+            "feed": 261.4
           },
           {
             "field": "tp2",
-            "journal": 1.04778839,
-            "feed": 0.9974
+            "journal": 280.41092192,
+            "feed": 276.2
           }
         ]
       }
@@ -2564,23 +2564,23 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-29T08:17Z",
+    "feed_generated_utc": "2026-10-29T08:18Z",
     "checked": 17,
     "in_parity": 16,
     "drifting": [
       {
-        "trade_id": "SUIUSDT_20261027_CJ_001",
-        "coin": "SUI",
+        "trade_id": "TAOUSDT_20261028_CJ_001",
+        "coin": "TAO",
         "fields": [
           {
             "field": "tp1",
-            "journal": 1.00676064,
-            "feed": 0.9542
+            "journal": 268.12974776,
+            "feed": 261.4
           },
           {
             "field": "tp2",
-            "journal": 1.04778839,
-            "feed": 0.9974
+            "journal": 280.41092192,
+            "feed": 276.2
           }
         ]
       }
@@ -2589,30 +2589,30 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-29T08:17Z",
+    "feed_generated_utc": "2026-10-29T08:18Z",
     "checked": 17,
     "in_parity": 16,
     "drifting": [
       {
-        "trade_id": "SUIUSDT_20261027_CJ_001",
-        "coin": "SUI",
+        "trade_id": "TAOUSDT_20261028_CJ_001",
+        "coin": "TAO",
         "fields": [
           {
             "field": "tp1",
-            "journal": 1.00676064,
-            "feed": 0.9542
+            "journal": 268.12974776,
+            "feed": 261.4
           },
           {
             "field": "tp2",
-            "journal": 1.04778839,
-            "feed": 0.9974
+            "journal": 280.41092192,
+            "feed": 276.2
           }
         ]
       }
     ]
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-29T08:18:12Z",
+    "updated_iso": "2026-10-29T08:19:03Z",
     "trades": [
       {
         "trade_id": "CAKEUSDT_20261026_CJ_001",
