@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-30T15:48:25Z",
+  "last_updated_iso": "2026-10-30T16:08:44Z",
   "freshness": {
-    "engine_run_iso": "2026-10-30T15:48:09Z",
+    "engine_run_iso": "2026-10-30T16:08:17Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-10-30T14:06:00Z",
+    "feed_generated_iso": "2026-10-30T16:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-30T15:48:25Z",
+    "published_iso": "2026-10-30T16:08:44Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,14 +19,14 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 507.2534,
-    "available": 438.6053,
+    "equity": 507.8626,
+    "available": 431.6266,
     "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 9,
-    "in_sync": 9,
+    "checked": 10,
+    "in_sync": 10,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "16s ago",
+      "value": "27s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "102 min old",
+      "value": "1 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (99 records, 9 resting, 78 closed)",
+      "value": "OK (100 records, 10 resting, 78 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$507.25",
+      "value": "$507.86",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (9 resting = journal)",
+      "value": "in sync (10 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -420,23 +420,44 @@
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
       "live_filled_ts": null
+    },
+    {
+      "trade_id": "NEARUSDT_20261030_CJ_001",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.21551666,
+      "sl": 4.01614804,
+      "tp1": 4.56246,
+      "tp2": 4.94570391,
+      "capital_usd": 25.39,
+      "leverage": 3,
+      "trading_system": "John",
+      "track_only": false,
+      "status": "PENDING",
+      "price_at_run": null,
+      "date_activated": null,
+      "time_activated_utc": null,
+      "date_opened": "2026-10-30",
+      "time_opened_utc": "16:03",
+      "conviction": "HIGH",
+      "tp1_hit": null,
+      "sl_moved_to_be": null,
+      "pnl_tp1_realized_usd": null,
+      "tp2_hit": null,
+      "pnl_tp1_estimated": null,
+      "live_executed": null,
+      "live_entry_fill": null,
+      "live_exit_fill": null,
+      "live_entry_slippage_pct": null,
+      "live_fees_usd": null,
+      "live_funding_usd": null,
+      "live_tp1_pnl_usd": null,
+      "rehearsal": false,
+      "live_filled_ts": null
     }
   ],
   "dry_run_plans": [],
   "recent_signals": [
-    {
-      "trade_id": "SOLUSDT_20261030_CJ_001",
-      "coin": "SOLUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 99.21366879,
-      "tp1": 90.04409943,
-      "sl": 101.42914553,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-10-30T04:03:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "HBARUSDT_20261030_CJ_001",
       "coin": "HBARUSDT",
@@ -448,6 +469,19 @@
       "conviction": "MEDIUM",
       "track_only": false,
       "iso": "2026-10-30T08:03:00Z",
+      "rehearsal": false
+    },
+    {
+      "trade_id": "NEARUSDT_20261030_CJ_001",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 4.21551666,
+      "tp1": 4.56246,
+      "sl": 4.01614804,
+      "conviction": "HIGH",
+      "track_only": false,
+      "iso": "2026-10-30T16:03:00Z",
       "rehearsal": false
     }
   ],
@@ -2547,37 +2581,50 @@
         "closed_count": 75
       }
     },
-    "live_trade_count_total": 87,
-    "live_real_count": 87,
+    "live_trade_count_total": 88,
+    "live_real_count": 88,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-30T14:06Z",
-    "checked": 9,
-    "in_parity": 9,
+    "feed_generated_utc": "2026-10-30T16:07Z",
+    "checked": 10,
+    "in_parity": 10,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-30T14:06Z",
-    "checked": 9,
-    "in_parity": 9,
+    "feed_generated_utc": "2026-10-30T16:07Z",
+    "checked": 10,
+    "in_parity": 10,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-10-30T14:06Z",
-    "checked": 9,
-    "in_parity": 9,
+    "feed_generated_utc": "2026-10-30T16:07Z",
+    "checked": 10,
+    "in_parity": 10,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-30T15:48:25Z",
+    "updated_iso": "2026-10-30T16:08:44Z",
     "trades": [
+      {
+        "trade_id": "NEARUSDT_20261030_CJ_001",
+        "coin": "NEARUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "RESTING",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 25.39
+        },
+        "mexc": null
+      },
       {
         "trade_id": "HBARUSDT_20261030_CJ_001",
         "coin": "HBARUSDT",

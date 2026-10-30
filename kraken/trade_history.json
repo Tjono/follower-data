@@ -4721,6 +4721,15 @@
       "resting_at": "2026-10-30T08:08:11Z",
       "braam_trade_id": "HBARUSDT_20261030_CJ_001",
       "status": "RESTING"
+    },
+    "a31b4cf6-7b39-44ae-891b-a684055c1633": {
+      "order_id": "a31b4cf6-7b39-44ae-891b-a684055c1633",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.2155,
+      "resting_at": "2026-10-30T16:08:26Z",
+      "braam_trade_id": "NEARUSDT_20261030_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -16225,8 +16234,16 @@
       "unrealized": 0.0,
       "realized": -13.0577,
       "total": -13.0577
+    },
+    {
+      "ts": "2026-10-30T16:08:42Z",
+      "equity": 507.8626,
+      "available": 431.626611,
+      "unrealized": 0.0,
+      "realized": -13.0577,
+      "total": -13.0577
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-30T15:48:23Z"
+  "updated": "2026-10-30T16:08:42Z"
 }
