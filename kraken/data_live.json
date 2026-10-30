@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-30T22:17:45Z",
+  "last_updated_iso": "2026-10-30T23:18:16Z",
   "freshness": {
-    "engine_run_iso": "2026-10-30T22:17:31Z",
+    "engine_run_iso": "2026-10-30T23:17:56Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-30T22:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-30T22:17:45Z",
+    "published_iso": "2026-10-30T23:18:16Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.1339,
-    "equity": 509.2947,
-    "available": 440.6466,
+    "unrealized_pnl": 0.018,
+    "equity": 509.4454,
+    "available": 440.7973,
     "position_margin": 7.6838
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "14s ago",
+      "value": "20s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "11 min old",
+      "value": "72 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$509.29",
+      "value": "$509.45",
       "status": "ok",
       "action": null
     },
@@ -2568,7 +2568,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-30T22:17:45Z",
+    "updated_iso": "2026-10-30T23:18:16Z",
     "trades": [
       {
         "trade_id": "TRXUSDT_20261024_CJ_001",
