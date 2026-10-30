@@ -4676,6 +4676,15 @@
       "resting_at": "2026-10-29T21:18:05Z",
       "braam_trade_id": "XRPUSDT_20261028_CJ_002",
       "status": "RESTING"
+    },
+    "a319f55f-21eb-4832-bef9-555d55fd6cee": {
+      "order_id": "a319f55f-21eb-4832-bef9-555d55fd6cee",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.32963,
+      "resting_at": "2026-10-30T00:07:41Z",
+      "braam_trade_id": "TRXUSDT_20261024_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -15956,8 +15965,16 @@
       "unrealized": 0.0,
       "realized": -13.0577,
       "total": -13.0577
+    },
+    {
+      "ts": "2026-10-30T00:07:47Z",
+      "equity": 508.3309,
+      "available": 454.795301,
+      "unrealized": 0.0,
+      "realized": -13.0577,
+      "total": -13.0577
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-29T23:17:39Z"
+  "updated": "2026-10-30T00:07:47Z"
 }
