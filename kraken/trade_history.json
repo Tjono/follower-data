@@ -4685,6 +4685,33 @@
       "resting_at": "2026-10-30T00:07:41Z",
       "braam_trade_id": "TRXUSDT_20261024_CJ_001",
       "status": "RESTING"
+    },
+    "a31a4b25-d540-4ff9-8c55-2dc3f404e17c": {
+      "order_id": "a31a4b25-d540-4ff9-8c55-2dc3f404e17c",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "entry_price": 99.21,
+      "resting_at": "2026-10-30T04:07:32Z",
+      "braam_trade_id": "SOLUSDT_20261030_CJ_001",
+      "status": "RESTING"
+    },
+    "a31a4b22-0590-41e9-bbe9-cc6c6ce6148e": {
+      "order_id": "a31a4b22-0590-41e9-bbe9-cc6c6ce6148e",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.3213,
+      "resting_at": "2026-10-30T04:07:29Z",
+      "braam_trade_id": "XRPUSDT_20261028_CJ_002",
+      "status": "RESTING"
+    },
+    "a31a4b1d-d183-47da-8a23-64996a198909": {
+      "order_id": "a31a4b1d-d183-47da-8a23-64996a198909",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "entry_price": 0.3312,
+      "resting_at": "2026-10-30T04:07:27Z",
+      "braam_trade_id": "TRXUSDT_20261024_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -16029,8 +16056,16 @@
       "unrealized": 0.0,
       "realized": -13.0577,
       "total": -13.0577
+    },
+    {
+      "ts": "2026-10-30T04:07:44Z",
+      "equity": 508.8947,
+      "available": 447.8761,
+      "unrealized": 0.0,
+      "realized": -13.0577,
+      "total": -13.0577
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-30T03:48:32Z"
+  "updated": "2026-10-30T04:07:44Z"
 }
