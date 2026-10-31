@@ -4851,6 +4851,33 @@
       "resting_at": "2026-10-31T16:07:39Z",
       "braam_trade_id": "LTCUSDT_20261031_CJ_001",
       "status": "RESTING"
+    },
+    "a31da5a2-5cee-4bd4-b636-f8523e29d170": {
+      "order_id": "a31da5a2-5cee-4bd4-b636-f8523e29d170",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.1933,
+      "resting_at": "2026-10-31T20:08:02Z",
+      "braam_trade_id": "NEARUSDT_20261031_CJ_001",
+      "status": "RESTING"
+    },
+    "a31da59e-9a60-4f92-bee7-8ec1bbe61325": {
+      "order_id": "a31da59e-9a60-4f92-bee7-8ec1bbe61325",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.4915,
+      "resting_at": "2026-10-31T20:08:00Z",
+      "braam_trade_id": "RENDERUSDT_20261031_CJ_002",
+      "status": "RESTING"
+    },
+    "a31da598-de1a-4612-b4b5-a92d8bf49754": {
+      "order_id": "a31da598-de1a-4612-b4b5-a92d8bf49754",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "entry_price": 57.12,
+      "resting_at": "2026-10-31T20:07:56Z",
+      "braam_trade_id": "LTCUSDT_20261031_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -16751,8 +16778,16 @@
       "unrealized": 0.0,
       "realized": -14.2628,
       "total": -14.2628
+    },
+    {
+      "ts": "2026-10-31T20:08:19Z",
+      "equity": 508.0038,
+      "available": 416.58206599999994,
+      "unrealized": 0.0,
+      "realized": -14.2628,
+      "total": -14.2628
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-31T19:17:43Z"
+  "updated": "2026-10-31T20:08:19Z"
 }
