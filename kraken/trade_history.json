@@ -2953,7 +2953,7 @@
       "fill_ids": [
         "e02b0ecb-ddc7-42db-bdaa-5191a8c537a5"
       ],
-      "unrealized_pnl": 0.014388860400004422,
+      "unrealized_pnl": -0.8452243835999997,
       "fee_asset": [
         "usd"
       ],
@@ -4759,6 +4759,33 @@
       "entry_price": 4.2155,
       "resting_at": "2026-10-30T16:08:26Z",
       "braam_trade_id": "NEARUSDT_20261030_CJ_001",
+      "status": "RESTING"
+    },
+    "a31bf875-75de-4a2b-a61f-74d768df608f": {
+      "order_id": "a31bf875-75de-4a2b-a61f-74d768df608f",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "entry_price": 0.16464,
+      "resting_at": "2026-10-31T00:07:58Z",
+      "braam_trade_id": "XLMUSDT_20261031_CJ_001",
+      "status": "RESTING"
+    },
+    "a31bf873-8a61-4a8a-8a3e-3cecd4dabe09": {
+      "order_id": "a31bf873-8a61-4a8a-8a3e-3cecd4dabe09",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "entry_price": 1.6577,
+      "resting_at": "2026-10-31T00:07:57Z",
+      "braam_trade_id": "RENDERUSDT_20261031_CJ_001",
+      "status": "RESTING"
+    },
+    "a31bf86e-d423-4578-b526-5d7756a763c5": {
+      "order_id": "a31bf86e-d423-4578-b526-5d7756a763c5",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.3324,
+      "resting_at": "2026-10-31T00:07:54Z",
+      "braam_trade_id": "XRPUSDT_20261028_CJ_002",
       "status": "RESTING"
     }
   },
@@ -16382,8 +16409,16 @@
       "unrealized": 0.016010727755421148,
       "realized": -13.0577,
       "total": -13.0417
+    },
+    {
+      "ts": "2026-10-31T00:08:13Z",
+      "equity": 508.59472215915895,
+      "available": 432.319191159159,
+      "unrealized": -0.8450778408410372,
+      "realized": -13.0577,
+      "total": -13.9028
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-30T23:18:14Z"
+  "updated": "2026-10-31T00:08:13Z"
 }
