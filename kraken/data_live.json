@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-10-31T00:08:15Z",
+  "last_updated_iso": "2026-10-31T00:17:46Z",
   "freshness": {
-    "engine_run_iso": "2026-10-31T00:07:46Z",
+    "engine_run_iso": "2026-10-31T00:17:31Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-10-31T00:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-10-31T00:08:15Z",
+    "published_iso": "2026-10-31T00:17:46Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,15 +18,15 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.8343,
-    "equity": 508.6055,
-    "available": 432.33,
-    "position_margin": 7.6838
+    "unrealized_pnl": 0.0,
+    "equity": 508.2306,
+    "available": 439.6389,
+    "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 10,
-    "in_sync": 10,
+    "checked": 9,
+    "in_sync": 9,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "29s ago",
+      "value": "15s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "75s old",
+      "value": "10 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (102 records, 9 resting, 1 open, 78 closed)",
+      "value": "OK (102 records, 9 resting, 79 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$508.61",
+      "value": "$508.23",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (1 open)",
+      "value": "all protected (0 open)",
       "status": "ok",
       "action": null
     },
@@ -216,40 +216,6 @@
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
       "live_filled_ts": null
-    },
-    {
-      "trade_id": "TRXUSDT_20261024_CJ_001",
-      "coin": "TRXUSDT",
-      "direction": "Long",
-      "entry_price": 0.3312,
-      "sl": 0.3265194,
-      "tp1": 0.3478,
-      "tp2": 0.36505826,
-      "capital_usd": 25.61,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-10-30",
-      "time_activated_utc": "20:42",
-      "date_opened": "2026-10-24",
-      "time_opened_utc": "16:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": false,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 0.3312,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.0,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false,
-      "live_filled_ts": "2026-10-30T20:42:47.358000+00:00"
     },
     {
       "trade_id": "XRPUSDT_20261028_CJ_002",
@@ -2389,6 +2355,29 @@
       "close_cause": null,
       "margin_usd": 5.0287,
       "leverage": 3
+    },
+    {
+      "trade_id": "TRXUSDT_20261024_CJ_001",
+      "coin": "TRXUSDT",
+      "direction": "Long",
+      "status": "STOPPED",
+      "pnl_usd": -1.21,
+      "close_reason": "stopped_out",
+      "date_closed": "2026-10-31",
+      "time_closed_utc": "00:13",
+      "trading_system": "John",
+      "live_entry_fill": 0.3312,
+      "live_exit_fill": 0.32615,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0532,
+      "live_funding_usd": 0.0197,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-10-31T00:13:35Z",
+      "rehearsal": false,
+      "close_cause": null,
+      "margin_usd": 25.6128,
+      "leverage": 3
     }
   ],
   "recent_cancels": [
@@ -2586,15 +2575,15 @@
   ],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -13.06,
-    "realized_pnl_pct": -3.06,
+    "realized_pnl_usd": -14.26,
+    "realized_pnl_pct": -3.15,
     "peak_capital_usd": 65.87,
     "peak_concurrent": 5,
     "peak_date": "2026-10-29",
     "deployed_trades": 79,
-    "return_on_peak_pct": -19.82,
-    "win_rate_pct": 26.9,
-    "closed_count": 78,
+    "return_on_peak_pct": -21.65,
+    "win_rate_pct": 26.6,
+    "closed_count": 79,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -0.7,
@@ -2602,9 +2591,9 @@
         "closed_count": 3
       },
       "John": {
-        "realized_pnl_usd": -12.36,
-        "win_rate_pct": 26.7,
-        "closed_count": 75
+        "realized_pnl_usd": -13.56,
+        "win_rate_pct": 26.3,
+        "closed_count": 76
       }
     },
     "live_trade_count_total": 88,
@@ -2615,29 +2604,42 @@
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-10-31T00:07Z",
-    "checked": 10,
-    "in_parity": 10,
+    "checked": 9,
+    "in_parity": 9,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-10-31T00:07Z",
-    "checked": 10,
-    "in_parity": 10,
+    "checked": 9,
+    "in_parity": 9,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-10-31T00:07Z",
-    "checked": 10,
-    "in_parity": 10,
+    "checked": 9,
+    "in_parity": 9,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-10-31T00:08:15Z",
+    "updated_iso": "2026-10-31T00:17:46Z",
     "trades": [
+      {
+        "trade_id": "TRXUSDT_20261024_CJ_001",
+        "coin": "TRXUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "CLOSED",
+          "ret_pct": -4.705,
+          "pnl_usd": -1.2051,
+          "margin_usd": 25.6128
+        },
+        "mexc": null
+      },
       {
         "trade_id": "XLMUSDT_20261031_CJ_001",
         "coin": "XLMUSDT",
@@ -2661,19 +2663,6 @@
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 25.44
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "TRXUSDT_20261024_CJ_001",
-        "coin": "TRXUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "OPEN",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 25.6128
         },
         "mexc": null
       },

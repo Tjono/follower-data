@@ -2937,27 +2937,28 @@
       "leverage": 3,
       "entry_price": 0.3312,
       "entry_size": 232.0,
-      "exit_size": 0,
+      "exit_size": 232.0,
       "opened_at": "2026-10-30T20:42:47Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-10-31T00:13:35Z",
+      "close_price": 0.32615,
       "margin_usd": 25.6128,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0154,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -1.1716,
+      "pnl_usd": -1.2051,
+      "tag": "LOSS",
+      "fees_usd": 0.0532,
+      "funding_usd": 0.0197,
       "fill_ids": [
-        "e02b0ecb-ddc7-42db-bdaa-5191a8c537a5"
+        "e02b0ecb-ddc7-42db-bdaa-5191a8c537a5",
+        "7655469a-6de2-4422-8198-682c0afb5ab3"
       ],
       "unrealized_pnl": -0.8452243835999997,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     }
   },
   "orders": {
@@ -7735,6 +7736,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "1171554"
+    },
+    "7655469a-6de2-4422-8198-682c0afb5ab3": {
+      "fill_id": "7655469a-6de2-4422-8198-682c0afb5ab3",
+      "symbol": "PF_TRXUSD",
+      "side": "sell",
+      "order_id": "a31baf66-f68c-4aae-b9b3-eda3f747ccf2",
+      "cliOrdId": "TRXUSDT_20261024_CJ_001:SL#1793393021837",
+      "size": 232,
+      "price": 0.32615,
+      "fillTime": "2026-10-31T00:13:35.001Z",
+      "fillType": "taker",
+      "realized_pnl": -1.1716,
+      "realized_funding": 0.00024259021,
+      "sequence_id": "1173524"
     }
   },
   "snapshots": [
@@ -16417,8 +16432,16 @@
       "unrealized": -0.8450778408410372,
       "realized": -13.0577,
       "total": -13.9028
+    },
+    {
+      "ts": "2026-10-31T00:17:44Z",
+      "equity": 508.2306,
+      "available": 439.638909,
+      "unrealized": 0.0,
+      "realized": -14.2628,
+      "total": -14.2628
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-31T00:08:13Z"
+  "updated": "2026-10-31T00:17:44Z"
 }
