@@ -4788,6 +4788,24 @@
       "resting_at": "2026-10-31T00:07:54Z",
       "braam_trade_id": "XRPUSDT_20261028_CJ_002",
       "status": "RESTING"
+    },
+    "a31c4e3a-d9d3-428b-a41c-9b1e9915e0e9": {
+      "order_id": "a31c4e3a-d9d3-428b-a41c-9b1e9915e0e9",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.33475,
+      "resting_at": "2026-10-31T04:07:48Z",
+      "braam_trade_id": "TRXUSDT_20261031_CJ_001",
+      "status": "RESTING"
+    },
+    "a31c4e38-e082-406d-a7ed-af3cd1019ed0": {
+      "order_id": "a31c4e38-e082-406d-a7ed-af3cd1019ed0",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "entry_price": 56.74,
+      "resting_at": "2026-10-31T04:07:47Z",
+      "braam_trade_id": "LTCUSDT_20261031_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -16488,8 +16506,16 @@
       "unrealized": 0.0,
       "realized": -14.2628,
       "total": -14.2628
+    },
+    {
+      "ts": "2026-10-31T04:08:02Z",
+      "equity": 508.2306,
+      "available": 431.991724,
+      "unrealized": 0.0,
+      "realized": -14.2628,
+      "total": -14.2628
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-31T03:48:46Z"
+  "updated": "2026-10-31T04:08:02Z"
 }
