@@ -4878,6 +4878,24 @@
       "resting_at": "2026-10-31T20:07:56Z",
       "braam_trade_id": "LTCUSDT_20261031_CJ_001",
       "status": "RESTING"
+    },
+    "a31dfb5f-f351-4a8f-a477-be2cf9dbcbe0": {
+      "order_id": "a31dfb5f-f351-4a8f-a477-be2cf9dbcbe0",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 8.278,
+      "resting_at": "2026-11-01T00:07:47Z",
+      "braam_trade_id": "AVAXUSDT_20261101_CJ_001",
+      "status": "RESTING"
+    },
+    "a31dfb5a-7718-4bd5-a10a-fc3a9875a86c": {
+      "order_id": "a31dfb5a-7718-4bd5-a10a-fc3a9875a86c",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "entry_price": 58.56,
+      "resting_at": "2026-11-01T00:07:43Z",
+      "braam_trade_id": "LTCUSDT_20261031_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -16834,8 +16852,16 @@
       "unrealized": 0.0,
       "realized": -14.2628,
       "total": -14.2628
+    },
+    {
+      "ts": "2026-11-01T00:08:06Z",
+      "equity": 508.0038,
+      "available": 416.566226,
+      "unrealized": 0.0,
+      "realized": -14.2628,
+      "total": -14.2628
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-10-31T23:17:53Z"
+  "updated": "2026-11-01T00:08:06Z"
 }
