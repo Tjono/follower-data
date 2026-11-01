@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-01T20:18:01Z",
+  "last_updated_iso": "2026-11-01T21:17:53Z",
   "freshness": {
-    "engine_run_iso": "2026-11-01T20:17:39Z",
+    "engine_run_iso": "2026-11-01T21:17:31Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-01T20:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-01T20:18:01Z",
+    "published_iso": "2026-11-01T21:17:53Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,8 +19,8 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 506.1486,
-    "available": 414.8215,
+    "equity": 506.1894,
+    "available": 414.8623,
     "position_margin": 0.0
   },
   "account_source": "live",
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "11 min old",
+      "value": "70 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$506.15",
+      "value": "$506.19",
       "status": "ok",
       "action": null
     },
@@ -628,20 +628,7 @@
   ],
   "dry_run_plans": [],
   "recent_signals": [],
-  "recent_opens": [
-    {
-      "trade_id": "TRXUSDT_20261024_CJ_001",
-      "coin": "TRXUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 0.3312,
-      "live_entry_fill": 0.3312,
-      "tp1_hit": false,
-      "iso": "2026-10-30T20:42:47Z",
-      "_iso_ms": 1793392967000,
-      "rehearsal": false
-    }
-  ],
+  "recent_opens": [],
   "recent_closes": [
     {
       "trade_id": "XLMUSDT_20261005_CJ_001",
@@ -2699,7 +2686,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-01T20:18:01Z",
+    "updated_iso": "2026-11-01T21:17:53Z",
     "trades": [
       {
         "trade_id": "LTCUSDT_20261101_CJ_001",
