@@ -4923,6 +4923,24 @@
       "resting_at": "2026-11-01T12:07:38Z",
       "braam_trade_id": "NEARUSDT_20261031_CJ_001",
       "status": "RESTING"
+    },
+    "a31f52ca-9af2-4f57-acc1-965f279fd0b0": {
+      "order_id": "a31f52ca-9af2-4f57-acc1-965f279fd0b0",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.1319,
+      "resting_at": "2026-11-01T16:08:03Z",
+      "braam_trade_id": "NEARUSDT_20261031_CJ_001",
+      "status": "RESTING"
+    },
+    "a31f52bd-54fd-452b-a9dc-bbef72a6dbe0": {
+      "order_id": "a31f52bd-54fd-452b-a9dc-bbef72a6dbe0",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.5454,
+      "resting_at": "2026-11-01T16:07:54Z",
+      "braam_trade_id": "RENDERUSDT_20261031_CJ_002",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -17095,8 +17113,16 @@
       "unrealized": 0.0,
       "realized": -14.2628,
       "total": -14.2628
+    },
+    {
+      "ts": "2026-11-01T16:08:14Z",
+      "equity": 508.0038,
+      "available": 416.676746,
+      "unrealized": 0.0,
+      "realized": -14.2628,
+      "total": -14.2628
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-01T15:48:42Z"
+  "updated": "2026-11-01T16:08:14Z"
 }
