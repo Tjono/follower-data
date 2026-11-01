@@ -4914,6 +4914,15 @@
       "resting_at": "2026-11-01T08:08:04Z",
       "braam_trade_id": "NEARUSDT_20261031_CJ_001",
       "status": "RESTING"
+    },
+    "a31efcd0-67d7-4138-a097-5ebd70598e12": {
+      "order_id": "a31efcd0-67d7-4138-a097-5ebd70598e12",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.1913,
+      "resting_at": "2026-11-01T12:07:38Z",
+      "braam_trade_id": "NEARUSDT_20261031_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -17030,8 +17039,16 @@
       "unrealized": 0.0,
       "realized": -14.2628,
       "total": -14.2628
+    },
+    {
+      "ts": "2026-11-01T12:07:48Z",
+      "equity": 508.0038,
+      "available": 416.569826,
+      "unrealized": 0.0,
+      "realized": -14.2628,
+      "total": -14.2628
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-01T11:17:48Z"
+  "updated": "2026-11-01T12:07:48Z"
 }
