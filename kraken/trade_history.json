@@ -4941,6 +4941,24 @@
       "resting_at": "2026-11-01T16:07:54Z",
       "braam_trade_id": "RENDERUSDT_20261031_CJ_002",
       "status": "RESTING"
+    },
+    "a31fa899-e5f4-4cab-af40-4de190ad9d41": {
+      "order_id": "a31fa899-e5f4-4cab-af40-4de190ad9d41",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 52.86,
+      "resting_at": "2026-11-01T20:07:59Z",
+      "braam_trade_id": "LTCUSDT_20261101_CJ_001",
+      "status": "RESTING"
+    },
+    "a31fa88e-36f8-42d0-b695-1ff5c9eddd7a": {
+      "order_id": "a31fa88e-36f8-42d0-b695-1ff5c9eddd7a",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.4938,
+      "resting_at": "2026-11-01T20:07:52Z",
+      "braam_trade_id": "RENDERUSDT_20261031_CJ_002",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -17161,8 +17179,16 @@
       "unrealized": 0.0,
       "realized": -14.2628,
       "total": -14.2628
+    },
+    {
+      "ts": "2026-11-01T20:08:09Z",
+      "equity": 506.1486,
+      "available": 414.821546,
+      "unrealized": 0.0,
+      "realized": -14.2628,
+      "total": -14.2628
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-01T19:17:50Z"
+  "updated": "2026-11-01T20:08:09Z"
 }
