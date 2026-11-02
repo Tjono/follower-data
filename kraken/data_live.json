@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-02T19:17:53Z",
+  "last_updated_iso": "2026-11-02T19:40:58Z",
   "freshness": {
-    "engine_run_iso": "2026-11-02T19:17:32Z",
+    "engine_run_iso": "2026-11-02T19:40:34Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-02T18:11:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-02T19:17:53Z",
+    "published_iso": "2026-11-02T19:40:58Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.2275,
-    "equity": 505.8997,
-    "available": 422.2136,
-    "position_margin": 15.2401
+    "unrealized_pnl": -0.7607,
+    "equity": 504.6512,
+    "available": 420.9718,
+    "position_margin": 22.8588
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "21s ago",
+      "value": "24s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "66 min old",
+      "value": "89 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (110 records, 11 resting, 2 open, 80 closed)",
+      "value": "OK (110 records, 10 resting, 3 open, 80 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$505.90",
+      "value": "$504.65",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (11 resting = journal)",
+      "value": "in sync (10 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open)",
+      "value": "all protected (3 open)",
       "status": "ok",
       "action": null
     },
@@ -501,27 +501,27 @@
       "leverage": 3,
       "trading_system": "John",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-11-02",
+      "time_activated_utc": "19:40",
       "date_opened": "2026-10-31",
       "time_opened_utc": "16:03",
       "conviction": "MEDIUM",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 1.4968,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-11-02T19:40:08.803000+00:00"
     },
     {
       "trade_id": "AVAXUSDT_20261101_CJ_001",
@@ -595,6 +595,18 @@
       "tp1_hit": false,
       "iso": "2026-11-02T19:15:58Z",
       "_iso_ms": 1793646958000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "RENDERUSDT_20261031_CJ_002",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "entry_price": 1.49681983,
+      "live_entry_fill": 1.4968,
+      "tp1_hit": false,
+      "iso": "2026-11-02T19:40:08Z",
+      "_iso_ms": 1793648408000,
       "rehearsal": false
     }
   ],
@@ -2630,11 +2642,11 @@
   "stats": {
     "realized_pnl_usd": -16.66,
     "realized_pnl_pct": -3.5,
-    "peak_capital_usd": 65.87,
-    "peak_concurrent": 5,
-    "peak_date": "2026-10-29",
-    "deployed_trades": 82,
-    "return_on_peak_pct": -25.29,
+    "peak_capital_usd": 76.2,
+    "peak_concurrent": 3,
+    "peak_date": "2026-11-02",
+    "deployed_trades": 83,
+    "return_on_peak_pct": -21.87,
     "win_rate_pct": 26.2,
     "closed_count": 80,
     "per_system": {
@@ -2678,8 +2690,21 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-02T19:17:53Z",
+    "updated_iso": "2026-11-02T19:40:58Z",
     "trades": [
+      {
+        "trade_id": "RENDERUSDT_20261031_CJ_002",
+        "coin": "RENDERUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 25.3957
+        },
+        "mexc": null
+      },
       {
         "trade_id": "XLMUSDT_20261031_CJ_001",
         "coin": "XLMUSDT",
@@ -2739,19 +2764,6 @@
         "trading_system": "John",
         "kraken": {
           "status": "CANCELLED",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 25.4
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "RENDERUSDT_20261031_CJ_002",
-        "coin": "RENDERUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "RESTING",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 25.4
