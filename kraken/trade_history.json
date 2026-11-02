@@ -4959,6 +4959,42 @@
       "resting_at": "2026-11-01T20:07:52Z",
       "braam_trade_id": "RENDERUSDT_20261031_CJ_002",
       "status": "RESTING"
+    },
+    "a31ffe78-b1a4-4d09-9c78-466a27382072": {
+      "order_id": "a31ffe78-b1a4-4d09-9c78-466a27382072",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 54.54,
+      "resting_at": "2026-11-02T00:08:06Z",
+      "braam_trade_id": "LTCUSDT_20261101_CJ_001",
+      "status": "RESTING"
+    },
+    "a31ffe75-2a3b-4f65-a23d-09529c84216b": {
+      "order_id": "a31ffe75-2a3b-4f65-a23d-09529c84216b",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 8.334,
+      "resting_at": "2026-11-02T00:08:04Z",
+      "braam_trade_id": "AVAXUSDT_20261101_CJ_001",
+      "status": "RESTING"
+    },
+    "a31ffe6f-7f59-4e4f-9657-aae76466cded": {
+      "order_id": "a31ffe6f-7f59-4e4f-9657-aae76466cded",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.5407,
+      "resting_at": "2026-11-02T00:08:00Z",
+      "braam_trade_id": "RENDERUSDT_20261031_CJ_002",
+      "status": "RESTING"
+    },
+    "a31ffe67-7ccb-4b2c-a84a-4c852658e252": {
+      "order_id": "a31ffe67-7ccb-4b2c-a84a-4c852658e252",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "entry_price": 1.3164,
+      "resting_at": "2026-11-02T00:07:55Z",
+      "braam_trade_id": "XRPUSDT_20261028_CJ_002",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -17227,8 +17263,16 @@
       "unrealized": 0.0,
       "realized": -14.2628,
       "total": -14.2628
+    },
+    {
+      "ts": "2026-11-02T00:08:17Z",
+      "equity": 506.1622,
+      "available": 414.926346,
+      "unrealized": 0.0,
+      "realized": -14.2628,
+      "total": -14.2628
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-01T23:17:50Z"
+  "updated": "2026-11-02T00:08:17Z"
 }
