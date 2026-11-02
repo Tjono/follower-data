@@ -4995,6 +4995,24 @@
       "resting_at": "2026-11-02T00:07:55Z",
       "braam_trade_id": "XRPUSDT_20261028_CJ_002",
       "status": "RESTING"
+    },
+    "a3205446-d0cc-4948-bff4-33ff6e465fca": {
+      "order_id": "a3205446-d0cc-4948-bff4-33ff6e465fca",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 1.873,
+      "resting_at": "2026-11-02T04:08:02Z",
+      "braam_trade_id": "CAKEUSDT_20261102_CJ_001",
+      "status": "RESTING"
+    },
+    "a3205442-6081-47b8-86a5-e046e85e194e": {
+      "order_id": "a3205442-6081-47b8-86a5-e046e85e194e",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "entry_price": 4.0761,
+      "resting_at": "2026-11-02T04:07:59Z",
+      "braam_trade_id": "NEARUSDT_20261031_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -17327,8 +17345,16 @@
       "unrealized": 0.0,
       "realized": -14.2628,
       "total": -14.2628
+    },
+    {
+      "ts": "2026-11-02T04:08:22Z",
+      "equity": 506.7836,
+      "available": 408.156186,
+      "unrealized": 0.0,
+      "realized": -14.2628,
+      "total": -14.2628
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-02T03:48:15Z"
+  "updated": "2026-11-02T04:08:22Z"
 }
