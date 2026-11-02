@@ -2968,27 +2968,57 @@
       "leverage": 3,
       "entry_price": 4.0761,
       "entry_size": 18.0,
-      "exit_size": 0,
+      "exit_size": 18.0,
       "opened_at": "2026-11-02T07:25:09Z",
+      "closed_at": "2026-11-02T17:21:23Z",
+      "close_price": 3.945,
+      "margin_usd": 24.4566,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -2.3598,
+      "pnl_usd": -2.3984,
+      "tag": "LOSS",
+      "fees_usd": 0.0502,
+      "funding_usd": 0.0116,
+      "fill_ids": [
+        "206f4f02-81ec-46ff-9333-fcc952b87fd7",
+        "006522ea-6bf8-4661-9f86-6b20736d95e3"
+      ],
+      "unrealized_pnl": -1.9929431883600026,
+      "fee_asset": [
+        "usd"
+      ],
+      "pnl_basis": "net"
+    },
+    "AVAXUSDT_20261101_CJ_001": {
+      "position_id": "AVAXUSDT_20261101_CJ_001",
+      "braam_trade_id": "AVAXUSDT_20261101_CJ_001",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 8.334,
+      "entry_size": 9.14,
+      "exit_size": 0,
+      "opened_at": "2026-11-02T17:45:26Z",
       "closed_at": null,
       "close_price": null,
-      "margin_usd": 24.4566,
+      "margin_usd": 25.39092,
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
       "pnl_gross_usd": null,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.0147,
+      "fees_usd": 0.0152,
       "funding_usd": null,
       "fill_ids": [
-        "206f4f02-81ec-46ff-9333-fcc952b87fd7"
+        "4ff90065-29b1-49f2-8d70-808851de4f84"
       ],
-      "unrealized_pnl": -1.9929431883600026,
+      "unrealized_pnl": -0.0927580287862013,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     }
   },
   "orders": {
@@ -8046,6 +8076,34 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "9676945"
+    },
+    "4ff90065-29b1-49f2-8d70-808851de4f84": {
+      "fill_id": "4ff90065-29b1-49f2-8d70-808851de4f84",
+      "symbol": "PF_AVAXUSD",
+      "side": "buy",
+      "order_id": "a31ffe75-2a3b-4f65-a23d-09529c84216b",
+      "cliOrdId": "AVAXUSDT_20261101_CJ_001#1793578083112",
+      "size": 9.14,
+      "price": 8.334,
+      "fillTime": "2026-11-02T17:45:26.321Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "11837238"
+    },
+    "006522ea-6bf8-4661-9f86-6b20736d95e3": {
+      "fill_id": "006522ea-6bf8-4661-9f86-6b20736d95e3",
+      "symbol": "PF_NEARUSD",
+      "side": "sell",
+      "order_id": "a3209b0d-1522-4470-9fec-18ffca7d4d7d",
+      "cliOrdId": "NEARUSDT_20261031_CJ_001:SL#1793604355913",
+      "size": 18,
+      "price": 3.945,
+      "fillTime": "2026-11-02T17:21:23.001Z",
+      "fillType": "taker",
+      "realized_pnl": -2.3598,
+      "realized_funding": 0.00015984311,
+      "sequence_id": "9683525"
     }
   },
   "snapshots": [
@@ -17600,8 +17658,16 @@
       "unrealized": -1.9870264742024533,
       "realized": -14.2628,
       "total": -16.2498
+    },
+    {
+      "ts": "2026-11-02T17:47:01Z",
+      "equity": 505.73502762227565,
+      "available": 422.03108762227566,
+      "unrealized": -0.09275040651053648,
+      "realized": -16.6612,
+      "total": -16.754
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-02T17:18:18Z"
+  "updated": "2026-11-02T17:47:01Z"
 }
