@@ -2984,7 +2984,7 @@
       "fill_ids": [
         "206f4f02-81ec-46ff-9333-fcc952b87fd7"
       ],
-      "unrealized_pnl": 0.3726160901999993,
+      "unrealized_pnl": 1.0465908137999893,
       "fee_asset": [
         "usd"
       ],
@@ -5060,6 +5060,15 @@
       "entry_price": 1.4968,
       "resting_at": "2026-11-02T08:08:12Z",
       "braam_trade_id": "RENDERUSDT_20261031_CJ_002",
+      "status": "RESTING"
+    },
+    "a3210021-1146-43c9-9378-a26dc6c8c2e8": {
+      "order_id": "a3210021-1146-43c9-9378-a26dc6c8c2e8",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "entry_price": 56.48,
+      "resting_at": "2026-11-02T12:08:34Z",
+      "braam_trade_id": "LTCUSDT_20261031_CJ_001",
       "status": "RESTING"
     }
   },
@@ -17519,8 +17528,16 @@
       "unrealized": 0.372539780841628,
       "realized": -14.2628,
       "total": -13.8903
+    },
+    {
+      "ts": "2026-11-02T12:08:46Z",
+      "equity": 509.52110724107155,
+      "available": 418.41234324107154,
+      "unrealized": 1.0469072410715514,
+      "realized": -14.2628,
+      "total": -13.2159
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-02T11:17:55Z"
+  "updated": "2026-11-02T12:08:46Z"
 }
