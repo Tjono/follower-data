@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-02T18:08:27+00:00",
+  "generated_at_utc": "2026-11-02T18:13:00+00:00",
   "venue": "Kraken",
   "all_time": {
     "total_trades": 80,
@@ -1014,11 +1014,11 @@
       },
       {
         "iso": "2026-11-02",
-        "pct": -1.4
+        "pct": -1.406
       }
     ],
     "ours_pct": -14.797,
-    "spx_pct": -1.4,
+    "spx_pct": -1.406,
     "spx_last_close_iso": "2026-11-02"
   },
   "by_direction": {
