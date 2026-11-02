@@ -2959,6 +2959,35 @@
         "usd"
       ],
       "pnl_basis": "net"
+    },
+    "NEARUSDT_20261031_CJ_001": {
+      "position_id": "NEARUSDT_20261031_CJ_001",
+      "braam_trade_id": "NEARUSDT_20261031_CJ_001",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 4.0761,
+      "entry_size": 18.0,
+      "exit_size": 0,
+      "opened_at": "2026-11-02T07:25:09Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 24.4566,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0147,
+      "funding_usd": null,
+      "fill_ids": [
+        "206f4f02-81ec-46ff-9333-fcc952b87fd7"
+      ],
+      "unrealized_pnl": -0.029785761000008293,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -7975,6 +8004,20 @@
       "realized_pnl": -1.1716,
       "realized_funding": 0.00024259021,
       "sequence_id": "1173524"
+    },
+    "206f4f02-81ec-46ff-9333-fcc952b87fd7": {
+      "fill_id": "206f4f02-81ec-46ff-9333-fcc952b87fd7",
+      "symbol": "PF_NEARUSD",
+      "side": "buy",
+      "order_id": "a3205442-6081-47b8-86a5-e046e85e194e",
+      "cliOrdId": "NEARUSDT_20261031_CJ_001#1793592478260",
+      "size": 18,
+      "price": 4.0761,
+      "fillTime": "2026-11-02T07:25:09.7Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "9676945"
     }
   },
   "snapshots": [
@@ -17393,8 +17436,16 @@
       "unrealized": 0.0,
       "realized": -14.2628,
       "total": -14.2628
+    },
+    {
+      "ts": "2026-11-02T07:26:02Z",
+      "equity": 507.5093112458369,
+      "available": 408.88189724583685,
+      "unrealized": -0.02618875416313392,
+      "realized": -14.2628,
+      "total": -14.289
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-02T07:17:54Z"
+  "updated": "2026-11-02T07:26:02Z"
 }
