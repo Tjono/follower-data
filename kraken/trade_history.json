@@ -3015,11 +3015,40 @@
       "fill_ids": [
         "4ff90065-29b1-49f2-8d70-808851de4f84"
       ],
-      "unrealized_pnl": -0.08677523622759112,
+      "unrealized_pnl": 0.17412544654820897,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "XLMUSDT_20261031_CJ_001": {
+      "position_id": "XLMUSDT_20261031_CJ_001",
+      "braam_trade_id": "XLMUSDT_20261031_CJ_001",
+      "coin": "XLMUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.16464,
+      "entry_size": 463.0,
+      "exit_size": 0,
+      "opened_at": "2026-11-02T19:15:58Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 25.40944,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0152,
+      "funding_usd": null,
+      "fill_ids": [
+        "4604df93-db66-4052-a323-8cc6859bad42"
+      ],
+      "unrealized_pnl": 0.10893270002999572,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -8105,6 +8134,20 @@
       "realized_pnl": -2.3598,
       "realized_funding": 0.00015984311,
       "sequence_id": "9683525"
+    },
+    "4604df93-db66-4052-a323-8cc6859bad42": {
+      "fill_id": "4604df93-db66-4052-a323-8cc6859bad42",
+      "symbol": "PF_XLMUSD",
+      "side": "buy",
+      "order_id": "a31bf875-75de-4a2b-a61f-74d768df608f",
+      "cliOrdId": "XLMUSDT_20261031_CJ_001",
+      "size": 463,
+      "price": 0.16464,
+      "fillTime": "2026-11-02T19:15:58.691Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "4048255"
     }
   },
   "snapshots": [
@@ -17699,8 +17742,16 @@
       "unrealized": -0.0873601675162565,
       "realized": -16.6612,
       "total": -16.7486
+    },
+    {
+      "ts": "2026-11-02T19:17:00Z",
+      "equity": 505.97559443926394,
+      "available": 422.28948443926396,
+      "unrealized": 0.28275758584218685,
+      "realized": -16.6612,
+      "total": -16.3784
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-02T18:48:29Z"
+  "updated": "2026-11-02T19:17:00Z"
 }
