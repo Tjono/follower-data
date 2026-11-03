@@ -1,38 +1,38 @@
 {
-  "generated_at_utc": "2026-11-03T06:48:11+00:00",
+  "generated_at_utc": "2026-11-03T07:18:19+00:00",
   "venue": "Kraken",
   "all_time": {
-    "total_trades": 80,
+    "total_trades": 81,
     "wins": 21,
-    "losses": 59,
-    "win_rate": 26.2,
-    "total_pnl_usd": -16.66,
-    "avg_pnl_usd": -0.21,
+    "losses": 60,
+    "win_rate": 25.9,
+    "total_pnl_usd": -18.74,
+    "avg_pnl_usd": -0.23,
     "best_usd": 1.2,
     "worst_usd": -2.4,
     "avg_win_usd": 0.54,
-    "avg_loss_usd": -0.47,
-    "expectancy_usd": -0.21,
-    "profit_factor": 0.4,
+    "avg_loss_usd": -0.5,
+    "expectancy_usd": -0.23,
+    "profit_factor": 0.38,
     "longest_win_streak": 7,
     "longest_loss_streak": 12,
     "current_streak_type": "loss",
-    "current_streak_count": 4,
-    "avg_hold_hours": 27.2,
-    "median_hold_hours": 12.3
+    "current_streak_count": 5,
+    "avg_hold_hours": 27.0,
+    "median_hold_hours": 11.6
   },
   "by_system": {
     "John": {
-      "n": 77,
+      "n": 78,
       "wins": 20,
-      "wr": 26.0,
-      "pnl": -15.96,
-      "avg": -0.21,
+      "wr": 25.6,
+      "pnl": -18.04,
+      "avg": -0.23,
       "inception": "2026-10-07",
       "days_active": 28,
-      "pnl_per_day": -0.57,
+      "pnl_per_day": -0.64,
       "status": "active",
-      "open": 3,
+      "open": 2,
       "pending": 10
     },
     "Braam": {
@@ -68,12 +68,12 @@
       "name": "John",
       "inception": "2026-10-07",
       "days_active": 28,
-      "closed": 77,
+      "closed": 78,
       "wins": 20,
-      "wr": 26.0,
-      "pnl": -15.96,
-      "pnl_per_day": -0.57,
-      "open": 3,
+      "wr": 25.6,
+      "pnl": -18.04,
+      "pnl_per_day": -0.64,
+      "open": 2,
       "pending": 10
     },
     {
@@ -112,11 +112,11 @@
     },
     {
       "month": "2026-11",
-      "n": 1,
+      "n": 2,
       "wins": 0,
       "wr": 0.0,
-      "pnl": -2.4,
-      "cumulative_pnl": -16.66
+      "pnl": -4.48,
+      "cumulative_pnl": -18.74
     }
   ],
   "equity_curve": [
@@ -599,6 +599,12 @@
       "pnl": -2.4,
       "cumulative": -16.66,
       "won": false
+    },
+    {
+      "iso": "2026-11-03T06:52:41Z",
+      "pnl": -2.08,
+      "cumulative": -18.74,
+      "won": false
     }
   ],
   "benchmark": {
@@ -925,6 +931,10 @@
       {
         "iso": "2026-11-02",
         "pct": -14.797
+      },
+      {
+        "iso": "2026-11-03",
+        "pct": -16.645
       }
     ],
     "spx": [
@@ -1017,17 +1027,17 @@
         "pct": -2.348
       }
     ],
-    "ours_pct": -14.797,
+    "ours_pct": -16.645,
     "spx_pct": -2.348,
     "spx_last_close_iso": "2026-11-02"
   },
   "by_direction": {
     "Long": {
-      "n": 67,
+      "n": 68,
       "wins": 13,
-      "wr": 19.4,
-      "pnl": -20.14,
-      "avg": -0.3
+      "wr": 19.1,
+      "pnl": -22.22,
+      "avg": -0.33
     },
     "Short": {
       "n": 13,
@@ -1046,11 +1056,11 @@
       "avg": -0.08
     },
     "MEDIUM": {
-      "n": 69,
+      "n": 70,
       "wins": 17,
-      "wr": 24.6,
-      "pnl": -16.44,
-      "avg": -0.24
+      "wr": 24.3,
+      "pnl": -18.52,
+      "avg": -0.26
     },
     "VERY HIGH": {
       "n": 1,
@@ -1110,6 +1120,14 @@
   ],
   "worst_coins": [
     {
+      "coin": "XLM",
+      "n": 5,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": -4.45,
+      "avg": -0.89
+    },
+    {
       "coin": "NEAR",
       "n": 5,
       "wins": 1,
@@ -1124,14 +1142,6 @@
       "wr": 0.0,
       "pnl": -2.62,
       "avg": -0.65
-    },
-    {
-      "coin": "XLM",
-      "n": 4,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -2.37,
-      "avg": -0.59
     },
     {
       "coin": "ALGO",
@@ -1173,6 +1183,16 @@
     "conviction": "MEDIUM"
   },
   "recent_closes": [
+    {
+      "trade_id": "XLMUSDT_20261031_CJ_001",
+      "coin": "XLM",
+      "direction": "Long",
+      "system": "John",
+      "pnl_usd": -2.08,
+      "won": false,
+      "close_reason": "stopped_out",
+      "iso": "2026-11-03T06:52:41+00:00"
+    },
     {
       "trade_id": "NEARUSDT_20261031_CJ_001",
       "coin": "NEAR",
@@ -1262,24 +1282,14 @@
       "won": false,
       "close_reason": "stopped_out",
       "iso": "2026-10-29T20:41:36+00:00"
-    },
-    {
-      "trade_id": "NEARUSDT_20261018_CJ_001",
-      "coin": "NEAR",
-      "direction": "Long",
-      "system": "John",
-      "pnl_usd": -0.7,
-      "won": false,
-      "close_reason": "stopped_out",
-      "iso": "2026-10-29T20:39:28+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 3,
-    "open_long": 3,
+    "open_count": 2,
+    "open_long": 2,
     "open_short": 0,
     "pending_count": 10,
-    "capital_open_usd": 76.2,
+    "capital_open_usd": 50.79,
     "capital_pending_usd": 254.81
   },
   "macro": {
