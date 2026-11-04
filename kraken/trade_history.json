@@ -3016,10 +3016,11 @@
         "4ff90065-29b1-49f2-8d70-808851de4f84",
         "84042130-d5b4-4b2b-af77-760f2dc808a0"
       ],
-      "unrealized_pnl": 0.9732462283830021,
+      "unrealized_pnl": 0.9373714815207005,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "XLMUSDT_20261031_CJ_001": {
       "position_id": "XLMUSDT_20261031_CJ_001",
@@ -3112,7 +3113,7 @@
         "332171a8-9608-4832-910c-2eceb9a5de99",
         "b4a1a243-b943-43ac-84a2-d2bc4e79a6ea"
       ],
-      "unrealized_pnl": -0.21483436418000376,
+      "unrealized_pnl": -0.007815378379993937,
       "fee_asset": [
         "usd"
       ],
@@ -18608,8 +18609,16 @@
       "unrealized": 4.6954131678992255,
       "realized": -21.0437,
       "total": -16.3483
+    },
+    {
+      "ts": "2026-11-04T14:54:06Z",
+      "equity": 508.14243110435234,
+      "available": 433.75488310435236,
+      "unrealized": 0.9296657259723837,
+      "realized": -21.0437,
+      "total": -20.114
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-04T14:53:07Z"
+  "updated": "2026-11-04T14:54:06Z"
 }
