@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-04T15:17:29Z",
+  "last_updated_iso": "2026-11-04T15:18:09Z",
   "freshness": {
-    "engine_run_iso": "2026-11-04T15:17:03Z",
+    "engine_run_iso": "2026-11-04T15:17:44Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-04T15:16:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-04T15:17:29Z",
+    "published_iso": "2026-11-04T15:18:09Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.7776,
-    "equity": 506.0906,
-    "available": 439.3515,
+    "unrealized_pnl": 0.7323,
+    "equity": 506.0095,
+    "available": 439.2703,
     "position_margin": 9.0934
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "26s ago",
+      "value": "25s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "89s old",
+      "value": "2 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$506.09",
+      "value": "$506.01",
       "status": "ok",
       "action": null
     },
@@ -2858,7 +2858,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-04T15:17:29Z",
+    "updated_iso": "2026-11-04T15:18:09Z",
     "trades": [
       {
         "trade_id": "HBARUSDT_20261030_CJ_001",
