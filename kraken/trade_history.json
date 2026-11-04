@@ -3015,7 +3015,7 @@
       "fill_ids": [
         "4ff90065-29b1-49f2-8d70-808851de4f84"
       ],
-      "unrealized_pnl": 1.8256103435268096,
+      "unrealized_pnl": 2.526866517246205,
       "fee_asset": [
         "usd"
       ],
@@ -5211,6 +5211,42 @@
       "entry_price": 1.3684,
       "resting_at": "2026-11-04T04:07:22Z",
       "braam_trade_id": "XRPUSDT_20261028_CJ_002",
+      "status": "RESTING"
+    },
+    "a324b013-5812-47aa-b02e-8f8c2c34bf6c": {
+      "order_id": "a324b013-5812-47aa-b02e-8f8c2c34bf6c",
+      "coin": "ONDOUSDT",
+      "direction": "Long",
+      "entry_price": 0.3879,
+      "resting_at": "2026-11-04T08:08:02Z",
+      "braam_trade_id": "ONDOUSDT_20261104_CJ_001",
+      "status": "RESTING"
+    },
+    "a324b00f-72c0-4b49-9ac4-d25693de9f00": {
+      "order_id": "a324b00f-72c0-4b49-9ac4-d25693de9f00",
+      "coin": "LTCUSDT",
+      "direction": "Long",
+      "entry_price": 53.04,
+      "resting_at": "2026-11-04T08:07:59Z",
+      "braam_trade_id": "LTCUSDT_20261104_CJ_001",
+      "status": "RESTING"
+    },
+    "a324b00d-2a45-46ef-b866-6df840772a6f": {
+      "order_id": "a324b00d-2a45-46ef-b866-6df840772a6f",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.604,
+      "resting_at": "2026-11-04T08:07:58Z",
+      "braam_trade_id": "APTUSDT_20261104_CJ_001",
+      "status": "RESTING"
+    },
+    "a324b007-844d-41c0-915a-cd33308e4fb3": {
+      "order_id": "a324b007-844d-41c0-915a-cd33308e4fb3",
+      "coin": "HBARUSDT",
+      "direction": "Short",
+      "entry_price": 0.07241,
+      "resting_at": "2026-11-04T08:07:54Z",
+      "braam_trade_id": "HBARUSDT_20261030_CJ_001",
       "status": "RESTING"
     }
   },
@@ -18386,8 +18422,16 @@
       "unrealized": 1.8253080967875612,
       "realized": -21.0437,
       "total": -19.2184
+    },
+    {
+      "ts": "2026-11-04T08:08:22Z",
+      "equity": 505.7938657806041,
+      "available": 429.6939377806041,
+      "unrealized": 2.526862297850287,
+      "realized": -21.0437,
+      "total": -18.5168
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-04T07:17:51Z"
+  "updated": "2026-11-04T08:08:22Z"
 }
