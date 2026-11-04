@@ -1,38 +1,38 @@
 {
-  "generated_at_utc": "2026-11-04T02:18:03+00:00",
+  "generated_at_utc": "2026-11-04T03:00:52+00:00",
   "venue": "Kraken",
   "all_time": {
-    "total_trades": 81,
+    "total_trades": 82,
     "wins": 21,
-    "losses": 60,
-    "win_rate": 25.9,
-    "total_pnl_usd": -18.74,
-    "avg_pnl_usd": -0.23,
+    "losses": 61,
+    "win_rate": 25.6,
+    "total_pnl_usd": -21.04,
+    "avg_pnl_usd": -0.26,
     "best_usd": 1.2,
     "worst_usd": -2.4,
     "avg_win_usd": 0.54,
-    "avg_loss_usd": -0.5,
-    "expectancy_usd": -0.23,
-    "profit_factor": 0.38,
+    "avg_loss_usd": -0.53,
+    "expectancy_usd": -0.26,
+    "profit_factor": 0.35,
     "longest_win_streak": 7,
     "longest_loss_streak": 12,
     "current_streak_type": "loss",
-    "current_streak_count": 5,
-    "avg_hold_hours": 27.0,
-    "median_hold_hours": 11.6
+    "current_streak_count": 6,
+    "avg_hold_hours": 27.1,
+    "median_hold_hours": 12.3
   },
   "by_system": {
     "John": {
-      "n": 78,
+      "n": 79,
       "wins": 20,
-      "wr": 25.6,
-      "pnl": -18.04,
-      "avg": -0.23,
+      "wr": 25.3,
+      "pnl": -20.34,
+      "avg": -0.26,
       "inception": "2026-10-07",
       "days_active": 29,
-      "pnl_per_day": -0.62,
+      "pnl_per_day": -0.7,
       "status": "active",
-      "open": 2,
+      "open": 1,
       "pending": 10
     },
     "Braam": {
@@ -68,12 +68,12 @@
       "name": "John",
       "inception": "2026-10-07",
       "days_active": 29,
-      "closed": 78,
+      "closed": 79,
       "wins": 20,
-      "wr": 25.6,
-      "pnl": -18.04,
-      "pnl_per_day": -0.62,
-      "open": 2,
+      "wr": 25.3,
+      "pnl": -20.34,
+      "pnl_per_day": -0.7,
+      "open": 1,
       "pending": 10
     },
     {
@@ -112,11 +112,11 @@
     },
     {
       "month": "2026-11",
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "wr": 0.0,
-      "pnl": -4.48,
-      "cumulative_pnl": -18.74
+      "pnl": -6.78,
+      "cumulative_pnl": -21.04
     }
   ],
   "equity_curve": [
@@ -605,6 +605,12 @@
       "pnl": -2.08,
       "cumulative": -18.74,
       "won": false
+    },
+    {
+      "iso": "2026-11-04T02:59:59Z",
+      "pnl": -2.3,
+      "cumulative": -21.04,
+      "won": false
     }
   ],
   "benchmark": {
@@ -935,6 +941,10 @@
       {
         "iso": "2026-11-03",
         "pct": -16.645
+      },
+      {
+        "iso": "2026-11-04",
+        "pct": -18.689
       }
     ],
     "spx": [
@@ -1031,17 +1041,17 @@
         "pct": -1.992
       }
     ],
-    "ours_pct": -16.645,
+    "ours_pct": -18.689,
     "spx_pct": -1.992,
     "spx_last_close_iso": "2026-11-03"
   },
   "by_direction": {
     "Long": {
-      "n": 68,
+      "n": 69,
       "wins": 13,
-      "wr": 19.1,
-      "pnl": -22.22,
-      "avg": -0.33
+      "wr": 18.8,
+      "pnl": -24.53,
+      "avg": -0.36
     },
     "Short": {
       "n": 13,
@@ -1060,11 +1070,11 @@
       "avg": -0.08
     },
     "MEDIUM": {
-      "n": 70,
+      "n": 71,
       "wins": 17,
-      "wr": 24.3,
-      "pnl": -18.52,
-      "avg": -0.26
+      "wr": 23.9,
+      "pnl": -20.82,
+      "avg": -0.29
     },
     "VERY HIGH": {
       "n": 1,
@@ -1148,19 +1158,19 @@
       "avg": -0.65
     },
     {
+      "coin": "RENDER",
+      "n": 5,
+      "wins": 2,
+      "wr": 40.0,
+      "pnl": -2.16,
+      "avg": -0.43
+    },
+    {
       "coin": "ALGO",
       "n": 5,
       "wins": 1,
       "wr": 20.0,
       "pnl": -2.11,
-      "avg": -0.42
-    },
-    {
-      "coin": "LINK",
-      "n": 4,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -1.7,
       "avg": -0.42
     }
   ],
@@ -1187,6 +1197,16 @@
     "conviction": "MEDIUM"
   },
   "recent_closes": [
+    {
+      "trade_id": "RENDERUSDT_20261031_CJ_002",
+      "coin": "RENDER",
+      "direction": "Long",
+      "system": "John",
+      "pnl_usd": -2.3,
+      "won": false,
+      "close_reason": "stopped_out",
+      "iso": "2026-11-04T02:59:59+00:00"
+    },
     {
       "trade_id": "XLMUSDT_20261031_CJ_001",
       "coin": "XLM",
@@ -1276,24 +1296,14 @@
       "won": false,
       "close_reason": "stopped_out",
       "iso": "2026-10-29T20:42:17+00:00"
-    },
-    {
-      "trade_id": "TAOUSDT_20261028_CJ_001",
-      "coin": "TAO",
-      "direction": "Long",
-      "system": "John",
-      "pnl_usd": -0.34,
-      "won": false,
-      "close_reason": "stopped_out",
-      "iso": "2026-10-29T20:41:36+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 2,
-    "open_long": 2,
+    "open_count": 1,
+    "open_long": 1,
     "open_short": 0,
     "pending_count": 10,
-    "capital_open_usd": 50.79,
+    "capital_open_usd": 25.39,
     "capital_pending_usd": 254.81
   },
   "macro": {
