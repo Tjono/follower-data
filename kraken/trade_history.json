@@ -3015,7 +3015,7 @@
       "fill_ids": [
         "4ff90065-29b1-49f2-8d70-808851de4f84"
       ],
-      "unrealized_pnl": 3.361719564320607,
+      "unrealized_pnl": 2.865228906677404,
       "fee_asset": [
         "usd"
       ],
@@ -5247,6 +5247,15 @@
       "entry_price": 0.07241,
       "resting_at": "2026-11-04T08:07:54Z",
       "braam_trade_id": "HBARUSDT_20261030_CJ_001",
+      "status": "RESTING"
+    },
+    "a32505c3-62ce-4741-bd5c-1fdd3459b69e": {
+      "order_id": "a32505c3-62ce-4741-bd5c-1fdd3459b69e",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.4969,
+      "resting_at": "2026-11-04T12:07:38Z",
+      "braam_trade_id": "RENDERUSDT_20261104_CJ_001",
       "status": "RESTING"
     }
   },
@@ -18470,8 +18479,16 @@
       "unrealized": 3.359764766110363,
       "realized": -21.0437,
       "total": -17.6839
+    },
+    {
+      "ts": "2026-11-04T12:08:00Z",
+      "equity": 506.492197785193,
+      "available": 430.39226978519304,
+      "unrealized": 2.8653977851930215,
+      "realized": -21.0437,
+      "total": -18.1783
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-04T11:21:30Z"
+  "updated": "2026-11-04T12:08:00Z"
 }
