@@ -3,7 +3,7 @@
  "symbol": "^NDX",
  "source": "yfinance ^NDX, auto_adjust=True",
  "start": "2026-04-01",
- "fetched_utc": "2026-11-05T20:28:42Z",
+ "fetched_utc": "2026-11-05T22:28:26Z",
  "closes": [
   {
    "iso": "2026-04-01",
@@ -611,7 +611,7 @@
   },
   {
    "iso": "2026-11-05",
-   "close": 26798.2422
+   "close": 26629.8086
   }
  ]
 }
