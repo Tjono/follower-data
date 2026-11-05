@@ -3147,7 +3147,7 @@
         "edac34a9-b1c6-4d91-9777-22908c9c05ec",
         "562304e8-4425-4875-b9fe-0ab5aba397c6"
       ],
-      "unrealized_pnl": 0.006060199652999146,
+      "unrealized_pnl": 0.1990531482992993,
       "fee_asset": [
         "usd"
       ],
@@ -3285,27 +3285,28 @@
       "leverage": 3,
       "entry_price": 0.3879,
       "entry_size": 195.0,
-      "exit_size": 0,
+      "exit_size": 195.0,
       "opened_at": "2026-11-05T14:55:48Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-05T15:23:31Z",
+      "close_price": 0.3782,
       "margin_usd": 25.2135,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0151,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -1.8915,
+      "pnl_usd": -1.9433,
+      "tag": "LOSS",
+      "fees_usd": 0.052,
+      "funding_usd": 0.0002,
       "fill_ids": [
-        "88faa083-8b16-4686-aed6-1fa48f0abacb"
+        "88faa083-8b16-4686-aed6-1fa48f0abacb",
+        "126f4b79-eefc-4f69-acd1-673505269946"
       ],
       "unrealized_pnl": -0.9838573309500076,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "SUIUSDT_20261104_CJ_001": {
       "position_id": "SUIUSDT_20261104_CJ_001",
@@ -3315,28 +3316,29 @@
       "leverage": 3,
       "entry_price": 0.8833,
       "entry_size": 85.0,
-      "exit_size": 0,
+      "exit_size": 85.0,
       "opened_at": "2026-11-05T14:55:51Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-05T15:23:17Z",
+      "close_price": 0.8604,
       "margin_usd": 25.026833,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.015,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -1.9465,
+      "pnl_usd": -1.9978,
+      "tag": "LOSS",
+      "fees_usd": 0.0516,
+      "funding_usd": 0.0003,
       "fill_ids": [
         "4c48b8c8-c4a8-48cc-b2e5-1587e1acc329",
-        "229bc1e7-81b8-4e58-97c5-3efe88bcd059"
+        "229bc1e7-81b8-4e58-97c5-3efe88bcd059",
+        "fb1ba59c-3054-4af4-8052-ed8365c92b54"
       ],
       "unrealized_pnl": -0.8568654440499962,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "RENDERUSDT_20261104_CJ_001": {
       "position_id": "RENDERUSDT_20261104_CJ_001",
@@ -3346,27 +3348,28 @@
       "leverage": 3,
       "entry_price": 1.5388,
       "entry_size": 49.3,
-      "exit_size": 0,
+      "exit_size": 49.3,
       "opened_at": "2026-11-05T15:01:55Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-05T15:24:40Z",
+      "close_price": 1.4875,
       "margin_usd": 25.287613,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0152,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -2.52909,
+      "pnl_usd": -2.58079,
+      "tag": "LOSS",
+      "fees_usd": 0.0519,
+      "funding_usd": 0.0002,
       "fill_ids": [
-        "62e7dbcf-629a-48ca-8410-a22463d47806"
+        "62e7dbcf-629a-48ca-8410-a22463d47806",
+        "bcd6959c-3bcf-4a37-b4ca-d4a99bd597a4"
       ],
       "unrealized_pnl": -0.8261743216189937,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "APTUSDT_20261104_CJ_001": {
       "position_id": "APTUSDT_20261104_CJ_001",
@@ -3376,29 +3379,31 @@
       "leverage": 3,
       "entry_price": 0.604,
       "entry_size": 125.6,
-      "exit_size": 0,
+      "exit_size": 125.6,
       "opened_at": "2026-11-05T15:01:58Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-05T15:24:04Z",
+      "close_price": 0.5866270701,
       "margin_usd": 25.287467,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0152,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -2.18204,
+      "pnl_usd": -2.23214,
+      "tag": "LOSS",
+      "fees_usd": 0.0521,
+      "funding_usd": 0.002,
       "fill_ids": [
         "11fbe3a2-fa80-475b-835d-1076ff155ed9",
         "5eabb1b0-cf27-4f2a-bab9-fb2fedd44f88",
-        "72f1316b-25d7-492d-a579-d358efa15e9c"
+        "72f1316b-25d7-492d-a579-d358efa15e9c",
+        "10148fee-2787-417d-825d-b6ed0ed2718b",
+        "7c49373c-a3ea-4a6d-86b0-5c3d75e12688"
       ],
       "unrealized_pnl": -0.8149925502640044,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     }
   },
   "orders": {
@@ -9148,6 +9153,76 @@
       "realized_pnl": -0.00366,
       "realized_funding": 3.382928e-05,
       "sequence_id": "11852169"
+    },
+    "bcd6959c-3bcf-4a37-b4ca-d4a99bd597a4": {
+      "fill_id": "bcd6959c-3bcf-4a37-b4ca-d4a99bd597a4",
+      "symbol": "PF_RENDERUSD",
+      "side": "sell",
+      "order_id": "a327477e-1415-4d4d-b809-e21ca953a9b9",
+      "cliOrdId": "RENDERUSDT_20261104_CJ_001:SL",
+      "size": 49.3,
+      "price": 1.4875,
+      "fillTime": "2026-11-05T15:24:40Z",
+      "fillType": "taker",
+      "realized_pnl": -2.52909,
+      "realized_funding": 0.00017482191,
+      "sequence_id": "1530438"
+    },
+    "10148fee-2787-417d-825d-b6ed0ed2718b": {
+      "fill_id": "10148fee-2787-417d-825d-b6ed0ed2718b",
+      "symbol": "PF_APTUSD",
+      "side": "sell",
+      "order_id": "a327477b-5af9-446b-a20a-51f26b992749",
+      "cliOrdId": "APTUSDT_20261104_CJ_001:SL",
+      "size": 91.6,
+      "price": 0.5866,
+      "fillTime": "2026-11-05T15:24:04Z",
+      "fillType": "taker",
+      "realized_pnl": -1.59384,
+      "realized_funding": 0,
+      "sequence_id": "1479646"
+    },
+    "7c49373c-a3ea-4a6d-86b0-5c3d75e12688": {
+      "fill_id": "7c49373c-a3ea-4a6d-86b0-5c3d75e12688",
+      "symbol": "PF_APTUSD",
+      "side": "sell",
+      "order_id": "a327477b-5af9-446b-a20a-51f26b992749",
+      "cliOrdId": "APTUSDT_20261104_CJ_001:SL",
+      "size": 34,
+      "price": 0.5867,
+      "fillTime": "2026-11-05T15:24:04Z",
+      "fillType": "taker",
+      "realized_pnl": -0.5882,
+      "realized_funding": 0.00197529763,
+      "sequence_id": "1479645"
+    },
+    "126f4b79-eefc-4f69-acd1-673505269946": {
+      "fill_id": "126f4b79-eefc-4f69-acd1-673505269946",
+      "symbol": "PF_ONDOUSD",
+      "side": "sell",
+      "order_id": "a327453b-44b2-4396-af51-ebdc9b451f1d",
+      "cliOrdId": "ONDOUSDT_20261104_CJ_001:SL",
+      "size": 195,
+      "price": 0.3782,
+      "fillTime": "2026-11-05T15:23:31Z",
+      "fillType": "taker",
+      "realized_pnl": -1.8915,
+      "realized_funding": 0.00020488304,
+      "sequence_id": "3154529"
+    },
+    "fb1ba59c-3054-4af4-8052-ed8365c92b54": {
+      "fill_id": "fb1ba59c-3054-4af4-8052-ed8365c92b54",
+      "symbol": "PF_SUIUSD",
+      "side": "sell",
+      "order_id": "a3274561-59ae-480b-a2cf-21448628dd37",
+      "cliOrdId": "SUIUSDT_20261104_CJ_001:SL#1793890630374",
+      "size": 85,
+      "price": 0.8604,
+      "fillTime": "2026-11-05T15:23:17Z",
+      "fillType": "taker",
+      "realized_pnl": -1.9465,
+      "realized_funding": 0.00037361534,
+      "sequence_id": "21393619"
     }
   },
   "snapshots": [
@@ -19734,8 +19809,16 @@
       "unrealized": -3.473906916281219,
       "realized": -27.5277,
       "total": -31.0016
+    },
+    {
+      "ts": "2026-11-05T15:25:03Z",
+      "equity": 491.0089988498459,
+      "available": 407.58951384984584,
+      "unrealized": 0.19890199814517792,
+      "realized": -36.2817,
+      "total": -36.0828
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-05T15:18:02Z"
+  "updated": "2026-11-05T15:25:03Z"
 }
