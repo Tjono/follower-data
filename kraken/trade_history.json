@@ -3405,6 +3405,35 @@
         "usd"
       ],
       "pnl_basis": "net"
+    },
+    "XRPUSDT_20261105_CJ_001": {
+      "position_id": "XRPUSDT_20261105_CJ_001",
+      "braam_trade_id": "XRPUSDT_20261105_CJ_001",
+      "coin": "XRPUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.2298,
+      "entry_size": 59.0,
+      "exit_size": 0,
+      "opened_at": "2026-11-05T18:08:28Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 24.186067,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0363,
+      "funding_usd": null,
+      "fill_ids": [
+        "6447d4f1-2b3b-4ea9-a1c7-2d56f7b1e0fc"
+      ],
+      "unrealized_pnl": 0.11407881220999672,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -5719,6 +5748,15 @@
       "entry_price": 1.3465,
       "resting_at": "2026-11-05T16:10:11Z",
       "braam_trade_id": "XRPUSDT_20261028_CJ_002",
+      "status": "RESTING"
+    },
+    "a32789c9-1df3-41cd-9f3b-98947592df92": {
+      "order_id": "a32789c9-1df3-41cd-9f3b-98947592df92",
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "entry_price": 1.8685,
+      "resting_at": "2026-11-05T18:08:27Z",
+      "braam_trade_id": "CAKEUSDT_20261105_CJ_001",
       "status": "RESTING"
     }
   },
@@ -9256,6 +9294,20 @@
       "realized_pnl": 0.2592,
       "realized_funding": -0.00017732536,
       "sequence_id": "11542527"
+    },
+    "6447d4f1-2b3b-4ea9-a1c7-2d56f7b1e0fc": {
+      "fill_id": "6447d4f1-2b3b-4ea9-a1c7-2d56f7b1e0fc",
+      "symbol": "PF_XRPUSD",
+      "side": "buy",
+      "order_id": "a32789cb-6f50-4029-856c-422a15c5f497",
+      "cliOrdId": "XRPUSDT_20261105_CJ_001",
+      "size": 59,
+      "price": 1.2298,
+      "fillTime": "2026-11-05T18:08:28.629Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "40215386"
     }
   },
   "snapshots": [
@@ -19882,8 +19934,16 @@
       "unrealized": 0.0,
       "realized": -32.3372,
       "total": -32.3372
+    },
+    {
+      "ts": "2026-11-05T18:08:47Z",
+      "equity": 491.78645022765596,
+      "available": 402.84861522765596,
+      "unrealized": 0.11117266505596203,
+      "realized": -32.3372,
+      "total": -32.226
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-05T17:17:52Z"
+  "updated": "2026-11-05T18:08:47Z"
 }
