@@ -2999,28 +2999,29 @@
       "leverage": 3,
       "entry_price": 8.334,
       "entry_size": 9.14,
-      "exit_size": 7.31,
+      "exit_size": 9.14,
       "opened_at": "2026-11-02T17:45:26Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-05T15:12:17Z",
+      "close_price": 8.7494857768,
       "margin_usd": 25.39092,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": 3.8012,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0476,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "pnl_gross_usd": 3.79754,
+      "pnl_usd": 3.77254,
+      "tag": "WIN",
+      "fees_usd": 0.0552,
+      "funding_usd": 0.0302,
       "fill_ids": [
         "4ff90065-29b1-49f2-8d70-808851de4f84",
-        "84042130-d5b4-4b2b-af77-760f2dc808a0"
+        "84042130-d5b4-4b2b-af77-760f2dc808a0",
+        "1be1fdeb-a799-449c-b616-69b276ebabfa"
       ],
       "unrealized_pnl": 0.09984408342690156,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "XLMUSDT_20261031_CJ_001": {
       "position_id": "XLMUSDT_20261031_CJ_001",
@@ -3146,7 +3147,7 @@
         "edac34a9-b1c6-4d91-9777-22908c9c05ec",
         "562304e8-4425-4875-b9fe-0ab5aba397c6"
       ],
-      "unrealized_pnl": 0.04798546032239969,
+      "unrealized_pnl": 0.08655726213720003,
       "fee_asset": [
         "usd"
       ],
@@ -3300,7 +3301,7 @@
       "fill_ids": [
         "88faa083-8b16-4686-aed6-1fa48f0abacb"
       ],
-      "unrealized_pnl": -1.1539757814000007,
+      "unrealized_pnl": -1.5018125343000068,
       "fee_asset": [
         "usd"
       ],
@@ -3331,7 +3332,7 @@
         "4c48b8c8-c4a8-48cc-b2e5-1587e1acc329",
         "229bc1e7-81b8-4e58-97c5-3efe88bcd059"
       ],
-      "unrealized_pnl": -1.2294772945999932,
+      "unrealized_pnl": -1.5873819963499936,
       "fee_asset": [
         "usd"
       ],
@@ -3361,7 +3362,7 @@
       "fill_ids": [
         "62e7dbcf-629a-48ca-8410-a22463d47806"
       ],
-      "unrealized_pnl": -0.8752547152620006,
+      "unrealized_pnl": -1.2313312611689977,
       "fee_asset": [
         "usd"
       ],
@@ -3393,7 +3394,7 @@
         "5eabb1b0-cf27-4f2a-bab9-fb2fedd44f88",
         "72f1316b-25d7-492d-a579-d358efa15e9c"
       ],
-      "unrealized_pnl": -0.9435039557519919,
+      "unrealized_pnl": -1.4147603317279989,
       "fee_asset": [
         "usd"
       ],
@@ -9133,6 +9134,20 @@
       "realized_pnl": -0.37482321429,
       "realized_funding": 0.00030859737,
       "sequence_id": "11542251"
+    },
+    "1be1fdeb-a799-449c-b616-69b276ebabfa": {
+      "fill_id": "1be1fdeb-a799-449c-b616-69b276ebabfa",
+      "symbol": "PF_AVAXUSD",
+      "side": "sell",
+      "order_id": "a3217912-1847-467e-9148-009eceffabc8",
+      "cliOrdId": "AVAXUSDT_20261101_CJ_001:SL",
+      "size": 1.83,
+      "price": 8.332,
+      "fillTime": "2026-11-05T15:12:17Z",
+      "fillType": "taker",
+      "realized_pnl": -0.00366,
+      "realized_funding": 3.382928e-05,
+      "sequence_id": "11852169"
     }
   },
   "snapshots": [
@@ -19703,8 +19718,16 @@
       "unrealized": -4.053181587120516,
       "realized": -31.3003,
       "total": -35.3535
+    },
+    {
+      "ts": "2026-11-05T15:13:16Z",
+      "equity": 493.3926682494199,
+      "available": 402.6275772494199,
+      "unrealized": -5.64734074961187,
+      "realized": -27.5277,
+      "total": -33.175
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-05T15:11:18Z"
+  "updated": "2026-11-05T15:13:16Z"
 }

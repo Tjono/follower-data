@@ -4,7 +4,7 @@
   "source": "Yahoo chart ^GSPC, interval 1d (stdlib fetch)",
   "start": "2026-04-01",
   "end": "2026-11-05",
-  "fetched_utc": "2026-11-05T15:11:21Z",
+  "fetched_utc": "2026-11-05T15:13:17Z",
   "venue": "Kraken",
   "closes": [
     {
@@ -613,7 +613,7 @@
     },
     {
       "iso": "2026-11-05",
-      "close": 7530.6201
+      "close": 7523.5298
     }
   ]
 }
