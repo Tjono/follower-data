@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-05T11:18:20Z",
+  "last_updated_iso": "2026-11-05T12:18:12Z",
   "freshness": {
-    "engine_run_iso": "2026-11-05T11:17:41Z",
+    "engine_run_iso": "2026-11-05T12:17:37Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-11-05T10:06:00Z",
+    "feed_generated_iso": "2026-11-05T12:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-05T11:18:20Z",
+    "published_iso": "2026-11-05T12:18:12Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.4991,
-    "equity": 506.2658,
-    "available": 402.1139,
+    "unrealized_pnl": 1.0342,
+    "equity": 505.6492,
+    "available": 401.4973,
     "position_margin": 16.351
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "39s ago",
+      "value": "35s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "72 min old",
+      "value": "11 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$506.27",
+      "value": "$505.65",
       "status": "ok",
       "action": null
     },
@@ -798,19 +798,6 @@
   ],
   "dry_run_plans": [],
   "recent_signals": [
-    {
-      "trade_id": "XLMUSDT_20261105_CJ_001",
-      "coin": "XLMUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 0.17524426,
-      "tp1": 0.15481185,
-      "sl": 0.17874626,
-      "conviction": "MEDIUM",
-      "track_only": false,
-      "iso": "2026-11-05T00:03:00Z",
-      "rehearsal": false
-    },
     {
       "trade_id": "ALGOUSDT_20261105_CJ_001",
       "coin": "ALGOUSDT",
@@ -2794,7 +2781,7 @@
       "reason": "Not enough free margin on Kraken for another trade right now.",
       "reason_short": "margin cap reached",
       "iso": "2026-11-05T04:07:51Z",
-      "last_seen_iso": "2026-11-05T11:17:41Z"
+      "last_seen_iso": "2026-11-05T12:17:37Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -3002,7 +2989,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-05T10:06Z",
+    "feed_generated_utc": "2026-11-05T12:07Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
@@ -3010,7 +2997,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-05T10:06Z",
+    "feed_generated_utc": "2026-11-05T12:07Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
@@ -3018,13 +3005,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-05T10:06Z",
+    "feed_generated_utc": "2026-11-05T12:07Z",
     "checked": 20,
     "in_parity": 20,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-05T11:18:20Z",
+    "updated_iso": "2026-11-05T12:18:12Z",
     "trades": [
       {
         "trade_id": "ALGOUSDT_20261105_CJ_001",
