@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-05T03:18:14Z",
+  "last_updated_iso": "2026-11-05T03:48:17Z",
   "freshness": {
-    "engine_run_iso": "2026-11-05T03:17:39Z",
+    "engine_run_iso": "2026-11-05T03:47:48Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-05T02:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-05T03:18:14Z",
+    "published_iso": "2026-11-05T03:48:17Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.4994,
-    "equity": 507.6568,
-    "available": 411.0849,
+    "unrealized_pnl": 1.4203,
+    "equity": 507.651,
+    "available": 411.0791,
     "position_margin": 16.351
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "35s ago",
+      "value": "29s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "72 min old",
+      "value": "102 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$507.66",
+      "value": "$507.65",
       "status": "ok",
       "action": null
     },
@@ -3017,7 +3017,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-05T03:18:14Z",
+    "updated_iso": "2026-11-05T03:48:17Z",
     "trades": [
       {
         "trade_id": "XLMUSDT_20261105_CJ_001",
