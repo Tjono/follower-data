@@ -3016,7 +3016,7 @@
         "4ff90065-29b1-49f2-8d70-808851de4f84",
         "84042130-d5b4-4b2b-af77-760f2dc808a0"
       ],
-      "unrealized_pnl": 0.29701015002689946,
+      "unrealized_pnl": 0.2981950746609017,
       "fee_asset": [
         "usd"
       ],
@@ -3128,7 +3128,7 @@
       "leverage": 3,
       "entry_price": 56.48,
       "entry_size": 1.34,
-      "exit_size": 0,
+      "exit_size": 1.07,
       "opened_at": "2026-11-04T15:05:03Z",
       "closed_at": null,
       "close_price": null,
@@ -3136,20 +3136,20 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 2.9318,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.0151,
+      "fees_usd": 0.0439,
       "funding_usd": null,
       "fill_ids": [
         "d2831d4f-a635-46c8-afa7-059bebe7e6f3",
-        "edac34a9-b1c6-4d91-9777-22908c9c05ec"
+        "edac34a9-b1c6-4d91-9777-22908c9c05ec",
+        "562304e8-4425-4875-b9fe-0ab5aba397c6"
       ],
-      "unrealized_pnl": -0.027854378237499946,
+      "unrealized_pnl": 0.23404493893120504,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     },
     "NEARUSDT_20261104_CJ_001": {
       "position_id": "NEARUSDT_20261104_CJ_001",
@@ -3237,7 +3237,7 @@
       "fill_ids": [
         "7f2ac415-6718-48e6-8a12-bae8c87fde92"
       ],
-      "unrealized_pnl": -1.4352126366240008,
+      "unrealized_pnl": -1.3070314710959998,
       "fee_asset": [
         "usd"
       ],
@@ -3296,10 +3296,11 @@
       "fill_ids": [
         "88faa083-8b16-4686-aed6-1fa48f0abacb"
       ],
-      "unrealized_pnl": -0.07457392605000418,
+      "unrealized_pnl": 0.016812771299994367,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "SUIUSDT_20261104_CJ_001": {
       "position_id": "SUIUSDT_20261104_CJ_001",
@@ -3326,7 +3327,68 @@
         "4c48b8c8-c4a8-48cc-b2e5-1587e1acc329",
         "229bc1e7-81b8-4e58-97c5-3efe88bcd059"
       ],
-      "unrealized_pnl": -0.09426621464999896,
+      "unrealized_pnl": -0.1324501399000011,
+      "fee_asset": [
+        "usd"
+      ],
+      "pnl_basis": null
+    },
+    "RENDERUSDT_20261104_CJ_001": {
+      "position_id": "RENDERUSDT_20261104_CJ_001",
+      "braam_trade_id": "RENDERUSDT_20261104_CJ_001",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.5388,
+      "entry_size": 49.3,
+      "exit_size": 0,
+      "opened_at": "2026-11-05T15:01:55Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 25.287613,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0152,
+      "funding_usd": null,
+      "fill_ids": [
+        "62e7dbcf-629a-48ca-8410-a22463d47806"
+      ],
+      "unrealized_pnl": 0.26050157862400175,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "APTUSDT_20261104_CJ_001": {
+      "position_id": "APTUSDT_20261104_CJ_001",
+      "braam_trade_id": "APTUSDT_20261104_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.604,
+      "entry_size": 125.6,
+      "exit_size": 0,
+      "opened_at": "2026-11-05T15:01:58Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 25.287467,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0152,
+      "funding_usd": null,
+      "fill_ids": [
+        "11fbe3a2-fa80-475b-835d-1076ff155ed9",
+        "5eabb1b0-cf27-4f2a-bab9-fb2fedd44f88",
+        "72f1316b-25d7-492d-a579-d358efa15e9c"
+      ],
+      "unrealized_pnl": 0.2753860484480018,
       "fee_asset": [
         "usd"
       ]
@@ -8953,6 +9015,76 @@
       "realized_pnl": -2.7432,
       "realized_funding": -0.00258437591,
       "sequence_id": "9730925"
+    },
+    "562304e8-4425-4875-b9fe-0ab5aba397c6": {
+      "fill_id": "562304e8-4425-4875-b9fe-0ab5aba397c6",
+      "symbol": "PF_LTCUSD",
+      "side": "buy",
+      "order_id": "a325458c-2085-4c9c-b05e-0250e348ead7",
+      "cliOrdId": "LTCUSDT_20261031_CJ_001:TP1",
+      "size": 1.07,
+      "price": 53.74,
+      "fillTime": "2026-11-05T15:02:15.001Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": 4.12388e-06,
+      "sequence_id": "11542177"
+    },
+    "72f1316b-25d7-492d-a579-d358efa15e9c": {
+      "fill_id": "72f1316b-25d7-492d-a579-d358efa15e9c",
+      "symbol": "PF_APTUSD",
+      "side": "buy",
+      "order_id": "a324b00d-2a45-46ef-b866-6df840772a6f",
+      "cliOrdId": "APTUSDT_20261104_CJ_001",
+      "size": 21.2,
+      "price": 0.604,
+      "fillTime": "2026-11-05T15:01:58.418Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 4.707e-08,
+      "sequence_id": "1479536"
+    },
+    "5eabb1b0-cf27-4f2a-bab9-fb2fedd44f88": {
+      "fill_id": "5eabb1b0-cf27-4f2a-bab9-fb2fedd44f88",
+      "symbol": "PF_APTUSD",
+      "side": "buy",
+      "order_id": "a324b00d-2a45-46ef-b866-6df840772a6f",
+      "cliOrdId": "APTUSDT_20261104_CJ_001",
+      "size": 23.9,
+      "price": 0.604,
+      "fillTime": "2026-11-05T15:01:58.38Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 5.73e-09,
+      "sequence_id": "1479535"
+    },
+    "11fbe3a2-fa80-475b-835d-1076ff155ed9": {
+      "fill_id": "11fbe3a2-fa80-475b-835d-1076ff155ed9",
+      "symbol": "PF_APTUSD",
+      "side": "buy",
+      "order_id": "a324b00d-2a45-46ef-b866-6df840772a6f",
+      "cliOrdId": "APTUSDT_20261104_CJ_001",
+      "size": 80.5,
+      "price": 0.604,
+      "fillTime": "2026-11-05T15:01:58.374Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "1479534"
+    },
+    "62e7dbcf-629a-48ca-8410-a22463d47806": {
+      "fill_id": "62e7dbcf-629a-48ca-8410-a22463d47806",
+      "symbol": "PF_RENDERUSD",
+      "side": "buy",
+      "order_id": "a3265d42-f114-4e9f-8c3e-02ed03139ea1",
+      "cliOrdId": "RENDERUSDT_20261104_CJ_001#1793851686599",
+      "size": 49.3,
+      "price": 1.5388,
+      "fillTime": "2026-11-05T15:01:55.294Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "1530372"
     }
   },
   "snapshots": [
@@ -19507,8 +19639,16 @@
       "unrealized": -1.3577765027585504,
       "realized": -26.9589,
       "total": -28.3167
+    },
+    {
+      "ts": "2026-11-05T15:03:45Z",
+      "equity": 501.86675945693236,
+      "available": 400.7447024569323,
+      "unrealized": -0.3541777717676731,
+      "realized": -26.9589,
+      "total": -27.3131
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-05T14:57:18Z"
+  "updated": "2026-11-05T15:03:45Z"
 }
