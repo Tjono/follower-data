@@ -3016,7 +3016,7 @@
         "4ff90065-29b1-49f2-8d70-808851de4f84",
         "84042130-d5b4-4b2b-af77-760f2dc808a0"
       ],
-      "unrealized_pnl": 0.6519181114428003,
+      "unrealized_pnl": 0.5809680280740012,
       "fee_asset": [
         "usd"
       ],
@@ -3145,7 +3145,7 @@
         "d2831d4f-a635-46c8-afa7-059bebe7e6f3",
         "edac34a9-b1c6-4d91-9777-22908c9c05ec"
       ],
-      "unrealized_pnl": 1.6351436514955948,
+      "unrealized_pnl": 1.8000350204048006,
       "fee_asset": [
         "usd"
       ],
@@ -3175,7 +3175,7 @@
       "fill_ids": [
         "356ad2e1-efa4-4a6d-b323-0e42ce613e12"
       ],
-      "unrealized_pnl": -1.59581102832,
+      "unrealized_pnl": -1.875770743680004,
       "fee_asset": [
         "usd"
       ],
@@ -3205,11 +3205,40 @@
       "fill_ids": [
         "769429fa-12a9-4a6b-ab63-09fede10a561"
       ],
-      "unrealized_pnl": -0.08261395299999752,
+      "unrealized_pnl": -0.2614995441999901,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "UNIUSDT_20261104_CJ_001": {
+      "position_id": "UNIUSDT_20261104_CJ_001",
+      "braam_trade_id": "UNIUSDT_20261104_CJ_001",
+      "coin": "UNIUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 7.265,
+      "entry_size": 10.4,
+      "exit_size": 0,
+      "opened_at": "2026-11-05T13:31:53Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 25.185333,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0151,
+      "funding_usd": null,
+      "fill_ids": [
+        "7f2ac415-6718-48e6-8a12-bae8c87fde92"
+      ],
+      "unrealized_pnl": 0.1636181328080056,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -8726,6 +8755,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "4057184"
+    },
+    "7f2ac415-6718-48e6-8a12-bae8c87fde92": {
+      "fill_id": "7f2ac415-6718-48e6-8a12-bae8c87fde92",
+      "symbol": "PF_UNIUSD",
+      "side": "buy",
+      "order_id": "a325b1bb-49fd-406a-bede-575608d41119",
+      "cliOrdId": "UNIUSDT_20261104_CJ_001",
+      "size": 10.4,
+      "price": 7.265,
+      "fillTime": "2026-11-05T13:31:53.093Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "9637770"
     }
   },
   "snapshots": [
@@ -19240,8 +19283,16 @@
       "unrealized": 0.606235188297297,
       "realized": -22.5101,
       "total": -21.9039
+    },
+    {
+      "ts": "2026-11-05T13:33:10Z",
+      "equity": 504.78169914300076,
+      "available": 400.62977114300077,
+      "unrealized": 0.4440299685304109,
+      "realized": -22.5101,
+      "total": -22.0661
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-05T13:18:14Z"
+  "updated": "2026-11-05T13:33:10Z"
 }
