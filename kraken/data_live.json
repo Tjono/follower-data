@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-06T12:48:48Z",
+  "last_updated_iso": "2026-11-06T13:18:02Z",
   "freshness": {
-    "engine_run_iso": "2026-11-06T12:48:28Z",
+    "engine_run_iso": "2026-11-06T13:17:40Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-06T12:27:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-06T12:48:48Z",
+    "published_iso": "2026-11-06T13:18:02Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 4.3938,
-    "equity": 492.8988,
-    "available": 396.9093,
+    "unrealized_pnl": 4.086,
+    "equity": 492.4392,
+    "available": 396.4497,
     "position_margin": 7.359
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "20s ago",
+      "value": "22s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "21 min old",
+      "value": "51 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$492.90",
+      "value": "$492.44",
       "status": "ok",
       "action": null
     },
@@ -2924,7 +2924,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-05T20:08:45Z",
-      "last_seen_iso": "2026-11-06T12:48:28Z"
+      "last_seen_iso": "2026-11-06T13:17:40Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -3099,7 +3099,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-06T12:48:48Z",
+    "updated_iso": "2026-11-06T13:18:02Z",
     "trades": [
       {
         "trade_id": "RENDERUSDT_20261105_CJ_001",
