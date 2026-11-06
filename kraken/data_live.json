@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-06T18:19:09Z",
+  "last_updated_iso": "2026-11-06T18:48:23Z",
   "freshness": {
-    "engine_run_iso": "2026-11-06T18:18:47Z",
+    "engine_run_iso": "2026-11-06T18:48:02Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-06T18:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-06T18:19:09Z",
+    "published_iso": "2026-11-06T18:48:23Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.0825,
-    "equity": 493.105,
-    "available": 406.5551,
+    "unrealized_pnl": 1.1666,
+    "equity": 493.207,
+    "available": 406.6571,
     "position_margin": 1.4778
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "22s ago",
+      "value": "21s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "13 min old",
+      "value": "42 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$493.11",
+      "value": "$493.21",
       "status": "ok",
       "action": null
     },
@@ -575,18 +575,6 @@
     }
   ],
   "recent_opens": [
-    {
-      "trade_id": "NEARUSDT_20261104_CJ_001",
-      "coin": "NEARUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 4.0319546,
-      "live_entry_fill": 4.032,
-      "tp1_hit": false,
-      "iso": "2026-11-04T18:39:00Z",
-      "_iso_ms": 1793817540000,
-      "rehearsal": false
-    },
     {
       "trade_id": "XLMUSDT_20261104_CJ_001",
       "coin": "XLMUSDT",
@@ -2887,7 +2875,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-05T20:08:45Z",
-      "last_seen_iso": "2026-11-06T18:18:47Z"
+      "last_seen_iso": "2026-11-06T18:48:02Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -3069,7 +3057,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-06T18:19:09Z",
+    "updated_iso": "2026-11-06T18:48:23Z",
     "trades": [
       {
         "trade_id": "ADAUSDT_20261106_CJ_001",
