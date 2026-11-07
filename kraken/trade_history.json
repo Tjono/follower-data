@@ -3464,7 +3464,7 @@
         "8db4cc7e-dcdd-4941-a1e8-789d67ca1eb2",
         "e59d8b2a-f238-47d1-be72-89648a15e4d5"
       ],
-      "unrealized_pnl": 0.847218712527001,
+      "unrealized_pnl": 0.8282959554870006,
       "fee_asset": [
         "usd"
       ],
@@ -5873,6 +5873,24 @@
       "entry_price": 11.99,
       "resting_at": "2026-11-06T20:08:36Z",
       "braam_trade_id": "LINKUSDT_20261104_CJ_001",
+      "status": "RESTING"
+    },
+    "a32a0d7a-a029-415c-89a1-b7a76e821d57": {
+      "order_id": "a32a0d7a-a029-415c-89a1-b7a76e821d57",
+      "coin": "XLMUSDT",
+      "direction": "Short",
+      "entry_price": 0.17127,
+      "resting_at": "2026-11-07T00:08:20Z",
+      "braam_trade_id": "XLMUSDT_20261105_CJ_001",
+      "status": "RESTING"
+    },
+    "a32a0d75-abe8-4420-9f4a-c9eea2359322": {
+      "order_id": "a32a0d75-abe8-4420-9f4a-c9eea2359322",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.32513,
+      "resting_at": "2026-11-07T00:08:17Z",
+      "braam_trade_id": "TRXUSDT_20261031_CJ_001",
       "status": "RESTING"
     }
   },
@@ -20536,8 +20554,16 @@
       "unrealized": 0.8473412558390967,
       "realized": -32.4508,
       "total": -31.6035
+    },
+    {
+      "ts": "2026-11-07T00:08:32Z",
+      "equity": 492.9947986441042,
+      "available": 406.35073264410426,
+      "unrealized": 0.8282986441042096,
+      "realized": -32.4508,
+      "total": -31.6225
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-06T23:18:19Z"
+  "updated": "2026-11-07T00:08:32Z"
 }
