@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-07T15:48:03Z",
+  "last_updated_iso": "2026-11-07T16:09:00Z",
   "freshness": {
-    "engine_run_iso": "2026-11-07T15:47:38Z",
+    "engine_run_iso": "2026-11-07T16:08:39Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-11-07T14:06:00Z",
+    "feed_generated_iso": "2026-11-07T16:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-07T15:48:03Z",
+    "published_iso": "2026-11-07T16:09:00Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,15 +18,15 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.6398,
-    "equity": 492.7572,
-    "available": 405.8526,
+    "unrealized_pnl": 0.624,
+    "equity": 492.7384,
+    "available": 413.67,
     "position_margin": 1.4778
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 13,
-    "in_sync": 13,
+    "checked": 12,
+    "in_sync": 12,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "25s ago",
+      "value": "21s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "102 min old",
+      "value": "60s old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (127 records, 12 resting, 1 open, 94 closed)",
+      "value": "OK (127 records, 11 resting, 1 open, 94 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$492.76",
+      "value": "$492.74",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (12 resting = journal)",
+      "value": "in sync (11 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -115,40 +115,6 @@
     }
   ],
   "active_trades": [
-    {
-      "trade_id": "XRPUSDT_20261028_CJ_002",
-      "coin": "XRPUSDT",
-      "direction": "Short",
-      "entry_price": 1.37448793,
-      "sl": 1.40087171,
-      "tp1": 1.1369812,
-      "tp2": 0.83785659,
-      "capital_usd": 25.4,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-10-28",
-      "time_opened_utc": "12:04",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false,
-      "live_filled_ts": null
-    },
     {
       "trade_id": "SOLUSDT_20261030_CJ_001",
       "coin": "SOLUSDT",
@@ -459,10 +425,10 @@
       "trade_id": "BNBUSDT_20261105_CJ_001",
       "coin": "BNBUSDT",
       "direction": "Short",
-      "entry_price": 733.13934026,
-      "sl": 741.43990632,
-      "tp1": 631.09063537,
-      "tp2": 602.84018736,
+      "entry_price": 705.49667532,
+      "sl": 712.99150014,
+      "tp1": 660.28508172,
+      "tp2": 627.32667532,
       "capital_usd": 24.55,
       "leverage": 3,
       "trading_system": "John",
@@ -2764,6 +2730,13 @@
       "trading_system": "John",
       "close_reason": "the feed cancelled it (CANCELLED: Stale 24.0h \u2265 24h grace: Price $0.3779 is 15.8",
       "iso": "2026-11-06T16:08:36Z"
+    },
+    {
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "close_reason": "the feed cancelled it (CANCELLED: Stale 26.0h \u2265 24h grace: Price $1.1581 is 18.7",
+      "iso": "2026-11-07T16:08:39Z"
     }
   ],
   "recent_skips": [
@@ -2777,7 +2750,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-05T20:08:45Z",
-      "last_seen_iso": "2026-11-07T15:47:38Z"
+      "last_seen_iso": "2026-11-07T16:08:39Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -2906,36 +2879,36 @@
         "closed_count": 91
       }
     },
-    "live_trade_count_total": 107,
-    "live_real_count": 107,
+    "live_trade_count_total": 106,
+    "live_real_count": 106,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-07T14:06Z",
-    "checked": 13,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-11-07T16:08Z",
+    "checked": 12,
+    "in_parity": 12,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-07T14:06Z",
-    "checked": 13,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-11-07T16:08Z",
+    "checked": 12,
+    "in_parity": 12,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-07T14:06Z",
-    "checked": 13,
-    "in_parity": 13,
+    "feed_generated_utc": "2026-11-07T16:08Z",
+    "checked": 12,
+    "in_parity": 12,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-07T15:48:03Z",
+    "updated_iso": "2026-11-07T16:09:00Z",
     "trades": [
       {
         "trade_id": "ADAUSDT_20261106_CJ_001",
@@ -3559,7 +3532,7 @@
         "direction": "Short",
         "trading_system": "John",
         "kraken": {
-          "status": "RESTING",
+          "status": "CANCELLED",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 25.4
