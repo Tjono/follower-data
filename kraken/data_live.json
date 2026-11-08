@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-08T21:56:28Z",
+  "last_updated_iso": "2026-11-08T22:07:54Z",
   "freshness": {
-    "engine_run_iso": "2026-11-08T21:56:06Z",
+    "engine_run_iso": "2026-11-08T22:07:39Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-11-08T20:06:00Z",
+    "feed_generated_iso": "2026-11-08T22:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-08T21:56:28Z",
+    "published_iso": "2026-11-08T22:07:54Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,14 +19,14 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 490.8247,
-    "available": 402.5091,
+    "equity": 490.8728,
+    "available": 409.774,
     "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 12,
-    "in_sync": 12,
+    "checked": 11,
+    "in_sync": 11,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "22s ago",
+      "value": "15s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "110 min old",
+      "value": "54s old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (129 records, 12 resting, 96 closed)",
+      "value": "OK (129 records, 11 resting, 96 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$490.82",
+      "value": "$490.87",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (12 resting = journal)",
+      "value": "in sync (11 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -371,40 +371,6 @@
       "time_activated_utc": null,
       "date_opened": "2026-11-05",
       "time_opened_utc": "04:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": null,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false,
-      "live_filled_ts": null
-    },
-    {
-      "trade_id": "CAKEUSDT_20261105_CJ_001",
-      "coin": "CAKEUSDT",
-      "direction": "Long",
-      "entry_price": 1.80425,
-      "sl": 1.75921597,
-      "tp1": 2.15525639,
-      "tp2": 2.22656807,
-      "capital_usd": 24.59,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "PENDING",
-      "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
-      "date_opened": "2026-11-05",
-      "time_opened_utc": "12:03",
       "conviction": "MEDIUM",
       "tp1_hit": null,
       "sl_moved_to_be": null,
@@ -2757,6 +2723,13 @@
       "trading_system": "John",
       "close_reason": "the feed cancelled it (CANCELLED: Stale 26.0h \u2265 24h grace: Price $1.1581 is 18.7",
       "iso": "2026-11-07T16:08:39Z"
+    },
+    {
+      "coin": "CAKEUSDT",
+      "direction": "Long",
+      "trading_system": "John",
+      "close_reason": "the feed cancelled it (CANCELLED: Signal direction flipped to Short (5/8 signals",
+      "iso": "2026-11-08T22:07:39Z"
     }
   ],
   "recent_skips": [
@@ -2770,7 +2743,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-05T20:08:45Z",
-      "last_seen_iso": "2026-11-08T21:56:06Z"
+      "last_seen_iso": "2026-11-08T22:07:39Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -2856,36 +2829,36 @@
         "closed_count": 93
       }
     },
-    "live_trade_count_total": 108,
-    "live_real_count": 108,
+    "live_trade_count_total": 107,
+    "live_real_count": 107,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-08T20:06Z",
-    "checked": 12,
-    "in_parity": 12,
+    "feed_generated_utc": "2026-11-08T22:07Z",
+    "checked": 11,
+    "in_parity": 11,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-08T20:06Z",
-    "checked": 12,
-    "in_parity": 12,
+    "feed_generated_utc": "2026-11-08T22:07Z",
+    "checked": 11,
+    "in_parity": 11,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-08T20:06Z",
-    "checked": 12,
-    "in_parity": 12,
+    "feed_generated_utc": "2026-11-08T22:07Z",
+    "checked": 11,
+    "in_parity": 11,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-08T21:56:28Z",
+    "updated_iso": "2026-11-08T22:07:54Z",
     "trades": [
       {
         "trade_id": "BNBUSDT_20261108_CJ_001",
@@ -3101,7 +3074,7 @@
         "direction": "Long",
         "trading_system": "John",
         "kraken": {
-          "status": "RESTING",
+          "status": "CANCELLED",
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 24.59
