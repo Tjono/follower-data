@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-08T15:18:31Z",
+  "last_updated_iso": "2026-11-08T15:48:36Z",
   "freshness": {
-    "engine_run_iso": "2026-11-08T15:18:09Z",
+    "engine_run_iso": "2026-11-08T15:48:15Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-08T14:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-08T15:18:31Z",
+    "published_iso": "2026-11-08T15:48:36Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.592,
-    "equity": 492.709,
-    "available": 406.0029,
+    "unrealized_pnl": 0.6581,
+    "equity": 492.778,
+    "available": 406.072,
     "position_margin": 1.4778
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "22s ago",
+      "value": "21s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "72 min old",
+      "value": "102 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$492.71",
+      "value": "$492.78",
       "status": "ok",
       "action": null
     },
@@ -2807,7 +2807,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-05T20:08:45Z",
-      "last_seen_iso": "2026-11-08T15:18:09Z"
+      "last_seen_iso": "2026-11-08T15:48:15Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -2941,7 +2941,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-08T15:18:31Z",
+    "updated_iso": "2026-11-08T15:48:36Z",
     "trades": [
       {
         "trade_id": "BNBUSDT_20261108_CJ_001",
