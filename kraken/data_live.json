@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-08T21:55:36Z",
+  "last_updated_iso": "2026-11-08T21:56:28Z",
   "freshness": {
-    "engine_run_iso": "2026-11-08T21:55:01Z",
+    "engine_run_iso": "2026-11-08T21:56:06Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-08T20:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-08T21:55:36Z",
+    "published_iso": "2026-11-08T21:56:28Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,15 +18,15 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.4643,
-    "equity": 491.2868,
-    "available": 403.4191,
-    "position_margin": 6.8836
+    "unrealized_pnl": 0.0,
+    "equity": 490.8247,
+    "available": 402.5091,
+    "position_margin": 0.0
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 14,
-    "in_sync": 14,
+    "checked": 12,
+    "in_sync": 12,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "35s ago",
+      "value": "22s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "109 min old",
+      "value": "110 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (129 records, 12 resting, 2 open, 95 closed)",
+      "value": "OK (129 records, 12 resting, 96 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$491.29",
+      "value": "$490.82",
       "status": "ok",
       "action": null
     },
@@ -93,15 +93,15 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "1 NAKED: RENDER (RENDERUSDT_20261105_CJ_001)",
-      "status": "urgent",
-      "action": "Position(s) with NO stop-loss resting on Kraken - place a stop NOW: RENDER (RENDERUSDT_20261105_CJ_001)"
+      "value": "all protected (0 open)",
+      "status": "ok",
+      "action": null
     },
     {
       "key": "fee_tier",
       "tier": 1,
       "label": "Fee tier",
-      "value": "measured 0.050% per side",
+      "value": "measured 0.035% per side",
       "status": "ok",
       "action": null
     },
@@ -456,40 +456,6 @@
       "live_filled_ts": null
     },
     {
-      "trade_id": "RENDERUSDT_20261105_CJ_001",
-      "coin": "RENDERUSDT",
-      "direction": "Long",
-      "entry_price": 1.49272451,
-      "sl": 1.44013455,
-      "tp1": 1.60923533,
-      "tp2": 1.715,
-      "capital_usd": 24.53,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-11-05",
-      "time_activated_utc": "23:08",
-      "date_opened": "2026-11-05",
-      "time_opened_utc": "20:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": true,
-      "sl_moved_to_be": true,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 1.4927,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.0,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": 4.53888,
-      "rehearsal": false,
-      "live_filled_ts": "2026-11-05T23:08:24.255000+00:00"
-    },
-    {
       "trade_id": "ADAUSDT_20261106_CJ_001",
       "coin": "ADAUSDT",
       "direction": "Short",
@@ -556,40 +522,6 @@
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
       "live_filled_ts": null
-    },
-    {
-      "trade_id": "BNBUSDT_20261108_CJ_001",
-      "coin": "BNBUSDT",
-      "direction": "Long",
-      "entry_price": 688.36,
-      "sl": 681.77229483,
-      "tp1": 733.73641787,
-      "tp2": 762.47552683,
-      "capital_usd": 22.95,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-11-08",
-      "time_activated_utc": "21:54",
-      "date_opened": "2026-11-08",
-      "time_opened_utc": "08:02",
-      "conviction": "MEDIUM",
-      "tp1_hit": false,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 688.36,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": -0.0,
-      "live_fees_usd": 0.0,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false,
-      "live_filled_ts": "2026-11-08T21:54:36.470000+00:00"
     }
   ],
   "dry_run_plans": [],
@@ -2775,16 +2707,16 @@
       "trade_id": "RENDERUSDT_20261105_CJ_001",
       "coin": "RENDERUSDT",
       "direction": "Long",
-      "status": "CLOSED",
+      "status": "STOPPED_AFTER_TP1",
       "pnl_usd": 4.48,
       "close_reason": "tp1_breakeven",
       "date_closed": "2026-11-08",
       "time_closed_utc": "21:55",
       "trading_system": "John",
       "live_entry_fill": 1.4927,
-      "live_exit_fill": 1.5842845842,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": 0.0464,
+      "live_exit_fill": 1.4903,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0538,
       "live_funding_usd": 0.0137,
       "pnl_estimated": null,
       "won": true,
@@ -2792,6 +2724,29 @@
       "rehearsal": false,
       "close_cause": null,
       "margin_usd": 24.53,
+      "leverage": 3
+    },
+    {
+      "trade_id": "BNBUSDT_20261108_CJ_001",
+      "coin": "BNBUSDT",
+      "direction": "Long",
+      "status": "STOPPED",
+      "pnl_usd": -0.94,
+      "close_reason": "stopped_out",
+      "date_closed": "2026-11-08",
+      "time_closed_utc": "21:55",
+      "trading_system": "John",
+      "live_entry_fill": 688.36,
+      "live_exit_fill": 679.428,
+      "live_entry_slippage_pct": -0.0,
+      "live_fees_usd": 0.0478,
+      "live_funding_usd": 0.0001,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-11-08T21:55:42Z",
+      "rehearsal": false,
+      "close_cause": null,
+      "margin_usd": 22.9453,
       "leverage": 3
     }
   ],
@@ -2815,7 +2770,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-05T20:08:45Z",
-      "last_seen_iso": "2026-11-08T21:55:01Z"
+      "last_seen_iso": "2026-11-08T21:56:06Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -2878,24 +2833,17 @@
       "last_seen_iso": "2026-10-10T03:17:32Z"
     }
   ],
-  "tp1_hits_open": [
-    {
-      "coin": "RENDERUSDT",
-      "direction": "Long",
-      "trading_system": "John",
-      "entry_price": 1.49272451
-    }
-  ],
+  "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -27.97,
-    "realized_pnl_pct": -3.28,
+    "realized_pnl_usd": -28.92,
+    "realized_pnl_pct": -3.3,
     "peak_capital_usd": 201.86,
     "peak_concurrent": 8,
     "peak_date": "2026-11-05",
     "deployed_trades": 96,
-    "return_on_peak_pct": -13.86,
-    "win_rate_pct": 25.3,
-    "closed_count": 95,
+    "return_on_peak_pct": -14.33,
+    "win_rate_pct": 25.0,
+    "closed_count": 96,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -0.7,
@@ -2903,42 +2851,55 @@
         "closed_count": 3
       },
       "John": {
-        "realized_pnl_usd": -27.27,
-        "win_rate_pct": 25.0,
-        "closed_count": 92
+        "realized_pnl_usd": -28.22,
+        "win_rate_pct": 24.7,
+        "closed_count": 93
       }
     },
-    "live_trade_count_total": 109,
-    "live_real_count": 109,
+    "live_trade_count_total": 108,
+    "live_real_count": 108,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-11-08T20:06Z",
-    "checked": 14,
-    "in_parity": 14,
+    "checked": 12,
+    "in_parity": 12,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-11-08T20:06Z",
-    "checked": 14,
-    "in_parity": 14,
+    "checked": 12,
+    "in_parity": 12,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-11-08T20:06Z",
-    "checked": 14,
-    "in_parity": 14,
+    "checked": 12,
+    "in_parity": 12,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-08T21:55:36Z",
+    "updated_iso": "2026-11-08T21:56:28Z",
     "trades": [
+      {
+        "trade_id": "BNBUSDT_20261108_CJ_001",
+        "coin": "BNBUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "CLOSED",
+          "ret_pct": -4.101,
+          "pnl_usd": -0.9409,
+          "margin_usd": 22.9453
+        },
+        "mexc": null
+      },
       {
         "trade_id": "RENDERUSDT_20261105_CJ_001",
         "coin": "RENDERUSDT",
@@ -2946,22 +2907,9 @@
         "trading_system": "John",
         "kraken": {
           "status": "CLOSED",
-          "ret_pct": 18.273,
-          "pnl_usd": 4.4824,
+          "ret_pct": 18.243,
+          "pnl_usd": 4.475,
           "margin_usd": 24.53
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "BNBUSDT_20261108_CJ_001",
-        "coin": "BNBUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "OPEN",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 22.9453
         },
         "mexc": null
       },

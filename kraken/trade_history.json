@@ -3456,9 +3456,9 @@
       "close_reason": "tp1_breakeven",
       "close_fills": 2,
       "pnl_gross_usd": 4.51512,
-      "pnl_usd": 4.48242,
+      "pnl_usd": 4.47502,
       "tag": "WIN",
-      "fees_usd": 0.0464,
+      "fees_usd": 0.0538,
       "funding_usd": 0.0137,
       "fill_ids": [
         "8db4cc7e-dcdd-4941-a1e8-789d67ca1eb2",
@@ -3479,26 +3479,29 @@
       "leverage": 3,
       "entry_price": 688.36,
       "entry_size": 0.1,
-      "exit_size": 0,
+      "exit_size": 0.1,
       "opened_at": "2026-11-08T21:54:36Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-08T21:55:42Z",
+      "close_price": 679.428,
       "margin_usd": 22.945333,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0138,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -0.8932,
+      "pnl_usd": -0.9409,
+      "tag": "LOSS",
+      "fees_usd": 0.0478,
+      "funding_usd": 0.0001,
       "fill_ids": [
-        "f094723f-1ca8-4538-a101-a80e59380918"
+        "f094723f-1ca8-4538-a101-a80e59380918",
+        "0b63a4b2-12fd-4049-b220-517466b16f3b",
+        "6691fad9-a8f4-42fe-bf57-eebbe2ed649c"
       ],
       "unrealized_pnl": -0.41175565217699844,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": "net"
     }
   },
   "orders": {
@@ -9624,6 +9627,34 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "6357204"
+    },
+    "0b63a4b2-12fd-4049-b220-517466b16f3b": {
+      "fill_id": "0b63a4b2-12fd-4049-b220-517466b16f3b",
+      "symbol": "PF_BNBUSD",
+      "side": "sell",
+      "order_id": "a32de3cd-3f16-4e3c-a67c-b34e684eca4e",
+      "cliOrdId": "BNBUSDT_20261108_CJ_001:SL",
+      "size": 0.03,
+      "price": 679.4,
+      "fillTime": "2026-11-08T21:55:42Z",
+      "fillType": "taker",
+      "realized_pnl": -0.2688,
+      "realized_funding": 0,
+      "sequence_id": "6357238"
+    },
+    "6691fad9-a8f4-42fe-bf57-eebbe2ed649c": {
+      "fill_id": "6691fad9-a8f4-42fe-bf57-eebbe2ed649c",
+      "symbol": "PF_BNBUSD",
+      "side": "sell",
+      "order_id": "a32de3cd-3f16-4e3c-a67c-b34e684eca4e",
+      "cliOrdId": "BNBUSDT_20261108_CJ_001:SL",
+      "size": 0.07,
+      "price": 679.44,
+      "fillTime": "2026-11-08T21:55:42Z",
+      "fillType": "taker",
+      "realized_pnl": -0.6244,
+      "realized_funding": 5.086216e-05,
+      "sequence_id": "6357237"
     }
   },
   "snapshots": [
@@ -21229,5 +21260,5 @@
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-08T21:55:32Z"
+  "updated": "2026-11-08T21:56:27Z"
 }
