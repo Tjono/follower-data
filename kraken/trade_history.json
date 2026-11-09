@@ -3562,7 +3562,7 @@
         "aa689861-73cf-497a-b9ad-cae84f5210b9",
         "2d4842e7-adcc-493e-b717-c299b96f17f1"
       ],
-      "unrealized_pnl": -1.6060321995054976,
+      "unrealized_pnl": -1.2588462998214873,
       "resting_at": "2026-11-09T16:08:27Z",
       "fee_asset": [
         "usd"
@@ -6098,6 +6098,15 @@
       "entry_price": 8.716,
       "resting_at": "2026-11-09T16:08:27Z",
       "braam_trade_id": "AVAXUSDT_20261109_CJ_001",
+      "status": "RESTING"
+    },
+    "a32fc09b-a805-44fc-8b15-4ff8a4ea1e97": {
+      "order_id": "a32fc09b-a805-44fc-8b15-4ff8a4ea1e97",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "entry_price": 0.5671,
+      "resting_at": "2026-11-09T20:08:22Z",
+      "braam_trade_id": "APTUSDT_20261109_CJ_001",
       "status": "RESTING"
     }
   },
@@ -21787,8 +21796,16 @@
       "unrealized": -1.6043464815063662,
       "realized": -31.1276,
       "total": -32.7319
+    },
+    {
+      "ts": "2026-11-09T20:08:44Z",
+      "equity": 490.87677069765084,
+      "available": 395.5994616976508,
+      "unrealized": -1.258625602170649,
+      "realized": -31.1276,
+      "total": -32.3862
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-09T19:17:51Z"
+  "updated": "2026-11-09T20:08:44Z"
 }
