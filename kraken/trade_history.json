@@ -6056,6 +6056,15 @@
       "resting_at": "2026-11-09T12:07:47Z",
       "braam_trade_id": "HBARUSDT_20261109_CJ_001",
       "status": "RESTING"
+    },
+    "a32f6acf-a9a6-4778-9e36-c9dd9140da9a": {
+      "order_id": "a32f6acf-a9a6-4778-9e36-c9dd9140da9a",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 8.716,
+      "resting_at": "2026-11-09T16:08:27Z",
+      "braam_trade_id": "AVAXUSDT_20261109_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -21624,8 +21633,16 @@
       "unrealized": 0.0,
       "realized": -31.1276,
       "total": -31.1276
+    },
+    {
+      "ts": "2026-11-09T16:08:42Z",
+      "equity": 491.0887,
+      "available": 395.81139099999996,
+      "unrealized": 0.0,
+      "realized": -31.1276,
+      "total": -31.1276
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-09T15:48:15Z"
+  "updated": "2026-11-09T16:08:42Z"
 }
