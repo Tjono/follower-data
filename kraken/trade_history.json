@@ -3562,11 +3562,12 @@
         "aa689861-73cf-497a-b9ad-cae84f5210b9",
         "2d4842e7-adcc-493e-b717-c299b96f17f1"
       ],
-      "unrealized_pnl": -0.02587600937350105,
+      "unrealized_pnl": -0.1954410998279889,
       "resting_at": "2026-11-09T16:08:27Z",
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -21757,5 +21758,5 @@
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-09T17:07:15Z"
+  "updated": "2026-11-09T17:07:50Z"
 }
