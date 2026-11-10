@@ -3594,7 +3594,7 @@
       "fill_ids": [
         "5f60596b-5195-4313-b082-d65218d16834"
       ],
-      "unrealized_pnl": 1.0241262662999975,
+      "unrealized_pnl": -0.877539209680002,
       "fee_asset": [
         "usd"
       ],
@@ -3624,11 +3624,40 @@
       "fill_ids": [
         "33df2743-bc84-4088-8a71-5d7aeb47320a"
       ],
-      "unrealized_pnl": 1.3565088191199943,
+      "unrealized_pnl": 0.22442423555998803,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "APTUSDT_20261109_CJ_001": {
+      "position_id": "APTUSDT_20261109_CJ_001",
+      "braam_trade_id": "APTUSDT_20261109_CJ_001",
+      "coin": "APTUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.5671,
+      "entry_size": 129.8,
+      "exit_size": 0,
+      "opened_at": "2026-11-10T15:38:38Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 24.536527,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0147,
+      "funding_usd": null,
+      "fill_ids": [
+        "0c2f8e96-3e8d-420e-982f-700a8da99487"
+      ],
+      "unrealized_pnl": -0.11176149540600323,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -10012,6 +10041,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "21435557"
+    },
+    "0c2f8e96-3e8d-420e-982f-700a8da99487": {
+      "fill_id": "0c2f8e96-3e8d-420e-982f-700a8da99487",
+      "symbol": "PF_APTUSD",
+      "side": "buy",
+      "order_id": "a32fc09b-a805-44fc-8b15-4ff8a4ea1e97",
+      "cliOrdId": "APTUSDT_20261109_CJ_001",
+      "size": 129.8,
+      "price": 0.5671,
+      "fillTime": "2026-11-10T15:38:38.287Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "1482809"
     }
   },
   "snapshots": [
@@ -22174,8 +22217,16 @@
       "unrealized": 2.380485716917434,
       "realized": -33.2049,
       "total": -30.8244
+    },
+    {
+      "ts": "2026-11-10T15:40:00Z",
+      "equity": 486.95657020023225,
+      "available": 399.26965920023224,
+      "unrealized": -0.7651690094477315,
+      "realized": -33.2049,
+      "total": -33.9701
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-10T15:18:00Z"
+  "updated": "2026-11-10T15:40:00Z"
 }
