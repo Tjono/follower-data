@@ -3562,7 +3562,7 @@
         "aa689861-73cf-497a-b9ad-cae84f5210b9",
         "2d4842e7-adcc-493e-b717-c299b96f17f1"
       ],
-      "unrealized_pnl": -0.49677138307549806,
+      "unrealized_pnl": -0.23826182212299513,
       "resting_at": "2026-11-09T16:08:27Z",
       "fee_asset": [
         "usd"
@@ -6107,6 +6107,33 @@
       "entry_price": 0.5671,
       "resting_at": "2026-11-09T20:08:22Z",
       "braam_trade_id": "APTUSDT_20261109_CJ_001",
+      "status": "RESTING"
+    },
+    "a33016ba-1236-463f-ab02-111c16e1976f": {
+      "order_id": "a33016ba-1236-463f-ab02-111c16e1976f",
+      "coin": "SUIUSDT",
+      "direction": "Long",
+      "entry_price": 0.8221,
+      "resting_at": "2026-11-10T00:09:10Z",
+      "braam_trade_id": "SUIUSDT_20261110_CJ_001",
+      "status": "RESTING"
+    },
+    "a33016b5-a582-4bbf-bd7f-4bfdef33cf45": {
+      "order_id": "a33016b5-a582-4bbf-bd7f-4bfdef33cf45",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.4999,
+      "resting_at": "2026-11-10T00:09:07Z",
+      "braam_trade_id": "RENDERUSDT_20261109_CJ_001",
+      "status": "RESTING"
+    },
+    "a33016ae-6086-4582-b5e1-a7c0eede3377": {
+      "order_id": "a33016ae-6086-4582-b5e1-a7c0eede3377",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 709.71,
+      "resting_at": "2026-11-10T00:09:02Z",
+      "braam_trade_id": "BNBUSDT_20261105_CJ_001",
       "status": "RESTING"
     }
   },
@@ -21844,8 +21871,16 @@
       "unrealized": -0.4959066715536437,
       "realized": -31.1276,
       "total": -31.6235
+    },
+    {
+      "ts": "2026-11-10T00:09:30Z",
+      "equity": 491.79731792079303,
+      "available": 396.475706920793,
+      "unrealized": -0.2381189013299636,
+      "realized": -31.1276,
+      "total": -31.3657
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-09T23:17:56Z"
+  "updated": "2026-11-10T00:09:30Z"
 }
