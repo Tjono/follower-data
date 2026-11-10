@@ -3594,10 +3594,11 @@
       "fill_ids": [
         "5f60596b-5195-4313-b082-d65218d16834"
       ],
-      "unrealized_pnl": -0.0960710553400087,
+      "unrealized_pnl": -0.05405187427000002,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "HBARUSDT_20261109_CJ_001": {
       "position_id": "HBARUSDT_20261109_CJ_001",
@@ -3623,10 +3624,11 @@
       "fill_ids": [
         "33df2743-bc84-4088-8a71-5d7aeb47320a"
       ],
-      "unrealized_pnl": 0.6959980646399937,
+      "unrealized_pnl": 0.8213456566800026,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -22151,5 +22153,5 @@
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-10T13:30:57Z"
+  "updated": "2026-11-10T13:31:41Z"
 }
