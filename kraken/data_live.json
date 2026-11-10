@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-10T19:18:01Z",
+  "last_updated_iso": "2026-11-10T20:17:57Z",
   "freshness": {
-    "engine_run_iso": "2026-11-10T19:17:39Z",
+    "engine_run_iso": "2026-11-10T20:17:33Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-11-10T18:08:00Z",
+    "feed_generated_iso": "2026-11-10T20:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-10T19:18:01Z",
+    "published_iso": "2026-11-10T20:17:57Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -1.3578,
-    "equity": 486.159,
-    "available": 412.0228,
+    "unrealized_pnl": 0.2167,
+    "equity": 487.6653,
+    "available": 413.529,
     "position_margin": 22.0354
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "22s ago",
+      "value": "24s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "70 min old",
+      "value": "10 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$486.16",
+      "value": "$487.67",
       "status": "ok",
       "action": null
     },
@@ -2890,7 +2890,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-05T20:08:45Z",
-      "last_seen_iso": "2026-11-10T19:17:39Z"
+      "last_seen_iso": "2026-11-10T20:17:33Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -2971,7 +2971,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-10T18:08Z",
+    "feed_generated_utc": "2026-11-10T20:07Z",
     "checked": 12,
     "in_parity": 12,
     "drifting": []
@@ -2979,7 +2979,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-10T18:08Z",
+    "feed_generated_utc": "2026-11-10T20:07Z",
     "checked": 12,
     "in_parity": 12,
     "drifting": []
@@ -2987,13 +2987,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-10T18:08Z",
+    "feed_generated_utc": "2026-11-10T20:07Z",
     "checked": 12,
     "in_parity": 12,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-10T19:18:01Z",
+    "updated_iso": "2026-11-10T20:17:57Z",
     "trades": [
       {
         "trade_id": "APTUSDT_20261109_CJ_001",
