@@ -3694,7 +3694,7 @@
         "9cbfa6d6-049a-47a1-89c2-1d53c04c18ec",
         "df24ff15-bfd8-4d93-a21a-0485312d9338"
       ],
-      "unrealized_pnl": -1.2328430472700003,
+      "unrealized_pnl": -1.4803185317599987,
       "fee_asset": [
         "usd"
       ],
@@ -3724,7 +3724,7 @@
       "fill_ids": [
         "ff3ee77d-5694-4a83-bc89-749125946c4a"
       ],
-      "unrealized_pnl": 0.00854645818400286,
+      "unrealized_pnl": -0.3114381014799932,
       "fee_asset": [
         "usd"
       ],
@@ -23273,8 +23273,16 @@
       "unrealized": -1.2216335762443165,
       "realized": -39.6669,
       "total": -40.8885
+    },
+    {
+      "ts": "2026-11-12T14:09:16Z",
+      "equity": 476.0114788144685,
+      "available": 417.1946518144685,
+      "unrealized": -1.790947818771441,
+      "realized": -39.6669,
+      "total": -41.4578
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-12T13:41:44Z"
+  "updated": "2026-11-12T14:09:16Z"
 }
