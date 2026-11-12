@@ -1,39 +1,39 @@
 {
-  "generated_at_utc": "2026-11-12T11:23:23+00:00",
+  "generated_at_utc": "2026-11-12T11:38:38+00:00",
   "venue": "Kraken",
   "all_time": {
-    "total_trades": 98,
+    "total_trades": 99,
     "wins": 24,
-    "losses": 74,
-    "win_rate": 24.5,
-    "total_pnl_usd": -33.2,
-    "avg_pnl_usd": -0.34,
+    "losses": 75,
+    "win_rate": 24.2,
+    "total_pnl_usd": -35.72,
+    "avg_pnl_usd": -0.36,
     "best_usd": 4.48,
     "worst_usd": -2.77,
     "avg_win_usd": 0.98,
-    "avg_loss_usd": -0.77,
-    "expectancy_usd": -0.34,
-    "profit_factor": 0.41,
+    "avg_loss_usd": -0.79,
+    "expectancy_usd": -0.36,
+    "profit_factor": 0.4,
     "longest_win_streak": 7,
     "longest_loss_streak": 12,
     "current_streak_type": "loss",
-    "current_streak_count": 3,
-    "avg_hold_hours": 24.8,
-    "median_hold_hours": 11.1
+    "current_streak_count": 4,
+    "avg_hold_hours": 25.0,
+    "median_hold_hours": 11.2
   },
   "by_system": {
     "John": {
-      "n": 95,
+      "n": 96,
       "wins": 23,
-      "wr": 24.2,
-      "pnl": -32.51,
-      "avg": -0.34,
+      "wr": 24.0,
+      "pnl": -35.02,
+      "avg": -0.36,
       "inception": "2026-10-07",
       "days_active": 37,
-      "pnl_per_day": -0.88,
+      "pnl_per_day": -0.95,
       "status": "active",
       "open": 3,
-      "pending": 8
+      "pending": 7
     },
     "Braam": {
       "n": 3,
@@ -68,13 +68,13 @@
       "name": "John",
       "inception": "2026-10-07",
       "days_active": 37,
-      "closed": 95,
+      "closed": 96,
       "wins": 23,
-      "wr": 24.2,
-      "pnl": -32.51,
-      "pnl_per_day": -0.88,
+      "wr": 24.0,
+      "pnl": -35.02,
+      "pnl_per_day": -0.95,
       "open": 3,
-      "pending": 8
+      "pending": 7
     },
     {
       "name": "Braam",
@@ -112,11 +112,11 @@
     },
     {
       "month": "2026-11",
-      "n": 19,
+      "n": 20,
       "wins": 3,
-      "wr": 15.8,
-      "pnl": -18.94,
-      "cumulative_pnl": -33.2
+      "wr": 15.0,
+      "pnl": -21.45,
+      "cumulative_pnl": -35.71
     }
   ],
   "equity_curve": [
@@ -707,6 +707,12 @@
       "pnl": -2.08,
       "cumulative": -33.2,
       "won": false
+    },
+    {
+      "iso": "2026-11-12T11:30:47Z",
+      "pnl": -2.51,
+      "cumulative": -35.72,
+      "won": false
     }
   ],
   "benchmark": {
@@ -1105,6 +1111,10 @@
       {
         "iso": "2026-11-10",
         "pct": -29.489
+      },
+      {
+        "iso": "2026-11-12",
+        "pct": -31.72
       }
     ],
     "spx": [
@@ -1225,17 +1235,17 @@
         "pct": -1.338
       }
     ],
-    "ours_pct": -29.489,
+    "ours_pct": -31.72,
     "spx_pct": -1.338,
     "spx_last_close_iso": "2026-11-11"
   },
   "by_direction": {
     "Long": {
-      "n": 82,
+      "n": 83,
       "wins": 15,
-      "wr": 18.3,
-      "pnl": -36.95,
-      "avg": -0.45
+      "wr": 18.1,
+      "pnl": -39.47,
+      "avg": -0.48
     },
     "Short": {
       "n": 16,
@@ -1254,11 +1264,11 @@
       "avg": -0.33
     },
     "MEDIUM": {
-      "n": 86,
+      "n": 87,
       "wins": 20,
-      "wr": 23.3,
-      "pnl": -30.24,
-      "avg": -0.35
+      "wr": 23.0,
+      "pnl": -32.75,
+      "avg": -0.38
     },
     "VERY HIGH": {
       "n": 1,
@@ -1318,6 +1328,14 @@
   ],
   "worst_coins": [
     {
+      "coin": "APT",
+      "n": 6,
+      "wins": 0,
+      "wr": 0.0,
+      "pnl": -7.36,
+      "avg": -1.23
+    },
+    {
       "coin": "XLM",
       "n": 6,
       "wins": 0,
@@ -1332,14 +1350,6 @@
       "wr": 16.7,
       "pnl": -6.03,
       "avg": -1.01
-    },
-    {
-      "coin": "APT",
-      "n": 5,
-      "wins": 0,
-      "wr": 0.0,
-      "pnl": -4.85,
-      "avg": -0.97
     },
     {
       "coin": "ONDO",
@@ -1381,6 +1391,16 @@
     "conviction": "MEDIUM"
   },
   "recent_closes": [
+    {
+      "trade_id": "APTUSDT_20261109_CJ_001",
+      "coin": "APT",
+      "direction": "Long",
+      "system": "John",
+      "pnl_usd": -2.51,
+      "won": false,
+      "close_reason": "stopped_out",
+      "iso": "2026-11-12T11:30:47+00:00"
+    },
     {
       "trade_id": "AVAXUSDT_20261109_CJ_001",
       "coin": "AVAX",
@@ -1470,25 +1490,15 @@
       "won": false,
       "close_reason": "stopped_out",
       "iso": "2026-11-05T15:23:31+00:00"
-    },
-    {
-      "trade_id": "SUIUSDT_20261104_CJ_001",
-      "coin": "SUI",
-      "direction": "Long",
-      "system": "John",
-      "pnl_usd": -2.0,
-      "won": false,
-      "close_reason": "stopped_out",
-      "iso": "2026-11-05T15:23:17+00:00"
     }
   ],
   "live_positions": {
     "open_count": 3,
     "open_long": 3,
     "open_short": 0,
-    "pending_count": 8,
-    "capital_open_usd": 73.45,
-    "capital_pending_usd": 197.95
+    "pending_count": 7,
+    "capital_open_usd": 73.44,
+    "capital_pending_usd": 173.42
   },
   "macro": {
     "vix": null,
