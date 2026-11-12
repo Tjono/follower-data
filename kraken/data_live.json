@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-12T12:50:16Z",
+  "last_updated_iso": "2026-11-12T13:01:20Z",
   "freshness": {
-    "engine_run_iso": "2026-11-12T12:50:00Z",
+    "engine_run_iso": "2026-11-12T13:01:01Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-12T12:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-12T12:50:16Z",
+    "published_iso": "2026-11-12T13:01:20Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.7605,
-    "equity": 478.5585,
-    "available": 412.384,
+    "unrealized_pnl": -0.9551,
+    "equity": 478.4837,
+    "available": 412.3091,
     "position_margin": 14.7163
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "16s ago",
+      "value": "19s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "42 min old",
+      "value": "53 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$478.56",
+      "value": "$478.48",
       "status": "ok",
       "action": null
     },
@@ -2831,7 +2831,7 @@
       "reason": "Mong market entry missed - chased only within 5 min of the trade appearing in the feed (master fill at most 15 min old) and within 0.5% of the master's price.",
       "reason_short": "Mong market entry missed",
       "iso": "2026-11-11T00:08:27Z",
-      "last_seen_iso": "2026-11-12T12:50:00Z"
+      "last_seen_iso": "2026-11-12T13:01:01Z"
     },
     {
       "trade_id": "THETAUSDT_20261105_CJ_001",
@@ -2843,7 +2843,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-05T20:08:45Z",
-      "last_seen_iso": "2026-11-12T12:50:00Z"
+      "last_seen_iso": "2026-11-12T13:01:01Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -2946,7 +2946,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-12T12:50:16Z",
+    "updated_iso": "2026-11-12T13:01:20Z",
     "trades": [
       {
         "trade_id": "SUIUSDT_20261110_CJ_001",
