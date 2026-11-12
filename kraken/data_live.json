@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-12T18:07:15Z",
+  "last_updated_iso": "2026-11-12T18:14:14Z",
   "freshness": {
-    "engine_run_iso": "2026-11-12T18:06:56Z",
+    "engine_run_iso": "2026-11-12T18:13:58Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-12T18:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-12T18:07:15Z",
+    "published_iso": "2026-11-12T18:14:14Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.3682,
-    "equity": 476.3875,
-    "available": 417.5706,
+    "unrealized_pnl": 0.3586,
+    "equity": 476.5048,
+    "available": 417.688,
     "position_margin": 14.6864
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "19s ago",
+      "value": "16s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "75s old",
+      "value": "8 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$476.39",
+      "value": "$476.50",
       "status": "ok",
       "action": null
     },
@@ -2743,20 +2743,6 @@
   ],
   "recent_cancels": [
     {
-      "coin": "ALGOUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "close_reason": "the feed cancelled it (CANCELLED: Stale 24.0h \u2265 24h grace: Price $0.0890 is 20.5",
-      "iso": "2026-11-10T18:09:10Z"
-    },
-    {
-      "coin": "DOGEUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "close_reason": "the feed cancelled it (CANCELLED: Stale 24.0h \u2265 24h grace: Price $0.0669 is 20.7",
-      "iso": "2026-11-10T18:09:10Z"
-    },
-    {
       "coin": "SOLUSDT",
       "direction": "Short",
       "trading_system": "John",
@@ -2796,7 +2782,7 @@
       "reason": "Mong market entry missed - chased only within 5 min of the trade appearing in the feed (master fill at most 15 min old) and within 0.5% of the master's price.",
       "reason_short": "Mong market entry missed",
       "iso": "2026-11-11T00:08:27Z",
-      "last_seen_iso": "2026-11-12T18:06:56Z"
+      "last_seen_iso": "2026-11-12T18:13:58Z"
     },
     {
       "trade_id": "THETAUSDT_20261105_CJ_001",
@@ -2808,7 +2794,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-05T20:08:45Z",
-      "last_seen_iso": "2026-11-12T18:06:56Z"
+      "last_seen_iso": "2026-11-12T18:13:58Z"
     },
     {
       "trade_id": "THETAUSDT_20261022_CJ_001",
@@ -2911,7 +2897,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-12T18:07:15Z",
+    "updated_iso": "2026-11-12T18:14:14Z",
     "trades": [
       {
         "trade_id": "HBARUSDT_20261109_CJ_001",
