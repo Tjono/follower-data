@@ -1,38 +1,38 @@
 {
-  "generated_at_utc": "2026-11-12T11:38:38+00:00",
+  "generated_at_utc": "2026-11-12T11:53:22+00:00",
   "venue": "Kraken",
   "all_time": {
-    "total_trades": 99,
+    "total_trades": 100,
     "wins": 24,
-    "losses": 75,
-    "win_rate": 24.2,
-    "total_pnl_usd": -35.72,
-    "avg_pnl_usd": -0.36,
+    "losses": 76,
+    "win_rate": 24.0,
+    "total_pnl_usd": -37.89,
+    "avg_pnl_usd": -0.38,
     "best_usd": 4.48,
     "worst_usd": -2.77,
     "avg_win_usd": 0.98,
-    "avg_loss_usd": -0.79,
-    "expectancy_usd": -0.36,
-    "profit_factor": 0.4,
+    "avg_loss_usd": -0.81,
+    "expectancy_usd": -0.38,
+    "profit_factor": 0.38,
     "longest_win_streak": 7,
     "longest_loss_streak": 12,
     "current_streak_type": "loss",
-    "current_streak_count": 4,
-    "avg_hold_hours": 25.0,
-    "median_hold_hours": 11.2
+    "current_streak_count": 5,
+    "avg_hold_hours": 25.2,
+    "median_hold_hours": 11.4
   },
   "by_system": {
     "John": {
-      "n": 96,
+      "n": 97,
       "wins": 23,
-      "wr": 24.0,
-      "pnl": -35.02,
-      "avg": -0.36,
+      "wr": 23.7,
+      "pnl": -37.19,
+      "avg": -0.38,
       "inception": "2026-10-07",
       "days_active": 37,
-      "pnl_per_day": -0.95,
+      "pnl_per_day": -1.01,
       "status": "active",
-      "open": 3,
+      "open": 2,
       "pending": 7
     },
     "Braam": {
@@ -68,12 +68,12 @@
       "name": "John",
       "inception": "2026-10-07",
       "days_active": 37,
-      "closed": 96,
+      "closed": 97,
       "wins": 23,
-      "wr": 24.0,
-      "pnl": -35.02,
-      "pnl_per_day": -0.95,
-      "open": 3,
+      "wr": 23.7,
+      "pnl": -37.19,
+      "pnl_per_day": -1.01,
+      "open": 2,
       "pending": 7
     },
     {
@@ -112,11 +112,11 @@
     },
     {
       "month": "2026-11",
-      "n": 20,
+      "n": 21,
       "wins": 3,
-      "wr": 15.0,
-      "pnl": -21.45,
-      "cumulative_pnl": -35.71
+      "wr": 14.3,
+      "pnl": -23.62,
+      "cumulative_pnl": -37.88
     }
   ],
   "equity_curve": [
@@ -713,6 +713,12 @@
       "pnl": -2.51,
       "cumulative": -35.72,
       "won": false
+    },
+    {
+      "iso": "2026-11-12T11:52:41Z",
+      "pnl": -2.17,
+      "cumulative": -37.89,
+      "won": false
     }
   ],
   "benchmark": {
@@ -1115,6 +1121,10 @@
       {
         "iso": "2026-11-12",
         "pct": -31.72
+      },
+      {
+        "iso": "2026-11-12",
+        "pct": -33.648
       }
     ],
     "spx": [
@@ -1235,17 +1245,17 @@
         "pct": -1.338
       }
     ],
-    "ours_pct": -31.72,
+    "ours_pct": -33.648,
     "spx_pct": -1.338,
     "spx_last_close_iso": "2026-11-11"
   },
   "by_direction": {
     "Long": {
-      "n": 83,
+      "n": 84,
       "wins": 15,
-      "wr": 18.1,
-      "pnl": -39.47,
-      "avg": -0.48
+      "wr": 17.9,
+      "pnl": -41.64,
+      "avg": -0.5
     },
     "Short": {
       "n": 16,
@@ -1264,11 +1274,11 @@
       "avg": -0.33
     },
     "MEDIUM": {
-      "n": 87,
+      "n": 88,
       "wins": 20,
-      "wr": 23.0,
-      "pnl": -32.75,
-      "avg": -0.38
+      "wr": 22.7,
+      "pnl": -34.92,
+      "avg": -0.4
     },
     "VERY HIGH": {
       "n": 1,
@@ -1392,6 +1402,16 @@
   },
   "recent_closes": [
     {
+      "trade_id": "SUIUSDT_20261110_CJ_001",
+      "coin": "SUI",
+      "direction": "Long",
+      "system": "John",
+      "pnl_usd": -2.17,
+      "won": false,
+      "close_reason": "stopped_out",
+      "iso": "2026-11-12T11:52:41+00:00"
+    },
+    {
       "trade_id": "APTUSDT_20261109_CJ_001",
       "coin": "APT",
       "direction": "Long",
@@ -1480,24 +1500,14 @@
       "won": false,
       "close_reason": "stopped_out",
       "iso": "2026-11-05T15:24:04+00:00"
-    },
-    {
-      "trade_id": "ONDOUSDT_20261104_CJ_001",
-      "coin": "ONDO",
-      "direction": "Long",
-      "system": "John",
-      "pnl_usd": -1.94,
-      "won": false,
-      "close_reason": "stopped_out",
-      "iso": "2026-11-05T15:23:31+00:00"
     }
   ],
   "live_positions": {
-    "open_count": 3,
-    "open_long": 3,
+    "open_count": 2,
+    "open_long": 2,
     "open_short": 0,
     "pending_count": 7,
-    "capital_open_usd": 73.44,
+    "capital_open_usd": 49.05,
     "capital_pending_usd": 173.42
   },
   "macro": {
