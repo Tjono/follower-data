@@ -3594,7 +3594,7 @@
       "fill_ids": [
         "5f60596b-5195-4313-b082-d65218d16834"
       ],
-      "unrealized_pnl": -0.34357537661000004,
+      "unrealized_pnl": -0.2773532311600083,
       "fee_asset": [
         "usd"
       ],
@@ -3624,7 +3624,7 @@
       "fill_ids": [
         "33df2743-bc84-4088-8a71-5d7aeb47320a"
       ],
-      "unrealized_pnl": 0.010687823759996773,
+      "unrealized_pnl": 0.12407163847999192,
       "fee_asset": [
         "usd"
       ],
@@ -3654,7 +3654,7 @@
       "fill_ids": [
         "0c2f8e96-3e8d-420e-982f-700a8da99487"
       ],
-      "unrealized_pnl": -1.0398741762420027,
+      "unrealized_pnl": -0.9650110138020036,
       "fee_asset": [
         "usd"
       ],
@@ -6297,6 +6297,15 @@
       "entry_price": 1.4987,
       "resting_at": "2026-11-11T20:08:51Z",
       "braam_trade_id": "RENDERUSDT_20261109_CJ_001",
+      "status": "RESTING"
+    },
+    "a3347239-a124-41f0-bcec-bdc0c2f9e555": {
+      "order_id": "a3347239-a124-41f0-bcec-bdc0c2f9e555",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "entry_price": 8.327,
+      "resting_at": "2026-11-12T04:08:20Z",
+      "braam_trade_id": "AVAXUSDT_20261111_CJ_001",
       "status": "RESTING"
     }
   },
@@ -22818,8 +22827,16 @@
       "unrealized": -1.3744249999297071,
       "realized": -33.2049,
       "total": -34.5793
+    },
+    {
+      "ts": "2026-11-12T04:08:37Z",
+      "equity": 482.3912123971123,
+      "available": 408.8690133971123,
+      "unrealized": -1.1187908340476602,
+      "realized": -33.2049,
+      "total": -34.3237
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-12T03:48:24Z"
+  "updated": "2026-11-12T04:08:37Z"
 }
