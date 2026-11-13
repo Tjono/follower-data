@@ -3677,28 +3677,29 @@
       "leverage": 3,
       "entry_price": 1.4987,
       "entry_size": 49.1,
-      "exit_size": 0,
+      "exit_size": 49.1,
       "opened_at": "2026-11-12T11:36:57Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-13T03:53:46Z",
+      "close_price": 1.446,
       "margin_usd": 24.528723,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -2.58757,
+      "pnl_usd": -2.62117,
+      "tag": "LOSS",
       "fees_usd": 0.0147,
-      "funding_usd": null,
+      "funding_usd": -0.0189,
       "fill_ids": [
         "9cbfa6d6-049a-47a1-89c2-1d53c04c18ec",
-        "df24ff15-bfd8-4d93-a21a-0485312d9338"
+        "df24ff15-bfd8-4d93-a21a-0485312d9338",
+        "50f5271b-e95b-4774-bc0f-f4794eb1b492"
       ],
       "unrealized_pnl": -1.404102312895001,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "AVAXUSDT_20261111_CJ_001": {
       "position_id": "AVAXUSDT_20261111_CJ_001",
@@ -6377,6 +6378,24 @@
       "entry_price": 8.327,
       "resting_at": "2026-11-12T04:08:20Z",
       "braam_trade_id": "AVAXUSDT_20261111_CJ_001",
+      "status": "RESTING"
+    },
+    "a336750f-ecdd-45fb-a095-7961a1228d1a": {
+      "order_id": "a336750f-ecdd-45fb-a095-7961a1228d1a",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.3938,
+      "resting_at": "2026-11-13T04:07:55Z",
+      "braam_trade_id": "RENDERUSDT_20261113_CJ_001",
+      "status": "RESTING"
+    },
+    "a336750c-7cfe-4c55-984b-325331182053": {
+      "order_id": "a336750c-7cfe-4c55-984b-325331182053",
+      "coin": "CAKEUSDT",
+      "direction": "Short",
+      "entry_price": 1.871,
+      "resting_at": "2026-11-13T04:07:53Z",
+      "braam_trade_id": "CAKEUSDT_20261111_CJ_001",
       "status": "RESTING"
     }
   },
@@ -10390,6 +10409,20 @@
       "realized_pnl": -2.0152,
       "realized_funding": 0.00115848184,
       "sequence_id": "11895938"
+    },
+    "50f5271b-e95b-4774-bc0f-f4794eb1b492": {
+      "fill_id": "50f5271b-e95b-4774-bc0f-f4794eb1b492",
+      "symbol": "PF_RENDERUSD",
+      "side": "sell",
+      "order_id": "a3351336-ee40-4c30-a441-96a9e72c1a88",
+      "cliOrdId": "RENDERUSDT_20261109_CJ_001:SL#1794483509434",
+      "size": 49.1,
+      "price": 1.446,
+      "fillTime": "2026-11-13T03:53:46Z",
+      "fillType": "taker",
+      "realized_pnl": -2.58757,
+      "realized_funding": -0.00209812788,
+      "sequence_id": "1538076"
     }
   },
   "snapshots": [
@@ -23552,8 +23585,16 @@
       "unrealized": -1.405989489171399,
       "realized": -41.723,
       "total": -43.129
+    },
+    {
+      "ts": "2026-11-13T04:08:08Z",
+      "equity": 471.9226,
+      "available": 428.141584,
+      "unrealized": 0.0,
+      "realized": -44.3442,
+      "total": -44.3442
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-13T03:48:23Z"
+  "updated": "2026-11-13T04:08:08Z"
 }
