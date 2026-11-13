@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-13T21:17:57Z",
+  "last_updated_iso": "2026-11-13T21:47:59Z",
   "freshness": {
-    "engine_run_iso": "2026-11-13T21:17:46Z",
+    "engine_run_iso": "2026-11-13T21:47:44Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-13T20:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-13T21:17:57Z",
+    "published_iso": "2026-11-13T21:47:59Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,8 +19,8 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 470.31,
-    "available": 426.529,
+    "equity": 470.1692,
+    "available": 426.3882,
     "position_margin": 0.0
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "11s ago",
+      "value": "15s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "71 min old",
+      "value": "101 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$470.31",
+      "value": "$470.17",
       "status": "ok",
       "action": null
     },
@@ -2746,7 +2746,7 @@
       "reason": "Mong market entry missed - chased only within 5 min of the trade appearing in the feed (master fill at most 15 min old) and within 0.5% of the master's price.",
       "reason_short": "Mong market entry missed",
       "iso": "2026-11-11T00:08:27Z",
-      "last_seen_iso": "2026-11-13T21:17:46Z"
+      "last_seen_iso": "2026-11-13T21:47:44Z"
     },
     {
       "trade_id": "THETAUSDT_20261105_CJ_001",
@@ -2861,7 +2861,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-13T21:17:57Z",
+    "updated_iso": "2026-11-13T21:47:59Z",
     "trades": [
       {
         "trade_id": "RENDERUSDT_20261113_CJ_001",
