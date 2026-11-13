@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-13T17:18:02Z",
+  "last_updated_iso": "2026-11-13T18:17:58Z",
   "freshness": {
-    "engine_run_iso": "2026-11-13T17:17:48Z",
+    "engine_run_iso": "2026-11-13T18:17:46Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-11-13T16:07:00Z",
+    "feed_generated_iso": "2026-11-13T18:05:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-13T17:18:02Z",
+    "published_iso": "2026-11-13T18:17:58Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -19,8 +19,8 @@
   },
   "mexc_account": {
     "unrealized_pnl": 0.0,
-    "equity": 470.6939,
-    "available": 426.9129,
+    "equity": 470.647,
+    "available": 426.866,
     "position_margin": 0.0
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "14s ago",
+      "value": "12s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "71 min old",
+      "value": "12 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$470.69",
+      "value": "$470.65",
       "status": "ok",
       "action": null
     },
@@ -2746,7 +2746,7 @@
       "reason": "Mong market entry missed - chased only within 5 min of the trade appearing in the feed (master fill at most 15 min old) and within 0.5% of the master's price.",
       "reason_short": "Mong market entry missed",
       "iso": "2026-11-11T00:08:27Z",
-      "last_seen_iso": "2026-11-13T17:17:48Z"
+      "last_seen_iso": "2026-11-13T18:17:46Z"
     },
     {
       "trade_id": "THETAUSDT_20261105_CJ_001",
@@ -2839,7 +2839,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-13T16:07Z",
+    "feed_generated_utc": "2026-11-13T18:05Z",
     "checked": 6,
     "in_parity": 6,
     "drifting": []
@@ -2847,7 +2847,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-13T16:07Z",
+    "feed_generated_utc": "2026-11-13T18:05Z",
     "checked": 6,
     "in_parity": 6,
     "drifting": []
@@ -2855,13 +2855,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-13T16:07Z",
+    "feed_generated_utc": "2026-11-13T18:05Z",
     "checked": 6,
     "in_parity": 6,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-13T17:18:02Z",
+    "updated_iso": "2026-11-13T18:17:58Z",
     "trades": [
       {
         "trade_id": "RENDERUSDT_20261113_CJ_001",
