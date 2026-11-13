@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-13T03:18:00Z",
+  "last_updated_iso": "2026-11-13T03:48:25Z",
   "freshness": {
-    "engine_run_iso": "2026-11-13T03:17:45Z",
+    "engine_run_iso": "2026-11-13T03:48:11Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-13T02:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-13T03:18:00Z",
+    "published_iso": "2026-11-13T03:48:25Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,15 +18,15 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -1.8592,
-    "equity": 474.6221,
-    "available": 423.3589,
-    "position_margin": 14.6864
+    "unrealized_pnl": -1.4667,
+    "equity": 472.9955,
+    "available": 429.0601,
+    "position_margin": 7.3586
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 7,
-    "in_sync": 7,
+    "checked": 6,
+    "in_sync": 6,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "15s ago",
+      "value": "14s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "72 min old",
+      "value": "102 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (137 records, 5 resting, 2 open, 101 closed)",
+      "value": "OK (137 records, 5 resting, 1 open, 102 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$474.62",
+      "value": "$473.00",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open)",
+      "value": "all protected (1 open)",
       "status": "ok",
       "action": null
     },
@@ -318,40 +318,6 @@
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
       "live_filled_ts": null
-    },
-    {
-      "trade_id": "AVAXUSDT_20261111_CJ_001",
-      "coin": "AVAXUSDT",
-      "direction": "Long",
-      "entry_price": 8.3268714,
-      "sl": 8.10147268,
-      "tp1": 8.693,
-      "tp2": 8.964,
-      "capital_usd": 24.43,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-11-12",
-      "time_activated_utc": "13:09",
-      "date_opened": "2026-11-11",
-      "time_opened_utc": "12:03",
-      "conviction": "MEDIUM",
-      "tp1_hit": false,
-      "sl_moved_to_be": null,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 8.327,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": 0.0,
-      "live_fees_usd": 0.0,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": null,
-      "rehearsal": false,
-      "live_filled_ts": "2026-11-12T13:09:48.039000+00:00"
     }
   ],
   "dry_run_plans": [],
@@ -2705,6 +2671,29 @@
       "close_cause": null,
       "margin_usd": 24.5257,
       "leverage": 3
+    },
+    {
+      "trade_id": "AVAXUSDT_20261111_CJ_001",
+      "coin": "AVAXUSDT",
+      "direction": "Long",
+      "status": "STOPPED",
+      "pnl_usd": -2.06,
+      "close_reason": "stopped_out",
+      "date_closed": "2026-11-13",
+      "time_closed_utc": "03:22",
+      "trading_system": "John",
+      "live_entry_fill": 8.327,
+      "live_exit_fill": 8.098,
+      "live_entry_slippage_pct": 0.0,
+      "live_fees_usd": 0.0503,
+      "live_funding_usd": 0.0094,
+      "pnl_estimated": null,
+      "won": false,
+      "close_iso": "2026-11-13T03:22:12Z",
+      "rehearsal": false,
+      "close_cause": null,
+      "margin_usd": 24.4259,
+      "leverage": 3
     }
   ],
   "recent_cancels": [
@@ -2748,7 +2737,7 @@
       "reason": "Mong market entry missed - chased only within 5 min of the trade appearing in the feed (master fill at most 15 min old) and within 0.5% of the master's price.",
       "reason_short": "Mong market entry missed",
       "iso": "2026-11-11T00:08:27Z",
-      "last_seen_iso": "2026-11-13T03:17:45Z"
+      "last_seen_iso": "2026-11-13T03:48:11Z"
     },
     {
       "trade_id": "THETAUSDT_20261105_CJ_001",
@@ -2813,15 +2802,15 @@
   ],
   "tp1_hits_open": [],
   "stats": {
-    "realized_pnl_usd": -39.67,
-    "realized_pnl_pct": -3.97,
+    "realized_pnl_usd": -41.72,
+    "realized_pnl_pct": -4.08,
     "peak_capital_usd": 201.86,
     "peak_concurrent": 8,
     "peak_date": "2026-11-05",
     "deployed_trades": 103,
-    "return_on_peak_pct": -19.65,
-    "win_rate_pct": 23.8,
-    "closed_count": 101,
+    "return_on_peak_pct": -20.67,
+    "win_rate_pct": 23.5,
+    "closed_count": 102,
     "per_system": {
       "Braam": {
         "realized_pnl_usd": -0.7,
@@ -2829,9 +2818,9 @@
         "closed_count": 3
       },
       "John": {
-        "realized_pnl_usd": -38.97,
-        "win_rate_pct": 23.5,
-        "closed_count": 98
+        "realized_pnl_usd": -41.02,
+        "win_rate_pct": 23.2,
+        "closed_count": 99
       }
     },
     "live_trade_count_total": 108,
@@ -2842,29 +2831,42 @@
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-11-13T02:06Z",
-    "checked": 7,
-    "in_parity": 7,
+    "checked": 6,
+    "in_parity": 6,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-11-13T02:06Z",
-    "checked": 7,
-    "in_parity": 7,
+    "checked": 6,
+    "in_parity": 6,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-11-13T02:06Z",
-    "checked": 7,
-    "in_parity": 7,
+    "checked": 6,
+    "in_parity": 6,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-13T03:18:00Z",
+    "updated_iso": "2026-11-13T03:48:25Z",
     "trades": [
+      {
+        "trade_id": "AVAXUSDT_20261111_CJ_001",
+        "coin": "AVAXUSDT",
+        "direction": "Long",
+        "trading_system": "John",
+        "kraken": {
+          "status": "CLOSED",
+          "ret_pct": -8.418,
+          "pnl_usd": -2.0561,
+          "margin_usd": 24.4259
+        },
+        "mexc": null
+      },
       {
         "trade_id": "HBARUSDT_20261109_CJ_001",
         "coin": "HBARUSDT",
@@ -2875,19 +2877,6 @@
           "ret_pct": -7.256,
           "pnl_usd": -1.7796,
           "margin_usd": 24.5257
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "AVAXUSDT_20261111_CJ_001",
-        "coin": "AVAXUSDT",
-        "direction": "Long",
-        "trading_system": "John",
-        "kraken": {
-          "status": "OPEN",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 24.4259
         },
         "mexc": null
       },
