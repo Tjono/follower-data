@@ -3731,6 +3731,35 @@
         "usd"
       ],
       "pnl_basis": "net"
+    },
+    "RENDERUSDT_20261113_CJ_001": {
+      "position_id": "RENDERUSDT_20261113_CJ_001",
+      "braam_trade_id": "RENDERUSDT_20261113_CJ_001",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 1.4397,
+      "entry_size": 49.1,
+      "exit_size": 0,
+      "opened_at": "2026-11-14T16:08:28Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 23.56309,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0141,
+      "funding_usd": null,
+      "fill_ids": [
+        "a6271fe8-737e-456b-a198-c5ebc50fba90"
+      ],
+      "unrealized_pnl": -0.10610018263500043,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -10441,6 +10470,20 @@
       "realized_pnl": -2.58757,
       "realized_funding": -0.00209812788,
       "sequence_id": "1538076"
+    },
+    "a6271fe8-737e-456b-a198-c5ebc50fba90": {
+      "fill_id": "a6271fe8-737e-456b-a198-c5ebc50fba90",
+      "symbol": "PF_RENDERUSD",
+      "side": "buy",
+      "order_id": "a338cdb9-8e80-44be-9b54-91bd7e7df8fe",
+      "cliOrdId": "RENDERUSDT_20261113_CJ_001#1794643648742",
+      "size": 49.1,
+      "price": 1.4397,
+      "fillTime": "2026-11-14T16:08:28.31Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "1539504"
     }
   },
   "snapshots": [
@@ -24067,8 +24110,16 @@
       "unrealized": 0.0,
       "realized": -44.3442,
       "total": -44.3442
+    },
+    {
+      "ts": "2026-11-14T16:09:45Z",
+      "equity": 470.09690785489187,
+      "available": 426.3525308548919,
+      "unrealized": -0.1134453161661095,
+      "realized": -44.3442,
+      "total": -44.4576
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-14T16:07:48Z"
+  "updated": "2026-11-14T16:09:45Z"
 }
