@@ -6397,6 +6397,15 @@
       "resting_at": "2026-11-13T04:07:53Z",
       "braam_trade_id": "CAKEUSDT_20261111_CJ_001",
       "status": "RESTING"
+    },
+    "a338cdb9-8e80-44be-9b54-91bd7e7df8fe": {
+      "order_id": "a338cdb9-8e80-44be-9b54-91bd7e7df8fe",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.4397,
+      "resting_at": "2026-11-14T08:07:29Z",
+      "braam_trade_id": "RENDERUSDT_20261113_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -23929,8 +23938,16 @@
       "unrealized": 0.0,
       "realized": -44.3442,
       "total": -44.3442
+    },
+    {
+      "ts": "2026-11-14T08:07:34Z",
+      "equity": 470.246,
+      "available": 426.462623,
+      "unrealized": 0.0,
+      "realized": -44.3442,
+      "total": -44.3442
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-14T07:17:45Z"
+  "updated": "2026-11-14T08:07:34Z"
 }
