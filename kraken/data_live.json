@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-14T00:51:02Z",
+  "last_updated_iso": "2026-11-14T01:17:54Z",
   "freshness": {
-    "engine_run_iso": "2026-11-14T00:50:47Z",
+    "engine_run_iso": "2026-11-14T01:17:43Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-14T00:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-14T00:51:02Z",
+    "published_iso": "2026-11-14T01:17:54Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "15s ago",
+      "value": "11s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "44 min old",
+      "value": "70 min old",
       "status": "ok",
       "action": null
     },
@@ -2739,7 +2739,7 @@
       "reason": "Mong market entry missed - chased only within 5 min of the trade appearing in the feed (master fill at most 15 min old) and within 0.5% of the master's price.",
       "reason_short": "Mong market entry missed",
       "iso": "2026-11-11T00:08:27Z",
-      "last_seen_iso": "2026-11-14T00:50:47Z"
+      "last_seen_iso": "2026-11-14T01:17:43Z"
     },
     {
       "trade_id": "THETAUSDT_20261105_CJ_001",
@@ -2854,7 +2854,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-14T00:51:02Z",
+    "updated_iso": "2026-11-14T01:17:54Z",
     "trades": [
       {
         "trade_id": "RENDERUSDT_20261113_CJ_001",
