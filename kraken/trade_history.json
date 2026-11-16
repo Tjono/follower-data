@@ -6446,6 +6446,42 @@
       "resting_at": "2026-11-14T16:07:42Z",
       "braam_trade_id": "CAKEUSDT_20261111_CJ_001",
       "status": "RESTING"
+    },
+    "a33c7de3-1baa-4512-9766-72e9cd78cac7": {
+      "order_id": "a33c7de3-1baa-4512-9766-72e9cd78cac7",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "entry_price": 9.022,
+      "resting_at": "2026-11-16T04:07:34Z",
+      "braam_trade_id": "LINKUSDT_20261116_CJ_001",
+      "status": "RESTING"
+    },
+    "a33c7de0-f1c7-4bf4-a58f-e799119cd84a": {
+      "order_id": "a33c7de0-f1c7-4bf4-a58f-e799119cd84a",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.08202,
+      "resting_at": "2026-11-16T04:07:32Z",
+      "braam_trade_id": "ALGOUSDT_20261116_CJ_001",
+      "status": "RESTING"
+    },
+    "a33c7ddd-4398-4a1e-b91a-b6dfc4aad206": {
+      "order_id": "a33c7ddd-4398-4a1e-b91a-b6dfc4aad206",
+      "coin": "TAOUSDT",
+      "direction": "Short",
+      "entry_price": 200.5,
+      "resting_at": "2026-11-16T04:07:30Z",
+      "braam_trade_id": "TAOUSDT_20261115_CJ_001",
+      "status": "RESTING"
+    },
+    "a33c7ddb-09c1-4d5a-8583-30d9575111ac": {
+      "order_id": "a33c7ddb-09c1-4d5a-8583-30d9575111ac",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 67318.0,
+      "resting_at": "2026-11-16T04:07:28Z",
+      "braam_trade_id": "BTCUSDT_20261114_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -24574,8 +24610,16 @@
       "unrealized": 0.0,
       "realized": -46.0765,
       "total": -46.0765
+    },
+    {
+      "ts": "2026-11-16T04:07:47Z",
+      "equity": 468.2332,
+      "available": 433.258048,
+      "unrealized": 0.0,
+      "realized": -46.0765,
+      "total": -46.0765
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-16T03:48:22Z"
+  "updated": "2026-11-16T04:07:47Z"
 }
