@@ -3762,6 +3762,35 @@
         "usd"
       ],
       "pnl_basis": "net"
+    },
+    "LINKUSDT_20261116_CJ_001": {
+      "position_id": "LINKUSDT_20261116_CJ_001",
+      "braam_trade_id": "LINKUSDT_20261116_CJ_001",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 9.022,
+      "entry_size": 7.7,
+      "exit_size": 0,
+      "opened_at": "2026-11-16T15:24:12Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 23.156467,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0139,
+      "funding_usd": null,
+      "fill_ids": [
+        "98971d7b-cefe-4edb-b20b-5ec665c4e741"
+      ],
+      "unrealized_pnl": -0.07118958685300196,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -10536,6 +10565,20 @@
       "realized_pnl": -1.68904,
       "realized_funding": 0.00016195609,
       "sequence_id": "1539775"
+    },
+    "98971d7b-cefe-4edb-b20b-5ec665c4e741": {
+      "fill_id": "98971d7b-cefe-4edb-b20b-5ec665c4e741",
+      "symbol": "PF_LINKUSD",
+      "side": "buy",
+      "order_id": "a33c7de3-1baa-4512-9766-72e9cd78cac7",
+      "cliOrdId": "LINKUSDT_20261116_CJ_001",
+      "size": 7.7,
+      "price": 9.022,
+      "fillTime": "2026-11-16T15:24:12.064Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "14841358"
     }
   },
   "snapshots": [
@@ -24794,8 +24837,16 @@
       "unrealized": 0.0,
       "realized": -46.0765,
       "total": -46.0765
+    },
+    {
+      "ts": "2026-11-16T15:25:27Z",
+      "equity": 467.8830263260369,
+      "available": 440.1657743260369,
+      "unrealized": -0.0711632608160772,
+      "realized": -46.0765,
+      "total": -46.1477
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-16T15:18:22Z"
+  "updated": "2026-11-16T15:25:27Z"
 }
