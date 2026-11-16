@@ -3787,7 +3787,7 @@
       "fill_ids": [
         "98971d7b-cefe-4edb-b20b-5ec665c4e741"
       ],
-      "unrealized_pnl": 1.076568538430002,
+      "unrealized_pnl": 1.4854705207649925,
       "fee_asset": [
         "usd"
       ],
@@ -6520,6 +6520,24 @@
       "entry_price": 9.692,
       "resting_at": "2026-11-16T18:06:39Z",
       "braam_trade_id": "LINKUSDT_20261115_CJ_001",
+      "status": "RESTING"
+    },
+    "a33dd539-f1cf-410e-9df3-b142bc91d00c": {
+      "order_id": "a33dd539-f1cf-410e-9df3-b142bc91d00c",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 185.79,
+      "resting_at": "2026-11-16T20:07:36Z",
+      "braam_trade_id": "TAOUSDT_20261116_CJ_001",
+      "status": "RESTING"
+    },
+    "a33dd537-a520-4666-9a3d-63039cd83f74": {
+      "order_id": "a33dd537-a520-4666-9a3d-63039cd83f74",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.328,
+      "resting_at": "2026-11-16T20:07:35Z",
+      "braam_trade_id": "RENDERUSDT_20261116_CJ_001",
       "status": "RESTING"
     }
   },
@@ -24943,8 +24961,16 @@
       "unrealized": 1.076686940084379,
       "realized": -46.0765,
       "total": -44.9998
+    },
+    {
+      "ts": "2026-11-16T20:07:53Z",
+      "equity": 469.1675410802823,
+      "available": 434.4251690802823,
+      "unrealized": 1.4854116010472855,
+      "realized": -46.0765,
+      "total": -44.5911
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-16T19:18:20Z"
+  "updated": "2026-11-16T20:07:53Z"
 }
