@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-15T23:18:17+00:00",
+  "generated_at_utc": "2026-11-16T00:18:16+00:00",
   "venue": "Kraken",
   "all_time": {
     "total_trades": 104,
@@ -29,8 +29,8 @@
       "pnl": -45.38,
       "avg": -0.45,
       "inception": "2026-10-07",
-      "days_active": 40,
-      "pnl_per_day": -1.13,
+      "days_active": 41,
+      "pnl_per_day": -1.11,
       "status": "active",
       "open": 0,
       "pending": 1
@@ -42,7 +42,7 @@
       "pnl": -0.7,
       "avg": -0.23,
       "inception": "2026-10-21",
-      "days_active": 26,
+      "days_active": 27,
       "pnl_per_day": -0.03,
       "status": "active",
       "open": 0,
@@ -67,19 +67,19 @@
     {
       "name": "John",
       "inception": "2026-10-07",
-      "days_active": 40,
+      "days_active": 41,
       "closed": 101,
       "wins": 23,
       "wr": 22.8,
       "pnl": -45.38,
-      "pnl_per_day": -1.13,
+      "pnl_per_day": -1.11,
       "open": 0,
       "pending": 1
     },
     {
       "name": "Braam",
       "inception": "2026-10-21",
-      "days_active": 26,
+      "days_active": 27,
       "closed": 3,
       "wins": 1,
       "wr": 33.3,
