@@ -6569,6 +6569,15 @@
       "resting_at": "2026-11-17T18:06:29Z",
       "braam_trade_id": "BTCUSDT_20261114_CJ_001",
       "status": "RESTING"
+    },
+    "a33fd837-c818-4ca3-89a3-ae979abd53b0": {
+      "order_id": "a33fd837-c818-4ca3-89a3-ae979abd53b0",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 602.23,
+      "resting_at": "2026-11-17T20:07:38Z",
+      "braam_trade_id": "BNBUSDT_20261117_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -25441,8 +25450,16 @@
       "unrealized": 0.0,
       "realized": -44.1508,
       "total": -44.1508
+    },
+    {
+      "ts": "2026-11-17T20:07:53Z",
+      "equity": 469.7678,
+      "available": 428.544813,
+      "unrealized": 0.0,
+      "realized": -44.1508,
+      "total": -44.1508
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-17T19:18:30Z"
+  "updated": "2026-11-17T20:07:53Z"
 }
