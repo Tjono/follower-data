@@ -6542,6 +6542,33 @@
       "resting_at": "2026-11-16T20:07:35Z",
       "braam_trade_id": "RENDERUSDT_20261116_CJ_001",
       "status": "RESTING"
+    },
+    "a33faced-8371-4005-ab57-1cff36a5b69c": {
+      "order_id": "a33faced-8371-4005-ab57-1cff36a5b69c",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 181.22,
+      "resting_at": "2026-11-17T18:06:35Z",
+      "braam_trade_id": "TAOUSDT_20261116_CJ_001",
+      "status": "RESTING"
+    },
+    "a33face9-ec99-455b-b655-718003c23a54": {
+      "order_id": "a33face9-ec99-455b-b655-718003c23a54",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.2909,
+      "resting_at": "2026-11-17T18:06:32Z",
+      "braam_trade_id": "RENDERUSDT_20261116_CJ_001",
+      "status": "RESTING"
+    },
+    "a33face4-f12d-4a40-8fc1-7e39d6ba496b": {
+      "order_id": "a33face4-f12d-4a40-8fc1-7e39d6ba496b",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 65463.0,
+      "resting_at": "2026-11-17T18:06:29Z",
+      "braam_trade_id": "BTCUSDT_20261114_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -25382,8 +25409,16 @@
       "unrealized": 0.0,
       "realized": -44.1508,
       "total": -44.1508
+    },
+    {
+      "ts": "2026-11-17T18:06:50Z",
+      "equity": 470.3968,
+      "available": 435.798343,
+      "unrealized": 0.0,
+      "realized": -44.1508,
+      "total": -44.1508
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-17T17:18:23Z"
+  "updated": "2026-11-17T18:06:50Z"
 }
