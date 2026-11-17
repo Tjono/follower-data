@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-17T10:06:33Z",
+  "last_updated_iso": "2026-11-17T10:18:18Z",
   "freshness": {
-    "engine_run_iso": "2026-11-17T10:06:20Z",
+    "engine_run_iso": "2026-11-17T10:18:06Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-17T10:05:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-17T10:06:33Z",
+    "published_iso": "2026-11-17T10:18:18Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 0.8946,
-    "equity": 468.2288,
-    "available": 447.2433,
+    "unrealized_pnl": 0.8165,
+    "equity": 467.9938,
+    "available": 447.0083,
     "position_margin": 6.9469
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "13s ago",
+      "value": "12s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "1 min old",
+      "value": "13 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$468.23",
+      "value": "$467.99",
       "status": "ok",
       "action": null
     },
@@ -2664,13 +2664,6 @@
   ],
   "recent_cancels": [
     {
-      "coin": "SUIUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "close_reason": "the feed cancelled it (CANCELLED: Stale 26.0h \u2265 24h grace: Price $0.7286 is 22.7",
-      "iso": "2026-11-15T10:07:01Z"
-    },
-    {
       "coin": "BNBUSDT",
       "direction": "Short",
       "trading_system": "John",
@@ -2724,7 +2717,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-16T04:07:23Z",
-      "last_seen_iso": "2026-11-17T10:06:20Z"
+      "last_seen_iso": "2026-11-17T10:18:06Z"
     },
     {
       "trade_id": "SOLUSDT_20261111_CM_001",
@@ -2851,7 +2844,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-17T10:06:33Z",
+    "updated_iso": "2026-11-17T10:18:18Z",
     "trades": [
       {
         "trade_id": "TAOUSDT_20261116_CJ_001",
