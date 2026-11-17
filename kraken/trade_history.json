@@ -3787,7 +3787,7 @@
       "fill_ids": [
         "98971d7b-cefe-4edb-b20b-5ec665c4e741"
       ],
-      "unrealized_pnl": 1.3270711865179976,
+      "unrealized_pnl": 1.2824411408270018,
       "fee_asset": [
         "usd"
       ],
@@ -25089,8 +25089,16 @@
       "unrealized": 1.3268393180072877,
       "realized": -46.0765,
       "total": -44.7497
+    },
+    {
+      "ts": "2026-11-17T04:18:17Z",
+      "equity": 469.1835743453139,
+      "available": 448.19812234531395,
+      "unrealized": 1.2824654861409122,
+      "realized": -46.0765,
+      "total": -44.794
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-17T03:48:12Z"
+  "updated": "2026-11-17T04:18:17Z"
 }
