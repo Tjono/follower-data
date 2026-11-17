@@ -3771,29 +3771,30 @@
       "leverage": 3,
       "entry_price": 9.022,
       "entry_size": 7.7,
-      "exit_size": 6.2,
+      "exit_size": 7.7,
       "opened_at": "2026-11-16T15:24:12Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-17T15:48:04Z",
+      "close_price": 9.2781558442,
       "margin_usd": 23.156467,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": 1.9784,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0429,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "tp1_breakeven",
+      "close_fills": 2,
+      "pnl_gross_usd": 1.9724,
+      "pnl_usd": 1.9257,
+      "tag": "WIN",
+      "fees_usd": 0.0497,
+      "funding_usd": 0.003,
       "fill_ids": [
         "98971d7b-cefe-4edb-b20b-5ec665c4e741",
         "603393f3-8491-4047-8132-de200924d517",
-        "a22676ba-e86b-465f-b235-dd351f27b0a1"
+        "a22676ba-e86b-465f-b235-dd351f27b0a1",
+        "e74f4989-683c-4e56-9fc6-2fcebc58cc35"
       ],
       "unrealized_pnl": 0.29537051494500055,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     }
   },
   "orders": {
@@ -10637,6 +10638,20 @@
       "realized_pnl": 0.192,
       "realized_funding": 5.336808e-05,
       "sequence_id": "14846133"
+    },
+    "e74f4989-683c-4e56-9fc6-2fcebc58cc35": {
+      "fill_id": "e74f4989-683c-4e56-9fc6-2fcebc58cc35",
+      "symbol": "PF_LINKUSD",
+      "side": "sell",
+      "order_id": "a33da9f0-2ce9-4ee8-a82f-36241a0cfaa3",
+      "cliOrdId": "LINKUSDT_20261116_CJ_001:SL#1794852394040",
+      "size": 1.5,
+      "price": 9.018,
+      "fillTime": "2026-11-17T15:48:04Z",
+      "fillType": "taker",
+      "realized_pnl": -0.006,
+      "realized_funding": 0.00022212615,
+      "sequence_id": "14846953"
     }
   },
   "snapshots": [
@@ -25335,8 +25350,16 @@
       "unrealized": 0.2909153087176099,
       "realized": -46.0765,
       "total": -45.7856
+    },
+    {
+      "ts": "2026-11-17T15:48:48Z",
+      "equity": 469.7805,
+      "available": 448.76374799999996,
+      "unrealized": 0.0,
+      "realized": -44.1508,
+      "total": -44.1508
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-17T15:18:23Z"
+  "updated": "2026-11-17T15:48:48Z"
 }
