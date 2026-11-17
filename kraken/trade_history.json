@@ -3771,7 +3771,7 @@
       "leverage": 3,
       "entry_price": 9.022,
       "entry_size": 7.7,
-      "exit_size": 0,
+      "exit_size": 6.2,
       "opened_at": "2026-11-16T15:24:12Z",
       "closed_at": null,
       "close_price": null,
@@ -3779,19 +3779,20 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 1.9784,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.0139,
+      "fees_usd": 0.0429,
       "funding_usd": null,
       "fill_ids": [
-        "98971d7b-cefe-4edb-b20b-5ec665c4e741"
+        "98971d7b-cefe-4edb-b20b-5ec665c4e741",
+        "603393f3-8491-4047-8132-de200924d517",
+        "a22676ba-e86b-465f-b235-dd351f27b0a1"
       ],
-      "unrealized_pnl": 2.3006330735080023,
+      "unrealized_pnl": 0.4873669724099994,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     }
   },
   "orders": {
@@ -10607,6 +10608,34 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "14841358"
+    },
+    "a22676ba-e86b-465f-b235-dd351f27b0a1": {
+      "fill_id": "a22676ba-e86b-465f-b235-dd351f27b0a1",
+      "symbol": "PF_LINKUSD",
+      "side": "sell",
+      "order_id": "a33da9f4-647e-44fb-970f-c04334bd6c35",
+      "cliOrdId": "LINKUSDT_20261116_CJ_001:TP1#1794852396019",
+      "size": 5.6,
+      "price": 9.341,
+      "fillTime": "2026-11-17T14:03:19Z",
+      "fillType": "taker",
+      "realized_pnl": 1.7864,
+      "realized_funding": 0,
+      "sequence_id": "14846134"
+    },
+    "603393f3-8491-4047-8132-de200924d517": {
+      "fill_id": "603393f3-8491-4047-8132-de200924d517",
+      "symbol": "PF_LINKUSD",
+      "side": "sell",
+      "order_id": "a33da9f4-647e-44fb-970f-c04334bd6c35",
+      "cliOrdId": "LINKUSDT_20261116_CJ_001:TP1#1794852396019",
+      "size": 0.6,
+      "price": 9.342,
+      "fillTime": "2026-11-17T14:03:19Z",
+      "fillType": "taker",
+      "realized_pnl": 0.192,
+      "realized_funding": 5.336808e-05,
+      "sequence_id": "14846133"
     }
   },
   "snapshots": [
@@ -25273,8 +25302,16 @@
       "unrealized": 2.300405293616977,
       "realized": -46.0765,
       "total": -43.7761
+    },
+    {
+      "ts": "2026-11-17T14:04:26Z",
+      "equity": 469.27655336382946,
+      "available": 449.7136013638294,
+      "unrealized": 0.4873703362394711,
+      "realized": -46.0765,
+      "total": -45.5891
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-17T13:18:22Z"
+  "updated": "2026-11-17T14:04:26Z"
 }
