@@ -6578,6 +6578,96 @@
       "resting_at": "2026-11-17T20:07:38Z",
       "braam_trade_id": "BNBUSDT_20261117_CJ_001",
       "status": "RESTING"
+    },
+    "a341862d-4f8a-4053-bb92-db28a79c1f00": {
+      "order_id": "a341862d-4f8a-4053-bb92-db28a79c1f00",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "entry_price": 0.7348,
+      "resting_at": "2026-11-18T16:09:53Z",
+      "braam_trade_id": "SUIUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a341862a-429f-4335-96a5-f38788da2004": {
+      "order_id": "a341862a-429f-4335-96a5-f38788da2004",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "entry_price": 47.56,
+      "resting_at": "2026-11-18T16:09:51Z",
+      "braam_trade_id": "LTCUSDT_20261118_CJ_001",
+      "status": "RESTING"
+    },
+    "a3418628-52a1-475a-875c-a6abf2283dbf": {
+      "order_id": "a3418628-52a1-475a-875c-a6abf2283dbf",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "entry_price": 0.15547,
+      "resting_at": "2026-11-18T16:09:49Z",
+      "braam_trade_id": "ADAUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a3418624-de43-4dbd-9e1d-1a73fb677bdb": {
+      "order_id": "a3418624-de43-4dbd-9e1d-1a73fb677bdb",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "entry_price": 5.313,
+      "resting_at": "2026-11-18T16:09:47Z",
+      "braam_trade_id": "UNIUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a3418622-d4d5-4735-9de5-dcf99a8ab6d0": {
+      "order_id": "a3418622-d4d5-4735-9de5-dcf99a8ab6d0",
+      "coin": "TRXUSDT",
+      "direction": "Short",
+      "entry_price": 0.3233,
+      "resting_at": "2026-11-18T16:09:46Z",
+      "braam_trade_id": "TRXUSDT_20261118_CJ_001",
+      "status": "RESTING"
+    },
+    "a341861f-6ec2-4371-acbd-7464850eaabc": {
+      "order_id": "a341861f-6ec2-4371-acbd-7464850eaabc",
+      "coin": "AVAXUSDT",
+      "direction": "Short",
+      "entry_price": 7.328,
+      "resting_at": "2026-11-18T16:09:44Z",
+      "braam_trade_id": "AVAXUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a341861d-73ce-4c84-a228-951503f2f751": {
+      "order_id": "a341861d-73ce-4c84-a228-951503f2f751",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "entry_price": 0.4662,
+      "resting_at": "2026-11-18T16:09:42Z",
+      "braam_trade_id": "APTUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a3418619-8052-4072-8d97-281d7f261bd0": {
+      "order_id": "a3418619-8052-4072-8d97-281d7f261bd0",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.328,
+      "resting_at": "2026-11-18T16:09:40Z",
+      "braam_trade_id": "RENDERUSDT_20261116_CJ_001",
+      "status": "RESTING"
+    },
+    "a3418612-a581-465f-8af1-553f31635af8": {
+      "order_id": "a3418612-a581-465f-8af1-553f31635af8",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.08202,
+      "resting_at": "2026-11-18T16:09:35Z",
+      "braam_trade_id": "ALGOUSDT_20261116_CJ_001",
+      "status": "RESTING"
+    },
+    "a341860e-4700-44eb-9de7-fcaf91f6fc3c": {
+      "order_id": "a341860e-4700-44eb-9de7-fcaf91f6fc3c",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 67891.0,
+      "resting_at": "2026-11-18T16:09:32Z",
+      "braam_trade_id": "BTCUSDT_20261114_CJ_001",
+      "status": "RESTING"
     }
   },
   "capital_events": {
@@ -25690,8 +25780,16 @@
       "unrealized": 0.0,
       "realized": -44.1508,
       "total": -44.1508
+    },
+    {
+      "ts": "2026-11-18T16:10:10Z",
+      "equity": 467.9656,
+      "available": 377.46850500000005,
+      "unrealized": 0.0,
+      "realized": -44.1508,
+      "total": -44.1508
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-18T15:48:17Z"
+  "updated": "2026-11-18T16:10:10Z"
 }
