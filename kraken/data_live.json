@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-18T17:18:47Z",
+  "last_updated_iso": "2026-11-18T17:25:47Z",
   "freshness": {
-    "engine_run_iso": "2026-11-18T17:18:13Z",
+    "engine_run_iso": "2026-11-18T17:25:14Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-18T16:48:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-18T17:18:47Z",
+    "published_iso": "2026-11-18T17:25:47Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,10 +18,10 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.3385,
-    "equity": 469.5855,
-    "available": 351.5303,
-    "position_margin": 13.8779
+    "unrealized_pnl": 1.4171,
+    "equity": 469.6957,
+    "available": 351.6405,
+    "position_margin": 20.7395
   },
   "account_source": "live",
   "order_levels": {
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "34s ago",
+      "value": "33s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "30 min old",
+      "value": "37 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (159 records, 18 resting, 2 open, 105 closed)",
+      "value": "OK (159 records, 17 resting, 3 open, 105 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$469.59",
+      "value": "$469.70",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (18 resting = journal)",
+      "value": "in sync (17 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,7 +93,7 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "all protected (2 open)",
+      "value": "all protected (3 open)",
       "status": "ok",
       "action": null
     },
@@ -769,31 +769,31 @@
       "sl": 76.5898164,
       "tp1": 68.33927257,
       "tp2": 56.85351446,
-      "capital_usd": 23.03,
+      "capital_usd": 22.87,
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-11-18",
+      "time_activated_utc": "17:23",
       "date_opened": "2026-11-18",
       "time_opened_utc": "16:03",
       "conviction": "HIGH",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 73.78,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-11-18T17:23:59.143000+00:00"
     }
   ],
   "dry_run_plans": [],
@@ -823,19 +823,6 @@
       "track_only": false,
       "iso": "2026-11-18T12:03:00Z",
       "rehearsal": false
-    },
-    {
-      "trade_id": "SOLUSDT_20261118_CB_001",
-      "coin": "SOLUSDT",
-      "direction": "Short",
-      "trading_system": "Braam",
-      "entry_price": 73.77575905,
-      "tp1": 68.33927257,
-      "sl": 76.5898164,
-      "conviction": "HIGH",
-      "track_only": false,
-      "iso": "2026-11-18T16:03:00Z",
-      "rehearsal": false
     }
   ],
   "recent_opens": [
@@ -861,6 +848,18 @@
       "tp1_hit": false,
       "iso": "2026-11-18T17:01:03Z",
       "_iso_ms": 1795021263000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "SOLUSDT_20261118_CB_001",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 73.77575905,
+      "live_entry_fill": 73.78,
+      "tp1_hit": false,
+      "iso": "2026-11-18T17:23:59Z",
+      "_iso_ms": 1795022639000,
       "rehearsal": false
     }
   ],
@@ -3293,7 +3292,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-16T04:07:23Z",
-      "last_seen_iso": "2026-11-18T17:18:13Z"
+      "last_seen_iso": "2026-11-18T17:25:14Z"
     },
     {
       "trade_id": "SOLUSDT_20261111_CM_001",
@@ -3363,7 +3362,7 @@
     "peak_capital_usd": 201.86,
     "peak_concurrent": 8,
     "peak_date": "2026-11-05",
-    "deployed_trades": 107,
+    "deployed_trades": 108,
     "return_on_peak_pct": -21.87,
     "win_rate_pct": 23.8,
     "closed_count": 105,
@@ -3408,8 +3407,21 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-18T17:18:47Z",
+    "updated_iso": "2026-11-18T17:25:47Z",
     "trades": [
+      {
+        "trade_id": "SOLUSDT_20261118_CB_001",
+        "coin": "SOLUSDT",
+        "direction": "Short",
+        "trading_system": "Braam",
+        "kraken": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 22.8718
+        },
+        "mexc": null
+      },
       {
         "trade_id": "RENDERUSDT_20261118_CB_001",
         "coin": "RENDERUSDT",
@@ -3433,19 +3445,6 @@
           "ret_pct": null,
           "pnl_usd": null,
           "margin_usd": 22.8793
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "SOLUSDT_20261118_CB_001",
-        "coin": "SOLUSDT",
-        "direction": "Short",
-        "trading_system": "Braam",
-        "kraken": {
-          "status": "RESTING",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 23.03
         },
         "mexc": null
       },
