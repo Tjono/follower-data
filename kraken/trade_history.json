@@ -3795,6 +3795,35 @@
         "usd"
       ],
       "pnl_basis": "net"
+    },
+    "LINKUSDT_20261118_CJ_001": {
+      "position_id": "LINKUSDT_20261118_CJ_001",
+      "braam_trade_id": "LINKUSDT_20261118_CJ_001",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 8.914,
+      "entry_size": 7.7,
+      "exit_size": 0,
+      "opened_at": "2026-11-18T16:45:16Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 22.879267,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0343,
+      "funding_usd": null,
+      "fill_ids": [
+        "700aac17-65f3-4cde-943a-d4fb19d3edef"
+      ],
+      "unrealized_pnl": 0.11673285808800138,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -6667,6 +6696,51 @@
       "entry_price": 67891.0,
       "resting_at": "2026-11-18T16:09:32Z",
       "braam_trade_id": "BTCUSDT_20261114_CJ_001",
+      "status": "RESTING"
+    },
+    "a34192e6-0a23-4e0f-a5c3-75b71916e947": {
+      "order_id": "a34192e6-0a23-4e0f-a5c3-75b71916e947",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "entry_price": 73.78,
+      "resting_at": "2026-11-18T16:45:27Z",
+      "braam_trade_id": "SOLUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a34192e4-05b9-40e1-a3f9-342655f68e27": {
+      "order_id": "a34192e4-05b9-40e1-a3f9-342655f68e27",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "entry_price": 1.417,
+      "resting_at": "2026-11-18T16:45:26Z",
+      "braam_trade_id": "RENDERUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a34192e0-3e03-4051-8b23-8e335c2b46b3": {
+      "order_id": "a34192e0-3e03-4051-8b23-8e335c2b46b3",
+      "coin": "CAKEUSDT",
+      "direction": "Short",
+      "entry_price": 1.6324,
+      "resting_at": "2026-11-18T16:45:23Z",
+      "braam_trade_id": "CAKEUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a34192de-505e-46a0-8f7b-0ac6995616dc": {
+      "order_id": "a34192de-505e-46a0-8f7b-0ac6995616dc",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "entry_price": 0.3111,
+      "resting_at": "2026-11-18T16:45:22Z",
+      "braam_trade_id": "ONDOUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a34192d9-aedf-4976-b4fc-ccbb10219319": {
+      "order_id": "a34192d9-aedf-4976-b4fc-ccbb10219319",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "entry_price": 1833.2,
+      "resting_at": "2026-11-18T16:45:19Z",
+      "braam_trade_id": "ETHUSDT_20261118_CB_001",
       "status": "RESTING"
     }
   },
@@ -10778,6 +10852,20 @@
       "realized_pnl": -0.006,
       "realized_funding": 0.00022212615,
       "sequence_id": "14846953"
+    },
+    "700aac17-65f3-4cde-943a-d4fb19d3edef": {
+      "fill_id": "700aac17-65f3-4cde-943a-d4fb19d3edef",
+      "symbol": "PF_LINKUSD",
+      "side": "buy",
+      "order_id": "a34192d5-21ea-4431-b3c2-34cfffb35836",
+      "cliOrdId": "LINKUSDT_20261118_CJ_001",
+      "size": 7.7,
+      "price": 8.914,
+      "fillTime": "2026-11-18T16:45:16.431Z",
+      "fillType": "taker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "14851321"
     }
   },
   "snapshots": [
@@ -25796,8 +25884,16 @@
       "unrealized": 0.0,
       "realized": -44.1508,
       "total": -44.1508
+    },
+    {
+      "ts": "2026-11-18T16:45:54Z",
+      "equity": 467.92860206040893,
+      "available": 349.86243706040887,
+      "unrealized": 0.11615860506691605,
+      "realized": -44.1508,
+      "total": -44.0346
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-18T16:18:26Z"
+  "updated": "2026-11-18T16:45:54Z"
 }
