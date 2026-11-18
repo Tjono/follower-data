@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 0.23727410774669808,
+      "unrealized_pnl": 0.22410380988869932,
       "fee_asset": [
         "usd"
       ],
@@ -3820,7 +3820,7 @@
       "fill_ids": [
         "700aac17-65f3-4cde-943a-d4fb19d3edef"
       ],
-      "unrealized_pnl": 1.0956159318720038,
+      "unrealized_pnl": 0.9875654668880073,
       "fee_asset": [
         "usd"
       ],
@@ -3851,7 +3851,7 @@
         "418961d5-2c42-485e-9086-c6e0a22e2038",
         "b8a83d41-8176-4fe0-a54c-751db785ebdd"
       ],
-      "unrealized_pnl": 0.4434234071850024,
+      "unrealized_pnl": 0.49629213216000045,
       "fee_asset": [
         "usd"
       ],
@@ -6802,6 +6802,15 @@
       "entry_price": 1833.2,
       "resting_at": "2026-11-18T16:45:19Z",
       "braam_trade_id": "ETHUSDT_20261118_CB_001",
+      "status": "RESTING"
+    },
+    "a341b3e5-189b-4027-a9da-189b674a00b9": {
+      "order_id": "a341b3e5-189b-4027-a9da-189b674a00b9",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "entry_price": 3.2744,
+      "resting_at": "2026-11-18T18:17:43Z",
+      "braam_trade_id": "NEARUSDT_20261118_CB_001",
       "status": "RESTING"
     }
   },
@@ -26059,8 +26068,16 @@
       "unrealized": 1.7767533439397076,
       "realized": -44.1508,
       "total": -42.374
+    },
+    {
+      "ts": "2026-11-18T18:18:08Z",
+      "equity": 470.1310541983796,
+      "available": 359.20724919837966,
+      "unrealized": 1.7085001404283207,
+      "realized": -44.1508,
+      "total": -42.4423
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-18T18:14:50Z"
+  "updated": "2026-11-18T18:18:08Z"
 }
