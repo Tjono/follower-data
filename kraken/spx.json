@@ -3,8 +3,8 @@
   "symbol": "^GSPC",
   "source": "Yahoo chart ^GSPC, interval 1d (stdlib fetch)",
   "start": "2026-04-01",
-  "end": "2026-11-18",
-  "fetched_utc": "2026-11-19T14:18:19Z",
+  "end": "2026-11-19",
+  "fetched_utc": "2026-11-19T15:09:19Z",
   "venue": "Kraken",
   "closes": [
     {
@@ -650,6 +650,10 @@
     {
       "iso": "2026-11-18",
       "close": 7323.6299
+    },
+    {
+      "iso": "2026-11-19",
+      "close": 7386.1499
     }
   ]
 }
