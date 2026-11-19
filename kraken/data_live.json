@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-19T15:48:22Z",
+  "last_updated_iso": "2026-11-19T16:10:05Z",
   "freshness": {
-    "engine_run_iso": "2026-11-19T15:47:53Z",
+    "engine_run_iso": "2026-11-19T16:09:27Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-11-19T14:08:00Z",
+    "feed_generated_iso": "2026-11-19T16:08:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-19T15:48:22Z",
+    "published_iso": "2026-11-19T16:10:05Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 5.5226,
-    "equity": 470.3235,
-    "available": 373.065,
+    "unrealized_pnl": 5.8815,
+    "equity": 470.5287,
+    "available": 373.2702,
     "position_margin": 34.7687
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "29s ago",
+      "value": "38s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "100 min old",
+      "value": "2 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$470.32",
+      "value": "$470.53",
       "status": "ok",
       "action": null
     },
@@ -3244,7 +3244,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-16T04:07:23Z",
-      "last_seen_iso": "2026-11-19T15:47:53Z"
+      "last_seen_iso": "2026-11-19T16:09:27Z"
     },
     {
       "trade_id": "SOLUSDT_20261111_CM_001",
@@ -3337,29 +3337,29 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-19T14:08Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-11-19T16:08Z",
+    "checked": 16,
+    "in_parity": 16,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-19T14:08Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-11-19T16:08Z",
+    "checked": 16,
+    "in_parity": 16,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-19T14:08Z",
-    "checked": 17,
-    "in_parity": 17,
+    "feed_generated_utc": "2026-11-19T16:08Z",
+    "checked": 16,
+    "in_parity": 16,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-19T15:48:22Z",
+    "updated_iso": "2026-11-19T16:10:05Z",
     "trades": [
       {
         "trade_id": "TAOUSDT_20261115_CJ_001",
