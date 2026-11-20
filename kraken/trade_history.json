@@ -3853,10 +3853,11 @@
         "b8a83d41-8176-4fe0-a54c-751db785ebdd",
         "7f28c696-45d2-4cf8-b805-3800ad65c54c"
       ],
-      "unrealized_pnl": 3.568456153287999,
+      "unrealized_pnl": 4.142436271597001,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     },
     "SOLUSDT_20261118_CB_001": {
       "position_id": "SOLUSDT_20261118_CB_001",
@@ -3959,7 +3960,7 @@
       "leverage": 3,
       "entry_price": 200.5,
       "entry_size": 0.35,
-      "exit_size": 0,
+      "exit_size": 0.28,
       "opened_at": "2026-11-19T14:00:03Z",
       "closed_at": null,
       "close_price": null,
@@ -3967,19 +3968,19 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 5.8632,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.014,
+      "fees_usd": 0.0391,
       "funding_usd": null,
       "fill_ids": [
-        "b46f7669-4c3a-4d59-bd2a-037fc249fe83"
+        "b46f7669-4c3a-4d59-bd2a-037fc249fe83",
+        "ee46795e-36db-4f68-ae3e-b37ecbefcac7"
       ],
-      "unrealized_pnl": 7.246224455638003,
+      "unrealized_pnl": 1.7546107660788,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     }
   },
   "orders": {
@@ -11280,6 +11281,20 @@
       "realized_pnl": 3.2612,
       "realized_funding": -0.00079632216,
       "sequence_id": "1546404"
+    },
+    "ee46795e-36db-4f68-ae3e-b37ecbefcac7": {
+      "fill_id": "ee46795e-36db-4f68-ae3e-b37ecbefcac7",
+      "symbol": "PF_TAOUSD",
+      "side": "buy",
+      "order_id": "a344e049-9f42-4934-ae2e-63586f7bd041",
+      "cliOrdId": "TAOUSDT_20261115_CJ_001:TP1#1795162159301",
+      "size": 0.28,
+      "price": 179.56,
+      "fillTime": "2026-11-20T15:18:06Z",
+      "fillType": "taker",
+      "realized_pnl": 5.8632,
+      "realized_funding": -8.046084e-05,
+      "sequence_id": "6923729"
     }
   },
   "snapshots": [
@@ -27146,8 +27161,16 @@
       "unrealized": 10.814566448625405,
       "realized": -44.547,
       "total": -33.7324
+    },
+    {
+      "ts": "2026-11-20T15:48:26Z",
+      "equity": 483.75633024706326,
+      "available": 366.87660224706326,
+      "unrealized": 5.896256518660242,
+      "realized": -44.547,
+      "total": -38.6507
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-20T15:18:01Z"
+  "updated": "2026-11-20T15:48:26Z"
 }
