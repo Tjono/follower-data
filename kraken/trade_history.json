@@ -209,7 +209,7 @@
       "fill_ids": [
         "d82052b2-1a0c-4816-9cf1-97b5ac2b7462"
       ],
-      "unrealized_pnl": 1.0594556262795003,
+      "unrealized_pnl": 1.004009402976007,
       "fee_asset": [
         "usd"
       ],
@@ -3852,7 +3852,7 @@
         "418961d5-2c42-485e-9086-c6e0a22e2038",
         "b8a83d41-8176-4fe0-a54c-751db785ebdd"
       ],
-      "unrealized_pnl": 2.3848530126300056,
+      "unrealized_pnl": 2.239774396199997,
       "fee_asset": [
         "usd"
       ],
@@ -3943,7 +3943,7 @@
       "fill_ids": [
         "d77536ce-c2fc-46cc-b647-551a3142b415"
       ],
-      "unrealized_pnl": 2.473005430830004,
+      "unrealized_pnl": 2.309036150080003,
       "fee_asset": [
         "usd"
       ],
@@ -3973,7 +3973,7 @@
       "fill_ids": [
         "b46f7669-4c3a-4d59-bd2a-037fc249fe83"
       ],
-      "unrealized_pnl": 4.601689132340996,
+      "unrealized_pnl": 4.442383434194995,
       "fee_asset": [
         "usd"
       ],
@@ -6967,6 +6967,15 @@
       "entry_price": 63684.0,
       "resting_at": "2026-11-20T04:09:44Z",
       "braam_trade_id": "BTCUSDT_20261114_CJ_001",
+      "status": "RESTING"
+    },
+    "a344e029-5cb5-4357-8026-a56910a58861": {
+      "order_id": "a344e029-5cb5-4357-8026-a56910a58861",
+      "coin": "DOGEUSDT",
+      "direction": "Short",
+      "entry_price": 0.05954,
+      "resting_at": "2026-11-20T08:08:59Z",
+      "braam_trade_id": "DOGEUSDT_20261119_CB_001",
       "status": "RESTING"
     }
   },
@@ -26940,8 +26949,16 @@
       "unrealized": 10.518586064782061,
       "realized": -49.1123,
       "total": -38.5937
+    },
+    {
+      "ts": "2026-11-20T08:09:29Z",
+      "equity": 473.4706031545736,
+      "available": 333.6985221545736,
+      "unrealized": 9.994903154573576,
+      "realized": -49.1123,
+      "total": -39.1174
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-20T07:18:09Z"
+  "updated": "2026-11-20T08:09:29Z"
 }
