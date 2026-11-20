@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-20T09:48:43Z",
+  "last_updated_iso": "2026-11-20T10:08:02Z",
   "freshness": {
-    "engine_run_iso": "2026-11-20T09:48:18Z",
+    "engine_run_iso": "2026-11-20T10:07:38Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-11-20T09:26:00Z",
+    "feed_generated_iso": "2026-11-20T10:07:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-20T09:48:43Z",
+    "published_iso": "2026-11-20T10:08:02Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 7.4054,
-    "equity": 475.3947,
-    "available": 342.3816,
+    "unrealized_pnl": 7.5164,
+    "equity": 475.2931,
+    "available": 342.28,
     "position_margin": 14.0317
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "25s ago",
+      "value": "24s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "22 min old",
+      "value": "62s old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$475.39",
+      "value": "$475.29",
       "status": "ok",
       "action": null
     },
@@ -109,7 +109,7 @@
       "key": "signals_skipped",
       "tier": 1,
       "label": "Feed trades not taken",
-      "value": "7 (4 coin not listed, 2 coin slot taken, 1 missed market entry)",
+      "value": "10 (5 coin slot taken, 4 coin not listed, 1 missed market entry)",
       "status": "info",
       "action": null
     }
@@ -3379,6 +3379,42 @@
   ],
   "recent_skips": [
     {
+      "trade_id": "ETHUSDT_20261118_CJ_001",
+      "coin": "ETHUSDT",
+      "direction": "Short",
+      "trading_system": "John",
+      "entry_price": 1865.60092826,
+      "reason_code": "coin_slot_taken",
+      "reason": "The engine runs one trade per coin on Kraken and ETH already has one (ETHUSDT_20261118_CB_001 is resting).",
+      "reason_short": "one trade per coin - slot taken",
+      "iso": "2026-11-20T10:07:38Z",
+      "last_seen_iso": "2026-11-20T10:07:38Z"
+    },
+    {
+      "trade_id": "APTUSDT_20261118_CB_002",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 0.45461193,
+      "reason_code": "coin_slot_taken",
+      "reason": "The engine runs one trade per coin on Kraken and APT already has one (APTUSDT_20261118_CJ_002 is resting).",
+      "reason_short": "one trade per coin - slot taken",
+      "iso": "2026-11-20T10:07:38Z",
+      "last_seen_iso": "2026-11-20T10:07:38Z"
+    },
+    {
+      "trade_id": "ALGOUSDT_20261118_CB_001",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 0.08044722,
+      "reason_code": "coin_slot_taken",
+      "reason": "The engine runs one trade per coin on Kraken and ALGO already has one (ALGOUSDT_20261116_CJ_001 is resting).",
+      "reason_short": "one trade per coin - slot taken",
+      "iso": "2026-11-20T10:07:38Z",
+      "last_seen_iso": "2026-11-20T10:07:38Z"
+    },
+    {
       "trade_id": "LTCUSDT_20261119_CJ_001",
       "coin": "LTCUSDT",
       "direction": "Short",
@@ -3388,7 +3424,7 @@
       "reason": "The engine runs one trade per coin on Kraken and LTC already has one (LTCUSDT_20261118_CB_002 is resting).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-11-20T00:09:02Z",
-      "last_seen_iso": "2026-11-20T09:48:18Z"
+      "last_seen_iso": "2026-11-20T10:07:38Z"
     },
     {
       "trade_id": "THETAUSDT_20261115_CJ_001",
@@ -3493,29 +3529,29 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-20T09:26Z",
-    "checked": 19,
-    "in_parity": 19,
+    "feed_generated_utc": "2026-11-20T10:07Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-20T09:26Z",
-    "checked": 19,
-    "in_parity": 19,
+    "feed_generated_utc": "2026-11-20T10:07Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-20T09:26Z",
-    "checked": 19,
-    "in_parity": 19,
+    "feed_generated_utc": "2026-11-20T10:07Z",
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-20T09:48:43Z",
+    "updated_iso": "2026-11-20T10:08:02Z",
     "trades": [
       {
         "trade_id": "SOLUSDT_20261118_CB_001",
