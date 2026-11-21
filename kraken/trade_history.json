@@ -3980,7 +3980,7 @@
         "b46f7669-4c3a-4d59-bd2a-037fc249fe83",
         "ee46795e-36db-4f68-ae3e-b37ecbefcac7"
       ],
-      "unrealized_pnl": 1.0309111769432002,
+      "unrealized_pnl": 1.1114749606547993,
       "fee_asset": [
         "usd"
       ],
@@ -7055,6 +7055,15 @@
       "entry_price": 3.0033,
       "resting_at": "2026-11-21T18:07:34Z",
       "braam_trade_id": "NEARUSDT_20261121_CB_001",
+      "status": "RESTING"
+    },
+    "a3480ea3-8903-43cf-a06e-8aad11b5b589": {
+      "order_id": "a3480ea3-8903-43cf-a06e-8aad11b5b589",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "entry_price": 0.387,
+      "resting_at": "2026-11-21T22:06:25Z",
+      "braam_trade_id": "APTUSDT_20261121_CJ_001",
       "status": "RESTING"
     }
   },
@@ -27934,8 +27943,16 @@
       "unrealized": 1.031259518349216,
       "realized": -38.7138,
       "total": -37.6825
+    },
+    {
+      "ts": "2026-11-21T22:06:45Z",
+      "equity": 480.4728403274042,
+      "available": 359.11490032740426,
+      "unrealized": 1.111465288059011,
+      "realized": -38.7138,
+      "total": -37.6023
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-21T22:00:14Z"
+  "updated": "2026-11-21T22:06:45Z"
 }
