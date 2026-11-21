@@ -3853,7 +3853,7 @@
         "b8a83d41-8176-4fe0-a54c-751db785ebdd",
         "7f28c696-45d2-4cf8-b805-3800ad65c54c"
       ],
-      "unrealized_pnl": 4.9385118625440025,
+      "unrealized_pnl": 5.488488721417002,
       "fee_asset": [
         "usd"
       ],
@@ -3977,7 +3977,7 @@
         "b46f7669-4c3a-4d59-bd2a-037fc249fe83",
         "ee46795e-36db-4f68-ae3e-b37ecbefcac7"
       ],
-      "unrealized_pnl": 2.116370440600501,
+      "unrealized_pnl": 2.4007967016474003,
       "fee_asset": [
         "usd"
       ],
@@ -6989,6 +6989,15 @@
       "entry_price": 0.13868,
       "resting_at": "2026-11-20T09:27:08Z",
       "braam_trade_id": "XLMUSDT_20261119_CB_001",
+      "status": "RESTING"
+    },
+    "a3468cec-0c25-4cee-ad19-e070de40c320": {
+      "order_id": "a3468cec-0c25-4cee-ad19-e070de40c320",
+      "coin": "BNBUSDT",
+      "direction": "Short",
+      "entry_price": 581.62,
+      "resting_at": "2026-11-21T04:07:53Z",
+      "braam_trade_id": "BNBUSDT_20261117_CJ_001",
       "status": "RESTING"
     }
   },
@@ -27434,8 +27443,16 @@
       "unrealized": 7.054484729390844,
       "realized": -44.547,
       "total": -37.4925
+    },
+    {
+      "ts": "2026-11-21T04:08:12Z",
+      "equity": 484.80802023290084,
+      "available": 367.5733822329009,
+      "unrealized": 7.889115655965259,
+      "realized": -44.547,
+      "total": -36.6579
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-21T03:48:44Z"
+  "updated": "2026-11-21T04:08:12Z"
 }
