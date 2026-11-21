@@ -3835,29 +3835,32 @@
       "leverage": 3,
       "entry_price": 1.417,
       "entry_size": 49.5,
-      "exit_size": 24.8,
+      "exit_size": 49.5,
       "opened_at": "2026-11-18T17:01:03Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-21T13:37:47Z",
+      "close_price": 1.2965240404,
       "margin_usd": 23.3805,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": 3.2612,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0299,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "tp1_trail",
+      "close_fills": 2,
+      "pnl_gross_usd": 5.96356,
+      "pnl_usd": 5.83316,
+      "tag": "WIN",
+      "fees_usd": 0.0461,
+      "funding_usd": -0.0843,
       "fill_ids": [
         "418961d5-2c42-485e-9086-c6e0a22e2038",
         "b8a83d41-8176-4fe0-a54c-751db785ebdd",
-        "7f28c696-45d2-4cf8-b805-3800ad65c54c"
+        "7f28c696-45d2-4cf8-b805-3800ad65c54c",
+        "3c4be4cc-df8f-470a-9dcc-0177fa2f4462",
+        "5dcfb91e-d862-4455-bda2-a6ff96b42c1e",
+        "ac92d6b7-7f7e-4a57-8a82-cab00a1d8980"
       ],
       "unrealized_pnl": 3.034252836926999,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "SOLUSDT_20261118_CB_001": {
       "position_id": "SOLUSDT_20261118_CB_001",
@@ -3977,7 +3980,7 @@
         "b46f7669-4c3a-4d59-bd2a-037fc249fe83",
         "ee46795e-36db-4f68-ae3e-b37ecbefcac7"
       ],
-      "unrealized_pnl": 1.0626629783006998,
+      "unrealized_pnl": 0.9110806417769005,
       "fee_asset": [
         "usd"
       ],
@@ -6998,6 +7001,33 @@
       "entry_price": 581.62,
       "resting_at": "2026-11-21T04:07:53Z",
       "braam_trade_id": "BNBUSDT_20261117_CJ_001",
+      "status": "RESTING"
+    },
+    "a3476379-f3a9-430c-979d-73182002c56d": {
+      "order_id": "a3476379-f3a9-430c-979d-73182002c56d",
+      "coin": "SOLUSDT",
+      "direction": "Short",
+      "entry_price": 73.46,
+      "resting_at": "2026-11-21T14:07:49Z",
+      "braam_trade_id": "SOLUSDT_20261120_CB_001",
+      "status": "RESTING"
+    },
+    "a3476376-deb5-4570-b463-99d53b7946ca": {
+      "order_id": "a3476376-deb5-4570-b463-99d53b7946ca",
+      "coin": "ADAUSDT",
+      "direction": "Short",
+      "entry_price": 0.15234,
+      "resting_at": "2026-11-21T14:07:47Z",
+      "braam_trade_id": "ADAUSDT_20261120_CB_001",
+      "status": "RESTING"
+    },
+    "a3476374-f7e4-420e-8df4-6f6c3ec84e0d": {
+      "order_id": "a3476374-f7e4-420e-8df4-6f6c3ec84e0d",
+      "coin": "RENDERUSDT",
+      "direction": "Short",
+      "entry_price": 1.479,
+      "resting_at": "2026-11-21T14:07:46Z",
+      "braam_trade_id": "RENDERUSDT_20261120_CJ_001",
       "status": "RESTING"
     }
   },
@@ -11305,6 +11335,48 @@
       "realized_pnl": 5.8632,
       "realized_funding": -8.046084e-05,
       "sequence_id": "6923729"
+    },
+    "5dcfb91e-d862-4455-bda2-a6ff96b42c1e": {
+      "fill_id": "5dcfb91e-d862-4455-bda2-a6ff96b42c1e",
+      "symbol": "PF_RENDERUSD",
+      "side": "buy",
+      "order_id": "a346b7af-11e9-4d6a-b749-24b83d611f83",
+      "cliOrdId": "RENDERUSDT_20261118_CB_001:SL2#1795241247225",
+      "size": 23.2,
+      "price": 1.3077,
+      "fillTime": "2026-11-21T13:37:47Z",
+      "fillType": "taker",
+      "realized_pnl": 2.53576,
+      "realized_funding": 0,
+      "sequence_id": "1547463"
+    },
+    "3c4be4cc-df8f-470a-9dcc-0177fa2f4462": {
+      "fill_id": "3c4be4cc-df8f-470a-9dcc-0177fa2f4462",
+      "symbol": "PF_RENDERUSD",
+      "side": "buy",
+      "order_id": "a346b7af-11e9-4d6a-b749-24b83d611f83",
+      "cliOrdId": "RENDERUSDT_20261118_CB_001:SL2#1795241247225",
+      "size": 1,
+      "price": 1.3065,
+      "fillTime": "2026-11-21T13:37:47Z",
+      "fillType": "taker",
+      "realized_pnl": 0.1105,
+      "realized_funding": 0,
+      "sequence_id": "1547462"
+    },
+    "ac92d6b7-7f7e-4a57-8a82-cab00a1d8980": {
+      "fill_id": "ac92d6b7-7f7e-4a57-8a82-cab00a1d8980",
+      "symbol": "PF_RENDERUSD",
+      "side": "buy",
+      "order_id": "a346b7af-11e9-4d6a-b749-24b83d611f83",
+      "cliOrdId": "RENDERUSDT_20261118_CB_001:SL2#1795241247225",
+      "size": 0.5,
+      "price": 1.3048,
+      "fillTime": "2026-11-21T13:37:47Z",
+      "fillType": "taker",
+      "realized_pnl": 0.0561,
+      "realized_funding": -0.0013023218,
+      "sequence_id": "1547461"
     }
   },
   "snapshots": [
@@ -27635,8 +27707,16 @@
       "unrealized": 4.095807488429632,
       "realized": -44.547,
       "total": -40.4512
+    },
+    {
+      "ts": "2026-11-21T14:08:08Z",
+      "equity": 480.2753369276395,
+      "available": 380.05502692763946,
+      "unrealized": 0.9109675694163714,
+      "realized": -38.7138,
+      "total": -37.8028
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-21T13:23:23Z"
+  "updated": "2026-11-21T14:08:08Z"
 }
