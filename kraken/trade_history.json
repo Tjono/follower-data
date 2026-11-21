@@ -3980,7 +3980,7 @@
         "b46f7669-4c3a-4d59-bd2a-037fc249fe83",
         "ee46795e-36db-4f68-ae3e-b37ecbefcac7"
       ],
-      "unrealized_pnl": 0.9276981731989995,
+      "unrealized_pnl": 0.9497679723909992,
       "fee_asset": [
         "usd"
       ],
@@ -7028,6 +7028,15 @@
       "entry_price": 1.479,
       "resting_at": "2026-11-21T14:07:46Z",
       "braam_trade_id": "RENDERUSDT_20261120_CJ_001",
+      "status": "RESTING"
+    },
+    "a3478e58-6c9e-4362-808f-41b9ce813190": {
+      "order_id": "a3478e58-6c9e-4362-808f-41b9ce813190",
+      "coin": "BTCUSDT",
+      "direction": "Short",
+      "entry_price": 63679.0,
+      "resting_at": "2026-11-21T16:07:41Z",
+      "braam_trade_id": "BTCUSDT_20261121_CJ_001",
       "status": "RESTING"
     }
   },
@@ -27763,8 +27772,16 @@
       "unrealized": 0.9276785078437408,
       "realized": -38.7138,
       "total": -37.7861
+    },
+    {
+      "ts": "2026-11-21T16:08:03Z",
+      "equity": 480.3168227055615,
+      "available": 373.0918227055615,
+      "unrealized": 0.9497227055614818,
+      "realized": -38.7138,
+      "total": -37.7641
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-21T16:03:30Z"
+  "updated": "2026-11-21T16:08:03Z"
 }
