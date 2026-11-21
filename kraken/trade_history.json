@@ -3980,7 +3980,7 @@
         "b46f7669-4c3a-4d59-bd2a-037fc249fe83",
         "ee46795e-36db-4f68-ae3e-b37ecbefcac7"
       ],
-      "unrealized_pnl": 1.0249971276405003,
+      "unrealized_pnl": 0.9883057152430008,
       "fee_asset": [
         "usd"
       ],
@@ -7037,6 +7037,24 @@
       "entry_price": 63679.0,
       "resting_at": "2026-11-21T16:07:41Z",
       "braam_trade_id": "BTCUSDT_20261121_CJ_001",
+      "status": "RESTING"
+    },
+    "a347b939-c655-42cd-94fd-abd1ee98cdc8": {
+      "order_id": "a347b939-c655-42cd-94fd-abd1ee98cdc8",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "entry_price": 0.6755,
+      "resting_at": "2026-11-21T18:07:35Z",
+      "braam_trade_id": "SUIUSDT_20261121_CB_001",
+      "status": "RESTING"
+    },
+    "a347b937-db75-4ade-998d-009873c77b72": {
+      "order_id": "a347b937-db75-4ade-998d-009873c77b72",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "entry_price": 3.0033,
+      "resting_at": "2026-11-21T18:07:34Z",
+      "braam_trade_id": "NEARUSDT_20261121_CB_001",
       "status": "RESTING"
     }
   },
@@ -27804,8 +27822,16 @@
       "unrealized": 1.0247311599350015,
       "realized": -38.7138,
       "total": -37.6891
+    },
+    {
+      "ts": "2026-11-21T18:07:55Z",
+      "equity": 480.35407677680945,
+      "available": 366.2020767768094,
+      "unrealized": 0.9881767768094493,
+      "realized": -38.7138,
+      "total": -37.7256
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-21T17:18:15Z"
+  "updated": "2026-11-21T18:07:55Z"
 }
