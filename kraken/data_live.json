@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-22T03:18:02Z",
+  "last_updated_iso": "2026-11-22T03:48:32Z",
   "freshness": {
-    "engine_run_iso": "2026-11-22T03:17:40Z",
+    "engine_run_iso": "2026-11-22T03:48:07Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-22T02:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-22T03:18:02Z",
+    "published_iso": "2026-11-22T03:48:32Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 1.1554,
-    "equity": 480.5177,
-    "available": 359.1598,
+    "unrealized_pnl": 1.2119,
+    "equity": 480.5754,
+    "available": 359.2175,
     "position_margin": 1.4035
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "22s ago",
+      "value": "25s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "72 min old",
+      "value": "102 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$480.52",
+      "value": "$480.58",
       "status": "ok",
       "action": null
     },
@@ -3392,7 +3392,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-21T14:07:30Z",
-      "last_seen_iso": "2026-11-22T03:17:40Z"
+      "last_seen_iso": "2026-11-22T03:48:07Z"
     },
     {
       "trade_id": "ETHUSDT_20261118_CJ_001",
@@ -3404,7 +3404,7 @@
       "reason": "The engine runs one trade per coin on Kraken and ETH already has one (ETHUSDT_20261118_CB_001 is resting).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-11-20T10:07:38Z",
-      "last_seen_iso": "2026-11-22T03:17:40Z"
+      "last_seen_iso": "2026-11-22T03:48:07Z"
     },
     {
       "trade_id": "APTUSDT_20261118_CB_002",
@@ -3428,7 +3428,7 @@
       "reason": "The engine runs one trade per coin on Kraken and ALGO already has one (ALGOUSDT_20261116_CJ_001 is resting).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-11-20T10:07:38Z",
-      "last_seen_iso": "2026-11-22T03:17:40Z"
+      "last_seen_iso": "2026-11-22T03:48:07Z"
     },
     {
       "trade_id": "LTCUSDT_20261119_CJ_001",
@@ -3562,7 +3562,7 @@
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-22T03:18:02Z",
+    "updated_iso": "2026-11-22T03:48:32Z",
     "trades": [
       {
         "trade_id": "APTUSDT_20261121_CJ_001",
