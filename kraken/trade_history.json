@@ -3980,7 +3980,7 @@
         "b46f7669-4c3a-4d59-bd2a-037fc249fe83",
         "ee46795e-36db-4f68-ae3e-b37ecbefcac7"
       ],
-      "unrealized_pnl": 1.061258772297499,
+      "unrealized_pnl": 1.0607315162128994,
       "fee_asset": [
         "usd"
       ],
@@ -28026,5 +28026,5 @@
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-22T00:17:12Z"
+  "updated": "2026-11-22T00:18:14Z"
 }
