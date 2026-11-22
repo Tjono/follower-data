@@ -3980,11 +3980,40 @@
         "b46f7669-4c3a-4d59-bd2a-037fc249fe83",
         "ee46795e-36db-4f68-ae3e-b37ecbefcac7"
       ],
-      "unrealized_pnl": 0.6069404990032999,
+      "unrealized_pnl": 0.6878893920164001,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "NEARUSDT_20261121_CB_001": {
+      "position_id": "NEARUSDT_20261121_CB_001",
+      "braam_trade_id": "NEARUSDT_20261121_CB_001",
+      "coin": "NEARUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 3.0033,
+      "entry_size": 23.0,
+      "exit_size": 0,
+      "opened_at": "2026-11-22T10:59:32Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 23.0253,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0138,
+      "funding_usd": null,
+      "fill_ids": [
+        "35c456dc-2aed-45cf-82ec-3046b9b8183a"
+      ],
+      "unrealized_pnl": -0.02321099164999918,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -11422,6 +11451,20 @@
       "realized_pnl": 0.0561,
       "realized_funding": -0.0013023218,
       "sequence_id": "1547461"
+    },
+    "35c456dc-2aed-45cf-82ec-3046b9b8183a": {
+      "fill_id": "35c456dc-2aed-45cf-82ec-3046b9b8183a",
+      "symbol": "PF_NEARUSD",
+      "side": "sell",
+      "order_id": "a347b937-db75-4ade-998d-009873c77b72",
+      "cliOrdId": "NEARUSDT_20261121_CB_001",
+      "size": 23,
+      "price": 3.0033,
+      "fillTime": "2026-11-22T10:59:32.355Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "9959497"
     }
   },
   "snapshots": [
@@ -28200,8 +28243,16 @@
       "unrealized": 0.6097705901764178,
       "realized": -38.7138,
       "total": -38.104
+    },
+    {
+      "ts": "2026-11-22T11:01:10Z",
+      "equity": 480.0040035544412,
+      "available": 354.2726035544413,
+      "unrealized": 0.6611010901940304,
+      "realized": -38.7138,
+      "total": -38.0527
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-22T10:18:58Z"
+  "updated": "2026-11-22T11:01:10Z"
 }
