@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-23T13:38:51+00:00",
+  "generated_at_utc": "2026-11-23T13:56:58+00:00",
   "venue": "Kraken",
   "all_time": {
     "total_trades": 111,
@@ -45,8 +45,8 @@
       "days_active": 34,
       "pnl_per_day": 0.17,
       "status": "active",
-      "open": 1,
-      "pending": 10
+      "open": 3,
+      "pending": 8
     },
     "Mong": {
       "n": 0,
@@ -85,8 +85,8 @@
       "wr": 57.1,
       "pnl": 5.78,
       "pnl_per_day": 0.17,
-      "open": 1,
-      "pending": 10
+      "open": 3,
+      "pending": 8
     },
     {
       "name": "Mong",
@@ -1641,12 +1641,12 @@
     }
   ],
   "live_positions": {
-    "open_count": 3,
+    "open_count": 5,
     "open_long": 0,
-    "open_short": 3,
-    "pending_count": 17,
-    "capital_open_usd": 70.44,
-    "capital_pending_usd": 403.18
+    "open_short": 5,
+    "pending_count": 15,
+    "capital_open_usd": 118.3,
+    "capital_pending_usd": 355.15
   },
   "macro": {
     "vix": null,
