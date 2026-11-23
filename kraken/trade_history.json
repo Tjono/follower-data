@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 2.7698260573114526,
+      "unrealized_pnl": 2.8398742493799505,
       "fee_asset": [
         "usd"
       ],
@@ -4195,7 +4195,7 @@
       "fill_ids": [
         "fc22c5a9-bb25-400d-b8f8-bcf3830a4929"
       ],
-      "unrealized_pnl": 2.4021049063200053,
+      "unrealized_pnl": 2.68015001968,
       "fee_asset": [
         "usd"
       ],
@@ -4225,7 +4225,7 @@
       "fill_ids": [
         "00f05b74-7db6-48d1-be2b-3409d2a54daf"
       ],
-      "unrealized_pnl": 5.30898767775,
+      "unrealized_pnl": 5.484347136,
       "fee_asset": [
         "usd"
       ],
@@ -4255,7 +4255,7 @@
       "fill_ids": [
         "8fe32deb-7478-4b1b-acc3-25131b4f2016"
       ],
-      "unrealized_pnl": 4.43330536393582,
+      "unrealized_pnl": 4.605308853835539,
       "fee_asset": [
         "usd"
       ],
@@ -4285,11 +4285,40 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 2.6931292945200003,
+      "unrealized_pnl": 2.7559213995600076,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "HBARUSDT_20261123_CJ_001": {
+      "position_id": "HBARUSDT_20261123_CJ_001",
+      "braam_trade_id": "HBARUSDT_20261123_CJ_001",
+      "coin": "HBARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 0.0524,
+      "entry_size": 1320.0,
+      "exit_size": 0,
+      "opened_at": "2026-11-23T22:33:08Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 23.056,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0138,
+      "funding_usd": null,
+      "fill_ids": [
+        "5ee7a77c-cd1e-4f2f-8a8a-eaebbb1bd11a"
+      ],
+      "unrealized_pnl": 0.056202168000000496,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -12023,6 +12052,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "112872"
+    },
+    "5ee7a77c-cd1e-4f2f-8a8a-eaebbb1bd11a": {
+      "fill_id": "5ee7a77c-cd1e-4f2f-8a8a-eaebbb1bd11a",
+      "symbol": "PF_HBARUSD",
+      "side": "buy",
+      "order_id": "a34bea23-f48c-4038-b4a6-e8a669ac52f4",
+      "cliOrdId": "HBARUSDT_20261123_CJ_001#1795464460037",
+      "size": 1320,
+      "price": 0.0524,
+      "fillTime": "2026-11-23T22:33:08.055Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "2735833"
     }
   },
   "snapshots": [
@@ -29433,8 +29476,16 @@
       "unrealized": 17.60676857650613,
       "realized": -49.676,
       "total": -32.0692
+    },
+    {
+      "ts": "2026-11-23T22:34:56Z",
+      "equity": 478.16296927650757,
+      "available": 370.00646646221696,
+      "unrealized": 18.422139152427487,
+      "realized": -49.676,
+      "total": -31.2539
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-23T22:17:55Z"
+  "updated": "2026-11-23T22:34:56Z"
 }
