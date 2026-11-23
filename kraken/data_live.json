@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-23T14:15:17Z",
+  "last_updated_iso": "2026-11-23T14:16:54Z",
   "freshness": {
-    "engine_run_iso": "2026-11-23T14:14:26Z",
+    "engine_run_iso": "2026-11-23T14:16:21Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
     "feed_generated_iso": "2026-11-23T14:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-23T14:15:17Z",
+    "published_iso": "2026-11-23T14:16:54Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,15 +18,15 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": -0.0495,
-    "equity": 461.1748,
-    "available": 361.9323,
-    "position_margin": 14.1951
+    "unrealized_pnl": -1.173,
+    "equity": 460.2003,
+    "available": 361.2072,
+    "position_margin": 21.1949
   },
   "account_source": "live",
   "order_levels": {
-    "checked": 19,
-    "in_sync": 19,
+    "checked": 18,
+    "in_sync": 18,
     "drifted": [],
     "reconciling": [],
     "detail": []
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "51s ago",
+      "value": "33s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "9 min old",
+      "value": "10 min old",
       "status": "ok",
       "action": null
     },
@@ -69,7 +69,7 @@
       "key": "state_file",
       "tier": 1,
       "label": "Trade journal",
-      "value": "OK (179 records, 16 resting, 3 open, 116 closed)",
+      "value": "OK (179 records, 15 resting, 3 open, 116 closed)",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$461.17",
+      "value": "$460.20",
       "status": "ok",
       "action": null
     },
@@ -85,7 +85,7 @@
       "key": "orphan_orders",
       "tier": 1,
       "label": "Order reconciliation",
-      "value": "in sync (16 resting = journal)",
+      "value": "in sync (15 resting = journal)",
       "status": "ok",
       "action": null
     },
@@ -93,15 +93,15 @@
       "key": "position_protection",
       "tier": 1,
       "label": "Position protection",
-      "value": "1 NAKED: TAO (TAOUSDT_20261115_CJ_001)",
-      "status": "urgent",
-      "action": "Position(s) with NO stop-loss resting on Kraken - place a stop NOW: TAO (TAOUSDT_20261115_CJ_001)"
+      "value": "all protected (3 open)",
+      "status": "ok",
+      "action": null
     },
     {
       "key": "fee_tier",
       "tier": 1,
       "label": "Fee tier",
-      "value": "measured 0.036% per side",
+      "value": "measured 0.034% per side",
       "status": "ok",
       "action": null
     },
@@ -115,40 +115,6 @@
     }
   ],
   "active_trades": [
-    {
-      "trade_id": "TAOUSDT_20261115_CJ_001",
-      "coin": "TAOUSDT",
-      "direction": "Short",
-      "entry_price": 200.5,
-      "sl": 207.94143697,
-      "tp1": 179.45768731,
-      "tp2": 162.51712605,
-      "capital_usd": 23.39,
-      "leverage": 3,
-      "trading_system": "John",
-      "track_only": false,
-      "status": "OPEN",
-      "price_at_run": null,
-      "date_activated": "2026-11-19",
-      "time_activated_utc": "14:00",
-      "date_opened": "2026-11-15",
-      "time_opened_utc": "12:02",
-      "conviction": "MEDIUM",
-      "tp1_hit": true,
-      "sl_moved_to_be": true,
-      "pnl_tp1_realized_usd": null,
-      "tp2_hit": null,
-      "pnl_tp1_estimated": null,
-      "live_executed": true,
-      "live_entry_fill": 200.5,
-      "live_exit_fill": null,
-      "live_entry_slippage_pct": -0.0,
-      "live_fees_usd": 0.0,
-      "live_funding_usd": null,
-      "live_tp1_pnl_usd": 5.8632,
-      "rehearsal": false,
-      "live_filled_ts": "2026-11-19T14:00:03.633000+00:00"
-    },
     {
       "trade_id": "LINKUSDT_20261115_CJ_001",
       "coin": "LINKUSDT",
@@ -293,31 +259,31 @@
       "sl": 0.32461687,
       "tp1": 0.2635,
       "tp2": 0.19590741,
-      "capital_usd": 23.39,
+      "capital_usd": 23.33,
       "leverage": 3,
       "trading_system": "Braam",
       "track_only": false,
-      "status": "PENDING",
+      "status": "OPEN",
       "price_at_run": null,
-      "date_activated": null,
-      "time_activated_utc": null,
+      "date_activated": "2026-11-23",
+      "time_activated_utc": "14:16",
       "date_opened": "2026-11-18",
       "time_opened_utc": "08:03",
       "conviction": "HIGH",
-      "tp1_hit": null,
+      "tp1_hit": false,
       "sl_moved_to_be": null,
       "pnl_tp1_realized_usd": null,
       "tp2_hit": null,
       "pnl_tp1_estimated": null,
-      "live_executed": null,
-      "live_entry_fill": null,
+      "live_executed": true,
+      "live_entry_fill": 0.3111,
       "live_exit_fill": null,
-      "live_entry_slippage_pct": null,
-      "live_fees_usd": null,
+      "live_entry_slippage_pct": -0.0,
+      "live_fees_usd": 0.0,
       "live_funding_usd": null,
       "live_tp1_pnl_usd": null,
       "rehearsal": false,
-      "live_filled_ts": null
+      "live_filled_ts": "2026-11-23T14:16:27.261000+00:00"
     },
     {
       "trade_id": "CAKEUSDT_20261118_CB_001",
@@ -861,6 +827,18 @@
       "tp1_hit": false,
       "iso": "2026-11-23T14:12:16Z",
       "_iso_ms": 1795443136000,
+      "rehearsal": false
+    },
+    {
+      "trade_id": "ONDOUSDT_20261118_CB_001",
+      "coin": "ONDOUSDT",
+      "direction": "Short",
+      "trading_system": "Braam",
+      "entry_price": 0.31109667,
+      "live_entry_fill": 0.3111,
+      "tp1_hit": false,
+      "iso": "2026-11-23T14:16:27Z",
+      "_iso_ms": 1795443387000,
       "rehearsal": false
     }
   ],
@@ -3514,15 +3492,15 @@
       "trade_id": "TAOUSDT_20261115_CJ_001",
       "coin": "TAOUSDT",
       "direction": "Short",
-      "status": "CLOSED",
+      "status": "STOPPED_AFTER_TP1",
       "pnl_usd": 5.79,
       "close_reason": "tp1_breakeven",
       "date_closed": "2026-11-23",
       "time_closed_utc": "14:14",
       "trading_system": "John",
       "live_entry_fill": 200.5,
-      "live_exit_fill": 183.748,
-      "live_entry_slippage_pct": null,
+      "live_exit_fill": 200.5,
+      "live_entry_slippage_pct": -0.0,
       "live_fees_usd": 0.0461,
       "live_funding_usd": -0.0226,
       "pnl_estimated": null,
@@ -3590,7 +3568,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-21T14:07:30Z",
-      "last_seen_iso": "2026-11-23T14:14:26Z"
+      "last_seen_iso": "2026-11-23T14:16:21Z"
     },
     {
       "trade_id": "ETHUSDT_20261118_CJ_001",
@@ -3602,7 +3580,7 @@
       "reason": "The engine runs one trade per coin on Kraken and ETH already has one (ETHUSDT_20261118_CB_001 is resting).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-11-20T10:07:38Z",
-      "last_seen_iso": "2026-11-23T14:14:26Z"
+      "last_seen_iso": "2026-11-23T14:16:21Z"
     },
     {
       "trade_id": "APTUSDT_20261118_CB_002",
@@ -3689,21 +3667,14 @@
       "last_seen_iso": "2026-10-26T03:17:37Z"
     }
   ],
-  "tp1_hits_open": [
-    {
-      "coin": "TAOUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "entry_price": 200.5
-    }
-  ],
+  "tp1_hits_open": [],
   "stats": {
     "realized_pnl_usd": -49.68,
     "realized_pnl_pct": -3.67,
     "peak_capital_usd": 201.86,
     "peak_concurrent": 8,
     "peak_date": "2026-11-05",
-    "deployed_trades": 118,
+    "deployed_trades": 119,
     "return_on_peak_pct": -24.61,
     "win_rate_pct": 25.0,
     "closed_count": 116,
@@ -3719,37 +3690,50 @@
         "closed_count": 106
       }
     },
-    "live_trade_count_total": 135,
-    "live_real_count": 135,
+    "live_trade_count_total": 134,
+    "live_real_count": 134,
     "live_rehearsal_count": 0
   },
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-11-23T14:06Z",
-    "checked": 19,
-    "in_parity": 19,
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   },
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-11-23T14:06Z",
-    "checked": 19,
-    "in_parity": 19,
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   },
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
     "feed_generated_utc": "2026-11-23T14:06Z",
-    "checked": 19,
-    "in_parity": 19,
+    "checked": 18,
+    "in_parity": 18,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-23T14:15:17Z",
+    "updated_iso": "2026-11-23T14:16:54Z",
     "trades": [
+      {
+        "trade_id": "ONDOUSDT_20261118_CB_001",
+        "coin": "ONDOUSDT",
+        "direction": "Short",
+        "trading_system": "Braam",
+        "kraken": {
+          "status": "OPEN",
+          "ret_pct": null,
+          "pnl_usd": null,
+          "margin_usd": 23.3325
+        },
+        "mexc": null
+      },
       {
         "trade_id": "TAOUSDT_20261115_CJ_001",
         "coin": "TAOUSDT",
@@ -4104,19 +4088,6 @@
       {
         "trade_id": "CAKEUSDT_20261118_CB_001",
         "coin": "CAKEUSDT",
-        "direction": "Short",
-        "trading_system": "Braam",
-        "kraken": {
-          "status": "RESTING",
-          "ret_pct": null,
-          "pnl_usd": null,
-          "margin_usd": 23.39
-        },
-        "mexc": null
-      },
-      {
-        "trade_id": "ONDOUSDT_20261118_CB_001",
-        "coin": "ONDOUSDT",
         "direction": "Short",
         "trading_system": "Braam",
         "kraken": {
