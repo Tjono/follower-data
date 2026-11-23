@@ -2,14 +2,14 @@
   "mode": "live",
   "venue": "Kraken",
   "rehearsal_mode": false,
-  "last_updated_iso": "2026-11-23T17:17:52Z",
+  "last_updated_iso": "2026-11-23T18:07:52Z",
   "freshness": {
-    "engine_run_iso": "2026-11-23T17:17:20Z",
+    "engine_run_iso": "2026-11-23T18:07:07Z",
     "engine_run_note": null,
     "engine_protect_iso": null,
-    "feed_generated_iso": "2026-11-23T16:06:00Z",
+    "feed_generated_iso": "2026-11-23T18:06:00Z",
     "feed_note": null,
-    "published_iso": "2026-11-23T17:17:52Z",
+    "published_iso": "2026-11-23T18:07:52Z",
     "cadence_min": 60.0,
     "run_warn_min": 80.0,
     "run_urgent_min": 135.0,
@@ -18,9 +18,9 @@
     "publish_urgent_min": 135.0
   },
   "mexc_account": {
-    "unrealized_pnl": 8.7861,
-    "equity": 467.9718,
-    "available": 360.6632,
+    "unrealized_pnl": 12.1827,
+    "equity": 471.1483,
+    "available": 363.3907,
     "position_margin": 35.0171
   },
   "account_source": "live",
@@ -45,7 +45,7 @@
       "key": "engine_run",
       "tier": 1,
       "label": "Last engine run",
-      "value": "32s ago",
+      "value": "45s ago",
       "status": "ok",
       "action": null
     },
@@ -53,7 +53,7 @@
       "key": "signal_feed",
       "tier": 1,
       "label": "Engine feed",
-      "value": "71 min old",
+      "value": "1 min old",
       "status": "ok",
       "action": null
     },
@@ -77,7 +77,7 @@
       "key": "sub_wallet",
       "tier": 1,
       "label": "Kraken wallet",
-      "value": "$467.97",
+      "value": "$471.15",
       "status": "ok",
       "action": null
     },
@@ -3583,15 +3583,7 @@
       "leverage": 3
     }
   ],
-  "recent_cancels": [
-    {
-      "coin": "APTUSDT",
-      "direction": "Short",
-      "trading_system": "John",
-      "close_reason": "the feed cancelled it (CANCELLED: Stale 26.0h \u2265 24h grace: Price $0.3768 is 22.3",
-      "iso": "2026-11-21T18:07:22Z"
-    }
-  ],
+  "recent_cancels": [],
   "recent_skips": [
     {
       "trade_id": "AVAXUSDT_20261123_CJ_002",
@@ -3639,7 +3631,7 @@
       "reason": "THETA has no perpetual contract on Kraken.",
       "reason_short": "coin not on Kraken",
       "iso": "2026-11-21T14:07:30Z",
-      "last_seen_iso": "2026-11-23T17:17:20Z"
+      "last_seen_iso": "2026-11-23T18:07:07Z"
     },
     {
       "trade_id": "ETHUSDT_20261118_CJ_001",
@@ -3651,7 +3643,7 @@
       "reason": "The engine runs one trade per coin on Kraken and ETH already has one (ETHUSDT_20261118_CB_001 is open).",
       "reason_short": "one trade per coin - slot taken",
       "iso": "2026-11-20T10:07:38Z",
-      "last_seen_iso": "2026-11-23T17:17:20Z"
+      "last_seen_iso": "2026-11-23T18:07:07Z"
     },
     {
       "trade_id": "APTUSDT_20261118_CB_002",
@@ -3768,7 +3760,7 @@
   "drift_vs_feed": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-23T16:06Z",
+    "feed_generated_utc": "2026-11-23T18:06Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
@@ -3776,7 +3768,7 @@
   "drift_vs_master": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-23T16:06Z",
+    "feed_generated_utc": "2026-11-23T18:06Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
@@ -3784,13 +3776,13 @@
   "drift_vs_db": {
     "available": true,
     "source": "Engine feed (divtrader signals.json)",
-    "feed_generated_utc": "2026-11-23T16:06Z",
+    "feed_generated_utc": "2026-11-23T18:06Z",
     "checked": 19,
     "in_parity": 19,
     "drifting": []
   },
   "vs_mexc": {
-    "updated_iso": "2026-11-23T17:17:52Z",
+    "updated_iso": "2026-11-23T18:07:52Z",
     "trades": [
       {
         "trade_id": "BNBUSDT_20261123_CJ_001",
