@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 2.5356190037139723,
+      "unrealized_pnl": 2.845857415217518,
       "fee_asset": [
         "usd"
       ],
@@ -4195,7 +4195,7 @@
       "fill_ids": [
         "fc22c5a9-bb25-400d-b8f8-bcf3830a4929"
       ],
-      "unrealized_pnl": 2.332567039040004,
+      "unrealized_pnl": 1.9324005491200011,
       "fee_asset": [
         "usd"
       ],
@@ -4225,7 +4225,7 @@
       "fill_ids": [
         "00f05b74-7db6-48d1-be2b-3409d2a54daf"
       ],
-      "unrealized_pnl": 5.36086551375,
+      "unrealized_pnl": 5.147611526249997,
       "fee_asset": [
         "usd"
       ],
@@ -4255,7 +4255,7 @@
       "fill_ids": [
         "8fe32deb-7478-4b1b-acc3-25131b4f2016"
       ],
-      "unrealized_pnl": 4.5195015255736175,
+      "unrealized_pnl": 4.887221432709478,
       "fee_asset": [
         "usd"
       ],
@@ -4285,7 +4285,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 2.719209905160006,
+      "unrealized_pnl": 2.63471040714,
       "fee_asset": [
         "usd"
       ],
@@ -4315,7 +4315,7 @@
       "fill_ids": [
         "5ee7a77c-cd1e-4f2f-8a8a-eaebbb1bd11a"
       ],
-      "unrealized_pnl": -0.09171724320000407,
+      "unrealized_pnl": -0.006331129199999008,
       "fee_asset": [
         "usd"
       ],
@@ -7480,6 +7480,24 @@
       "entry_price": 8.762,
       "resting_at": "2026-11-23T20:07:37Z",
       "braam_trade_id": "LINKUSDT_20261122_CJ_001",
+      "status": "RESTING"
+    },
+    "a34c4033-1bfc-499e-b52c-e736c2fcff40": {
+      "order_id": "a34c4033-1bfc-499e-b52c-e736c2fcff40",
+      "coin": "APTUSDT",
+      "direction": "Short",
+      "entry_price": 0.3856,
+      "resting_at": "2026-11-24T00:08:19Z",
+      "braam_trade_id": "APTUSDT_20261124_CB_001",
+      "status": "RESTING"
+    },
+    "a34c402d-dc58-4bc1-ba75-06e3585802da": {
+      "order_id": "a34c402d-dc58-4bc1-ba75-06e3585802da",
+      "coin": "TAOUSDT",
+      "direction": "Long",
+      "entry_price": 186.23,
+      "resting_at": "2026-11-24T00:08:15Z",
+      "braam_trade_id": "TAOUSDT_20261122_CJ_001",
       "status": "RESTING"
     }
   },
@@ -29493,8 +29511,16 @@
       "unrealized": 17.373927033233063,
       "realized": -49.676,
       "total": -32.3021
+    },
+    {
+      "ts": "2026-11-24T00:08:53Z",
+      "equity": 477.3408679465745,
+      "available": 361.98681975732535,
+      "unrealized": 17.440239407454545,
+      "realized": -49.676,
+      "total": -32.2358
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-23T23:18:33Z"
+  "updated": "2026-11-24T00:08:53Z"
 }
