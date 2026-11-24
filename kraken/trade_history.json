@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 3.62781990695553,
+      "unrealized_pnl": 4.32817744615078,
       "fee_asset": [
         "usd"
       ],
@@ -4195,7 +4195,7 @@
       "fill_ids": [
         "fc22c5a9-bb25-400d-b8f8-bcf3830a4929"
       ],
-      "unrealized_pnl": 3.4406195598399973,
+      "unrealized_pnl": 4.336468517599997,
       "fee_asset": [
         "usd"
       ],
@@ -4225,7 +4225,7 @@
       "fill_ids": [
         "00f05b74-7db6-48d1-be2b-3409d2a54daf"
       ],
-      "unrealized_pnl": 6.6824340300000005,
+      "unrealized_pnl": 7.760401382250002,
       "fee_asset": [
         "usd"
       ],
@@ -4256,7 +4256,7 @@
         "8fe32deb-7478-4b1b-acc3-25131b4f2016",
         "2a8e24fd-f9bb-497a-9eb1-4f469cdc4267"
       ],
-      "unrealized_pnl": 2.6439799826295705,
+      "unrealized_pnl": 3.007496719361381,
       "fee_asset": [
         "usd"
       ],
@@ -4286,7 +4286,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 3.2885581814400013,
+      "unrealized_pnl": 4.1277561792600075,
       "fee_asset": [
         "usd"
       ],
@@ -4347,7 +4347,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": 2.161498513194999,
+      "unrealized_pnl": 3.1269655698749945,
       "fee_asset": [
         "usd"
       ],
@@ -4377,7 +4377,7 @@
       "fill_ids": [
         "66d150c0-94f2-4b54-984e-8a076a6a17ed"
       ],
-      "unrealized_pnl": -0.010628123396993705,
+      "unrealized_pnl": -0.366265354970998,
       "fee_asset": [
         "usd"
       ],
@@ -4391,27 +4391,57 @@
       "leverage": 3,
       "entry_price": 186.23,
       "entry_size": 0.38,
-      "exit_size": 0,
+      "exit_size": 0.38,
       "opened_at": "2026-11-24T03:06:05Z",
+      "closed_at": "2026-11-24T15:17:00Z",
+      "close_price": 180.2,
+      "margin_usd": 23.589133,
+      "status": "CLOSED",
+      "close_reason": "stopped_out",
+      "close_fills": 1,
+      "pnl_gross_usd": -2.2914,
+      "pnl_usd": -2.338,
+      "tag": "LOSS",
+      "fees_usd": 0.0484,
+      "funding_usd": 0.0018,
+      "fill_ids": [
+        "992a276e-02c4-4ef2-b60a-804e85eb6c97",
+        "126af71f-a3de-4377-8143-3e017f076212"
+      ],
+      "unrealized_pnl": -1.110132126570395,
+      "fee_asset": [
+        "usd"
+      ],
+      "pnl_basis": "net"
+    },
+    "LINKUSDT_20261122_CJ_001": {
+      "position_id": "LINKUSDT_20261122_CJ_001",
+      "braam_trade_id": "LINKUSDT_20261122_CJ_001",
+      "coin": "LINKUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 8.762,
+      "entry_size": 8.2,
+      "exit_size": 0,
+      "opened_at": "2026-11-24T15:16:57Z",
       "closed_at": null,
       "close_price": null,
-      "margin_usd": 23.589133,
+      "margin_usd": 23.949467,
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
       "pnl_gross_usd": null,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.0142,
+      "fees_usd": 0.0144,
       "funding_usd": null,
       "fill_ids": [
-        "992a276e-02c4-4ef2-b60a-804e85eb6c97"
+        "9d8e2a9e-fe53-41fa-889f-3160c5234976"
       ],
-      "unrealized_pnl": -1.110132126570395,
+      "unrealized_pnl": 0.09999671884199478,
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     }
   },
   "orders": {
@@ -12265,6 +12295,34 @@
       "realized_pnl": -2.2176,
       "realized_funding": -0.00022368582,
       "sequence_id": "2737860"
+    },
+    "126af71f-a3de-4377-8143-3e017f076212": {
+      "fill_id": "126af71f-a3de-4377-8143-3e017f076212",
+      "symbol": "PF_TAOUSD",
+      "side": "sell",
+      "order_id": "a34c800c-2b9b-4051-9071-64f17b1d8eec",
+      "cliOrdId": "TAOUSDT_20261122_CJ_001:SL#1795489611045",
+      "size": 0.38,
+      "price": 180.2,
+      "fillTime": "2026-11-24T15:17:00Z",
+      "fillType": "taker",
+      "realized_pnl": -2.2914,
+      "realized_funding": 0.00023555272,
+      "sequence_id": "6953025"
+    },
+    "9d8e2a9e-fe53-41fa-889f-3160c5234976": {
+      "fill_id": "9d8e2a9e-fe53-41fa-889f-3160c5234976",
+      "symbol": "PF_LINKUSD",
+      "side": "buy",
+      "order_id": "a34bea1e-47fd-4f74-93e7-15a7c845b76e",
+      "cliOrdId": "LINKUSDT_20261122_CJ_001#1795464456313",
+      "size": 8.2,
+      "price": 8.762,
+      "fillTime": "2026-11-24T15:16:57.988Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "14886309"
     }
   },
   "snapshots": [
@@ -29995,8 +30053,16 @@
       "unrealized": 20.7230520582498,
       "realized": -51.944,
       "total": -31.2209
+    },
+    {
+      "ts": "2026-11-24T15:18:05Z",
+      "equity": 486.7067770610494,
+      "available": 370.29497637833254,
+      "unrealized": 26.419448424920454,
+      "realized": -54.282,
+      "total": -27.8626
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-24T14:41:56Z"
+  "updated": "2026-11-24T15:18:05Z"
 }
