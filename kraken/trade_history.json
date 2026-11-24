@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 3.0341235841129035,
+      "unrealized_pnl": 3.253896383713159,
       "fee_asset": [
         "usd"
       ],
@@ -4195,7 +4195,7 @@
       "fill_ids": [
         "fc22c5a9-bb25-400d-b8f8-bcf3830a4929"
       ],
-      "unrealized_pnl": 1.3049959745599993,
+      "unrealized_pnl": 1.5497371360799999,
       "fee_asset": [
         "usd"
       ],
@@ -4225,7 +4225,7 @@
       "fill_ids": [
         "00f05b74-7db6-48d1-be2b-3409d2a54daf"
       ],
-      "unrealized_pnl": 4.923439857,
+      "unrealized_pnl": 5.015469473999993,
       "fee_asset": [
         "usd"
       ],
@@ -4255,7 +4255,7 @@
       "fill_ids": [
         "8fe32deb-7478-4b1b-acc3-25131b4f2016"
       ],
-      "unrealized_pnl": 4.927263372827738,
+      "unrealized_pnl": 5.043898211217804,
       "fee_asset": [
         "usd"
       ],
@@ -4285,7 +4285,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 2.2202138448000017,
+      "unrealized_pnl": 2.4275665680000067,
       "fee_asset": [
         "usd"
       ],
@@ -4315,7 +4315,7 @@
       "fill_ids": [
         "5ee7a77c-cd1e-4f2f-8a8a-eaebbb1bd11a"
       ],
-      "unrealized_pnl": 0.27724130279999426,
+      "unrealized_pnl": 0.15145932120000066,
       "fee_asset": [
         "usd"
       ],
@@ -4345,7 +4345,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": 0.5292458873799949,
+      "unrealized_pnl": 0.6163492451199997,
       "fee_asset": [
         "usd"
       ],
@@ -29627,8 +29627,16 @@
       "unrealized": 17.214820725222115,
       "realized": -49.676,
       "total": -32.4612
+    },
+    {
+      "ts": "2026-11-24T02:18:08Z",
+      "equity": 478.3131136046262,
+      "available": 362.5508782515677,
+      "unrealized": 18.05427292582617,
+      "realized": -49.676,
+      "total": -31.6217
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-24T02:07:32Z"
+  "updated": "2026-11-24T02:18:08Z"
 }
