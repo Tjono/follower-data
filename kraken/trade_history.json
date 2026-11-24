@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 4.483628099602971,
+      "unrealized_pnl": 4.328679447160752,
       "fee_asset": [
         "usd"
       ],
@@ -4195,7 +4195,7 @@
       "fill_ids": [
         "fc22c5a9-bb25-400d-b8f8-bcf3830a4929"
       ],
-      "unrealized_pnl": 4.541932902400004,
+      "unrealized_pnl": 4.3365895903200045,
       "fee_asset": [
         "usd"
       ],
@@ -4225,7 +4225,7 @@
       "fill_ids": [
         "00f05b74-7db6-48d1-be2b-3409d2a54daf"
       ],
-      "unrealized_pnl": 7.956441283499991,
+      "unrealized_pnl": 7.844998445999994,
       "fee_asset": [
         "usd"
       ],
@@ -4256,7 +4256,7 @@
         "8fe32deb-7478-4b1b-acc3-25131b4f2016",
         "2a8e24fd-f9bb-497a-9eb1-4f469cdc4267"
       ],
-      "unrealized_pnl": 3.1167877629527623,
+      "unrealized_pnl": 2.9603696429567306,
       "fee_asset": [
         "usd"
       ],
@@ -4286,7 +4286,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 4.337047493520007,
+      "unrealized_pnl": 4.270764754200005,
       "fee_asset": [
         "usd"
       ],
@@ -4347,7 +4347,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": 3.3424656037499987,
+      "unrealized_pnl": 3.095451831885003,
       "fee_asset": [
         "usd"
       ],
@@ -4377,7 +4377,7 @@
       "fill_ids": [
         "66d150c0-94f2-4b54-984e-8a076a6a17ed"
       ],
-      "unrealized_pnl": -0.5031360795779981,
+      "unrealized_pnl": -0.4509907824210002,
       "fee_asset": [
         "usd"
       ],
@@ -4438,11 +4438,41 @@
       "fill_ids": [
         "9d8e2a9e-fe53-41fa-889f-3160c5234976"
       ],
-      "unrealized_pnl": -0.1828557857740044,
+      "unrealized_pnl": 0.06438215149800328,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "NEARUSDT_20261124_CJ_001": {
+      "position_id": "NEARUSDT_20261124_CJ_001",
+      "braam_trade_id": "NEARUSDT_20261124_CJ_001",
+      "coin": "NEARUSDT",
+      "direction": "Long",
+      "leverage": 3,
+      "entry_price": 2.7884,
+      "entry_size": 18.0,
+      "exit_size": 0,
+      "opened_at": "2026-11-24T15:45:11Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 16.7304,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.01,
+      "funding_usd": null,
+      "fill_ids": [
+        "574d0af1-1b74-43ce-b9f3-544a0540679f",
+        "f3178ad0-3632-4c30-b98f-cdcb0645f477"
+      ],
+      "unrealized_pnl": 0.2386420477199982,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -12324,6 +12354,34 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "14886309"
+    },
+    "f3178ad0-3632-4c30-b98f-cdcb0645f477": {
+      "fill_id": "f3178ad0-3632-4c30-b98f-cdcb0645f477",
+      "symbol": "PF_NEARUSD",
+      "side": "buy",
+      "order_id": "a34c95c2-e008-4371-8bde-93e46e8e4244",
+      "cliOrdId": "NEARUSDT_20261124_CJ_001",
+      "size": 14,
+      "price": 2.7884,
+      "fillTime": "2026-11-24T15:45:11.333Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 2.782e-08,
+      "sequence_id": "9996819"
+    },
+    "574d0af1-1b74-43ce-b9f3-544a0540679f": {
+      "fill_id": "574d0af1-1b74-43ce-b9f3-544a0540679f",
+      "symbol": "PF_NEARUSD",
+      "side": "buy",
+      "order_id": "a34c95c2-e008-4371-8bde-93e46e8e4244",
+      "cliOrdId": "NEARUSDT_20261124_CJ_001",
+      "size": 4,
+      "price": 2.7884,
+      "fillTime": "2026-11-24T15:45:11.223Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "9996818"
     }
   },
   "snapshots": [
@@ -30062,8 +30120,16 @@
       "unrealized": 26.419448424920454,
       "realized": -54.282,
       "total": -27.8626
+    },
+    {
+      "ts": "2026-11-24T15:46:56Z",
+      "equity": 486.8480383493196,
+      "available": 370.4553997924387,
+      "unrealized": 26.685622061842086,
+      "realized": -54.282,
+      "total": -27.5964
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-24T15:19:10Z"
+  "updated": "2026-11-24T15:46:56Z"
 }
