@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 4.352715333293964,
+      "unrealized_pnl": 4.001763770874407,
       "fee_asset": [
         "usd"
       ],
@@ -4179,28 +4179,29 @@
       "leverage": 3,
       "entry_price": 0.15234,
       "entry_size": 472.0,
-      "exit_size": 236.0,
+      "exit_size": 472.0,
       "opened_at": "2026-11-23T14:12:16Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-25T19:05:04Z",
+      "close_price": 0.142425,
       "margin_usd": 23.96816,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": 3.04676,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0309,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "tp1_trail",
+      "close_fills": 2,
+      "pnl_gross_usd": 4.67988,
+      "pnl_usd": 4.60208,
+      "tag": "WIN",
+      "fees_usd": 0.0481,
+      "funding_usd": -0.0297,
       "fill_ids": [
         "fc22c5a9-bb25-400d-b8f8-bcf3830a4929",
-        "b861cfd3-dc69-4742-89c6-df2a044cd700"
+        "b861cfd3-dc69-4742-89c6-df2a044cd700",
+        "b18f4417-ab89-4775-975a-2ff9e74ee029"
       ],
       "unrealized_pnl": 1.8583275665999976,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     },
     "ONDOUSDT_20261118_CB_001": {
       "position_id": "ONDOUSDT_20261118_CB_001",
@@ -4229,7 +4230,7 @@
         "d88a087b-528a-4f3b-bcfe-9c2201ae5dd1",
         "e7147b2f-f3e0-4981-a2a7-7ecaf1ff1e2e"
       ],
-      "unrealized_pnl": 3.8363268383900007,
+      "unrealized_pnl": null,
       "fee_asset": [
         "usd"
       ],
@@ -4260,7 +4261,7 @@
         "8fe32deb-7478-4b1b-acc3-25131b4f2016",
         "2a8e24fd-f9bb-497a-9eb1-4f469cdc4267"
       ],
-      "unrealized_pnl": 2.887257347074861,
+      "unrealized_pnl": 2.7114911824515104,
       "fee_asset": [
         "usd"
       ],
@@ -4290,7 +4291,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 0.37139773389999964,
+      "unrealized_pnl": 0.4514759007000002,
       "fee_asset": [
         "usd"
       ],
@@ -4351,7 +4352,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": 3.0811930812950026,
+      "unrealized_pnl": 1.8255379606449962,
       "fee_asset": [
         "usd"
       ],
@@ -4475,7 +4476,7 @@
         "574d0af1-1b74-43ce-b9f3-544a0540679f",
         "f3178ad0-3632-4c30-b98f-cdcb0645f477"
       ],
-      "unrealized_pnl": 1.7934004407599948,
+      "unrealized_pnl": 2.3378810678999926,
       "fee_asset": [
         "usd"
       ],
@@ -4509,6 +4510,35 @@
         "usd"
       ],
       "pnl_basis": null
+    },
+    "XRPUSDT_20261124_CB_001": {
+      "position_id": "XRPUSDT_20261124_CB_001",
+      "braam_trade_id": "XRPUSDT_20261124_CB_001",
+      "coin": "XRPUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.9374,
+      "entry_size": 67.0,
+      "exit_size": 0,
+      "opened_at": "2026-11-25T19:15:34Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 20.935267,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0126,
+      "funding_usd": null,
+      "fill_ids": [
+        "c3aaa5a9-4df6-464b-8bc7-d64922503584"
+      ],
+      "unrealized_pnl": -0.3181157172599972,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -12570,6 +12600,34 @@
       "realized_pnl": 6.8292,
       "realized_funding": -0.00148162838,
       "sequence_id": "112980"
+    },
+    "c3aaa5a9-4df6-464b-8bc7-d64922503584": {
+      "fill_id": "c3aaa5a9-4df6-464b-8bc7-d64922503584",
+      "symbol": "PF_XRPUSD",
+      "side": "sell",
+      "order_id": "a34ee107-3940-4ea3-a1d9-cc6a6bca77ec",
+      "cliOrdId": "XRPUSDT_20261124_CB_001",
+      "size": 67,
+      "price": 0.9374,
+      "fillTime": "2026-11-25T19:15:34.12Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "40742443"
+    },
+    "b18f4417-ab89-4775-975a-2ff9e74ee029": {
+      "fill_id": "b18f4417-ab89-4775-975a-2ff9e74ee029",
+      "symbol": "PF_ADAUSD",
+      "side": "buy",
+      "order_id": "a34f6fa1-4005-4cd3-aef7-b1a38bdd06e5",
+      "cliOrdId": "ADAUSDT_20261120_CB_001:SL2#1795615705423",
+      "size": 236,
+      "price": 0.14542,
+      "fillTime": "2026-11-25T19:05:04.001Z",
+      "fillType": "taker",
+      "realized_pnl": 1.63312,
+      "realized_funding": 7.328818e-05,
+      "sequence_id": "18963634"
     }
   },
   "snapshots": [
@@ -30788,8 +30846,16 @@
       "unrealized": 18.15849855757326,
       "realized": -58.057,
       "total": -39.8985
+    },
+    {
+      "ts": "2026-11-25T19:17:02Z",
+      "equity": 486.7896271950589,
+      "available": 367.84735962960724,
+      "unrealized": 11.010879391769873,
+      "realized": -53.4549,
+      "total": -42.444
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-25T18:48:58Z"
+  "updated": "2026-11-25T19:17:02Z"
 }
