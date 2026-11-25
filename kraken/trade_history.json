@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 3.875063292832467,
+      "unrealized_pnl": 3.852477969216505,
       "fee_asset": [
         "usd"
       ],
@@ -4262,7 +4262,7 @@
         "8fe32deb-7478-4b1b-acc3-25131b4f2016",
         "2a8e24fd-f9bb-497a-9eb1-4f469cdc4267"
       ],
-      "unrealized_pnl": 2.6894538151810017,
+      "unrealized_pnl": 2.700075494920059,
       "fee_asset": [
         "usd"
       ],
@@ -4292,7 +4292,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 0.46503269355000043,
+      "unrealized_pnl": 0.4800550691500005,
       "fee_asset": [
         "usd"
       ],
@@ -4353,7 +4353,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": 1.5549523810100028,
+      "unrealized_pnl": 1.5922084310299975,
       "fee_asset": [
         "usd"
       ],
@@ -4477,7 +4477,7 @@
         "574d0af1-1b74-43ce-b9f3-544a0540679f",
         "f3178ad0-3632-4c30-b98f-cdcb0645f477"
       ],
-      "unrealized_pnl": 2.4710948418599985,
+      "unrealized_pnl": 2.623004884259994,
       "fee_asset": [
         "usd"
       ],
@@ -4536,11 +4536,69 @@
       "fill_ids": [
         "c3aaa5a9-4df6-464b-8bc7-d64922503584"
       ],
-      "unrealized_pnl": -0.44803059928999833,
+      "unrealized_pnl": -0.399444463890001,
       "fee_asset": [
         "usd"
       ],
       "pnl_basis": null
+    },
+    "SUIUSDT_20261124_CB_001": {
+      "position_id": "SUIUSDT_20261124_CB_001",
+      "braam_trade_id": "SUIUSDT_20261124_CB_001",
+      "coin": "SUIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 0.6686,
+      "entry_size": 109.0,
+      "exit_size": 0,
+      "opened_at": "2026-11-25T19:22:19Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 24.292467,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0146,
+      "funding_usd": null,
+      "fill_ids": [
+        "e562ff19-c89a-4cc1-abf2-f61f7cb6b6c5"
+      ],
+      "unrealized_pnl": 0.26823232735999303,
+      "fee_asset": [
+        "usd"
+      ]
+    },
+    "UNIUSDT_20261125_CB_001": {
+      "position_id": "UNIUSDT_20261125_CB_001",
+      "braam_trade_id": "UNIUSDT_20261125_CB_001",
+      "coin": "UNIUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 4.754,
+      "entry_size": 15.5,
+      "exit_size": 0,
+      "opened_at": "2026-11-25T19:23:01Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 24.562333,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0147,
+      "funding_usd": null,
+      "fill_ids": [
+        "7a7f6bb3-95ce-4468-92c1-a07d78da1a28"
+      ],
+      "unrealized_pnl": 0.10955442686999861,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -12644,6 +12702,34 @@
       "realized_pnl": 3.3787,
       "realized_funding": 0.00014775558,
       "sequence_id": "3281897"
+    },
+    "7a7f6bb3-95ce-4468-92c1-a07d78da1a28": {
+      "fill_id": "7a7f6bb3-95ce-4468-92c1-a07d78da1a28",
+      "symbol": "PF_UNIUSD",
+      "side": "sell",
+      "order_id": "a34f683e-dfe1-4692-999f-18511b9a4157",
+      "cliOrdId": "UNIUSDT_20261125_CB_001",
+      "size": 15.5,
+      "price": 4.754,
+      "fillTime": "2026-11-25T19:23:01.87Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "9875502"
+    },
+    "e562ff19-c89a-4cc1-abf2-f61f7cb6b6c5": {
+      "fill_id": "e562ff19-c89a-4cc1-abf2-f61f7cb6b6c5",
+      "symbol": "PF_SUIUSD",
+      "side": "sell",
+      "order_id": "a34ded0f-d16d-4526-9951-83dc98841de9",
+      "cliOrdId": "SUIUSDT_20261124_CB_001",
+      "size": 109,
+      "price": 0.6686,
+      "fillTime": "2026-11-25T19:22:19Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "21581943"
     }
   },
   "snapshots": [
@@ -30870,8 +30956,16 @@
       "unrealized": 11.010879391769873,
       "realized": -53.4549,
       "total": -42.444
+    },
+    {
+      "ts": "2026-11-25T19:28:05Z",
+      "equity": 487.19645562437165,
+      "available": 368.3423265559983,
+      "unrealized": 11.227565577781673,
+      "realized": -46.3411,
+      "total": -35.1135
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-25T19:17:53Z"
+  "updated": "2026-11-25T19:28:05Z"
 }
