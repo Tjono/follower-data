@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 4.8568389764345214,
+      "unrealized_pnl": 4.9793350739962055,
       "fee_asset": [
         "usd"
       ],
@@ -4195,7 +4195,7 @@
       "fill_ids": [
         "fc22c5a9-bb25-400d-b8f8-bcf3830a4929"
       ],
-      "unrealized_pnl": 4.5123872033599985,
+      "unrealized_pnl": 4.4697163548800045,
       "fee_asset": [
         "usd"
       ],
@@ -4228,7 +4228,7 @@
         "d88a087b-528a-4f3b-bcfe-9c2201ae5dd1",
         "e7147b2f-f3e0-4981-a2a7-7ecaf1ff1e2e"
       ],
-      "unrealized_pnl": 4.188133164550001,
+      "unrealized_pnl": 4.21396667311,
       "fee_asset": [
         "usd"
       ],
@@ -4259,7 +4259,7 @@
         "8fe32deb-7478-4b1b-acc3-25131b4f2016",
         "2a8e24fd-f9bb-497a-9eb1-4f469cdc4267"
       ],
-      "unrealized_pnl": 3.310078238540869,
+      "unrealized_pnl": 3.332933941953509,
       "fee_asset": [
         "usd"
       ],
@@ -4289,7 +4289,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 5.3761399293,
+      "unrealized_pnl": 5.463812725140005,
       "fee_asset": [
         "usd"
       ],
@@ -4350,7 +4350,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": 4.599752931479995,
+      "unrealized_pnl": 4.551574381760003,
       "fee_asset": [
         "usd"
       ],
@@ -4380,7 +4380,7 @@
       "fill_ids": [
         "66d150c0-94f2-4b54-984e-8a076a6a17ed"
       ],
-      "unrealized_pnl": -0.44839967952599374,
+      "unrealized_pnl": -0.39520576711799776,
       "fee_asset": [
         "usd"
       ],
@@ -4441,7 +4441,7 @@
       "fill_ids": [
         "9d8e2a9e-fe53-41fa-889f-3160c5234976"
       ],
-      "unrealized_pnl": 0.07538022921599143,
+      "unrealized_pnl": 0.11179798368999555,
       "fee_asset": [
         "usd"
       ],
@@ -4472,7 +4472,7 @@
         "574d0af1-1b74-43ce-b9f3-544a0540679f",
         "f3178ad0-3632-4c30-b98f-cdcb0645f477"
       ],
-      "unrealized_pnl": 1.0310967928799988,
+      "unrealized_pnl": 1.0727563928399988,
       "fee_asset": [
         "usd"
       ],
@@ -7691,6 +7691,15 @@
       "entry_price": 0.6686,
       "resting_at": "2026-11-24T20:07:30Z",
       "braam_trade_id": "SUIUSDT_20261124_CB_001",
+      "status": "RESTING"
+    },
+    "a34e98e2-551f-4312-9d09-985a0e4110f3": {
+      "order_id": "a34e98e2-551f-4312-9d09-985a0e4110f3",
+      "coin": "LINKUSDT",
+      "direction": "Short",
+      "entry_price": 9.497,
+      "resting_at": "2026-11-25T04:07:57Z",
+      "braam_trade_id": "LINKUSDT_20261115_CJ_001",
       "status": "RESTING"
     }
   },
@@ -30432,8 +30441,16 @@
       "unrealized": 27.499074938142797,
       "realized": -54.282,
       "total": -26.7829
+    },
+    {
+      "ts": "2026-11-25T04:08:27Z",
+      "equity": 491.0775521543164,
+      "available": 370.0487986064324,
+      "unrealized": 27.77484235831761,
+      "realized": -54.282,
+      "total": -26.5072
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-25T03:48:53Z"
+  "updated": "2026-11-25T04:08:27Z"
 }
