@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 3.2351404918623965,
+      "unrealized_pnl": 3.2239821793791075,
       "fee_asset": [
         "usd"
       ],
@@ -4293,7 +4293,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 0.5119155819999999,
+      "unrealized_pnl": 0.5192983847499999,
       "fee_asset": [
         "usd"
       ],
@@ -4354,7 +4354,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": -0.3660430690000042,
+      "unrealized_pnl": -0.3395063516600024,
       "fee_asset": [
         "usd"
       ],
@@ -4478,7 +4478,7 @@
         "574d0af1-1b74-43ce-b9f3-544a0540679f",
         "f3178ad0-3632-4c30-b98f-cdcb0645f477"
       ],
-      "unrealized_pnl": 5.618776107599997,
+      "unrealized_pnl": 5.482249508339995,
       "fee_asset": [
         "usd"
       ],
@@ -4537,7 +4537,7 @@
       "fill_ids": [
         "c3aaa5a9-4df6-464b-8bc7-d64922503584"
       ],
-      "unrealized_pnl": -0.9950933397999976,
+      "unrealized_pnl": -0.9393326078900005,
       "fee_asset": [
         "usd"
       ],
@@ -4567,7 +4567,7 @@
       "fill_ids": [
         "e562ff19-c89a-4cc1-abf2-f61f7cb6b6c5"
       ],
-      "unrealized_pnl": -0.728656228770006,
+      "unrealized_pnl": -0.7043729297299974,
       "fee_asset": [
         "usd"
       ],
@@ -4597,7 +4597,7 @@
       "fill_ids": [
         "7a7f6bb3-95ce-4468-92c1-a07d78da1a28"
       ],
-      "unrealized_pnl": 0.7608321935349878,
+      "unrealized_pnl": 0.5788321193499968,
       "fee_asset": [
         "usd"
       ],
@@ -4627,7 +4627,7 @@
       "fill_ids": [
         "4665b2e1-4d49-4d31-9b96-9e16baa4725e"
       ],
-      "unrealized_pnl": -0.3278229770810075,
+      "unrealized_pnl": -0.2188951528800007,
       "fee_asset": [
         "usd"
       ],
@@ -31508,8 +31508,16 @@
       "unrealized": 7.708831963151098,
       "realized": -41.3123,
       "total": -33.6035
+    },
+    {
+      "ts": "2026-11-26T21:18:00Z",
+      "equity": 485.24502210189024,
+      "available": 363.0761090086569,
+      "unrealized": 7.601468527620222,
+      "realized": -41.3123,
+      "total": -33.7108
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-26T21:05:00Z"
+  "updated": "2026-11-26T21:18:00Z"
 }
