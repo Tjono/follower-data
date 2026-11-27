@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 2.4706745585592698,
+      "unrealized_pnl": 2.2459589139324496,
       "fee_asset": [
         "usd"
       ],
@@ -4293,7 +4293,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 0.6175073880000004,
+      "unrealized_pnl": -0.0728546550600031,
       "fee_asset": [
         "usd"
       ],
@@ -4354,7 +4354,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": -0.5399185593899989,
+      "unrealized_pnl": -0.9589548435950008,
       "fee_asset": [
         "usd"
       ],
@@ -4478,7 +4478,7 @@
         "574d0af1-1b74-43ce-b9f3-544a0540679f",
         "f3178ad0-3632-4c30-b98f-cdcb0645f477"
       ],
-      "unrealized_pnl": 5.853511697579995,
+      "unrealized_pnl": 5.855614368119998,
       "fee_asset": [
         "usd"
       ],
@@ -4492,7 +4492,7 @@
       "leverage": 3,
       "entry_price": 1.4698,
       "entry_size": 47.0,
-      "exit_size": 0,
+      "exit_size": 38.0,
       "opened_at": "2026-11-25T14:34:22Z",
       "closed_at": null,
       "close_price": null,
@@ -4500,18 +4500,18 @@
       "status": "OPEN",
       "close_reason": null,
       "close_fills": null,
-      "pnl_gross_usd": null,
+      "pnl_gross_usd": 5.054,
       "pnl_usd": null,
       "tag": null,
-      "fees_usd": 0.0138,
+      "fees_usd": 0.0443,
       "funding_usd": null,
       "fill_ids": [
-        "86176ac5-1818-41e3-9a8f-6d669aacf9d2"
+        "86176ac5-1818-41e3-9a8f-6d669aacf9d2",
+        "9d5b1232-34d9-4a09-87ad-c9baece85dd9"
       ],
       "fee_asset": [
         "usd"
-      ],
-      "pnl_basis": null
+      ]
     },
     "XRPUSDT_20261124_CB_001": {
       "position_id": "XRPUSDT_20261124_CB_001",
@@ -4537,7 +4537,7 @@
       "fill_ids": [
         "c3aaa5a9-4df6-464b-8bc7-d64922503584"
       ],
-      "unrealized_pnl": -1.5179179653399963,
+      "unrealized_pnl": -1.807069917600003,
       "fee_asset": [
         "usd"
       ],
@@ -4567,7 +4567,7 @@
       "fill_ids": [
         "e562ff19-c89a-4cc1-abf2-f61f7cb6b6c5"
       ],
-      "unrealized_pnl": -1.427495753880001,
+      "unrealized_pnl": -1.9643709211300084,
       "fee_asset": [
         "usd"
       ],
@@ -4597,7 +4597,7 @@
       "fill_ids": [
         "7a7f6bb3-95ce-4468-92c1-a07d78da1a28"
       ],
-      "unrealized_pnl": -1.538018771870008,
+      "unrealized_pnl": -1.802125952440003,
       "fee_asset": [
         "usd"
       ],
@@ -4627,7 +4627,7 @@
       "fill_ids": [
         "4665b2e1-4d49-4d31-9b96-9e16baa4725e"
       ],
-      "unrealized_pnl": -1.607127108814007,
+      "unrealized_pnl": -1.652347635285004,
       "fee_asset": [
         "usd"
       ],
@@ -4657,7 +4657,7 @@
       "fill_ids": [
         "d951f3c5-abd1-4229-821f-50455886dbf6"
       ],
-      "unrealized_pnl": -0.2906114761399987,
+      "unrealized_pnl": -1.1199350440480067,
       "fee_asset": [
         "usd"
       ],
@@ -12871,6 +12871,20 @@
       "realized_pnl": 0,
       "realized_funding": 0,
       "sequence_id": "14900067"
+    },
+    "9d5b1232-34d9-4a09-87ad-c9baece85dd9": {
+      "fill_id": "9d5b1232-34d9-4a09-87ad-c9baece85dd9",
+      "symbol": "PF_CAKEUSD",
+      "side": "sell",
+      "order_id": "a34f797d-6ca2-48b5-bbea-3947c12b6ced",
+      "cliOrdId": "CAKEUSDT_20261123_CJ_001:TP1",
+      "size": 38,
+      "price": 1.6028,
+      "fillTime": "2026-11-27T05:09:40.02Z",
+      "fillType": "taker",
+      "realized_pnl": 0.665,
+      "realized_funding": 8.25991e-05,
+      "sequence_id": "113060"
     }
   },
   "snapshots": [
@@ -31753,8 +31767,16 @@
       "unrealized": 2.018930850777262,
       "realized": -41.3123,
       "total": -39.2934
+    },
+    {
+      "ts": "2026-11-27T05:11:09Z",
+      "equity": 477.1688029108387,
+      "available": 351.42468605368066,
+      "unrealized": -1.2767586734813134,
+      "realized": -41.3123,
+      "total": -42.5891
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-27T04:18:03Z"
+  "updated": "2026-11-27T05:11:09Z"
 }
