@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 2.2268689636036063,
+      "unrealized_pnl": 2.186484167720875,
       "fee_asset": [
         "usd"
       ],
@@ -4293,7 +4293,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 0.026385573719997835,
+      "unrealized_pnl": -0.0015316534200009446,
       "fee_asset": [
         "usd"
       ],
@@ -4354,7 +4354,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": -0.8019411492400046,
+      "unrealized_pnl": -1.381272633929996,
       "fee_asset": [
         "usd"
       ],
@@ -4478,7 +4478,7 @@
         "574d0af1-1b74-43ce-b9f3-544a0540679f",
         "f3178ad0-3632-4c30-b98f-cdcb0645f477"
       ],
-      "unrealized_pnl": 5.864425839359997,
+      "unrealized_pnl": 6.016012520939992,
       "fee_asset": [
         "usd"
       ],
@@ -4538,7 +4538,7 @@
       "fill_ids": [
         "c3aaa5a9-4df6-464b-8bc7-d64922503584"
       ],
-      "unrealized_pnl": -1.7827025951400008,
+      "unrealized_pnl": -2.0276186235099996,
       "fee_asset": [
         "usd"
       ],
@@ -4568,7 +4568,7 @@
       "fill_ids": [
         "e562ff19-c89a-4cc1-abf2-f61f7cb6b6c5"
       ],
-      "unrealized_pnl": -1.8250534158800082,
+      "unrealized_pnl": -1.967737615030007,
       "fee_asset": [
         "usd"
       ],
@@ -4598,7 +4598,7 @@
       "fill_ids": [
         "7a7f6bb3-95ce-4468-92c1-a07d78da1a28"
       ],
-      "unrealized_pnl": -1.6505529674100048,
+      "unrealized_pnl": -1.8670503451900107,
       "fee_asset": [
         "usd"
       ],
@@ -4628,7 +4628,7 @@
       "fill_ids": [
         "4665b2e1-4d49-4d31-9b96-9e16baa4725e"
       ],
-      "unrealized_pnl": -1.6968702238310007,
+      "unrealized_pnl": -1.5271110921330047,
       "fee_asset": [
         "usd"
       ],
@@ -4642,27 +4642,28 @@
       "leverage": 3,
       "entry_price": 9.497,
       "entry_size": 7.4,
-      "exit_size": 0,
+      "exit_size": 7.4,
       "opened_at": "2026-11-27T02:26:01Z",
-      "closed_at": null,
-      "close_price": null,
+      "closed_at": "2026-11-27T06:07:31Z",
+      "close_price": 9.693,
       "margin_usd": 23.425933,
-      "status": "OPEN",
-      "close_reason": null,
-      "close_fills": null,
-      "pnl_gross_usd": null,
-      "pnl_usd": null,
-      "tag": null,
-      "fees_usd": 0.0141,
-      "funding_usd": null,
+      "status": "CLOSED",
+      "close_reason": "engine_close",
+      "close_fills": 1,
+      "pnl_gross_usd": -1.4504,
+      "pnl_usd": -1.498,
+      "tag": "LOSS",
+      "fees_usd": 0.05,
+      "funding_usd": 0.0024,
       "fill_ids": [
-        "d951f3c5-abd1-4229-821f-50455886dbf6"
+        "d951f3c5-abd1-4229-821f-50455886dbf6",
+        "19d6caec-af6a-4743-8042-020139a88eec"
       ],
       "unrealized_pnl": -1.3287486952260037,
       "fee_asset": [
         "usd"
       ],
-      "pnl_basis": null
+      "pnl_basis": "net"
     }
   },
   "orders": {
@@ -12886,6 +12887,20 @@
       "realized_pnl": 0.665,
       "realized_funding": 8.25991e-05,
       "sequence_id": "113060"
+    },
+    "19d6caec-af6a-4743-8042-020139a88eec": {
+      "fill_id": "19d6caec-af6a-4743-8042-020139a88eec",
+      "symbol": "PF_LINKUSD",
+      "side": "buy",
+      "order_id": "a352c99d-0719-4358-93ec-19c325bfb014",
+      "cliOrdId": "LINKUSDT_20261115_CJ_001:MC",
+      "size": 7.4,
+      "price": 9.693,
+      "fillTime": "2026-11-27T06:07:31.571Z",
+      "fillType": "taker",
+      "realized_pnl": -1.4504,
+      "realized_funding": 0.0002595737,
+      "sequence_id": "14900894"
     }
   },
   "snapshots": [
@@ -31792,8 +31807,16 @@
       "unrealized": -0.9699324681046236,
       "realized": -41.3123,
       "total": -42.2822
+    },
+    {
+      "ts": "2026-11-27T06:07:59Z",
+      "equity": 476.5069546944518,
+      "available": 357.8503681262587,
+      "unrealized": -0.5702277404573415,
+      "realized": -42.8103,
+      "total": -43.3805
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-27T05:20:55Z"
+  "updated": "2026-11-27T06:07:59Z"
 }
