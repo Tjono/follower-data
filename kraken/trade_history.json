@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 4.32468130541768,
+      "unrealized_pnl": 4.228265136262858,
       "fee_asset": [
         "usd"
       ],
@@ -4293,7 +4293,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 1.6020295948799987,
+      "unrealized_pnl": 1.3952734157999982,
       "fee_asset": [
         "usd"
       ],
@@ -4354,7 +4354,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": -0.8243664575649987,
+      "unrealized_pnl": -1.0417096268600015,
       "fee_asset": [
         "usd"
       ],
@@ -4478,7 +4478,7 @@
         "574d0af1-1b74-43ce-b9f3-544a0540679f",
         "f3178ad0-3632-4c30-b98f-cdcb0645f477"
       ],
-      "unrealized_pnl": 4.328306194319995,
+      "unrealized_pnl": 4.149036849419998,
       "fee_asset": [
         "usd"
       ],
@@ -4569,7 +4569,7 @@
       "fill_ids": [
         "e562ff19-c89a-4cc1-abf2-f61f7cb6b6c5"
       ],
-      "unrealized_pnl": -0.03537566114999802,
+      "unrealized_pnl": -0.37857133895000694,
       "fee_asset": [
         "usd"
       ],
@@ -4599,7 +4599,7 @@
       "fill_ids": [
         "7a7f6bb3-95ce-4468-92c1-a07d78da1a28"
       ],
-      "unrealized_pnl": -0.8602751515400073,
+      "unrealized_pnl": -0.939941074420013,
       "fee_asset": [
         "usd"
       ],
@@ -4666,6 +4666,35 @@
         "usd"
       ],
       "pnl_basis": "net"
+    },
+    "LTCUSDT_20261118_CB_002": {
+      "position_id": "LTCUSDT_20261118_CB_002",
+      "braam_trade_id": "LTCUSDT_20261118_CB_002",
+      "coin": "LTCUSDT",
+      "direction": "Short",
+      "leverage": 3,
+      "entry_price": 44.95,
+      "entry_size": 1.57,
+      "exit_size": 0,
+      "opened_at": "2026-11-27T23:43:12Z",
+      "closed_at": null,
+      "close_price": null,
+      "margin_usd": 23.523833,
+      "status": "OPEN",
+      "close_reason": null,
+      "close_fills": null,
+      "pnl_gross_usd": null,
+      "pnl_usd": null,
+      "tag": null,
+      "fees_usd": 0.0141,
+      "funding_usd": null,
+      "fill_ids": [
+        "140602af-8b2f-4b5f-9035-a690dfd750b5"
+      ],
+      "unrealized_pnl": -0.2498488276204946,
+      "fee_asset": [
+        "usd"
+      ]
     }
   },
   "orders": {
@@ -12958,6 +12987,20 @@
       "realized_pnl": -2.89275,
       "realized_funding": -0.00068413017,
       "sequence_id": "1552471"
+    },
+    "140602af-8b2f-4b5f-9035-a690dfd750b5": {
+      "fill_id": "140602af-8b2f-4b5f-9035-a690dfd750b5",
+      "symbol": "PF_LTCUSD",
+      "side": "sell",
+      "order_id": "a3443499-d6cd-40db-9b06-ff34dc70e6a4",
+      "cliOrdId": "LTCUSDT_20261118_CB_002",
+      "size": 1.57,
+      "price": 44.95,
+      "fillTime": "2026-11-27T23:43:12.199Z",
+      "fillType": "maker",
+      "realized_pnl": 0,
+      "realized_funding": 0,
+      "sequence_id": "11647867"
     }
   },
   "snapshots": [
@@ -32256,8 +32299,16 @@
       "unrealized": 8.534572605933217,
       "realized": -48.3903,
       "total": -39.8557
+    },
+    {
+      "ts": "2026-11-27T23:50:50Z",
+      "equity": 477.43948621951984,
+      "available": 356.1721619909402,
+      "unrealized": 7.161321955839343,
+      "realized": -48.3903,
+      "total": -41.229
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-27T23:17:55Z"
+  "updated": "2026-11-27T23:50:50Z"
 }
