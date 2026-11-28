@@ -4165,7 +4165,7 @@
       "fill_ids": [
         "fe88bd01-7b62-40dc-9a48-27c9e9cfdb55"
       ],
-      "unrealized_pnl": 4.228265136262858,
+      "unrealized_pnl": 4.122182572713347,
       "fee_asset": [
         "usd"
       ],
@@ -4293,7 +4293,7 @@
       "fill_ids": [
         "12967d7b-804f-4620-8e85-ca666acd1209"
       ],
-      "unrealized_pnl": 1.3952734157999982,
+      "unrealized_pnl": 1.3196203386300007,
       "fee_asset": [
         "usd"
       ],
@@ -4354,7 +4354,7 @@
       "fill_ids": [
         "11eec1d1-5336-4044-8d16-0c57ddd9d153"
       ],
-      "unrealized_pnl": -1.0417096268600015,
+      "unrealized_pnl": -1.383515143430005,
       "fee_asset": [
         "usd"
       ],
@@ -4478,7 +4478,7 @@
         "574d0af1-1b74-43ce-b9f3-544a0540679f",
         "f3178ad0-3632-4c30-b98f-cdcb0645f477"
       ],
-      "unrealized_pnl": 4.149036849419998,
+      "unrealized_pnl": 4.147384427279999,
       "fee_asset": [
         "usd"
       ],
@@ -4569,7 +4569,7 @@
       "fill_ids": [
         "e562ff19-c89a-4cc1-abf2-f61f7cb6b6c5"
       ],
-      "unrealized_pnl": -0.37857133895000694,
+      "unrealized_pnl": -0.4939106067300081,
       "fee_asset": [
         "usd"
       ],
@@ -4599,7 +4599,7 @@
       "fill_ids": [
         "7a7f6bb3-95ce-4468-92c1-a07d78da1a28"
       ],
-      "unrealized_pnl": -0.939941074420013,
+      "unrealized_pnl": -1.2010818398800134,
       "fee_asset": [
         "usd"
       ],
@@ -4691,10 +4691,11 @@
       "fill_ids": [
         "140602af-8b2f-4b5f-9035-a690dfd750b5"
       ],
-      "unrealized_pnl": -0.2498488276204946,
+      "unrealized_pnl": -0.12409218010119752,
       "fee_asset": [
         "usd"
-      ]
+      ],
+      "pnl_basis": null
     }
   },
   "orders": {
@@ -8008,6 +8009,24 @@
       "entry_price": 1.3535,
       "resting_at": "2026-11-27T20:07:50Z",
       "braam_trade_id": "RENDERUSDT_20261127_CJ_001",
+      "status": "RESTING"
+    },
+    "a3544bf7-6480-4050-8048-8d1fa5fb7b25": {
+      "order_id": "a3544bf7-6480-4050-8048-8d1fa5fb7b25",
+      "coin": "RENDERUSDT",
+      "direction": "Long",
+      "entry_price": 1.3262,
+      "resting_at": "2026-11-28T00:07:50Z",
+      "braam_trade_id": "RENDERUSDT_20261127_CJ_001",
+      "status": "RESTING"
+    },
+    "a3544bee-fed0-403c-a091-09c3b0dd90f7": {
+      "order_id": "a3544bee-fed0-403c-a091-09c3b0dd90f7",
+      "coin": "ALGOUSDT",
+      "direction": "Short",
+      "entry_price": 0.0884,
+      "resting_at": "2026-11-28T00:07:45Z",
+      "braam_trade_id": "ALGOUSDT_20261124_CJ_001",
       "status": "RESTING"
     }
   },
@@ -32307,8 +32326,16 @@
       "unrealized": 7.161321955839343,
       "realized": -48.3903,
       "total": -41.229
+    },
+    {
+      "ts": "2026-11-28T00:08:10Z",
+      "equity": 476.66037838920136,
+      "available": 355.49187176945793,
+      "unrealized": 6.3856263352035025,
+      "realized": -48.3903,
+      "total": -42.0047
     }
   ],
   "venue": "kraken_futures",
-  "updated": "2026-11-27T23:50:50Z"
+  "updated": "2026-11-28T00:08:10Z"
 }
